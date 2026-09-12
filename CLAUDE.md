@@ -36,7 +36,7 @@ produces a single-file version.
   6 spice cards, 12 recap questions per language, 4 recipes. The other thirteen have polygons, sheet
   summaries, landmarks and reading titles, and say "reading coming soon".
 - The name is the owner's call and is not final. It is one constant away: `course.json` `title` and `slug`,
-  the `<title>`, the masthead `<h1>` and the intro `<h2>`. See §11.
+  the `<title>`, the masthead `<h1>` and the intro `<h2>`. See §13.
 - Not yet published anywhere. `gh` is not installed on this machine, so the GitHub repo has to be created by
   hand; §10 has the exact steps.
 
@@ -257,7 +257,40 @@ and inlining one region's Opus narration would cost about 4.5 MB.
 - The page is served without a doctype. In quirks mode tables reset `color` and `font`; the `.tasting table`
   rule sets them explicitly. Keep that.
 
-## 12. The name
+## 12. Adding a region: the exact recipe used for Kerala
+
+1. **Text, English.** `content/<stem>.js`, copied from `content/kerala.js`. Keep the structure: a
+   `credits` object, four lessons, each with `title, kicker, minutes, hero, heroCaption, summary, html`.
+   The `html` is a template literal with `<p class="lead">`, `<h2>` sections,
+   `<figure data-img="key"><figcaption>…</figcaption></figure>` (no `<img>`; the app resolves the key to
+   `assets/<stem>/key.jpg`), one `<aside class="facts"><h4>Key facts</h4><ul>` per reading, optionally one
+   `<aside class="tasting"><h4>In the pantry: …</h4><table><tr><th>Aroma</th><td>…`, and a closing
+   `<div class="recap"><h4>Before you move on</h4><ul>` with three bullets. Titles come from `COURSE.lessons`,
+   which already has all fourteen regions. 800–1200 words each. **Never use the class name `glass`** inside
+   reading HTML; it collides with the UI panel class. Read §6 before writing a sentence.
+2. **Text, Norwegian.** `content/<stem>.no.js`: `window.READINGS_NO['IN-XXX'] = {credits: window.READINGS['IN-XXX'].credits, lessons:[…]}`.
+   Same structure, same image keys, same number of `<h2>`s. Kickers «Krydder · Lesetekst 1 av 4», «Bordet ·»,
+   «Retter ·», «Historie ·»; headings «Nøkkelfakta», «I skapet: …», «Før du går videre». Write it from the
+   facts, not from the English sentence (§6).
+3. **Photos.** `python tools/commons.py search "<term>" 8` and, when free-text returns nothing, which is
+   often, `python tools/commons.py cat "Category:Name" 20`. Accept only CC0, CC BY, CC BY-SA or public
+   domain. Download with `commons.py get "File:…" <key>` into `_photos/photos/`, **build a contact sheet and
+   look at every one**, then resize the keepers into `assets/<stem>/` at 820 px, quality 60, progressive, and
+   write `credits.json`. Paste the same object into the content file's `credits`. 12–16 photos; the hero of
+   each reading should be strong.
+4. **Wire it.** `python tools/wire.py`. That is the whole step; there is no HTML to edit.
+5. **Spice cards.** Six per region, matching `COURSE.spices` names character for character, both languages,
+   and the Norwegian ones need a sourcing note. `python tools/spicecheck.py`.
+6. **Quiz.** Twelve questions per language, `docs/quiz-format.md`, `python tools/quizcheck.py`.
+7. **Recipes.** `docs/recipe-format.md`, `python tools/recipecheck.py`. Long form (§8).
+8. **Narrate.** `PYTHONIOENCODING=utf-8 python tools/narrate.py <stem> --intro title --drop facts,recap`
+   (about two minutes a file; run it in the background), then `python tools/normalise.py <stem>` and
+   `python tools/opus.py <stem> 12`. Regenerate one file with `--only no-3`.
+9. **Build and test.** `python build.py`, then §9, then `python tools/make_site.py`.
+10. **Ship the audio.** `python tools/audio_pack.py` and upload to the `audio` release (§5).
+11. **Docs.** Update README (regions done) and PLAN §1.
+
+## 13. The name
 
 **Undecided; the owner's call.** "Masala Dabba" is the spice box, which matches the spine of the course the
 way "Italia in Tavola" matched Italy at the table. Changing it touches five places and then the repo name:

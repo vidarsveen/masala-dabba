@@ -47,7 +47,7 @@ try:
     print("player on:", js("document.querySelector('.rplayer').classList.contains('on')"), "| meta:", js("document.querySelector('.rplayer .meta').textContent"), "| time:", js("document.querySelector('.rplayer .time').textContent"), "| pp:", js("document.querySelector('.rplayer .pp').textContent"))
     shot("player.png")
     r = js("(function(){const b=document.querySelector('.rplayer .fwd15'); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")
-    tap(*r); time.sleep(1.5); print("after +15:", js("document.querySelector('.rplayer .time').textContent"), "| saved pos:", js("Object.keys(localStorage).filter(k=>k.startsWith('iit-audio')).map(k=>k+'='+localStorage.getItem(k)).join(',')"))
+    tap(*r); time.sleep(1.5); print("after +15:", js("document.querySelector('.rplayer .time').textContent"), "| saved pos:", js("Object.keys(localStorage).filter(k=>k.startsWith('mdb-audio')).map(k=>k+'='+localStorage.getItem(k)).join(',')"))
     r = js("(function(){const b=document.querySelector('.rplayer .pp'); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")
     tap(*r); time.sleep(1); print("after pause pp:", js("document.querySelector('.rplayer .pp').textContent"))
 finally:

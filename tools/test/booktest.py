@@ -85,16 +85,16 @@ try:
     js("document.querySelector('#book .prev').click()"); time.sleep(3)
     ok("previous chapter", js("document.querySelector('#book .ch.is-on .n').textContent") == "10")
 
-    saved = js("localStorage.getItem('iit-book:no')")
+    saved = js("localStorage.getItem('mdb-book:no')")
     ok("position is saved for resuming", saved and '"i":9' in saved, saved)
     shot("book.png")
 
     # leaving pauses, and does not touch course progress
-    before = js("localStorage.getItem('iit-progress')")
+    before = js("localStorage.getItem('masala-dabba-progress')")
     js("location.hash='#/'"); time.sleep(2)
     ok("leaving closes the page", not js("document.getElementById('book').classList.contains('open')"))
     ok("leaving pauses the audio", js("!document.querySelector('audio') || document.querySelector('audio').paused"))
-    ok("course progress untouched by listening", js("localStorage.getItem('iit-progress')") == before)
+    ok("course progress untouched by listening", js("localStorage.getItem('masala-dabba-progress')") == before)
 
     # resume
     js("location.hash='#/audiobook'"); time.sleep(4)

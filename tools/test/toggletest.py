@@ -45,8 +45,8 @@ try:
     print("EN sheet h3:", js("document.querySelector('#sheet h3[data-t=lessons]').textContent"), "| lesson 1:", js("document.querySelector('#sheet ol.lessons li .t').textContent"))
     r = js("(function(){const b=document.querySelector('#lang button[data-lang=no]'); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")
     tap(*r); time.sleep(1.5)
-    print("after NO tap -> h3:", js("document.querySelector('#sheet h3[data-t=lessons]').textContent"), "| lesson 1:", js("document.querySelector('#sheet ol.lessons li .t').textContent"), "| area:", js("document.querySelector('#sheet .eyebrow .area').textContent"), "| cap:", js("document.querySelector('#sheet .cap').textContent"), "| next btn:", js("document.getElementById('nextBtn').textContent"), "| stored:", js("localStorage.getItem('iit-lang')"))
-    print("wine types:", js("[...document.querySelectorAll('#sheet ul.wines small')].map(e=>e.textContent).join(',')"))
+    print("after NO tap -> h3:", js("document.querySelector('#sheet h3[data-t=lessons]').textContent"), "| lesson 1:", js("document.querySelector('#sheet ol.lessons li .t').textContent"), "| area:", js("document.querySelector('#sheet .eyebrow .area').textContent"), "| cap:", js("document.querySelector('#sheet .cap').textContent"), "| next btn:", js("document.getElementById('nextBtn').textContent"), "| stored:", js("localStorage.getItem('mdb-lang')"))
+    print("spice kinds:", js("[...document.querySelectorAll('#sheet ul.spices small')].map(e=>e.textContent).join(',')"))
     shot("toggle_no.png")
 finally:
     proc.kill()

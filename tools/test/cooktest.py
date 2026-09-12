@@ -45,7 +45,7 @@ try:
     send("Emulation.setEmitTouchEventsForMouse", enabled=True, configuration="mobile")
     send("Page.enable"); send("Runtime.enable")
     send("Page.navigate", url=URL); time.sleep(6)
-    js("localStorage.removeItem('iit-servings'); localStorage.removeItem('iit-lang')")
+    js("localStorage.removeItem('mdb-servings'); localStorage.removeItem('mdb-lang')")
     send("Page.navigate", url=URL); time.sleep(6)          # start from a cook who has never set a portion count
     print("loaded:", js("document.title"))
 
@@ -58,8 +58,8 @@ try:
     print("   recipes in the index:", n)
 
     # 2. a card opens the recipe
-    tap(*at("#cook a.rcard[href$='carbonara']")); time.sleep(1)
-    check("hash after card", js("location.hash"), "#/recipes/carbonara")
+    tap(*at("#cook a.rcard[href$='avial']")); time.sleep(1)
+    check("hash after card", js("location.hash"), "#/recipes/avial")
     check("servings shown", js("document.querySelector('#cook .serves output').textContent"), "4")
     before = js("[...document.querySelectorAll('#cook .ings td.q')].map(e=>e.textContent).join(' | ')")
     print("   4 servings:", before)
@@ -71,16 +71,18 @@ try:
     after = js("[...document.querySelectorAll('#cook .ings td.q')].map(e=>e.textContent).join(' | ')")
     print("   6 servings:", after)
     check("quantities changed", after != before, True)
-    check("pasta scaled 400 -> 600", after.startswith("600 g"), True)
-    check("pepper still unscaled", " g" not in after.split("|")[5], True)
-    check("servings remembered", js("localStorage.getItem('iit-servings')"), "6")
+    check("vegetables scaled 700 g -> 1.1 kg", after.startswith("1.1 kg"), True)
+    # the water in avial is scale:'sub': 150 ml for four becomes 200 for six, not 225
+    check("water sub-scaled, not linear", after.split("|")[3].strip(), "200 ml")
+    check("salt to taste still has no quantity", after.split("|")[4].strip(), "")
+    check("servings remembered", js("localStorage.getItem('mdb-servings')"), "6")
 
     # 4. language switch re-renders the open recipe
-    js("location.hash='#/recipes/carbonara'"); time.sleep(0.6)
+    js("location.hash='#/recipes/avial'"); time.sleep(0.6)
     js("document.querySelector('#lang button[data-lang=no]').click()"); time.sleep(1)
     check("norwegian ingredients heading", js("document.querySelector('#cook .ings h2').textContent"), "Ingredienser")
-    check("norwegian ingredient", js("document.querySelector('#cook .ings td+td').textContent"), "spaghetti")
-    check("norwegian decimals", js("[...document.querySelectorAll('#cook .ings td.q')].map(e=>e.textContent).join('|')"), "600 g")
+    check("norwegian ingredient", js("document.querySelector('#cook .ings td+td').textContent").startswith("blandede grønnsaker"), True)
+    check("norwegian decimals use a comma", js("[...document.querySelectorAll('#cook .ings td.q')].map(e=>e.textContent).join('|')").startswith("1,1 kg"), True)
     js("document.querySelector('#lang button[data-lang=en]').click()"); time.sleep(1)
 
     # 5. back to the index, then out to the map
@@ -96,12 +98,12 @@ try:
     check("every Kerala dish with a recipe is linked",
           js("document.querySelectorAll('#sheet .dishes a').length") == want, True)
     print("   linked chips on the Kerala sheet:", want)
-    tap(*at("#sheet .dishes a[href$='gricia']")); time.sleep(1)
-    check("chip opened the recipe", js("location.hash"), "#/recipes/gricia")
+    tap(*at("#sheet .dishes a[href$='meen-curry']")); time.sleep(1)
+    check("chip opened the recipe", js("location.hash"), "#/recipes/meen-curry")
 
     # 7. the food reading links to the recipes
     js("location.hash='#/IN-KER/3'"); time.sleep(1.5)
-    check("cook-it block in the reading", js("document.querySelectorAll('#reader .cookit a').length"), 4)
+    check("cook-it block in the reading", js("document.querySelectorAll('#reader .cookit a').length"), 3)
     check("reading still has its quiz", js("document.querySelectorAll('#reader .quiz').length"), 1)
 finally:
     proc.terminate()

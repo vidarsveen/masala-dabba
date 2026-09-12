@@ -56,7 +56,7 @@ try:
     check("first visit shows the intro", open_())
     check("the map chrome is hidden behind it", js("document.documentElement.classList.contains('intro-on')"))
     shown = js("[...document.querySelectorAll('#intro .nums u')].map(e=>+e.textContent)")
-    counted = js("(n => [n.regions, n.readings, n.recipes, n.wines])(window.__dbg.introNums)")
+    counted = js("(n => [n.regions, n.readings, n.recipes, n.spices])(window.__dbg.introNums)")
     check("what is shown is what was counted", shown, counted)
     check("readings counted from READINGS",
           counted[1], js("Object.values(window.READINGS).reduce((a,b)=>a+b.lessons.length,0)"))
@@ -75,7 +75,7 @@ try:
     tap("#intro .go"); time.sleep(0.8)
     check("dismissed", open_(), False)
     check("the map chrome is back", js("document.documentElement.classList.contains('intro-on')"), False)
-    check("remembered", js("localStorage.getItem('iit-seen')"), "1")
+    check("remembered", js("localStorage.getItem('mdb-seen')"), "1")
     send("Page.navigate", url=BASE); time.sleep(8)
     check("a second visit goes straight to the map", open_(), False)
 
