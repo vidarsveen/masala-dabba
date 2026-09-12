@@ -2,6 +2,40 @@
 
 `CLAUDE.md` is the operating manual. This file is what is decided, what is open, and what happens next.
 
+## 0. Start here (written for a fresh session, 2026-09-12)
+
+**Live: https://vidarsveen.github.io/masala-dabba/ — `git push` deploys it.** Repo
+`github.com/vidarsveen/masala-dabba`, branch `main`, working tree clean and pushed.
+
+**Four of fourteen regions are written**, end to end and narrated in both languages: Kerala (`IN-KER`),
+Punjab & Delhi (`IN-PUN`), Bengal & the east (`IN-BEN`), Rajasthan (`IN-RAJ`). The other ten have
+polygons, sheet summaries, landmarks and reading titles, and show "reading coming soon".
+
+**The next job is the remaining ten regions, three at a time.** The recipe is `CLAUDE.md` §12 and it has
+been run four times. What works:
+
+1. Spawn one agent per region, in parallel, each writing `content/<stem>.js` and `.no.js`,
+   `content/spice/<stem>.js(.no)`, `content/quiz/<stem>.js(.no)`, `content/recipes/<stem>.js` and
+   `assets/<stem>/`. Tell each one **not** to touch `masala-dabba.html`, `course.json`,
+   `content/course.no.js` or another region, and **not** to run narration or commit.
+   Everything else is per region, so they do not collide.
+2. Then spawn a **separate Norwegian reviewer** over the new regions. Do not skip this and do not
+   let the writers self-review: the writers had the rules in their brief and a fresh pass still found
+   about a hundred faults per region, including real errors (a factual contradiction about panch
+   phoron, "the back of the hand" for "the flat of the hand").
+3. Then `python tools/stale.py`, re-record what it names, `tools/normalise.py`, `tools/opus.py`,
+   `tools/wire.py`, `build.py`, `tools/make_site.py`, `git push`.
+4. `python tools/audio_pack.py` and replace the `audio.tar.gz` asset on the release tagged `audio`.
+
+**Suggested next three**, chosen to stay maximally unlike each other: Goa & the Konkan (`IN-KON`),
+Tamil Nadu (`IN-TAM`), The North-East (`IN-NEA`). Goa is the most load-bearing history reading in the
+course — the chilli arrives in India there — and reading 1 must say that vindaloo is a *vinegar* dish
+from *carne de vinha d'alhos*, not simply a hot one. Its reading 4 must not contradict Kerala's, which
+already tells the 1498 half of the story.
+
+**The one design question is closed**: the owner read Kerala's reading 1 and confirmed the
+spice-pantry chapter earns its place, so the four-reading rhythm is settled for all fourteen.
+
 ## 1. Status, 2026-09-12
 
 The repo exists, the engine is ported, the map is built, and **four regions are written end to end**:
