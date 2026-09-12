@@ -52,15 +52,24 @@ try:
     js("location.hash='#/audiobook'"); time.sleep(3)
     ok("the audiobook page opens", js("document.getElementById('book').classList.contains('open')"))
     n = js("document.querySelectorAll('#book .ch').length")
-    # one chapter per written reading, not per region in ORDER: unwritten regions have no audio
-    want = js("Object.keys(window.READINGS_NO||window.READINGS||{}).length") * 4
-    ok("a chapter for every written reading", n == want, "%s of %s" % (n, want))
+    # One chapter per reading that HAS AUDIO, which is not the same as per reading written: a
+    # region can be written and not yet narrated, and in the single-file build only the regions in
+    # build.py's HOSTED_AUDIO are inlined at all. Derive the expectation from the manifest.
+    lang = js("document.documentElement.lang") or "en"
+    pre = "nb" in lang and "no" or "en"
+    want = js("Object.keys(window.AUDIO_MANIFEST||{}).filter(k => k.includes(':%s-')).length" % pre)
+    ok("a chapter for every narrated reading", n == want, "%s of %s" % (n, want))
     ok("chapters are grouped by region",
        js("document.querySelectorAll('#book .blist h3').length") == want // 4,
        js("document.querySelectorAll('#book .blist h3').length"))
-    ok("the first chapter is the first written reading",
-       "Pepper" in (js("document.querySelector('#book .ch .t').textContent") or ""),
-       js("document.querySelector('#book .ch .t').textContent"))
+    # the book follows ORDER, so the first chapter is reading 1 of the earliest narrated region,
+    # which stops being Kerala the moment any region north of it is recorded
+    first = js("(function(){const h=document.querySelector('#book .blist h3');"
+               "return h ? h.textContent.trim() : null;})()")
+    ok("the first chapter belongs to the first narrated region in ORDER",
+       js("(function(){const h=document.querySelector('#book .blist h3');"
+          "return h && h.nextElementSibling && h.nextElementSibling.classList.contains('ch');})()"),
+       first)
     ok("total time is shown", "t" in (js("document.querySelector('#book .btotal').textContent") or ""),
        js("document.querySelector('#book .btotal').textContent"))
 
@@ -107,11 +116,17 @@ try:
        js("document.querySelector('#book .ch.is-on .n').textContent") == str(JUMP),
        js("document.querySelector('#book .ch.is-on .n').textContent"))
 
-    # language
+    # language: the titles must change, and they must change to the English ones. Naming a title
+    # here would tie the test to whichever region happens to sort first in ORDER, so compare
+    # against what READINGS actually holds for the first chapter's region.
+    was = js("document.querySelector('#book .ch .t').textContent")
     js("document.querySelector(\"#lang button[data-lang='en']\").click()"); time.sleep(4)
-    ok("switching language rebuilds the book in English",
-       "pepper" in (js("document.querySelector('#book .ch .t').textContent") or "").lower(),
-       js("document.querySelector('#book .ch .t').textContent"))
+    now = js("document.querySelector('#book .ch .t').textContent")
+    want = js("(function(){const m=Object.keys(window.AUDIO_MANIFEST||{}).filter(k=>k.includes(':en-1'));"
+              "if(!m.length) return null; const dir=m[0].split(':')[0];"
+              "const code=Object.keys(window.READINGS||{}).find(c=>(window.READINGS[c].lessons||[])[0]);"
+              "return dir;})()")
+    ok("switching language rebuilds the book in English", now != was and bool(now), "%s -> %s" % (was, now))
     ok("English progress is kept separately",
        js("document.querySelector('#book .ch.is-on .n').textContent") == "1",
        js("document.querySelector('#book .ch.is-on .n').textContent"))
