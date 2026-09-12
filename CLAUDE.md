@@ -253,6 +253,12 @@ afterwards, and check nothing else already holds the port). Chrome:
 5. Narration: build `dist/audio.tar.gz` with `tools/audio_pack.py`, create a release tagged `audio`, upload
    it (§5).
 
+**The preview's audio budget is two regions.** Four regions of photographs plus two of inlined Opus
+narration comes to 14.2 MB of the 16 MB ceiling, because base64 inflates the audio by a third: one region
+costs about 4.4 MB inlined against about 0.8 MB for its photographs. `HOSTED_AUDIO` in `build.py` is
+therefore `['kerala', 'punjab']`, and a third would breach. `build.py` exits non-zero if it does, so this
+cannot break silently. The live site has no limit and carries all of it.
+
 There is a hosted preview for reviewing on a phone, at
 https://claude.ai/code/artifact/ac85f37d-1cb1-409c-9cb7-ecb3b46ca44c — republish with the Artifact tool
 passing that `url` and the file `dist/masala-dabba.html`. **Never publish without `url`**; that creates a
