@@ -91,16 +91,16 @@ try:
     check("map drawing again", js("document.getElementById('cook').classList.contains('open')"), False)
 
     # 6. a dish chip on the region sheet opens its recipe
-    js("location.hash='#/IT-62'"); time.sleep(1.5)
-    want = js("(window.RECIPES['IT-62']||[]).filter(r => r.dish).length")
-    check("every Lazio dish with a recipe is linked",
+    js("location.hash='#/IN-KER'"); time.sleep(1.5)
+    want = js("(window.RECIPES['IN-KER']||[]).filter(r => r.dish).length")
+    check("every Kerala dish with a recipe is linked",
           js("document.querySelectorAll('#sheet .dishes a').length") == want, True)
-    print("   linked chips on the Lazio sheet:", want)
+    print("   linked chips on the Kerala sheet:", want)
     tap(*at("#sheet .dishes a[href$='gricia']")); time.sleep(1)
     check("chip opened the recipe", js("location.hash"), "#/recipes/gricia")
 
     # 7. the food reading links to the recipes
-    js("location.hash='#/IT-62/3'"); time.sleep(1.5)
+    js("location.hash='#/IN-KER/3'"); time.sleep(1.5)
     check("cook-it block in the reading", js("document.querySelectorAll('#reader .cookit a').length"), 4)
     check("reading still has its quiz", js("document.querySelectorAll('#reader .quiz').length"), 1)
 finally:

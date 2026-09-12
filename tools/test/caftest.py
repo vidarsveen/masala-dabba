@@ -10,7 +10,7 @@ while i < len(ref):
     if typ != b'info': out += ref[i:i+12+size]
     i += 12 + size
 ref_hash = hashlib.sha256(out).hexdigest(); print('reference (no info chunk):', len(out), 'bytes', ref_hash[:16])
-ogg_b64 = base64.b64encode(open(ROOT + '/assets/audio/lazio/en-2.ogg', 'rb').read()).decode()
+ogg_b64 = base64.b64encode(open(ROOT + '/assets/audio/kerala/en-2.ogg', 'rb').read()).decode()
 PORT = 9334; CH = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 proc = subprocess.Popen([CH, "--headless=new", "--no-sandbox", f"--remote-debugging-port={PORT}", f"--user-data-dir={S}\\prof_caf", "about:blank"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 try:

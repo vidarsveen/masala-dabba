@@ -1,0 +1,10 @@
+{
+ "en-1": {
+  "seconds": 356.9,
+  "voice": "en-GB-SoniaNeural",
+  "bytes": 2141568,
+  "lo_bytes": 714248,
+  "intro": "title",
+  "drop": "facts,recap"
+ }
+}

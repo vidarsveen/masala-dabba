@@ -1,4 +1,4 @@
-"""Drive headless Chrome as a phone via CDP: open the map, tap Lazio's chip, tap lesson 3, report what happened."""
+"""Drive headless Chrome as a phone via CDP: open the map, tap the first written region's chip, tap lesson 3, report what happened."""
 import json, subprocess, time, base64, sys, urllib.request, os
 import websocket
 
@@ -41,8 +41,8 @@ try:
     time.sleep(6)
     print("loaded:", js("document.title"), "| loading gone:", js("document.getElementById('loading').classList.contains('gone')"))
     # tap the label centre: a downward offset falls into the sea for Sicilia
-    for code in ['IT-52','IT-82','IT-88','IT-34']:
-        r = js("(function(){const e=[...document.querySelectorAll('#labels .lbl')].find(e=>e.textContent==='%s'); if(!e) return null; const k=e.getBoundingClientRect(); return [k.left+k.width/2, k.top+k.height/2];})()" % {'IT-52':'Toscana','IT-82':'Sicilia','IT-88':'Sardegna','IT-34':'Veneto'}[code])
+    for code in ['IN-RAJ','IN-BEN','IN-TAM','IN-GUJ']:
+        r = js("(function(){const e=[...document.querySelectorAll('#labels .lbl')].find(e=>e.textContent==='%s'); if(!e) return null; const k=e.getBoundingClientRect(); return [k.left+k.width/2, k.top+k.height/2];})()" % {'IN-RAJ':'Rajasthan','IN-BEN':'Bengal & the east','IN-TAM':'Tamil Nadu','IN-GUJ':'Gujarat'}[code])
         tap(*r); time.sleep(1.8)
         print(code, "tap at", [round(v) for v in r], "-> hash:", js("location.hash"), "| sheet title:", js("document.querySelector('#sheet h2').textContent"))
         r2 = js("(function(){const b=document.querySelector('#sheet .close'); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")

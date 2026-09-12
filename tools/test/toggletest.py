@@ -1,4 +1,4 @@
-"""Drive headless Chrome as a phone via CDP: open the map, tap Lazio's chip, tap lesson 3, report what happened."""
+"""Drive headless Chrome as a phone via CDP: open the map, tap the first written region's chip, tap lesson 3, report what happened."""
 import json, subprocess, time, base64, sys, urllib.request, os
 import websocket
 
@@ -40,7 +40,7 @@ try:
     send("Page.navigate", url=URL)
     time.sleep(6)
     print("loaded:", js("document.title"), "| loading gone:", js("document.getElementById('loading').classList.contains('gone')"))
-    r = js("(function(){const b=document.querySelector('#rail button[data-code=\"IT-62\"]'); b.scrollIntoView({inline:'center'}); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")
+    r = js("(function(){const b=document.querySelector('#rail button[data-code=\"IN-KER\"]'); b.scrollIntoView({inline:'center'}); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")
     tap(*r); time.sleep(2)
     print("EN sheet h3:", js("document.querySelector('#sheet h3[data-t=lessons]').textContent"), "| lesson 1:", js("document.querySelector('#sheet ol.lessons li .t').textContent"))
     r = js("(function(){const b=document.querySelector('#lang button[data-lang=no]'); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")

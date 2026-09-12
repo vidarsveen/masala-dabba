@@ -1,4 +1,4 @@
-"""Drive headless Chrome as a phone via CDP: open the map, tap Lazio's chip, tap lesson 3, report what happened."""
+"""Drive headless Chrome as a phone via CDP: open the map, tap the first written region's chip, tap lesson 3, report what happened."""
 import json, subprocess, time, base64, sys, urllib.request, os
 import websocket
 
@@ -40,9 +40,9 @@ try:
     send("Page.navigate", url=URL)
     time.sleep(6)
     print("loaded:", js("document.title"), "| loading gone:", js("document.getElementById('loading').classList.contains('gone')"))
-    # 1. tap the Lazio chip in the strip
-    r = js("(function(){const b=document.querySelector('#rail button[data-code=\"IT-62\"]'); b.scrollIntoView({inline:'center'}); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")
-    print("lazio chip at", r); tap(*r); time.sleep(2.5)
+    # 1. tap the region chip in the strip
+    r = js("(function(){const b=document.querySelector('#rail button[data-code=\"IN-KER\"]'); b.scrollIntoView({inline:'center'}); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")
+    print("region chip at", r); tap(*r); time.sleep(2.5)
     print("hash:", js("location.hash"), "| sheet:", js("document.getElementById('sheet').className"))
     shot("touch_1_sheet.png")
     def lesson(i):

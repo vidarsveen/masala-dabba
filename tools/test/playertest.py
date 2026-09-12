@@ -1,4 +1,4 @@
-"""Drive headless Chrome as a phone via CDP: open the map, tap Lazio's chip, tap lesson 3, report what happened."""
+"""Drive headless Chrome as a phone via CDP: open the map, tap the first written region's chip, tap lesson 3, report what happened."""
 import json, subprocess, time, base64, sys, urllib.request, os
 import websocket
 

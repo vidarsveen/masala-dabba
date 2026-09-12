@@ -1,3 +1,6 @@
+// SNAPSHOT, NOT SOURCE. This is the COURSE object as it was injected by tools/_port.py.
+// masala-dabba.html is the source of truth and has diverged since. Kept only as the record
+// of the port; editing this file changes nothing.
 // ============================================================ COURSE SUMMARIES (one entry per region)
 // Fourteen culinary regions, each a union of whole states (course.json says which). The four
 // lesson titles per region follow one rhythm, which the kickers and every content format encode:

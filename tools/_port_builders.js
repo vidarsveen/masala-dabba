@@ -1,3 +1,6 @@
+// SNAPSHOT, NOT SOURCE. These are the landmark builders as they were injected by tools/_port.py.
+// masala-dabba.html is the source of truth and has diverged since (the Chinese fishing nets were
+// rebuilt there). Kept only as the record of the port; editing this file changes nothing.
 // ============================================================ LANDMARK BUILDERS (local: +Y up, origin at ground)
 // Primitives only, one per region. Mountains and river valleys are in the terrain already, so a
 // builder never adds a fake peak; it adds the thing people would recognise from a photograph.
