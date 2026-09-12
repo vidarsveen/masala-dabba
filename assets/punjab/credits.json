@@ -1,0 +1,82 @@
+{
+    "ajwain": {
+        "artist": "Sanjay Acharya",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Carom.jpg"
+    },
+    "amchur": {
+        "artist": "Miansari66",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Dried_Mango_Slices.JPG"
+    },
+    "butter-chicken": {
+        "artist": "stu_spivack",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Chicken_makhani.jpg"
+    },
+    "dal-makhani": {
+        "artist": "Miansari66",
+        "license": "CC0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dal_Makhani..JPG"
+    },
+    "garam-masala": {
+        "artist": "Miansari66",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Garam_Masala.JPG"
+    },
+    "golden-temple": {
+        "artist": "Bernard Gagnon",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Golden_Temple,_Amritsar_01.jpg"
+    },
+    "kasuri-methi": {
+        "artist": "Thamizhpparithi Maari",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dried_leaves_of_Fenugreek-Kasuri_Methi.jpg"
+    },
+    "langar": {
+        "artist": "Harvinder Chandigarh",
+        "license": "CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Langar_,_participatory_community_kitchen_,_Golden_Temple_,Amritsar_01.jpg"
+    },
+    "lassi": {
+        "artist": "Kritzolina",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Gian_di_Lassi_in_Amritsar_05.jpg"
+    },
+    "makki-roti": {
+        "artist": "Vsigamany",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Makki_Di_Roti.JPG"
+    },
+    "mustard-field": {
+        "artist": "UnpetitproleX",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Mustard_field_near_Chandigarh.jpg"
+    },
+    "paneer": {
+        "artist": "Ian Brown",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Homemade_Paneer_Block_Fromage_Cheese_India.jpg"
+    },
+    "refugees": {
+        "artist": "Unknown author",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Refugees_en_route_to_India.jpg"
+    },
+    "saag-roti": {
+        "artist": "Ak250587",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Makka_di_roti_sarso_ka_saag_with_makkhan.jpg"
+    },
+    "tandoor": {
+        "artist": "Ravi Dwivedi",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Naan_Flatbread_inside_Tandoor_01.jpg"
+    },
+    "wheat-field": {
+        "artist": "Satpal Dandiwal",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Wheat_in_Punjab,_India.jpg"
+    }
+}

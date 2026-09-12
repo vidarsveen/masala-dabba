@@ -1,0 +1,83 @@
+/* Masala Dabba — recap questions, English. Contract: docs/quiz-format.md, checked by tools/quizcheck.py.
+   One array of four readings per region, three questions each. Questions are NEVER narrated:
+   narrate.py only ever sees a reading's html, so editing a question cannot make audio stale. */
+window.QUIZ = window.QUIZ || {};
+window.QUIZ['IN-PUN'] = [
+ [
+  {q:'Why does garam masala normally go into a dish at the end rather than the start?',
+   a:['It would make the gravy too thick if added early',
+      'It has to dissolve in dairy, which goes in last',
+      'Its aroma sits in volatile oils that long cooking drives off',
+      'It burns at a lower temperature than ground chilli'],
+   c:2, why:'The warmth of the blend is carried in volatile oils. A cook who fries garam masala hard for ten minutes has thrown most of it away.'},
+  {q:'Why does ajwain smell so strongly of thyme?',
+   a:['It is a variety of thyme grown in the Punjab plains',
+      'It carries thymol, the same compound that defines thyme',
+      'It is usually sold mixed with dried thyme',
+      'It is dried on thyme bushes in the sun'],
+   c:1, why:'The two plants are unrelated. They share thymol, which is why a European nose recognises ajwain at once.'},
+  {q:'What does amchur do that a squeeze of lemon cannot?',
+   a:['It sours a dish without adding any liquid to it',
+      'It sours a dish and sweetens it at the same time',
+      'It keeps its acidity through hours of cooking',
+      'It thickens a gravy as well as souring it'],
+   c:0, why:'Amchur is dry, so it suits stuffed parathas, dry potato dishes and chickpeas, where added liquid would be a nuisance.'}
+ ],
+ [
+  {q:'Why is bread rather than rice the staple of this region?',
+   a:['Rice was too expensive for most Punjabi households',
+      'Wheat is a dry-season crop and suits a cold, dry Punjabi winter',
+      'The British discouraged rice growing in Punjab',
+      'The soil is too shallow for a rice paddy'],
+   c:1, why:'Wheat is sown in October once the monsoon has gone and cut in April. Rice needs standing water and heat, which belong to the east and the south.'},
+  {q:'What did the short-stemmed wheats brought in during the 1960s change?',
+   a:['They ripened a month earlier, allowing two crops a year',
+      'They needed no irrigation at all',
+      'They resisted the pests that had ruined earlier harvests',
+      'They stayed upright under heavy fertiliser, so they could be fed hard'],
+   c:3, why:'A tall wheat given plenty of fertiliser grows heavy ears and falls over. The new varieties did not, and Punjab roughly doubled its harvests.'},
+  {q:'Churning a pot of curd with water in a Punjabi kitchen gives you which two things?',
+   a:['Ghee and khoya', 'Paneer and whey', 'Lassi and white butter', 'Dahi and cream'],
+   c:2, why:'The butter rises and becomes makhan, white and unsalted, and what is left underneath is lassi, thin and salted.'}
+ ],
+ [
+  {q:'Why does a handful of maize flour go into sarson da saag?',
+   a:['It thickens the greens and adds a sweetness that answers the mustard',
+      'It stops the greens from discolouring in the pot',
+      'It replaces the butter in a household that has none',
+      'It shortens the cooking from two hours to twenty minutes'],
+   c:0, why:'The maize both thickens and sweetens, and it is the same flour the makki di roti beside it is made from.'},
+  {q:'Where does the thick, creamy texture of dal makhani actually come from?',
+   a:['The tomato cooked down at the start',
+      'The butter stirred in at the end',
+      'Starch released by lentils held below a simmer for hours',
+      'Kidney beans pureed and stirred back in'],
+   c:2, why:'Six hours on a very low flame is what does it. No amount of cream added at the end will fake that texture.'},
+  {q:'Why is a tandoori marinade built on yoghurt rather than on a thin liquid?',
+   a:['Yoghurt keeps the meat cold for longer in a hot kitchen',
+      'The acid loosens the muscle and the thick curd clings to the meat',
+      'Yoghurt gives the dish its red colour',
+      'It is the only acid a landlocked region had'],
+   c:1, why:'A thin marinade runs off a skewered bird in a vertical oven. Thick curd stays where it is put, and its acid works on the muscle meanwhile.'}
+ ],
+ [
+  {q:'When was the Radcliffe boundary through Punjab published?',
+   a:['Six months before independence, to allow people to move',
+      'On the day of independence itself',
+      'In 1948, after the worst of the violence',
+      'On 17 August 1947, two days after independence'],
+   c:3, why:'The line had been drawn in about five weeks and appeared two days late, by which time people were already moving without knowing which side they would end up on.'},
+  {q:'What does the reading say about who invented butter chicken?',
+   a:['It was certainly created at Moti Mahal in Daryaganj',
+      'It came out of the Punjabi refugee kitchens of Delhi, but the exact claim is disputed',
+      'It was invented in Peshawar before Partition',
+      'It was a British restaurant invention of the 1960s'],
+   c:1, why:'The families involved have disagreed in public and the dispute reached a Delhi court in 2024, so the region and the decade are safe ground and the name is not.'},
+  {q:'Why is the food served in a langar always vegetarian?',
+   a:['Sikh teaching forbids the eating of meat',
+      'Vegetables were cheaper for a kitchen feeding thousands',
+      'So that a visitor of any religion can eat without having to ask',
+      'Because the kitchen has no way of keeping meat cold'],
+   c:2, why:'The reason is practical rather than doctrinal. A vegetarian meal is one that anybody who walks in can sit down to.'}
+ ]
+];
