@@ -56,6 +56,19 @@ def inline_script(m):
 
 html = re.sub(r'<script src="((?:content|assets)/[\w./-]+\.js)"></script>', inline_script, html)
 
+# Three.js, inlined. The source page loads it from cdnjs and falls back to the local copy, which is
+# right for a page served from a folder. It is wrong for this build: a single file that needs a CDN
+# is not a single file, and the artifact sandbox blocks the request, so the page reported
+# "Could not load Three.js" and stopped. 600 KB of plain JS is a cheap price for never depending on
+# the network again.
+CDN = '<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>'
+FALLBACK = chr(10) + r'''<script>if(!window.THREE){document.write('<script src="three.min.js"><\/script>');}</script>'''
+if CDN not in html or FALLBACK not in html:
+    sys.exit('the Three.js script tags are not where build.py expects them')
+three = open(os.path.join(ROOT, 'three.min.js'), encoding='utf-8').read()
+html = html.replace(FALLBACK, '')
+html = html.replace(CDN, '<script>' + NL + three + NL + '</script>')
+
 
 def b64(path, mime, shrink=True):
     data = open(path, 'rb').read()

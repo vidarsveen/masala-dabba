@@ -265,6 +265,15 @@ carries all of it.
 - Photo captions must be updated in BOTH language files when a photo is swapped.
 - **Never match an image key with `\w+`.** Keys contain hyphens (`pepper-vines`, `matta-rice`). A
   hyphen-blind regex once deleted referenced photos from two regions of the Italian course.
+- **The single-file build inlines Three.js.** The source page loads it from cdnjs with a `document.write`
+  fallback to the local copy, which is right when the page is served from a folder and wrong for a single
+  file: the artifact sandbox blocked the CDN request, the fallback asked for a relative file that is not
+  there, and the page stopped at "Could not load Three.js". `build.py` now replaces both tags with the
+  600 KB of local `three.min.js`, so the dist file needs no network at all. Do not undo that to save bytes.
+- **The top bar is full at 390 px** once the audiobook button appears, which it does as soon as a region
+  has narration. `#lang` is `flex:none` so the language toggle is never the thing that gets clipped; the
+  progress pill drops its bar under 430 px and itself under 360. Anything new in `#top` has to earn its
+  place against that budget.
 - The page is served without a doctype. In quirks mode tables reset `color` and `font`; the `.tasting table`
   rule sets them explicitly. Keep that.
 
