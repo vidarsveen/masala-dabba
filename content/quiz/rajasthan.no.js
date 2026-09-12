@@ -7,7 +7,7 @@ window.QUIZ_NO['IN-RAJ'] = [
    a:['Vannet måtte bæres og ble talt, så det ble ikke brukt til matlaging',
       'Fettet holdt fluene unna mat som ble stående i varmen',
       'Mogulhoffene innførte steking, og det ble værende',
-      'Koking ble antatt å ødelegge krydderet'],
+      'Man trodde koking ødela krydderet'],
    c:0, why:'Offisielle tall gir Rajasthan omkring en tidel av Indias landareal og nær én prosent av overflatevannet, så ghee, yoghurt og kjernemelk overtok for gryta med vann.'},
   {q:'Hva skal Mathania-chilien først og fremst gjøre i laal maas?',
    a:['Svi, og så sterkt som mulig',
@@ -26,13 +26,13 @@ window.QUIZ_NO['IN-RAJ'] = [
   {q:'Hvorfor er bajra brødkornet i de vestlige distriktene?',
    a:['Den smaker bedre enn hvete når den stekes på glør',
       'Den modner på omtrent tre måneder og på svært lite regn',
-      'Den holder seg lenger enn hvete etter maling',
+      'Den holder seg lenger enn hvete etter at den er malt',
       'Den kom med handelsmenn og fortrengte den lokale hveten'],
    c:1, why:'Perlehirsen spirer noen dager etter det første regnet og setter frø i jord som er varm nok til å ta livet av en hveteplante. Ingen annen kornsort av betydning klarer det.'},
   {q:'Hva er en bati, og hvorfor druknes den i ghee ved bordet?',
    a:['Et stekt brød, og gheen er bare for smakens skyld',
       'En dampet bolle, og gheen hindrer at den tørker ut',
-      'En hirsepannekake, og gheen holder den fra pannen',
+      'En hirsepannekake, og gheen hindrer at den setter seg fast i pannen',
       'En hard, usyret kule bakt i glør, og gheen gjør den spiselig'],
    c:3, why:'Ingenting er tilsatt deigen for å heve den, så batien bakes tett, sprukken og tørr og holder seg i dagevis. Den smeltede gheen er det som retter opp tørrheten.'},
   {q:'Hva gjør mangodi, papad og badi på en hylle i Rajasthan?',
@@ -80,6 +80,6 @@ window.QUIZ_NO['IN-RAJ'] = [
       'Den fortsatte nesten uendret',
       'Den ble et hvetebasert kjøkken',
       'Kjøtt ble vanlig i marwariske hjem'],
-   c:1, why:'Det vokser nå hvete og sennep der bajra vokste eller ingenting gjorde det, men husholdninger med vann i springen steker fortsatt grønnsakene, syrner med yoghurt og har sangri i en sekk.'}
+   c:1, why:'Det vokser nå hvete og sennep på jord som bar bajra eller ingenting, men husholdninger med vann i springen steker fortsatt grønnsakene, syrner med yoghurt og har sangri i en sekk.'}
  ]
 ];

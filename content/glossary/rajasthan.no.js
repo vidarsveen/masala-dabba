@@ -6,7 +6,7 @@ Object.assign(window.GLOSSARY_NO, {
   'bati': {
     term: 'Bati',
     short: 'En hard, usyret hvetekule bakt i glør, knekt opp og dynket i ghee.',
-    long: 'Grovt hvetemel, salt og rikelig med ghee gnidd inn i melet, trillet til kuler og bakt hard i glørne fra et bål, gravd ned i varm sand eller stekt i stekeovn. Ingenting er tilsatt for å heve den, så den kommer ut tett, sprukken og tørr, og den holder seg i dagevis. Derfor var den reisemat. Den smeltede gheen som helles over ved bordet, er ingen pynt, men det som gjør den spiselig.',
+    long: 'Grovt hvetemel, salt og rikelig med ghee eltes til en stiv deig, som trilles til kuler. Kulene bakes harde i glørne fra et bål, graves ned i varm sand eller stekes i ovn. Ingenting er tilsatt for å heve dem, så de kommer ut tette, sprukne og tørre, og de holder seg i dagevis. Derfor var de reisemat. Den smeltede gheen som helles over ved bordet, er ingen pynt, men det som gjør dem spiselige.',
     match: ['bati', 'batien', 'batiene']
   },
   'churma': {
@@ -24,19 +24,19 @@ Object.assign(window.GLOSSARY_NO, {
   'besan': {
     term: 'Besan (kikertmel)',
     short: 'Mel malt av brune chana-erter. Det jevner, binder og blir i Rajasthan selve retten.',
-    long: 'Ikke det samme som mel av den lyse kabuli-kikerten: besan males av den mindre brune chana-erten, og det er finere, mørkere og suger opp mer væske. I et kjøkken med få grønnsaker gjør det uvanlig mye arbeid. Det er deigen i gatte, jevningen i kadhi, laget rundt en fritert chili, og skjeen som piskes inn i yoghurten for at sausen ikke skal skille seg.',
+    long: 'Det er ikke det samme som mel av den lyse kabuli-kikerten. Besan males av den mindre brune chana-erten, og melet er finere, mørkere og suger opp mer væske. I et kjøkken med få grønnsaker gjør det uvanlig mye arbeid. Det er deigen i gatte, jevningen i kadhi, laget rundt en fritert chili, og skjeen som piskes inn i yoghurten for at sausen ikke skal skille seg.',
     match: ['kikertmel', 'besan']
   },
   'chaas': {
     term: 'Chaas (kjernemelk)',
     short: 'Det som blir igjen når smøret er kjernet ut av yoghurten. Drikkes saltet, og brukes i maten.',
-    long: 'Tynn, syrlig og lett saltet, ofte med spisskummen eller karriblad i. I det vestlige India avslutter den nesten hvert sommermåltid, og den er også kokevæske: kadhi er ikke annet enn chaas jevnet med kikertmel og skjerpet med chili. Siden den holder seg lenger enn melk i varmen, er den like mye en måte å lagre buskapen på som en drikk.',
+    long: 'Den er tynn, syrlig og lett saltet, ofte med spisskummen eller karriblad i. I det vestlige India avslutter den nesten hvert sommermåltid, og den er også kokevæske: kadhi er ikke annet enn chaas jevnet med kikertmel og skjerpet med chili. Siden den holder seg lenger enn melk i varmen, er den like mye en måte å ta vare på melken på som en drikk.',
     match: ['chaas', 'kjernemelk']
   },
   'panchmel': {
     term: 'Panchmel dal',
     short: 'Fem belgfrukter kokt i én gryte: chana, moong, urad, toor og moth.',
-    long: 'Panchmel betyr fem blandet, og de kokes ikke sammen for syns skyld. Hver belgfrukt mykner i sitt eget tempo, så noen løser seg opp i selve dalen mens andre holder formen, og den ferdige gryta får en konsistens ingen enkelt belgfrukt gir. Dette er dalen som serveres under batiene i dal bati churma, og den siste av de fem, moth, er ørkenbelgfrukten som gir avling der nesten ingenting annet gjør.',
+    long: 'Panchmel betyr fem blandet, og de kokes ikke sammen for syns skyld. Hver belgfrukt mykner i sitt eget tempo, så noen løser seg opp i selve dalen mens andre holder formen, og den ferdige gryta får en konsistens ingen enkelt belgfrukt gir. Dette er dalen som serveres under batiene i dal bati churma, og den siste av de fem, moth, er belgveksten fra ørkenen som gir avling der nesten ingenting annet gjør.',
     match: ['panchmel']
   }
 });

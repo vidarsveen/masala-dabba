@@ -20,7 +20,7 @@ window.RECIPES['IN-RAJ'] = [
 <p>There is no timer for this. The dish is done when there is enough reduced yoghurt and enough ghee in the pan that the fat separates and stands in a red slick on the surface. Cook until you see that, and not until a clock says so.</p>`,
     no:`<p>Laal maas selges gjerne til besøkende som det sterkeste i India, og det er snudd på hodet. Chilien går i et dusin om gangen, men det er den milde Mathania-typen, og den er der for fargen og for duften av tørket frukt. Yoghurten og gheen holder deretter nede det lille av styrke som er igjen.</p>
 <p>Retten kommer fra jaktleirene til rajput-hoffene, og derfor inneholder den verken grønnsaker, kraft eller vann å snakke om. Yoghurten er hele kokevæsken. Den mørner geitekjøttet, som trenger det, og den demper chilien samtidig.</p>
-<p>Det finnes ingen klokke for dette. Retten er ferdig når det er nok inn­kokt yoghurt og nok ghee i gryta til at fettet skiller seg ut og legger seg som et rødt lag på overflaten. Kok til du ser det, og ikke til en klokke sier fra.</p>`},
+<p>Det finnes ingen klokke for dette. Retten er ferdig når det er nok innkokt yoghurt og nok ghee i gryta til at fettet skiller seg ut og legger seg som et rødt lag på overflaten. Kok til du ser det, og ikke til en klokke sier fra.</p>`},
   ingredients:[{group:{en:'', no:''}, items:[
     {q:800, u:'g', n:{en:'goat or lamb shoulder, on the bone', no:'geite- eller lammebog, med bein'}, note:{en:'in pieces the size of a walnut', no:'i biter på størrelse med en valnøtt'}},
     {q:400, u:'g', n:{en:'full-fat yoghurt', no:'yoghurt naturell med fullt fettinnhold'}, note:{en:'beaten smooth', no:'pisket glatt'}},
@@ -65,7 +65,7 @@ window.RECIPES['IN-RAJ'] = [
            no:'Syren og enzymene i yoghurt bryter ned bindevevet i geitekjøtt, som er seigt kjøtt fra et dyr som går langt. Vann ville bare kokt det. Yoghurten legger seg dessuten rundt chilien og hindrer at den oppleves som ren svie.'}},
     {title:{en:'Twelve chillies is not a mistake', no:'Tolv chili er ingen feil'},
      body:{en:'Kashmiri and Mathania pods are bred for colour rather than pungency, so a dozen of them give a deep red and a fruit smell without making the dish painful. Use a hot chilli at the same count and it will be inedible.',
-           no:'Kashmiri- og Mathania-belger er foredlet for farge og ikke for styrke, så et dusin av dem gir dyp rødfarge og fruktduft uten at retten blir vond. Bruker du en sterk chili i samme antall, blir den uspiselig.'}},
+           no:'Kashmiri- og Mathania-belger er foredlet for farge og ikke for styrke, så et dusin av dem gir dyp rødfarge og fruktduft uten at retten blir ubehagelig sterk. Bruker du en sterk chili i samme antall, blir den uspiselig.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Goat is sold by halal butchers rather than by supermarkets; lamb shoulder is the honest substitute and behaves the same way. Use a thick Turkish or Greek yoghurt with real fat in it, because Norwegian low-fat naturell splits.',
            no:'Geitekjøtt selges hos halalslaktere og ikke i dagligvarebutikken, og på Grønland i Oslo får du det med bein, som er det du vil ha. Lammebog er den ærlige erstatningen og oppfører seg likt, og kje om våren er enda nærmere. Bruk tykk tyrkisk eller gresk yoghurt med ekte fett i; norsk mager yoghurt naturell skiller seg i gryta. Ghee selges i store bokser i indiske butikker til en brøkdel av helsekostprisen, og hele kashmiri-belger finnes samme sted.'}}],
@@ -83,7 +83,7 @@ window.RECIPES['IN-RAJ'] = [
   time:{prep:30, cook:45}, hero:'ker-sangri-raw', tags:['dried','desert','yoghurt','keeps'],
   title:{en:'Ker sangri', no:'Ker sangri'},
   blurb:{en:'Dried desert berries and khejri pods, soaked overnight and fried hard. It keeps a week.',
-         no:'Tørkede ørkenbær og khejri-belger, bløtlagt over natten og hardstekt. Den holder seg en uke.'},
+         no:'Tørkede bær og belger fra ørkenen, bløtlagt over natten og stekt hardt. Den holder seg en uke.'},
   heroCaption:{en:'Fresh ker berries and sangri pods after picking. No free photograph of the cooked dish exists, so this is what it is made from.',
                no:'Ferske ker-bær og sangri-belger etter plukkingen. Det finnes ikke noe fritt bilde av den ferdige retten, så dette er det den lages av.'},
   goesWith:[{en:'Bajra roti and a spoon of ghee', no:'Bajra-roti og en skje ghee'},
@@ -93,8 +93,8 @@ window.RECIPES['IN-RAJ'] = [
 <p>Two things decide whether the dish works. The first is the soaking: ker is sharply bitter raw, and the bitterness leaves with the water, so an overnight soak is not optional. The second is the fat. This is fried, not stewed, in far more oil than a European would think reasonable, and that is what makes it keep.</p>
 <p>Cooked dry like this it will sit in a covered jar for a week without refrigeration, and it improves for the first two or three days. Rajasthanis post it to relatives in other cities, which tells you everything about how sturdy it is.</p>`,
     no:`<p>Dette er grønnsakretten fra et sted uten grønnsaker. Ker er bæret fra en bladløs tornebusk i kapersfamilien, og sangri er den lange belgen fra khejri-treet som står midt i hirseåkrene i Rajasthan. Begge sankes vilt, kokes så vidt opp, tørkes harde og oppbevares i en sekk så lenge noen trenger dem.</p>
-<p>To ting avgjør om retten lykkes. Det første er bløtleggingen, for ker er skarpt bittert rått, og bitterheten går ut med vannet, så en natt i bløt er ikke valgfritt. Det andre er fettet. Dette stekes og småkokes ikke, i langt mer olje enn en europeer synes er rimelig, og nettopp derfor holder retten seg.</p>
-<p>Stekt tørr på denne måten står den i et tett glass i en uke uten kjøleskap, og den blir bedre de to-tre første dagene. Folk fra Rajasthan sender den i posten til slektninger i andre byer, og det sier alt om hvor robust den er.</p>`},
+<p>To ting avgjør om retten lykkes. Det første er bløtleggingen, for ker er skarpt bittert rått, og bitterheten går ut med vannet, så en natt i bløt er ikke valgfritt. Det andre er fettet. Retten stekes, den småkokes ikke, og det skjer i langt mer olje enn en europeer synes er rimelig. Nettopp derfor holder den seg.</p>
+<p>Når den er stekt tørr på denne måten, står den i et tett glass i en uke uten kjøleskap, og den blir bedre de to-tre første dagene. Folk fra Rajasthan sender den i posten til slektninger i andre byer, og det sier alt om hvor robust den er.</p>`},
   ingredients:[{group:{en:'', no:''}, items:[
     {q:100, u:'g', n:{en:'dried sangri', no:'tørket sangri'}},
     {q:50, u:'g', n:{en:'dried ker', no:'tørket ker'}},
@@ -114,7 +114,7 @@ window.RECIPES['IN-RAJ'] = [
     {en:'Rinse the sangri and the ker separately through several changes of water, until the water runs clear of dust.',
      no:'Skyll sangri og ker hver for seg i flere omganger med vann, til vannet er fritt for støv.'},
     {en:'Soak them overnight in separate bowls, each covered by plenty of salted water. They will roughly double in bulk.',
-     no:'Bløtlegg dem over natten i hver sin bolle, godt dekket av saltet vann. De dobler omtrent volumet.'},
+     no:'Bløtlegg dem over natten i hver sin bolle, godt dekket av saltet vann. De dobler omtrent volumet sitt.'},
     {en:'Drain both, cover with fresh water and boil until the sangri bends without snapping and the ker is soft, somewhere between 25 and 40 minutes depending on how old they are. Drain again and keep them.',
      no:'Hell av vannet, dekk med friskt vann og kok til sangrien bøyer seg uten å knekke og keren er myk, et sted mellom 25 og 40 minutter alt etter hvor gammel den er. Hell av igjen og sett dem til side.'},
     {en:'Heat the ghee in a wide pan over a medium flame, add the cumin and the whole chillies, and wait until the seeds darken.',
@@ -124,7 +124,7 @@ window.RECIPES['IN-RAJ'] = [
     {en:'Pull the pan off the heat and stir in the turmeric and the ground coriander, so the powders colour the fat instead of burning in it.',
      no:'Trekk pannen av platen og rør inn gurkemeien og den malte korianderen, så pulverne farger fettet i stedet for å svi seg i det.'},
     {en:'Return the pan to a low flame, add the beaten yoghurt and stir steadily in one direction until it comes up to a simmer. Do not stop stirring before it does.',
-     no:'Sett pannen tilbake på lav varme, ha i den piskede yoghurten og rør jevnt én vei til det så vidt koker. Ikke slutt å røre før det gjør det.'},
+     no:'Sett pannen tilbake på lav varme, ha i den piskede yoghurten og rør jevnt én vei til det så vidt koker. Ikke slutt å røre før det koker.'},
     {en:'Add the amchur, the raisins and salt, and cook on until the pan is dry again and the fat has come back out, about five minutes.',
      no:'Ha i amchur, rosiner og salt, og la det steke videre til pannen er tørr igjen og fettet har kommet fram, omtrent fem minutter.'},
     {en:'Taste for salt and sour. It should be distinctly sharp, because it is eaten in small quantities alongside bread.',
@@ -144,7 +144,7 @@ window.RECIPES['IN-RAJ'] = [
   variations:[
     {title:{en:'Panchkuta', no:'Panchkuta'},
      body:{en:'The full desert mixture adds kumatia seeds and gunda berries to the ker and sangri, in roughly equal weight to the ker. They are soaked with the rest and cooked the same way.',
-           no:'Den fulle ørkenblandingen legger kumatia-frø og gunda-bær til keren og sangrien, i omtrent samme vekt som keren. De bløtlegges sammen med resten og lages på samme måte.'}},
+           no:'Den fullstendige blandingen fra ørkenen har også kumatia-frø og gunda-bær i, i omtrent samme vekt som keren. De bløtlegges sammen med resten og lages på samme måte.'}},
     {title:{en:'Sangri alone', no:'Bare sangri'},
      body:{en:'If you can only find one of the two, use sangri. It is the milder of them and makes a perfectly good dish on its own, which is what many households cook anyway.',
            no:'Finner du bare den ene av de to, så bruk sangri. Den er den mildeste og gir en helt god rett alene, og det er den mange husholdninger lager uansett.'}}]
@@ -201,15 +201,15 @@ window.RECIPES['IN-RAJ'] = [
     {en:'Bring the water to a rolling boil, lower the ropes in and cook them for 15 minutes. They float when they are done.',
      no:'Kok opp vannet, legg pølsene forsiktig i og kok dem i 15 minutter. De flyter opp når de er ferdige.'},
     {en:'Lift the ropes out and keep every drop of the cooking water. Slice them into discs once they are cool enough to hold.',
-     no:'Løft opp pølsene og ta vare på hver dråpe av kokevannet. Skjær dem i skiver når de er kalde nok til å holdes i.'},
+     no:'Løft opp pølsene og ta vare på hver dråpe av kokevannet. Skjær dem i skiver når de er avkjølt nok til at du kan holde i dem.'},
     {en:'Whisk the gravy yoghurt with the gram flour until no lump is left at all. Any lump now will be a lump in the finished gravy.',
-     no:'Visp sausens yoghurt sammen med kikertmelet til det ikke er en eneste klump igjen. En klump nå blir en klump i den ferdige sausen.'},
+     no:'Visp yoghurten til sausen sammen med kikertmelet til det ikke er en eneste klump igjen. En klump nå blir en klump i den ferdige sausen.'},
     {en:'Heat the ghee, add the cumin and the asafoetida, and wait until the seeds colour and the hing smells savoury rather than raw.',
      no:'Varm gheen, ha i spisskummen og asafoetida, og vent til frøene tar farge og hingen lukter smaksrik i stedet for rå.'},
     {en:'Take the pan off the heat and stir in the chilli powder, turmeric and ground coriander.',
      no:'Ta pannen av platen og rør inn chilipulver, gurkemeie og malt koriander.'},
     {en:'Back on a low flame, pour in the yoghurt mixture and stir steadily in one direction until it simmers. If you stop stirring before it does, it will split.',
-     no:'Tilbake på lav varme heller du i yoghurtblandingen og rører jevnt én vei til det så vidt koker. Slutter du å røre før det, skiller den seg.'},
+     no:'Tilbake på lav varme heller du i yoghurtblandingen og rører jevnt én vei til det så vidt koker. Slutter du å røre før den koker, skiller den seg.'},
     {en:'Loosen the gravy with the reserved cooking water until it pours from a spoon, add the sliced gatte, and simmer for ten minutes.',
      no:'Tynn ut sausen med kokevannet til den renner av en skje, ha i gatte-skivene og la det småkoke i ti minutter.'},
     {en:'Stir in the garam masala, scatter the coriander leaf over, and serve.',
@@ -227,7 +227,7 @@ window.RECIPES['IN-RAJ'] = [
   variations:[
     {title:{en:'Govind gatte', no:'Govind gatte'},
      body:{en:'The festive version. Flatten each piece of dough, put a little chopped nut and raisin in the middle, close it up and boil as usual. The filling turns a side dish into something for a wedding.',
-           no:'Festutgaven. Flat ut hver deigbit, legg litt hakkede nøtter og rosiner i midten, lukk den igjen og kok som vanlig. Fyllet gjør en tilbehørsrett til noe man serverer i bryllup.'}},
+           no:'Festutgaven. Flat ut hver deigbit, legg litt hakkede nøtter og rosiner i midten, lukk den igjen og kok som vanlig. Fyllet gjør tilbehøret til noe man serverer i bryllup.'}},
     {title:{en:'Gatte fried first', no:'Gatte stekt først'},
      body:{en:'Many cooks shallow-fry the sliced discs in ghee until they are golden before they go into the gravy. They hold their shape better and taste nuttier, at the cost of a heavier dish.',
            no:'Mange kokker steker skivene gylne i ghee før de går i sausen. De holder formen bedre og smaker mer nøtteaktig, men retten blir tyngre.'}}]
@@ -247,7 +247,7 @@ window.RECIPES['IN-RAJ'] = [
     en:`<p>This is the plate Rajasthan is known by, and it is really three recipes that were designed to be made at the same fire. The batis are baked hard so that they keep for days, which is why a shepherd or a soldier could carry a bag of them, and the ghee poured over them at the table is what makes them edible again.</p>
 <p>The dal is panchmel, five pulses cooked together. That is not decoration. Each of the five softens at a different rate, so some dissolve into the body of the dal while others stay whole, and the mixture ends up with a texture that no single pulse gives.</p>
 <p>The third part, churma, is made from batis crushed with ghee and raw cane sugar. It arrives on the same plate as the savoury food rather than after it, which is the habit worth taking away from this recipe: a Rajasthani meal does not keep sweet and savoury apart.</p>`,
-    no:`<p>Dette er tallerkenen Rajasthan er kjent for, og den er egentlig tre oppskrifter som ble laget for å stå ved den samme ilden. Batiene bakes harde for at de skal holde seg i dagevis, og derfor kunne en gjeter eller en soldat ta med seg en pose av dem, mens gheen som helles over dem ved bordet, er det som gjør dem spiselige igjen.</p>
+    no:`<p>Dette er tallerkenen Rajasthan er kjent for, og den er egentlig tre oppskrifter som ble innrettet slik at de kunne lages over én og samme ild. Batiene bakes harde for at de skal holde seg i dagevis, og derfor kunne en gjeter eller en soldat ta med seg en pose av dem, mens gheen som helles over dem ved bordet, er det som gjør dem spiselige igjen.</p>
 <p>Dalen heter panchmel, fem belgfrukter kokt sammen. Det er ingen pynt. Hver av de fem mykner i sitt eget tempo, så noen løser seg opp i selve dalen mens andre holder formen, og blandingen ender med en konsistens ingen enkelt belgfrukt gir.</p>
 <p>Den tredje delen, churma, lages av bati støtt sammen med ghee og ukokt rørsukker. Den kommer på den samme tallerkenen som den salte maten og ikke etterpå, og nettopp den vanen er verdt å ta med seg herfra: et måltid i Rajasthan holder ikke søtt og salt fra hverandre.</p>`},
   ingredients:[
@@ -290,11 +290,11 @@ window.RECIPES['IN-RAJ'] = [
     {en:'Drain them, put them in a pan with the water and the turmeric, and simmer covered until everything is soft, about 45 minutes. Skim the foam off in the first ten.',
      no:'Hell av vannet, ha dem i en gryte med vann og gurkemeie, og la det småkoke under lokk til alt er mykt, omtrent 45 minutter. Skum av de første ti minuttene.'},
     {en:'Heat the oven to 200 °C. Rub the flour, semolina, ajwain and salt together with the melted ghee until a squeezed handful holds its shape.',
-     no:'Varm ovnen til 200 °C. Gni sammen melet, semulen, ajwain og salt med den smeltede gheen til en klemt neve holder formen.'},
+     no:'Varm ovnen til 200 °C. Gni sammen melet, semulen, ajwain og salt med den smeltede gheen til melet holder formen når du klemmer en neve av det.'},
     {en:'Add the water a little at a time and knead a stiff dough, then let it rest for 20 minutes under a cloth.',
      no:'Tilsett vannet litt om gangen og elt en stiv deig, og la den hvile under et klede i 20 minutter.'},
     {en:'Roll the dough into balls, press a thumb into the top of each to make a dimple, and bake for 35 to 40 minutes, turning them once, until they are hard, cracked and hollow-sounding.',
-     no:'Trill deigen til kuler, trykk en tommel ned i toppen av hver så det blir en fordypning, og stek dem i 35 til 40 minutter. Snu dem én gang, og de skal bli harde, sprukne og lyde hult.'},
+     no:'Trill deigen til kuler, trykk en tommel ned i toppen av hver så det blir en fordypning, og stek dem i 35 til 40 minutter. Snu dem én gang underveis. De skal bli harde, sprukne og lyde hult.'},
     {en:'Set a third of the batis aside for the churma and keep the rest warm.',
      no:'Sett en tredel av batiene til side til churmaen og hold resten varme.'},
     {en:'For the tempering, heat the ghee in a small pan, add the cumin, the whole chillies and the asafoetida, then the garlic, and fry until the garlic turns gold.',
@@ -302,25 +302,25 @@ window.RECIPES['IN-RAJ'] = [
     {en:'Off the heat, stir the chilli powder and ground coriander into the tempering, then pour the whole lot into the dal. Add the garam masala and salt and simmer five minutes more.',
      no:'Med pannen av platen rører du chilipulveret og den malte korianderen inn i temperingen, og heller så hele blandingen i dalen. Ha i garam masala og salt og la det småkoke fem minutter til.'},
     {en:'Break the reserved batis up and crush them coarse, in a mortar or with a few pulses in a processor. Leave some texture.',
-     no:'Brekk opp batiene du satte til side og støt dem grovt, i morter eller med noen korte støt i en foodprosessor. La det være litt tekstur igjen.'},
+     no:'Brekk opp batiene du satte til side og knus dem grovt, i morter eller med noen korte kjør i en foodprosessor. La det være litt tekstur igjen.'},
     {en:'Work the ghee into the warm crumbs, then the jaggery, the cardamom and the almonds. The churma should stay loose and crumbly, not turn into a paste.',
      no:'Arbeid gheen inn i de varme smulene, deretter gur, kardemomme og mandler. Churmaen skal holde seg løs og smuldrete og ikke bli en jevn masse.'},
     {en:'Crack the remaining batis open, douse them in the dipping ghee, pour the dal over, and put the churma on the same plate.',
-     no:'Knekk opp de resterende batiene, dynk dem i dyppegheen, hell dalen over, og legg churmaen på den samme tallerkenen.'}],
+     no:'Knekk opp de resterende batiene, dynk dem i den smeltede gheen, hell dalen over, og legg churmaen på den samme tallerkenen.'}],
   notes:[
     {title:{en:'Why the bati is so hard', no:'Hvorfor batien er så hard'},
      body:{en:'Nothing goes into the dough to make it rise, and the ghee rubbed through the flour stops gluten forming, so it bakes dense. That is what let it keep for days in a saddlebag, and the ghee at the table is the repair.',
-           no:'Ingenting er tilsatt deigen for å heve den, og gheen som gnis inn i melet, hindrer at det danner seg gluten, så den bakes tett. Nettopp det gjorde at den holdt seg i dagevis i en salveske, og gheen ved bordet er reparasjonen.'}},
+           no:'Ingenting er tilsatt deigen for å heve den, og gheen som gnis inn i melet, hindrer at det danner seg gluten, så den bakes tett. Nettopp det gjorde at den holdt seg i dagevis i en salveske, og gheen ved bordet retter det opp.'}},
     {title:{en:'Five pulses, one texture', no:'Fem belgfrukter, én konsistens'},
      body:{en:'Chana holds its shape, moong collapses, and the other three land in between. Cooking them together gives a dal that is both smooth and granular, which is exactly why nobody here makes it with one pulse.',
-           no:'Chana holder formen, moong faller sammen, og de tre andre havner imellom. Kokt sammen gir de en dal som er både glatt og kornete, og derfor lager ingen her den med bare én belgfrukt.'}},
+           no:'Chana holder formen, moong faller sammen, og de tre andre havner imellom. Når de kokes sammen, gir de en dal som er både glatt og kornete, og derfor lager ingen her den med bare én belgfrukt.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'The five pulses are cheap by the kilo in any Indian shop and are not interchangeable with what a Norwegian supermarket sells as lentils.',
-           no:'De fem belgfruktene koster lite kiloen i indiske butikker, og de er ikke det samme som det en norsk dagligvarebutikk selger som linser; røde linser koker helt i stykker og gir en grøt. Moth-bønner er den vanskeligste, og du kan sløyfe dem og bruke litt mer chana. Til batien er grov sammalt hvete fra dagligvarebutikken riktig nok, men bland inn litt siktet hvetemel hvis deigen ikke vil henge sammen. Gur selges som gur eller jaggery i indiske butikker, og palmesukker er noe annet; mørk muscovado kommer nærmere.'}}],
+           no:'De fem belgfruktene koster lite kiloen i indiske butikker, og de er ikke det samme som det en norsk dagligvarebutikk selger som linser; røde linser koker helt i stykker og gir en grøt. Moth-bønner er det vanskeligste å få tak i, og du kan sløyfe dem og bruke litt mer chana. Til batien er grov sammalt hvete fra dagligvarebutikken god nok, men bland inn litt siktet hvetemel hvis deigen ikke vil henge sammen. Gur selges som gur eller jaggery i indiske butikker, og palmesukker er noe annet; mørk muscovado kommer nærmere.'}}],
   variations:[
     {title:{en:'Batis in the embers', no:'Bati i glørne'},
      body:{en:'The original method buries the balls in the embers of a wood or dung fire and turns them with tongs. On a barbecue, rake the coals to one side and give them 30 minutes with the lid down.',
-           no:'Den opprinnelige metoden graver kulene ned i glørne fra et ved- eller møkkbål og snur dem med tang. På en grill raker du kullene til siden og gir dem 30 minutter med lokket nede.'}},
+           no:'I den opprinnelige metoden graves kulene ned i glørne fra et ved- eller møkkbål og snus med tang. På en grill raker du kullene til siden og gir dem 30 minutter med lokket nede.'}},
     {title:{en:'Bafla', no:'Bafla'},
      body:{en:'A softer cousin from the Malwa side. The balls are boiled in water for about fifteen minutes before they are baked, which makes them lighter and less likely to break a tooth.',
            no:'En mykere slektning fra Malwa-siden. Kulene kokes i vann i omtrent femten minutter før de bakes, og det gjør dem lettere og mindre harde mot tennene.'}}]
@@ -331,7 +331,7 @@ window.RECIPES['IN-RAJ'] = [
   time:{prep:20, cook:25}, hero:'bajra-roti', tags:['millet','gluten free','tava','chutney'],
   title:{en:'Bajre ki roti', no:'Bajre ki roti'},
   blurb:{en:'Millet bread patted out between wet palms and finished over the flame, with garlic chutney.',
-         no:'Hirsebrød klappet ut mellom våte håndflater og avsluttet over flammen, med hvitløkchutney.'},
+         no:'Hirsebrød klappet ut mellom våte håndflater og avsluttet over flammen, med chutney av hvitløk.'},
   heroCaption:{en:'Bajra roti with garlic and chilli chutney and raw onion, eaten within minutes of leaving the fire.',
                no:'Bajra-roti med chutney av hvitløk og chili og rå løk, spist noen minutter etter at den er tatt av ilden.'},
   goesWith:[{en:'A spoon of ghee and raw cane sugar, in winter', no:'En skje ghee og ukokt rørsukker, om vinteren'},
@@ -341,8 +341,8 @@ window.RECIPES['IN-RAJ'] = [
 <p>Boiling water is the trick that makes it possible. Hot water gelatinises some of the starch, which gives the dough just enough to hold together, and a dough made with cold water falls apart under your hands.</p>
 <p>The other half of the recipe is the chutney, because a millet roti on its own is plain and slightly coarse. Lehsun ki chutney is mostly garlic, looks far more alarming than it tastes, and is what a Rajasthani field lunch is built on.</p>`,
     no:`<p>Perlehirse har ikke gluten, så denne deigen strekker seg ikke, og en kjevle river den i stykker. Brødet klappes i stedet ut mellom våte håndflater og vris en kvart omdreining for hver klapp, til det er en tykk skive på størrelse med en hånd. Det tar tre-fire forsøk å lære, og så går det av seg selv.</p>
-<p>Kokende vann er grepet som gjør det mulig. Varmt vann får noe av stivelsen til å svelle, og det gir deigen akkurat nok til å henge sammen. En deig laget med kaldt vann faller fra hverandre mellom hendene.</p>
-<p>Den andre halvdelen av oppskriften er chutneyen, for en hirseroti alene er enkel og litt grov. Lehsun ki chutney er for det meste hvitløk, ser langt verre ut enn den smaker, og er det en lunsj på jordet i Rajasthan bygges på.</p>`},
+<p>Kokende vann er grepet som gjør det mulig. Varmt vann får noe av stivelsen til å svelle, og det gir deigen akkurat nok feste til å henge sammen. En deig som er laget med kaldt vann, faller fra hverandre mellom hendene.</p>
+<p>Den andre halvdelen av oppskriften er chutneyen, for en hirseroti alene er enkel og litt grov. Lehsun ki chutney er for det meste hvitløk, ser langt verre ut enn den smaker, og den er selve grunnlaget for en lunsj på jordet i Rajasthan.</p>`},
   ingredients:[
    {group:{en:'For the roti', no:'Til roti'}, items:[
     {q:320, u:'g', n:{en:'bajra flour (pearl millet)', no:'bajramel (perlehirse)'}, note:{en:'finely milled', no:'finmalt'}},
@@ -350,7 +350,7 @@ window.RECIPES['IN-RAJ'] = [
     {q:60, u:'g', n:{en:'butter or ghee, to finish', no:'smør eller ghee, til slutt'}},
     {u:'', n:{en:'salt', no:'salt'}, scale:'none'},
    ]},
-   {group:{en:'For the garlic chutney', no:'Til hvitløkchutney'}, items:[
+   {group:{en:'For the garlic chutney', no:'Til chutneyen av hvitløk'}, items:[
     {q:60, u:'g', n:{en:'garlic', no:'hvitløk'}, note:{en:'peeled', no:'skrelt'}},
     {q:10, u:'', n:{en:'dried red chillies', no:'tørkede røde chili'}, round:'half', note:{en:'Kashmiri, for colour', no:'kashmiri, for fargen'}},
     {q:20, u:'ml', n:{en:'oil', no:'olje'}},
@@ -363,7 +363,7 @@ window.RECIPES['IN-RAJ'] = [
     {en:'Drain them and pound or blend them with the garlic, the lemon juice and salt to a coarse red paste, then stir the oil through it.',
      no:'Hell av vannet og støt eller kjør chilien sammen med hvitløken, sitronsaften og salt til en grov rød pasta, og rør så oljen inn i den.'},
     {en:'Bring the water for the dough to the boil, salt it, and pour it over the flour in a bowl. Stir with a spoon until you can put a hand in.',
-     no:'Kok opp vannet til deigen, salt det, og hell det over melet i en bolle. Rør med en skje til du kan stikke hånden i.'},
+     no:'Kok opp vannet til deigen, salt det, og hell det over melet i en bolle. Rør med en skje til du kan stikke hånden oppi.'},
     {en:'Knead the warm dough for a few minutes until it is smooth. It should be soft and a little tacky, and it will not stretch, which is normal.',
      no:'Elt den varme deigen i noen minutter til den er glatt. Den skal være myk og litt klebrig, og den strekker seg ikke, og det er som det skal.'},
     {en:'Divide it into balls and keep them under a damp cloth, because bajra dough dries out quickly.',
@@ -377,7 +377,7 @@ window.RECIPES['IN-RAJ'] = [
     {en:'Lift it onto a live flame or a gas ring for a few seconds a side, until it puffs and blisters.',
      no:'Løft den over på en åpen flamme eller en gassbrenner i noen sekunder på hver side, til den blåser seg opp og får blemmer.'},
     {en:'Spread butter over it while it is hot, and eat it at once with the chutney. Make the next one while this one is being eaten.',
-     no:'Smør smør på den mens den er varm, og spis den med en gang sammen med chutneyen. Lag den neste mens denne blir spist.'}],
+     no:'Legg smør på den mens den er varm, og spis den med en gang sammen med chutneyen. Lag den neste mens denne blir spist.'}],
   notes:[
     {title:{en:'Why the water must be boiling', no:'Hvorfor vannet må koke'},
      body:{en:'Millet has nothing to build a network with, so the dough holds together only because hot water swells some of the starch into a paste. Cold water gives you wet flour that crumbles the moment you lift it.',
@@ -387,7 +387,7 @@ window.RECIPES['IN-RAJ'] = [
            no:'En bajra-roti er god i omtrent ti minutter og blir hard etterpå, og derfor står kokken ved ilden mens familien spiser ett brød om gangen. Det går ikke an å lage en stabel på forhånd.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Buy bajra flour from an Indian shop, where it is sold as bajri atta and is milled fine enough to work.',
-           no:'Perlehirse selges i norske helsekostbutikker, men som regel som hele korn eller som en grov maling, og grovt mel gir en deig som ikke lar seg klappe ut. Kjøp bajramel i en indisk butikk, der det heter bajri atta og er malt fint nok. Pass også på at det du kjøper faktisk er perlehirse: det som står merket bare «hirse» i helsekostbutikken, er ofte vanlig hirse, som er et annet korn og oppfører seg annerledes. Melet harskner fort, så kjøp små poser og oppbevar dem i fryseren.'}}],
+           no:'Perlehirse selges i norske helsekostbutikker, men som regel som hele korn eller grovmalt, og grovt mel gir en deig som ikke lar seg klappe ut. Kjøp bajramel i en indisk butikk, der det heter bajri atta og er malt fint nok. Pass også på at det du kjøper faktisk er perlehirse: det som står merket bare «hirse» i helsekostbutikken, er ofte vanlig hirse, som er et annet korn og oppfører seg annerledes. Melet harskner fort, så kjøp små poser og oppbevar dem i fryseren.'}}],
   variations:[
     {title:{en:'With gur and ghee', no:'Med gur og ghee'},
      body:{en:'The winter breakfast. Skip the chutney, break the hot roti into a bowl, and work grated jaggery and a spoonful of ghee through it with your fingers.',
