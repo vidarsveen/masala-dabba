@@ -8,7 +8,7 @@ Object.assign(window.SPICE_NO, {
    flavour: 'Stort sett en bakgrunn, helt til du biter i et helt frø i en munnfull og får én smak alene.',
    does: 'Krydrer stekeoljen på de første tretti sekundene, så fettet bærer smaken inn i alt som stekes etterpå.',
    when: 'Hel, i varm olje, før alt annet går i. Aldri malt, og aldri rørt inn til slutt.',
-   swap: 'Bland din egen av like deler spisskummen, svartkarve, bukkehornkløver, fennikel og radhuni. Sellerifrø kan tre inn for radhuni.',
+   swap: 'Bland din egen av like deler spisskummen, svartkarve, bukkehornkløver, fennikel og radhuni. Sellerifrø kan brukes i stedet for radhuni.',
    sourcing: 'Ferdigblandet panch phoron selges i indiske butikker på Grønland i Oslo, men blandingene her har som regel sennepsfrø i stedet for radhuni. Blander du selv, vet du hva som er i.'
  },
  'IN-BEN|Mustard oil': {
@@ -24,13 +24,13 @@ Object.assign(window.SPICE_NO, {
    flavour: 'Smaksrik og litt bitter. Frøet merkes ett om gangen heller enn som en jevn smak.',
    does: 'Gir den bengalske fiskekarrien lukten sin, og pryder brød og pickles i hele regionen.',
    when: 'Hel i varm olje i starten, alene eller som del av panch phoron. Den males nesten aldri.',
-   swap: 'Ingen ærlig erstatning. Svart sesam og karve er andre frø og smaker ingenting likt.',
-   sourcing: 'Selges som kalonji eller svartkarve i indiske butikker, i poser på hundre gram. Svart sesam fra bakehyllen er en annen plante, uansett hva hylla sier.'
+   swap: 'Ingen ærlig erstatning. Svart sesam og karve er andre frø og smaker ikke i nærheten av det samme.',
+   sourcing: 'Selges som kalonji eller svartkarve i indiske butikker, i poser på hundre gram. Svart sesam fra bakeavdelingen er en annen plante, uansett hva det står på posen.'
  },
  'IN-BEN|Poppy seed (posto)': {
    aroma: 'Svært lite i rå tilstand; en varm, nøtteaktig duft når frøene er malt og kokt.',
    flavour: 'Mild, melkeaktig og nøtteaktig, nesten uten kant. Oppgaven er konsistens mer enn smak.',
-   does: 'Malt med vann tykner frøene retten til en lys pasta som legger seg rundt alt, og den er hele kroppen i aloo posto.',
+   does: 'Males frøene med vann, tykner de retten til en lys pasta som legger seg rundt alt, og den pastaen er hele kroppen i aloo posto.',
    when: 'Bløtlegges, males til pasta og kokes forsiktig. Hele frø gir ingenting og blir bare grynete.',
    swap: 'Pasta av cashewnøtter eller melonfrø gir liknende fylde, men søtere. Blå valmuefrø gjør retten grå.',
    sourcing: 'Valmuefrøene i norske dagligvarebutikker er de blå, og de gir grå og bitrere mat. Be om hvite valmuefrø, safed posto, i indiske butikker.'

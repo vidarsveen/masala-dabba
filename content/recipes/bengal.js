@@ -18,9 +18,9 @@ window.RECIPES['IN-BEN'] = [
     en:`<p>Start with the honest part. Hilsa is not sold in Norway, fresh or frozen, and no fish here is the same thing. So this is not shorshe ilish. It is what a Norwegian kitchen can honestly borrow from it, and the borrowing works because the important variable is fat rather than species.</p>
 <p>Ilish is prized because it is extremely oily, and the mustard paste is aggressive enough to need that fat to push against. A lean white fish in this sauce tastes thin and slightly cruel. Mackerel has roughly the right fat content, holds together in a steak and is cheap and good in Norway from late summer onwards, so mackerel is what this recipe is written for.</p>
 <p>The technique is the point, and it is unusual. Nothing is browned. The mustard is ground raw and barely cooked, because heat and long grinding both turn it bitter. The whole dish takes twenty minutes on the stove, and it is finished with a spoonful of raw mustard oil poured over off the heat.</p>`,
-    no:`<p>La oss ta det ærlige først. Ilish selges ikke i Norge, verken fersk eller frossen, og ingen fisk her er den samme varen. Så dette er ikke shorshe ilish. Det er det et norsk kjøkken ærlig kan låne fra retten, og lånet fungerer fordi det som betyr noe, er fettet og ikke arten.</p>
-<p>Ilish er ettertraktet fordi den er ekstremt fet, og sennepspastaen er hissig nok til å trenge det fettet å presse mot. En mager hvit fisk i denne sausen smaker tynt og litt brutalt. Makrell har omtrent riktig fettinnhold, holder seg hel som kotelett og er billig og god i Norge fra sensommeren av, og derfor er oppskriften skrevet for makrell.</p>
-<p>Teknikken er hele poenget, og den er uvanlig. Ingenting brunes. Sennepen males rå og kokes knapt, for både varme og lang maling gjør den bitter. Hele retten tar tjue minutter på platen, og den avsluttes med en skje rå sennepsolje helt over med kjelen av platen.</p>`},
+    no:`<p>La oss ta det ærlige først. Ilish selges ikke i Norge, verken fersk eller frossen, og ingen fisk her er den samme fisken. Så dette er ikke shorshe ilish. Det er det et norsk kjøkken ærlig kan låne fra retten, og lånet fungerer fordi det som betyr noe, er fettet og ikke arten.</p>
+<p>Ilish er ettertraktet fordi den er ekstremt fet, og sennepspastaen er så hissig at den trenger fett å presse mot. En mager hvit fisk i denne sausen smaker tynt og litt brutalt. Makrell har omtrent riktig fettinnhold, holder seg hel som kotelett og er billig og god i Norge fra sensommeren av, og derfor er oppskriften skrevet for makrell.</p>
+<p>Teknikken er hele poenget, og den er uvanlig. Ingenting brunes. Sennepen males rå og kokes knapt, for både varme og lang maling gjør den bitter. Hele retten tar tjue minutter på platen, og den avsluttes med en skje rå sennepsolje som helles over med kjelen av platen.</p>`},
   ingredients:[
    {group:{en:'The mustard paste', no:'Sennepspastaen'}, items:[
     {q:45, u:'g', n:{en:'yellow mustard seed', no:'gule sennepsfrø'}, note:{en:'soaked 20 minutes in warm water', no:'bløtlagt i 20 minutter i lunkent vann'}},
@@ -65,7 +65,7 @@ window.RECIPES['IN-BEN'] = [
            no:'Knuser du sennepsfrø mens det er vann til stede, frigjøres et enzym som bygger både skarpheten og bitterheten, og varme driver reaksjonen for langt. En kort maling med salt og gurkemeie holder den der du vil ha den. En lang maling i en varm maskin gjør det ikke.'}},
     {title:{en:'Why fat matters more than species', no:'Hvorfor fettet betyr mer enn arten'},
      body:{en:'Mustard is harsh, and fat is what rounds it. The oil in the fish emulsifies into the thin gravy and turns it from a sharp liquid into something that coats. Cod or pollock in this sauce is not a lesser version of the dish, it is a different and worse one.',
-           no:'Sennep er hard, og fett er det som runder den av. Fettet i fisken går inn i den tynne sausen og gjør den fra en skarp væske til noe som legger seg rundt maten. Torsk eller sei i denne sausen er ikke en svakere utgave av retten, men en annen og dårligere en.'}},
+           no:'Sennep er skarp, og det er fettet som runder den av. Fettet i fisken går inn i den tynne sausen og gjør den fra en skarp væske til noe som legger seg rundt maten. Torsk eller sei i denne sausen gir ikke en svakere utgave av retten, men en annen og dårligere rett.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Buy mackerel whole and ask the counter to cut it across into steaks rather than filleting it, because the bone holds the flesh together in the gravy.',
            no:'Kjøp hel makrell og be fiskedisken skjære den på tvers i koteletter i stedet for å filetere den, for beinet holder kjøttet sammen i sausen. Mye av sennepsoljen i norske butikker er merket kun til utvortes bruk på grunn av erukasyre, så se etter flasker fra indiske butikker som sier «edible» eller «kachi ghani». Gule sennepsfrø finnes i vanlige dagligvarebutikker, de svarte i indiske. Fersk makrell er best, men frossen makrell fungerer godt så lenge den tines langsomt i kjøleskapet.'}}],
@@ -75,7 +75,7 @@ window.RECIPES['IN-BEN'] = [
            no:'Bland fisken, pastaen, chiliene og oljen i en boks med tett lokk, og damp den lukkede boksen over kokende vann i femten minutter. Ingenting stekes, og resultatet blir renere og enda skarpere.'}},
     {title:{en:'With poppy seed', no:'Med valmuefrø'},
      body:{en:'Grind white poppy seed with the mustard in equal weight. The paste turns milder and thicker, which suits a leaner fish and is how many households cook it midweek.',
-           no:'Mal hvite valmuefrø sammen med sennepen i like stor vekt. Pastaen blir mildere og tykkere, og det passer en magrere fisk. Mange husholdninger lager den slik midt i uka.'}},
+           no:'Mal hvite valmuefrø sammen med sennepen, like mye av hver. Pastaen blir mildere og tykkere, og det passer en magrere fisk. Mange husholdninger lager den slik midt i uka.'}},
     {title:{en:'Prawns in mustard', no:'Reker i sennep'},
      body:{en:'Raw shell-on prawns work in exactly the same sauce and need four minutes rather than ten. Bengal calls that chingri, and treats it as a different dish rather than a substitute.',
            no:'Rå reker med skall fungerer i akkurat samme saus og trenger fire minutter i stedet for ti. Bengal kaller det chingri og regner det som en egen rett, ikke som en erstatning.'}}]
@@ -86,7 +86,7 @@ window.RECIPES['IN-BEN'] = [
   time:{prep:20, cook:30}, hero:'macher-jhol', tags:['fish','everyday','nigella'],
   title:{en:'Macher jhol', no:'Macher jhol'},
   blurb:{en:'The everyday Bengali fish curry: thin, yellow, seasoned with nigella, and with a potato in it.',
-         no:'Den bengalske hverdagsfiskekarrien: tynn, gul, krydret med svartkarve, og med potet i.'},
+         no:'Den bengalske fiskekarrien til hverdags: tynn, gul, krydret med svartkarve, og med potet i.'},
   heroCaption:{en:'A jhol is judged by how clear it is, not by how thick. The nigella seeds should be visible in it.',
                no:'En jhol dømmes etter hvor klar den er, ikke hvor tykk. Svartkarven skal ligge synlig i den.'},
   goesWith:[{en:'A mound of plain rice', no:'En haug med vanlig ris'},
@@ -140,10 +140,10 @@ window.RECIPES['IN-BEN'] = [
            no:'En rask steking får proteinene på overflaten til å stivne, og en stivnet overflate holder en kotelett sammen gjennom tjue minutter i væske. Koker du fisken gjennom i sausen i stedet, sitter du igjen med tråder og en uklar jhol.'}},
     {title:{en:'Why the ground spice goes in off the heat', no:'Hvorfor det malte krydderet går i med kjelen av platen'},
      body:{en:'Ground turmeric and chilli burn at a far lower temperature than whole seeds, and burnt chilli powder is bitter in a way nothing later can fix. Taking the pan off for fifteen seconds removes the risk entirely.',
-           no:'Malt gurkemeie og chili svir seg ved langt lavere temperatur enn hele frø, og svidd chilipulver er bittert på en måte ingenting senere retter opp. Å trekke pannen av i femten sekunder fjerner risikoen helt.'}},
+           no:'Malt gurkemeie og chili svir seg ved langt lavere temperatur enn hele frø, og svidd chilipulver er bittert på en måte ingenting senere retter opp. Trekker du pannen av i femten sekunder, er risikoen helt borte.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Ask the fish counter for steaks cut across the bone rather than fillets, whatever the species. A bone-in steak survives the gravy and a fillet does not.',
-           no:'Be fiskedisken om koteletter skåret på tvers av beinet i stedet for filet, uansett art. En kotelett med bein tåler sausen, det gjør ikke en filet. Sei er en billig og god fisk til denne retten, og fastere enn torsk. Svartkarve heter kalonji i indiske butikker og er ikke det samme som svart sesam, uansett hva hylla sier. Kashmiri chilipulver gir farge uten styrke; vanlig norsk chilipulver er sterkere og gir feil farge.'}}],
+           no:'Be fiskedisken om koteletter skåret på tvers av beinet i stedet for filet, uansett art. En kotelett med bein tåler sausen; det gjør ikke en filet. Sei er en billig og god fisk til denne retten, og fastere enn torsk. Svartkarve heter kalonji i indiske butikker og er ikke det samme som svart sesam, uansett hva det står på hylla. Kashmiri chilipulver gir farge uten styrke; vanlig norsk chilipulver er sterkere og gir feil farge.'}}],
   variations:[
     {title:{en:'With cauliflower and peas', no:'Med blomkål og erter'},
      body:{en:'In winter many households add cauliflower florets and fresh peas with the potato. The dish stays a jhol, but it stops being mainly about the fish.',
@@ -167,13 +167,13 @@ window.RECIPES['IN-BEN'] = [
     en:`<p>Kosha is a verb. It means to fry something down slowly with very little liquid until the moisture goes and the fat separates out, and kosha mangsho is goat treated that way for the best part of an hour. The name tells you the method, not the ingredients, which is unusual and useful.</p>
 <p>What actually happens at the stove is a cycle repeated maybe fifteen times. The pan dries out and starts to catch, you add a splash of water, the water lifts the browned layer off the base, and it dries out again. Each cycle takes the onion a shade darker and puts another layer into the finished dish. That is the entire trick, and no shortcut reproduces it.</p>
 <p>It is Sunday food in Kolkata, cooked through the morning while the household does something else. Marinating the meat overnight in yoghurt helps, and so does starting two hours before you plan to eat.</p>`,
-    no:`<p>Kosha er et verb. Det betyr å steke noe langsomt ned med svært lite væske til fuktigheten er borte og fettet skiller seg ut, og kosha mangsho er geitekjøtt behandlet slik i nesten en time. Navnet forteller deg metoden, ikke ingrediensene, og det er både uvanlig og nyttig.</p>
-<p>Det som faktisk skjer ved komfyren, er en runde som gjentas kanskje femten ganger. Pannen tørker ut og begynner å svi seg, du har i en skvett vann, vannet løser det brunede laget fra bunnen, og så tørker den ut igjen. Hver runde gjør løken et hakk mørkere og legger nok et lag inn i den ferdige retten. Det er hele knepet, og ingen snarvei gir det samme.</p>
+    no:`<p>Kosha er et verb. Det betyr å steke noe langsomt ned med svært lite væske til fuktigheten er borte og fettet skiller seg ut, og kosha mangsho er geitekjøtt som behandles slik i nesten en time. Navnet forteller deg metoden, ikke ingrediensene, og det er både uvanlig og nyttig.</p>
+<p>Ved komfyren gjentar du den samme runden kanskje femten ganger. Gryta tørker ut og begynner å svi seg, så har du i en skvett vann som løser det brunede laget fra bunnen, og så tørker den ut igjen. Hver runde gjør løken et hakk mørkere og legger nok et lag inn i den ferdige retten. Det er hele knepet, og ingen snarvei gir det samme.</p>
 <p>Dette er søndagsmat i Kolkata, kokt gjennom formiddagen mens husholdningen gjør noe annet. Det hjelper å marinere kjøttet i yoghurt over natten, og det hjelper å begynne to timer før du vil spise.</p>`},
   ingredients:[
    {group:{en:'The marinade', no:'Marinaden'}, items:[
     {q:900, u:'g', n:{en:'goat on the bone', no:'geitekjøtt med bein'}, note:{en:'shoulder and leg, in large pieces', no:'bog og lår, i store biter'}},
-    {q:200, u:'g', n:{en:'natural yoghurt', no:'yoghurt naturell'}, note:{en:'whisked smooth', no:'pisket glatt'}},
+    {q:200, u:'g', n:{en:'natural yoghurt', no:'naturell yoghurt'}, note:{en:'whisked smooth', no:'pisket glatt'}},
     {q:30, u:'g', n:{en:'ginger', no:'ingefær'}, note:{en:'ground to a paste', no:'malt til pasta'}},
     {q:25, u:'g', n:{en:'garlic', no:'hvitløk'}, note:{en:'ground to a paste', no:'malt til pasta'}},
     {q:8, u:'g', n:{en:'turmeric', no:'gurkemeie'}},
@@ -185,7 +185,7 @@ window.RECIPES['IN-BEN'] = [
     {q:30, u:'g', n:{en:'ghee', no:'ghee'}},
     {q:15, u:'g', n:{en:'sugar', no:'sukker'}},
     {q:6, u:'', n:{en:'green cardamom pods', no:'grønne kardemommekapsler'}, round:'half', note:{en:'bruised', no:'lett knust'}},
-    {q:6, u:'', n:{en:'cloves', no:'nellikspiker'}, round:'half'},
+    {q:6, u:'', n:{en:'cloves', no:'hele nellik'}, round:'half'},
     {q:1, u:'', n:{en:'piece of cinnamon bark', no:'bit kanelbark'}, round:'half'},
     {q:2, u:'', n:{en:'bay leaves', no:'laurbærblad'}, round:'half'},
     {q:10, u:'g', n:{en:'Kashmiri chilli powder', no:'Kashmiri chilipulver'}},
@@ -224,11 +224,11 @@ window.RECIPES['IN-BEN'] = [
            no:'Karamellisert sukker gir den fargen en bengalsk kokk venter av denne retten, og det uten at chilipulveret må gjøre jobben. Det er ikke der for å søte noe, og noen sekunder for lenge gjør det bittert.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Goat is the right meat and gives the firmer texture the long kosha is built around. Lamb works but finishes sooner.',
-           no:'Geitekjøtt er riktig vare og gir den fastere strukturen den lange koshaen er bygd for. Kjekjøtt og geit selges hos halalslaktere på Grønland i Oslo og i de fleste større byer, og be om bog og lår med bein. Lammekjøtt fungerer, men er ferdig tidligere og smaker mildere; norsk fårekjøtt er noe annet igjen og tåler faktisk hele koketiden. Ghee selges i indiske butikker; smør fungerer ikke like godt til slutt, for vannet i det tynner ut sausen.'}}],
+           no:'Geitekjøtt er det riktige kjøttet og gir den fastere strukturen den lange koshaen er bygd for. Kjekjøtt og geit selges hos halalslaktere på Grønland i Oslo og i de fleste større byer, og be om bog og lår med bein. Lammekjøtt fungerer, men er ferdig tidligere og smaker mildere; norsk fårekjøtt er noe annet igjen og tåler faktisk hele koketiden. Ghee selges i indiske butikker; smør fungerer ikke like godt til slutt, for vannet i det tynner ut sausen.'}}],
   variations:[
     {title:{en:'With potato', no:'Med potet'},
      body:{en:'Many Kolkata households fry whole small potatoes in the oil at the start and return them for the last twenty minutes. It is the same instinct that puts a potato in the fish curry and in the biryani.',
-           no:'Mange husholdninger i Kolkata steker hele småpoteter i oljen i starten og legger dem tilbake de siste tjue minuttene. Det er den samme innskytelsen som legger potet i fiskekarrien og i biryanien.'}},
+           no:'Mange husholdninger i Kolkata steker hele småpoteter i oljen i starten og legger dem tilbake de siste tjue minuttene. Det er den samme tanken som legger potet i fiskekarrien og i biryanien.'}},
     {title:{en:'Chicken instead', no:'Med kylling i stedet'},
      body:{en:'Use thighs on the bone and cut the kosha down to twenty-five minutes. The cycle is the same, but chicken cannot take an hour of it and will fall off the bone into the gravy.',
            no:'Bruk lår med bein og kort koshaen ned til tjuefem minutter. Runden er den samme, men kylling tåler ikke en time av den og vil falle av beinet og ut i sausen.'}}]
@@ -248,9 +248,9 @@ window.RECIPES['IN-BEN'] = [
     en:`<p>Shukto is the strangest thing in this module to a European palate and the most worth cooking. It is deliberately bitter, it is served first, and it is eaten with rice before anything else arrives. The bitterness is meant to open the appetite, and it does.</p>
 <p>The important word is "deliberately". This is not a dish that is bitter by accident or bitter all the way through. The bitter gourd is one vegetable among six or seven, and the rest of them are sweet or starchy: sweet potato, green banana, aubergine, radish. Milk goes in near the end and a spoon of ghee at the very end, and the finished dish is mild, pale and only faintly bitter at the back of the mouth.</p>
 <p>It is also the one classic Bengali dish seasoned with radhuni on its own rather than with panch phoron. Celery seed is the honest substitute, and a small amount of it.</p>`,
-    no:`<p>Shukto er det underligste i denne modulen for en europeisk gane og det mest verdt å lage. Den er bitter med vilje, den serveres først, og den spises med ris før noe annet kommer på bordet. Bitterheten skal åpne matlysten, og det gjør den.</p>
+    no:`<p>Shukto er det underligste i denne modulen for en europeisk gane, og samtidig det som er mest verdt å lage. Den er bitter med vilje, den serveres først, og den spises med ris før noe annet kommer på bordet. Bitterheten skal åpne matlysten, og det gjør den.</p>
 <p>Det viktige ordet er «med vilje». Dette er ikke en rett som er bitter ved et uhell eller bitter tvers igjennom. Bittermelonen er én grønnsak blant seks eller sju, og resten er søte eller stivelsesrike: søtpotet, kokebanan, aubergine, reddik. Melk går i mot slutten og en skje ghee helt til slutt, og den ferdige retten er mild, lys og bare svakt bitter bakerst i munnen.</p>
-<p>Den er også den ene klassiske bengalske retten som krydres med radhuni alene i stedet for med panch phoron. Sellerifrø er den ærlige erstatningen, og bare en liten mengde av det.</p>`},
+<p>Den er også den ene klassiske bengalske retten som krydres med radhuni alene i stedet for med panch phoron. Sellerifrø er den ærlige erstatningen, og du trenger bare en liten mengde.</p>`},
   ingredients:[
    {group:{en:'The vegetables', no:'Grønnsakene'}, items:[
     {q:150, u:'g', n:{en:'bitter gourd', no:'bittermelon'}, note:{en:'in thin rounds, seeds removed', no:'i tynne skiver, uten frø'}},
@@ -330,20 +330,20 @@ window.RECIPES['IN-BEN'] = [
 <p>Three things have to happen and the order matters. The milk is reduced, which concentrates the protein so the curd sets firm. The sugar is caramelised separately and stirred in, which gives the colour and the faint burnt note. And the culture goes in only once the milk has cooled to blood heat, because anything hotter kills it and the pots never set.</p>
 <p>The unglazed clay pot is not decoration. It is porous, so it draws water out through its wall while the yoghurt sets, and the curd ends up dense rather than watery. A glass jar gives you a perfectly nice sweet yoghurt with a puddle on top.</p>`,
     no:`<p>Nesten alle søtsaker i denne regionen bygger på chhana, fersk ostemasse som er felt ut av melk og eltet glatt for hånd. Mishti doi er unntaket, og den bygger på et helt annet prinsipp: den er gjæret. Det gjør den til en av svært få søte gjærede retter i indisk matlaging, og det er grunnen til at den smaker av noe annet enn sukker.</p>
-<p>Tre ting må skje, og rekkefølgen betyr noe. Melken kokes inn, og det konsentrerer proteinet så melken setter seg fast. Sukkeret karamelliseres for seg og røres inn, og det gir både fargen og den svake brente tonen. Og kulturen går først i når melken er kjølt til kroppstemperatur, for noe varmere dreper den, og da setter ikke krukkene seg.</p>
-<p>Den uglaserte leirkrukka er ikke pynt. Den er porøs og trekker vann ut gjennom veggen mens yoghurten setter seg, og melken blir fast i stedet for vassen. Et glass gir deg en helt grei søt yoghurt med en dam på toppen.</p>`},
+<p>Tre ting må skje, og rekkefølgen betyr noe. Melken kokes inn, og det konsentrerer proteinet så den ferdige yoghurten blir fast. Sukkeret karamelliseres for seg og røres inn, og det gir både fargen og den svake brente tonen. Og kulturen går ikke i før melken er kjølt ned til kroppstemperatur, for noe varmere dreper den, og da setter ikke krukkene seg.</p>
+<p>Den uglaserte leirkrukka er ikke pynt. Den er porøs og trekker vann ut gjennom veggen mens yoghurten setter seg, og massen blir fast i stedet for vassen. Et glass gir deg en helt grei søt yoghurt med en dam på toppen.</p>`},
   ingredients:[
    {group:{en:'', no:''}, items:[
     {q:1200, u:'ml', n:{en:'whole milk', no:'helmelk'}, note:{en:'the higher the fat the better', no:'jo høyere fettinnhold, jo bedre'}},
     {q:120, u:'g', n:{en:'sugar', no:'sukker'}, note:{en:'for caramelising', no:'til karamellisering'}},
     {q:60, u:'g', n:{en:'palm sugar or jaggery', no:'palmesukker eller jaggery'}, note:{en:'optional, for a darker flavour', no:'valgfritt, for en mørkere smak'}},
-    {q:80, u:'g', n:{en:'natural yoghurt with live cultures', no:'yoghurt naturell med levende kultur'}, note:{en:'at room temperature', no:'i romtemperatur'}},
+    {q:80, u:'g', n:{en:'natural yoghurt with live cultures', no:'naturell yoghurt med levende kultur'}, note:{en:'at room temperature', no:'i romtemperatur'}},
    ]}],
   steps:[
     {en:'Bring the milk to a simmer in a wide heavy pan and keep it there, stirring often and scraping the sides, until it has reduced by about a third. This takes twenty-five minutes and cannot be rushed.',
      no:'Kok opp melken i en vid, tung kjele og la den småkoke mens du rører ofte og skraper langs kantene, til den er kokt inn til omtrent to tredeler. Det tar tjuefem minutter og lar seg ikke forseres.'},
     {en:'While it reduces, melt the sugar in a dry pan over a medium flame without stirring it. Let it turn the colour of dark honey and then take it straight off the heat.',
-     no:'Mens melken koker inn: smelt sukkeret i en tørr panne på middels varme uten å røre. La det bli så mørkt som mørk honning, og ta det så rett av platen.'},
+     no:'Mens melken koker inn: smelt sukkeret i en tørr panne på middels varme uten å røre. La det få fargen av mørk honning, og ta det så rett av platen.'},
     {en:'Pour a ladle of the hot milk into the caramel. It will hiss and seize, which is expected. Stir it until the caramel dissolves.',
      no:'Hell en sleiv av den varme melken i karamellen. Den freser og stivner til, og det skal den. Rør til karamellen er løst opp.'},
     {en:'Tip the caramel back into the pan of milk, add the palm sugar if you are using it, and stir until everything is smooth and evenly coloured.',
@@ -369,7 +369,7 @@ window.RECIPES['IN-BEN'] = [
            no:'Porøs leire trekker vann ut gjennom veggen mens yoghurten setter seg, så massen konsentreres utenfra og inn. Du kan se at det virker: utsiden av krukka er fuktig de første par timene.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Use the fattest plain yoghurt you can find as the starter, and check the label says live cultures.',
-           no:'Bruk den feteste naturelle yoghurten du finner som startkultur, og se etter at det står levende kulturer på pakken. Norsk yoghurt naturell er tykkere enn indisk dahi, så pisk den ut med litt av den lune melken før den går i. Uglaserte leirkrukker selges i indiske butikker og i hagesentre som små urtepotter; skyll dem og la dem stå i vann en time før bruk. Jaggery eller palmesukker får du i indiske og asiatiske butikker; mørk muscovado er den nærmeste erstatningen i dagligvarebutikken.'}}],
+           no:'Bruk den feteste naturelle yoghurten du finner som startkultur, og se etter at det står levende kulturer på pakken. Norsk naturell yoghurt er tykkere enn indisk dahi, så pisk den ut med litt av den lune melken før den går i. Uglaserte leirkrukker selges i indiske butikker og i hagesentre som små urtepotter; skyll dem og la dem stå i vann en time før bruk. Jaggery eller palmesukker får du i indiske og asiatiske butikker; mørk muscovado er den nærmeste erstatningen i dagligvarebutikken.'}}],
   variations:[
     {title:{en:'Nolen gur doi', no:'Nolen gur doi'},
      body:{en:'In winter Bengal makes this with nolen gur, fresh date-palm jaggery, instead of caramelised sugar. The flavour is smokier and more floral, and the season lasts only a few weeks.',

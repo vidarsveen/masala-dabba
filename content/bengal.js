@@ -92,7 +92,7 @@ window.READINGS['IN-BEN'] = {
     heroCaption: "Panch phoron: fennel, cumin, fenugreek, nigella and radhuni, mixed in roughly equal parts and never ground.",
     summary: "Five seeds that go into hot oil whole, an oil sharp enough to make your eyes water, and a kitchen that grinds its spices wet rather than dry.",
     html: `
-<p class="lead">A Bengali cook heats mustard oil until it stops smelling raw and a faint haze rises off it. Then a spoonful of five seeds goes in, and the pan answers at once: the mustard seeds jump, the fenugreek darkens, and the whole kitchen smells of fennel and something like burnt onion. That single moment is where most Bengali savoury dishes begin, and almost nothing in it has been ground.</p>
+<p class="lead">A Bengali cook heats mustard oil until it stops smelling raw and a faint haze rises off it. Then a spoonful of five seeds goes in, and the pan answers at once: the cumin crackles, the fenugreek darkens, and the whole kitchen smells of fennel and something like burnt onion. That single moment is where most Bengali savoury dishes begin, and almost nothing in it has been ground.</p>
 
 <p>This module covers the eastern quarter of India, which means West Bengal, Bihar, Jharkhand and Odisha. Bengal anchors it, because Bengal's cooking is the most codified and the most written about, but the other three are not footnotes. Bihar eats wheat and roasted gram where Bengal eats rice. Odisha has a temple kitchen that feeds thousands a day. Jharkhand cooks forest food that has no equivalent anywhere else in the country. Where they diverge from Bengal, this course says so.</p>
 

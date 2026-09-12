@@ -6,7 +6,7 @@ window.QUIZ_NO['IN-BEN'] = [
  [
   {q:'Hvorfor males panch phoron aldri?',
    a:['Skikken forbyr det, av andre grunner enn matlagingen',
-      'De fem frøene koker i ulik takt, og hele holder de seg fra hverandre i retten',
+      'De fem frøene koker i ulik takt, og bare hele frø holder smakene fra hverandre i retten',
       'Blandingen er for oljete til å males på stein',
       'Den males i Bengal, men ikke i Odisha'],
    c:1, why:'Bukkehornkløver svir seg på sekunder, mens fennikel trenger lengre tid. Males de sammen, koker de i samme takt og smaker ingenting bestemt.'},
@@ -18,7 +18,7 @@ window.QUIZ_NO['IN-BEN'] = [
    c:2, why:'Kaldpresset sennepsolje er skarp av allylisotiocyanat. Varmes den til den så vidt ryker, brenner den rå kanten av; sløyfer du steget, smaker retten av flasken.'},
   {q:'Hva gjør en rå sennepspasta bitter?',
    a:['At den males for lenge, eller kokes for hardt',
-      'At det har i salt',
+      'At den saltes',
       'At det brukes kaldt vann i stedet for varmt',
       'At den blir stående en time'],
    c:0, why:'Varme sammen med vann setter i gang enzymet som lager bitterstoffene. Derfor males pastaen raskt, med salt og gurkemeie, og går i retten mot slutten.'}
@@ -35,7 +35,7 @@ window.QUIZ_NO['IN-BEN'] = [
       'Kokt ris som står i vann over natten og spises kald og svakt syrlig',
       'Den første risen fra aman-avlingen',
       'Rismel dampet i en bambussylinder'],
-   c:1, why:'Retten begynte som en måte å holde kokt ris spiselig gjennom en varm natt uten kjøleskap, og ble til noe folk vil ha for sin egen del. Odisha holder en egen dag for den hver mars.'},
+   c:1, why:'Retten begynte som en måte å holde kokt ris spiselig gjennom en varm natt uten kjøleskap, og den ble etter hvert noe folk virkelig vil ha. Odisha holder en egen dag for den hver mars.'},
   {q:'Hvorfor åpner et bengalsk måltid med noe bittert?',
    a:['Bitre grønnsaker blir fortest dårlige, så de spises først',
       'Det er en portugisisk vane som ble sittende',
@@ -54,14 +54,14 @@ window.QUIZ_NO['IN-BEN'] = [
    a:['En gryte kjøttet forsegles i',
       'En blanding av hele garam masala-krydder',
       'Å steke noe langsomt ned med svært lite væske',
-      'Et stykke geitekjøtt skåret fra bogen'],
-   c:2, why:'Kosha mangsho har navn etter teknikken. Kokken steker kjøttet ned, har i en skvett vann hver gang det svir seg, og steker det ned igjen, i nesten en time.'},
+      'Et stykke geitekjøtt fra bogen'],
+   c:2, why:'Kosha mangsho har navn etter teknikken. Kokken steker kjøttet ned, har i en skvett vann hver gang det truer med å svi seg, og steker det ned igjen, i nesten en time.'},
   {q:'Hvordan endte striden om hvem som fant opp rasgullaen?',
    a:['Vest-Bengal vant, og Odisha trakk kravet sitt',
       'Odisha vant på grunnlag av kildene fra Jagannath-tempelet',
       'Ingen av kravene ble registrert, så begge er fortsatt uformelle',
       'Begge delstatene har geografisk opprinnelsesbetegnelse, for to ulike produkter med hvert sitt navn'],
-   c:3, why:'Banglar Rasogolla ble registrert i 2017 og Odisha Rasagola i 2019. De er anerkjent som to forskjellige produkter, og det er den ærlige utgangen.'}
+   c:3, why:'Banglar Rasogolla ble registrert i 2017 og Odisha Rasagola i 2019. De er anerkjent som to forskjellige produkter, og det er den ærlige konklusjonen.'}
  ],
  [
   {q:'Hvorfor trekkes påstanden om at portugiserne lærte Bengal å skille melk, i tvil?',

@@ -110,7 +110,7 @@ window.RECIPES['IN-KER'] = [
     {q:30, u:'g', n:{en:'ginger', no:'ingefær'}, note:{en:'in matchsticks', no:'i tynne staver'}},
     {q:4, u:'', n:{en:'green chillies', no:'grønne chili'}, round:'half', note:{en:'slit lengthways', no:'flekket på langs'}},
     {q:6, u:'', n:{en:'green cardamom pods', no:'grønne kardemommekapsler'}, round:'half', note:{en:'bruised', no:'lett knust'}},
-    {q:6, u:'', n:{en:'cloves', no:'nellikspiker'}, round:'half'},
+    {q:6, u:'', n:{en:'cloves', no:'hele nellik'}, round:'half'},
     {q:1, u:'', n:{en:'piece of cinnamon bark', no:'bit kanelbark'}, round:'half'},
     {q:2, u:'', n:{en:'sprigs of curry leaf', no:'kvister karriblad'}, round:'half'},
     {q:500, u:'ml', n:{en:'thin coconut milk', no:'tynn kokosmelk'}, note:{en:'the watery part of the can, or the second pressing', no:'den tynne delen av boksen, eller andre pressing'}},

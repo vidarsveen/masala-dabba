@@ -20,7 +20,7 @@ window.RECIPES['IN-PUN'] = [
 <p>Three things do the real work. The long boil breaks down leaves that are too pungent to eat quickly. The mashing is done with a wooden masher rather than a blender, so the texture stays rough and the dish never turns into soup. And a handful of maize flour goes in near the end, which thickens the greens and brings a faint sweetness that answers the mustard.</p>
 <p>Traditionally it stands overnight and is reheated, and it is better for it. Make it the day before if you can, and add the final tempering and the butter when you serve.</p>`,
     no:`<p>Dette er en vinterrett, og den later ikke som noe annet. Sennepsblader står på jordene i Punjab fra omtrent desember til februar, og retten forsvinner sammen med dem. Lager du den utenom sesongen med de bladene du får tak i, ender du med en grønn grønnsakpuré, og den er grei, men den er ikke saag.</p>
-<p>Tre ting gjør den egentlige jobben. Den lange kokingen bryter ned blader som er for skarpe til å spises raskt. Mosingen skjer med en stamper av tre og ikke med stavmikser, så konsistensen holder seg grov og retten aldri blir suppe. Og en neve maismel går i mot slutten, som tykner bladene og gir en svak sødme som svarer på sennepen.</p>
+<p>Tre ting gjør den egentlige jobben. Den lange kokingen bryter ned blader som er for skarpe til å spises raskt. Mosingen skjer med en stamper av tre og ikke med stavmikser, så konsistensen holder seg grov og retten ikke blir til suppe. Og mot slutten går det i en neve maismel, som tykner bladene og gir en svak sødme som står mot sennepen.</p>
 <p>Tradisjonelt står retten natten over og varmes opp igjen, og den blir bedre av det. Lag den dagen før hvis du kan, og ha i den siste temperingen og smøret når du serverer.</p>`},
   ingredients:[
    {group:{en:'The greens', no:'Bladene'}, items:[
@@ -69,7 +69,7 @@ window.RECIPES['IN-PUN'] = [
            no:'En stavmikser emulgerer bladet og gjør saag til en glatt grønn suppe uten struktur til å bære brødet. Mosingen river fibrene i stedet for å kutte dem, så noe struktur overlever, og retten blir noe du kan ta opp med et stykke roti.'}},
     {title:{en:'Why the maize flour matters twice', no:'Hvorfor maismelet betyr noe to ganger'},
      body:{en:'It thickens, and it sweetens. Mustard leaf is bitter and sharp, and maize is the only starch in the Punjabi pantry that answers that with sweetness rather than with more starch. That is also why the bread beside it is made of the same flour.',
-           no:'Det tykner, og det søter. Sennepsblad er bittert og skarpt, og mais er den eneste stivelsen i det punjabiske skapet som svarer på det med sødme i stedet for med mer stivelse. Det er også grunnen til at brødet ved siden av lages av det samme melet.'}},
+           no:'Det tykner, og det søter. Sennepsblad er bittert og skarpt, og mais er den eneste stivelsen i et punjabisk kjøkken som svarer med sødme i stedet for med mer stivelse. Det er også grunnen til at brødet ved siden av lages av det samme melet.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Fresh mustard greens turn up in Asian and Indian shops in winter and nowhere else. Frozen chopped sarson saag in a packet is an honest substitute and is sold in the same shops.',
            no:'Ferske sennepsblader dukker opp i asiatiske og indiske butikker om vinteren og ingen andre steder. Frossen hakket sarson saag i pose er en ærlig erstatning og selges i de samme butikkene, for eksempel på Grønland i Oslo. Får du ingen av delene, bruk spinat med ruccola og litt grønnkål, og godta at retten blir mildere. Maismelet må være makki ka atta: norsk maisenna er ren stivelse og polentagryn er altfor grovt, og ingen av dem gjør jobben.'}}],
@@ -117,7 +117,7 @@ window.RECIPES['IN-PUN'] = [
     {en:'Divide the dough into eight. Wet your palms, roll one piece into a ball, and flatten it between wet hands into a disc about the thickness of a finger.',
      no:'Del deigen i åtte. Fukt håndflatene, rull én del til en kule, og klapp den flat mellom våte hender til en skive omtrent så tykk som en finger.'},
     {en:'If the edge cracks, press it back together with a wet fingertip. A sheet of plastic and the flat of your hand works too, and is easier the first few times.',
-     no:'Sprekker kanten, trykk den sammen igjen med en våt fingertupp. Et plastark og håndbaken fungerer også, og det er lettere de første gangene.'},
+     no:'Sprekker kanten, trykk den sammen igjen med en våt fingertupp. Et plastark og håndflaten fungerer også, og det er lettere de første gangene.'},
     {en:'Lay the bread on the hot pan. Cook for about a minute and a half, until the underside has pale brown spots, then turn it.',
      no:'Legg brødet på den varme pannen. Stek i omtrent halvannet minutt, til undersiden har lysebrune flekker, og snu det.'},
     {en:'Cook the second side the same way, then press it gently all over with a folded cloth so it puffs in patches. Do not let it go hard.',
@@ -127,7 +127,7 @@ window.RECIPES['IN-PUN'] = [
   notes:[
     {title:{en:'Why the water has to be hot', no:'Hvorfor vannet må være varmt'},
      body:{en:'Hot water swells and gelatinises part of the maize starch, and that gel is the only thing standing in for gluten. Cold water gives you wet sand that will not hold a shape however long you knead it.',
-           no:'Varmt vann sveller og forklistrer en del av maisstivelsen, og den geleen er det eneste som trer inn i glutenets sted. Kaldt vann gir deg våt sand som ikke holder formen uansett hvor lenge du elter.'}},
+           no:'Varmt vann sveller og forklistrer en del av maisstivelsen, og den geleen er det eneste som erstatter glutenet. Kaldt vann gir deg våt sand som ikke holder formen uansett hvor lenge du elter.'}},
     {title:{en:'Why they are eaten at once', no:'Hvorfor de spises med en gang'},
      body:{en:'There is no gluten network to trap steam, so the bread never stays soft the way a wheat roti does. Within twenty minutes it is firm and within an hour it is brittle, which is why a Punjabi kitchen makes them while people eat.',
            no:'Det finnes ingen glutenstruktur som fanger damp, så brødet holder seg aldri mykt slik en hveteroti gjør. Etter tjue minutter er det fast og etter en time er det sprøtt, og derfor lager et punjabisk kjøkken dem mens folk spiser.'}},
@@ -204,10 +204,10 @@ window.RECIPES['IN-PUN'] = [
            no:'Salt bremser oppmykingen av skall på belgfrukter, og hel svart urad har et seigt skall fra før. Salter du i starten, kan det legge en time til kokingen uten at du får noe igjen for det. Salt når linsene har gitt etter.'}},
     {title:{en:'Why the tomato is cooked separately', no:'Hvorfor tomaten kokes for seg'},
      body:{en:'Acid stops pulses softening, so tomato added early leaves you with firm lentils and a thin gravy. Cooking it apart also drives off the raw taste, which no amount of simmering in the dal would do.',
-           no:'Syre hindrer belgfrukter i å mykne, så tomat som går i tidlig, gir deg faste linser og tynn saus. Å koke den for seg driver dessuten bort den rå smaken, og det ville ingen mengde småkoking i dalen klart.'}},
+           no:'Syre hindrer belgfrukter i å mykne, så tomat som går i tidlig, gir deg faste linser og tynn saus. Når den kokes for seg, forsvinner dessuten den rå smaken, og det ville ingen mengde småkoking i dalen klart.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'The pulse is sold as sabut urad, kali dal or ma di dal in Indian shops and is not the same as the split white urad next to it on the shelf.',
-           no:'Belgfrukten selges som sabut urad, kali dal eller ma di dal i indiske butikker, og den er ikke det samme som den delte hvite uraden ved siden av på hylla. Kashmiri chilipulver må kjøpes i samme butikk: det som heter «chilipulver» i norsk dagligvare, er ofte en taco-blanding med spisskummen og oregano i, og den ødelegger retten. Bruk kremfløte, ikke matfløte, som skiller seg i en syrlig saus.'}}],
+           no:'Belgfrukten selges som sabut urad, kali dal eller ma di dal i indiske butikker, og den er ikke det samme som den delte hvite uraden ved siden av på hylla. Kashmiri chilipulver må kjøpes i samme butikk: det som heter «chilipulver» i norsk dagligvare, er ofte en taco-blanding med spisskummen og oregano i, og den ødelegger retten. Bruk kremfløte og ikke matfløte, for matfløte skiller seg i en syrlig saus.'}}],
   variations:[
     {title:{en:'Ma di dal, the village version', no:'Ma di dal, landsbyversjonen'},
      body:{en:'Leave out the tomato, the cream and half the butter, and cook the lentils with only ginger, garlic and salt. It is leaner, smokier and much older than the restaurant dish, and it is what most Punjabi homes eat.',
@@ -231,9 +231,9 @@ window.RECIPES['IN-PUN'] = [
     en:`<p>The point of this dish, and the thing home versions usually miss, is that the chicken is cooked first and separately, hard and dry, before it ever meets the sauce. The story told in Delhi is that Punjabi refugee cooks rescued unsold tandoori chicken by simmering it in tomato, butter and cream. Whoever first did it, the mechanism is the recipe: you are saucing meat that already carries char.</p>
 <p>Poach raw chicken in the gravy and you get a perfectly nice creamy chicken curry with none of the smoke and none of the edges. Twenty minutes under a hot grill is the difference between the two, and it is not optional.</p>
 <p>The sauce itself is short. Tomato cooked down hard, butter, a little sugar to answer the acid, cream, and kasuri methi crushed in at the end to stop it tasting merely sweet.</p>`,
-    no:`<p>Poenget med denne retten, og det hjemmeversjoner som regel bommer på, er at kyllingen stekes først og for seg, hardt og tørt, før den i det hele tatt møter sausen. Historien som fortelles i Delhi, er at punjabiske flyktningkokker reddet usolgt tandoorikylling ved å la den småkoke i tomat, smør og fløte. Uansett hvem som gjorde det først, er mekanismen selve oppskriften: du sauser kjøtt som allerede har svimerker.</p>
+    no:`<p>Poenget med denne retten, og det hjemmeversjoner som regel bommer på, er at kyllingen stekes først og for seg, hardt og tørt, før den i det hele tatt møter sausen. Historien som fortelles i Delhi, er at punjabiske flyktningkokker reddet usolgt tandoorikylling ved å la den småkoke i tomat, smør og fløte. Uansett hvem som gjorde det først, er mekanismen selve oppskriften: du lager saus til kjøtt som allerede har svimerker.</p>
 <p>Trekker du rå kylling i sausen, får du en helt grei kremet kyllingkarri uten røyk og uten kanter. Tjue minutter under varm grill er forskjellen på de to, og den lar seg ikke hoppe over.</p>
-<p>Selve sausen er kort. Tomat kokt hardt ned, smør, litt sukker som svarer på syren, fløte, og kasuri methi knust i til slutt, så den ikke bare smaker søtt.</p>`},
+<p>Selve sausen er enkel. Tomaten kokes hardt ned, så går det i smør, litt sukker som møter syren, og fløte, og kasuri methi knuses i til slutt, så sausen ikke bare smaker søtt.</p>`},
   ingredients:[
    {group:{en:'The chicken', no:'Kyllingen'}, items:[
     {q:800, u:'g', n:{en:'boneless chicken thigh', no:'utbenet kyllinglår'}, note:{en:'in large pieces, skinned', no:'i store biter, uten skinn'}},
@@ -282,20 +282,20 @@ window.RECIPES['IN-PUN'] = [
   notes:[
     {title:{en:'Why the chicken is cooked twice', no:'Hvorfor kyllingen stekes to ganger'},
      body:{en:'The dish was invented to use meat that had already been through a tandoor, and the browning and smoke from that first cooking are ingredients in their own right. A gravy cannot produce them, which is why butter chicken made in one pot always tastes flat.',
-           no:'Retten ble funnet opp for å bruke opp kjøtt som allerede hadde vært gjennom en tandoor, og bruningen og røyken fra den første stekingen er ingredienser i seg selv. En saus kan ikke lage dem, og derfor smaker butter chicken laget i én gryte alltid flatt.'}},
+           no:'Retten ble funnet opp for å bruke opp kjøtt som allerede hadde vært gjennom en tandoor, og bruningen og røyken fra den første stekingen er ingredienser i seg selv. En saus kan ikke lage dem, og derfor smaker en butter chicken som lages i én gryte, alltid flatt.'}},
     {title:{en:'Why the sugar is not optional', no:'Hvorfor sukkeret ikke kan sløyfes'},
      body:{en:'Tinned tomato is sharply acidic and cream does not cancel acid, it only masks it. A little sugar brings the sauce back into balance and lets the spices come forward. Add it before the cream, and taste again after.',
            no:'Hermetisk tomat er skarpt syrlig, og fløte opphever ikke syre, den bare dekker over den. Litt sukker bringer sausen i balanse igjen og lar krydderet komme fram. Ha det i før fløten, og smak på nytt etterpå.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Use chicken thigh rather than breast: it survives a hard grilling and dry breast is the commonest fault in a home butter chicken.',
-           no:'Bruk kyllinglår og ikke bryst: låret tåler hard grilling, og tørt bryst er den vanligste feilen i en hjemmelaget butter chicken. Kashmiri chilipulver og kasuri methi finnes i indiske butikker på Grønland, og begge er nødvendige. Det som selges som «chilipulver» i norsk dagligvare, er ofte en taco-blanding, og det som selges som «paprikapulver», gir farge men ingen styrke. Kremfløte tåler sausen; matfløte skiller seg.'}}],
+           no:'Bruk kyllinglår og ikke bryst: låret tåler hard grilling, og tørt bryst er den vanligste feilen i en hjemmelaget butter chicken. Kashmiri chilipulver og kasuri methi finnes i indiske butikker på Grønland, og begge er nødvendige. Det som selges som «chilipulver» i norsk dagligvare, er ofte en taco-blanding, og det som selges som «paprikapulver», gir farge, men ingen styrke. Kremfløte tåler sausen; matfløte skiller seg.'}}],
   variations:[
     {title:{en:'Over charcoal', no:'Over kull'},
      body:{en:'Cook the marinated chicken on a barbecue instead of under the grill, on skewers and close to the coals. This is much nearer the original, and it is worth doing once so you know what the dish is aiming at.',
            no:'Stek den marinerte kyllingen på grillen ute i stedet for under grillelementet, på spyd og nær kullet. Det ligger langt nærmere originalen, og det er verdt å gjøre én gang, så du vet hva retten sikter mot.'}},
     {title:{en:'Paneer instead of chicken', no:'Paneer i stedet for kylling'},
      body:{en:'Marinate cubes of paneer for an hour only and grill them for six minutes, then treat them exactly as the chicken. Acid-set cheese holds together over fire, which is why this works and a melting cheese would not.',
-           no:'Marinér terninger av paneer i bare en time og grill dem i seks minutter, og behandle dem så nøyaktig som kyllingen. Ost som er satt med syre, holder sammen over ild, og derfor fungerer dette der en smeltende ost ikke ville gjort det.'}}]
+           no:'Marinér terninger av paneer i bare en time og grill dem i seks minutter, og behandle dem så akkurat som kyllingen. Ost som er satt med syre, holder sammen over ild, og derfor fungerer dette der en smeltende ost ikke ville gjort det.'}}]
 },
 
 {
@@ -307,14 +307,14 @@ window.RECIPES['IN-PUN'] = [
   heroCaption:{en:'A lassi shop in Amritsar. What it serves is the thick sweet kind; the everyday drink at home is thinner and salted.',
                no:'En lassibutikk i Amritsar. Det de serverer, er den tykke søte typen; hverdagsdrikken hjemme er tynnere og saltet.'},
   goesWith:[{en:'Any Punjabi meal, and every hot afternoon', no:'Ethvert punjabisk måltid, og hver varm ettermiddag'},
-            {en:'Chole bhature, which needs something to cut it', no:'Chole bhature, som trenger noe å skjære gjennom seg'}],
+            {en:'Chole bhature, which needs something to cut it', no:'Chole bhature, som trenger noe som skjærer gjennom fettet'}],
   headnote:{
     en:`<p>Lassi is a by-product before it is a drink. A Punjabi household churns yesterday's curd with water to make butter, the butter rises and is lifted off, and what is left in the pot is lassi. That is why the real thing is thin and slightly sour rather than thick and sweet, and why it is drunk by the tumbler in the fields rather than by the small glass in a shop.</p>
 <p>Everything here depends on the yoghurt. Norwegian natural yoghurt is thicker and milder than Indian dahi, so it wants more water than you would expect and a day or two of age helps. If yours is very fresh and mild, leave it out of the fridge for a few hours before you use it.</p>
 <p>The roasted cumin is not decoration. It is a savoury, slightly smoky note that turns a dairy drink into something you can have with a meal, and grinding it yourself from whole seed takes a minute and is worth it.</p>`,
     no:`<p>Lassi er et biprodukt før den er en drikk. En punjabisk husholdning kjerner gårsdagens syrnede melk med vann for å lage smør, smøret stiger opp og løftes av, og det som blir igjen i gryta, er lassi. Derfor er den ekte varianten tynn og litt syrlig heller enn tykk og søt, og derfor drikkes den i store glass ute på jordene og ikke i små glass i en butikk.</p>
-<p>Alt her henger på yoghurten. Norsk naturell yoghurt er tykkere og mildere enn indisk dahi, så den trenger mer vann enn du skulle tro, og et døgn eller to på alder hjelper. Er din helt fersk og mild, la den stå i romtemperatur i noen timer før du bruker den.</p>
-<p>Den ristede spisskummen er ingen pynt. Den gir en smaksrik og litt røykpreget tone som gjør en melkedrikk til noe du kan ha til maten, og å male den selv fra hele frø tar ett minutt og er verdt det.</p>`},
+<p>Alt her henger på yoghurten. Norsk naturell yoghurt er tykkere og mildere enn indisk dahi, så den trenger mer vann enn du skulle tro, og det hjelper om den er et døgn eller to gammel. Er yoghurten din helt fersk og mild, la den stå i romtemperatur i noen timer før du bruker den.</p>
+<p>Den ristede spisskummen er ingen pynt. Den gir en smaksrik og litt røykpreget tone som gjør en melkedrikk til noe du kan ha til maten, og maler du den selv fra hele frø, tar det ett minutt og er verdt bryet.</p>`},
   ingredients:[{group:{en:'', no:''}, items:[
     {q:600, u:'g', n:{en:'natural yoghurt', no:'naturell yoghurt'}, note:{en:'full fat, and a day or two old', no:'med fullt fettinnhold, og et døgn eller to gammel'}},
     {q:450, u:'ml', n:{en:'very cold water', no:'iskaldt vann'}, scale:'sub'},
@@ -332,7 +332,7 @@ window.RECIPES['IN-PUN'] = [
     {en:'Add the cold water in three or four goes, whisking between each, until the drink is thin enough to pour freely.',
      no:'Ha i det kalde vannet i tre-fire omganger og visp mellom hver, til drikken er tynn nok til å helles fritt.'},
     {en:'Whisk in the ground cumin and salt it. Salt it more firmly than feels right; it is a savoury drink and cold dulls salt.',
-     no:'Visp inn den malte spisskummen og salt. Salt kraftigere enn det føles riktig, for dette er en salt drikk, og kulde demper saltsmaken.'},
+     no:'Visp inn den malte spisskummen og salt. Salt kraftigere enn det som føles riktig, for dette er en salt drikk, og kulde demper saltsmaken.'},
     {en:'Beat it hard for half a minute more, or blitz it briefly, until a light foam sits on top. That froth is what a churn gives you and it matters to the mouthfeel.',
      no:'Pisk kraftig i et halvt minutt til, eller kjør den kort med stavmikser, til det ligger et lett skum på toppen. Det skummet er det kjernen gir, og det betyr noe for munnfølelsen.'},
     {en:'Chill for twenty minutes. Taste again cold and correct the salt, because it will have gone flat.',
@@ -342,20 +342,20 @@ window.RECIPES['IN-PUN'] = [
   notes:[
     {title:{en:'Why it is salted and not sweetened', no:'Hvorfor den saltes og ikke søtes'},
      body:{en:'Salted lassi is what a field worker drinks in forty-degree heat, and the salt replaces what sweating takes out. The sweet version with cream on top is a shop drink and a treat, not the everyday one.',
-           no:'Saltet lassi er det en som arbeider på jordet drikker i førti graders varme, og saltet erstatter det svetten tar ut. Den søte varianten med fløte på toppen er en butikkdrikk og en godbit, ikke hverdagsdrikken.'}},
+           no:'Saltet lassi er det folk drikker når de arbeider på jordet i førti graders varme, og saltet erstatter det svetten tar ut. Den søte varianten med fløte på toppen er en butikkdrikk og en godbit, ikke hverdagsdrikken.'}},
     {title:{en:'Why the yoghurt is whisked alone first', no:'Hvorfor yoghurten vispes alene først'},
      body:{en:'Yoghurt is a set gel, and adding water to a gel gives you lumps suspended in liquid. Breaking the gel down first and then thinning it gives a drink that stays mixed instead of separating in the glass.',
            no:'Yoghurt er en stivnet gelé, og har du vann i en gelé, får du klumper som flyter i væske. Bryter du geléen ned først og tynner den etterpå, får du en drikk som holder seg blandet i stedet for å skille seg i glasset.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Use plain natural yoghurt with its full fat, not a low-fat or flavoured one, and not skyr, which is far too thick and sets like a paste when it meets water.',
-           no:'Bruk vanlig naturell yoghurt med fullt fettinnhold, ikke en lettvariant eller en med smak, og ikke skyr, som er altfor tykk og setter seg som en masse når den møter vann. Norsk kulturmelk er ikke lassi: den er tynnere, syrnet med andre bakterier og smaker mer surt, og bruker du den, må du sløyfe vannet helt. Spisskummenfrø kjøpes hele i en indisk butikk, og ikke forveksle dem med karve.'}}],
+           no:'Bruk vanlig naturell yoghurt med fullt fettinnhold, ikke en lettvariant eller en med smak, og ikke skyr, som er altfor tykk og setter seg som en masse når den møter vann. Norsk kulturmelk er ikke lassi: den er tynnere, den er syrnet med andre bakterier, og den smaker surere, og bruker du den, må du sløyfe vannet helt. Spisskummenfrø kjøpes hele i en indisk butikk, og ikke forveksle dem med karve.'}}],
   variations:[
     {title:{en:'Sweet lassi', no:'Søt lassi'},
      body:{en:'Leave out the cumin and the salt, use half the water, and sweeten with sugar and a little cream on top. This is the Amritsari shop version, and it is a dessert rather than a drink with a meal.',
            no:'Sløyf spisskummen og saltet, bruk halvparten så mye vann, og søt med sukker og litt fløte på toppen. Dette er butikkversjonen fra Amritsar, og den er en dessert heller enn en drikk til maten.'}},
     {title:{en:'Mango lassi', no:'Mangolassi'},
      body:{en:'Blend ripe mango pulp in with the yoghurt and use less water. It is a genuine Indian drink but a summer and restaurant one, and it belongs nowhere near a plate of saag.',
-           no:'Kjør moden mangofruktkjøtt sammen med yoghurten og bruk mindre vann. Det er en ekte indisk drikk, men en sommer- og restaurantdrikk, og den hører ikke hjemme i nærheten av en tallerken med saag.'}}]
+           no:'Kjør modent mangofruktkjøtt sammen med yoghurten og bruk mindre vann. Det er en ekte indisk drikk, men en sommer- og restaurantdrikk, og den hører ikke hjemme i nærheten av en tallerken med saag.'}}]
 }
 
 ];
