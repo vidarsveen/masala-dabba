@@ -61,6 +61,11 @@ produces a single-file version.
 | `docs/regions.min.json` | the fourteen region polygons, built by `tools/build_regions.py`. |
 | `docs/india_state.geojson` | source state boundaries, 22 MB, git-ignored. Re-download: see §4. |
 | `docs/dem_india_z7.npy` | elevation mosaic, 41 MB, git-ignored. Re-download: `python tools/fetch_dem.py`. |
+| `docs/NE2_HR_LC_SR_W*` | Natural Earth land cover, 325 MB zipped and 700 MB unpacked, git-ignored. Re-download: `python tools/fetch_ne2.py`. |
+
+**`docs/` holds about 1.1 GB of source data on a working clone and none of it is committed.** All of it is
+re-downloadable and only needed to re-bake the map, so it is safe to delete when disk matters — the baked
+result in `assets/terrain/` is what the app actually loads, and that is 800 KB and committed.
 | `build.py` | makes `dist/masala-dabba.html`: inlines content, photos, terrain and any narration in `HOSTED_AUDIO`. |
 | `tools/wire.py` | regenerates the app's content `<script src>` tags from `course.json`. Run after adding any content file. `--check` for CI. |
 | `tools/make_site.py` | makes `site/` (plain files, full audio, no size limit) — what Pages publishes. |
