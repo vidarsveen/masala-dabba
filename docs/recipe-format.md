@@ -25,8 +25,9 @@ Every prose field is `{en: '…', no: '…'}`. Numbers, units, ids and keys have
 ```js
 {
   id:'avial',              // unique across the whole course, kebab-case; the URL is #/recipes/<id>
-  dish:'Avial',            // a COURSE['IN-KER'].dishes NAME, character for character, or '' for none
-                           // (dishes are [name, vegetarian] pairs; match the name, element 0)
+  dish:'Avial',            // the ENGLISH COURSE['IN-KER'].dishes name, character for character, or ''
+                           // (dishes are [name, vegetarian] pairs; match the name, element 0). The sheet
+                           // looks a recipe up by position, so course.no.js may translate the chip freely
   course:'side',           // breakfast | snack | main | side | bread | rice | sweet | base
   veg:true,                // true if it contains no meat, fish or egg; shows the green mark
   lesson:3,                // 1–4: the reading this dish is described in, or 0 for none

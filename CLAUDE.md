@@ -168,14 +168,24 @@ ones that bite hardest here:
 
 ### Names and transliteration, decided before any writing
 
-- **Translate ingredients**, keep **dish, spice-blend and technique names** in their own form, and gloss the
-  first mention. So `linser`, `kikerter`, `spisskummen`, `sennepsfrø`, but `dal`, `panch phoron`, `dosa`,
-  `thali`, `tadka`, `puttu`. It works because Indian dish names have no Norwegian equivalent while the
-  ingredients all do.
-- **Common English spelling, no diacritics**: paneer, not panīr. Kozhikode and Calicut are both fine; use the
-  one the sentence is about (Calicut for 1498, Kozhikode for the beach today).
-- Norwegian keeps the same dish names, so `recipeForDish` matches in both languages. Do not translate a name
-  in `course.no.js` that a recipe's `dish` field points at.
+- **If it has a Norwegian name, use the Norwegian name.** Kanel, kardemomme, svart pepper, karriblad,
+  kokosolje, sennepsfrø, nellik, valmuefrø, stjerneanis, bambusskudd. English is the fallback only when
+  there is genuinely nothing else, and an Indian name with no Norwegian form (kudampuli, gongura, panch
+  phoron, dal, thali, tadka, puttu, dosa) is not English and stays.
+- **Where the original name is worth keeping, put the Norwegian first and the original in brackets**:
+  «Safran (kong)», «Spisskummen (jeera)», «Stekt oksekjøtt (beef fry)». The bracket carries the word you
+  would have to say in a shop.
+- This applies to the **region sheet**, not only the prose. The spice list and the dish chips are the most
+  visible Norwegian on the page and the easiest to forget, which is exactly what happened once already.
+  `tools/spicecheck.py` now lints them against a list of English words that have ordinary Norwegian
+  equivalents, and the lint ignores anything in brackets.
+- **Common English spelling for Indian words, no diacritics**: paneer, not panīr. Kozhikode and Calicut are
+  both fine; use the one the sentence is about (Calicut for 1498, Kozhikode for the beach today).
+- **Names are translated freely because nothing is keyed on them.** `COURSE_NO.spices` and `.dishes` are
+  matched to the English lists **by position**, and the spice card key and `recipeForDish` both read the
+  English name out of the base `COURSE`. `COURSE_NO` therefore only carries the translated name: the spice's
+  kind and the dish's vegetarian flag are structure and stay in the base entry. Keep the two lists the same
+  length and in the same order, or the sheet silently mismatches; `spicecheck.py` checks that too.
 
 ## 7. The spice layer (what replaced wine)
 

@@ -664,8 +664,15 @@ const COURSE = {
 function renderSpices(C, code){
   const ul = document.querySelector('#sheet ul.spices');
   const cards = (lang === 'no' ? window.SPICE_NO : window.SPICE) || {};
-  ul.innerHTML = C.spices.map(([n,t], si) => {
-    const card = cards[code + '|' + n];
+  // The card key and the displayed name are deliberately different things. Cards are keyed on the
+  // English name, which is stable; COURSE_NO supplies the Norwegian one to show. Keying the lookup
+  // on what is displayed would have silently emptied every card the moment a name was translated.
+  // The kind (whole / ground / blend / fresh / souring) is structure, not language, so it is read
+  // from the base entry and COURSE_NO only has to carry the translated name.
+  const base = COURSE[code].spices;
+  ul.innerHTML = C.spices.map(([n], si) => {
+    const b = base[si] || [n, 'whole'], t = b[1];
+    const card = cards[code + '|' + b[0]];
     return `<li class="${card ? 'has-card' : ''}" data-s="${si}"><i class="${t}"></i><span>${esc(n)}</span><small>${T('spice.'+t)}</small>`
       + (card ? '<span class="chev">\u203a</span>' : '')
       + '</li>'
@@ -1360,7 +1367,8 @@ function select(code){
   sheet.querySelector('.landmark span').textContent = C.landmark.desc;
   renderSpices(C, code);
   sheet.querySelector('.pair span').textContent = C.plate;
-  sheet.querySelector('.dishes').innerHTML = C.dishes.map(([d, veg]) => { const rc = recipeForDish(code, d);
+  sheet.querySelector('.dishes').innerHTML = C.dishes.map(([d], di) => { const rc = recipeForDish(code, di);
+    const veg = ((COURSE[code].dishes || [])[di] || [])[1];
     const mark = veg ? `<i class="veg" title="${T('vegetarian')}" aria-label="${T('vegetarian')}"></i>` : '';
     return rc ? `<a href="#/recipes/${rc.id}">${esc(d)}${mark}</a>` : `<span>${esc(d)}${mark}</span>`; }).join('');
   sheet.querySelector('.body').scrollTop = 0;
@@ -1574,7 +1582,10 @@ const SERVE_MIN = 1, SERVE_MAX = 12;
 function recipesOf(code){ return (window.RECIPES || {})[code] || []; }
 function allRecipes(){ const out = []; for(const code of ORDER) for(const r of recipesOf(code)) out.push(Object.assign({code}, r)); return out; }
 function recipeById(id){ return allRecipes().find(r => r.id === id) || null; }
-function recipeForDish(code, dish){ return recipesOf(code).find(r => r.dish === dish) || null; }
+// `dish` on a recipe is the English name, because it has to be one stable string. The sheet passes
+// the position in COURSE[code].dishes rather than the text it is showing, so a translated chip in
+// course.no.js still finds its recipe.
+function recipeForDish(code, i){ const d = (COURSE[code].dishes || [])[i]; return d ? (recipesOf(code).find(r => r.dish === d[0]) || null) : null; }
 // The first region that actually has readings, for the 'see a finished module' link on an
 // unwritten one. Derived, so it follows the course as it is written rather than naming Lazio.
 function firstWritten(){ return ORDER.find(c => (window.READINGS || {})[c]) || null; }

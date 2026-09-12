@@ -53,6 +53,9 @@ The field is optional in the English file, where it would mostly repeat the read
 4. **`swap` must be honest.** If nothing substitutes, say so and say to leave it out rather than to fake it.
 5. Keep every field under about 190 characters, because these are read on a phone inside a bottom sheet.
 6. Norwegian is bokmål written to `CLAUDE.md` §6, from the facts rather than from the English sentence.
+7. **The card key stays English; the displayed name does not.** Cards are keyed `IN-KER|Cinnamon` in both
+   files, and `content/course.no.js` supplies «Kanel» for the sheet to show. The two are matched by position,
+   so the Norwegian `spices[]` must have the same entries in the same order. Never translate a card key.
 
 ## Checking
 
@@ -60,3 +63,8 @@ The field is optional in the English file, where it would mostly repeat the read
 card in both languages, that every field is present and short enough, that no card exists for a spice on no
 sheet, and that every Norwegian card carries a sourcing note. A region with no cards written yet is skipped,
 so the check is useful from the first region onwards.
+
+It also lints the **region sheet's** Norwegian names in `content/course.no.js`: the `spices[]` and `dishes[]`
+lists must be the same length as the English ones, and no name may leave an English word standing that has an
+ordinary Norwegian equivalent. Anything in brackets is treated as the original-language gloss and ignored,
+and `chili`, `pepper` and `soya` are not flagged because they are the Norwegian words too.
