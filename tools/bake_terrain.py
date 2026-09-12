@@ -12,7 +12,15 @@ India needs a different tint ramp from Italy's. The interesting elevations are n
 but 0-8000, and most of the country's food-growing land sits under 700 m, so the ramp spends
 its contrast low down and compresses everything above the Ghats.
 
-Usage: python tools/bake_terrain.py
+Colour comes from Natural Earth II if docs/NE2_HR_LC_SR_W/ is present, and from the elevation
+ramp below if it is not. That matters more here than it would anywhere else: an elevation-only
+tint paints the Thar desert and the wet Gangetic plain the same green, because both sit at about
+200 m, and the whole argument of this course is that where the rain falls decides what grows.
+Natural Earth already encodes land cover, so the desert reads as desert. The hillshade, the
+bathymetry and the desaturation of everything outside India stay ours either way.
+
+  python tools/fetch_ne2.py       # downloads and unpacks the raster (310 MB, git-ignored)
+  python tools/bake_terrain.py
 """
 import json, math, os, sys
 
@@ -86,6 +94,30 @@ def hs(az, alt):
 
 
 shade = 0.55 * hs(315, 40) + 0.25 * hs(270, 35) + 0.2 * hs(0, 50)
+
+
+def natural_earth():
+    """Natural Earth II colour for exactly our crop, or None if the raster is not downloaded.
+
+    NE2 is a plate carree image of the whole world, so the sampling is: for each pixel of our
+    Web Mercator crop, work out its longitude and latitude, then read the NE2 pixel there. Done
+    with index arrays rather than a loop, which is the difference between a second and an hour.
+    """
+    import glob
+    hits = glob.glob(os.path.join(ROOT, 'docs', 'NE2_HR_LC_SR_W', '*.tif'))
+    if not hits:
+        return None
+    Image.MAX_IMAGE_PIXELS = None
+    ne = np.asarray(Image.open(hits[0]).convert('RGB'))
+    nh, nw = ne.shape[:2]
+    # our crop, in absolute tile pixels, then back to lon/lat
+    px = np.arange(W) + cx0 + X0 * 256
+    py = np.arange(H) + cy0 + Y0 * 256
+    lon = px / N * 360.0 - 180.0
+    lat = np.degrees(np.arctan(np.sinh(np.pi * (1 - 2 * py / N))))
+    ix = np.clip(((lon + 180.0) / 360.0 * nw).astype(np.int32), 0, nw - 1)
+    iy = np.clip(((90.0 - lat) / 180.0 * nh).astype(np.int32), 0, nh - 1)
+    return ne[iy[:, None], ix[None, :]].astype(np.float32)
 # the ramp spends its contrast under 700 m, where almost all the cooking happens
 stops = [(0, (104, 144, 92)), (120, (132, 162, 100)), (350, (170, 180, 112)), (700, (198, 180, 124)),
          (1200, (186, 156, 114)), (2200, (164, 146, 130)), (3600, (176, 172, 172)),
@@ -98,7 +130,32 @@ for i in range(len(stops) - 1):
     m = ((e >= e0) & (e < e1))[..., None]
     img = np.where(m, np.array(c0) * (1 - t) + np.array(c1) * t, img)
 img = np.where((e >= stops[-1][0])[..., None], np.array(stops[-1][1], dtype=np.float32), img)
-img = img * (0.5 + 0.65 * shade[..., None])
+
+ne = natural_earth()
+if ne is not None:
+    # Natural Earth knows the land cover, which is the thing an elevation ramp cannot know: the
+    # Thar and the Gangetic plain are both about 200 m and look nothing alike. But NE2 is drawn
+    # pale for print and has almost no value structure, so a quarter of the elevation ramp goes
+    # back in to give the map depth, and the ramp keeps the snow line outright, which NE2 renders
+    # far too timidly for a map whose northern third is the Himalaya.
+    snow = np.clip((e - 3800) / 1400.0, 0, 1)[..., None]
+    img = (ne * 0.76 + img * 0.24) * (1 - snow) + img * snow
+    print('colour from Natural Earth II')
+else:
+    print('colour from the elevation ramp (run tools/fetch_ne2.py for land cover)')
+
+# Natural Earth II is already a *shaded* relief, so multiplying it by a second full-strength
+# hillshade double-shades it and washes the whole map out. Ours still earns its place -- it comes
+# from the DEM at this zoom and is sharper than NE2's -- but it has to modulate gently. The
+# elevation ramp carries no shading of its own and wants the full amount.
+if ne is not None:
+    img = img * (0.58 + 0.60 * shade[..., None])
+    # NE2 is deliberately pale for print; lift saturation and contrast a little for a screen
+    grey = (img @ np.array([0.3, 0.59, 0.11]))[..., None]
+    img = np.clip(grey + (img - grey) * 1.22, 0, 255)
+    img = np.clip((img - 128.0) * 1.06 + 128.0, 0, 255)
+else:
+    img = img * (0.5 + 0.65 * shade[..., None])
 # outside India: quieter, so India is the figure and its neighbours the ground
 gray = img @ np.array([0.3, 0.59, 0.11])
 gray = np.repeat(gray[..., None], 3, axis=2)

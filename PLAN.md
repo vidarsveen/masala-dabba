@@ -102,9 +102,12 @@ mountains and that monsoon. Baked at zoom 7 rather than Italy's 8, with the vert
 
 ## 5. Known limitations, recorded so they are not rediscovered
 
-- **The relief tint is elevation-only.** The Thar desert and the wet Gangetic plain are both about 200 m and
-  therefore both green. Fixing it needs a rainfall or vegetation layer blended into the bake, which is a
-  half-day and not obviously worth it.
+- ~~The relief tint is elevation-only.~~ **Fixed 2026-09-12.** Colour now comes from Natural Earth II, a
+  public-domain cross-blended raster that already encodes land cover, so the Thar reads as desert and the
+  Gangetic plain as irrigated green where an elevation ramp made both the same colour. A quarter of the old
+  ramp is blended back for depth, because NE2 is drawn pale for print, and the ramp keeps the snow line
+  outright. `python tools/fetch_ne2.py` downloads the raster (310 MB, git-ignored); the bake falls back to
+  the elevation ramp if it is absent, so a fresh clone still works without it.
 - **Goa is very small.** 0.3 square degrees against Rajasthan's 31, and ten times smaller relative to the
   country than Valle d'Aosta was to Italy. It is reachable through its pin and its rail chip, but it is worth
   watching on a phone. Folding it into Maharashtra was rejected: Goan food is too distinct.

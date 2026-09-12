@@ -5,6 +5,8 @@ site/
 # large source data for the terrain bake; the baked result in assets/terrain is committed
 docs/dem_india_z7.npy
 docs/india_state.geojson
+docs/NE2_HR_LC_SR_W.zip
+docs/NE2_HR_LC_SR_W/
 
 # NARRATION IS NOT COMMITTED. See CLAUDE.md §5: the Italian repo's .git reached 905 MB, most of it
 # two full copies of one narration pass, because the audio was committed and then re-recorded.

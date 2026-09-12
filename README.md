@@ -77,7 +77,7 @@ Run `python tools/wire.py` after adding a content file; it regenerates the app's
 ## Credits
 
 Photographs are from Wikimedia Commons under CC0, CC BY or CC BY-SA, credited under every image and in a
-credits panel at the foot of each reading. Elevation data is AWS Terrain Tiles. Region boundaries are GADM
-via `github.com/geohacker/india`.
+credits panel at the foot of each reading. Elevation data is AWS Terrain Tiles. The map's land colour is
+Natural Earth II. Region boundaries are GADM via `github.com/geohacker/india`.
 
 `CLAUDE.md` is the operating manual; `PLAN.md` is the roadmap.
