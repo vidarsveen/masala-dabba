@@ -18,7 +18,8 @@ in the box, why it is in the box, and what changes when you cross a state line.
 ## Status
 
 **One region written end to end: Kerala.** Four readings in both languages, sixteen photographs, six spice
-cards, twelve recap questions per language, four recipes. The other thirteen regions have their map polygons,
+cards, twelve recap questions per language, four recipes, and about forty minutes of narration across the
+two languages. The other thirteen regions have their map polygons,
 their sheet summaries, their landmarks and their four reading titles, and say "reading coming soon" until
 they are written.
 

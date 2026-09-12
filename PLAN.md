@@ -4,9 +4,9 @@
 
 ## 1. Status, 2026-09-12
 
-The repo exists, the engine is ported, the map is built, and **Kerala is written end to end except for the
-narration**: four readings in English and Norwegian, sixteen photographs, six spice cards, twelve recap
-questions per language, four recipes. The other thirteen regions have polygons, summaries, landmarks and
+The repo exists, the engine is ported, the map is built, and **Kerala is written end to end**: four readings
+in English and Norwegian, sixteen photographs, six spice cards, twelve recap questions per language, four
+recipes, and about forty minutes of narration. Every headless test passes. The other thirteen regions have polygons, summaries, landmarks and
 reading titles, and degrade to "reading coming soon".
 
 Everything below is either a decision already taken, with its reason, or a question for the owner.
@@ -86,14 +86,17 @@ mountains and that monsoon. Baked at zoom 7 rather than Italy's 8, with the vert
 
 ## 4. Next, in order
 
-1. Narrate Kerala, English and Norwegian, and listen to it (`python tools/narrate.py kerala`, then
-   `tools/normalise.py` and `tools/opus.py`). The prose rules in `CLAUDE.md` §6 were written for the ear and
-   this is where they get tested.
-2. Fix the headless tests, which still carry Italian region codes in places.
-3. Create the GitHub repo and publish (`CLAUDE.md` §10). `gh` is not installed, so this is a manual step.
+1. **Listen to Kerala.** Both languages, on a phone, through the audiobook page. This is the test the prose
+   rules in `CLAUDE.md` §6 exist for, and the owner is the only person who can run it.
+2. Create the GitHub repo and publish (`CLAUDE.md` §10). `gh` is not installed, so this is a manual step, and
+   so is uploading `dist/audio.tar.gz` to the `audio` release.
+3. **Decide the Norwegian voice.** Kerala is narrated with edge-tts `nb-NO-PernilleNeural`, which is what the
+   Italian course used before it was re-recorded with the National Library's `nb-tts-voxcpm2` voice «Kvinne ·
+   Oslo» and judged better. Re-recording eight files is cheap; re-recording fifty-six is not, so this is
+   worth settling now. `tools/voicelab.py` renders the same script in every candidate.
 4. Region two, once the owner has read Kerala.
-5. Landmark models: the fourteen builders are primitives-only first drafts. The Chinese fishing nets, the
-   Charminar and Sanchi read well; the root bridge and Mehrangarh need another pass.
+5. Landmark models: the fourteen builders are primitives-only first drafts. The Charminar, Sanchi and the
+   Golden Temple read well; the root bridge and Mehrangarh need another pass.
 
 ## 5. Known limitations, recorded so they are not rediscovered
 

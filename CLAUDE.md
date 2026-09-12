@@ -32,8 +32,9 @@ narrated readings in English and Norwegian bokmål. One HTML file plus content a
 produces a single-file version.
 
 - Owner: Vidar (Norwegian). Both languages matter equally. Mobile first, always test on a phone viewport.
-- **Done: one region, Kerala** (`IN-KER`), end to end minus narration: four readings EN+NO, 16 photographs,
-  6 spice cards, 12 recap questions per language, 4 recipes. The other thirteen have polygons, sheet
+- **Done: one region, Kerala** (`IN-KER`), end to end: four readings EN+NO, 16 photographs, 6 spice cards,
+  12 recap questions per language, 4 recipes, and 8 narration files (19.8 min English, 19.8 Norwegian,
+  edge-tts, normalised to -19 LUFS). The other thirteen have polygons, sheet
   summaries, landmarks and reading titles, and say "reading coming soon".
 - The name is the owner's call and is not final. It is one constant away: `course.json` `title` and `slug`,
   the `<title>`, the masthead `<h1>` and the intro `<h2>`. See §13.
@@ -204,6 +205,12 @@ why rather than what, two or three variations, and one of the notes is always th
 Recipes are never narrated, so editing one cannot make an audio file stale.
 
 ## 9. Testing
+
+**Run the player and audiobook tests against the source tree, not `dist/`**: `HOSTED_AUDIO` is empty, so
+the dist file has no narration in it and both tests will report no manifest. Pass the URL:
+`python tools/test/playertest.py "http://127.0.0.1:8765/masala-dabba.html?instant&region=IN-KER&lesson=2"`.
+And **re-run `tools/wire.py` after the first narration run**, because `manifest.js` does not exist until
+`build.py` has written it, so the wiring pass before it silently leaves the region without audio.
 
 Serve the folder: `python -m http.server 8765 --bind 127.0.0.1 --directory <repo>` (background it, stop it
 afterwards, and check nothing else already holds the port). Chrome:

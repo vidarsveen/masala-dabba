@@ -52,12 +52,14 @@ try:
     js("location.hash='#/audiobook'"); time.sleep(3)
     ok("the audiobook page opens", js("document.getElementById('book').classList.contains('open')"))
     n = js("document.querySelectorAll('#book .ch').length")
-    ok("eighty chapters listed", n == 80, n)
+    # one chapter per written reading, not per region in ORDER: unwritten regions have no audio
+    want = js("Object.keys(window.READINGS_NO||window.READINGS||{}).length") * 4
+    ok("a chapter for every written reading", n == want, "%s of %s" % (n, want))
     ok("chapters are grouped by region",
-       js("document.querySelectorAll('#book .blist h3').length") == 20,
+       js("document.querySelectorAll('#book .blist h3').length") == want // 4,
        js("document.querySelectorAll('#book .blist h3').length"))
-    ok("the first chapter is Valle d'Aosta reading 1",
-       "Europas" in (js("document.querySelector('#book .ch .t').textContent") or ""),
+    ok("the first chapter is the first written reading",
+       "Pepper" in (js("document.querySelector('#book .ch .t').textContent") or ""),
        js("document.querySelector('#book .ch .t').textContent"))
     ok("total time is shown", "t" in (js("document.querySelector('#book .btotal').textContent") or ""),
        js("document.querySelector('#book .btotal').textContent"))
@@ -70,23 +72,26 @@ try:
        js("document.querySelector('#book .pp').textContent") == "\u275a\u275a")
 
     # jump to a chapter further in
-    js("document.querySelectorAll('#book .ch')[9].click()"); time.sleep(4)
+    # the third chapter, whatever the course currently holds; with every region written this
+    # reached chapter ten, but the test has to work from the first region onwards
+    JUMP = 3
+    js("document.querySelectorAll('#book .ch')[%d].click()" % (JUMP - 1)); time.sleep(4)
     on = js("document.querySelector('#book .ch.is-on .n').textContent")
-    ok("tapping a chapter jumps to it", on == "10", on)
-    ok("now-playing header follows", "10 " in (js("document.querySelector('#book .bnow .sub').textContent") or ""),
+    ok("tapping a chapter jumps to it", on == str(JUMP), on)
+    ok("now-playing header follows", ("%d " % JUMP) in (js("document.querySelector('#book .bnow .sub').textContent") or ""),
        js("document.querySelector('#book .bnow .sub').textContent"))
     ok("earlier chapters are marked played",
-       js("document.querySelectorAll('#book .ch.is-played').length") == 9,
+       js("document.querySelectorAll('#book .ch.is-played').length") == JUMP - 1,
        js("document.querySelectorAll('#book .ch.is-played').length"))
 
     # next / prev
     js("document.querySelector('#book .next').click()"); time.sleep(3)
-    ok("next chapter", js("document.querySelector('#book .ch.is-on .n').textContent") == "11")
+    ok("next chapter", js("document.querySelector('#book .ch.is-on .n').textContent") == str(JUMP + 1))
     js("document.querySelector('#book .prev').click()"); time.sleep(3)
-    ok("previous chapter", js("document.querySelector('#book .ch.is-on .n').textContent") == "10")
+    ok("previous chapter", js("document.querySelector('#book .ch.is-on .n').textContent") == str(JUMP))
 
     saved = js("localStorage.getItem('mdb-book:no')")
-    ok("position is saved for resuming", saved and '"i":9' in saved, saved)
+    ok("position is saved for resuming", saved and ('"i":%d' % (JUMP - 1)) in saved, saved)
     shot("book.png")
 
     # leaving pauses, and does not touch course progress
@@ -99,13 +104,13 @@ try:
     # resume
     js("location.hash='#/audiobook'"); time.sleep(4)
     ok("reopening resumes the same chapter",
-       js("document.querySelector('#book .ch.is-on .n').textContent") == "10",
+       js("document.querySelector('#book .ch.is-on .n').textContent") == str(JUMP),
        js("document.querySelector('#book .ch.is-on .n').textContent"))
 
     # language
     js("document.querySelector(\"#lang button[data-lang='en']\").click()"); time.sleep(4)
     ok("switching language rebuilds the book in English",
-       "highest" in (js("document.querySelector('#book .ch .t').textContent") or "").lower(),
+       "pepper" in (js("document.querySelector('#book .ch .t').textContent") or "").lower(),
        js("document.querySelector('#book .ch .t').textContent"))
     ok("English progress is kept separately",
        js("document.querySelector('#book .ch.is-on .n').textContent") == "1",
