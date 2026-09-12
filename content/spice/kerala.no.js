@@ -13,7 +13,7 @@ Object.assign(window.SPICE_NO, {
  },
  'IN-KER|Cardamom': {
    aroma: 'Eukalyptus og sitron over noe harpiksaktig. En kapsel knust mellom fingrene lukter nesten medisinsk.',
-   flavour: 'Kjølig og søt først, deretter svakt kamferaktig og tørrende. Bruker du for mye, smaker retten såpe.',
+   flavour: 'Kjølig og søt først, deretter svakt kamferaktig og tørrende. Bruker du for mye, smaker retten av såpe.',
    does: 'Parfymerer heller enn å krydre. I Kerala brukes den langt oftere i salte retter enn i søtsaker.',
    when: 'Hele kapsler som knuses lett og slippes i fettet i starten; malt frø bare i søtsaker og i masalablandinger.',
    swap: 'Ingen ærlig erstatning. Sløyf den heller enn å bruke ferdigmalt pulver, som har mistet oljen.',
@@ -25,13 +25,13 @@ Object.assign(window.SPICE_NO, {
    does: 'Runder av krydderblandinger og gir en kokossaus en sødme som ikke kommer fra sukker.',
    when: 'En kort bit bark i varm olje sammen med de andre hele krydderne, før løken.',
    swap: 'Kassia fungerer, men bruk omtrent halvparten, for den er mye sterkere.',
-   sourcing: 'Det som selges som kanelstang i norske dagligvarebutikker, er nesten alltid kassia. Ekte kanel, ceylonkanel, er lysere og lar seg smuldre mellom fingrene, og den finnes i krydderbutikker og på nett.'
+   sourcing: 'Kanelstengene i norske dagligvarebutikker er nesten alltid kassia. Ekte kanel, ceylonkanel, er lysere og lar seg smuldre mellom fingrene, og den finnes i krydderbutikker og på nett.'
  },
  'IN-KER|Curry leaf': {
    aroma: 'Sitrusskall og ristede nøtter, og duften slippes først løs når bladet treffer varmt fett.',
    flavour: 'Smaksrik og litt bitter, mer en bakgrunn enn en smak du kan peke på i den ferdige retten.',
-   does: 'Bestemmer lukten av et sørindisk kjøkken. Nesten enhver tempering avsluttes med en neve blader kastet i oljen.',
-   when: 'I varm olje i noen sekunder til de knitrer, enten i starten eller som en siste tempering som helles over.',
+   does: 'Bestemmer lukten av et sørindisk kjøkken. Nesten hver eneste tadka ender med en neve blader i den varme oljen.',
+   when: 'I varm olje i noen sekunder til de knitrer, enten i starten eller i en siste tadka som helles over.',
    swap: 'Ingen. Tørkede blader smaker ingenting, så sløyf dem og godta at retten blir en annen.',
    sourcing: 'Ferske karriblader kommer inn i indiske butikker på Grønland med noen ukers mellomrom. Kjøp mye når du finner dem og frys dem hele i pose; de tåler frysing godt. Ikke kjøp tørkede.'
  },
@@ -45,9 +45,9 @@ Object.assign(window.SPICE_NO, {
  },
  'IN-KER|Kudampuli': {
    aroma: 'Røykpreget og svakt syrlig, som en tørket frukt som har stått nær et bål, og det er nettopp det den er.',
-   flavour: 'Ren, skarp syre uten sødme. Den smaker ingenting som tamarind og brukes ikke som den.',
-   does: 'Syrner fiskekarri, strammer opp fiskekjøttet og holder karrien spiselig i to-tre dager uten kjøleskap.',
-   when: 'Skylles, og legges så i hel tidlig i kokingen, så den rekker å gi fra seg syren.',
+   flavour: 'Ren, skarp syre uten sødme. Den smaker ikke som tamarind, og den brukes ikke på samme måte heller.',
+   does: 'Syrner fiskekarri, strammer opp fiskekjøttet og holder karrien spiselig i to–tre dager uten kjøleskap.',
+   when: 'Skylles og legges hele i gryta tidlig i kokingen, så bitene rekker å gi fra seg syren.',
    swap: 'Tamarind forandrer retten, men fungerer; en bit tørket kokum ligger nærmere. Sitron er siste utvei.',
    sourcing: 'Selges i norske indiske butikker som «kudampuli», «kokum» eller «fish tamarind», og de tre er ikke det samme. Spør etter den svarte, læraktige og røkte varianten fra Kerala, ikke de lyse tørkede skivene.'
  }

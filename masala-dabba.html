@@ -383,11 +383,13 @@
   /* ---------- wide screens */
   @media (min-width:900px){
     #top{ padding:18px 20px; background:none; justify-content:flex-start; gap:14px; align-items:baseline; right:440px; }
-    #recipeBtn span, #bookBtn span{ display:inline; }
     #recipeBtn, #bookBtn{ padding:0 13px; align-self:center; }
-    #top .sub{ display:none; }   /* the strapline only where the row is not already full */
+    /* The sheet takes the right 440 px, so a 900 px window leaves this row 460 px. That is not
+       enough for the masthead, the strapline, the progress pill and two labelled buttons, and at
+       900-1100 px they used to overlap each other. The labels and the strapline each wait for a
+       width that can hold them; the icons alone read perfectly well until then. */
+    #top .sub{ display:none; }
     #top h1{ font-size:30px; }
-    #top .sub{ display:inline; }
     #prog{ margin-left:auto; }
     #prog .bar{ width:56px; }
     #rail{ left:20px; right:auto; top:78px; bottom:20px; width:236px; border-radius:10px; flex-direction:column; gap:0; overflow:auto; padding:6px 0 10px; scrollbar-width:thin; scroll-snap-type:none;
@@ -420,6 +422,7 @@
     .rfoot{ padding:28px 24px 0; }
     .rnext{ grid-template-columns:1fr 1fr; }
   }
+  @media (min-width:1150px){ #recipeBtn span, #bookBtn span{ display:inline; } }
   @media (min-width:1280px){ #top .sub{ display:inline; white-space:nowrap; } }
   @media (prefers-reduced-motion: reduce){ #sheet, #reader, #prog .bar i{ transition:none; } }
 </style>
@@ -509,6 +512,12 @@ const REGIONS = [{"name":"Kashmir & the Himalaya","code":"IN-HIM","c":[77.113,32
 <script src="content/glossary.js"></script>
 <script src="content/glossary.no.js"></script>
 <script src="content/course.no.js"></script>
+<script src="content/punjab.js"></script>
+<script src="content/punjab.no.js"></script>
+<script src="content/spice/punjab.js"></script>
+<script src="content/spice/punjab.no.js"></script>
+<script src="content/rajasthan.js"></script>
+<script src="content/bengal.js"></script>
 <script src="content/kerala.js"></script>
 <script src="content/kerala.no.js"></script>
 <script src="content/spice/kerala.js"></script>

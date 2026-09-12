@@ -11,7 +11,7 @@ window.RECIPES['IN-KER'] = [
   blurb:{en:'The everyday Kerala fish curry: thin, red, sharply sour, and better tomorrow.',
          no:'Keralas hverdagskarri med fisk: tynn, rød, skarpt sur, og bedre i morgen.'},
   heroCaption:{en:'Meen curry in an unglazed clay pot. The gravy should coat a spoon, not pool like a sauce.',
-               no:'Meen curry i uglasert leirgryte. Sausen skal legge seg på en skje, ikke ligge som en saus.'},
+               no:'Meen curry i uglasert leirgryte. Kraften skal legge seg på skjeen, ikke samle seg som en tykk saus.'},
   goesWith:[{en:'Red matta rice, or plain boiled rice', no:'Rød mattaris, eller vanlig kokt ris'},
             {en:'A thoran of green beans', no:'En thoran av grønne bønner'}],
   headnote:{
@@ -19,8 +19,8 @@ window.RECIPES['IN-KER'] = [
 <p>The sourness is doing real work. Kudampuli firms the flesh of the fish rather than breaking it down, and it keeps the curry edible for two or three days in a hot climate without a fridge. That is why a Kerala cook makes it in the evening for tomorrow's lunch, and why the second day genuinely tastes better than the first.</p>
 <p>Cook it in unglazed clay if you have a pot. Clay holds a low heat gently, which suits a gravy that must never boil hard once the fish is in, and a seasoned pot carries something of every curry made in it before. A heavy steel or enamelled pan is a fair substitute. A thin one is not.</p>`,
     no:`<p>Dette er den retten en kysthusholdning i Kerala lager oftest, og nesten ingenting ved den stemmer med det en europeer venter seg av en indisk fiskekarri. Den strengeste versjonen inneholder verken kokosmelk, fløte, tomat eller tykk saus. I stedet inneholder den svært mye sjalottløk, en neve tørket rød chili for fargen, og kudampuli, det røkte skallet som syrner den.</p>
-<p>Syren gjør en reell jobb. Kudampuli strammer opp fiskekjøttet i stedet for å bryte det ned, og den holder karrien spiselig i to-tre dager i varmt klima uten kjøleskap. Derfor lager en kokk i Kerala den om kvelden til lunsj dagen etter, og derfor smaker den andre dagen virkelig bedre enn den første.</p>
-<p>Bruk uglasert leirgryte hvis du har en. Leire holder på lav varme forsiktig, og det passer en saus som aldri skal fosskoke etter at fisken har gått i. En tung stålgryte eller en emaljert jerngryte gjør nesten samme nytte. En tynn gjør det ikke.</p>`},
+<p>Syren gjør en reell jobb. Kudampuli strammer opp fiskekjøttet i stedet for å bryte det ned, og den holder karrien spiselig i to–tre dager i varmt klima uten kjøleskap. Derfor lager en kokk i Kerala den om kvelden til lunsj dagen etter, og derfor smaker den virkelig bedre den andre dagen enn den første.</p>
+<p>Bruk uglasert leirgryte hvis du har en. Leire holder jevnt på en lav varme, og det passer en kraft som aldri skal fosskoke etter at fisken har gått i. En tung stålgryte eller en emaljert jerngryte gjør nesten samme nytte. En tynn panne gjør det ikke.</p>`},
   ingredients:[{group:{en:'', no:''}, items:[
     {q:600, u:'g', n:{en:'firm white fish, in thick pieces', no:'fast hvit fisk, i tykke stykker'}, note:{en:'sei, cod cheek, monkfish or kingfish', no:'sei, torsk, breiflabb eller kongemakrell'}},
     {q:5, u:'', n:{en:'pieces of kudampuli', no:'biter kudampuli'}, round:'half', note:{en:'rinsed, soaked 10 minutes', no:'skylt, bløtlagt i 10 minutter'}},
@@ -29,7 +29,7 @@ window.RECIPES['IN-KER'] = [
     {q:20, u:'g', n:{en:'garlic', no:'hvitløk'}, note:{en:'sliced', no:'skivet'}},
     {q:3, u:'', n:{en:'green chillies', no:'grønne chili'}, round:'half', note:{en:'slit lengthways', no:'flekket på langs'}},
     {q:2, u:'', n:{en:'sprigs of curry leaf', no:'kvister karriblad'}, round:'half'},
-    {q:18, u:'g', n:{en:'Kashmiri chilli powder', no:'Kashmiri chilipulver'}, note:{en:'for colour, not heat', no:'for fargen, ikke styrken'}},
+    {q:18, u:'g', n:{en:'Kashmiri chilli powder', no:'Kashmiri-chilipulver'}, note:{en:'for colour, not heat', no:'for fargen, ikke styrken'}},
     {q:5, u:'g', n:{en:'turmeric', no:'gurkemeie'}},
     {q:3, u:'g', n:{en:'fenugreek seed', no:'bukkehornkløverfrø'}},
     {q:8, u:'g', n:{en:'black mustard seed', no:'svarte sennepsfrø'}},
@@ -49,11 +49,11 @@ window.RECIPES['IN-KER'] = [
     {en:'Return the pan, add the water and the soaked kudampuli with its soaking water, and salt it. Simmer uncovered for ten minutes, until the gravy darkens and thickens a little.',
      no:'Sett pannen tilbake, ha i vannet og den bløtlagte kudampulien med bløtevannet, og salt. La det småkoke uten lokk i ti minutter, til sausen mørkner og tykner litt.'},
     {en:'Slide in the fish in a single layer. Do not stir with a spoon from here on; swirl the pan instead, or the pieces break.',
-     no:'Legg fisken i ett lag. Ikke rør med skje fra nå av; sving heller på pannen, ellers går stykkene i stykker.'},
+     no:'Legg fisken i ett lag. Ikke rør med skje fra nå av; sving heller på pannen, ellers brekker fiskestykkene.'},
     {en:'Simmer very gently, barely bubbling, for eight to ten minutes, until the fish is just set through.',
      no:'La det småkoke svært forsiktig, så vidt boblende, i åtte til ti minutter, til fisken akkurat er gjennomkokt.'},
     {en:'Taste for salt and sour. If it is too sharp, a few minutes more simmering rounds it; if it is flat, leave the kudampuli in longer.',
-     no:'Smak til med salt og syre. Er den for skarp, runder noen minutter til på platen den av; er den flat, la kudampulien ligge lenger.'},
+     no:'Smak til med salt og syre. Er den for skarp, hjelper noen minutter til på platen; er den flat, la kudampulien ligge lenger.'},
     {en:'Scatter the second sprig of curry leaf over, cover, and take the pan off the heat. Leave it to stand at least twenty minutes before serving.',
      no:'Strø den andre kvisten karriblad over, legg på lokk og ta pannen av platen. La den stå i minst tjue minutter før servering.'},
     {en:'Serve with red matta rice. Tomorrow it will be better still, and it does not need reheating past warm.',
@@ -61,7 +61,7 @@ window.RECIPES['IN-KER'] = [
   notes:[
     {title:{en:'Why the chilli goes in off the heat', no:'Hvorfor chilien går i med kjelen av platen'},
      body:{en:'Ground chilli and turmeric burn at a much lower temperature than whole spices, and burnt chilli powder is bitter in a way nothing later can fix. Pulling the pan off for fifteen seconds costs nothing and removes the risk entirely.',
-           no:'Malt chili og gurkemeie svir seg ved langt lavere temperatur enn hele krydder, og svidd chilipulver er bittert på en måte ingenting senere retter opp. Å trekke pannen av i femten sekunder koster ingenting og fjerner risikoen helt.'}},
+           no:'Malt chili og gurkemeie svir seg ved langt lavere temperatur enn hele krydder, og svidd chilipulver er bittert på en måte ingenting senere retter opp. Femten sekunder med pannen av platen koster ingenting og fjerner risikoen helt.'}},
     {title:{en:'Why it improves overnight', no:'Hvorfor den blir bedre over natten'},
      body:{en:'The acid in the kudampuli keeps working on the fish and the gravy after the heat is off, and the shallot sweetness has time to come forward. This is the opposite of how a European treats cooked fish, and it is worth trusting.',
            no:'Syren i kudampulien fortsetter å arbeide på fisken og sausen etter at varmen er skrudd av, og sødmen fra sjalottløken får tid til å komme fram. Dette er det motsatte av hvordan en europeer behandler kokt fisk, og det er verdt å stole på.'}},
@@ -82,7 +82,7 @@ window.RECIPES['IN-KER'] = [
   time:{prep:30, cook:45}, hero:'appam-stew', tags:['fermented','coconut milk','Syrian Christian'],
   title:{en:'Appam with stew', no:'Appam med stuing'},
   blurb:{en:'A fermented rice pancake, lacy at the rim, with the white stew that has no chilli powder in it.',
-         no:'En gjæret rispannekake med blondekant, og den hvite stuingen uten chilipulver i.'},
+         no:'En gjæret rispannekake med blondekant, og den hvite stuingen som ikke har chilipulver i seg.'},
   heroCaption:{en:'Appam with chicken stew. The thin rim goes crisp, the thick middle holds the gravy.',
                no:'Appam med kyllingstuing. Den tynne kanten blir sprø, og den tykke midten holder på sausen.'},
   goesWith:[{en:'Nothing else. This is a whole meal', no:'Ingenting mer. Dette er et helt måltid'}],
@@ -90,8 +90,8 @@ window.RECIPES['IN-KER'] = [
     en:`<p>Two things are happening here, and they come from the same kitchens: the Syrian Christian houses of central Travancore. The batter ferments overnight, which is what gives appam its sour edge and its holes, and the stew is deliberately built without chilli powder so that the whole spices can be tasted.</p>
 <p>That mildness surprises people who expect Kerala to be fierce. These families have had cardamom and pepper growing within sight of the house for centuries. A dish made to show them off has no reason to bury them.</p>
 <p>Start the batter the night before. Everything else takes under an hour, and the stew is better if it stands for twenty minutes before it is eaten.</p>`,
-    no:`<p>To ting skjer her, og begge kommer fra de samme kjøkkenene: de syrisk-kristne husene i Travancore. Røren gjærer over natten, og det gir appamen både syrlighet og hull, og stuingen er bevisst laget uten chilipulver slik at de hele krydderne kan smakes.</p>
-<p>Mildheten overrasker folk som venter seg at Kerala skal være hissig. Disse familiene har hatt kardemomme og pepper voksende innen synsvidde i århundrer. En rett som er laget for å vise dem fram, har ingen grunn til å begrave dem.</p>
+    no:`<p>To ting skjer her, og begge kommer fra de samme kjøkkenene: de syrisk-kristne husene i Travancore. Røren gjærer over natten, og det gir appamen både syrlighet og hull. Stuingen er med vilje laget uten chilipulver, slik at smaken av hele krydder kommer fram.</p>
+<p>Mildheten overrasker folk som venter seg at Kerala skal være hissig. I århundrer har disse familiene hatt kardemomme og pepper voksende i åsene rett utenfor huset. En rett som er laget for å vise dem fram, har ingen grunn til å begrave dem.</p>
 <p>Sett røren kvelden før. Alt annet tar under en time, og stuingen blir bedre hvis den får stå i tjue minutter før den spises.</p>`},
   ingredients:[
    {group:{en:'The appam batter', no:'Appamrøren'}, items:[
@@ -121,13 +121,13 @@ window.RECIPES['IN-KER'] = [
    ]}],
   steps:[
     {en:'The night before, drain the soaked rice and grind it with the cooked rice, the coconut and enough of the water to give a smooth batter the thickness of double cream.',
-     no:'Kvelden før: hell av bløtevannet, og kjør risen sammen med den kokte risen, kokosen og nok av vannet til at røren blir glatt og omtrent så tykk som kremfløte.'},
+     no:'Hell av bløtevannet kvelden før, og kjør risen sammen med den kokte risen, kokosen og nok av vannet til at røren blir glatt og omtrent så tykk som kremfløte.'},
     {en:'Stir in the yeast and the sugar, cover loosely and leave in a warm place overnight. By morning it should have risen and smell faintly sour.',
      no:'Rør inn gjæren og sukkeret, dekk løst til og la det stå lunt over natten. Om morgenen skal røren ha hevet seg og lukte svakt surt.'},
     {en:'For the stew, warm the coconut oil in a wide pan and add the cardamom, clove and cinnamon. Wait until they smell, about thirty seconds.',
-     no:'Til stuingen: varm kokosoljen i en vid panne og ha i kardemomme, nellik og kanel. Vent til det dufter, omtrent tretti sekunder.'},
+     no:'Varm kokosoljen til stuingen i en vid panne og ha i kardemomme, nellik og kanel. Vent til det dufter, omtrent tretti sekunder.'},
     {en:'Add the shallot, ginger, green chilli and one sprig of curry leaf. Cook over a low flame until the shallot collapses but stays pale, about ten minutes.',
-     no:'Ha i sjalottløk, ingefær, grønn chili og én kvist karriblad. La det surre på lav varme til løken faller sammen men holder seg lys, omtrent ti minutter.'},
+     no:'Ha i sjalottløk, ingefær, grønn chili og én kvist karriblad. La det surre på lav varme til løken faller sammen, men fortsatt er lys, omtrent ti minutter.'},
     {en:'Add the chicken, the potato and the thin coconut milk. Salt it, bring it to a bare simmer and cook covered for twenty-five minutes, until the potato yields to a knife.',
      no:'Ha i kyllingen, potetene og den tynne kokosmelken. Salt, la det så vidt småkoke og kok under lokk i tjuefem minutter, til potetene gir etter for en kniv.'},
     {en:'Turn off the heat. Stir in the thick coconut milk, the cracked pepper and the second sprig of curry leaf, and leave to stand. It must not boil again.',
@@ -137,7 +137,7 @@ window.RECIPES['IN-KER'] = [
     {en:'Pour in a ladle of batter and immediately swirl the pan in a full circle so the batter runs thin up the sides and settles thick in the middle.',
      no:'Hell i en sleiv med røre og sving pannen straks rundt i en hel sirkel, så røren renner tynt opp langs sidene og legger seg tykk i midten.'},
     {en:'Cover and cook for two to three minutes, until the rim lifts away golden and lacy and the centre is set and spongy. Do not turn it.',
-     no:'Legg på lokk og stek i to-tre minutter, til kanten slipper og er gyllen og blondeaktig og midten er stivnet og svampete. Ikke snu den.'},
+     no:'Legg på lokk og stek i to–tre minutter, til kanten er gyllen og blondeaktig og slipper av seg selv, mens midten er stivnet og svampete. Ikke snu den.'},
     {en:'Repeat with the rest of the batter, and serve the appams as they come, with the stew ladled into the hollow.',
      no:'Gjenta med resten av røren, og server appamene etter hvert som de blir ferdige, med stuingen øst ned i fordypningen.'}],
   notes:[
@@ -174,7 +174,7 @@ window.RECIPES['IN-KER'] = [
 <p>The vegetables are cut into batons of the same length so they cook evenly and can be picked up, and they are cooked in barely any water so they steam rather than boil. The coconut paste goes in at the end to bind, the curd goes in after that for acidity, and a spoonful of raw coconut oil finishes it off the heat.</p>
 <p>That last spoonful is the part outsiders leave out, and it is doing what a good olive oil does over a Tuscan soup. Without it the dish tastes flat, and no amount of salt fixes it.</p>`,
     no:`<p>Avial er retten du bør lage først hvis du vil forstå det vegetariske Kerala. Den er ingen karri. Ingenting stekes, ingen løk brunes, ingen krydder ristes, og resultatet er lyst, tykt og smaker tydelig av hver enkelt grønnsak i stedet for av en saus.</p>
-<p>Grønnsakene skjæres i staver av samme lengde så de blir ferdige samtidig og lar seg plukke opp, og de kokes i nesten ikke vann, så de damper i stedet for å koke. Kokospastaen går i til slutt for å binde, den syrnede melken kommer etter den for syren, og en skje rå kokosolje avslutter retten med kjelen av platen.</p>
+<p>Grønnsakene skjæres i staver av samme lengde så de blir ferdige samtidig og lar seg plukke opp, og de kokes i så lite vann at de damper i stedet for å koke. Kokospastaen går i til slutt for å binde, den syrnede melken kommer etter den for syren, og en skje rå kokosolje avslutter retten med kjelen av platen.</p>
 <p>Den siste skjeen er den delen utlendinger sløyfer, og den gjør det samme som god olivenolje gjør over en toskansk suppe. Uten den smaker retten flatt, og ingen mengde salt retter opp i det.</p>`},
   ingredients:[
    {group:{en:'', no:''}, items:[
@@ -202,7 +202,7 @@ window.RECIPES['IN-KER'] = [
     {en:'Add the softer vegetables, cover again and cook until everything is just tender, about six minutes more. Shake the pan rather than stirring, so the batons stay whole.',
      no:'Ha i de myke grønnsakene, legg på lokk igjen og kok til alt akkurat er mørt, omtrent seks minutter til. Rist på pannen i stedet for å røre, så stavene holder seg hele.'},
     {en:'While they cook, grind the coconut, cumin and remaining green chilli to a coarse paste with a very little water. It should hold together, not pour.',
-     no:'Mens de koker: kjør kokos, spisskummen og resten av den grønne chilien til en grov pasta med svært lite vann. Den skal henge sammen, ikke renne.'},
+     no:'Mens de koker, kjører du kokos, spisskummen og resten av den grønne chilien til en grov pasta med svært lite vann. Pastaen skal henge sammen, ikke renne.'},
     {en:'Spoon the paste over the vegetables, cover and leave over the lowest heat for four minutes so it warms through without drying out.',
      no:'Fordel pastaen over grønnsakene, legg på lokk og la det stå på lavest mulig varme i fire minutter, så den varmes gjennom uten å tørke ut.'},
     {en:'Fold everything together gently. The paste should coat the vegetables and leave almost no liquid in the pan.',
@@ -224,10 +224,10 @@ window.RECIPES['IN-KER'] = [
   variations:[
     {title:{en:'Sadya avial', no:'Sadya-avial'},
      body:{en:'For a feast, use raw plantain, yam, ash gourd and drumstick, and add a little sour mango instead of the yoghurt. It is drier and firmer, which suits a leaf where nothing should run.',
-           no:'Til et festmåltid: bruk rå kokebanan, yams, vintermelon og drumstick, og tilsett litt sur mango i stedet for yoghurten. Den blir tørrere og fastere, og det passer på et blad der ingenting skal renne.'}},
+           no:'Til et festmåltid bruker du rå kokebanan, yams, vintermelon og drumstick-belger, og litt sur mango i stedet for yoghurten. Retten blir tørrere og fastere, og det passer på et blad der ingenting skal renne.'}},
     {title:{en:'With whatever is in the fridge', no:'Med det som er i kjøleskapet'},
      body:{en:'Avial is a clearing-out dish and the vegetable list is a suggestion. Keep two rules: cut everything the same size, and do not use anything that falls apart, which rules out tomato and aubergine.',
-           no:'Avial er en rydderett, og lista over grønnsaker er et forslag. Hold to regler: skjær alt like stort, og bruk ikke noe som faller fra hverandre, og det utelukker tomat og aubergine.'}}]
+           no:'Avial er en rydderett, og lista over grønnsaker er et forslag. Hold to regler: skjær alt like stort, og ikke bruk noe som faller fra hverandre. Det utelukker tomat og aubergine.'}}]
 },
 
 {
@@ -246,7 +246,7 @@ window.RECIPES['IN-KER'] = [
 <p>The kadala curry beside it is dark, thick and roasted, and it is the counterweight. Black chickpeas are earthier and firmer than the pale ones, and the coconut in the gravy is browned rather than fresh, which is the opposite of what happens in avial.</p>`,
     no:`<p>Puttu er det enkleste i hele dette kurset og det vanskeligste å få til, for det finnes ingenting å gjemme seg bak. Rismel, vann, salt, revet kokos og damp. Verken fett, hevemiddel eller egg.</p>
 <p>Alt henger på fuktigheten i melet. Er det for tørt, smuldrer sylinderen til sand når den kommer ut; er det for vått, damper den seg til en kompakt masse. Prøven en kokk i Kerala bruker, er enkel: klem sammen en neve, og den skal holde formen og så falle fra hverandre når du gnir den mellom fingrene.</p>
-<p>Kadala-karrien ved siden av er mørk, tykk og ristet, og den er motvekten. Svarte kikerter er jordaktige og fastere enn de lyse, og kokosen i sausen brunes i stedet for å brukes fersk, og det er det motsatte av det som skjer i avial.</p>`},
+<p>Kadala-karrien ved siden av er mørk, tykk og ristet, og den er motvekten. Svarte kikerter smaker mer av jord og er fastere enn de lyse, og kokosen i sausen brunes i stedet for å brukes fersk. Det er det motsatte av det som skjer i avial.</p>`},
   ingredients:[
    {group:{en:'The puttu', no:'Puttuen'}, items:[
     {q:400, u:'g', n:{en:'roasted rice flour', no:'ristet rismel'}, note:{en:'sold as puttu podi', no:'selges som puttu podi'}},
@@ -261,7 +261,7 @@ window.RECIPES['IN-KER'] = [
     {q:20, u:'g', n:{en:'ginger', no:'ingefær'}},
     {q:15, u:'g', n:{en:'garlic', no:'hvitløk'}},
     {q:15, u:'g', n:{en:'coriander powder', no:'malt koriander'}},
-    {q:8, u:'g', n:{en:'Kashmiri chilli powder', no:'Kashmiri chilipulver'}},
+    {q:8, u:'g', n:{en:'Kashmiri chilli powder', no:'Kashmiri-chilipulver'}},
     {q:4, u:'g', n:{en:'turmeric', no:'gurkemeie'}},
     {q:4, u:'g', n:{en:'garam masala', no:'garam masala'}},
     {q:8, u:'g', n:{en:'black mustard seed', no:'svarte sennepsfrø'}},
@@ -274,7 +274,7 @@ window.RECIPES['IN-KER'] = [
     {en:'Boil the soaked chickpeas in salted water until tender but not bursting, about forty minutes, or twenty in a pressure cooker. Keep the cooking water.',
      no:'Kok de bløtlagte kikertene i saltet vann til de er møre uten å sprekke, omtrent førti minutter, eller tjue i trykkoker. Ta vare på kokevannet.'},
     {en:'Dry-roast the coconut for the paste in a pan over a medium flame, stirring constantly, until it is an even dark brown and smells of toffee. Grind it with a little water to a smooth paste.',
-     no:'Rist kokosen til pastaen tørt i en panne på middels varme, under stadig omrøring, til den er jevnt mørkebrun og lukter karamell. Kjør den med litt vann til en glatt pasta.'},
+     no:'Tørrist kokosen til pastaen i en panne på middels varme, under stadig omrøring, til den er jevnt mørkebrun og lukter av karamell. Kjør den med litt vann til en glatt pasta.'},
     {en:'In the same pan, warm the coconut oil, pop the mustard seed, then add the shallot, ginger, garlic and one sprig of curry leaf. Cook until the shallot is golden.',
      no:'Varm kokosoljen i samme panne, la sennepsfrøene sprette, og ha så i sjalottløk, ingefær, hvitløk og én kvist karriblad. La det surre til løken er gyllen.'},
     {en:'Pull the pan off the heat, stir in the coriander, chilli and turmeric, then return it and add the chickpeas with their cooking water.',
@@ -282,11 +282,11 @@ window.RECIPES['IN-KER'] = [
     {en:'Stir in the roasted coconut paste, salt it, and simmer for fifteen minutes until the gravy is thick and clings to the chickpeas. Finish with the garam masala and the second sprig of curry leaf.',
      no:'Rør inn den ristede kokospastaen, salt, og la det småkoke i femten minutter til sausen er tykk og henger på kikertene. Avslutt med garam masalaen og den andre kvisten karriblad.'},
     {en:'For the puttu, salt the rice flour and add the warm water a splash at a time, raking it in with your fingers, until a squeezed fistful holds together and then crumbles when rubbed.',
-     no:'Til puttuen: salt rismelet og ha i det lunkne vannet litt om gangen mens du river det inn med fingrene, til en sammenklemt neve holder sammen og så smuldrer når du gnir den.'},
+     no:'Salt rismelet til puttuen og ha i det lunkne vannet litt om gangen mens du arbeider det inn med fingrene, til en sammenklemt neve holder sammen og så smuldrer når du gnir den.'},
     {en:'Rest the damp flour for ten minutes, then rub it through your hands to break up any lumps.',
      no:'La det fuktige melet hvile i ti minutter, og gni det så mellom hendene for å bryte opp klumper.'},
     {en:'Fill the puttu cylinder in layers: a spoonful of coconut, then flour to a third of the way, coconut again, more flour, and coconut on top. Never press it down.',
-     no:'Fyll puttusylinderen lagvis: en skje kokos, så mel til en tredel, kokos igjen, mer mel, og kokos øverst. Trykk aldri sammen.'},
+     no:'Fyll puttusylinderen lagvis: en skje kokos, så mel til en tredel, kokos igjen, mer mel, og kokos øverst. Trykk det aldri sammen.'},
     {en:'Steam over boiling water for eight to ten minutes, until steam comes freely out of the top.',
      no:'Damp over kokende vann i åtte til ti minutter, til dampen kommer fritt ut på toppen.'},
     {en:'Push the cylinder out onto a plate, break it open with a spoon, and serve at once with the curry and a banana.',
@@ -294,7 +294,7 @@ window.RECIPES['IN-KER'] = [
   notes:[
     {title:{en:'Why the flour is never pressed', no:'Hvorfor melet aldri trykkes sammen'},
      body:{en:'Steam has to travel up through the cylinder, and packed flour blocks it, so the middle stays raw while the ends overcook. Loose filling is the whole technique.',
-           no:'Dampen må komme seg opp gjennom sylinderen, og sammenpakket mel stenger den ute, så midten forblir rå mens endene blir overkokt. Løs fylling er hele teknikken.'}},
+           no:'Dampen må komme seg opp gjennom sylinderen, og tettpakket mel stopper den, så midten forblir rå mens endene blir overkokt. Løs fylling er hele teknikken.'}},
     {title:{en:'Why the coconut is roasted here and raw in avial', no:'Hvorfor kokosen ristes her og er rå i avial'},
      body:{en:'Roasting turns coconut nutty, dark and slightly bitter, which gives the gravy the depth a pulse dish needs. Fresh coconut does the opposite job and keeps a dish light. The same ingredient, two directions.',
            no:'Risting gjør kokosen nøtteaktig, mørk og litt bitter, og det gir sausen den dybden en belgfruktrett trenger. Fersk kokos gjør den motsatte jobben og holder en rett lett. Samme ingrediens, to retninger.'}},
@@ -304,7 +304,7 @@ window.RECIPES['IN-KER'] = [
   variations:[
     {title:{en:'In a jam jar', no:'I et syltetøyglass'},
      body:{en:'Without a puttu cylinder, layer the flour and coconut loosely in a wide heatproof jar or a small sieve lined with muslin and steam it the same way. It will not be a neat log, and it will taste the same.',
-           no:'Har du ingen puttusylinder, kan du legge mel og kokos løst lagvis i et vidt varmefast glass eller en liten sil kledd med klede og dampe det på samme måte. Det blir ingen pen stokk, og det smaker likevel likedan.'}},
+           no:'Har du ingen puttusylinder, kan du legge mel og kokos løst lagvis i et vidt varmefast glass eller i en liten sil kledd med et tynt klede, og dampe det på samme måte. Det blir ingen pen stokk, men det smaker akkurat det samme.'}},
     {title:{en:'With a ripe banana mashed in', no:'Med moden banan most i'},
      body:{en:'Children in Kerala often eat puttu with the banana mashed into it and a spoonful of sugar rather than with the curry. It is a different breakfast and a very good one.',
            no:'Barn i Kerala spiser ofte puttu med bananen most i og en skje sukker i stedet for med karrien. Det er en annen frokost, og en svært god en.'}}]

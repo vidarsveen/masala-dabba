@@ -37,7 +37,7 @@ produces a single-file version.
   edge-tts, normalised to -19 LUFS). The other thirteen have polygons, sheet
   summaries, landmarks and reading titles, and say "reading coming soon".
 - The name is the owner's call and is not final. It is one constant away: `course.json` `title` and `slug`,
-  the `<title>`, the masthead `<h1>` and the intro `<h2>`. See §13.
+  the `<title>`, the masthead `<h1>` and the intro `<h2>`. See §14.
 - Not yet published anywhere. `gh` is not installed on this machine, so the GitHub repo has to be created by
   hand; §10 has the exact steps.
 
@@ -168,6 +168,11 @@ ones that bite hardest here:
 
 ### Names and transliteration, decided before any writing
 
+- **Never invent a compound.** The owner caught «Hverdagsskapet», «ørkenskapet» and «skogsskapet»,
+  all of them one English word ("the pantry") welded onto whatever came next. Norwegian builds
+  compounds freely, which is exactly the trap: a form can be grammatical and still be a word no one
+  says. If you are not certain a compound exists, rephrase — «krydderhylla», «hverdagskrydderet»,
+  «det ørkenen gir», «råvarene i skogen» — and vary it, because the English varies too.
 - **If it has a Norwegian name, use the Norwegian name.** Kanel, kardemomme, svart pepper, karriblad,
   kokosolje, sennepsfrø, nellik, valmuefrø, stjerneanis, bambusskudd. English is the fallback only when
   there is genuinely nothing else, and an Indian name with no Norwegian form (kudampuli, gongura, panch
@@ -300,7 +305,7 @@ carries all of it.
    reading HTML; it collides with the UI panel class. Read §6 before writing a sentence.
 2. **Text, Norwegian.** `content/<stem>.no.js`: `window.READINGS_NO['IN-XXX'] = {credits: window.READINGS['IN-XXX'].credits, lessons:[…]}`.
    Same structure, same image keys, same number of `<h2>`s. Kickers «Krydder · Lesetekst 1 av 4», «Bordet ·»,
-   «Retter ·», «Historie ·»; headings «Nøkkelfakta», «I skapet: …», «Før du går videre». Write it from the
+   «Retter ·», «Historie ·»; headings «Nøkkelfakta», «På krydderhylla: …», «Før du går videre». Write it from the
    facts, not from the English sentence (§6).
 3. **Photos.** `python tools/commons.py search "<term>" 8` and, when free-text returns nothing, which is
    often, `python tools/commons.py cat "Category:Name" 20`. Accept only CC0, CC BY, CC BY-SA or public
@@ -316,11 +321,29 @@ carries all of it.
 8. **Narrate.** `PYTHONIOENCODING=utf-8 python tools/narrate.py <stem> --intro title --drop facts,recap`
    (about two minutes a file; run it in the background), then `python tools/normalise.py <stem>` and
    `python tools/opus.py <stem> 12`. Regenerate one file with `--only no-3`.
-9. **Build and test.** `python build.py`, then §9, then `python tools/make_site.py`.
+9. **Build and test.** `python tools/stale.py` (§13), `python build.py`, then §9, then
+    `python tools/make_site.py`.
 10. **Ship the audio.** `python tools/audio_pack.py` and upload to the `audio` release (§5).
 11. **Docs.** Update README (regions done) and PLAN §1.
 
-## 13. The name
+## 13. Narration goes stale silently
+
+Every edit to a reading makes its recording wrong, and nothing fails: the page plays the old audio
+under the new words. **`python tools/stale.py` is the only thing that will tell you**, and it is
+worth running after any content edit and before any publish. `--diff` prints the first line that
+differs, and it names the exact `narrate.py --only` command per file.
+
+It works by regenerating the spoken script from the content file and comparing it to the `.txt`
+`narrate.py` wrote beside the mp3, which is why those `.txt` files are committed while the audio is
+not (§5). It reads `intro` and `drop` back out of `manifest.json`, so a file rendered with
+`--intro title` is compared against a title-only script instead of being reported stale for ever.
+
+It is also precise about what does *not* matter: `--drop facts,recap` means an edit inside a
+`<aside class="facts">` or a `<div class="recap">` block changes nothing you can hear, and
+`stale.py` correctly leaves that file alone. Quiz questions, spice cards and recipes are never
+narrated at all.
+
+## 14. The name
 
 **Undecided; the owner's call.** "Masala Dabba" is the spice box, which matches the spine of the course the
 way "Italia in Tavola" matched Italy at the table. Changing it touches five places and then the repo name:

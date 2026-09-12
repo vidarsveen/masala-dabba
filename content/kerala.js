@@ -102,7 +102,7 @@ window.READINGS['IN-KER'] = {
 <p>Black, white and green pepper are the same fruit handled three ways. Pick the berries while they are still green and dry them in the sun, and the skin blackens and shrivels into the black peppercorn everyone knows. Let them ripen to red, soak them until the skin rots off, and what is left is the pale inner seed, which is white pepper: cleaner, sharper, and without the fruity top notes the skin carries. Pick them green and preserve them in brine, and they stay soft and mild.</p>
 <p>The heat comes from a compound called piperine, and it behaves differently from chilli heat. Piperine hits the front of the mouth and fades quickly, which is why pepper can be used generously in a dish that is not meant to burn. Before chilli reached India in the 1500s, pepper was the only real heat any Indian kitchen had.</p>
 <aside class="facts"><h4>Key facts</h4><ul>
-<li>Kerala grows the large majority of India's black pepper, most of it on smallholdings of under a hectare.</li>
+<li>Kerala and Karnataka grow almost all of India's black pepper between them, most of it on smallholdings of under a hectare. Karnataka has produced more of it than Kerala for over a decade.</li>
 <li>India is no longer the biggest producer. Vietnam overtook it in the 2000s and now grows several times as much.</li>
 <li>Pepper is a perennial vine that yields from about its fourth year and can crop for thirty.</li>
 <li>The best-known Kerala grades are Malabar Garbled and Tellicherry Extra Bold, sorted by berry size rather than by field.</li>
@@ -201,7 +201,7 @@ window.READINGS['IN-KER'] = {
 <p>The luxury version uses <strong>karimeen</strong>, the pearl spot, a small flat backwater fish that is the state fish of Kerala. It is coated in masala, wrapped in a banana leaf and cooked in a dry pan, so the leaf scorches and perfumes the fish steaming inside. Any firm-fleshed whole fish works the same way, and in Norway a small farmed trout or a plaice does the job well.</p>
 
 <h2>Stew, and the dish with no chilli in it</h2>
-<p>Now the other style. <strong>Ishtu</strong>, the stew that comes with appam, is the cooking of the Syrian Christian houses of central Travancore, and it contains no chilli powder at all. Chicken or mutton or potato simmers in thin coconut milk with whole spices, green chilli, curry leaf and a great deal of sliced shallot, and thick coconut milk goes in at the end off the heat. The result is pale, sweet and gentle, and it tastes of cardamom, clove and pepper rather than of burn.</p>
+<p>Now the other style. A word first: an Indian menu that says mutton almost always means goat, not sheep, and that holds across this whole course. <strong>Ishtu</strong>, the stew that comes with appam, is the cooking of the Syrian Christian houses of central Travancore, and it contains no chilli powder at all. Chicken, goat or potato simmers in thin coconut milk with whole spices, green chilli, curry leaf and a great deal of sliced shallot, and thick coconut milk goes in at the end off the heat. The result is pale, sweet and gentle, and it tastes of cardamom, clove and pepper rather than of burn.</p>
 <p>That mildness is not a compromise. These communities have had the expensive whole spices on their doorstep for centuries, and a dish built to show them off has no reason to bury them under chilli.</p>
 
 <h2>Avial, and the coconut vegetables</h2>
