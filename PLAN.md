@@ -96,8 +96,8 @@ mountains and that monsoon. Baked at zoom 7 rather than Italy's 8, with the vert
    thing, on a phone, with Kerala's narration inlined so the Listen button really plays.
 1. **Listen to Kerala.** Both languages, on a phone, through the audiobook page. This is the test the prose
    rules in `CLAUDE.md` §6 exist for, and the owner is the only person who can run it.
-2. Create the GitHub repo and publish (`CLAUDE.md` §10). `gh` is not installed, so this is a manual step, and
-   so is uploading `dist/audio.tar.gz` to the `audio` release.
+2. ~~Create the GitHub repo and publish.~~ **Done 2026-09-12**: live at
+   https://vidarsveen.github.io/masala-dabba/ with all four regions narrated. Deploying is now `git push`.
 3. **Decide the Norwegian voice.** Kerala is narrated with edge-tts `nb-NO-PernilleNeural`, which is what the
    Italian course used before it was re-recorded with the National Library's `nb-tts-voxcpm2` voice «Kvinne ·
    Oslo» and judged better. Re-recording eight files is cheap; re-recording fifty-six is not, so this is

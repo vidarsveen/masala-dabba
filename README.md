@@ -8,6 +8,8 @@ recipes written in grams and millilitres.
 The name is the spice box that sits next to an Indian stove, which is also the spine of the course: what is
 in the box, why it is in the box, and what changes when you cross a state line.
 
+**Live: https://vidarsveen.github.io/masala-dabba/**
+
 ## Where it runs
 
 - Source tree: open `masala-dabba.html` from a local web server (`python -m http.server 8765`).

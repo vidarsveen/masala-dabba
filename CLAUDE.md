@@ -249,17 +249,30 @@ afterwards, and check nothing else already holds the port). Chrome:
 - Always check: phone portrait shows all fourteen regions; tapping a region on the terrain selects it; a
   reading opens; the language switch re-renders the open module; a recipe rescales.
 
-## 10. Publishing (not done yet)
+## 10. Publishing — live
 
-`gh` is **not installed** on this machine. So:
+**https://vidarsveen.github.io/masala-dabba/** — repo `github.com/vidarsveen/masala-dabba`, branch `main`.
+Every push to `main` runs `.github/workflows/pages.yml`, which unpacks the narration release, runs
+`tools/make_site.py` and publishes `site/`. Two to three minutes. **So deploying a change is `git push`.**
 
-1. Create `github.com/vidarsveen/<repo-name>` by hand, public, empty.
-2. `git remote add origin https://github.com/vidarsveen/<repo-name>.git && git push -u origin main`.
-3. Settings → Pages → Source: GitHub Actions. The workflow enables it itself on first run
-   (`configure-pages` with `enablement: true`), so this may already be done.
-4. The site lands at `https://vidarsveen.github.io/<repo-name>/`, 2–3 minutes after each push to `main`.
-5. Narration: build `dist/audio.tar.gz` with `tools/audio_pack.py`, create a release tagged `audio`, upload
-   it (§5).
+Two things that were not obvious when setting it up:
+
+- **`configure-pages` with `enablement: true` does not enable Pages on the first run.** The first deploy
+  failed at that step with Pages never having been configured. Enabling it once — `POST /repos/:owner/:repo/pages`
+  with `{"build_type":"workflow"}`, or Settings → Pages → Source: GitHub Actions — fixes it permanently.
+- **The branch has to be `main`.** The workflow only triggers on `main`, and `git init` here produced
+  `master`, so the first push deployed nothing.
+
+`gh` is **not installed**. The GitHub API works fine with the token already in Windows Credential Manager;
+`git credential fill` on `host=github.com` returns it. Never print it.
+
+**Narration lives on a release, not in git (§5).** After any re-record:
+
+    python tools/audio_pack.py            # writes dist/audio.tar.gz
+    # replace the audio.tar.gz asset on the release tagged `audio`, then re-run the workflow
+
+If that release is missing the site still publishes, and every reading offers the browser voice instead —
+a working page rather than a failed build.
 
 **The preview's audio budget is two regions.** Four regions of photographs plus two of inlined Opus
 narration comes to 14.2 MB of the 16 MB ceiling, because base64 inflates the audio by a third: one region
