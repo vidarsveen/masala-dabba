@@ -78,10 +78,9 @@ mountains and that monsoon. Baked at zoom 7 rather than Italy's 8, with the vert
 
 1. **The name.** "Masala Dabba" is a working title, and it becomes the repo name and therefore the URL.
    Changing it touches five places (`CLAUDE.md` §14) and is cheap now, expensive after publishing.
-2. **Kerala, before writing thirteen more.** Read it, and listen to it once it is narrated. If the spice
-   pantry turns out too thin to carry reading 1 on its own, that is cheap to change now and expensive at
-   region ten. The specific thing to judge: does reading 1 tell you something you did not know, or does it
-   read as a preamble to reading 3?
+2. ~~Does reading 1 earn its place?~~ **Answered 2026-09-12: yes.** The owner read Kerala's and said it
+   works. The four-reading rhythm is therefore settled, and the remaining ten regions follow it without
+   further debate. This was the one decision that was cheap now and expensive at region ten.
 3. **Is reading 4 the right amount of history?** Kerala's is the strongest case for it — the whole kitchen is
    a record of who landed on that beach. Rajasthan's and the North-East's will be thinner, and it may be that
    history belongs folded into reading 1 rather than standing alone.
