@@ -13,7 +13,9 @@ on a fresh clone.
     python tools/stale.py kerala          # one
     python tools/stale.py --diff kerala   # show the first differing line too
 
-Exits 1 if anything is stale, so it can gate a build. The intro and drop settings are read back
+Exits 1 if anything is stale, so it can gate a build. Run it *after* `narrate.py` has actually
+finished: on Windows ffmpeg keeps a handle on the mp3 it just wrote, and `normalise.py` will fail
+with a PermissionError if it runs while a narration job is still going. The intro and drop settings are read back
 from manifest.json, so a file rendered with --intro title is compared against a title-only script
 rather than being reported stale forever.
 """

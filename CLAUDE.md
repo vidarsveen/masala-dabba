@@ -289,6 +289,11 @@ carries all of it.
   has narration. `#lang` is `flex:none` so the language toggle is never the thing that gets clipped; the
   progress pill drops its bar under 430 px and itself under 360. Anything new in `#top` has to earn its
   place against that budget.
+- **`normalise.py` fails with a PermissionError if narration is still running.** On Windows ffmpeg
+  keeps a handle on the mp3 it just wrote, and `os.replace` cannot overwrite it. Wait for
+  `narrate.py` to exit, then normalise. The failure is per file, so a partial run leaves some files
+  normalised and some not; `python tools/normalise.py both --region <stem> --dry-run` reports the
+  spread and re-running fixes it.
 - The page is served without a doctype. In quirks mode tables reset `color` and `font`; the `.tasting table`
   rule sets them explicitly. Keep that.
 
