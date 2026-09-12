@@ -1,0 +1,67 @@
+name: Publish site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Narration is not in git (see CLAUDE.md section 5). It lives on a release tagged `audio`,
+      # built locally with tools/audio_pack.py. If that release is not there yet, the site publishes
+      # without it and every reading offers the browser voice instead, which is a working page
+      # rather than a failed build.
+      - name: Unpack the narration, if a release has it
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          curl -sfL -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/releases/tags/audio" > rel.json || echo '{}' > rel.json
+          url=$(python -c "import json;d=json.load(open('rel.json'));print(next((a['browser_download_url'] for a in d.get('assets',[]) if a['name']=='audio.tar.gz'),''))")
+          rm -f rel.json
+          if [ -n "$url" ]; then
+            echo "narration release found; downloading"
+            curl -sfL -o audio.tar.gz "$url"
+            tar -xzf audio.tar.gz
+            rm audio.tar.gz
+            echo "mp3 files: $(find assets/audio -name '*.mp3' | wc -l)"
+          else
+            echo "no audio release yet; publishing without narration"
+          fi
+
+      - name: Assemble site/
+        run: python tools/make_site.py
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

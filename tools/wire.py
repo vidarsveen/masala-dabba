@@ -1,0 +1,58 @@
+"""Regenerate the app's content <script src> tags from course.json.
+
+The Italian course kept sixty-seven of these tags by hand and needed three separate edits to
+add a region, which PLAN.md 9 named as a mistake to fix before course two. Here the tags are
+generated: add a region to course.json, write its files, run this, done.
+
+Everything between <!--__CONTENT__--> and the app's own <script> is replaced. Only files that
+exist on disk are wired in, so a half-written region loads what it has and the page degrades
+the way it is designed to (no readings -> "reading coming soon"; no manifest -> browser voice).
+
+Usage: python tools/wire.py [--check]
+    --check  report what would change and exit 1 if anything would, for CI
+"""
+import argparse, io, os, re, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from course import ROOT, APP, REGIONS
+
+NL = chr(10)
+START = '<!--__CONTENT__-->'
+END = '<script>' + NL + '(function(){'
+
+ap = argparse.ArgumentParser()
+ap.add_argument('--check', action='store_true')
+args = ap.parse_args()
+
+lines = []
+shared = ['content/glossary.js', 'content/glossary.no.js', 'content/course.no.js',
+          'content/quiz.js', 'content/quiz.no.js', 'content/spice.js', 'content/spice.no.js']
+for rel in shared:
+    if os.path.exists(os.path.join(ROOT, rel)):
+        lines.append(rel)
+for r in REGIONS:
+    stem = r['stem']
+    for rel in ('content/%s.js' % stem, 'content/%s.no.js' % stem,
+                'content/recipes/%s.js' % stem, 'assets/audio/%s/manifest.js' % stem):
+        if os.path.exists(os.path.join(ROOT, rel)):
+            lines.append(rel)
+
+block = START + NL + NL.join('<script src="%s"></script>' % rel for rel in lines) + NL
+
+src = io.open(APP, encoding='utf-8').read()
+i, j = src.find(START), src.find(END)
+if i < 0 or j < 0 or j <= i:
+    sys.exit('markers not found in ' + APP)
+out = src[:i] + block + src[j:]
+
+if out == src:
+    print('up to date: %d content files wired' % len(lines))
+    sys.exit(0)
+if args.check:
+    was = len(re.findall(r'<script src="', src[i:j]))
+    print('out of date: %d tag(s) wired, %d file(s) present. Run python tools/wire.py' % (was, len(lines)))
+    sys.exit(1)
+io.open(APP, 'w', encoding='utf-8').write(out)
+print('wired %d content files into %s' % (len(lines), os.path.basename(APP)))
+for rel in lines:
+    print('  ' + rel)

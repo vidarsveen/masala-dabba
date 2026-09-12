@@ -1,0 +1,44 @@
+# generated outputs (rebuilt by build.py / tools/make_site.py)
+dist/
+site/
+
+# large source data for the terrain bake; the baked result in assets/terrain is committed
+docs/dem_india_z7.npy
+docs/india_state.geojson
+
+# NARRATION IS NOT COMMITTED. See CLAUDE.md §5: the Italian repo's .git reached 905 MB, most of it
+# two full copies of one narration pass, because the audio was committed and then re-recorded.
+# Audio is built locally and shipped as a release tarball that the Pages workflow unpacks.
+assets/audio/*/*.mp3
+assets/audio/*/*.ogg
+assets/audio/*/*.m4a
+# the spoken scripts, the durations and the generated manifest ARE committed: they are tiny, and
+# they are what tells you whether a reading's audio has gone stale.
+!assets/audio/*/*.txt
+!assets/audio/*/manifest.json
+!assets/audio/*/manifest.js
+
+# headless-test scratch: Chrome profiles and screenshots
+tools/test/prof_*/
+tools/test/*.png
+tools/test/ref.caf
+*.png
+!assets/**/*.png
+!docs/**/*.png
+
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# photo candidates downloaded by tools/commons.py, before the keepers are resized into assets/
+_photos/
+# side-by-side dumps written by the Norwegian review helper
+_review/
+
+# API keys (tools/tts.py reads OPENROUTER_API_KEY from here)
+.env
+
+# TTS scratch: voice comparison clips and built audiobooks
+voicelab/
+audiobook/

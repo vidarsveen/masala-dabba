@@ -1,0 +1,20 @@
+{
+ "z": 7,
+ "tileX0": 87,
+ "tileY0": 49,
+ "cropX": 228,
+ "cropY": 176,
+ "cropW": 2767,
+ "cropH": 3061,
+ "heightW": 512,
+ "heightH": 566,
+ "offset": 6000,
+ "centreLat": 22.0,
+ "bounds": {
+  "west": 67.2,
+  "east": 97.6,
+  "north": 37.3,
+  "south": 6.6
+ },
+ "maxElevation": 8368.0
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "masala-dabba",
+  "app": "masala-dabba.html",
+  "title": "Masala Dabba",
+  "storagePrefix": "mdb",
+  "centreLat": 22.0,
+  "bounds": {"west": 67.2, "east": 97.6, "north": 37.3, "south": 6.6},
+  "demZoom": 7,
+  "areas": ["North", "West", "Centre", "East", "South"],
+  "note": "Culinary regions are unions of whole states, so every polygon comes from the source data and nothing is hand-drawn. State names follow docs/india_state.geojson (GADM, pre-2014), where Telangana is still part of Andhra Pradesh, Ladakh part of Jammu and Kashmir, Odisha is spelled Orissa and Uttarakhand Uttaranchal. That vintage suits us: the units it has are the units these fourteen regions group.",
+  "excludeStates": ["Andaman and Nicobar", "Lakshadweep"],
+  "excludeWhy": "Two island territories, ~1300 km offshore. The course does not cover their cooking, and a region whose bounding box reaches the Andamans cannot be framed on screen: selecting Tamil Nadu would zoom out to the Bay of Bengal. The islands still appear as land in the baked relief; they simply carry no region tint.",
+  "regions": [
+    {"code": "IN-HIM", "stem": "himalaya",   "area": "North",  "states": ["Jammu and Kashmir", "Himachal Pradesh", "Uttaranchal"]},
+    {"code": "IN-PUN", "stem": "punjab",     "area": "North",  "states": ["Punjab", "Haryana", "Chandigarh", "Delhi"]},
+    {"code": "IN-RAJ", "stem": "rajasthan",  "area": "North",  "states": ["Rajasthan"]},
+    {"code": "IN-AWA", "stem": "awadh",      "area": "North",  "states": ["Uttar Pradesh"]},
+    {"code": "IN-GUJ", "stem": "gujarat",    "area": "West",   "states": ["Gujarat", "Daman and Diu", "Dadra and Nagar Haveli"]},
+    {"code": "IN-MAH", "stem": "maharashtra","area": "West",   "states": ["Maharashtra"]},
+    {"code": "IN-KON", "stem": "goa",        "area": "West",   "states": ["Goa"]},
+    {"code": "IN-CEN", "stem": "centre",     "area": "Centre", "states": ["Madhya Pradesh", "Chhattisgarh"]},
+    {"code": "IN-BEN", "stem": "bengal",     "area": "East",   "states": ["West Bengal", "Bihar", "Jharkhand", "Orissa"]},
+    {"code": "IN-NEA", "stem": "northeast",  "area": "East",   "states": ["Assam", "Meghalaya", "Arunachal Pradesh", "Nagaland", "Manipur", "Mizoram", "Tripura", "Sikkim"]},
+    {"code": "IN-KAR", "stem": "karnataka",  "area": "South",  "states": ["Karnataka"]},
+    {"code": "IN-AND", "stem": "andhra",     "area": "South",  "states": ["Andhra Pradesh"]},
+    {"code": "IN-TAM", "stem": "tamilnadu",  "area": "South",  "states": ["Tamil Nadu", "Puducherry"]},
+    {"code": "IN-KER", "stem": "kerala",     "area": "South",  "states": ["Kerala"]}
+  ]
+}

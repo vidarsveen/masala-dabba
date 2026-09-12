@@ -1,0 +1,121 @@
+# Masala Dabba — roadmap
+
+`CLAUDE.md` is the operating manual. This file is what is decided, what is open, and what happens next.
+
+## 1. Status, 2026-09-12
+
+The repo exists, the engine is ported, the map is built, and **Kerala is written end to end except for the
+narration**: four readings in English and Norwegian, sixteen photographs, six spice cards, twelve recap
+questions per language, four recipes. The other thirteen regions have polygons, summaries, landmarks and
+reading titles, and degrade to "reading coming soon".
+
+Everything below is either a decision already taken, with its reason, or a question for the owner.
+
+## 2. Decisions taken, and why
+
+### The four-reading rhythm
+
+1. the spice logic of the region · 2. the staple and the table · 3. the dishes · 4. the place and its history.
+
+This keeps the shape the Italian course used, so `COURSE.lessons`, the kickers and every content format
+survived the port unchanged. Reading 4 is history **enough to explain the food**, not a history lesson;
+readings 1–3 stay about food.
+
+### Fourteen regions, grouped from whole states
+
+Kashmir & the Himalaya · Punjab & Delhi · Rajasthan · Awadh · Gujarat · Maharashtra · Goa & the Konkan ·
+The Deccan centre · Bengal & the east · The North-East · Karnataka · Andhra & Telangana · Tamil Nadu · Kerala.
+
+Whole states, so every polygon is a union of existing shapes and nothing is hand-drawn. Fourteen rather than
+36, because Indian food regions do not follow state lines and because 36 modules is nearly double the work
+for a less accurate map. `course.json` records the membership; `course.json` also records why the Andamans
+and Lakshadweep are excluded.
+
+### The spice pantry replaces wine
+
+Wine earned two readings in the Italian course because it is a system with names, places and rules.
+Techniques (tandoor, dum, bhuna, tadka) cut across regions and belong in the glossary; dishes are already
+reading three. What is genuinely regional and systematic is what sits in the masala dabba, and it is also the
+thing a European most reliably gets wrong — "curry powder" is the equivalent of thinking all Italian red is
+Chianti.
+
+The tasting card became a spice card, one structural field at a time, so `spicecheck.py` and the renderer are
+the same shape as the Italian ones.
+
+### The Vinmonopolet link becomes a sourcing note
+
+An upgrade rather than a loss. There are no commerce links, no shop IDs and no alcohol-advertising question.
+What the Norwegian edition carries instead is where to find asafoetida, fresh curry leaves, real jaggery and
+kudampuli in Norway, and what not to buy. This is the part of the course that could not be translated into
+existence, and `spicecheck.py` fails a Norwegian card that lacks it.
+
+### The vegetarian mark
+
+A small green square on dishes and recipes, not a division of the course. India labels food this way
+formally, so it is authentic rather than imposed, and it is useful when scanning a region sheet.
+
+### Audio stays out of git
+
+The Italian repo's `.git` is 905 MB, most of it two copies of one narration pass, because the audio was
+committed and then re-recorded. Here the mp3 and ogg files are ignored; the spoken scripts and durations are
+committed; the built audio ships as a release asset that the Pages workflow unpacks. Re-recording costs an
+upload rather than a permanent copy of the repo. `tools/audio_pack.py`, `CLAUDE.md` §5.
+
+### Keep the 3D relief
+
+For India it teaches more than it did for Italy. The Himalaya, the Gangetic plain, the Thar, the Western
+Ghats and the Deccan explain where the food comes from: spice country is where it is because of those
+mountains and that monsoon. Baked at zoom 7 rather than Italy's 8, with the vertical exaggeration raised from
+4 to 6.5 because a world unit is now 32 km rather than 11.
+
+## 3. Open questions for the owner
+
+1. **The name.** "Masala Dabba" is a working title, and it becomes the repo name and therefore the URL.
+   Changing it touches five places (`CLAUDE.md` §12) and is cheap now, expensive after publishing.
+2. **Kerala, before writing thirteen more.** Read it, and listen to it once it is narrated. If the spice
+   pantry turns out too thin to carry reading 1 on its own, that is cheap to change now and expensive at
+   region ten. The specific thing to judge: does reading 1 tell you something you did not know, or does it
+   read as a preamble to reading 3?
+3. **Is reading 4 the right amount of history?** Kerala's is the strongest case for it — the whole kitchen is
+   a record of who landed on that beach. Rajasthan's and the North-East's will be thinner, and it may be that
+   history belongs folded into reading 1 rather than standing alone.
+4. **Region order.** After Kerala, the argument for going to a maximally different region next is that it
+   tests the format harder: the North-East has almost none of the Indian spice pantry, and Punjab has wheat,
+   dairy and a tandoor instead of rice and coconut. The argument for Punjab is that it is the food a
+   Norwegian reader thinks of as Indian, so correcting it early matters.
+
+## 4. Next, in order
+
+1. Narrate Kerala, English and Norwegian, and listen to it (`python tools/narrate.py kerala`, then
+   `tools/normalise.py` and `tools/opus.py`). The prose rules in `CLAUDE.md` §6 were written for the ear and
+   this is where they get tested.
+2. Fix the headless tests, which still carry Italian region codes in places.
+3. Create the GitHub repo and publish (`CLAUDE.md` §10). `gh` is not installed, so this is a manual step.
+4. Region two, once the owner has read Kerala.
+5. Landmark models: the fourteen builders are primitives-only first drafts. The Chinese fishing nets, the
+   Charminar and Sanchi read well; the root bridge and Mehrangarh need another pass.
+
+## 5. Known limitations, recorded so they are not rediscovered
+
+- **The relief tint is elevation-only.** The Thar desert and the wet Gangetic plain are both about 200 m and
+  therefore both green. Fixing it needs a rainfall or vegetation layer blended into the bake, which is a
+  half-day and not obviously worth it.
+- **Goa is very small.** 0.3 square degrees against Rajasthan's 31, and ten times smaller relative to the
+  country than Valle d'Aosta was to Italy. It is reachable through its pin and its rail chip, but it is worth
+  watching on a phone. Folding it into Maharashtra was rejected: Goan food is too distinct.
+- **Jammu and Kashmir uses the source data's boundary**, which follows the Indian claim, as Indian-published
+  maps do. Recorded here so it is a known choice rather than an accident.
+- **`assets/audio/*/manifest.js` is generated by `build.py`**, so the first build after adding narration must
+  run before `make_site.py`.
+- Fourteen regions × four readings is 56 readings and about 45,000 words per language. Kerala took roughly
+  4,200 English words and 3,900 Norwegian. Budget accordingly.
+
+## 6. Not doing
+
+**No general course CMS.** Two courses is not enough evidence for the right abstraction, and the time goes
+into framework instead of content. The Italian repo and this one share no code on purpose; extract a shared
+kit only after fixing the same bug twice in two places.
+
+**No refactor of the Italian course.** It is finished and live. The English readings there would benefit from
+the same pass the Norwegian got, and that is a deliberate project for another time, not something to start
+casually: eighty readings, and every edit makes its narration stale.
