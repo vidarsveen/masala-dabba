@@ -1168,6 +1168,14 @@ function _place(el, x, y, pad){
 function updateOverlays(){
   const dist = ctl.dist, fs = THREE.MathUtils.clamp(13.5 * Math.pow(150/dist, 0.55), 10, 21);
   _boxes.length = 0;
+  // The chrome is painted under the labels in the DOM but reads as over them, so a region label
+  // that lands on the masthead looks like a bug. Seeding the collision list with the top bar makes
+  // the existing avoidance handle it: the label is simply hidden there, as it is behind any other
+  // label. The sheet and the rail need no entry, because they are opaque and stack above #labels.
+  {
+    const t = document.getElementById('top').getBoundingClientRect();
+    if(t.width && t.height) _boxes.push({x:t.left + t.width/2, y:t.top + t.height/2, w:t.width, h:t.height});
+  }
   // capitals only once the camera is close enough that they add something
   const showCaps = dist < (MOBILE() ? 140 : 200);
   for(const code of ORDER){
