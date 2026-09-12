@@ -25,14 +25,19 @@ ap.add_argument('--check', action='store_true')
 args = ap.parse_args()
 
 lines = []
-shared = ['content/glossary.js', 'content/glossary.no.js', 'content/course.no.js',
-          'content/quiz.js', 'content/quiz.no.js', 'content/spice.js', 'content/spice.no.js']
+# Shared across every region, loaded first. Everything else is per region, so two people can
+# write two regions at once without touching the same file -- which is the whole reason the quiz
+# and spice banks stopped being one file each.
+shared = ['content/glossary.js', 'content/glossary.no.js', 'content/course.no.js']
 for rel in shared:
     if os.path.exists(os.path.join(ROOT, rel)):
         lines.append(rel)
 for r in REGIONS:
     stem = r['stem']
     for rel in ('content/%s.js' % stem, 'content/%s.no.js' % stem,
+                'content/spice/%s.js' % stem, 'content/spice/%s.no.js' % stem,
+                'content/quiz/%s.js' % stem, 'content/quiz/%s.no.js' % stem,
+                'content/glossary/%s.js' % stem, 'content/glossary/%s.no.js' % stem,
                 'content/recipes/%s.js' % stem, 'assets/audio/%s/manifest.js' % stem):
         if os.path.exists(os.path.join(ROOT, rel)):
             lines.append(rel)

@@ -1,7 +1,8 @@
 /* Masala Dabba — kryddersider, norsk. Kontrakt: docs/spice-format.md, sjekkes av tools/spicecheck.py.
    Den norske utgaven må ha et sourcing-felt: hvor man får tak i krydderet i Norge, og hva som er verdt
    å kjøpe. Det er den delen av dette kurset som ikke lar seg oversette fram, og den må skrives her. */
-window.SPICE_NO = {
+window.SPICE_NO = window.SPICE_NO || {};
+Object.assign(window.SPICE_NO, {
  'IN-KER|Black pepper': {
    aroma: 'Furu og varmt treverk, med en sitruskant i nykvernede bær.',
    flavour: 'Skarp styrke som kommer fremst i munnen og gir seg i løpet av sekunder. Det svarte skallet gir en tone av tørket frukt som hvit pepper mangler.',
@@ -50,4 +51,4 @@ window.SPICE_NO = {
    swap: 'Tamarind forandrer retten, men fungerer; en bit tørket kokum ligger nærmere. Sitron er siste utvei.',
    sourcing: 'Selges i norske indiske butikker som «kudampuli», «kokum» eller «fish tamarind», og de tre er ikke det samme. Spør etter den svarte, læraktige og røkte varianten fra Kerala, ikke de lyse tørkede skivene.'
  }
-};
+});

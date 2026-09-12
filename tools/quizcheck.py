@@ -1,4 +1,4 @@
-"""Check the recap questions in content/quiz.js and content/quiz.no.js against docs/quiz-format.md.
+"""Check the recap questions in content/quiz/<region>.js and .no.js against docs/quiz-format.md.
 
     PYTHONIOENCODING=utf-8 python tools/quizcheck.py [IN-KER ...]
 
@@ -17,8 +17,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 NODE = r"""
 global.window = {};
-require('./content/quiz.js');
-require('./content/quiz.no.js');
+const fs = require('fs');
+for (const f of fs.readdirSync('./content/quiz').sort()) require('./content/quiz/' + f);
 console.log(JSON.stringify({en: window.QUIZ || {}, no: window.QUIZ_NO || {}}));
 """
 
@@ -70,8 +70,8 @@ def check_region(code, lessons, lang, problems):
 
 
 def main():
-    if not os.path.exists(os.path.join(ROOT, 'content', 'quiz.js')):
-        print('no content/quiz.js yet: nothing to check')
+    if not os.listdir(os.path.join(ROOT, 'content', 'quiz')):
+        print('no quiz questions written yet: nothing to check')
         return
     data = load()
     en, no = data['en'], data['no']

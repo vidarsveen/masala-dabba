@@ -1,7 +1,8 @@
 /* Masala Dabba — spice cards, English. Contract: docs/spice-format.md, checked by tools/spicecheck.py.
    Key is '<region code>|<spice name>', and the name must match COURSE[code].spices character for character.
    Cards are never narrated, so editing one cannot make an audio file stale. */
-window.SPICE = {
+window.SPICE = window.SPICE || {};
+Object.assign(window.SPICE, {
  'IN-KER|Black pepper': {
    aroma: 'Pine and warm wood, with a citrus edge in freshly cracked berries.',
    flavour: 'Sharp heat that arrives at the front of the mouth and fades within seconds. The black skin adds a dried-fruit note white pepper lacks.',
@@ -44,4 +45,4 @@ window.SPICE = {
    when: 'Rinsed, then dropped in whole near the start so it has time to give up its acid.',
    swap: 'Tamarind changes the dish but works; a piece of dried kokum is closer. Lemon is a last resort.'
  }
-};
+});

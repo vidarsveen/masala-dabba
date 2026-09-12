@@ -25,8 +25,8 @@ MAXLEN = 190
 
 NODE_CARDS = """
 global.window = {};
-require('./content/spice.js');
-require('./content/spice.no.js');
+const fs = require('fs');
+for (const f of fs.readdirSync('./content/spice').sort()) require('./content/spice/' + f);
 console.log(JSON.stringify({en: window.SPICE || {}, no: window.SPICE_NO || {}}));
 """
 
@@ -122,8 +122,8 @@ def node(script):
 
 
 def main():
-    if not os.path.exists(os.path.join(ROOT, 'content', 'spice.js')):
-        print('no content/spice.js yet: nothing to check')
+    if not os.listdir(os.path.join(ROOT, 'content', 'spice')):
+        print('no spice cards written yet: nothing to check')
         return
     d = node(NODE_CARDS)
     en, no = d['en'], d['no']
