@@ -32,9 +32,9 @@ narrated readings in English and Norwegian bokmål. One HTML file plus content a
 produces a single-file version.
 
 - Owner: Vidar (Norwegian). Both languages matter equally. Mobile first, always test on a phone viewport.
-- **Done: one region, Kerala** (`IN-KER`), end to end: four readings EN+NO, 16 photographs, 6 spice cards,
-  12 recap questions per language, 4 recipes, and 8 narration files (19.8 min English, 19.8 Norwegian,
-  edge-tts, normalised to -19 LUFS). The other thirteen have polygons, sheet
+- **Done: four regions** — Kerala (`IN-KER`), Punjab & Delhi (`IN-PUN`), Bengal & the east (`IN-BEN`) and
+  Rajasthan (`IN-RAJ`) — each end to end: 16 readings EN+NO, 65 photographs, 24 spice cards, 48 recap
+  questions per language, 19 recipes, and narration in both languages (edge-tts, normalised to -19 LUFS). The other thirteen have polygons, sheet
   summaries, landmarks and reading titles, and say "reading coming soon".
 - The name is the owner's call and is not final. It is one constant away: `course.json` `title` and `slug`,
   the `<title>`, the masthead `<h1>` and the intro `<h2>`. See §14.
@@ -297,7 +297,11 @@ carries all of it.
 - The page is served without a doctype. In quirks mode tables reset `color` and `font`; the `.tasting table`
   rule sets them explicitly. Keep that.
 
-## 12. Adding a region: the exact recipe used for Kerala
+## 12. Adding a region: the exact recipe used for all four
+
+Kerala, Punjab, Bengal and Rajasthan were all written this way, the last three by agents working in
+parallel, which is why the quiz, spice and glossary banks are per-region files rather than one shared file
+each: four writers touching one file is a guaranteed collision.
 
 1. **Text, English.** `content/<stem>.js`, copied from `content/kerala.js`. Keep the structure: a
    `credits` object, four lessons, each with `title, kicker, minutes, hero, heroCaption, summary, html`.
@@ -323,6 +327,10 @@ carries all of it.
    and the Norwegian ones need a sourcing note. `python tools/spicecheck.py`.
 6. **Quiz.** Twelve questions per language, `docs/quiz-format.md`, `python tools/quizcheck.py`.
 7. **Recipes.** `docs/recipe-format.md`, `python tools/recipecheck.py`. Long form (§8).
+7b. **Photo credits.** `python tools/creditcheck.py` compares `assets/<stem>/credits.json` against the
+    `credits:` object in the content file field by field, because the same data written twice drifts and the
+    drift is silent — the page still renders a credit line, just the wrong one. It also catches a referenced
+    photo missing from disk and a photo on disk that nothing references, which costs bytes in the 16 MB page.
 8. **Narrate.** `PYTHONIOENCODING=utf-8 python tools/narrate.py <stem> --intro title --drop facts,recap`
    (about two minutes a file; run it in the background), then `python tools/normalise.py <stem>` and
    `python tools/opus.py <stem> 12`. Regenerate one file with `--only no-3`.

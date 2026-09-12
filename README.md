@@ -17,15 +17,15 @@ in the box, why it is in the box, and what changes when you cross a state line.
 
 ## Status
 
-**One region written end to end: Kerala.** Four readings in both languages, sixteen photographs, six spice
-cards, twelve recap questions per language, four recipes, and about forty minutes of narration across the
-two languages. The other thirteen regions have their map polygons,
-their sheet summaries, their landmarks and their four reading titles, and say "reading coming soon" until
-they are written.
+**Four regions written end to end: Kerala, Punjab & Delhi, Bengal & the east, and Rajasthan.** Sixteen
+readings in both languages, 65 photographs, 24 spice cards, 48 recap questions per language, 19 recipes and
+narration in both languages. The other ten regions have their map polygons, their sheet summaries, their
+landmarks and their four reading titles, and say "reading coming soon" until they are written.
 
-That is deliberate. The whole point of finishing one region first is to find out whether the spine — the
-spice pantry as the thing that changes from region to region — carries four readings, before writing
-fifty-six of them.
+Those four were chosen to be as unlike each other as possible, because the thing worth finding out early is
+whether one shape carries all fourteen. Kerala is rice, coconut and the spice trade; Punjab is wheat, dairy
+and a clay oven; Bengal seasons its fat rather than its gravy and grinds almost nothing; Rajasthan cooks
+almost without water. If the four-reading rhythm survives that, it survives.
 
 ## The fourteen regions
 

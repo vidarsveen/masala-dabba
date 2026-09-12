@@ -4,10 +4,16 @@
 
 ## 1. Status, 2026-09-12
 
-The repo exists, the engine is ported, the map is built, and **Kerala is written end to end**: four readings
-in English and Norwegian, sixteen photographs, six spice cards, twelve recap questions per language, four
-recipes, and about forty minutes of narration. Every headless test passes. The other thirteen regions have polygons, summaries, landmarks and
-reading titles, and degrade to "reading coming soon".
+The repo exists, the engine is ported, the map is built, and **four regions are written end to end**:
+Kerala, Punjab & Delhi, Bengal & the east and Rajasthan. Sixteen readings in English and Norwegian, 65
+photographs, 24 spice cards, 48 recap questions per language, 19 recipes and narration in both languages.
+Every headless test passes. The other ten regions have polygons, summaries, landmarks and reading titles,
+and degrade to "reading coming soon".
+
+The four were picked to be maximally unlike each other, so that the format is tested rather than repeated:
+rice and coconut, wheat and dairy, whole spice in hot fat, and a kitchen with no water. Kerala's Norwegian
+also went through a full language review, which found eleven invented compounds and about sixty other
+faults; the rules that came out of it are in `CLAUDE.md` §6 and bound the other three as they were written.
 
 Everything below is either a decision already taken, with its reason, or a question for the owner.
 
@@ -96,7 +102,7 @@ mountains and that monsoon. Baked at zoom 7 rather than Italy's 8, with the vert
    Italian course used before it was re-recorded with the National Library's `nb-tts-voxcpm2` voice «Kvinne ·
    Oslo» and judged better. Re-recording eight files is cheap; re-recording fifty-six is not, so this is
    worth settling now. `tools/voicelab.py` renders the same script in every candidate.
-4. Region two, once the owner has read Kerala.
+4. Region five, once the owner has read one of the four.
 5. Landmark models: the fourteen builders are primitives-only first drafts. The Charminar, Sanchi and the
    Golden Temple read well; the root bridge and Mehrangarh need another pass.
 
