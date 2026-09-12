@@ -24,6 +24,23 @@ ap = argparse.ArgumentParser()
 ap.add_argument('--check', action='store_true')
 args = ap.parse_args()
 
+# Generate the audio manifests BEFORE deciding what to wire. build.py used to write these, which
+# made an ordering trap: wire.py could only wire a manifest.js that already existed, so the first
+# run after narrating a region silently left that region without audio and the page fell back to
+# the browser voice. Nothing failed, and it was invisible until you pressed Listen. Doing it here
+# means the only order that exists is wire.py then build.py.
+audio = os.path.join(ROOT, 'assets', 'audio')
+if os.path.isdir(audio):
+    import json
+    for d in sorted(os.listdir(audio)):
+        mp = os.path.join(audio, d, 'manifest.json')
+        if not os.path.exists(mp):
+            continue
+        m = json.load(open(mp, encoding='utf-8'))
+        js = ('window.AUDIO_MANIFEST = Object.assign(window.AUDIO_MANIFEST || {}, '
+              + json.dumps({'%s:%s' % (d, k): v for k, v in m.items()}) + ');' + NL)
+        io.open(os.path.join(audio, d, 'manifest.js'), 'w', encoding='utf-8').write(js)
+
 lines = []
 # Shared across every region, loaded first. Everything else is per region, so two people can
 # write two regions at once without touching the same file -- which is the whole reason the quiz

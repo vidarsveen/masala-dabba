@@ -30,17 +30,10 @@ PREVIEW_PX, PREVIEW_Q = 520, 40
 
 html = open(APP, encoding='utf-8').read()
 
-# audio manifests: written from manifest.json so the source page can load them as plain scripts
+# The audio manifests are written by tools/wire.py, which also wires them in. They used to be
+# written here, and that ordering trap cost a silent bug: a region narrated after the last wire
+# ended up with no manifest tag, so the page offered the browser voice and nothing complained.
 audio_dir = os.path.join(ROOT, 'assets', 'audio')
-if os.path.isdir(audio_dir):
-    for d in sorted(os.listdir(audio_dir)):
-        mp = os.path.join(audio_dir, d, 'manifest.json')
-        if not os.path.exists(mp):
-            continue
-        m = json.load(open(mp, encoding='utf-8'))
-        js = ('window.AUDIO_MANIFEST = Object.assign(window.AUDIO_MANIFEST || {}, '
-              + json.dumps({'%s:%s' % (d, k): v for k, v in m.items()}) + ');' + NL)
-        open(os.path.join(audio_dir, d, 'manifest.js'), 'w', encoding='utf-8').write(js)
 
 
 def inline_script(m):

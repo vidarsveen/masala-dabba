@@ -224,8 +224,11 @@ Recipes are never narrated, so editing one cannot make an audio file stale.
 **Run the player and audiobook tests against the source tree, not `dist/`**: `HOSTED_AUDIO` is empty, so
 the dist file has no narration in it and both tests will report no manifest. Pass the URL:
 `python tools/test/playertest.py "http://127.0.0.1:8765/masala-dabba.html?instant&region=IN-KER&lesson=2"`.
-And **re-run `tools/wire.py` after the first narration run**, because `manifest.js` does not exist until
-`build.py` has written it, so the wiring pass before it silently leaves the region without audio.
+The order is always **`wire.py` then `build.py`**, and `wire.py` writes the audio manifests itself so there
+is no way round it. That used to be the other way about — `build.py` wrote the manifests and `wire.py` could
+only wire ones that already existed — which meant a region narrated after the last wire silently ended up
+with no audio and the browser-voice fallback, with nothing failing. It was found by loading `site/` and
+pressing Listen on Bengal.
 
 Serve the folder: `python -m http.server 8765 --bind 127.0.0.1 --directory <repo>` (background it, stop it
 afterwards, and check nothing else already holds the port). Chrome:
@@ -295,6 +298,10 @@ carries all of it.
   has narration. `#lang` is `flex:none` so the language toggle is never the thing that gets clipped; the
   progress pill drops its bar under 430 px and itself under 360. Anything new in `#top` has to earn its
   place against that budget.
+- **Load `site/` before believing a release is ready.** `dist/` and `site/` are different builds and only
+  `site/` carries every region's narration, so a fault that only affects the site is invisible in the
+  preview. Serve it (`python -m http.server 8801 --directory site`) and press Listen on the most recently
+  narrated region.
 - **`normalise.py` fails with a PermissionError if narration is still running.** On Windows ffmpeg
   keeps a handle on the mp3 it just wrote, and `os.replace` cannot overwrite it. Wait for
   `narrate.py` to exit, then normalise. The failure is per file, so a partial run leaves some files
