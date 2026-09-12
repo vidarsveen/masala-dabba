@@ -63,12 +63,12 @@
   "ogg_bytes": 409685
  },
  "no-4": {
-  "seconds": 297.6,
+  "seconds": 300.4,
   "voice": "nb-NO-PernilleNeural",
-  "bytes": 1785456,
-  "lo_bytes": 595520,
+  "bytes": 1802304,
+  "lo_bytes": 601136,
   "intro": "title",
   "drop": "facts,recap",
-  "ogg_bytes": 416478
+  "ogg_bytes": 417959
  }
 }

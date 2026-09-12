@@ -1,12 +1,12 @@
 {
  "en-1": {
-  "seconds": 448.4,
+  "seconds": 448.2,
   "voice": "en-GB-SoniaNeural",
-  "bytes": 2690208,
-  "lo_bytes": 897128,
+  "bytes": 2689056,
+  "lo_bytes": 896768,
   "intro": "title",
   "drop": "facts,recap",
-  "ogg_bytes": 657650
+  "ogg_bytes": 655678
  },
  "en-2": {
   "seconds": 340.9,
@@ -36,39 +36,39 @@
   "ogg_bytes": 580178
  },
  "no-1": {
-  "seconds": 440.9,
+  "seconds": 443.9,
   "voice": "nb-NO-PernilleNeural",
-  "bytes": 2645280,
-  "lo_bytes": 882152,
+  "bytes": 2663136,
+  "lo_bytes": 888128,
   "intro": "title",
   "drop": "facts,recap",
-  "ogg_bytes": 608498
+  "ogg_bytes": 612946
  },
  "no-2": {
-  "seconds": 331.1,
+  "seconds": 335.2,
   "voice": "nb-NO-PernilleNeural",
-  "bytes": 1986624,
-  "lo_bytes": 662624,
+  "bytes": 2010960,
+  "lo_bytes": 670688,
   "intro": "title",
   "drop": "facts,recap",
-  "ogg_bytes": 457657
+  "ogg_bytes": 462676
  },
  "no-3": {
-  "seconds": 397.4,
+  "seconds": 401.2,
   "voice": "nb-NO-PernilleNeural",
-  "bytes": 2384496,
-  "lo_bytes": 795248,
+  "bytes": 2406960,
+  "lo_bytes": 802736,
   "intro": "title",
   "drop": "facts,recap",
-  "ogg_bytes": 547242
+  "ogg_bytes": 550050
  },
  "no-4": {
-  "seconds": 396.7,
+  "seconds": 397.7,
   "voice": "nb-NO-PernilleNeural",
-  "bytes": 2380320,
-  "lo_bytes": 793808,
+  "bytes": 2386224,
+  "lo_bytes": 795824,
   "intro": "title",
   "drop": "facts,recap",
-  "ogg_bytes": 552772
+  "ogg_bytes": 551883
  }
 }
