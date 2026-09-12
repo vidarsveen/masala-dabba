@@ -86,6 +86,8 @@ mountains and that monsoon. Baked at zoom 7 rather than Italy's 8, with the vert
 
 ## 4. Next, in order
 
+0. **Review the preview**: https://claude.ai/code/artifact/ac85f37d-1cb1-409c-9cb7-ecb3b46ca44c — the whole
+   thing, on a phone, with Kerala's narration inlined so the Listen button really plays.
 1. **Listen to Kerala.** Both languages, on a phone, through the audiobook page. This is the test the prose
    rules in `CLAUDE.md` §6 exist for, and the owner is the only person who can run it.
 2. Create the GitHub repo and publish (`CLAUDE.md` §10). `gh` is not installed, so this is a manual step, and

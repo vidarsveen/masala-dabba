@@ -23,7 +23,7 @@ SIZE_LIMIT = 16e6
 # about 4.5 MB inlined and its photos only about 0.8, so narration is what to cut when the 16 MB
 # ceiling bites. Everything not listed here falls back to the browser voice in the dist file and
 # plays properly narrated on the site.
-HOSTED_AUDIO = []
+HOSTED_AUDIO = ['kerala']
 
 # Photos are re-encoded smaller for the single-file page; site/ keeps the originals.
 PREVIEW_PX, PREVIEW_Q = 520, 40

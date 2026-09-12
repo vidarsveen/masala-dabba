@@ -238,9 +238,13 @@ afterwards, and check nothing else already holds the port). Chrome:
 5. Narration: build `dist/audio.tar.gz` with `tools/audio_pack.py`, create a release tagged `audio`, upload
    it (§5).
 
-The artifact preview used by the Italian course is optional here and does not exist yet. `dist/` is 1.8 MB
-with one region, so there is a lot of room under the 16 MB ceiling; `HOSTED_AUDIO` in `build.py` is empty,
-and inlining one region's Opus narration would cost about 4.5 MB.
+There is a hosted preview for reviewing on a phone, at
+https://claude.ai/code/artifact/ac85f37d-1cb1-409c-9cb7-ecb3b46ca44c — republish with the Artifact tool
+passing that `url` and the file `dist/masala-dabba.html`. **Never publish without `url`**; that creates a
+second artifact. It is 6.3 MB with Kerala's photos and its Opus narration inlined (`HOSTED_AUDIO = ['kerala']`
+in `build.py`), against a 16 MB ceiling. A region's Opus narration costs about 3.5 MB inlined and its photos
+about 0.8, so narration is what to drop when the ceiling bites; the live site has no limit and always
+carries all of it.
 
 ## 11. Gotchas that cost time already
 
