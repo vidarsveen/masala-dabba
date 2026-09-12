@@ -121,7 +121,7 @@ window.READINGS['IN-KER'] = {
 <h2>Two sours, for two jobs</h2>
 <p>The most regional thing in the whole pantry is the souring agent, because Kerala uses two and keeps them apart. <strong>Tamarind</strong> goes into vegetable and pulse dishes, where it adds a rounded, slightly sweet acidity. <strong>Kudampuli</strong>, the smoked and dried rind of <em>Garcinia gummi-gutta</em>, goes into fish. It is sharper, faintly smoky, and it does something tamarind cannot: it firms the flesh of the fish and keeps a curry edible for two or three days without a fridge.</p>
 <figure data-img="kudampuli"><figcaption>Kudampuli, sometimes sold as Malabar tamarind. The fruit is halved, smoked over a fire and dried until it is black and leathery.</figcaption></figure>
-<p>A cook in Kerala would no more put tamarind in a fish curry than a cook in Bologna would put cream in a ragù. That distinction, repeated across fourteen regions with different ingredients each time, is what this course is about.</p>
+<p>A cook in Kerala would no more put tamarind in a fish curry than a cook in Bologna would put cream in a ragù. This course turns on distinctions like that one, repeated across fourteen regions with a different ingredient every time.</p>
 
 <aside class="tasting"><h4>In the pantry: black pepper</h4>
 <table><tr><th>Aroma</th><td>Pine, warm wood, a little citrus in fresh berries</td></tr>

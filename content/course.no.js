@@ -51,7 +51,7 @@ window.COURSE_NO = {
    dishes:[['Indori poha',1],['Bhutte ka kees',1],['Dal bafla',1],['Bhopali korma',0],['Bhopali rogan josh',0],['Chironji ki barfi',1],['Chila',1],['Mahua laddu',1]],
    lessons:['Valmuefrø, chironji og råvarene i skogen','Hvete i Malwa, ris i Chhattisgarh','Poha, bafla og den bhopaliske kormaen','Ashoka, begumene og kjøkkenene i Bastar']},
  'IN-BEN':{name:'Bengal og øst', capital:'Kolkata', intro:"Fem krydder som aldri males, sennepsolje varm nok til å ta bakerst i halsen, og et måltid som serveres i en rekkefølge som går fra bittert til søtt. Øst for Bihar gjør ris og fisk den jobben hvete og meieriprodukter gjør i Punjab.",
-   landmark:{name:'Howrah-brua, Kolkata', desc:'Et utkragerspenn som åpnet i 1943. Det har verken bolter eller muttere, men er naglet hele veien, og det bærer omkring hundre tusen mennesker til fots hver dag.'},
+   landmark:{name:'Howrah-brua, Kolkata', desc:'Et utkragerspenn som åpnet i 1943. Det er naglet og ikke boltet hele veien, og det bærer omkring hundre tusen mennesker til fots hver dag.'},
    spices:[['Panch phoron'],['Sennepsolje'],['Svartkarve (kalonji)'],['Valmuefrø (posto)'],['Radhuni'],['Kasundi (sennepssaus)']],
    plate:'Ris, så shukto, så dal, så en fisk i lett saus, så chutney, så noe søtt. I den rekkefølgen, og ikke i noen annen.',
    dishes:[['Shorshe ilish',0],['Macher jhol',0],['Kosha mangsho',0],['Shukto',1],['Luchi-alur dom',1],['Litti chokha',1],['Chhena poda',1],['Mishti doi',1],['Rasgulla',1]],

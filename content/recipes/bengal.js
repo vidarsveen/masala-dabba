@@ -1,0 +1,382 @@
+/* Masala Dabba — recipes for Bengal & the east (IN-BEN). Contract: docs/recipe-format.md.
+   Both languages live in the same file so a quantity is written exactly once and cannot drift.
+   Recipes are never narrated: narrate.py only ever sees a reading's html. */
+window.RECIPES = window.RECIPES || {};
+window.RECIPES['IN-BEN'] = [
+
+{
+  id:'shorshe-ilish', dish:'Shorshe ilish', course:'main', lesson:3, serves:4, veg:false,
+  time:{prep:25, cook:20}, hero:'shorshe-ilish', tags:['fish','mustard','monsoon'],
+  title:{en:'Shorshe ilish, and what to do without ilish', no:'Shorshe ilish, og hva du gjør uten ilish'},
+  blurb:{en:'Fatty fish steaks in a raw mustard paste, barely cooked, with green chillies and raw mustard oil.',
+         no:'Koteletter av fet fisk i en rå sennepspasta, så vidt kokt, med grønn chili og rå sennepsolje.'},
+  heroCaption:{en:'The gravy is pale, thin and clings to the fish. It is never browned and never boiled hard.',
+               no:'Sausen er lys og tynn og legger seg rundt fisken. Den brunes aldri og fosskokes aldri.'},
+  goesWith:[{en:'Plain boiled rice, and nothing else', no:'Vanlig kokt ris, og ikke noe mer'},
+            {en:'A green chilli eaten raw on the side', no:'En rå grønn chili ved siden av'}],
+  headnote:{
+    en:`<p>Start with the honest part. Hilsa is not sold in Norway, fresh or frozen, and no fish here is the same thing. So this is not shorshe ilish. It is what a Norwegian kitchen can honestly borrow from it, and the borrowing works because the important variable is fat rather than species.</p>
+<p>Ilish is prized because it is extremely oily, and the mustard paste is aggressive enough to need that fat to push against. A lean white fish in this sauce tastes thin and slightly cruel. Mackerel has roughly the right fat content, holds together in a steak and is cheap and good in Norway from late summer onwards, so mackerel is what this recipe is written for.</p>
+<p>The technique is the point, and it is unusual. Nothing is browned. The mustard is ground raw and barely cooked, because heat and long grinding both turn it bitter. The whole dish takes twenty minutes on the stove, and it is finished with a spoonful of raw mustard oil poured over off the heat.</p>`,
+    no:`<p>La oss ta det ærlige først. Ilish selges ikke i Norge, verken fersk eller frossen, og ingen fisk her er den samme varen. Så dette er ikke shorshe ilish. Det er det et norsk kjøkken ærlig kan låne fra retten, og lånet fungerer fordi det som betyr noe, er fettet og ikke arten.</p>
+<p>Ilish er ettertraktet fordi den er ekstremt fet, og sennepspastaen er hissig nok til å trenge det fettet å presse mot. En mager hvit fisk i denne sausen smaker tynt og litt brutalt. Makrell har omtrent riktig fettinnhold, holder seg hel som kotelett og er billig og god i Norge fra sensommeren av, og derfor er oppskriften skrevet for makrell.</p>
+<p>Teknikken er hele poenget, og den er uvanlig. Ingenting brunes. Sennepen males rå og kokes knapt, for både varme og lang maling gjør den bitter. Hele retten tar tjue minutter på platen, og den avsluttes med en skje rå sennepsolje helt over med kjelen av platen.</p>`},
+  ingredients:[
+   {group:{en:'The mustard paste', no:'Sennepspastaen'}, items:[
+    {q:45, u:'g', n:{en:'yellow mustard seed', no:'gule sennepsfrø'}, note:{en:'soaked 20 minutes in warm water', no:'bløtlagt i 20 minutter i lunkent vann'}},
+    {q:15, u:'g', n:{en:'black mustard seed', no:'svarte sennepsfrø'}},
+    {q:3, u:'', n:{en:'green chillies', no:'grønne chili'}, round:'half'},
+    {q:4, u:'g', n:{en:'turmeric', no:'gurkemeie'}},
+    {u:'', n:{en:'salt', no:'salt'}, scale:'none'},
+   ]},
+   {group:{en:'The fish', no:'Fisken'}, items:[
+    {q:800, u:'g', n:{en:'mackerel, in thick steaks', no:'makrell, i tykke koteletter'}, note:{en:'or hilsa if you can get it; skin on, bone in', no:'eller ilish om du får tak i den; med skinn og bein'}},
+    {q:4, u:'g', n:{en:'turmeric', no:'gurkemeie'}, note:{en:'for rubbing the fish', no:'til å gni inn fisken med'}},
+    {q:60, u:'ml', n:{en:'mustard oil', no:'sennepsolje'}},
+    {q:3, u:'', n:{en:'green chillies', no:'grønne chili'}, round:'half', note:{en:'slit lengthways', no:'flekket på langs'}},
+    {q:200, u:'ml', n:{en:'water', no:'vann'}, scale:'sub'},
+    {q:15, u:'ml', n:{en:'raw mustard oil, to finish', no:'rå sennepsolje, til slutt'}, scale:'none'},
+    {u:'', n:{en:'salt', no:'salt'}, scale:'none'},
+   ]}],
+  steps:[
+    {en:'Soak both kinds of mustard seed in warm water for twenty minutes, then drain them.',
+     no:'Bløtlegg begge slags sennepsfrø i lunkent vann i tjue minutter, og hell så av vannet.'},
+    {en:'Grind the drained seed with the chillies, the turmeric, a good pinch of salt and just enough cold water to move the blades. Stop as soon as it is smooth.',
+     no:'Kjør frøene sammen med chiliene, gurkemeien, en god klype salt og akkurat nok kaldt vann til at knivene går rundt. Stopp så snart pastaen er glatt.'},
+    {en:'Push the paste through a sieve and throw away the husks. Taste it: it should be sharp and salty, not bitter. If it is bitter, you ground it too long and it is worth starting again.',
+     no:'Press pastaen gjennom en sil og kast skallrestene. Smak på den: den skal være skarp og salt, ikke bitter. Er den bitter, har du malt for lenge, og det lønner seg å begynne på nytt.'},
+    {en:'Rub the fish steaks with turmeric and salt and leave them for ten minutes.',
+     no:'Gni fiskekotelettene inn med gurkemeie og salt, og la dem ligge i ti minutter.'},
+    {en:'Heat the mustard oil in a wide pan until it just begins to smoke, then take it off the heat for half a minute so it cools a little.',
+     no:'Varm sennepsoljen i en vid panne til den så vidt begynner å ryke, og ta den så av platen et halvt minutt så den kjøler seg litt.'},
+    {en:'Return the pan to a medium flame and lay the fish in a single layer. Give it a minute a side, only until the surface sets. Do not brown it.',
+     no:'Sett pannen tilbake på middels varme og legg fisken i ett lag. Gi den et minutt på hver side, bare til overflaten stivner. Ikke brun den.'},
+    {en:'Stir the mustard paste into the water, pour it around the fish and add the slit chillies. Salt it lightly.',
+     no:'Rør sennepspastaen ut i vannet, hell blandingen rundt fisken og ha i de flekkede chiliene. Salt lett.'},
+    {en:'Cover and cook over a low flame for eight to ten minutes. Swirl the pan instead of stirring, or the steaks break up.',
+     no:'Legg på lokk og la det stå på lav varme i åtte til ti minutter. Sving på pannen i stedet for å røre, ellers går kotelettene i stykker.'},
+    {en:'The gravy should be pale yellow and just thick enough to coat a spoon. If it is watery, lift the fish out and reduce it for a minute, then put the fish back.',
+     no:'Sausen skal være lysegul og akkurat tykk nok til å legge seg på en skje. Er den vassen, løft ut fisken, kok sausen inn i et minutt og legg fisken tilbake.'},
+    {en:'Take the pan off the heat, pour the raw mustard oil over and cover it again. Let it stand for ten minutes before serving with rice.',
+     no:'Ta pannen av platen, hell den rå sennepsoljen over og legg på lokket igjen. La det stå i ti minutter før du serverer med ris.'}],
+  notes:[
+    {title:{en:'Why the paste must not be overworked', no:'Hvorfor pastaen ikke må males for lenge'},
+     body:{en:'Crushing mustard seed with water present releases an enzyme that builds the pungent and bitter compounds, and heat pushes that reaction too far. A short grind with salt and turmeric holds it where you want it. A long grind in a warm machine does not.',
+           no:'Knuser du sennepsfrø mens det er vann til stede, frigjøres et enzym som bygger både skarpheten og bitterheten, og varme driver reaksjonen for langt. En kort maling med salt og gurkemeie holder den der du vil ha den. En lang maling i en varm maskin gjør det ikke.'}},
+    {title:{en:'Why fat matters more than species', no:'Hvorfor fettet betyr mer enn arten'},
+     body:{en:'Mustard is harsh, and fat is what rounds it. The oil in the fish emulsifies into the thin gravy and turns it from a sharp liquid into something that coats. Cod or pollock in this sauce is not a lesser version of the dish, it is a different and worse one.',
+           no:'Sennep er hard, og fett er det som runder den av. Fettet i fisken går inn i den tynne sausen og gjør den fra en skarp væske til noe som legger seg rundt maten. Torsk eller sei i denne sausen er ikke en svakere utgave av retten, men en annen og dårligere en.'}},
+    {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
+     body:{en:'Buy mackerel whole and ask the counter to cut it across into steaks rather than filleting it, because the bone holds the flesh together in the gravy.',
+           no:'Kjøp hel makrell og be fiskedisken skjære den på tvers i koteletter i stedet for å filetere den, for beinet holder kjøttet sammen i sausen. Mye av sennepsoljen i norske butikker er merket kun til utvortes bruk på grunn av erukasyre, så se etter flasker fra indiske butikker som sier «edible» eller «kachi ghani». Gule sennepsfrø finnes i vanlige dagligvarebutikker, de svarte i indiske. Fersk makrell er best, men frossen makrell fungerer godt så lenge den tines langsomt i kjøleskapet.'}}],
+  variations:[
+    {title:{en:'Bhapa: steamed instead', no:'Bhapa: dampet i stedet'},
+     body:{en:'Mix the fish, the paste, the chillies and the oil in a tin with a tight lid, and steam the closed tin over boiling water for fifteen minutes. Nothing is fried at all, and the result is cleaner and even sharper.',
+           no:'Bland fisken, pastaen, chiliene og oljen i en boks med tett lokk, og damp den lukkede boksen over kokende vann i femten minutter. Ingenting stekes, og resultatet blir renere og enda skarpere.'}},
+    {title:{en:'With poppy seed', no:'Med valmuefrø'},
+     body:{en:'Grind white poppy seed with the mustard in equal weight. The paste turns milder and thicker, which suits a leaner fish and is how many households cook it midweek.',
+           no:'Mal hvite valmuefrø sammen med sennepen i like stor vekt. Pastaen blir mildere og tykkere, og det passer en magrere fisk. Mange husholdninger lager den slik midt i uka.'}},
+    {title:{en:'Prawns in mustard', no:'Reker i sennep'},
+     body:{en:'Raw shell-on prawns work in exactly the same sauce and need four minutes rather than ten. Bengal calls that chingri, and treats it as a different dish rather than a substitute.',
+           no:'Rå reker med skall fungerer i akkurat samme saus og trenger fire minutter i stedet for ti. Bengal kaller det chingri og regner det som en egen rett, ikke som en erstatning.'}}]
+},
+
+{
+  id:'macher-jhol', dish:'Macher jhol', course:'main', lesson:3, serves:4, veg:false,
+  time:{prep:20, cook:30}, hero:'macher-jhol', tags:['fish','everyday','nigella'],
+  title:{en:'Macher jhol', no:'Macher jhol'},
+  blurb:{en:'The everyday Bengali fish curry: thin, yellow, seasoned with nigella, and with a potato in it.',
+         no:'Den bengalske hverdagsfiskekarrien: tynn, gul, krydret med svartkarve, og med potet i.'},
+  heroCaption:{en:'A jhol is judged by how clear it is, not by how thick. The nigella seeds should be visible in it.',
+               no:'En jhol dømmes etter hvor klar den er, ikke hvor tykk. Svartkarven skal ligge synlig i den.'},
+  goesWith:[{en:'A mound of plain rice', no:'En haug med vanlig ris'},
+            {en:'A fried slice of aubergine on the side', no:'En stekt skive aubergine ved siden av'}],
+  headnote:{
+    en:`<p>This is what a Bengali household actually eats, several times a week, and it is nothing like the thick sauce most Europeans picture when they hear the words fish curry. The gravy is thin enough to pour, clear rather than creamy, and it is meant to soak into rice rather than to coat anything.</p>
+<p>Two moves make it work. The fish is fried briefly first and lifted out, which firms the surface so the steaks survive the gravy, and the same oil then carries nigella and ginger. Everything else is turmeric, chilli, water and time.</p>
+<p>The potato is not padding. It cooks in the gravy, takes up the turmeric and the fish flavour, and gives a plate of thin liquid and rice something soft to break against. Leave it out and the meal feels unfinished.</p>`,
+    no:`<p>Dette er det en bengalsk husholdning faktisk spiser, flere ganger i uka, og det ligner ikke på den tykke sausen de fleste europeere ser for seg ved ordet fiskekarri. Sausen er tynn nok til å helles, klar heller enn kremet, og den skal trekke inn i risen og ikke legge seg rundt noe.</p>
+<p>To grep får det til å virke. Fisken stekes kort først og løftes ut, så overflaten strammer seg og kotelettene tåler sausen, og den samme oljen bærer så svartkarve og ingefær videre. Alt annet er gurkemeie, chili, vann og tid.</p>
+<p>Poteten er ikke fyllstoff. Den koker i sausen, tar til seg gurkemeien og fiskesmaken, og gir en tallerken med tynn væske og ris noe mykt å bryte mot. Sløyfer du den, føles måltidet uferdig.</p>`},
+  ingredients:[
+   {group:{en:'', no:''}, items:[
+    {q:700, u:'g', n:{en:'firm white fish, in steaks', no:'fast hvit fisk, i koteletter'}, note:{en:'carp is traditional; sei, cod or hake all work', no:'karpe er det tradisjonelle; sei, torsk eller lysing fungerer'}},
+    {q:400, u:'g', n:{en:'waxy potatoes', no:'fastkokende poteter'}, note:{en:'in thick wedges', no:'i tykke båter'}},
+    {q:60, u:'ml', n:{en:'mustard oil', no:'sennepsolje'}},
+    {q:5, u:'g', n:{en:'nigella seed', no:'svartkarve'}},
+    {q:4, u:'', n:{en:'green chillies', no:'grønne chili'}, round:'half', note:{en:'slit lengthways', no:'flekket på langs'}},
+    {q:25, u:'g', n:{en:'ginger', no:'ingefær'}, note:{en:'ground to a paste', no:'malt til pasta'}},
+    {q:8, u:'g', n:{en:'turmeric', no:'gurkemeie'}},
+    {q:6, u:'g', n:{en:'Kashmiri chilli powder', no:'Kashmiri chilipulver'}, note:{en:'for colour, not heat', no:'for fargen, ikke styrken'}},
+    {q:6, u:'g', n:{en:'ground cumin', no:'malt spisskummen'}},
+    {q:700, u:'ml', n:{en:'water', no:'vann'}, scale:'sub'},
+    {q:1, u:'', n:{en:'small bunch of coriander', no:'liten bunt koriander'}, round:'half', scale:'none'},
+    {u:'', n:{en:'salt', no:'salt'}, scale:'none'},
+   ]}],
+  steps:[
+    {en:'Rub the fish steaks with half the turmeric and a good pinch of salt, and leave them for ten minutes.',
+     no:'Gni fiskekotelettene inn med halvparten av gurkemeien og en god klype salt, og la dem ligge i ti minutter.'},
+    {en:'Heat the mustard oil in a wide pan until it just smokes. Fry the fish over a medium flame for about two minutes a side, until the surface is set and pale gold, then lift it out.',
+     no:'Varm sennepsoljen i en vid panne til den så vidt ryker. Stek fisken på middels varme i omtrent to minutter på hver side, til overflaten er stivnet og lysegyllen, og løft den så ut.'},
+    {en:'Fry the potato wedges in the same oil until their edges brown a little. Lift them out too.',
+     no:'Stek potetbåtene i den samme oljen til kantene bruner seg litt. Løft dem ut de også.'},
+    {en:'Drop the nigella seed and two of the slit chillies into the oil. They will crackle within seconds.',
+     no:'Slipp svartkarven og to av de flekkede chiliene i oljen. De knitrer i løpet av sekunder.'},
+    {en:'Stir in the ginger paste and cook it for a minute, until it stops smelling raw.',
+     no:'Rør inn ingefærpastaen og la den surre et minutt, til den slutter å lukte rått.'},
+    {en:'Pull the pan off the heat and stir in the rest of the turmeric, the chilli powder and the cumin, so the ground spices colour the oil instead of burning in it.',
+     no:'Trekk pannen av platen og rør inn resten av gurkemeien, chilipulveret og spisskummen, så det malte krydderet farger oljen i stedet for å svi seg i den.'},
+    {en:'Return the pan, add the water and the potatoes, salt it, and simmer uncovered until the potatoes are nearly tender, about twelve minutes.',
+     no:'Sett pannen tilbake, ha i vannet og potetene, salt, og la det småkoke uten lokk til potetene nesten er møre, omtrent tolv minutter.'},
+    {en:'Slide the fish back in with the remaining chillies. Simmer very gently for six minutes, swirling the pan rather than stirring.',
+     no:'Legg fisken tilbake sammen med resten av chiliene. La det småkoke svært forsiktig i seks minutter, og sving på pannen i stedet for å røre.'},
+    {en:'Taste for salt. The gravy should still be thin enough to pour and clear enough to see the nigella seeds in.',
+     no:'Smak til med salt. Sausen skal fortsatt være tynn nok til å helles og klar nok til at du ser svartkarven i den.'},
+    {en:'Scatter the coriander over, take the pan off the heat and let it stand for five minutes before serving.',
+     no:'Strø korianderen over, ta pannen av platen og la den stå i fem minutter før servering.'}],
+  notes:[
+    {title:{en:'Why the fish comes out and goes back', no:'Hvorfor fisken tas ut og legges tilbake'},
+     body:{en:'A quick fry sets the proteins at the surface, and a set surface holds a steak together through twenty minutes in liquid. Cooking the fish all the way through in the gravy instead leaves you with shreds and a cloudy jhol.',
+           no:'En rask steking får proteinene på overflaten til å stivne, og en stivnet overflate holder en kotelett sammen gjennom tjue minutter i væske. Koker du fisken gjennom i sausen i stedet, sitter du igjen med tråder og en uklar jhol.'}},
+    {title:{en:'Why the ground spice goes in off the heat', no:'Hvorfor det malte krydderet går i med kjelen av platen'},
+     body:{en:'Ground turmeric and chilli burn at a far lower temperature than whole seeds, and burnt chilli powder is bitter in a way nothing later can fix. Taking the pan off for fifteen seconds removes the risk entirely.',
+           no:'Malt gurkemeie og chili svir seg ved langt lavere temperatur enn hele frø, og svidd chilipulver er bittert på en måte ingenting senere retter opp. Å trekke pannen av i femten sekunder fjerner risikoen helt.'}},
+    {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
+     body:{en:'Ask the fish counter for steaks cut across the bone rather than fillets, whatever the species. A bone-in steak survives the gravy and a fillet does not.',
+           no:'Be fiskedisken om koteletter skåret på tvers av beinet i stedet for filet, uansett art. En kotelett med bein tåler sausen, det gjør ikke en filet. Sei er en billig og god fisk til denne retten, og fastere enn torsk. Svartkarve heter kalonji i indiske butikker og er ikke det samme som svart sesam, uansett hva hylla sier. Kashmiri chilipulver gir farge uten styrke; vanlig norsk chilipulver er sterkere og gir feil farge.'}}],
+  variations:[
+    {title:{en:'With cauliflower and peas', no:'Med blomkål og erter'},
+     body:{en:'In winter many households add cauliflower florets and fresh peas with the potato. The dish stays a jhol, but it stops being mainly about the fish.',
+           no:'Om vinteren har mange husholdninger i blomkålbuketter og ferske erter sammen med poteten. Retten er fortsatt en jhol, men den handler ikke lenger mest om fisken.'}},
+    {title:{en:'Niramish, without onion or garlic', no:'Niramish, uten løk og hvitløk'},
+     body:{en:'This version already has neither, which is not an accident. Many Bengali fish dishes are cooked in the widow\'s style, with ginger instead of onion and garlic, and they are the cleaner-tasting for it.',
+           no:'Denne utgaven har verken det ene eller det andre fra før, og det er ikke tilfeldig. Mange bengalske fiskeretter lages niramish, altså uten løk og hvitløk, med ingefær i stedet, og de smaker renere av det.'}}]
+},
+
+{
+  id:'kosha-mangsho', dish:'Kosha mangsho', course:'main', lesson:3, serves:4, veg:false,
+  time:{prep:30, cook:120}, hero:'kosha-mangsho', tags:['goat','Sunday','slow'],
+  title:{en:'Kosha mangsho', no:'Kosha mangsho'},
+  blurb:{en:'Goat fried down over an hour until the gravy stops being gravy and clings to the meat.',
+         no:'Geitekjøtt stekt ned i en time til sausen slutter å være saus og legger seg rundt kjøttet.'},
+  heroCaption:{en:'Almost no free liquid is left. What remains is dark, thick and stuck to the meat.',
+               no:'Nesten ingen fri væske er igjen. Det som er tilbake, er mørkt, tykt og klistret til kjøttet.'},
+  goesWith:[{en:'Luchi, the small puffed wheat breads', no:'Luchi, de små oppblåste hvetebrødene'},
+            {en:'Plain rice, if you want it plainer', no:'Vanlig ris, hvis du vil ha det enklere'}],
+  headnote:{
+    en:`<p>Kosha is a verb. It means to fry something down slowly with very little liquid until the moisture goes and the fat separates out, and kosha mangsho is goat treated that way for the best part of an hour. The name tells you the method, not the ingredients, which is unusual and useful.</p>
+<p>What actually happens at the stove is a cycle repeated maybe fifteen times. The pan dries out and starts to catch, you add a splash of water, the water lifts the browned layer off the base, and it dries out again. Each cycle takes the onion a shade darker and puts another layer into the finished dish. That is the entire trick, and no shortcut reproduces it.</p>
+<p>It is Sunday food in Kolkata, cooked through the morning while the household does something else. Marinating the meat overnight in yoghurt helps, and so does starting two hours before you plan to eat.</p>`,
+    no:`<p>Kosha er et verb. Det betyr å steke noe langsomt ned med svært lite væske til fuktigheten er borte og fettet skiller seg ut, og kosha mangsho er geitekjøtt behandlet slik i nesten en time. Navnet forteller deg metoden, ikke ingrediensene, og det er både uvanlig og nyttig.</p>
+<p>Det som faktisk skjer ved komfyren, er en runde som gjentas kanskje femten ganger. Pannen tørker ut og begynner å svi seg, du har i en skvett vann, vannet løser det brunede laget fra bunnen, og så tørker den ut igjen. Hver runde gjør løken et hakk mørkere og legger nok et lag inn i den ferdige retten. Det er hele knepet, og ingen snarvei gir det samme.</p>
+<p>Dette er søndagsmat i Kolkata, kokt gjennom formiddagen mens husholdningen gjør noe annet. Det hjelper å marinere kjøttet i yoghurt over natten, og det hjelper å begynne to timer før du vil spise.</p>`},
+  ingredients:[
+   {group:{en:'The marinade', no:'Marinaden'}, items:[
+    {q:900, u:'g', n:{en:'goat on the bone', no:'geitekjøtt med bein'}, note:{en:'shoulder and leg, in large pieces', no:'bog og lår, i store biter'}},
+    {q:200, u:'g', n:{en:'natural yoghurt', no:'yoghurt naturell'}, note:{en:'whisked smooth', no:'pisket glatt'}},
+    {q:30, u:'g', n:{en:'ginger', no:'ingefær'}, note:{en:'ground to a paste', no:'malt til pasta'}},
+    {q:25, u:'g', n:{en:'garlic', no:'hvitløk'}, note:{en:'ground to a paste', no:'malt til pasta'}},
+    {q:8, u:'g', n:{en:'turmeric', no:'gurkemeie'}},
+    {u:'', n:{en:'salt', no:'salt'}, scale:'none'},
+   ]},
+   {group:{en:'The pot', no:'Gryta'}, items:[
+    {q:450, u:'g', n:{en:'onions', no:'løk'}, note:{en:'sliced fine', no:'finskåret'}},
+    {q:60, u:'ml', n:{en:'mustard oil', no:'sennepsolje'}},
+    {q:30, u:'g', n:{en:'ghee', no:'ghee'}},
+    {q:15, u:'g', n:{en:'sugar', no:'sukker'}},
+    {q:6, u:'', n:{en:'green cardamom pods', no:'grønne kardemommekapsler'}, round:'half', note:{en:'bruised', no:'lett knust'}},
+    {q:6, u:'', n:{en:'cloves', no:'nellikspiker'}, round:'half'},
+    {q:1, u:'', n:{en:'piece of cinnamon bark', no:'bit kanelbark'}, round:'half'},
+    {q:2, u:'', n:{en:'bay leaves', no:'laurbærblad'}, round:'half'},
+    {q:10, u:'g', n:{en:'Kashmiri chilli powder', no:'Kashmiri chilipulver'}},
+    {q:10, u:'g', n:{en:'ground coriander', no:'malt koriander'}},
+    {q:5, u:'g', n:{en:'ground cumin', no:'malt spisskummen'}},
+    {q:4, u:'g', n:{en:'garam masala', no:'garam masala'}, note:{en:'to finish', no:'til slutt'}},
+    {q:400, u:'ml', n:{en:'hot water', no:'varmt vann'}, scale:'sub', note:{en:'added a splash at a time', no:'has i en skvett om gangen'}},
+   ]}],
+  steps:[
+    {en:'Mix the goat with the yoghurt, ginger, garlic, turmeric and salt. Leave it in the fridge for at least four hours, or overnight, and take it out an hour before you cook.',
+     no:'Bland geitekjøttet med yoghurten, ingefæren, hvitløken, gurkemeien og saltet. La det stå i kjøleskapet i minst fire timer, gjerne over natten, og ta det ut en time før du skal lage mat.'},
+    {en:'Heat the mustard oil in a heavy pan until it just smokes. Add the sugar and let it darken to the colour of strong tea, which takes under a minute and colours the whole dish.',
+     no:'Varm sennepsoljen i en tung gryte til den så vidt ryker. Ha i sukkeret og la det mørkne til fargen av sterk te, noe som tar under et minutt og farger hele retten.'},
+    {en:'Add the cardamom, clove, cinnamon and bay, wait until they smell, then add the onion. Fry it over a medium flame until it is properly brown, fifteen to twenty minutes.',
+     no:'Ha i kardemomme, nellik, kanel og laurbær, vent til det dufter, og ha så i løken. Stek den på middels varme til den er skikkelig brun, femten til tjue minutter.'},
+    {en:'Tip in the marinated meat with all its yoghurt and turn the heat up. Stir until the yoghurt has boiled off and the meat begins to sizzle rather than simmer.',
+     no:'Ha i det marinerte kjøttet med all yoghurten og skru opp varmen. Rør til yoghurten har kokt inn og kjøttet begynner å frese i stedet for å småkoke.'},
+    {en:'Pull the pan off the heat, stir in the chilli powder, coriander and cumin, then put it back on a medium flame.',
+     no:'Trekk gryta av platen, rør inn chilipulveret, korianderen og spisskummen, og sett den tilbake på middels varme.'},
+    {en:'Now start the kosha. Fry, stirring, until the pan dries and the mixture begins to stick, then add a splash of the hot water and scrape the base clean. Repeat.',
+     no:'Nå begynner koshaen. Stek under omrøring til gryta tørker og blandingen begynner å sette seg fast, ha så i en skvett av det varme vannet og skrap bunnen ren. Gjenta.'},
+    {en:'Keep that cycle going for forty-five minutes to an hour. The mixture should get darker every time, and the smell should change from raw spice to something roasted.',
+     no:'Hold den runden gående i tre kvarter til en time. Blandingen skal bli mørkere for hver gang, og lukten skal gå fra rått krydder til noe ristet.'},
+    {en:'When the meat gives under a spoon, add the last of the water, cover, and cook on the lowest heat for twenty minutes.',
+     no:'Når kjøttet gir etter for en skje, ha i resten av vannet, legg på lokk og la det stå på lavest mulig varme i tjue minutter.'},
+    {en:'Take the lid off and raise the heat for the last few minutes, until the fat separates out and there is almost no free liquid left in the pan.',
+     no:'Ta av lokket og skru opp varmen de siste minuttene, til fettet skiller seg ut og det nesten ikke er fri væske igjen i gryta.'},
+    {en:'Stir in the ghee and the garam masala, cover, and let it stand for fifteen minutes before serving.',
+     no:'Rør inn gheen og garam masalaen, legg på lokk, og la retten stå i femten minutter før servering.'}],
+  notes:[
+    {title:{en:'Why the splash of water is the whole method', no:'Hvorfor skvetten med vann er hele metoden'},
+     body:{en:'Every time the pan dries out, a browned layer forms on the base, and the water dissolves it back into the dish. Adding all the liquid at once would give you a stew: the meat would be tender and the flavour would be flat.',
+           no:'Hver gang gryta tørker ut, danner det seg et brunet lag i bunnen, og vannet løser det tilbake i retten. Har du i all væsken på én gang, får du en gryterett: kjøttet blir mørt og smaken flat.'}},
+    {title:{en:'Why the sugar goes into the oil first', no:'Hvorfor sukkeret går i oljen først'},
+     body:{en:'Caramelised sugar gives the colour that a Bengali cook expects from this dish, and it does it without the chilli powder having to carry the load. It is not there to sweeten anything, and a few seconds too long makes it bitter.',
+           no:'Karamellisert sukker gir den fargen en bengalsk kokk venter av denne retten, og det uten at chilipulveret må gjøre jobben. Det er ikke der for å søte noe, og noen sekunder for lenge gjør det bittert.'}},
+    {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
+     body:{en:'Goat is the right meat and gives the firmer texture the long kosha is built around. Lamb works but finishes sooner.',
+           no:'Geitekjøtt er riktig vare og gir den fastere strukturen den lange koshaen er bygd for. Kjekjøtt og geit selges hos halalslaktere på Grønland i Oslo og i de fleste større byer, og be om bog og lår med bein. Lammekjøtt fungerer, men er ferdig tidligere og smaker mildere; norsk fårekjøtt er noe annet igjen og tåler faktisk hele koketiden. Ghee selges i indiske butikker; smør fungerer ikke like godt til slutt, for vannet i det tynner ut sausen.'}}],
+  variations:[
+    {title:{en:'With potato', no:'Med potet'},
+     body:{en:'Many Kolkata households fry whole small potatoes in the oil at the start and return them for the last twenty minutes. It is the same instinct that puts a potato in the fish curry and in the biryani.',
+           no:'Mange husholdninger i Kolkata steker hele småpoteter i oljen i starten og legger dem tilbake de siste tjue minuttene. Det er den samme innskytelsen som legger potet i fiskekarrien og i biryanien.'}},
+    {title:{en:'Chicken instead', no:'Med kylling i stedet'},
+     body:{en:'Use thighs on the bone and cut the kosha down to twenty-five minutes. The cycle is the same, but chicken cannot take an hour of it and will fall off the bone into the gravy.',
+           no:'Bruk lår med bein og kort koshaen ned til tjuefem minutter. Runden er den samme, men kylling tåler ikke en time av den og vil falle av beinet og ut i sausen.'}}]
+},
+
+{
+  id:'shukto', dish:'Shukto', course:'side', lesson:2, serves:4, veg:true,
+  time:{prep:25, cook:30}, hero:'shukto', tags:['bitter','vegetarian','first course'],
+  title:{en:'Shukto', no:'Shukto'},
+  blurb:{en:'The bitter dish that opens a Bengali meal, thickened with poppy seed and softened with milk.',
+         no:'Den bitre retten som åpner et bengalsk måltid, jevnet med valmuefrø og mildnet med melk.'},
+  heroCaption:{en:'Everything is cut into batons of the same length, so the vegetables cook evenly and can be picked up.',
+               no:'Alt skjæres i staver av samme lengde, så grønnsakene blir ferdige samtidig og lar seg plukke opp.'},
+  goesWith:[{en:'Rice, and only rice: this is the first course', no:'Ris, og bare ris: dette er første rett'},
+            {en:'A dal to follow it', no:'En dal som følger etter'}],
+  headnote:{
+    en:`<p>Shukto is the strangest thing in this module to a European palate and the most worth cooking. It is deliberately bitter, it is served first, and it is eaten with rice before anything else arrives. The bitterness is meant to open the appetite, and it does.</p>
+<p>The important word is "deliberately". This is not a dish that is bitter by accident or bitter all the way through. The bitter gourd is one vegetable among six or seven, and the rest of them are sweet or starchy: sweet potato, green banana, aubergine, radish. Milk goes in near the end and a spoon of ghee at the very end, and the finished dish is mild, pale and only faintly bitter at the back of the mouth.</p>
+<p>It is also the one classic Bengali dish seasoned with radhuni on its own rather than with panch phoron. Celery seed is the honest substitute, and a small amount of it.</p>`,
+    no:`<p>Shukto er det underligste i denne modulen for en europeisk gane og det mest verdt å lage. Den er bitter med vilje, den serveres først, og den spises med ris før noe annet kommer på bordet. Bitterheten skal åpne matlysten, og det gjør den.</p>
+<p>Det viktige ordet er «med vilje». Dette er ikke en rett som er bitter ved et uhell eller bitter tvers igjennom. Bittermelonen er én grønnsak blant seks eller sju, og resten er søte eller stivelsesrike: søtpotet, kokebanan, aubergine, reddik. Melk går i mot slutten og en skje ghee helt til slutt, og den ferdige retten er mild, lys og bare svakt bitter bakerst i munnen.</p>
+<p>Den er også den ene klassiske bengalske retten som krydres med radhuni alene i stedet for med panch phoron. Sellerifrø er den ærlige erstatningen, og bare en liten mengde av det.</p>`},
+  ingredients:[
+   {group:{en:'The vegetables', no:'Grønnsakene'}, items:[
+    {q:150, u:'g', n:{en:'bitter gourd', no:'bittermelon'}, note:{en:'in thin rounds, seeds removed', no:'i tynne skiver, uten frø'}},
+    {q:250, u:'g', n:{en:'waxy potatoes', no:'fastkokende poteter'}, note:{en:'in batons 5 cm long', no:'i staver på 5 cm'}},
+    {q:200, u:'g', n:{en:'sweet potato', no:'søtpotet'}, note:{en:'in batons the same size', no:'i staver av samme størrelse'}},
+    {q:200, u:'g', n:{en:'green banana or plantain', no:'grønn banan eller kokebanan'}, note:{en:'peeled, in batons', no:'skrelt, i staver'}},
+    {q:200, u:'g', n:{en:'aubergine', no:'aubergine'}, note:{en:'in batons', no:'i staver'}},
+    {q:150, u:'g', n:{en:'white radish', no:'hvit reddik'}, note:{en:'in batons', no:'i staver'}},
+    {q:150, u:'g', n:{en:'green beans', no:'grønne bønner'}, note:{en:'topped and tailed', no:'renset i begge ender'}},
+   ]},
+   {group:{en:'The paste and the seasoning', no:'Pastaen og krydderet'}, items:[
+    {q:25, u:'g', n:{en:'white poppy seed', no:'hvite valmuefrø'}, note:{en:'soaked 30 minutes', no:'bløtlagt i 30 minutter'}},
+    {q:15, u:'g', n:{en:'yellow mustard seed', no:'gule sennepsfrø'}, note:{en:'soaked with the poppy seed', no:'bløtlagt sammen med valmuefrøene'}},
+    {q:25, u:'g', n:{en:'ginger', no:'ingefær'}, note:{en:'ground to a paste', no:'malt til pasta'}},
+    {q:4, u:'g', n:{en:'radhuni', no:'radhuni'}, note:{en:'or celery seed', no:'eller sellerifrø'}},
+    {q:2, u:'g', n:{en:'fennel seed', no:'fennikelfrø'}},
+    {q:2, u:'', n:{en:'bay leaves', no:'laurbærblad'}, round:'half'},
+    {q:250, u:'ml', n:{en:'whole milk', no:'helmelk'}},
+    {q:400, u:'ml', n:{en:'water', no:'vann'}, scale:'sub'},
+    {q:50, u:'ml', n:{en:'mustard oil', no:'sennepsolje'}},
+    {q:25, u:'g', n:{en:'ghee', no:'ghee'}},
+    {q:8, u:'g', n:{en:'sugar', no:'sukker'}},
+    {u:'', n:{en:'salt', no:'salt'}, scale:'none'},
+   ]}],
+  steps:[
+    {en:'Cut every vegetable except the bitter gourd into batons of the same length, so they cook evenly and can be lifted with the fingers.',
+     no:'Skjær alle grønnsakene unntatt bittermelonen i staver av samme lengde, så de blir ferdige samtidig og lar seg løfte med fingrene.'},
+    {en:'Grind the soaked poppy and mustard seed together with a little cold water to a smooth pale paste. Push it through a sieve and set it aside.',
+     no:'Kjør de bløtlagte valmuefrøene og sennepsfrøene sammen med litt kaldt vann til en glatt, lys pasta. Press den gjennom en sil og sett den til side.'},
+    {en:'Heat half the mustard oil in a wide pan and fry the bitter gourd rounds until their edges brown. Lift them out and keep them.',
+     no:'Varm halvparten av sennepsoljen i en vid panne og stek skivene av bittermelon til kantene bruner seg. Løft dem ut og ta vare på dem.'},
+    {en:'Fry the aubergine and the green banana in the same oil until they take a little colour, then lift those out too.',
+     no:'Stek auberginen og den grønne bananen i samme olje til de får litt farge, og løft dem ut de også.'},
+    {en:'Add the rest of the oil, then the radhuni, the fennel and the bay. Wait a few seconds until they crackle and smell.',
+     no:'Ha i resten av oljen, og så radhuni, fennikel og laurbær. Vent noen sekunder til det knitrer og dufter.'},
+    {en:'Stir in the ginger paste, cook it for a minute, then add the potato, sweet potato, radish and beans with the water and a little salt.',
+     no:'Rør inn ingefærpastaen, la den surre et minutt, og ha så i potet, søtpotet, reddik og bønner sammen med vannet og litt salt.'},
+    {en:'Cover and simmer for twelve minutes, until the harder vegetables are nearly tender.',
+     no:'Legg på lokk og la det småkoke i tolv minutter, til de faste grønnsakene nesten er møre.'},
+    {en:'Return the aubergine and green banana, and stir in the poppy and mustard paste. Simmer uncovered for five minutes, until the gravy thickens and turns opaque.',
+     no:'Legg tilbake auberginen og den grønne bananen, og rør inn pastaen av valmuefrø og sennep. La det småkoke uten lokk i fem minutter, til sausen tykner og blir ugjennomsiktig.'},
+    {en:'Pour in the milk, add the sugar, and warm it through without letting it boil. Scatter the fried bitter gourd over the top.',
+     no:'Hell i melken, ha i sukkeret og varm det gjennom uten å la det koke. Strø den stekte bittermelonen over.'},
+    {en:'Take the pan off the heat, stir in the ghee, cover it and leave it for ten minutes. Serve warm rather than hot, at the start of the meal.',
+     no:'Ta pannen av platen, rør inn gheen, legg på lokk og la den stå i ti minutter. Server lunken, ikke rykende varm, i starten av måltidet.'}],
+  notes:[
+    {title:{en:'Why the bitter gourd is fried separately', no:'Hvorfor bittermelonen stekes for seg'},
+     body:{en:'Cooking it in the gravy pushes its bitterness through the whole dish and leaves nothing to contrast with. Frying it apart and scattering it over at the end keeps the bitterness in discrete mouthfuls, which is what the dish is designed to do.',
+           no:'Koker du den i sausen, presses bitterheten ut i hele retten, og da er det ingenting igjen å sette den opp mot. Stek den for seg og strø den over til slutt, så holder bitterheten seg i enkelte munnfuller, og det er nettopp det retten er laget for.'}},
+    {title:{en:'Why the milk must not boil', no:'Hvorfor melken ikke må koke'},
+     body:{en:'The gravy is already acidic from the mustard paste, and milk boiled in an acidic pan splits into curds and whey. Adding it late and keeping it below a simmer leaves the dish pale and smooth.',
+           no:'Sausen er allerede sur av sennepspastaen, og melk som kokes i en sur gryte, skiller seg i ostemasse og myse. Ha den i sent og hold den under kokepunktet, så holder retten seg lys og glatt.'}},
+    {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
+     body:{en:'Bitter gourd is sold fresh in most Asian and Indian shops and freezes badly, so buy it the day you cook.',
+           no:'Bittermelon selges fersk i de fleste asiatiske og indiske butikker, ofte under navnet karela eller bitter melon, og den tåler frysing dårlig, så kjøp den samme dagen du lager mat. Radhuni er ikke å få kjøpt her; bruk sellerifrø fra krydderhylla. Valmuefrøene i norske dagligvarebutikker er blå og gir en grå og bitrere rett, så be om hvite valmuefrø i en indisk butikk. Kokebanan finner du på Grønland; er den utsolgt, gir litt mer potet et brukbart resultat.'}}],
+  variations:[
+    {title:{en:'With bori', no:'Med bori'},
+     body:{en:'Bengali households add bori, small sun-dried lentil dumplings, fried crisp and dropped in at the end. They soften in the gravy and give the dish a third texture. Indian shops sell them dried.',
+           no:'Bengalske husholdninger har i bori, små soltørkede baller av malte linser, som stekes sprø og slippes i til slutt. De mykner i sausen og gir retten en tredje konsistens. Indiske butikker selger dem tørkede.'}},
+    {title:{en:'Without the bitterness', no:'Uten bitterheten'},
+     body:{en:'Leave the bitter gourd out entirely and you have a dish called labra, which is a perfectly good vegetable stew and no longer shukto. Say which one you made.',
+           no:'Sløyfer du bittermelonen helt, sitter du igjen med en rett som heter labra, og den er en utmerket grønnsakgryte og ikke lenger shukto. Si hvilken av dem du lagde.'}}]
+},
+
+{
+  id:'mishti-doi', dish:'Mishti doi', course:'sweet', lesson:3, serves:6, veg:true,
+  time:{prep:40, cook:20}, hero:'mishti-doi', tags:['sweet','yoghurt','caramel'],
+  title:{en:'Mishti doi', no:'Mishti doi'},
+  blurb:{en:'Sweet caramel yoghurt set overnight in clay, thick enough to hold a spoon upright.',
+         no:'Søt karamellyoghurt satt over natten i leirkrukke, tykk nok til å holde en skje oppreist.'},
+  heroCaption:{en:'The colour comes from sugar cooked dark before the milk goes in, not from anything added afterwards.',
+               no:'Fargen kommer fra sukker som er kokt mørkt før melken går i, ikke fra noe som tilsettes etterpå.'},
+  goesWith:[{en:'Nothing. It ends the meal on its own', no:'Ingenting. Den avslutter måltidet alene'},
+            {en:'A ripe mango in season', no:'En moden mango i sesongen'}],
+  headnote:{
+    en:`<p>Almost every sweet in this region is built on chhana, split milk curds worked smooth by hand. Mishti doi is the exception, and it works on a completely different principle: it is fermented. That makes it one of the very few sweet fermented dishes in Indian cooking, and the reason it tastes of something other than sugar.</p>
+<p>Three things have to happen and the order matters. The milk is reduced, which concentrates the protein so the curd sets firm. The sugar is caramelised separately and stirred in, which gives the colour and the faint burnt note. And the culture goes in only once the milk has cooled to blood heat, because anything hotter kills it and the pots never set.</p>
+<p>The unglazed clay pot is not decoration. It is porous, so it draws water out through its wall while the yoghurt sets, and the curd ends up dense rather than watery. A glass jar gives you a perfectly nice sweet yoghurt with a puddle on top.</p>`,
+    no:`<p>Nesten alle søtsaker i denne regionen bygger på chhana, fersk ostemasse som er felt ut av melk og eltet glatt for hånd. Mishti doi er unntaket, og den bygger på et helt annet prinsipp: den er gjæret. Det gjør den til en av svært få søte gjærede retter i indisk matlaging, og det er grunnen til at den smaker av noe annet enn sukker.</p>
+<p>Tre ting må skje, og rekkefølgen betyr noe. Melken kokes inn, og det konsentrerer proteinet så melken setter seg fast. Sukkeret karamelliseres for seg og røres inn, og det gir både fargen og den svake brente tonen. Og kulturen går først i når melken er kjølt til kroppstemperatur, for noe varmere dreper den, og da setter ikke krukkene seg.</p>
+<p>Den uglaserte leirkrukka er ikke pynt. Den er porøs og trekker vann ut gjennom veggen mens yoghurten setter seg, og melken blir fast i stedet for vassen. Et glass gir deg en helt grei søt yoghurt med en dam på toppen.</p>`},
+  ingredients:[
+   {group:{en:'', no:''}, items:[
+    {q:1200, u:'ml', n:{en:'whole milk', no:'helmelk'}, note:{en:'the higher the fat the better', no:'jo høyere fettinnhold, jo bedre'}},
+    {q:120, u:'g', n:{en:'sugar', no:'sukker'}, note:{en:'for caramelising', no:'til karamellisering'}},
+    {q:60, u:'g', n:{en:'palm sugar or jaggery', no:'palmesukker eller jaggery'}, note:{en:'optional, for a darker flavour', no:'valgfritt, for en mørkere smak'}},
+    {q:80, u:'g', n:{en:'natural yoghurt with live cultures', no:'yoghurt naturell med levende kultur'}, note:{en:'at room temperature', no:'i romtemperatur'}},
+   ]}],
+  steps:[
+    {en:'Bring the milk to a simmer in a wide heavy pan and keep it there, stirring often and scraping the sides, until it has reduced by about a third. This takes twenty-five minutes and cannot be rushed.',
+     no:'Kok opp melken i en vid, tung kjele og la den småkoke mens du rører ofte og skraper langs kantene, til den er kokt inn til omtrent to tredeler. Det tar tjuefem minutter og lar seg ikke forseres.'},
+    {en:'While it reduces, melt the sugar in a dry pan over a medium flame without stirring it. Let it turn the colour of dark honey and then take it straight off the heat.',
+     no:'Mens melken koker inn: smelt sukkeret i en tørr panne på middels varme uten å røre. La det bli så mørkt som mørk honning, og ta det så rett av platen.'},
+    {en:'Pour a ladle of the hot milk into the caramel. It will hiss and seize, which is expected. Stir it until the caramel dissolves.',
+     no:'Hell en sleiv av den varme melken i karamellen. Den freser og stivner til, og det skal den. Rør til karamellen er løst opp.'},
+    {en:'Tip the caramel back into the pan of milk, add the palm sugar if you are using it, and stir until everything is smooth and evenly coloured.',
+     no:'Hell karamellen tilbake i kjelen med melk, ha i palmesukkeret hvis du bruker det, og rør til alt er glatt og jevnt farget.'},
+    {en:'Take the pan off the heat and let the milk cool until it is just warm to a clean finger, about 45 °C. This is the step people get wrong.',
+     no:'Ta kjelen av platen og la melken kjøle seg til den er så vidt lun mot en ren finger, omkring 45 °C. Det er dette steget folk gjør feil.'},
+    {en:'Whisk the yoghurt smooth in a bowl, stir in a little of the warm milk to loosen it, then pour that back into the pan and stir once.',
+     no:'Pisk yoghurten glatt i en bolle, rør inn litt av den lune melken for å tynne den ut, og hell så blandingen tilbake i kjelen og rør én gang.'},
+    {en:'Pour into unglazed clay pots or small bowls. Do not stir them again from here on.',
+     no:'Hell i uglaserte leirkrukker eller små skåler. Ikke rør i dem igjen fra nå av.'},
+    {en:'Cover them, put them somewhere warm and draught-free, and leave them for six to eight hours. An oven with only the light on holds the right temperature.',
+     no:'Dekk dem til, sett dem lunt og trekkfritt, og la dem stå i seks til åtte timer. En stekeovn med bare lyset på holder riktig temperatur.'},
+    {en:'When the surface is set and does not move if you tilt the pot, move them to the fridge for at least four hours.',
+     no:'Når overflaten har satt seg og ikke beveger seg når du vipper på krukka, setter du dem i kjøleskapet i minst fire timer.'},
+    {en:'Serve cold, straight from the pot, with a small spoon.',
+     no:'Server kald, rett fra krukka, med en liten skje.'}],
+  notes:[
+    {title:{en:'Why the milk is reduced first', no:'Hvorfor melken kokes inn først'},
+     body:{en:'A firm set needs protein, and reducing the milk concentrates it. Unreduced milk gives a soft curd that weeps, and no amount of extra culture or extra time fixes that.',
+           no:'En fast konsistens krever protein, og innkoking konsentrerer det. Melk som ikke er kokt inn, gir en løs masse som skiller seg, og verken mer kultur eller lengre tid retter opp i det.'}},
+    {title:{en:'Why the pot has to be unglazed', no:'Hvorfor krukka må være uglasert'},
+     body:{en:'Porous clay wicks water out through its wall as the yoghurt sets, so the curd concentrates from the outside in. You can see it working: the outside of the pot is damp for the first hour or two.',
+           no:'Porøs leire trekker vann ut gjennom veggen mens yoghurten setter seg, så massen konsentreres utenfra og inn. Du kan se at det virker: utsiden av krukka er fuktig de første par timene.'}},
+    {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
+     body:{en:'Use the fattest plain yoghurt you can find as the starter, and check the label says live cultures.',
+           no:'Bruk den feteste naturelle yoghurten du finner som startkultur, og se etter at det står levende kulturer på pakken. Norsk yoghurt naturell er tykkere enn indisk dahi, så pisk den ut med litt av den lune melken før den går i. Uglaserte leirkrukker selges i indiske butikker og i hagesentre som små urtepotter; skyll dem og la dem stå i vann en time før bruk. Jaggery eller palmesukker får du i indiske og asiatiske butikker; mørk muscovado er den nærmeste erstatningen i dagligvarebutikken.'}}],
+  variations:[
+    {title:{en:'Nolen gur doi', no:'Nolen gur doi'},
+     body:{en:'In winter Bengal makes this with nolen gur, fresh date-palm jaggery, instead of caramelised sugar. The flavour is smokier and more floral, and the season lasts only a few weeks.',
+           no:'Om vinteren lager Bengal denne med nolen gur, ferskt palmesukker av saften fra daddelpalmen, i stedet for karamellisert sukker. Smaken blir mer røykpreget og mer blomsterpreget, og sesongen varer bare noen få uker.'}},
+    {title:{en:'Baked, if the kitchen is cold', no:'Bakt, hvis kjøkkenet er kaldt'},
+     body:{en:'A Norwegian flat in February is often too cold to set yoghurt. Put the covered pots in a roasting tin of hot water in an oven at 50 °C for four hours instead, and turn the oven off after two.',
+           no:'En norsk leilighet i februar er ofte for kald til at yoghurt setter seg. Sett de tildekkede krukkene i en langpanne med varmt vann i stekeovnen på 50 °C i fire timer i stedet, og skru av ovnen etter to.'}}]
+},
+
+];
