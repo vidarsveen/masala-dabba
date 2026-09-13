@@ -427,9 +427,9 @@
   @media (prefers-reduced-motion: reduce){ #sheet, #reader, #prog .bar i{ transition:none; } }
 </style>
 
-<div id="loading" data-t="loading">Preparing the map of Italy…</div>
+<div id="loading" data-t="loading">Preparing the map of India…</div>
 <div id="ui">
-  <div id="top"><h1>Masala <em>Dabba</em></h1><span class="sub" data-t="sub">A course in twenty regions · wine &amp; food</span>
+  <div id="top"><h1>Masala <em>Dabba</em></h1><span class="sub" data-t="sub">Fourteen regions of India</span>
     <div id="prog" class="glass"><span><b id="pDone">0</b>/<span id="pTotal">80</span></span><div class="bar"><i id="pBar"></i></div></div>
     <button id="recipeBtn" type="button" aria-label="Recipes"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M7 3v5M9.5 3v5M4.5 3v5M7 8v13"/><path d="M7 8a2.5 2.5 0 0 0 2.5-2.5M7 8a2.5 2.5 0 0 1-2.5-2.5"/><path d="M16.5 3c-1.4 0-2.5 1.6-2.5 3.5S15.1 10 16.5 10 19 8.4 19 6.5 17.9 3 16.5 3zM16.5 10v11"/></svg><span data-t="recipes">Recipes</span></button><button id="bookBtn" type="button" aria-label="Audiobook"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M11 4h7.5A1.5 1.5 0 0 1 20 5.5v13a1.5 1.5 0 0 1-1.5 1.5H11"/><path d="M15.5 9.5v4.2a1.6 1.6 0 1 1-1-1.5V9.8l2.2-.6"/></svg><span data-t="audiobook">Audiobook</span></button><div id="lang" class="glass" role="group" aria-label="Language"><button type="button" data-lang="en">EN</button><button type="button" data-lang="no">NO</button></div></div>
   <div id="hint" class="glass" data-t="hint">Tap a region or landmark · drag to orbit · pinch to zoom</div>
@@ -452,7 +452,7 @@
     </div>
     <div class="nav"><button id="prevBtn" data-t="prev">← Previous</button><button id="nextBtn" class="primary" data-t="next">Next region →</button></div>
   </aside>
-  <button id="homeBtn" title="Whole of Italy" aria-label="Show all of Italy">⌂</button>
+  <button id="homeBtn" title="Whole of India" aria-label="Show all of India">⌂</button>
   <button id="tiltBtn" title="Tilt" aria-label="Tilt the map">◭</button>
   <div id="tip" class="glass"><b></b><span></span></div>
 </div>
@@ -467,7 +467,7 @@
 </div>
 <div id="intro" role="dialog" aria-modal="true" aria-labelledby="introTitle">
   <div class="card">
-    <p class="eyebrow" data-t="introEyebrow">A course in twenty regions</p>
+    <p class="eyebrow" data-t="introEyebrow">A course in fourteen regions</p>
     <h2 id="introTitle">Masala <em>Dabba</em></h2>
     <p class="lede" data-t="introLede"></p>
     <div class="tiles">
@@ -487,7 +487,7 @@
   </div>
 </div>
 <div id="book" role="dialog" aria-modal="true" aria-label="Audiobook">
-  <div class="bbar"><button class="back" type="button">‹ <span data-t="home">Show all of Italy</span></button><span class="bk" data-t="audiobook">Audiobook</span></div>
+  <div class="bbar"><button class="back" type="button">‹ <span data-t="home">Show all of India</span></button><span class="bk" data-t="audiobook">Audiobook</span></div>
   <div class="bnow"><div class="eyebrow"></div><h2></h2><div class="sub"></div></div>
   <div class="bctl">
     <div class="row"><button class="pp" type="button" aria-label="Play">▶</button><input class="scrub" type="range" min="0" max="1000" value="0" aria-label="Position"><span class="time">0:00 / 0:00</span></div>
@@ -512,6 +512,16 @@ const REGIONS = [{"name":"Kashmir & the Himalaya","code":"IN-HIM","c":[77.113,32
 <script src="content/glossary.js"></script>
 <script src="content/glossary.no.js"></script>
 <script src="content/course.no.js"></script>
+<script src="content/himalaya.js"></script>
+<script src="content/himalaya.no.js"></script>
+<script src="content/spice/himalaya.js"></script>
+<script src="content/spice/himalaya.no.js"></script>
+<script src="content/quiz/himalaya.js"></script>
+<script src="content/quiz/himalaya.no.js"></script>
+<script src="content/glossary/himalaya.js"></script>
+<script src="content/glossary/himalaya.no.js"></script>
+<script src="content/recipes/himalaya.js"></script>
+<script src="assets/audio/himalaya/manifest.js"></script>
 <script src="content/punjab.js"></script>
 <script src="content/punjab.no.js"></script>
 <script src="content/spice/punjab.js"></script>
@@ -532,6 +542,56 @@ const REGIONS = [{"name":"Kashmir & the Himalaya","code":"IN-HIM","c":[77.113,32
 <script src="content/glossary/rajasthan.no.js"></script>
 <script src="content/recipes/rajasthan.js"></script>
 <script src="assets/audio/rajasthan/manifest.js"></script>
+<script src="content/awadh.js"></script>
+<script src="content/awadh.no.js"></script>
+<script src="content/spice/awadh.js"></script>
+<script src="content/spice/awadh.no.js"></script>
+<script src="content/quiz/awadh.js"></script>
+<script src="content/quiz/awadh.no.js"></script>
+<script src="content/glossary/awadh.js"></script>
+<script src="content/glossary/awadh.no.js"></script>
+<script src="content/recipes/awadh.js"></script>
+<script src="assets/audio/awadh/manifest.js"></script>
+<script src="content/gujarat.js"></script>
+<script src="content/gujarat.no.js"></script>
+<script src="content/spice/gujarat.js"></script>
+<script src="content/spice/gujarat.no.js"></script>
+<script src="content/quiz/gujarat.js"></script>
+<script src="content/quiz/gujarat.no.js"></script>
+<script src="content/glossary/gujarat.js"></script>
+<script src="content/glossary/gujarat.no.js"></script>
+<script src="content/recipes/gujarat.js"></script>
+<script src="assets/audio/gujarat/manifest.js"></script>
+<script src="content/maharashtra.js"></script>
+<script src="content/maharashtra.no.js"></script>
+<script src="content/spice/maharashtra.js"></script>
+<script src="content/spice/maharashtra.no.js"></script>
+<script src="content/quiz/maharashtra.js"></script>
+<script src="content/quiz/maharashtra.no.js"></script>
+<script src="content/glossary/maharashtra.js"></script>
+<script src="content/glossary/maharashtra.no.js"></script>
+<script src="content/recipes/maharashtra.js"></script>
+<script src="assets/audio/maharashtra/manifest.js"></script>
+<script src="content/goa.js"></script>
+<script src="content/goa.no.js"></script>
+<script src="content/spice/goa.js"></script>
+<script src="content/spice/goa.no.js"></script>
+<script src="content/quiz/goa.js"></script>
+<script src="content/quiz/goa.no.js"></script>
+<script src="content/glossary/goa.js"></script>
+<script src="content/glossary/goa.no.js"></script>
+<script src="content/recipes/goa.js"></script>
+<script src="assets/audio/goa/manifest.js"></script>
+<script src="content/centre.js"></script>
+<script src="content/centre.no.js"></script>
+<script src="content/spice/centre.js"></script>
+<script src="content/spice/centre.no.js"></script>
+<script src="content/quiz/centre.js"></script>
+<script src="content/quiz/centre.no.js"></script>
+<script src="content/glossary/centre.js"></script>
+<script src="content/glossary/centre.no.js"></script>
+<script src="content/recipes/centre.js"></script>
+<script src="assets/audio/centre/manifest.js"></script>
 <script src="content/bengal.js"></script>
 <script src="content/bengal.no.js"></script>
 <script src="content/spice/bengal.js"></script>
@@ -542,6 +602,46 @@ const REGIONS = [{"name":"Kashmir & the Himalaya","code":"IN-HIM","c":[77.113,32
 <script src="content/glossary/bengal.no.js"></script>
 <script src="content/recipes/bengal.js"></script>
 <script src="assets/audio/bengal/manifest.js"></script>
+<script src="content/northeast.js"></script>
+<script src="content/northeast.no.js"></script>
+<script src="content/spice/northeast.js"></script>
+<script src="content/spice/northeast.no.js"></script>
+<script src="content/quiz/northeast.js"></script>
+<script src="content/quiz/northeast.no.js"></script>
+<script src="content/glossary/northeast.js"></script>
+<script src="content/glossary/northeast.no.js"></script>
+<script src="content/recipes/northeast.js"></script>
+<script src="assets/audio/northeast/manifest.js"></script>
+<script src="content/karnataka.js"></script>
+<script src="content/karnataka.no.js"></script>
+<script src="content/spice/karnataka.js"></script>
+<script src="content/spice/karnataka.no.js"></script>
+<script src="content/quiz/karnataka.js"></script>
+<script src="content/quiz/karnataka.no.js"></script>
+<script src="content/glossary/karnataka.js"></script>
+<script src="content/glossary/karnataka.no.js"></script>
+<script src="content/recipes/karnataka.js"></script>
+<script src="assets/audio/karnataka/manifest.js"></script>
+<script src="content/andhra.js"></script>
+<script src="content/andhra.no.js"></script>
+<script src="content/spice/andhra.js"></script>
+<script src="content/spice/andhra.no.js"></script>
+<script src="content/quiz/andhra.js"></script>
+<script src="content/quiz/andhra.no.js"></script>
+<script src="content/glossary/andhra.js"></script>
+<script src="content/glossary/andhra.no.js"></script>
+<script src="content/recipes/andhra.js"></script>
+<script src="assets/audio/andhra/manifest.js"></script>
+<script src="content/tamilnadu.js"></script>
+<script src="content/tamilnadu.no.js"></script>
+<script src="content/spice/tamilnadu.js"></script>
+<script src="content/spice/tamilnadu.no.js"></script>
+<script src="content/quiz/tamilnadu.js"></script>
+<script src="content/quiz/tamilnadu.no.js"></script>
+<script src="content/glossary/tamilnadu.js"></script>
+<script src="content/glossary/tamilnadu.no.js"></script>
+<script src="content/recipes/tamilnadu.js"></script>
+<script src="assets/audio/tamilnadu/manifest.js"></script>
 <script src="content/kerala.js"></script>
 <script src="content/kerala.no.js"></script>
 <script src="content/spice/kerala.js"></script>
@@ -565,13 +665,13 @@ const I18N = {
    bookResume:'Resume', bookStart:'Start listening', bookChapterList:'Chapters', bookNowPlaying:'Now playing',
    bookLeft:'left', bookDone:'listened', bookRestart:'Start from the beginning', bookAuto:'Plays straight through',
    'area.North':'North','area.West':'West','area.Centre':'Centre','area.East':'East','area.South':'South','spice.whole':'whole','spice.ground':'ground','spice.blend':'blend','spice.fresh':'fresh','spice.souring':'souring', tCard:['Aroma','Flavour','What it does','When to add','Instead of it'], sourcing:'Buying it in Norway', quiz:'Check yourself', quizSub:n=>`${n} questions on this reading. Answers explain themselves.`, quizScore:(a,b)=>`${a} of ${b} right`, quizAgain:'Try again', quizAll:'All three right. Move on.' },
- no:{ about:'Om kurset', introEyebrow:'Et kurs i fjorten regioner', introLede:'India har ikke \u00e9tt kj\u00f8kken. Kryddersk\u00e5pet skifter for hver par hundre kilometer, og hvert skifte har en grunn. Begynn hvor du vil p\u00e5 kartet: les, lag mat, og finn ut hva som faktisk ligger i boksen.', introT1:'Lesetekster', introT2:'Krydder', introT3:'Oppskrifter', introN1:'regioner', introN2:'lesetekster', introN3:'oppskrifter', introN4:'krydder', introGo:'\u00c5pne kartet', introHint:'Trykk p\u00e5 en region for \u00e5 begynne.', recipes:'Oppskrifter', backMap:'Kartet', recipesSub:n => `${n} retter fra kurset, i gram og milliliter`, recipeSearch:'S\u00f8k i oppskriftene', servings:'Porsjoner', ingredients:'Ingredienser', method:'Slik gj\u00f8r du', prep:'Forberedelse', cooking:'Koketid', cookIt:'Lag den selv', cookItSub:'Oppskrifter fra denne leseteksten', fromReading:'Hvor den kommer fra', goodWith:'Serveres med', whyWorks:'Hvorfor det virker', variations:'Varianter', noRecipes:'Ingen oppskrift passer med det.', allCourses:'Alle', toTaste:'etter smak', servesNote:n => `Skrevet for ${n}`, 'course.breakfast':'Frokost', 'course.snack':'Smårett', 'course.main':'Hovedrett', 'course.side':'Tilbeh\u00f8r', 'course.bread':'Br\u00f8d', 'course.rice':'Ris', 'course.sweet':'S\u00f8tt', 'course.base':'Grunnoppskrift', vegetarian:'Vegetarisk', sub:'Fjorten regioner i India', hint:'Trykk p\u00e5 en region eller en n\u00e5l \u00b7 dra for \u00e5 flytte \u00b7 knip for \u00e5 zoome \u00b7 \u25ed vipper', loading:'Forbereder kartet over India \u2026', lessons:'Lesetekster', landmark:'Landemerke', spices:'Krydder \u00e5 kjenne til', table:'P\u00e5 tallerkenen', plate:'Hverdagstallerkenen', prev:'\u2190 Forrige', next:'Neste region \u2192', capital:'By', module:'Modul', of:'av', readings:'lesetekster', min:'min', soonShort:'lesetekster kommer', minRead:'min lesetid', soon:'Lesetekst kommer', reading:'Lesetekst', notWritten:'Denne leseteksten er ikke skrevet enn\u00e5.',
+ no:{ about:'Om kurset', introEyebrow:'Et kurs i fjorten regioner', introLede:'India har ikke ett kj\u00f8kken. Krydderhylla skifter med noen hundre kilometers mellomrom, og hvert skifte har sin grunn. Begynn hvor du vil p\u00e5 kartet: les, lag mat og finn ut hva som faktisk ligger i boksen.', introT1:'Lesetekster', introT2:'Krydder', introT3:'Oppskrifter', introN1:'regioner', introN2:'lesetekster', introN3:'oppskrifter', introN4:'krydder', introGo:'\u00c5pne kartet', introHint:'Trykk p\u00e5 en region for \u00e5 begynne.', recipes:'Oppskrifter', backMap:'Kartet', recipesSub:n => `${n} retter fra kurset, i gram og milliliter`, recipeSearch:'S\u00f8k i oppskriftene', servings:'Porsjoner', ingredients:'Ingredienser', method:'Slik gj\u00f8r du', prep:'Forberedelse', cooking:'Koketid', cookIt:'Lag den selv', cookItSub:'Oppskrifter fra denne leseteksten', fromReading:'Hvor den kommer fra', goodWith:'Serveres med', whyWorks:'Hvorfor det virker', variations:'Varianter', noRecipes:'Ingen oppskrift passer med s\u00f8ket.', allCourses:'Alle', toTaste:'etter smak', servesNote:n => `Skrevet for ${n}`, 'course.breakfast':'Frokost', 'course.snack':'Smårett', 'course.main':'Hovedrett', 'course.side':'Tilbeh\u00f8r', 'course.bread':'Br\u00f8d', 'course.rice':'Ris', 'course.sweet':'S\u00f8tt', 'course.base':'Grunnoppskrift', vegetarian:'Vegetarisk', sub:'Fjorten regioner i India', hint:'Trykk p\u00e5 en region eller en n\u00e5l \u00b7 dra for \u00e5 flytte \u00b7 knip for \u00e5 zoome \u00b7 \u25ed vipper', loading:'Forbereder kartet over India \u2026', lessons:'Lesetekster', landmark:'Landemerke', spices:'Krydder du b\u00f8r kjenne', table:'P\u00e5 tallerkenen', plate:'Tallerkenen til hverdags', prev:'\u2190 Forrige', next:'Neste region \u2192', capital:'By', module:'Modul', of:'av', readings:'lesetekster', min:'min', soonShort:'lesetekster kommer', minRead:'min lesetid', soon:'Lesetekst kommer', reading:'Lesetekst', notWritten:'Denne leseteksten er ikke skrevet enn\u00e5.',
    soonPara:n=>`De ferdige modulene viser formatet hele kurset bruker: et illustrert essay p\u00e5 6\u20138 minutter med n\u00f8kkelfakta og en kort oppsummering, deretter tre sp\u00f8rsm\u00e5l og oppskriftene som h\u00f8rer til. Lesetekstene for ${n} f\u00f8lger samme m\u00f8nster.`,
    backTo:'Tilbake til', seeFinished:'Se en ferdig modul', firstReading:'den f\u00f8rste leseteksten', nextReading:'Neste lesetekst', nextRegion:'Neste region', mark:'Merk som lest', marked:'\u2713 Merket som lest', credits:'Fotokreditering', photo:'Foto', via:'via Wikimedia Commons', close:'Lukk', home:'Vis hele India', listen:'Lytt', listenBrowser:'Lytt med nettleserstemme', narrated:'Lest inn av en KI-stemme', browserVoice:'Nettleserstemme', noVoice:'Ingen stemme tilgjengelig p\u00e5 denne enheten',
    audiobook:'Lydbok', bookTitle:'Hele kurset, lest opp', bookOf:'av', bookChapters:'kapitler',
    bookResume:'Fortsett', bookStart:'Begynn \u00e5 lytte', bookChapterList:'Kapitler', bookNowPlaying:'Spilles n\u00e5',
    bookLeft:'igjen', bookDone:'lyttet', bookRestart:'Start fra begynnelsen', bookAuto:'Spiller sammenhengende',
-   'area.North':'Nord','area.West':'Vest','area.Centre':'Sentralt','area.East':'\u00d8st','area.South':'S\u00f8r','spice.whole':'hel','spice.ground':'malt','spice.blend':'blanding','spice.fresh':'fersk','spice.souring':'syrlig', tCard:['Duft','Smak','Hva den gj\u00f8r','N\u00e5r den skal i','I stedet for den'], sourcing:'\u00c5 f\u00e5 tak i den i Norge', quiz:'Sjekk deg selv', quizSub:n=>`${n} sp\u00f8rsm\u00e5l til denne leseteksten. Svarene forklarer seg selv.`, quizScore:(a,b)=>`${a} av ${b} riktig`, quizAgain:'Pr\u00f8v igjen', quizAll:'Alle tre riktig. G\u00e5 videre.' }
+   'area.North':'Nord','area.West':'Vest','area.Centre':'Sentralt','area.East':'\u00d8st','area.South':'S\u00f8r','spice.whole':'hel','spice.ground':'malt','spice.blend':'blanding','spice.fresh':'fersk','spice.souring':'syrlig', tCard:['Duft','Smak','Hva den gj\u00f8r','N\u00e5r den skal i','I stedet for den'], sourcing:'Slik f\u00e5r du tak i den i Norge', quiz:'Sjekk deg selv', quizSub:n=>`${n} sp\u00f8rsm\u00e5l til denne leseteksten. Svarene forklarer seg selv.`, quizScore:(a,b)=>`${a} av ${b} riktig`, quizAgain:'Pr\u00f8v igjen', quizAll:'Alle tre riktig. G\u00e5 videre.' }
 };
 let lang = (()=>{ const q = new URLSearchParams(location.search).get('lang'); if(q && I18N[q]) return q; try{ const s = localStorage.getItem('mdb-lang'); if(s && I18N[s]) return s; }catch(e){} return /^(nb|nn|no)/i.test(navigator.language||'') ? 'no' : 'en'; })();
 const T = k => { const v = I18N[lang][k] !== undefined ? I18N[lang][k] : I18N.en[k]; return v === undefined ? k : v; };
@@ -643,7 +743,7 @@ const COURSE = {
    landmark:{name:'Basilica of Bom Jesus, Old Goa', desc:'Laterite and lime, consecrated 1605, holding the body of Francis Xavier. The city around it was once called the Rome of the East and is now mostly trees.',props:[['bomjesus',15.50,73.91]]},
    spices:[['Recheado masala','blend'],['Xacuti masala','blend'],['Kashmiri chilli','ground'],['Palm vinegar','souring'],['Toasted coconut','fresh'],['Tamarind','souring']],
    plate:'Fish curry and par-boiled rice, every day, with a fried mackerel on the side and solkadhi to finish.',
-   dishes:[['Vindaloo',0],['Xacuti',0],['Sorpotel',0],['Cafreal',0],['Prawn balchão',0],['Fish curry rice',0],['Sannas',1],['Bebinca',1]],
+   dishes:[['Vindaloo',0],['Xacuti',0],['Sorpotel',0],['Cafreal',0],['Prawn balchão',0],['Fish curry rice',0],['Sannas',1],['Bebinca',0]],
    lessons:['Vinegar, chilli and the recheado masala','Ukda rice and the daily fish curry','Vindaloo, xacuti and sorpotel','1510: what Portugal brought, and what it took']},
  'IN-CEN':{name:'The Deccan centre', capital:'Bhopal', area:'Centre', color:'#b5a074', intro:"The middle of the country cooks quietly and is rarely written about. Malwa grinds poppy seed into its gravies, Bhopal inherited a Mughal kitchen run for a century by four women, and the forests of Bastar eat things that grow nowhere else.",
    landmark:{name:'The Great Stupa, Sanchi', desc:'A brick dome raised by Ashoka in the third century BC, cased in stone and ringed by four carved gateways. The oldest stone structure still standing in India.',props:[['sanchi',23.48,77.74]]},
@@ -661,7 +761,7 @@ const COURSE = {
    landmark:{name:'The living root bridges of Meghalaya', desc:'Rubber fig roots trained across a river over fifteen or twenty years, and stronger every decade instead of weaker. Some are said to be five hundred years old.',props:[['rootbridge',25.25,91.68]]},
    spices:[['Bhut jolokia','fresh'],['Bamboo shoot','souring'],['Axone (fermented soya)','fresh'],['Khar (alkali)','ground'],['Black sesame','whole'],['Kharoli','souring']],
    plate:'Rice, a bowl of sour tenga, a pitika of mashed potato with mustard oil, and a chilli on the side of the plate.',
-   dishes:[['Masor tenga',0],['Khar',1],['Smoked pork with bamboo',0],['Axone pork',0],['Eromba',1],['Jadoh',0],['Aloo pitika',1],['Thukpa',0]],
+   dishes:[['Masor tenga',0],['Khar',1],['Smoked pork with bamboo',0],['Axone pork',0],['Eromba',0],['Jadoh',0],['Aloo pitika',1],['Thukpa',0]],
    lessons:['Fermentation instead of spice','Rice, sticky rice and the steamed pot','Tenga, khar and the smoked pork','The Ahoms, the hills and the pantry that never crossed']},
  'IN-KAR':{name:'Karnataka', capital:'Bengaluru', area:'South', color:'#a8b060', intro:"Finger millet in the dry interior, rice and coconut on the coast, a chilli grown for its colour rather than its heat, and in Udupi a temple kitchen whose cooking left home and opened restaurants in every Indian city.",
    landmark:{name:'Mysore Palace', desc:'Rebuilt in 1912 after a fire, in a style its architect called Indo-Saracenic and everyone else calls the Mysore Palace. Ninety-seven thousand bulbs light it on Sunday nights.',props:[['mysore',12.30,76.65]]},
@@ -1214,7 +1314,7 @@ function updateOverlays(){
 }
 // ============================================================ CAMERA
 const PORTRAIT = () => window.innerHeight > window.innerWidth;
-// every coastline vertex of the twenty regions, in world units: what the overview has to keep on screen
+// every coastline vertex of the fourteen regions, in world units: what the overview has to keep on screen
 const FIT_PTS = (() => { const p = []; for(const R of REGIONS){ if(!COURSE[R.code]) continue; for(const ring of R.rings) for(let i=0;i<ring.length;i+=2) p.push(new THREE.Vector3(X(ring[i][0]), TOP, Z(ring[i][1]))); } return p; })();
 // the chrome that must not cover the map: title above, region strip and sheet peek below (rail on the left when wide)
 function chromeInsets(sheetPx){

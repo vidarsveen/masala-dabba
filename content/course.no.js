@@ -2,7 +2,7 @@
    Nøkler som mangler her, faller tilbake på engelsk, så en halvferdig fil ødelegger ingenting.
    dishes[] er [navn, vegetarisk], og retter, krydderblandinger og stedsnavn beholder sin egen form. */
 window.COURSE_NO = {
- 'IN-HIM':{name:'Kashmir og Himalaya', capital:'Srinagar', intro:"Safran vokser på Pampore-platået, risen er kort og klebrig, og de to store kjøkkenene i dalen er uenige om løk. Over dem klatrer Himalaya opp mot Ladakh, der smørte og bygg tar over for ris og chili.",
+ 'IN-HIM':{name:'Kashmir og Himalaya', capital:'Srinagar', intro:"Safran vokser på Pampore-platået, risen er kort og klebrig, og de to store kjøkkenene i dalen er uenige om løk. Over dem klatrer Himalaya opp mot Ladakh, der saltet te kinnet med smør og bygg tar over for ris og chili.",
    landmark:{name:'Dal-sjøen og Mughal-hagene', desc:'Shikara-båter på en innsjø som mughalene dro nordover til for å slippe unna varmen, med terrassehagene Jahangir anla ved Shalimar i 1619 i skråningen over.'},
    spices:[['Safran (kong)'],['Kashmiri-chili'],['Ver masala'],['Fennikel (saunf)'],['Tørket ingefær (sonth)'],['Praan (sjalottløk)']],
    plate:'Ris, en skål rogan josh, haak-grønnsaker ved siden av, og kahwa etterpå med en høvlet mandel flytende i koppen.',
@@ -36,8 +36,8 @@ window.COURSE_NO = {
    landmark:{name:'Gateway of India, Mumbai', desc:'En basaltbue som stod ferdig i 1924 for å ta imot visekonger, og som i 1948 så de siste britiske troppene marsjere ut gjennom seg.'},
    spices:[['Goda masala'],['Dagad phool (steinblomst)'],['Kala masala'],['Peanøtt'],['Karriblad'],['Kokum']],
    plate:'Misal med pav til å tørke opp med, rå løk og lime ved siden av, og den tynne røde rassaen helt over til slutt.',
-   dishes:[['Misal pav',1],['Vada pav',1],['Puran poli',1],['Pav bhaji',1],['Kolhapuri-lammegryte',0],['Bombil fry',0],['Modak',1],['Kanda poha',1],['Sali boti',0]],
-   lessons:['Goda masala og steinblomsten','Bhakri på platået, ris ved kysten','Misal, vada pav og den kolhapuriske rødfargen','Bombay: spinneriene, iranerne og ankomstenes mat']},
+   dishes:[['Misal pav',1],['Vada pav',1],['Puran poli',1],['Pav bhaji',1],['Geitekjøtt fra Kolhapur',0],['Bombil fry',0],['Modak',1],['Kanda poha',1],['Sali boti',0]],
+   lessons:['Goda masala og steinblomsten','Bhakri på platået, ris ved kysten','Misal, vada pav og den røde rassaen fra Kolhapur','Bombay: spinneriene, iranerne og maten til nykommerne']},
  'IN-KON':{name:'Goa og Konkan', capital:'Panaji', intro:"Fire hundre og femti år med Portugal etterlot eddik, svinekjøtt og et ord for karri, og tok svært lite med seg. Chilien selv kom i land her, fra Brasil, og gikk videre og forandret hvert eneste kjøkken i dette kurset.",
    landmark:{name:'Bom Jesus-basilikaen, Gamle Goa', desc:'Kirken er bygd i laterittstein og kalk og ble innviet i 1605, og den rommer Frans Xaviers legeme. Byen rundt ble en gang kalt Østens Roma og er nå stort sett skog.'},
    spices:[['Recheado masala'],['Xacuti masala'],['Kashmiri-chili'],['Palmeeddik'],['Ristet kokos'],['Tamarind']],

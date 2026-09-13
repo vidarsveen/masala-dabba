@@ -37,6 +37,12 @@ try:
     send("Emulation.setTouchEmulationEnabled", enabled=True, maxTouchPoints=5)
     send("Emulation.setEmitTouchEventsForMouse", enabled=True, configuration="mobile")
     send("Page.enable"); send("Runtime.enable")
+    # The profile dir persists localStorage between runs, so a previous run that ended in
+    # Norwegian would leave this test starting there -- it would then tap Norsk, see no change,
+    # and print that as a pass. Force English first and reload, so the tap is always a switch.
+    send("Page.navigate", url=URL)
+    time.sleep(4)
+    js("localStorage.setItem('mdb-lang','en')")
     send("Page.navigate", url=URL)
     time.sleep(6)
     print("loaded:", js("document.title"), "| loading gone:", js("document.getElementById('loading').classList.contains('gone')"))
@@ -47,6 +53,16 @@ try:
     tap(*r); time.sleep(1.5)
     print("after NO tap -> h3:", js("document.querySelector('#sheet h3[data-t=lessons]').textContent"), "| lesson 1:", js("document.querySelector('#sheet ol.lessons li .t').textContent"), "| area:", js("document.querySelector('#sheet .eyebrow .area').textContent"), "| cap:", js("document.querySelector('#sheet .cap').textContent"), "| next btn:", js("document.getElementById('nextBtn').textContent"), "| stored:", js("localStorage.getItem('mdb-lang')"))
     print("spice kinds:", js("[...document.querySelectorAll('#sheet ul.spices small')].map(e=>e.textContent).join(',')"))
+    fails = []
+    if js("localStorage.getItem('mdb-lang')") != 'no':
+        fails.append("the language toggle did not store 'no'")
+    if js("document.querySelector('#sheet h3[data-t=lessons]').textContent") != 'Lesetekster':
+        fails.append("the sheet did not re-render in Norwegian")
+    if js("document.documentElement.lang") != 'nb':
+        fails.append("<html lang> did not become nb")
+    print("FAILURES:", "none" if not fails else "")
+    for f in fails:
+        print("  FAIL", f)
     shot("toggle_no.png")
 finally:
     proc.kill()

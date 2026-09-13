@@ -11,7 +11,7 @@ Object.assign(window.GLOSSARY_NO, {
   'phoron': {
     term: 'Phoron',
     short: 'Den bengalske temperingen: hele krydder slippes i varmt fett, nesten alltid i starten.',
-    long: 'Tanken er den samme som i en sørindisk tadka, men krydderne er andre og tidspunktet et annet. I Bengal går frøene i oljen først, før grønnsakene, så fettet bærer smaken inn i alt som stekes etterpå. En tadka helles oftere over en ferdig rett.',
+    long: 'Tanken er den samme som i en tadka, men krydderne er andre og tidspunktet et annet. I Bengal går frøene i oljen først, før grønnsakene, så fettet bærer smaken inn i alt som stekes etterpå. En tadka helles oftere over en ferdig rett.',
     match: ['phoron']
   },
   'chhana': {

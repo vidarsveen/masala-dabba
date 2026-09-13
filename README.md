@@ -19,15 +19,19 @@ in the box, why it is in the box, and what changes when you cross a state line.
 
 ## Status
 
-**Four regions written end to end: Kerala, Punjab & Delhi, Bengal & the east, and Rajasthan.** Sixteen
-readings in both languages, 65 photographs, 24 spice cards, 48 recap questions per language, 19 recipes and
-narration in both languages. The other ten regions have their map polygons, their sheet summaries, their
-landmarks and their four reading titles, and say "reading coming soon" until they are written.
+**All fourteen regions are written end to end:** Kerala, Punjab & Delhi, Bengal & the east, Rajasthan, Goa &
+the Konkan, Tamil Nadu, The North-East, Kashmir & the Himalaya, Gujarat, Andhra & Telangana, Awadh,
+Maharashtra, The Deccan centre and Karnataka. That is fifty-six readings in both languages, 226 photographs,
+84 spice cards, 168 recap questions per language, 96 glossary terms per language, 69 recipes and all 112
+narration files. Every reading also went through a separate Norwegian review.
 
-Those four were chosen to be as unlike each other as possible, because the thing worth finding out early is
+They were chosen to be as unlike each other as possible, because the thing worth finding out early is
 whether one shape carries all fourteen. Kerala is rice, coconut and the spice trade; Punjab is wheat, dairy
 and a clay oven; Bengal seasons its fat rather than its gravy and grinds almost nothing; Rajasthan cooks
-almost without water. If the four-reading rhythm survives that, it survives.
+almost without water; Goa is where the chilli first came ashore, in a kitchen built on vinegar; Tamil Nadu
+is restrained and rice-based next to a Chettinad kitchen that roasts its spice black; and the North-East
+has almost none of the Indian spice pantry at all, working from fermentation, alkali and smoke instead.
+That last one is the real test of the format, and it held.
 
 ## The fourteen regions
 

@@ -40,13 +40,31 @@ try:
     send("Page.navigate", url=URL)
     time.sleep(6)
     print("loaded:", js("document.title"), "| loading gone:", js("document.getElementById('loading').classList.contains('gone')"))
-    # tap the label centre: a downward offset falls into the sea for Sicilia
-    for code in ['IN-RAJ','IN-BEN','IN-TAM','IN-GUJ']:
-        r = js("(function(){const e=[...document.querySelectorAll('#labels .lbl')].find(e=>e.textContent==='%s'); if(!e) return null; const k=e.getBoundingClientRect(); return [k.left+k.width/2, k.top+k.height/2];})()" % {'IN-RAJ':'Rajasthan','IN-BEN':'Bengal & the east','IN-TAM':'Tamil Nadu','IN-GUJ':'Gujarat'}[code])
+    # Tap the label centre. A label that collision-avoidance has hidden (updateOverlays drops a
+    # label rather than draw it over one already placed) has a zero-sized rect, and tapping that
+    # means tapping [0,0], which deselects and looks like a pass. Never tap a hidden label.
+    NAMES = {"IN-RAJ":"Rajasthan","IN-BEN":"Bengal & the east","IN-TAM":"Tamil Nadu",
+             "IN-GUJ":"Gujarat","IN-KON":"Goa & the Konkan","IN-NEA":"The North-East"}
+    fails, hidden = [], []
+    for code in ["IN-RAJ","IN-BEN","IN-TAM","IN-GUJ","IN-KON","IN-NEA"]:
+        r = js("(function(){const e=[...document.querySelectorAll('#labels .lbl')].find(e=>e.textContent==='%s'); if(!e) return null; const k=e.getBoundingClientRect(); if(!k.width||!k.height) return 'hidden'; return [k.left+k.width/2, k.top+k.height/2];})()" % NAMES[code])
+        if r == "hidden" or r is None:
+            hidden.append(code)
+            print(code, "label not on screen (collision-avoidance hid it) - skipped, not tapped")
+            continue
         tap(*r); time.sleep(1.8)
-        print(code, "tap at", [round(v) for v in r], "-> hash:", js("location.hash"), "| sheet title:", js("document.querySelector('#sheet h2').textContent"))
+        got = js("location.hash")
+        print(code, "tap at", [round(v) for v in r], "-> hash:", got,
+              "| sheet title:", js("document.querySelector('#sheet h2').textContent"))
+        if got != "#/" + code:
+            fails.append("%s: tapping its label gave %s" % (code, got))
         r2 = js("(function(){const b=document.querySelector('#sheet .close'); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")
         tap(*r2); time.sleep(1.5)
+    if hidden:
+        print("labels hidden at this viewport:", ",".join(hidden))
+    print("FAILURES:", "none" if not fails else "")
+    for f in fails:
+        print("  FAIL", f)
     shot("maptap.png")
 finally:
     proc.kill()

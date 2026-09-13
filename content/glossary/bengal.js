@@ -11,7 +11,7 @@ Object.assign(window.GLOSSARY, {
   'phoron': {
     term: 'Phoron',
     short: 'The Bengali tempering: whole spices dropped into hot fat, almost always at the start.',
-    long: 'The same idea as a south Indian tadka, but with a different pantry and a different moment. In Bengal the seeds go into the oil first, before the vegetables, so the fat carries their flavour into everything cooked after them. A tadka is more often poured over a finished dish.',
+    long: 'The same idea as a tadka, but with a different pantry and a different moment. In Bengal the seeds go into the oil first, before the vegetables, so the fat carries their flavour into everything cooked after them. A tadka is more often poured over a finished dish.',
     match: ['phoron']
   },
   'chhana': {

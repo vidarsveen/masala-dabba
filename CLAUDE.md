@@ -32,10 +32,9 @@ narrated readings in English and Norwegian bokmål. One HTML file plus content a
 produces a single-file version.
 
 - Owner: Vidar (Norwegian). Both languages matter equally. Mobile first, always test on a phone viewport.
-- **Done: four regions** — Kerala (`IN-KER`), Punjab & Delhi (`IN-PUN`), Bengal & the east (`IN-BEN`) and
-  Rajasthan (`IN-RAJ`) — each end to end: 16 readings EN+NO, 65 photographs, 24 spice cards, 48 recap
-  questions per language, 19 recipes, and narration in both languages (edge-tts, normalised to -19 LUFS). The other thirteen have polygons, sheet
-  summaries, landmarks and reading titles, and say "reading coming soon".
+- **Done: all fourteen regions**, each end to end: 56 readings EN+NO, 226 photographs, 84 spice cards,
+  168 recap questions per language, 96 glossary terms per language, 69 recipes, and all 112 narration files
+  (edge-tts, normalised to -19 LUFS). Nothing says "reading coming soon" any more.
 - The name is the owner's call and is not final. It is one constant away: `course.json` `title` and `slug`,
   the `<title>`, the masthead `<h1>` and the intro `<h2>`. See §14.
 - Not yet published anywhere. `gh` is not installed on this machine, so the GitHub repo has to be created by
@@ -274,17 +273,18 @@ Two things that were not obvious when setting it up:
 If that release is missing the site still publishes, and every reading offers the browser voice instead —
 a working page rather than a failed build.
 
-**The preview's audio budget is two regions.** Four regions of photographs plus two of inlined Opus
-narration comes to 14.2 MB of the 16 MB ceiling, because base64 inflates the audio by a third: one region
-costs about 4.4 MB inlined against about 0.8 MB for its photographs. `HOSTED_AUDIO` in `build.py` is
-therefore `['kerala', 'punjab']`, and a third would breach. `build.py` exits non-zero if it does, so this
-cannot break silently. The live site has no limit and carries all of it.
+**The preview's audio budget shrinks as regions are added.** Base64 inflates audio by a third, so one
+region's inlined Opus costs about 4 MB against about 0.8 MB for its photographs, and narration is always
+what to cut. At four regions `HOSTED_AUDIO = ['kerala', 'punjab']` came to 14.2 MB of the 16 MB ceiling;
+at **seven regions the same pair reached 16.3 MB and breached**, so it is now `['kerala']`. With all fourteen
+regions the build is 15.2 MB, 0.8 MB under the ceiling, so anything added to the page from here means dropping
+Kerala's narration from the preview first. The live site, 340 MB, carries all of it. `build.py` says so and exits non-zero, so this cannot break
+silently. The live site has no limit and carries all of it.
 
 There is a hosted preview for reviewing on a phone, at
 https://claude.ai/code/artifact/ac85f37d-1cb1-409c-9cb7-ecb3b46ca44c — republish with the Artifact tool
 passing that `url` and the file `dist/masala-dabba.html`. **Never publish without `url`**; that creates a
-second artifact. It is 6.3 MB with Kerala's photos and its Opus narration inlined (`HOSTED_AUDIO = ['kerala']`
-in `build.py`), against a 16 MB ceiling. A region's Opus narration costs about 3.5 MB inlined and its photos
+second artifact. It is 15.2 MB with every region's photographs and Kerala's Opus narration inlined (`HOSTED_AUDIO = ['kerala']` in `build.py`), against a 16 MB ceiling. A region's Opus narration costs about 3.5 MB inlined and its photos
 about 0.8, so narration is what to drop when the ceiling bites; the live site has no limit and always
 carries all of it.
 
@@ -325,6 +325,34 @@ carries all of it.
   `narrate.py` to exit, then normalise. The failure is per file, so a partial run leaves some files
   normalised and some not; `python tools/normalise.py both --region <stem> --dry-run` reports the
   spread and re-running fixes it.
+- **The saved Chrome profiles grow until the tests hang in silence.** Each test reuses `tools/test/prof_*`
+  across sessions, and by the fourteenth region `prof_touch` held 444 MB of cached photographs and audio.
+  Chrome then started so slowly that the tests, which poll the debugging port with `urlopen` and no timeout,
+  waited for ever and printed nothing, which looks exactly like a hang in the page. The same page loaded in
+  2.5 s in a fresh profile. The fix is to move the `prof_*` folders aside, which is safe because they are
+  git-ignored and disposable; the lasting fix would be a timeout on that `urlopen` and a fresh profile per run.
+- **A headless test that reuses its Chrome profile inherits the last run's localStorage.** `toggletest.py`
+  stores the language in `mdb-lang`, so after a run that ended in Norwegian it started in Norwegian,
+  tapped Norsk, saw nothing change and printed that as a result. It now forces `mdb-lang=en` and reloads
+  before the tap, and asserts three things rather than printing whatever it found. Any test that both
+  reuses `--user-data-dir` and touches persisted state needs the same treatment.
+- **`narrate.py <anything>` creates `assets/audio/<anything>/`.** Its arguments are positional, so a
+  mistyped `python tools/narrate.py --help` silently made an `assets/audio/--help/` directory that then
+  sat in the tree until someone listed it. There is no `--help`; the usage is in the module docstring.
+- **A hidden map label has a zero-sized rect, and tapping it taps [0,0].** `updateOverlays()` drops a
+  label rather than draw it over one already placed, so at a 390 px viewport three of the fourteen
+  (Bengal & the east, Karnataka, Kerala, depending on the camera) are `display:none`. `maptaptest.py` was
+  finding such a label by `textContent`, tapping [0,0], deselecting, and printing that as a result line
+  that looked like a pass. It now refuses to tap a zero-sized label, names the ones it skipped, and ends
+  with a FAILURES line. **The regions themselves are still reachable** by their pin and their rail chip;
+  whether a long name like "Bengal & the east" should instead shorten on the map is an open question.
+- **The port left English chrome strings that name the wrong country**, and they survive because
+  `applyLang()` overwrites them at runtime so nothing looks wrong in a browser. Found in one sweep:
+  the masthead subtitle still advertised "A course in twenty regions · wine & food", the loader said
+  "Preparing the map of Italy", `#homeBtn` carried `title`/`aria-label` of "Show all of Italy", the intro
+  eyebrow said twenty regions, and the audiobook back button said Italy. Grep the app for `Italy`,
+  `twenty` and `wine` after any change to the shell; what is left should only ever be the `.rwine` CSS
+  class name and the code comment about map scale.
 - The page is served without a doctype. In quirks mode tables reset `color` and `font`; the `.tasting table`
   rule sets them explicitly. Keep that.
 
@@ -341,7 +369,12 @@ each: four writers touching one file is a guaranteed collision.
    `assets/<stem>/key.jpg`), one `<aside class="facts"><h4>Key facts</h4><ul>` per reading, optionally one
    `<aside class="tasting"><h4>In the pantry: …</h4><table><tr><th>Aroma</th><td>…`, and a closing
    `<div class="recap"><h4>Before you move on</h4><ul>` with three bullets. Titles come from `COURSE.lessons`,
-   which already has all fourteen regions. 800–1200 words each. **Never use the class name `glass`** inside
+   which already has all fourteen regions. **Roughly 1100–1500 words each, aiming near 1300.** That is
+   what the course actually is: measured over the forty readings written so far the median is 1302 and
+   the range 919–1574, and only seven of the forty fall inside the 800–1200 this line used to specify.
+   Kerala, written first, is the shortest region and every region since has settled longer. Brief the
+   real number, because a writer told 800–1200 overshoots it and then reports the overshoot as a fault.
+   **Never use the class name `glass`** inside
    reading HTML; it collides with the UI panel class. Read §6 before writing a sentence.
 2. **Text, Norwegian.** `content/<stem>.no.js`: `window.READINGS_NO['IN-XXX'] = {credits: window.READINGS['IN-XXX'].credits, lessons:[…]}`.
    Same structure, same image keys, same number of `<h2>`s. Kickers «Krydder · Lesetekst 1 av 4», «Bordet ·»,
@@ -363,8 +396,12 @@ each: four writers touching one file is a guaranteed collision.
     drift is silent — the page still renders a credit line, just the wrong one. It also catches a referenced
     photo missing from disk and a photo on disk that nothing references, which costs bytes in the 16 MB page.
 8. **Narrate.** `PYTHONIOENCODING=utf-8 python tools/narrate.py <stem> --intro title --drop facts,recap`
-   (about two minutes a file; run it in the background), then `python tools/normalise.py <stem>` and
-   `python tools/opus.py <stem> 12`. Regenerate one file with `--only no-3`.
+   (about two minutes a file; run it in the background), then
+   `python tools/normalise.py both --region <stem>` and `python tools/opus.py <stem> 12`. Regenerate one
+   file with `--only no-3`. **`normalise.py` takes a language, not a stem**: `normalise.py <stem>` matches
+   nothing, prints "0 files" and exits 0, so the region ships about 2.8 dB quieter than the rest of the
+   course and nothing fails. The edge-tts Norwegian lands near -21.9 LUFS against the English -19.3 every
+   time, so this step is never a no-op on a real region.
 9. **Build and test.** `python tools/stale.py` (§13), `python build.py`, then §9, then
     `python tools/make_site.py`.
 10. **Ship the audio.** `python tools/audio_pack.py` and upload to the `audio` release (§5).

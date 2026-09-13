@@ -7,12 +7,13 @@
 **Live: https://vidarsveen.github.io/masala-dabba/ — `git push` deploys it.** Repo
 `github.com/vidarsveen/masala-dabba`, branch `main`, working tree clean and pushed.
 
-**Four of fourteen regions are written**, end to end and narrated in both languages: Kerala (`IN-KER`),
-Punjab & Delhi (`IN-PUN`), Bengal & the east (`IN-BEN`), Rajasthan (`IN-RAJ`). The other ten have
-polygons, sheet summaries, landmarks and reading titles, and show "reading coming soon".
+**All fourteen regions are written**, end to end and narrated in both languages. The last four, Awadh
+(`IN-AWA`), Maharashtra (`IN-MAH`), The Deccan centre (`IN-CEN`) and Karnataka (`IN-KAR`), landed on
+2026-09-13. Nothing on the map says "reading coming soon" any more.
 
-**The next job is the remaining ten regions, three at a time.** The recipe is `CLAUDE.md` §12 and it has
-been run four times. What works:
+**The content is complete. What is left is publishing, and four decisions only the owner can make.** The
+recipe that wrote it is `CLAUDE.md` §12, run fourteen times; the numbered steps below stay as the record of
+how, and for any region that is ever rewritten. What works:
 
 1. Spawn one agent per region, in parallel, each writing `content/<stem>.js` and `.no.js`,
    `content/spice/<stem>.js(.no)`, `content/quiz/<stem>.js(.no)`, `content/recipes/<stem>.js` and
@@ -27,22 +28,38 @@ been run four times. What works:
    `tools/wire.py`, `build.py`, `tools/make_site.py`, `git push`.
 4. `python tools/audio_pack.py` and replace the `audio.tar.gz` asset on the release tagged `audio`.
 
-**Suggested next three**, chosen to stay maximally unlike each other: Goa & the Konkan (`IN-KON`),
-Tamil Nadu (`IN-TAM`), The North-East (`IN-NEA`). Goa is the most load-bearing history reading in the
-course — the chilli arrives in India there — and reading 1 must say that vindaloo is a *vinegar* dish
-from *carne de vinha d'alhos*, not simply a hot one. Its reading 4 must not contradict Kerala's, which
-already tells the 1498 half of the story.
+**Publishing, in order.**
+
+1. `git push` deploys the site (`CLAUDE.md` §10). The working tree is ready and every test passes.
+2. Replace `audio.tar.gz` on the release tagged `audio` with `dist/audio.tar.gz`, now 301.7 MB for all 112
+   narration files. `gh` is not installed, so this is a manual upload or an API call the owner authorises.
+   Without it the site still works and offers the browser voice.
+
+**The owner's decisions, none of which blocks publishing.**
+
+1. **The name** (§3 below). "Masala Dabba" becomes the URL, so it is cheaper to settle before links are shared.
+2. **The Norwegian voice.** All 56 Norwegian files are edge-tts `nb-NO-PernilleNeural`. The Italian course moved
+   to the National Library's «Kvinne · Oslo» and judged it better. Re-recording is now 56 files.
+3. **Map labels at phone width.** Collision-avoidance hides a few long names, Bengal & the east and at times
+   Kerala and Karnataka. The regions stay reachable by pin and rail chip; shorter map names would fix it.
+4. **Reading length.** The median is 1345 words and 48 of 56 sit inside 1100 to 1500. Shorter readings would
+   be a rewrite, not a trim.
+
+What the fourteen taught, for any course that follows. **A spice in two regions is normal**: there are four
+tamarind cards and three curry-leaf cards, each written for its own kitchen, so tell the writer which existing
+card to read first. **One ingredient can hide under two names**: Tamil Nadu's kalpasi and Maharashtra's dagad
+phool are the same lichen. And **the Norwegian review found an error that changed meaning in every one of the
+ten regions reviewed in this pass**, several of them in the English, so it is never optional.
 
 **The one design question is closed**: the owner read Kerala's reading 1 and confirmed the
 spice-pantry chapter earns its place, so the four-reading rhythm is settled for all fourteen.
 
 ## 1. Status, 2026-09-12
 
-The repo exists, the engine is ported, the map is built, and **four regions are written end to end**:
-Kerala, Punjab & Delhi, Bengal & the east and Rajasthan. Sixteen readings in English and Norwegian, 65
-photographs, 24 spice cards, 48 recap questions per language, 19 recipes and narration in both languages.
-Every headless test passes. The other ten regions have polygons, summaries, landmarks and reading titles,
-and degrade to "reading coming soon".
+The repo exists, the engine is ported, the map is built, and **all fourteen regions are written end to end**:
+fifty-six readings in English and Norwegian, 226 photographs, 84 spice cards, 168 recap questions per language,
+96 glossary terms per language, 69 recipes and 112 narration files. Every content checker passes, all 112
+recordings match their text, and every headless test passes.
 
 The four were picked to be maximally unlike each other, so that the format is tested rather than repeated:
 rice and coconut, wheat and dairy, whole spice in hot fat, and a kitchen with no water. Kerala's Norwegian
