@@ -273,6 +273,14 @@ Two things that were not obvious when setting it up:
 If that release is missing the site still publishes, and every reading offers the browser voice instead —
 a working page rather than a failed build.
 
+**The same holds when the release lags behind the content**, which is the normal state right after new
+regions are written. `make_site.py` rebuilds each region's `manifest.js` from `manifest.json` and lists only
+the recordings whose mp3 is actually present, so a region whose narration has not been uploaded yet offers
+the browser voice. Before that, the committed manifests were copied as they were, and the page trusts them
+completely: pushing the last ten regions ahead of the release would have put "Listen · 6 min" over silence on
+ten regions and eighty dead chapters into the audiobook. It was proven by holding those regions' mp3s aside,
+building `site/`, and pressing Listen on Karnataka (browser voice) and Kerala (real narration).
+
 **The preview's audio budget shrinks as regions are added.** Base64 inflates audio by a third, so one
 region's inlined Opus costs about 4 MB against about 0.8 MB for its photographs, and narration is always
 what to cut. At four regions `HOSTED_AUDIO = ['kerala', 'punjab']` came to 14.2 MB of the 16 MB ceiling;
