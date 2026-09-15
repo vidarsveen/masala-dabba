@@ -403,8 +403,13 @@ each: four writers touching one file is a guaranteed collision.
     `credits:` object in the content file field by field, because the same data written twice drifts and the
     drift is silent — the page still renders a credit line, just the wrong one. It also catches a referenced
     photo missing from disk and a photo on disk that nothing references, which costs bytes in the 16 MB page.
-8. **Narrate.** `PYTHONIOENCODING=utf-8 python tools/narrate.py <stem> --intro title --drop facts,recap`
-   (about two minutes a file; run it in the background), then
+8. **Narrate.** `PYTHONIOENCODING=utf-8 python tools/narrate.py <stem> --intro title --drop facts,recap,tasting,headings --outro none`
+   (about two minutes a file; run it in the background). That is the standard since 2026-09-14
+   (`STANDARD_INTRO`/`STANDARD_DROP`/`STANDARD_OUTRO` in `narrate.py`): title, then prose, and no closing
+   line, because the spice table and the section headings are for the eye and read aloud they were the
+   "cryptic messages" the owner heard, and the audiobook plays readings straight through. The 112
+   files recorded before that date used `--drop facts,recap` and still speak both; `stale.py` reads each file's
+   own settings from `manifest.json`, so they are not reported stale until their text changes. Then
    `python tools/normalise.py both --region <stem>` and `python tools/opus.py <stem> 12`. Regenerate one
    file with `--only no-3`. **`normalise.py` takes a language, not a stem**: `normalise.py <stem>` matches
    nothing, prints "0 files" and exits 0, so the region ships about 2.8 dB quieter than the rest of the
@@ -429,7 +434,8 @@ not (§5). It reads `intro` and `drop` back out of `manifest.json`, so a file re
 
 It is also precise about what does *not* matter: `--drop facts,recap` means an edit inside a
 `<aside class="facts">` or a `<div class="recap">` block changes nothing you can hear, and
-`stale.py` correctly leaves that file alone. Quiz questions, spice cards and recipes are never
+`stale.py` correctly leaves that file alone. With the 2026-09-14 standard (`tasting,headings` dropped
+too) the same holds for the spice table and for renaming an `<h2>`. Quiz questions, spice cards and recipes are never
 narrated at all.
 
 ## 14. The name

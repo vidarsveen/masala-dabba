@@ -56,7 +56,8 @@ for stem in stems:
             rec = manifest.get(key, {})
             intro = rec.get('intro', 'full')
             drop = tuple(s for s in (rec.get('drop') or '').split(',') if s)
-            want = narrate.to_script(lesson, lang, intro, drop)
+            outro = rec.get('outro', 'line')
+            want = narrate.to_script(lesson, lang, intro, drop, outro)
             have = open(txt, encoding='utf-8').read()
             checked += 1
             if want.strip() != have.strip():
@@ -83,5 +84,6 @@ for stem, key, have, want in stale:
 # narrate.py's --only takes one key, so this is one command per file rather than one per region
 print('%d stale. Re-record with:' % len(stale))
 for stem, key, _, _ in stale:
-    print('  python tools/narrate.py %s --intro title --drop facts,recap --only %s' % (stem, key))
+    print('  python tools/narrate.py %s --intro %s --drop %s --outro %s --only %s'
+          % (stem, narrate.STANDARD_INTRO, narrate.STANDARD_DROP, narrate.STANDARD_OUTRO, key))
 sys.exit(1)

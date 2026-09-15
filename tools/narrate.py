@@ -16,12 +16,21 @@ Two engines:
                        no key. --voice 'Kvinne · Oslo' or 'Mann · Oslo', --pace Rolig|Normal|Rask,
                        --tempo 0.95 to stretch the delivery without moving the pitch.
 
-The spoken script normally opens with the lesson title and its one-line summary. --intro
-controls that: full (default, what every existing file has), title (title only, then straight
-into the prose) or none. Changing it changes the script, so every file rendered with a
-different setting is a deliberate re-record.
+The spoken script opens with the lesson title and, with --intro full, its one-line summary.
+--intro title reads the title only; --intro none starts at the prose. --drop names what is
+left out of the narration (never the page): facts, recap, tasting, headings. The standard
+from 2026-09-14 is `--intro title --drop facts,recap,tasting,headings` (STANDARD_INTRO and
+STANDARD_DROP below): boxes and section labels are for the eye, and read aloud they were the
+"small cryptic messages" the owner complained about. The 112 files recorded before that date
+used `--intro title --drop facts,recap`, so they still speak the spice table and every
+heading. Changing either setting changes the script, so every file rendered with a different
+setting is a deliberate re-record; the settings are written to manifest.json so `stale.py`
+compares like with like.
 
-Usage: python tools/narrate.py bengal [--only en-3]
+--outro none leaves out the closing line ("End of this reading."), which is the standard too: the
+audiobook plays readings straight through and the line is noise between chapters.
+
+Usage: python tools/narrate.py bengal --intro title --drop facts,recap,tasting,headings --outro none [--only en-3]
        python tools/narrate.py bengal --engine openrouter --voice nova --intro title
 """
 import asyncio, html, json, os, re, subprocess, sys
@@ -29,6 +38,12 @@ import edge_tts, imageio_ffmpeg
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VOICES = {'en': 'en-GB-SoniaNeural', 'no': 'nb-NO-PernilleNeural'}
+DROPPABLE = ('facts', 'recap', 'tasting', 'headings')
+# What every recording made from 2026-09-14 on uses: the title, then the prose, nothing that is
+# a box or a label on screen. Older files carry their own settings in manifest.json.
+STANDARD_INTRO = 'title'
+STANDARD_DROP = 'facts,recap,tasting,headings'
+STANDARD_OUTRO = 'none'      # 'line' speaks "End of this reading." / «Slutt på leseteksten.»
 RATE = '-4%'
 ARGS = sys.argv[1:]
 
@@ -44,7 +59,7 @@ def lessons_from(path):
         out.append({'title': unesc(m.group(1)), 'kicker': unesc(m.group(2)), 'minutes': int(m.group(3)), 'summary': unesc(m.group(4)), 'html': m.group(5)})
     return out
 
-def to_script(lesson, lang, intro='full', drop=()):
+def to_script(lesson, lang, intro='full', drop=(), outro='line'):
     h = lesson['html']
     h = re.sub(r'<figure.*?</figure>', ' ', h, flags=re.S)
     # Boxes that are lists rather than prose. Spoken, they interrupt the reading; on screen
@@ -58,7 +73,13 @@ def to_script(lesson, lang, intro='full', drop=()):
     # tables: "Colour: value."
     h = re.sub(r'<tr><th>(.*?)</th><td>(.*?)</td></tr>', lambda m: f' {m.group(1)}: {m.group(2)}.\n', h, flags=re.S)
     h = re.sub(r'<h4>(.*?)</h4>', r'\n\1.\n', h, flags=re.S)
-    h = re.sub(r'<h2>(.*?)</h2>', r'\n\n\1.\n\n', h, flags=re.S)
+    # Section headings are labels for the eye. Spoken, "The line through Punjab." is a fragment
+    # with a pause either side, and the listener has to guess what it was for. --drop headings
+    # keeps the paragraph break and loses the words; the prose has to carry its own transitions.
+    if 'headings' in drop:
+        h = re.sub(r'<h2>.*?</h2>', '\n\n', h, flags=re.S)
+    else:
+        h = re.sub(r'<h2>(.*?)</h2>', r'\n\n\1.\n\n', h, flags=re.S)
     h = re.sub(r'<li>(.*?)</li>', lambda m: '\n' + m.group(1).strip().rstrip('.') + '.\n', h, flags=re.S)
     h = re.sub(r'</p>|</aside>|</div>|</ul>', '\n', h)
     h = re.sub(r'<[^>]+>', '', h)
@@ -68,8 +89,10 @@ def to_script(lesson, lang, intro='full', drop=()):
     head = {'full': f"{lesson['title']}.\n\n{lesson['summary']}\n\n",
             'title': f"{lesson['title']}.\n\n",
             'none': ''}[intro]
-    outro = "\n\nSlutt på leseteksten." if lang == 'no' else "\n\nEnd of this reading."
-    return head + h + outro
+    # The closing line was written for a single reading in the reader. Played straight through
+    # as an audiobook it is noise between chapters, so the standard from 2026-09-14 is none.
+    tail = ("\n\nSlutt på leseteksten." if lang == 'no' else "\n\nEnd of this reading.") if outro == 'line' else ''
+    return head + h + tail
 
 async def synth(text, voice, out):
     c = edge_tts.Communicate(text, voice, rate=RATE)
@@ -146,11 +169,14 @@ async def main():
     voice_override = arg('--voice')
     instructions = arg('--instructions')
     drop = tuple(s.strip() for s in (arg('--drop') or '').split(',') if s.strip())
+    outro = arg('--outro', 'line')
     if intro not in ('full', 'title', 'none'):
         sys.exit('--intro takes full, title or none')
-    bad = [d for d in drop if d not in ('facts', 'recap', 'tasting')]
+    if outro not in ('line', 'none'):
+        sys.exit('--outro takes line or none')
+    bad = [d for d in drop if d not in DROPPABLE]
     if bad:
-        sys.exit(f'--drop takes facts, recap and/or tasting, not {bad}')
+        sys.exit(f'--drop takes any of {", ".join(DROPPABLE)}, not {bad}')
     outdir = os.path.join(ROOT, 'assets', 'audio', region); os.makedirs(outdir, exist_ok=True)
     manifest_path = os.path.join(outdir, 'manifest.json')
     manifest = json.load(open(manifest_path, encoding='utf-8')) if os.path.exists(manifest_path) else {}
@@ -162,7 +188,7 @@ async def main():
         for i, L in enumerate(lessons_from(path), start=1):
             key = f'{lang}-{i}'
             if only and only != key: continue
-            script = to_script(L, lang, intro, drop)
+            script = to_script(L, lang, intro, drop, outro)
             open(os.path.join(outdir, f'{key}.txt'), 'w', encoding='utf-8').write(script)
             out = os.path.join(outdir, f'{key}.mp3'); lo = os.path.join(outdir, f'{key}.lo.mp3')
             print(f'{key}: {len(script.split())} words -> synthesising ({engine})', flush=True)
@@ -185,6 +211,7 @@ async def main():
             if cost: manifest[key]['cost'] = cost
             if intro != 'full': manifest[key]['intro'] = intro
             if drop: manifest[key]['drop'] = ','.join(drop)
+            if outro != 'line': manifest[key]['outro'] = outro
             print(f'   {manifest[key]}', flush=True)
             json.dump(manifest, open(manifest_path, 'w', encoding='utf-8'), indent=1)
     print('done')
