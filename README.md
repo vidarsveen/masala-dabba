@@ -1,3 +1,5 @@
+> **Active improvement work (21 September 2026):** see [the Italy-to-India checklist](docs/italy-transfer/PLAN.md) and [AGENTS.md](AGENTS.md). Original completion notes below describe the first edition, not the new review and Puck audio pass.
+
 # Masala Dabba
 
 A mobile-first course on the regional kitchens of India. The navigation is a 3D relief map built from real

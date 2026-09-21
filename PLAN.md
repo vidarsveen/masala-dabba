@@ -1,3 +1,5 @@
+> **Active improvement work (21 September 2026):** see [the Italy-to-India checklist](docs/italy-transfer/PLAN.md) and [AGENTS.md](AGENTS.md). Original completion notes below describe the first edition, not the new review and Puck audio pass.
+
 # Masala Dabba — roadmap
 
 `CLAUDE.md` is the operating manual. This file is what is decided, what is open, and what happens next.
