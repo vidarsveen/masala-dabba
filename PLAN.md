@@ -1,4 +1,4 @@
-> **Current status, 23 September 2026:** The 14-region bilingual editorial review and 70-track Norwegian Puck recording pass are published on GitHub Pages. The owner corrected the English audio direction: do not keep recordings that disagree with revised text, and use no paid English TTS. All 70 English chapters are now regenerated with the free Edge voice and pass local text, format, acoustic and phone playback checks. The revised audio release and Pages update are being prepared. See [the transfer checklist](docs/italy-transfer/PLAN.md); the older roadmap below is historical.
+> **Current status, 23 September 2026:** The 14-region bilingual editorial review is published on GitHub Pages with 70 Norwegian Puck and 70 free English Edge recordings. All 140 chapters have current scripts and standard spoken format. Local text, format, acoustic, phone playback and full audiobook export checks pass; the 70 English live MP3s match the release manifest, and both languages stream with HTTP byte ranges. No paid English TTS was used. See [the transfer checklist](docs/italy-transfer/PLAN.md); the older roadmap below is historical.
 
 # Masala Dabba — roadmap
 

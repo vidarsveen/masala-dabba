@@ -1,4 +1,4 @@
-> **Audio update, 23 September 2026:** All 14 regions have completed a bilingual editorial review. All 70 Norwegian Puck tracks are live. The owner clarified that English audio must also match the revised text, without paid English TTS: 56 readings and 14 introductions have now been regenerated with the free Edge English voice and pass local checks. Their updated GitHub Pages release is in preparation. See [the transfer checklist](docs/italy-transfer/PLAN.md) for verification. The historical completion notes below describe the first edition.
+> **Published 23 September 2026:** All 14 regions have completed a bilingual editorial review. The live course has 70 Norwegian Puck recordings and 70 current-text English recordings made with the free Edge voice. No paid English TTS was used. The new English audio is verified locally and on GitHub Pages. See [the transfer checklist](docs/italy-transfer/PLAN.md) for verification. The historical completion notes below describe the first edition.
 
 # Masala Dabba
 

@@ -498,3 +498,14 @@ The 280-file audio archive is 256.2 MB, with SHA-256
 `9b62d1803b1129f6f676a7d014aec50b4960caec60307919c9cb1a1221955a4f`;
 the local archive-to-source check passes. Its new GitHub release upload and Pages update
 are pending. Automated checks do not replace a human pronunciation review.
+
+English release verification, 23 September 2026: the 280-file archive was uploaded as asset
+`583155750`, verified by GitHub SHA-256, and promoted to `audio.tar.gz`. The prior asset
+`583085994` is retained as a rollback backup. Commit `5944555` was pushed to `main`, and
+Pages run `35827680385` completed successfully. All 70 public English MP3s returned HTTP
+200 with sizes matching their manifests; the public page returned HTTP 200, and English
+introduction, English reading and Norwegian reading range requests returned HTTP 206.
+The complete English M4B export has 70 chapters and 4h 25m of audio; the Norwegian export
+has 70 chapters and 5h 22m. The English paid-TTS cost is $0; the earlier Norwegian provider
+receipts remain $9.74197 including the audition. Human listening remains advisable for
+pronunciation and any spoken omissions that automated checks cannot detect.
