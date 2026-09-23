@@ -20,7 +20,7 @@ Object.assign(window.SPICE, {
  'IN-GUJ|Asafoetida (hing)': {
    aroma: 'Raw it is sulphurous and hard to like. A few seconds in hot fat turn it savoury and warm, close to frying onion.',
    flavour: 'Barely any of its own once cooked. What is left is a depth underneath everything that is difficult to name.',
-   does: 'Supplies the allium note in the many Jain and Vaishnav houses that cook without onion or garlic, and settles a pot of pulses.',
+   does: 'Supplies savoury depth in Jain and Vaishnav cooking that omits onion or garlic, and traditionally seasons pulse dishes.',
    when: 'A pinch into the hot oil right after the mustard seed, and only for a few seconds. Raw, it smells wrong.',
    swap: 'None. A dish without it is flatter, and adding onion instead makes a different dish rather than the same one.'
  },

@@ -5,16 +5,16 @@ window.SPICE = window.SPICE || {};
 Object.assign(window.SPICE, {
  'IN-PUN|Garam masala': {
    aroma: 'Sweet bark and clove over something resinous, which is the black cardamom. It smells warm rather than sharp.',
-   flavour: 'Rounded and faintly numbing, with no chilli heat at all. A good blend tastes of no single spice.',
-   does: 'Ties the other spices in a dish together and lifts the whole thing at the end. It is a finish, not a base.',
-   when: 'In the last minute, off the boil. Frying it hard drives away the volatile oils that are the point of it.',
-   swap: 'Never curry powder, which contains turmeric and chilli. Grind cinnamon, clove, cardamom and pepper yourself.'
+   flavour: 'Warm and peppery, with a balance that varies between blends. Some contain chilli, so check the ingredients before adding more heat.',
+   does: 'Brings several spice aromas together. A small amount near the end gives a fresh finish; some recipes also use it earlier.',
+   when: 'Near the end for a fresh aroma. Follow the recipe if it also calls for an earlier addition; prolonged heat changes the volatile aromas.',
+   swap: 'Curry powder has a different balance. For a simple substitute, grind cinnamon, clove, cardamom and pepper.'
  },
  'IN-PUN|Cumin (jeera)': {
    aroma: 'Earthy and slightly bitter cold; warm and nutty the moment it hits hot fat.',
    flavour: 'Savoury and a little smoky, with a bitterness that turns unpleasant if the seed goes past dark brown.',
    does: 'Starts almost every north Indian dish. Whole seed in hot ghee is the base note the rest is built on.',
-   when: 'Whole, into the fat, first of all, and watched: it darkens in twenty seconds. Ground cumin goes in with the powders.',
+   when: 'Whole, into hot fat at the start. Watch for fragrance and browning without blackening; timing depends on the heat. Ground cumin goes in with the powders.',
    swap: 'Nothing behaves the same way. Caraway looks similar and tastes wrong, so leave the cumin out rather than use it.'
  },
  'IN-PUN|Coriander seed': {

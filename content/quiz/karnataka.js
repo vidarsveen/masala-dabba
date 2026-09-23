@@ -21,15 +21,15 @@ window.QUIZ['IN-KAR'] = [
       'The rind is salted and fermented for a year',
       'The fruit is pressed with palm vinegar and strained',
       'The seeds are roasted and then ground'],
-   c:0, why:'Ripe fruit is heaped until the juice drips out, and that juice is simmered over a wood fire until it thickens. Nothing is fermented.'}
+   c:0, why:'Liquid collected from ripe Garcinia fruit is reduced to a dark sour concentrate. Accounts differ on the resting and fermentation stage.'}
  ],
  [
-  {q:'Why is ragi mudde swallowed rather than chewed?',
-   a:['Chewing is thought impolite at a working meal',
-      'The ball is too hot to keep in the mouth',
-      'Chewed ragi dough turns into a sticky paste that tastes of very little',
-      'The lumps are too large to bite through'],
-   c:2, why:'A coated lump goes down carrying the flavour of the saaru with it. Chewed, the dough clings to the roof of the mouth.'},
+  {q:'How should a learner eat ragi mudde safely?',
+   a:['Take a whole ball at once',
+      'Let it remain hot enough to melt',
+      'Take a small piece, coat it in saaru and chew as needed',
+      'Dry it until it becomes crisp'],
+   c:2, why:'Small pieces coated in thin saaru are easier to handle. Experienced diners may chew little, but learners should choose a comfortable size and chew as needed.'},
   {q:'What is bassaru?',
    a:['A ball of millet dough shaped by hand',
       'The water that greens and pulses were boiled in, served as the thin stew',
@@ -41,7 +41,7 @@ window.QUIZ['IN-KAR'] = [
       'It ferments for three days rather than one night',
       'It uses no lentil and no fermentation, and is ground and used the same day',
       'It is steamed in a mould instead of cooked on a pan'],
-   c:2, why:'Raw rice is ground with a little coconut and let down with water. The lift comes from steam, so the batter cannot be kept.'}
+   c:2, why:'Raw rice is ground with a little coconut and thinned with water. Steam makes the holes; refrigerate the unfermented batter promptly and use it fresh.'}
  ],
  [
   {q:'What makes a Mysore masala dosa a Mysore one?',
@@ -56,12 +56,12 @@ window.QUIZ['IN-KAR'] = [
       'It is made without any tamarind',
       'Chickpeas are used in place of the dal'],
    c:1, why:'Sambar with rice is two dishes meeting on a plate. Here they cook together until the grain loses its edges.'},
-  {q:'How did Udupi cooking reach restaurants across India?',
+  {q:'How did the Udupi restaurant name spread across India?',
    a:['The Wodeyars sent palace cooks to other princely courts',
       'British planters hired coastal cooks and moved them north',
-      'Cooks trained in the temple tradition left for the cities and opened eating houses there',
+      'Migrants from the Udupi area opened eating houses in cities such as Mumbai',
       'Vijayanagara traders carried the recipes along the caravan routes'],
-   c:2, why:'From the early twentieth century, and above all through the nineteen-thirties and forties, those cooks opened Udupi hotels in Mumbai and beyond.'}
+   c:2, why:'During the twentieth century, migrants from the Udupi area opened vegetarian southern restaurants in Mumbai and other cities; later operators had varied connections to the temple tradition.'}
  ],
  [
   {q:'What happened to Vijayanagara in 1565?',
@@ -69,13 +69,13 @@ window.QUIZ['IN-KAR'] = [
       'Its army was defeated at Talikota and the capital was sacked',
       'It was flooded when the Tungabhadra changed course',
       'It was absorbed peacefully into the kingdom of Mysore'],
-   c:1, why:'A coalition of the Deccan sultanates won the battle, and Hampi was sacked over months and never lived in again.'},
+   c:1, why:'A coalition of Deccan sultanates won the battle, after which the capital suffered major destruction; the wider empire continued from other centres.'},
   {q:'Why does Vijayanagara matter to what the plateau eats?',
    a:['It introduced chilli and tomato to southern India',
       'It built the first sugar refineries in the region',
-      'Its dams, canals and tanks let dry country grow food reliably',
+      'Its dams, canals and tanks expanded water storage and irrigation',
       'It brought coffee down from the hills to the plain'],
-   c:2, why:'Some of those tanks still irrigate fields, and they are why millet, pulses and sugarcane could feed a city on dry land.'},
+   c:2, why:'Vijayanagara developed tanks and canals that supported settlement and farming in a seasonally dry landscape; some waterworks remain legible or in use.'},
   {q:'How should the story of Baba Budan and the seven beans be treated?',
    a:['As an event documented in the records of the time',
       'As proof that coffee reached India before it reached Yemen',

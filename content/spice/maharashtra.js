@@ -4,44 +4,44 @@
 window.SPICE = window.SPICE || {};
 Object.assign(window.SPICE, {
  'IN-MAH|Goda masala': {
-   aroma: 'Roasted coconut and toasted sesame over warm bark, with damp stone underneath from the lichen in it.',
-   flavour: 'Deep and savoury with a bitter edge, and barely hot. Its name means sweet, and there is no sugar in it.',
-   does: 'Supplies the colour and the whole savoury weight of everyday plateau food: dal, stuffed aubergines, spiced rice, sprouted-bean usal.',
-   when: 'Into the pan once the onion has softened, so the oil takes it up before any liquid goes in and the rawness cooks off.',
-   swap: 'Garam masala gives a different dish rather than a weaker one. If you must, roast coconut and sesame and add them to it.'
+   aroma: 'Roasted coconut, sesame and warm whole spices; the balance changes with the maker.',
+   flavour: 'Warm, toasted and usually gentle rather than sugary. Some blends are darker or hotter than others.',
+   does: 'Adds roasted depth to dishes such as amti, stuffed aubergines, masale bhat and sprouted-bean usal.',
+   when: 'Usually fried briefly with softened aromatics before liquid is added; follow the dish and the blend.',
+   swap: 'Garam masala has a different profile. Roasted coconut and sesame can bring it closer when goda masala is unavailable.'
  },
  'IN-MAH|Dagad phool': {
-   aroma: 'Flat and papery in the hand. The smell only arrives in hot oil, and then it is wet rock and old wood.',
-   flavour: 'Nothing you could pick out of a finished dish. It reads as depth rather than as a taste with a name.',
-   does: 'Holds goda masala down. Roasted coconut turns soft and sweet on its own, and the lichen keeps it savoury.',
-   when: 'Roasted in oil with the other whole spices before the blend is ground. It is never added to a cooked dish.',
-   swap: 'Nothing. Grind the blend without it and expect something lighter and sweeter than it should be.'
+   aroma: 'Papery when dry, with a subtle earthy and woody aroma after toasting.',
+   flavour: 'A background earthiness rather than a dominant named flavour.',
+   does: 'Contributes depth to some goda masala and other regional spice blends.',
+   when: 'Usually roasted with other whole spices before a blend is ground.',
+   swap: 'There is no close substitute; omit it or buy a prepared blend that already contains it.'
  },
  'IN-MAH|Kala masala': {
-   aroma: 'Burnt chilli and scorched spice, far sharper than goda masala and unmistakable across a room.',
-   flavour: 'Hot, smoky and bitter at the back. The heat arrives late, which is what makes a Kolhapuri gravy dangerous.',
-   does: 'Carries the red gravies of Kolhapur and Vidarbha, tambda rassa above all, where it does the colouring and the burning at once.',
-   when: 'Cooked in oil with the onion and ginger-garlic before the stock goes in, so the chilli oil separates and rises.',
-   swap: 'Kashmiri chilli for the colour plus a hot chilli for the burn gets you close, but the roast is what you are missing.'
+   aroma: 'Deeply roasted spices, sometimes with a pronounced chilli note; blends vary widely.',
+   flavour: 'Dark, toasted and often hotter than goda masala, although the names overlap between makers.',
+   does: 'Adds colour, roast and heat to dishes including some Kolhapuri and Vidarbha gravies.',
+   when: 'Cooked briefly in oil with aromatics before liquid is added, taking care not to burn the ground spices.',
+   swap: 'A dark roasted masala plus separate mild and hot chilli can approximate its colour and heat.'
  },
  'IN-MAH|Peanut': {
    aroma: 'Sweet and toasty once roasted, and almost nothing at all raw.',
    flavour: 'Rich and faintly milky, with a bitterness in the skins that is why they are usually rubbed off.',
-   does: 'The cheap fat and the cheap thickener of a dry plateau. Ground, it thickens a stuffing; crushed, it gives crunch and body.',
+   does: 'Adds fat and body to plateau cooking. Ground, it thickens a stuffing; crushed, it gives texture.',
    when: 'Roasted and rubbed of skins first, then crushed coarse for a topping or ground fine into a masala or a stuffing.',
    swap: 'Cashew is richer and sweeter and thickens as well. Sesame gives a similar body with a different, more bitter flavour.'
  },
  'IN-MAH|Curry leaf': {
    aroma: 'Citrus and warm nuts, and only in hot fat. The dried leaf gives almost nothing.',
    flavour: 'Savoury and slightly bitter, sitting under the turmeric and asafoetida rather than beside them.',
-   does: 'Closes the phodni, the Marathi tempering. Oil, mustard seed, asafoetida, turmeric, then the leaves, in that fixed order.',
-   when: 'Last of the four, into the oil for a few seconds until it crackles and goes quiet, and then the vegetables go in.',
-   swap: 'None. A Maharashtrian cook who has run out makes the phodni without it rather than substituting anything.'
+   does: 'Adds citrusy, savoury aroma to phodni, the Marathi term for tempering spices in hot fat.',
+   when: 'Added to hot oil until it crackles; the exact order depends on the other spices and the dish.',
+   swap: 'There is no close substitute. Omit it if fresh or frozen curry leaves are unavailable.'
  },
  'IN-MAH|Kokum': {
    aroma: 'Dried plum and a little leather. The salted concentrate smells sharper and faintly of brine.',
    flavour: 'Clean fruity acidity with no sweetness, and it leaves the colour of a dish alone where tamarind would muddy it.',
-   does: 'Sours Malvani fish curry without fighting the coconut, and steeped in water it gives solkadhi its pink and its edge.',
+   does: 'Sours some Malvani fish curries and gives solkadhi fruity acidity and, often, a pale pink colour.',
    when: 'Rinsed and dropped in whole near the start of a fish curry; steeped in warm water for an hour if you want solkadhi.',
    swap: 'Tamarind sours as well but browns the gravy. Lime works only off the heat, and neither gives you the colour.'
  }

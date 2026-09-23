@@ -8,19 +8,19 @@ window.RECIPES['IN-AND'] = [
   id:'pulihora', dish:'Pulihora', course:'rice', lesson:2, serves:4, veg:true,
   time:{prep:25, cook:35}, hero:'pulihora', tags:['rice','tamarind','temple'],
   title:{en:'Pulihora', no:'Pulihora'},
-  blurb:{en:'Tamarind cooked down in sesame oil until it thickens, then folded through cold rice and left to stand.',
-         no:'Tamarind kokt inn i sesamolje til den tykner, vendt inn i kald ris og satt til side en stund.'},
+  blurb:{en:'Tamarind cooked down with sesame oil and tempering, then folded through rice and served promptly or chilled.',
+         no:'Tamarind kokt inn med sesamolje og tempering, vendt i ris og servert straks eller kjølt ned.'},
   heroCaption:{en:'Peanuts, split chickpeas and curry leaves stay visible through the rice. The colour is turmeric and cooked-down tamarind, not chilli.',
                no:'Jordnøtter, delte kikerter og karriblad ligger synlig i risen. Fargen kommer fra gurkemeie og innkokt tamarind, ikke fra chili.'},
   goesWith:[{en:'Plain yoghurt, cold', no:'Naturell yoghurt, kald'},
             {en:'A fried pappadam', no:'En stekt pappadam'}],
   headnote:{
-    en:`<p>Pulihora is one of the few Indian rice dishes that is better an hour after you finish it, and that is not a courtesy. The paste has to work its way into every grain, and the moment it goes in nothing has happened yet. Cooks in Andhra make it in the morning for the afternoon, and temples make it in quantity because it keeps a day without a fridge.</p>
+    en:`<p>Pulihora benefits from a short rest while the tamarind seasoning coats the rice, but cooked rice still needs ordinary temperature control. Serve it after mixing, or refrigerate it within two hours and keep it cold until needed.</p>
 <p>Two things separate a good one from a merely sour one. The tamarind is not stirred in raw: it is cooked down in sesame oil with the tempering until it darkens and thickens into a paste that holds a line when you draw a spoon through it. And a small amount of sesame and fenugreek is roasted and ground in at the very end, which gives the dish the nutty bottom note that a plain tamarind rice lacks.</p>
-<p>The third rule is about temperature. The rice must be completely cold. Fold anything through warm rice and the grains break down into paste, and no amount of care later puts them back.</p>`,
-    no:`<p>Pulihora er en av de få indiske risrettene som er bedre en time etter at du er ferdig, og det er ikke høflighet. Pastaen må arbeide seg inn i hvert korn, og i det øyeblikket den går i, har ingenting skjedd ennå. Kokker i Andhra lager den om morgenen til ettermiddagen, og templene lager den i store mengder fordi den holder seg et døgn uten kjøleskap.</p>
+<p>Let the freshly cooked rice release its steam in a clean wide tray. It need not become refrigerator-cold before mixing; the aim is separate grains and prompt serving or chilling.</p>`,
+    no:`<p>Pulihora har godt av en kort hvile mens tamarindkrydderet legger seg rundt risen, men kokt ris trenger fortsatt vanlig temperaturkontroll. Server etter blanding, eller sett den i kjøleskap innen to timer og hold den kald til den skal spises.</p>
 <p>To ting skiller en god pulihora fra en som bare er sur. Tamarinden røres ikke inn rå. Den kokes ned i sesamolje sammen med temperingen til den mørkner og tykner så mye at sporet etter skjeen blir stående. Og en liten mengde sesam og bukkehornkløver ristes og males inn helt til slutt, og det gir retten den nøtteaktige bunnen en vanlig tamarindris mangler.</p>
-<p>Den tredje regelen handler om temperatur. Risen må være helt kald. Vender du noe inn i varm ris, går kornene i oppløsning, og ingen forsiktighet senere henter dem tilbake.</p>`},
+<p>La nykokt ris dampe av i et rent, vidt fat. Den trenger ikke bli kjøleskapskald før blanding; målet er separate korn og rask servering eller nedkjøling.</p>`},
   ingredients:[
    {group:{en:'The rice', no:'Risen'}, items:[
     {q:300, u:'g', n:{en:'short-grain or medium-grain rice', no:'kort- eller mellomkornet ris'}, note:{en:'rinsed until the water runs clear', no:'skylt til vannet er klart'}},
@@ -64,17 +64,17 @@ window.RECIPES['IN-AND'] = [
      no:'Ha i de tørkede chiliene, de grønne chiliene og karribladene. Hold deg unna mens det knitrer, trekk så pannen av platen og rør inn gurkemeien og asafoetidaen.'},
     {en:'Return the pan to a medium flame, pour in the tamarind extract and salt it. Simmer until it darkens and thickens enough to hold a line when a spoon is drawn through it, fifteen to twenty minutes.',
      no:'Sett pannen tilbake på middels varme, hell i tamarindekstraktet og salt. La det småkoke til det mørkner og tykner så mye at sporet etter skjeen blir stående, femten til tjue minutter.'},
-    {en:'Take the paste off the heat, stir in the roasted powder and leave it to cool to room temperature.',
-     no:'Ta pastaen av platen, rør inn det ristede pulveret og la den kjøle seg til romtemperatur.'},
-    {en:'Fold the paste through the cold rice a little at a time, tasting as you go, until every grain is coloured. Cover it and leave it to stand for an hour before eating.',
-     no:'Vend pastaen inn i den kalde risen litt om gangen og smak underveis, til hvert korn har fått farge. Dekk til og la den stå i en time før du spiser.'}],
+    {en:'Take the paste off the heat, stir in the roasted powder and let the strongest heat subside while the rice releases its steam.',
+     no:'Ta pastaen av platen, rør inn det ristede pulveret og la den sterkeste varmen slippe mens risen damper av.'},
+    {en:'Fold the paste through the rice a little at a time, tasting as you go. Serve promptly, or divide into shallow containers and refrigerate within two hours.',
+     no:'Vend pastaen inn i risen litt om gangen og smak underveis. Server straks, eller fordel i grunne bokser og sett i kjøleskap innen to timer.'}],
   notes:[
-    {title:{en:'Why the rice has to be cold', no:'Hvorfor risen må være kald'},
-     body:{en:'Hot rice is still soft and full of free starch on the surface of every grain, and stirring anything through it breaks the grains and glues them together. Cold rice has firmed up, so the paste coats each grain instead of dissolving into it. This is the same reason a fried rice starts with yesterday\'s.',
-           no:'Varm ris er fortsatt myk og har fri stivelse på overflaten av hvert korn, så rører du noe inn i den, går kornene i stykker og klistrer seg sammen. Kald ris har stivnet, så pastaen legger seg rundt hvert korn i stedet for å løse seg opp i det. Det er den samme grunnen til at stekt ris lages av gårsdagens ris.'}},
+    {title:{en:'Why the rice is spread out', no:'Hvorfor risen bres utover'},
+     body:{en:'Spreading lets steam escape and makes the grains firmer and easier to coat without crushing them. It also helps rice cool quickly if it will not be served at once; move it to the refrigerator within two hours.',
+           no:'Når risen bres utover, slipper dampen ut og kornene blir fastere og lettere å dekke uten å knuses. Det hjelper også risen å kjølne raskt hvis den ikke skal serveres straks; sett den i kjøleskap innen to timer.'}},
     {title:{en:'Why the tamarind is cooked down', no:'Hvorfor tamarinden kokes ned'},
-     body:{en:'Raw tamarind extract is mostly water, and stirred into rice it makes the grains wet and tastes flat. Cooking it in oil drives the water off, concentrates the acid and lets the fat carry the tempering into the paste. It also makes it keep: a properly reduced paste lasts a fortnight in the fridge and can be made ahead.',
-           no:'Rått tamarindekstrakt er for det meste vann, og rørt inn i ris gjør det bare kornene våte og smaker flatt. Kokes det i olje, damper vannet av, syren konsentreres, og fettet bærer temperingen inn i pastaen. Den holder seg også: en skikkelig innkokt pasta varer fjorten dager i kjøleskapet og kan lages på forhånd.'}},
+     body:{en:'Raw tamarind extract is mostly water, and stirred into rice it makes the grains wet and tastes flat. Cooking it down concentrates the acidity and lets the oil carry the tempering. Refrigerate any unused paste promptly and use it within a few days.',
+           no:'Rått tamarindekstrakt er for det meste vann, og rørt inn i ris gjør det kornene våte og smaker flatt. Innkoking konsentrerer syren, og oljen bærer temperingen. Sett ubrukt pasta raskt i kjøleskap og bruk den i løpet av noen dager.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Buy tamarind as a pressed block with the seeds still in it and soak it yourself, because that is what these quantities are written for.',
            no:'Kjøp tamarind som presset blokk med kjernene i og bløtlegg den selv, for det er det disse mengdene er skrevet for. Konsentratet på glass er allerede kokt inn og er mye sterkere, så bruk under en femdel så mye og spe med vann. «Tamarind paste» i dagligvaren er ofte spedd ut med vann og salt og gir en tynn og salt rett. Karriblad får du ferske eller frosne i indiske butikker på Grønland i Oslo; de tørkede gir nesten ingenting. Bruk kortkornet ris, ikke basmati, for basmatikornet er for tynt og tørt til å bære pastaen. Asafoetida selges som hing og lukter kraftig; en knivsodd er nok.'}}],
@@ -101,12 +101,12 @@ window.RECIPES['IN-AND'] = [
   goesWith:[{en:'Ginger and tamarind chutney', no:'Chutney av ingefær og tamarind'},
             {en:'Strong coffee or tea', no:'Sterk kaffe eller te'}],
   headnote:{
-    en:`<p>Everything about pesarattu looks like a dosa and almost nothing about it works like one. A dosa batter is rice and urad dal, ground apart and left overnight, and wild bacteria on the lentil raise it and sour it. Pesarattu is whole green gram, ground with ginger and chilli, and used within the hour. Nothing ferments, and nothing is supposed to.</p>
-<p>That difference is worth understanding before you cook it, because it changes what waiting does. Leaving a dosa batter out improves it. Leaving this one out makes it sour without making it lighter, because green gram carries neither the bacteria nor the protein that traps gas in urad dal. If the batter has stood overnight, you have a worse breakfast, not a better one.</p>
-<p>The crepe that comes off the griddle is green, a little chewy, and tastes clearly of the pulse rather than of fermentation. It is savoury enough to eat on its own, and in Andhra it almost never is: a sharp ginger chutney comes with it, and the two together are the standard breakfast of the coastal towns.</p>`,
-    no:`<p>Alt ved pesarattu ser ut som en dosa, og nesten ingenting ved den fungerer som en. En dosarøre er ris og urad dal, malt hver for seg og satt til side natten over, og villbakterier på linsen hever og syrner den. Pesarattu er hele grønne mungbønner, malt med ingefær og chili, og brukt i løpet av timen. Ingenting gjærer, og ingenting skal gjære.</p>
-<p>Den forskjellen er verdt å forstå før du lager retten, for den endrer hva ventingen gjør. En dosarøre blir bedre av å stå. Denne røren blir bare sur uten å bli lettere, for mungbønner har verken bakteriene eller proteinet som fanger gass i urad dal. Har røren stått natten over, har du en dårligere frokost og ikke en bedre.</p>
-<p>Pannekaken som kommer av takken, er grønn og litt seig, og den smaker tydelig av belgfrukten og ikke av gjæring. Den er smaksrik nok til å spises alene, og i Andhra spises den nesten aldri slik: en skarp ingefærchutney følger med, og sammen er de standardfrokosten i byene langs kysten.</p>`},
+    en:`<p>Pesarattu resembles a dosa but uses a different batter. Whole green gram is soaked, ground with ginger and chilli, and usually cooked the same day without a deliberate overnight fermentation.</p>
+<p>Microorganisms occur on many grains and pulses, including green gram, so leaving the batter warm can still start fermentation. This recipe aims for a fresh pulse flavour: refrigerate soaked beans and batter if cooking is delayed.</p>
+<p>The crepe is green, a little chewy and distinctly pulse-flavoured. Ginger-and-tamarind chutney is a common partner.</p>`,
+    no:`<p>Pesarattu ligner en dosa, men bruker en annen røre. Hele grønne mungbønner bløtlegges, males med ingefær og chili og stekes vanligvis samme dag uten planlagt gjæring over natten.</p>
+<p>Mikroorganismer finnes på mange korn og belgfrukter, også mungbønner, så en røre som står varmt, kan begynne å gjære. Denne oppskriften skal smake av ferske belgfrukter: sett bløtlagte bønner og røre i kjøleskap hvis stekingen blir utsatt.</p>
+<p>Pannekaken blir grønn, litt seig og smaker tydelig av belgfrukten. Chutney av ingefær og tamarind er et vanlig følge.</p>`},
   ingredients:[
    {group:{en:'The batter', no:'Røren'}, items:[
     {q:300, u:'g', n:{en:'whole green gram (green moong)', no:'hele grønne mungbønner'}, note:{en:'soaked 6 hours or overnight', no:'bløtlagt i 6 timer eller over natten'}},
@@ -128,8 +128,8 @@ window.RECIPES['IN-AND'] = [
      no:'Bløtlegg mungbønnene og risen sammen i rikelig kaldt vann i seks timer eller over natten, og hell så godt av vannet.'},
     {en:'Grind them with the ginger, the green chillies, the cumin, salt and the cold water to a batter slightly thicker than double cream. It should pour off the ladle in a ribbon rather than run.',
      no:'Kjør dem sammen med ingefæren, de grønne chiliene, spisskummenen, salt og det kalde vannet til en røre som er litt tykkere enn kremfløte. Den skal renne av sleiva som et bånd og ikke som vann.'},
-    {en:'Let the batter stand for twenty minutes while you chop the onion and the coriander. Do not leave it any longer, and never overnight.',
-     no:'La røren stå i tjue minutter mens du hakker løken og korianderen. Ikke la den stå lenger, og aldri over natten.'},
+    {en:'Let the batter stand for twenty minutes while you chop the onion and coriander. If cooking is delayed, cover and refrigerate it.',
+     no:'La røren stå i tjue minutter mens du hakker løken og korianderen. Hvis stekingen blir utsatt, dekker du røren og setter den i kjøleskapet.'},
     {en:'Heat a flat iron griddle or a heavy frying pan over a medium flame until a drop of water skitters across it and disappears.',
      no:'Varm en flat takke av støpejern eller en tung stekepanne på middels varme til en vanndråpe danser over den og forsvinner.'},
     {en:'Pour a ladle of batter into the middle and spread it outwards in a spiral with the back of the ladle, as thin as you can without tearing it.',
@@ -143,9 +143,9 @@ window.RECIPES['IN-AND'] = [
     {en:'Wipe the griddle with a folded cloth before the next one. The surface has to be hot and dry each time, or the batter sticks and tears.',
      no:'Tørk av takken med en sammenbrettet klut før neste. Overflaten må være varm og tørr hver gang, ellers setter røren seg fast og revner.'}],
   notes:[
-    {title:{en:'Why waiting does not help this batter', no:'Hvorfor venting ikke hjelper på denne røren'},
-     body:{en:'Urad dal carries the wild bacteria that raise a dosa batter and a protein that traps the gas they make. Green gram carries neither, so a pesarattu batter left out ferments a little, goes sour and stays just as dense. Grind it and cook it, and if you have soaked too much, cook the rest as thick pancakes and eat them the same day.',
-           no:'Urad dal bærer villbakteriene som hever en dosarøre, og et protein som fanger gassen de lager. Mungbønner har ingen av delene, så en pesarattu-røre som blir stående, gjærer litt, blir sur og er like tung som før. Mal den og stek den, og har du bløtlagt for mye, stek resten som tykke pannekaker og spis dem samme dag.'}},
+    {title:{en:'Why this batter is used fresh', no:'Hvorfor denne røren brukes fersk'},
+     body:{en:'This recipe is designed around the flavour and texture of freshly ground green gram, not a controlled fermentation. Grind only what you need; refrigerate extra soaked beans or batter promptly and cook them the next day.',
+           no:'Oppskriften bygger på smaken og konsistensen i nymalte mungbønner, ikke på kontrollert gjæring. Mal bare det du trenger; sett ekstra bløtlagte bønner eller røre raskt i kjøleskap og stek dem neste dag.'}},
     {title:{en:'Why the onion goes on top and not in', no:'Hvorfor løken legges oppå og ikke i'},
      body:{en:'Onion stirred into the batter releases water as it heats, and the crepe steams instead of crisping. Pressed into the upper surface it browns in the open air while the underside cooks, and it stays where it was put when the crepe is folded.',
            no:'Løk som røres inn i røren, slipper vann når den varmes opp, og da damper pannekaken i stedet for å bli sprø. Trykker du den ned i den øvre flaten, bruner den seg i åpen luft mens undersiden steker, og den blir liggende der du la den når pannekaken brettes.'}},
@@ -157,8 +157,8 @@ window.RECIPES['IN-AND'] = [
      body:{en:'Spread a layer of upma, coarse semolina cooked with onion and mustard seed, over one half of the crepe before folding it. The story says it was named for the legislators eating it near the assembly in Hyderabad, which is a good story rather than a documented one.',
            no:'Legg et lag upma, grov semule kokt med løk og sennepsfrø, over den ene halvdelen før du bretter. Historien vil ha det til at retten er oppkalt etter folkevalgte som spiste den nær delstatsforsamlingen i Hyderabad, og det er en god historie heller enn et dokumentert navn.'}},
     {title:{en:'Allam pachadi, the chutney it belongs with', no:'Allam pachadi, chutneyen som hører til'},
-     body:{en:'Fry a large piece of ginger and a few dried chillies in sesame oil, grind them with tamarind, jaggery and salt, and temper the result with mustard seed and curry leaf. It is dark, sharp and sweet at once, and it keeps for a fortnight.',
-           no:'Stek en stor bit ingefær og noen tørkede chili i sesamolje, mal dem med tamarind, jaggery og salt, og hell en tempering av sennepsfrø og karriblad over til slutt. Den blir mørk, skarp og søt på én gang, og den holder seg i fjorten dager.'}},
+      body:{en:'Fry ginger and dried chilli in sesame oil, grind them with tamarind, jaggery and salt, and finish with mustard seed and curry leaf. Refrigerate promptly and use within three days, or freeze small portions.',
+            no:'Stek ingefær og tørket chili i sesamolje, mal dem med tamarind, jaggery og salt, og avslutt med sennepsfrø og karriblad. Sett raskt i kjøleskap og bruk innen tre dager, eller frys små porsjoner.'}},
     {title:{en:'Thicker, as uttapam', no:'Tykkere, som uttapam'},
      body:{en:'Loosen the batter less, pour it out without spreading it and give it five minutes over a lower flame. You get a thick soft pancake instead of a thin crisp one, which suits the onion topping even better.',
            no:'Spe røren mindre, hell den ut uten å dra den utover og gi den fem minutter på lavere varme. Da får du en tykk og myk pannekake i stedet for en tynn og sprø, og det passer løken på toppen enda bedre.'}}]
@@ -259,10 +259,10 @@ window.RECIPES['IN-AND'] = [
             {en:'A raw onion and a green chilli on the side', no:'Rå løk og en grønn chili ved siden av'}],
   headnote:{
     en:`<p>Start with the honest part. Fresh gongura is not sold in Norway, and nothing growing here is the same leaf. Indian shops sometimes carry it frozen or in a jar, already cooked and salted, and that is the realistic route: it gives you the right acidity and most of the flavour, and this recipe is written so you can use either. If you cannot find any of it, cook something else. Sorrel gives you the sourness without the taste, and spinach with lemon gives you neither, so a substitute here produces a different dish that should be called something else.</p>
-<p>What does travel is the method, and it is worth having. The goat is cooked down almost to tenderness with onion, chilli and nothing sour at all. Only then does the ground gongura go in, for the last ten minutes. That order is not a detail. Acid slows meat down, so leaves added at the start leave you standing at the stove an hour longer with tough goat.</p>
+<p>The course method cooks the goat nearly tender with onion and chilli before adding ground gongura for the last ten minutes. This keeps the leaf flavour vivid and lets you adjust the final acidity after the meat is tender.</p>
 <p>There is no yoghurt in this, no cream, no coconut and no tomato. The gravy is onion, the fat of the goat and the leaves, and it should taste sharp rather than rich. A tempering poured over at the end is the last thing that happens, and it is what lifts the smell of the finished pot.</p>`,
     no:`<p>La oss ta det ærlige først. Fersk gongura selges ikke i Norge, og ingenting som vokser her, er det samme bladet. Indiske butikker fører det av og til frossent eller på glass, ferdig kokt og saltet, og det er den realistiske veien: du får riktig syre og mesteparten av smaken, og oppskriften er skrevet så du kan bruke begge deler. Finner du ingenting av det, lag noe annet. Engsyre gir deg syren uten smaken, og spinat med sitron gir deg ingen av delene, så en erstatning her gir en annen rett som bør hete noe annet.</p>
-<p>Metoden lar seg derimot flytte, og den er verdt å ha. Geitekjøttet kokes nesten mørt sammen med løk og chili og ingenting surt i det hele tatt. Først da går den malte gonguraen i, de siste ti minuttene. Rekkefølgen er ingen detalj. Syre gjør kjøtt seinere mørt, så blader som går i fra starten, lar deg stå en time lenger ved komfyren med seigt kjøtt.</p>
+<p>I kursmetoden kokes geitekjøttet nesten mørt med løk og chili før malt gongura går i de siste ti minuttene. Slik holder bladsmaken seg tydelig, og du kan justere sluttsyren etter at kjøttet er mørt.</p>
 <p>Det går ingen yoghurt i denne retten, ingen fløte, ingen kokos og ingen tomat. Sausen består av løk, fettet fra geitekjøttet og bladene, og den skal smake skarp heller enn fyldig. En tempering som helles over til slutt, er det siste som skjer, og den løfter duften av den ferdige gryta.</p>`},
   ingredients:[
    {group:{en:'The meat', no:'Kjøttet'}, items:[
@@ -314,8 +314,8 @@ window.RECIPES['IN-AND'] = [
      no:'Hell temperingen over gryta, legg straks på lokket, og la den stå i ti minutter før du serverer med ris.'}],
   notes:[
     {title:{en:'Why the leaves go in last', no:'Hvorfor bladene går i sist'},
-     body:{en:'Acid firms the connective tissue in meat and slows the collagen down, so a pot soured at the start can simmer for hours and still be tough. Cooking the goat in plain water first and souring it afterwards gets you tender meat and a sharp gravy in the same pot, and the same rule holds for tomato and tamarind in any braise.',
-           no:'Syre strammer bindevevet i kjøtt og gjør at kollagenet løser seg langsommere, så en gryte som syrnes fra starten, kan koke i timevis og likevel være seig. Koker du geitekjøttet i rent vann først og syrner det etterpå, får du mørt kjøtt og en skarp saus i samme gryte, og den samme regelen gjelder tomat og tamarind i enhver langtidskokt rett.'}},
+     body:{en:'Adding the leaves near the end keeps their flavour distinct and lets you adjust the final acidity after the goat is tender. It is the sequence used in this course recipe, not a universal rule for every acidic braise.',
+           no:'Når bladene går i mot slutten, holder smaken seg tydelig, og du kan justere syren etter at geitekjøttet er mørt. Det er rekkefølgen i kursoppskriften, ikke en universell regel for alle sure gryteretter.'}},
     {title:{en:'Why there is nothing creamy in it', no:'Hvorfor det ikke er noe kremet i den'},
      body:{en:'Gongura is a fat-cutting ingredient, and goat is a fatty meat cooked on the bone. Yoghurt or coconut would soften exactly the edge the dish exists for. If the finished pot tastes too fierce, the answer is more onion or a longer rest, not dairy.',
            no:'Gongura er en råvare som skjærer gjennom fett, og geitekjøtt er fett kjøtt kokt på beinet. Yoghurt eller kokos ville dempet nettopp den kanten retten finnes for. Smaker den ferdige gryta for hissig, er svaret mer løk eller lengre hviletid, ikke meieriprodukter.'}},
@@ -324,8 +324,8 @@ window.RECIPES['IN-AND'] = [
            no:'Geitekjøtt med bein er riktig kjøtt, og beinet betyr noe, for sausen har ikke noe annet å hente fylde fra. Geit og kje selges hos halalslaktere på Grønland i Oslo og i de fleste større byer; be om bog og lår i store biter. Norsk fårekjøtt tåler koketiden og smaker kraftig nok, mens lammekjøtt blir ferdig etter tre kvarter og smaker mildere. Gongura får du ikke fersk her. Indiske butikker fører den iblant frossen eller på glass under navnet gongura eller sorrel leaves; glassvarianten er allerede kokt og saltet, så bruk omtrent to tredeler av vekten, hopp over surringen og salt gryta forsiktig.'}}],
   variations:[
     {title:{en:'Gongura pachadi, from the same leaves', no:'Gongura pachadi, av de samme bladene'},
-     body:{en:'Wilt the leaves the same way, then grind them with fried dried chillies, garlic and salt and finish with the same tempering. You get the relish rather than the meat dish, it keeps a week in the fridge, and a teaspoon of it flavours a whole plate of rice.',
-           no:'Surr bladene på samme måte, mal dem så med stekt tørket chili, hvitløk og salt, og avslutt med den samme temperingen. Da får du relishen i stedet for kjøttretten. Den holder seg en uke i kjøleskapet, og en teskje av den smaksetter en hel tallerken ris.'}},
+      body:{en:'Wilt the leaves the same way, grind them with fried dried chillies, garlic and salt, and finish with the same tempering. Refrigerate promptly and use within three days, or freeze small portions.',
+            no:'Surr bladene på samme måte, mal dem med stekt tørket chili, hvitløk og salt, og avslutt med den samme temperingen. Sett raskt i kjøleskap og bruk innen tre dager, eller frys små porsjoner.'}},
     {title:{en:'Gongura pappu, without meat', no:'Gongura pappu, uten kjøtt'},
      body:{en:'Cook toor dal until it collapses, stir the wilted ground leaves through it and pour the same tempering over. This is what a Telugu household eats far more often than the mutton, and the leaf does the souring in place of tamarind.',
            no:'Kok toor dal til den faller fra hverandre, rør de surrede, malte bladene inn i den og hell den samme temperingen over. Dette er det en husholdning i Andhra spiser langt oftere enn kjøttretten, og bladet syrner i stedet for tamarinden.'}},
@@ -336,74 +336,60 @@ window.RECIPES['IN-AND'] = [
 
 {
   id:'avakaya', dish:'Avakaya', course:'side', lesson:2, serves:12, veg:true,
-  time:{prep:75, cook:0}, hero:'avakaya', tags:['pickle','mango','mustard'],
+  time:{prep:30, cook:5}, hero:'avakaya', tags:['pickle','mango','mustard','refrigerated'],
   title:{en:'Avakaya', no:'Avakaya'},
-  blurb:{en:'The Andhra mango pickle: hard green mango, ground mustard, chilli, salt and enough oil to stand over the top all year.',
-         no:'Mangopicklesen fra Andhra: hard grønn mango, malt sennep, chili, salt og nok olje til at den står over picklesen hele året.'},
-  heroCaption:{en:'Every piece keeps a fragment of the hard inner shell, and the whole jar sits under a layer of oil that is never allowed to break.',
-               no:'Hver bit beholder en flis av det harde indre skallet, og hele glasset står under et lag olje som aldri får brytes.'},
+  blurb:{en:'A small refrigerated adaptation of Andhra mango pickle with mustard, chilli, salt and sesame oil.',
+         no:'En liten kjøleskapstilpasset variant av mangopickles fra Andhra med sennep, chili, salt og sesamolje.'},
+  heroCaption:{en:'Firm green mango takes up the heat of chilli and the pungency of freshly ground mustard.',
+               no:'Fast grønn mango tar opp styrken fra chili og skarpheten fra nymalt sennep.'},
   goesWith:[{en:'Hot rice with a spoonful of ghee', no:'Varm ris med en skje ghee'},
             {en:'Curd rice, at the end of a meal', no:'Ris med syrnet melk, sist i måltidet'}],
   headnote:{
-    en:`<p>Avakaya is made once a year and eaten for a year, and everything about it follows from that. Ava is mustard and kaya is an unripe fruit, and the pickle is exactly those two things plus chilli, salt and a great deal of oil. It is not preserved by vinegar, by sugar or by heat. It is preserved by salt drawing water out of the mango and by a standing layer of oil that keeps the air off.</p>
-<p>This is the most useful practical passage in the whole module, because it is also the easiest to get wrong. Three things ruin a jar, and all three are avoidable. A mango that is not hard enough turns to mush by August. A drop of water anywhere in the process starts mould. And a jar whose oil level drops below the pickle spoils from the top down.</p>
-<p>Make it in May, when the hard sour mangoes are in the shops, and give it three weeks before you open it properly. It is fiercely hot and fiercely salty on purpose: a teaspoon is a serving, eaten with hot rice and ghee, and the ghee is not optional.</p>`,
-    no:`<p>Avakaya lages én gang i året og spises i et år, og alt ved den følger av det. Ava betyr sennep og kaya en umoden frukt, og picklesen er nøyaktig de to tingene, i tillegg til chili, salt og svært mye olje. Den konserveres ikke av eddik, sukker eller varme. Den konserveres av at saltet trekker vann ut av mangoen, og av et lag olje som står over og holder lufta unna.</p>
-<p>Dette er den mest nyttige praktiske delen i hele modulen, nettopp fordi den også er den letteste å gjøre feil. Tre ting ødelegger et glass, og alle tre lar seg unngå. En mango som ikke er hard nok, er mos i august. En vanndråpe hvor som helst i prosessen starter mugg. Og et glass der oljen synker under picklesen, ødelegges ovenfra og ned.</p>
-<p>Lag den i mai, når de harde sure mangoene er i butikkene, og gi den tre uker før du åpner den for alvor. Den er svært sterk og svært salt med vilje: en teskje er en porsjon, spist med varm ris og ghee, og gheen er ikke valgfri.</p>`},
+    en:`<p>Avakaya is a seasonal Andhra pickle of unripe mango, mustard, chilli, salt and oil. Traditional long-keeping versions depend on established proportions and handling that this course has not laboratory-validated.</p>
+<p>This recipe therefore makes a small refrigerator batch. Oil carries flavour and reduces contact with air, but it does not by itself make an untested pickle safe at room temperature. Refrigerate the jar as soon as it is mixed and every time after serving.</p>
+<p>Use a clean utensil and discard the batch if you see mould, fizzing, a bulging lid or slime, or notice an abnormal smell. Make only what you expect to eat within two weeks.</p>`,
+    no:`<p>Avakaya er en sesongpickles fra Andhra av umoden mango, sennep, chili, salt og olje. Tradisjonelle varianter med lang holdbarhet bygger på innarbeidede mengder og rutiner som dette kurset ikke har laboratorietestet.</p>
+<p>Denne oppskriften lager derfor en liten kjøleskapsporsjon. Oljen bærer smak og reduserer kontakt med luft, men gjør ikke alene en uprøvd pickles trygg i romtemperatur. Sett glasset i kjøleskapet straks det er blandet og etter hver servering.</p>
+<p>Bruk et rent redskap, og kast innholdet ved mugg, brusing, utbulende lokk, slim eller unormal lukt. Lag bare det du regner med å spise innen to uker.</p>`},
   ingredients:[
    {group:{en:'', no:''}, items:[
-    {q:1000, u:'g', n:{en:'hard unripe mango', no:'hard umoden mango'}, note:{en:'two large ones, rock hard and sour', no:'to store, steinharde og sure'}},
-    {q:150, u:'g', n:{en:'black or brown mustard seed', no:'svarte eller brune sennepsfrø'}},
-    {q:150, u:'g', n:{en:'hot chilli powder', no:'sterkt chilipulver'}},
-    {q:150, u:'g', n:{en:'coarse salt', no:'grovt salt'}},
-    {q:5, u:'g', n:{en:'fenugreek seeds', no:'bukkehornkløverfrø'}},
-    {q:400, u:'ml', n:{en:'sesame or groundnut oil', no:'sesamolje eller jordnøttolje'}},
-    {q:30, u:'g', n:{en:'garlic cloves', no:'hvitløksfedd'}, note:{en:'peeled and left whole; optional', no:'skrelt og hele; valgfritt'}},
+    {q:500, u:'g', n:{en:'hard unripe mango', no:'hard umoden mango'}, note:{en:'weighed after cutting the flesh safely from the stone', no:'veid etter at fruktkjøttet er skåret trygt fra steinen'}},
+    {q:50, u:'g', n:{en:'black or brown mustard seed', no:'svarte eller brune sennepsfrø'}},
+    {q:40, u:'g', n:{en:'hot chilli powder', no:'sterkt chilipulver'}},
+    {q:35, u:'g', n:{en:'salt', no:'salt'}},
+    {q:3, u:'g', n:{en:'fenugreek seeds', no:'bukkehornkløverfrø'}},
+    {q:120, u:'ml', n:{en:'sesame or groundnut oil', no:'sesamolje eller jordnøttolje'}},
    ]}],
   steps:[
-    {en:'Choose mangoes that are rock hard and sour, with a firm stone inside. One that gives under your thumb will not survive the year, however good it tastes now.',
-     no:'Velg mangoer som er steinharde og sure, med fast stein inni. En som gir etter for tommelen, overlever ikke året, uansett hvor god den smaker nå.'},
-    {en:'Wash them, wipe them completely dry with a cloth and leave them in the air for an hour. From here on, every surface, bowl, knife and hand has to be dry.',
-     no:'Vask dem, tørk dem helt tørre med en klut og la dem ligge i lufta en time. Fra nå av må hver eneste flate, bolle, kniv og hånd være tørr.'},
-    {en:'Cut each mango through the stone with a heavy knife into large pieces, so that every piece keeps a fragment of the hard inner shell attached to it.',
-     no:'Hakk hver mango tvers gjennom steinen med en tung kniv, i store biter, slik at hver bit beholder en flis av det harde indre skallet.'},
-    {en:'Scrape the soft white kernel out of the middle of each shell fragment and throw it away. It holds water and it is the first thing to spoil.',
-     no:'Skrap den myke hvite kjernen ut av midten av hver flis av skallet og kast den. Den holder på vann og er det første som blir dårlig.'},
-    {en:'Wipe the cut pieces dry with a cloth and spread them out for half an hour. Any juice on the surface has to go.',
-     no:'Tørk de oppskårne bitene med en klut og bre dem utover i en halvtime. All saft på overflaten må bort.'},
-    {en:'Dry the mustard seed and the fenugreek in the sun or in the oven at its lowest setting, then grind each of them to a coarse powder. Neither should be ground fine.',
-     no:'Tørk sennepsfrøene og bukkehornkløveren i sola eller i stekeovnen på laveste innstilling, og mal dem så hver for seg til et grovt pulver. Ingen av dem skal males fint.'},
-    {en:'Mix the mustard powder, the chilli powder, the ground fenugreek and the salt in a wide dry bowl until the colour is completely even.',
-     no:'Bland sennepspulveret, chilipulveret, den malte bukkehornkløveren og saltet i en vid, tørr bolle til fargen er helt jevn.'},
-    {en:'Turn the mango pieces through the powder with a dry hand until every surface is coated, then fold in the garlic if you are using it.',
-     no:'Vend mangobitene i pulveret med en tørr hånd til hver flate er dekket, og bland så inn hvitløken hvis du bruker den.'},
-    {en:'Pour in most of the oil and mix again. The mixture should look wet and heavy rather than dusty, and it should hold together when you press it.',
-     no:'Hell i mesteparten av oljen og bland igjen. Blandingen skal se våt og tung ut i stedet for støvete, og den skal henge sammen når du klemmer på den.'},
-    {en:'Pack it into a dry glass or glazed ceramic jar, press it down firmly, and pour the rest of the oil over so that a clear layer stands above the pickle. Cover it with a cloth and a lid.',
-     no:'Pakk den i et tørt glass eller en glassert leirkrukke, trykk den godt ned, og hell resten av oljen over så det står et klart lag over picklesen. Dekk til med en klut og et lokk.'},
-    {en:'Leave it somewhere cool and turn it once a day with a dry ladle for three days, then leave it alone for three weeks. Top the oil up whenever the level drops to the surface of the pickle.',
-     no:'Sett den kjølig og vend den én gang om dagen med en tørr sleiv i tre dager, og la den så stå i fred i tre uker. Fyll på olje hver gang nivået synker til overflaten av picklesen.'}],
+    {en:'Wash the mangoes under running water and dry them. With a stable board and a sharp knife, cut the flesh away from the hard stone; do not chop through the stone.',
+     no:'Vask mangoene under rennende vann og tørk dem. Bruk et stabilt brett og en skarp kniv til å skjære fruktkjøttet fra den harde steinen; ikke hakk gjennom steinen.'},
+    {en:'Cut the mango flesh into bite-sized pieces and place them in a clean bowl.',
+     no:'Skjær mangokjøttet i passe store biter og legg dem i en ren bolle.'},
+    {en:'Toast the mustard and fenugreek briefly in a dry pan until fragrant. Cool, then grind them to a coarse powder.',
+     no:'Rist sennepsfrø og bukkehornkløver kort i en tørr panne til de dufter. Avkjøl og mal dem grovt.'},
+    {en:'Mix the ground spices, chilli powder and salt, then coat the mango evenly with the mixture.',
+     no:'Bland de malte krydderne med chilipulver og salt, og vend mangoen jevnt i blandingen.'},
+    {en:'Warm the oil just until fluid and fragrant, then let it cool until no longer hot. Mix it thoroughly through the mango.',
+     no:'Varm oljen bare til den er flytende og dufter, og la den så kjølne til den ikke lenger er varm. Bland den grundig inn i mangoen.'},
+    {en:'Transfer to a clean lidded jar and refrigerate immediately. Stir with a clean spoon after one day; begin tasting after two days and keep refrigerated.',
+     no:'Ha blandingen i et rent glass med lokk og sett det straks i kjøleskapet. Rør med en ren skje etter ett døgn; begynn å smake etter to døgn og oppbevar videre i kjøleskapet.'}],
   notes:[
-    {title:{en:'Why the inner shell is left on', no:'Hvorfor det indre skallet blir sittende'},
-     body:{en:'The hard shell around the stone is the piece of the mango that does not soften, and leaving a fragment of it on each cut piece gives the flesh something to hold on to through a year in salt. Peeled cubes of mango pickled the same way collapse into a paste by autumn. It is also why the mango is chopped through the stone with a heavy blade rather than carved off it.',
-           no:'Det harde skallet rundt steinen er den delen av mangoen som ikke mykner, og lar du en flis av det sitte på hver bit, får fruktkjøttet noe å henge fast i gjennom et år i salt. Skrelte mangoterninger som legges ned på samme måte, faller sammen til en masse allerede om høsten. Det er også derfor mangoen hakkes tvers gjennom steinen med tung kniv i stedet for å skjæres av den.'}},
-    {title:{en:'Why the oil layer is the preservation', no:'Hvorfor oljelaget er konserveringen'},
-     body:{en:'Salt pulls water out of the mango and makes what is left too concentrated for most organisms, and the oil on top seals the whole thing off from the air. Nothing else is doing the work, so anything that breaks the oil layer breaks the pickle. Water is the specific enemy, because it is what the salt and oil are there to exclude: one wet spoon can cost a household the whole jar, which is why in many houses one person owns it and nobody else opens it.',
-           no:'Saltet trekker vann ut av mangoen og gjør det som er igjen, for konsentrert for de fleste organismer, og oljen på toppen stenger det hele av fra lufta. Ingenting annet gjør jobben, så alt som bryter oljelaget, bryter picklesen. Vann er den bestemte fienden, for vann er nettopp det salt og olje skal holde ute. Én våt skje kan koste husholdningen hele glasset, og derfor er det i mange hus én person som eier det og ingen andre som åpner det.'}},
+    {title:{en:'Why this version stays cold', no:'Hvorfor denne varianten holdes kald'},
+     body:{en:'Salt, acidity and oil all affect spoilage, but the safety of a shelf-stable pickle depends on measured formulation and process. This course recipe has not been validated for room-temperature storage, so refrigeration is part of the method.',
+           no:'Salt, syre og olje påvirker holdbarheten, men en lagringsstabil pickles krever målte mengder og en prøvd prosess. Kursoppskriften er ikke validert for romtemperatur, og derfor er kjøleskapet en del av metoden.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
-     body:{en:'The mango is the one ingredient you cannot compromise on, and the season is short.',
-           no:'Mangoen er den ene råvaren du ikke kan slakke på, og sesongen er kort. Hard umoden mango selges i de indiske og pakistanske butikkene på Grønland i Oslo i mai og juni, ofte i kasser, og de riktige sortene er merket som raw mango eller kachi keri. En umoden mango fra dagligvaren er som regel en moden sort som ikke har rukket å modne, og den blir søt og bløt i glasset. Bruk grovt salt uten jod og uten antiklumpemiddel. Sterkt chilipulver av typen Guntur eller Teja får du i indisk butikk; vanlig norsk chilipulver er både for svakt og som regel blandet med spisskummen og hvitløk. Kaldpresset sesamolje, ofte merket gingelly, er det tradisjonelle valget, og nøytral jordnøttolje fungerer også. Sennepsolje skal ikke brukes her, for den hører til et annet kjøkken.'}}],
+     body:{en:'Choose firm sour green mango sold for pickling. Indian and other South Asian grocers may label it raw mango or kachi keri. Use pure hot chilli powder rather than a blended seasoning, and use food-grade sesame or groundnut oil.',
+           no:'Velg fast, sur grønn mango som selges til pickles. Indiske og andre sørasiatiske butikker kan merke den raw mango eller kachi keri. Bruk rent, sterkt chilipulver i stedet for en krydderblanding, og bruk sesam- eller jordnøttolje beregnet på mat.'}}],
   variations:[
     {title:{en:'Without the garlic', no:'Uten hvitløken'},
-     body:{en:'Many households leave the garlic out entirely, and a plain avakaya keeps slightly better for it because the cloves hold a little water. Try one jar each way if you have enough mango.',
-           no:'Mange husholdninger sløyfer hvitløken helt, og en enkel avakaya holder seg litt bedre uten den, for feddene bærer med seg noe vann. Lag ett glass av hver hvis du har nok mango.'}},
+      body:{en:'Traditional recipes differ over garlic. This refrigerator adaptation leaves it out so the mango, mustard and chilli remain the focus.',
+            no:'Tradisjonelle oppskrifter er ulike når det gjelder hvitløk. Denne kjøleskapsvarianten sløyfer den slik at mango, sennep og chili står i sentrum.'}},
     {title:{en:'Bellam avakaya, with jaggery', no:'Bellam avakaya, med jaggery'},
-     body:{en:'Grated jaggery is mixed in with the powders, roughly a fifth of the weight of the chilli powder. The pickle turns darker and softer and is far easier for a new palate, and it is what many families make for children.',
-           no:'Revet jaggery blandes inn sammen med pulverne, omtrent en femdel av vekten på chilipulveret. Picklesen blir mørkere og mildere og er mye lettere for en ny gane, og det er den mange familier lager til barna.'}},
-    {title:{en:'A small jar, to learn on', no:'Et lite glass, til å øve på'},
-     body:{en:'Set the servings to the smallest the stepper allows and make a single jar the first year. You will learn more from watching one jar through a summer than from reading about it, and a mistake costs one mango rather than a crate.',
-           no:'Sett porsjonene til det laveste telleren tillater og lag ett glass det første året. Du lærer mer av å følge ett glass gjennom en sommer enn av å lese om det, og en feil koster én mango i stedet for en kasse.'}}]
+      body:{en:'Mix a little grated jaggery into the spice blend for a sweeter variation. Keep it refrigerated under the same storage rules.',
+            no:'Bland litt revet jaggery i krydderblandingen for en søtere variant. Oppbevar den i kjøleskapet etter de samme reglene.'}},
+    {title:{en:'A smaller jar', no:'Et mindre glass'},
+      body:{en:'Use the serving control to halve the batch. A small jar is easier to cool, handle cleanly and finish within two weeks.',
+            no:'Bruk porsjonsvelgeren til å halvere mengden. Et lite glass er enklere å kjøle, håndtere rent og spise opp innen to uker.'}}]
 },
 
 ];

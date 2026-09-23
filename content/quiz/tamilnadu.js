@@ -16,32 +16,32 @@ window.QUIZ['IN-TAM'] = [
       'A lichen that grows on bark and rock in the southern hills',
       'A powder of roasted lentils and chilli'],
    c:2, why:'It is Parmotrema perlatum, sold dried as black stone flower, and it belongs to the same family as the oakmoss used in perfumery.'},
-  {q:'What marks sambar podi out from a north Indian garam masala?',
-   a:['Roasted lentils are ground into it, and it carries no warm sweet spices',
+  {q:'Which addition appears in some sambar podi formulas and can help thicken the stew?',
+   a:['Roasted lentils ground into the blend',
       'It is ground much finer and used in larger quantity',
       'It is made with fresh green chilli rather than dried red',
       'It contains no coriander seed at all'],
-   c:0, why:'Toor dal and chana dal are roasted and ground in with the spices, so the powder thickens as well as seasons, and cinnamon, clove and cardamom are absent.'}
+   c:0, why:'Sambar podi formulas vary. Some include roasted toor dal or chana dal, which adds body as well as flavour; the blend is made for sambar rather than used like garam masala.'}
  ],
  [
-  {q:'What does the urad dal bring to the breakfast batter that the rice does not?',
+  {q:'What structural role does urad dal play in the breakfast batter?',
    a:['The starch that sets into a crumb when the batter is steamed',
-      'Both the wild bacteria and a protein that traps gas',
+      'Proteins and polysaccharides that help the batter trap gas',
       'The sourness, which comes from a spoon of yoghurt',
       'The salt, which is carried on the skin of the lentil'],
-   c:1, why:'Urad carries Leuconostoc and Lactobacillus on its skin, and it also carries a protein and a sticky polysaccharide that hold gas the way egg white does.'},
+   c:1, why:'The fermentation involves bacteria and yeasts from several sources. Ground urad contributes the light, gas-holding structure that makes the steamed cakes airy.'},
   {q:'Why is the rice for idli parboiled?',
    a:['So that it can be ground without being soaked first',
       'Because it kills the wild bacteria, so baker’s yeast can be used instead',
       'Steaming rearranges the starch, so the grain takes up water without turning gluey',
       'Because the red colour is what an idli is supposed to have'],
-   c:2, why:'A parboiled batter steams into a crumb that is soft and open, where raw rice gives something denser and slightly rubbery.'},
-  {q:'Why does the same pot of batter become dosa on the second morning?',
+   c:2, why:'Parboiling changes the rice starch and water absorption. It is a common idli choice, although recipes also use other rice and grain preparations.'},
+  {q:'Why can refrigerated leftover idli batter work well for dosa?',
    a:['A second grinding thins it down',
       'Fenugreek is stirred in on the second day',
       'A pinch of yeast is added to lift it again',
       'It has soured and slackened, so it spreads thinner and browns faster'],
-   c:3, why:'Nothing is done to the batter at all. The acid builds as it stands, and a slacker, more acid batter is exactly what a griddle wants.'}
+   c:3, why:'During refrigerated storage the batter can become more acidic and its texture changes. Thin it as needed and judge it by its clean smell and consistency, not a fixed day number.'}
  ],
  [
   {q:'How do sambar and rasam differ?',
@@ -55,7 +55,7 @@ window.QUIZ['IN-TAM'] = [
       'Pepper, cumin, garlic and tamarind, and no chilli at all',
       'Pepper and thin coconut milk, with no souring agent',
       'Fennel, star anise and kalpasi, as in the Chettinad blend'],
-   c:1, why:'It is the plainest and oldest version of rasam, made for someone with a cold, and it is the clearest example of pepper doing a job chilli never took over.'},
+   c:1, why:'Milagu rasam is a pepper-and-cumin variation often served as comfort food during a cold. It is food rather than a medical treatment.'},
   {q:'Why is rasam taken off the heat as soon as it froths at the edges?',
    a:['Boiling it hard dulls the pepper and drives off the fresh coriander',
       'The dal would break up and cloud the broth',
@@ -64,12 +64,12 @@ window.QUIZ['IN-TAM'] = [
    c:0, why:'Rasam is judged on how fresh the pepper and the coriander smell, and both are lost within a minute of a hard boil.'}
  ],
  [
-  {q:'What do the deliberate chisel cuts on Roman coins found in the far south suggest?',
+  {q:'What can historians safely conclude from cuts and marks on some Roman coins found in the far south?',
    a:['That local rulers were cancelling foreign currency',
-      'That the gold was being handled by weight rather than spent as money',
+      'That the coins were altered locally, while the precise reason remains debated',
       'That the coins were being prepared for use as jewellery',
       'That they were defaced for religious reasons'],
-   c:1, why:'Hoards in Pudukottai, Karur and around Coimbatore are dense and often cut, which points to bullion changing hands rather than a currency circulating.'},
+   c:1, why:'The altered coins document local handling, but weighing as metal, testing, reuse and other practices have all been proposed. The cuts alone do not settle the question.'},
   {q:'How did the Nattukottai Chettiars make the money that built the Chettinad mansions?',
    a:['Pepper plantations on the slopes of the Western Ghats',
       'Endowments and land granted by the Chola temples',
@@ -80,7 +80,7 @@ window.QUIZ['IN-TAM'] = [
    a:['It is the only anise native to southern India',
       'The Portuguese brought it along with the chilli',
       'It was grown in the Kaveri delta until the nineteenth century',
-      'The tree is not grown in India at all, so it can only have arrived by trade'],
-   c:3, why:'Illicium verum grows in southern China and northern Vietnam, and Chettinad is effectively the only Indian regional kitchen that uses it as a matter of routine.'}
+      'The spice is native farther east and reached India through trade, though its exact Chettinad route is undocumented'],
+   c:3, why:'Star anise is native to southern China and northern Vietnam and is used in several Indian cuisines. Chettiar trade offers context, but does not prove one precise route into the masala.'}
  ]
 ];

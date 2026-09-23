@@ -176,10 +176,10 @@ window.RECIPES['IN-GUJ'] = [
   goesWith:[{en:'Thick yoghurt and a sharp mango pickle', no:'Tykk yoghurt og en skarp pickles av mango'},
             {en:'Nothing at all, eaten cold on a train', no:'Ingenting, spist kald på et tog'}],
   headnote:{
-    en:`<p>A thepla is a wheat flatbread with gram flour, yoghurt, oil and a great deal of chopped fenugreek leaf worked into the dough. None of that is decoration. The fat and the acid together slow down the staling that makes an ordinary chapati leathery within the hour, and a well-made thepla is still good three or four days later without a fridge.</p>
+    en:`<p>A thepla is a wheat flatbread with gram flour, yoghurt, oil and chopped fenugreek leaf worked into the dough. Its compact shape and relatively dry surface make it convenient travel food. Let it cool before packing, and refrigerate it for storage beyond the day of cooking.</p>
 <p>That one property has carried it further than any other Gujarati food. Gujaratis have been emigrating in large numbers since the nineteenth century, and a tin of thepla goes on the train, onto the plane and into the first week in a new country. It is the reason this recipe belongs in a course rather than in a list of breads.</p>
 <p>The dough wants to be softer than a chapati dough and it wants a rest. Fenugreek leaf draws water out as it sits, so a dough that felt right when you mixed it will feel slack twenty minutes later, and that is expected.</p>`,
-    no:`<p>En thepla er et hvetebrød med kikertmel, yoghurt, olje og en stor mengde hakket bukkehornkløver eltet inn i deigen. Ingenting av det er pynt. Fettet og syren sammen bremser den tørkingen som gjør en vanlig chapati læraktig i løpet av en time, og en godt laget thepla er fortsatt fin tre–fire dager senere uten kjøleskap.</p>
+    no:`<p>En thepla er et hvetebrød med kikertmel, yoghurt, olje og hakket bukkehornkløver eltet inn i deigen. Den kompakte formen og den forholdsvis tørre overflaten gjør brødet praktisk på reise. Avkjøl det før pakking, og oppbevar det i kjøleskap utover samme dag.</p>
 <p>Den ene egenskapen har båret den lenger enn noen annen gujaratisk mat. Gujaratier har reist ut i store tall siden 1800-tallet, og en boks thepla blir med på toget, om bord i flyet og inn i den første uka i et nytt land. Derfor hører denne oppskriften hjemme i et kurs og ikke i en liste over brød.</p>
 <p>Deigen skal være mykere enn en chapatideig, og den vil ha hvile. Bladene av bukkehornkløver trekker vann ut mens den står, så en deig som kjentes riktig da du eltet den, kjennes slapp tjue minutter senere, og det skal den.</p>`},
   ingredients:[
@@ -306,9 +306,9 @@ window.RECIPES['IN-GUJ'] = [
     {en:'Scatter the coconut and the chopped coriander over and serve within the hour. Khandvi hardens in the fridge and does not come back.',
      no:'Strø kokosen og den hakkede korianderen over, og server innen en time. Khandvi blir hard i kjøleskapet og kommer seg ikke igjen.'}],
   notes:[
-    {title:{en:'Why the buttermilk has to be sour', no:'Hvorfor kjernemelken må være sur'},
-     body:{en:'The acid keeps the gram flour proteins from setting into a brittle gel, which is what gives the sheet the flexibility to be rolled. Made with milk or water instead, the paste sets hard and cracks along the roll. If your buttermilk is bland, a squeeze of lemon into it does the job.',
-           no:'Syren hindrer proteinene i kikertmelet i å stivne til en sprø gelé, og nettopp det gjør arket bøyelig nok til å rulles. Lager du det med melk eller vann i stedet, stivner massen hardt og sprekker langs rullen. Er kjernemelken smakløs, gjør en klem sitron samme nytten.'}},
+    {title:{en:'Why the liquid is sour', no:'Hvorfor væsken er syrlig'},
+     body:{en:'Khandvi is built around the tang of yoghurt or buttermilk as well as gram flour. Acidity varies between products, so taste the uncooked mixture and add a little lemon only if it lacks tartness. The cold-plate test, rather than acidity alone, tells you when the paste will roll.',
+           no:'Khandvi bygger på syren i yoghurt eller kjernemelk sammen med kikertmel. Syren varierer mellom produkter, så smak på den ukokte blandingen og tilsett bare litt sitron hvis den mangler friskhet. Prøven på kald tallerken, og ikke syren alene, viser når massen kan rulles.'}},
     {title:{en:'Why you spread onto something cold', no:'Hvorfor du smører ut på noe kaldt'},
      body:{en:'The sheet sets as it loses heat, and a cold steel tray takes the heat out from below in seconds. A warm tray, or a wooden board that insulates, leaves the paste soft in the middle and it will not lift cleanly. This is also why the cold plate makes an honest test.',
            no:'Arket stivner etter hvert som det mister varme, og et kaldt stålbrett trekker varmen ut nedenfra på sekunder. Et lunkent brett eller en trefjøl som isolerer, lar massen forbli myk i midten, og da løsner den ikke rent. Det er også derfor den kalde tallerkenen gir en ærlig prøve.'}},
@@ -335,11 +335,11 @@ window.RECIPES['IN-GUJ'] = [
   goesWith:[{en:'Puri, the small puffed breads', no:'Puri, de små oppblåste brødene'},
             {en:'Shrikhand afterwards, which is the traditional pairing', no:'Shrikhand etterpå, som er den tradisjonelle avslutningen'}],
   headnote:{
-    en:`<p>Undhiyu is a Surat dish and a winter one, and the name is the method. Undhu means upside down. The old version packs an unglazed clay pot with vegetables and green masala, seals it, turns it over and buries it mouth-down in a pit with a fire of dried leaves lit on top. It cooks for hours in its own steam, and nobody touches it.</p>
-<p>This is not that. There is no pit here and there will not be one, so let us be honest about what a home version keeps and what it loses. It loses the smoke and the slow even heat from every side. It keeps the winter vegetables, the green paste, the fenugreek dumplings and the one rule that actually matters, which is that the pot is not stirred.</p>
+    en:`<p>Undhiyu is associated with winter around Surat, and its name is linked to <em>undhu</em>, upside down. The related village preparation umbhadiyu cooks seasonal vegetables in an inverted earthen pot over or under a fire. Modern undhiyu is usually cooked upright.</p>
+<p>This home version uses a heavy covered pot. It keeps the layered winter vegetables, green paste and fenugreek dumplings while stirring as little as possible, so the softer vegetables retain their shape.</p>
 <p>Undhiyu is a project rather than a weeknight dish. It takes an afternoon, it wants six people at the table, and it is better an hour after it is cooked than straight off the stove. Make the muthiya and the masala first, and the rest is assembly and patience.</p>`,
-    no:`<p>Undhiyu er en rett fra Surat og en vinterrett, og navnet er selve metoden. Undhu betyr opp ned. I den gamle utgaven pakkes en uglasert leirgryte full av grønnsaker og grønn masala. Så forsegles den, snus og graves ned med munnen mot bakken, med et bål av tørre blader tent oppå. Den koker i timevis i sin egen damp, og ingen rører den.</p>
-<p>Dette er ikke den. Her finnes ingen grop, og det kommer det ikke til å gjøre, så la oss være ærlige om hva en hjemmeversjon beholder og hva den mister. Den mister røyken og den langsomme, jevne varmen fra alle kanter. Den beholder vintergrønnsakene, den grønne masalaen, bollene med bukkehornkløver og den ene regelen som faktisk betyr noe: ingen rører i gryta.</p>
+    no:`<p>Undhiyu forbindes med vinteren rundt Surat, og navnet knyttes til <em>undhu</em>, opp ned. Den beslektede landsbyretten umbhadiyu koker sesongens grønnsaker i en snudd leirgryte over eller under ild. Moderne undhiyu kokes som regel riktig vei.</p>
+<p>Denne hjemmeutgaven bruker en tung gryte med lokk. Den beholder lagene av vintergrønnsaker, grønn masala og boller av bukkehornkløver og røres minst mulig, slik at de mykere grønnsakene holder formen.</p>
 <p>Undhiyu er et prosjekt og ingen hverdagsrett. Den tar en ettermiddag, den vil ha seks personer rundt bordet, og den er bedre en time etter at den er ferdig enn rett fra platen. Lag muthiyaen og masalaen først, så er resten montering og tålmodighet.</p>`},
   ingredients:[
    {group:{en:'The muthiya', no:'Muthiyaen'}, items:[
@@ -399,12 +399,12 @@ window.RECIPES['IN-GUJ'] = [
      no:'Ikke rør på noe tidspunkt. Tror du det setter seg fast, ta gryta av platen et minutt og rist den flat i stedet for å sette en skje ned i den.'},
     {en:'Lift the lid, tuck the fried muthiya down among the vegetables, cover again and give it ten more minutes.',
      no:'Løft lokket, stikk de friterte muthiyaene ned mellom grønnsakene, legg på lokket igjen og gi det ti minutter til.'},
-    {en:'Take it off the heat and leave it covered for half an hour before serving. It is better warm than hot, and better still the next day.',
-     no:'Ta den av platen og la den stå under lokk i en halvtime før servering. Den er bedre lun enn rykende varm, og enda bedre dagen etter.'}],
+    {en:'Take it off the heat and leave it covered for half an hour before serving. Cool any leftovers promptly, refrigerate them within two hours and reheat thoroughly the next day.',
+     no:'Ta den av platen og la den stå under lokk i en halvtime før servering. Kjøl rester raskt, sett dem i kjøleskap innen to timer og varm dem grundig opp neste dag.'}],
   notes:[
     {title:{en:'Why nothing is stirred', no:'Hvorfor ingenting røres'},
-     body:{en:'Six vegetables of different densities are cooking in the same pot, and a spoon through them turns the soft ones to purée while the yam is still hard. Layering puts the slowest things nearest the heat, and leaving them alone is what lets each one arrive whole. The buried pot enforced this; a lid and some discipline do the same job.',
-           no:'Seks grønnsaker med ulik fasthet koker i den samme gryta, og en skje gjennom dem gjør de myke til puré mens jamsen fortsatt er hard. Lagdelingen legger det som trenger lengst tid, nærmest varmen, og når du lar dem være, kommer hver av dem hele ut. Den nedgravde gryta tvang dette fram; et lokk og litt disiplin gjør den samme jobben.'}},
+     body:{en:'Vegetables of different densities share one pot, and vigorous stirring can turn the soft ones to purée while the yam is still firm. Layering puts slower-cooking pieces nearer the heat; a tight lid and gentle handling help each piece remain whole.',
+           no:'Grønnsaker med ulik fasthet deler gryte, og kraftig røring kan gjøre de myke til puré mens jamsen fortsatt er fast. Lagdelingen legger det som trenger lengst tid, nærmest varmen; et tett lokk og varsom behandling hjelper bitene å holde formen.'}},
     {title:{en:'Why the muthiya go in late', no:'Hvorfor muthiyaene går i sent'},
      body:{en:'They are fried so that the outside firms up, and then they spend ten minutes taking up liquid from the pot. Put them in at the start and they dissolve into the gravy and thicken it, which some households actually want. Ten minutes gives you dumplings you can still pick up.',
            no:'De friteres for at overflaten skal stivne, og så bruker de ti minutter på å suge til seg væske fra gryta. Har du dem i fra starten, løser de seg opp i sausen og jevner den, og noen husholdninger vil faktisk ha det slik. Ti minutter gir deg boller du fortsatt kan plukke opp.'}},
@@ -412,9 +412,9 @@ window.RECIPES['IN-GUJ'] = [
      body:{en:'The bean is the hard part, and the honest answer is that the season is short even in Gujarat.',
            no:'Bønnen er det vanskelige, og det ærlige svaret er at sesongen er kort selv i Gujarat. Surti papdi selges frossen som papdi eller valor i indiske butikker på Grønland, og frossen er helt greit her. Finner du den ikke, bruk brede bønner eller friske bondebønner; smaken blir mildere, men strukturen stemmer. Lilla jams selges som kand eller purple yam i indiske og afrikanske butikker, og bytter du den mot mer søtpotet, blir retten søtere enn den skal være. Små auberginer får du de samme stedene; de store norske faller fra hverandre. Blader av bukkehornkløver finnes ferske eller frosne, og kokebanan står i samme hylle.'}}],
   variations:[
-    {title:{en:'Umbhadiyu, closer to the original', no:'Umbhadiyu, nærmere originalen'},
-     body:{en:'The Surat village version uses fewer roots, more green beans and no oil in the pot at all, and it is cooked in a sealed earthenware vessel over a fire of dried leaves. If you have a garden, a fire and a spare afternoon, it is the version worth attempting once.',
-           no:'Utgaven fra landsbyene rundt Surat bruker færre rotgrønnsaker, mer grønne bønner og ingen olje i gryta i det hele tatt, og den kokes i en forseglet leirkrukke over et bål av tørre blader. Har du hage, bål og en ettermiddag til overs, er det den utgaven som er verdt å forsøke én gang.'}},
+    {title:{en:'Umbhadiyu, the related village method', no:'Umbhadiyu, den beslektede landsbymetoden'},
+     body:{en:'Umbhadiyu uses seasonal vegetables and an earthen vessel cooked with fire, often inverted. Ingredients and fire arrangements vary locally. Treat it as a related regional preparation rather than a single original recipe for every modern undhiyu.',
+           no:'Umbhadiyu bruker sesongens grønnsaker og en leirgryte som varmes med ild, ofte snudd. Ingredienser og plassering av ilden varierer lokalt. Se den som en beslektet regional rett, ikke som én originaloppskrift bak all moderne undhiyu.'}},
     {title:{en:'In the oven', no:'I stekeovnen'},
      body:{en:'Layer everything into a heavy casserole, cover it with a lid and a sheet of foil, and cook at 160 °C for an hour and a quarter. The heat comes from every side instead of the base, which is nearer to what the pit did, and nothing can catch.',
            no:'Legg alt lagvis i en tung, ildfast gryte, dekk den med et ark folie og lokk, og la den stå på 160 °C i en time og et kvarter. Varmen kommer fra alle kanter i stedet for fra bunnen, slik den gjorde i gropa, og ingenting kan svi seg.'}}]

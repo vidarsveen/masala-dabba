@@ -5,17 +5,17 @@ window.SPICE_NO = window.SPICE_NO || {};
 Object.assign(window.SPICE_NO, {
  'IN-PUN|Garam masala': {
    aroma: 'Søt bark og nellik over noe harpiksaktig, og det harpiksaktige er den svarte kardemommen. Den lukter varm, ikke skarp.',
-   flavour: 'Rund og litt bedøvende, uten styrke fra chili. En god blanding smaker ikke av ett enkelt krydder.',
-   does: 'Binder de andre krydderne i retten sammen og løfter det hele til slutt. Den er en avslutning, ikke en bunn.',
-   when: 'I det siste minuttet, med kjelen av platen. Hard steking driver bort de flyktige oljene som er hele poenget.',
-   swap: 'Aldri karripulver, som inneholder gurkemeie og chili. Mal heller kanel, nellik, kardemomme og pepper selv.',
+   flavour: 'Varm og pepperpreget, med en balanse som varierer mellom blandinger. Noen inneholder chili, så sjekk ingrediensene før du tilsetter mer styrke.',
+   does: 'Samler flere krydderdufter. Litt mot slutten gir en frisk avslutning, men noen oppskrifter bruker blandingen tidligere også.',
+   when: 'Mot slutten for en frisk duft. Følg oppskriften hvis den også ber om en tidligere tilsetning; lang oppvarming endrer de flyktige duftstoffene.',
+   swap: 'Karripulver har en annen balanse. Mal kanel, nellik, kardemomme og pepper som en enkel erstatning.',
    sourcing: 'Ferdigblandet garam masala fra indiske butikker på Grønland i Oslo er god og billig, men den taper seg fort. Kjøp liten pose, oppbevar mørkt, og kast den etter et halvt år.'
  },
  'IN-PUN|Cumin (jeera)': {
    aroma: 'Jordaktig og litt bitter når frøet er kaldt, og varm og nøtteaktig i det øyeblikket det treffer varmt fett.',
    flavour: 'Smaksrik og litt røykpreget, med en bitterhet som blir ubehagelig hvis frøet får gå forbi mørkebrunt.',
    does: 'Starter nesten hver eneste nordindisk rett. Hele frø i varm ghee er grunntonen alt annet bygges på.',
-   when: 'Hel, i fettet, aller først, og den må passes på: den mørkner på tjue sekunder. Malt spisskummen går i sammen med de andre pulverne.',
+   when: 'Hele frø i varmt fett i starten. Følg med på duften og bruningen, og unngå at frøene blir svarte; tiden avhenger av varmen. Malt spisskummen går i sammen med de andre pulverne.',
    swap: 'Ingenting oppfører seg likt. Karve ser ut som spisskummen og smaker feil, så sløyf heller spisskummen enn å bruke karve.',
    sourcing: 'Norske dagligvarebutikker selger spisskummen malt i små glass, og den er dyr og gammel. Kjøp hele frø i pose fra en indisk eller pakistansk butikk, og ikke forveksle dem med karve, som ligger rett ved siden av.'
  },

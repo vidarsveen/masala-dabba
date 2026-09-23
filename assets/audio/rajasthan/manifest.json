@@ -36,39 +36,66 @@
   "ogg_bytes": 542296
  },
  "no-1": {
-  "seconds": 400.1,
-  "voice": "nb-NO-PernilleNeural",
-  "bytes": 2400768,
-  "lo_bytes": 800648,
+  "seconds": 316.5,
+  "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+  "bytes": 1899308,
+  "lo_bytes": 633392,
+  "ogg_bytes": 459901,
+  "delivery": "puck",
+  "cost": 0.1597,
+  "script_sha256": "0f51a81e4697f31454bf8266a321afc834933ce583a5d2affd590357fc0844c0",
   "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 553964
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none"
  },
  "no-2": {
-  "seconds": 349.8,
-  "voice": "nb-NO-PernilleNeural",
-  "bytes": 2098512,
-  "lo_bytes": 699920,
+  "seconds": 326.0,
+  "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+  "bytes": 1956188,
+  "lo_bytes": 652328,
+  "ogg_bytes": 479175,
+  "delivery": "puck",
+  "cost": 0.1645,
+  "script_sha256": "b536c57500c19c8afd53cb78a4df077fe30697630da82b5b39d4a01f7662c8ed",
   "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 481924
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none"
  },
  "no-3": {
-  "seconds": 369.2,
-  "voice": "nb-NO-PernilleNeural",
-  "bytes": 2215152,
-  "lo_bytes": 738800,
+  "seconds": 365.2,
+  "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+  "bytes": 2191340,
+  "lo_bytes": 730736,
+  "ogg_bytes": 530728,
+  "delivery": "puck",
+  "cost": 0.18425,
+  "script_sha256": "2af5c3a9bb7cc3e65a7e869aaf1492db4ee28a552bb412b547d7a65f39065884",
   "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 506888
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none"
  },
  "no-4": {
-  "seconds": 370.5,
-  "voice": "nb-NO-PernilleNeural",
-  "bytes": 2223216,
-  "lo_bytes": 741464,
+  "seconds": 355.8,
+  "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+  "bytes": 2135180,
+  "lo_bytes": 712016,
+  "ogg_bytes": 511342,
+  "delivery": "puck",
+  "cost": 0.17944,
+  "script_sha256": "3332fa8e835ae4485ca733f722d26107f281991525574838e21ca2d8c7181c6e",
   "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 516757
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none"
+ },
+ "no-intro": {
+  "seconds": 44.0,
+  "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+  "bytes": 264620,
+  "lo_bytes": 88496,
+  "ogg_bytes": 66600,
+  "delivery": "puck",
+  "cost": 0.02228,
+  "script_sha256": "4522c9a5d9659b79eb06394d2cf13e7ebd85f20f216d1aed1629b1a685b61534",
+  "kind": "region-introduction"
  }
 }

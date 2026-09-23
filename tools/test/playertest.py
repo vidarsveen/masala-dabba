@@ -1,4 +1,4 @@
-"""Drive headless Chrome as a phone via CDP: open the map, tap the first written region's chip, tap lesson 3, report what happened."""
+"""Exercise English reading playback in headless Chrome at a phone viewport."""
 import json, subprocess, time, base64, sys, urllib.request, os
 import websocket
 
@@ -39,7 +39,10 @@ try:
     send("Page.enable"); send("Runtime.enable")
     send("Page.navigate", url=URL)
     time.sleep(6)
-    print("loaded:", js("document.title"), "| loading gone:", js("document.getElementById('loading').classList.contains('gone')"))
+    js("document.querySelector(\"#lang button[data-lang='en']\").click()")
+    js("location.hash='#/IN-HIM/1'")
+    time.sleep(2)
+    print("loaded:", js("document.title"), "| loading gone:", js("document.getElementById('loading').classList.contains('gone')"), "| hash:", js("location.hash"), "| reader:", js("document.getElementById('reader').classList.contains('open')"))
     print("manifest keys:", js("Object.keys(window.AUDIO_MANIFEST||{}).join(',')"), "| audio data:", js("Object.keys(window.AUDIO_DATA||{}).length"))
     r = js("(function(){const b=document.querySelector('#reader .listen'); if(!b) return null; const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2, b.textContent];})()")
     print("listen button:", r)
@@ -47,7 +50,7 @@ try:
     print("player on:", js("document.querySelector('.rplayer').classList.contains('on')"), "| meta:", js("document.querySelector('.rplayer .meta').textContent"), "| time:", js("document.querySelector('.rplayer .time').textContent"), "| pp:", js("document.querySelector('.rplayer .pp').textContent"))
     shot("player.png")
     r = js("(function(){const b=document.querySelector('.rplayer .fwd15'); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")
-    tap(*r); time.sleep(1.5); print("after +15:", js("document.querySelector('.rplayer .time').textContent"), "| saved pos:", js("Object.keys(localStorage).filter(k=>k.startsWith('mdb-audio')).map(k=>k+'='+localStorage.getItem(k)).join(',')"))
+    tap(*r); time.sleep(1.5); print("after +15:", js("document.querySelector('.rplayer .time').textContent"), "| saved pos:", js("Object.keys(localStorage).filter(k=>k.startsWith('iit-audio')).map(k=>k+'='+localStorage.getItem(k)).join(',')"))
     r = js("(function(){const b=document.querySelector('.rplayer .pp'); const k=b.getBoundingClientRect(); return [k.left+k.width/2,k.top+k.height/2];})()")
     tap(*r); time.sleep(1); print("after pause pp:", js("document.querySelector('.rplayer .pp').textContent"))
 finally:

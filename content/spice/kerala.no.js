@@ -9,15 +9,15 @@ Object.assign(window.SPICE_NO, {
    does: 'Gir styrke uten den lange svien fra chili, og løfter fett, kokos og meieriprodukter i stedet for å slåss mot dem.',
    when: 'Hel og tidlig for en rund grunnvarme; nykvernet over den ferdige retten for duften.',
    swap: 'Ingenting erstatter den skikkelig. Bruk heller litt mindre hvit pepper, eller langpepper for en søtere og langsommere styrke.',
-   sourcing: 'Kjøp hele pepperkorn og kvern selv; ferdigmalt pepper har mistet oljen. Tellicherry-korn finnes i innvandrerbutikker på Grønland i Oslo og hos de fleste nettbutikker for krydder.'
+   sourcing: 'Kjøp hele pepperkorn og kvern selv; ferdigmalt pepper mister aroma raskere. Malabar- og Tellicherry-sorteringer finnes i enkelte krydderbutikker og nettbutikker.'
  },
  'IN-KER|Cardamom': {
    aroma: 'Eukalyptus og sitron over noe harpiksaktig. En kapsel knust mellom fingrene lukter nesten medisinsk.',
    flavour: 'Kjølig og søt først, deretter svakt kamferaktig og tørrende. Bruker du for mye, smaker retten av såpe.',
-   does: 'Parfymerer heller enn å krydre. I Kerala brukes den langt oftere i salte retter enn i søtsaker.',
+   does: 'Gir en kjølig, harpiksaktig duft til enkelte salte retter, søtsaker, te og krydderblandinger.',
    when: 'Hele kapsler som knuses lett og slippes i fettet i starten; malt frø bare i søtsaker og i masalablandinger.',
    swap: 'Ingen ærlig erstatning. Sløyf den heller enn å bruke ferdigmalt pulver, som har mistet oljen.',
-   sourcing: 'Norske butikker selger som regel malt kardemomme til bakst. Til dette kurset trenger du hele grønne kapsler, som er billigst i indiske og pakistanske butikker og selges i poser på hundre gram.'
+   sourcing: 'Til disse rettene trenger du hele grønne kapsler. De finnes i mange internasjonale butikker og nettbutikker; kjøp en mengde du rekker å bruke mens duften er tydelig.'
  },
  'IN-KER|Cinnamon': {
    aroma: 'Søt bark, varm og litt blomsterpreget i ekte kanel; hardere og hetere i kassia.',
@@ -25,30 +25,30 @@ Object.assign(window.SPICE_NO, {
    does: 'Runder av krydderblandinger og gir en kokossaus en sødme som ikke kommer fra sukker.',
    when: 'En kort bit bark i varm olje sammen med de andre hele krydderne, før løken.',
    swap: 'Kassia fungerer, men bruk omtrent halvparten, for den er mye sterkere.',
-   sourcing: 'Kanelstengene i norske dagligvarebutikker er nesten alltid kassia. Ekte kanel, ceylonkanel, er lysere og lar seg smuldre mellom fingrene, og den finnes i krydderbutikker og på nett.'
+   sourcing: 'Mange kanelstenger i norske dagligvarebutikker er kassia. Ceylonkanel er lysere og består av flere tynne lag; begge finnes i krydderbutikker og på nett.'
  },
  'IN-KER|Curry leaf': {
    aroma: 'Sitrusskall og ristede nøtter, og duften slippes først løs når bladet treffer varmt fett.',
    flavour: 'Smaksrik og litt bitter, mer en bakgrunn enn en smak du kan peke på i den ferdige retten.',
-   does: 'Bestemmer lukten av et sørindisk kjøkken. Nesten hver eneste tadka ender med en neve blader i den varme oljen.',
+   does: 'Gir mange sørindiske tempereringer en gjenkjennelig duft av sitrus og ristede nøtter.',
    when: 'I varm olje i noen sekunder til de knitrer, enten i starten eller i en siste tadka som helles over.',
    swap: 'Ingen. Tørkede blader smaker ingenting, så sløyf dem og godta at retten blir en annen.',
-   sourcing: 'Ferske karriblader kommer inn i indiske butikker på Grønland med noen ukers mellomrom. Kjøp mye når du finner dem og frys dem hele i pose; de tåler frysing godt. Ikke kjøp tørkede.'
+   sourcing: 'Ferske karriblader finnes av og til i indiske eller sørasiatiske butikker og kan fryses hele i pose. Tørkede blader er langt svakere.'
  },
  'IN-KER|Coconut oil': {
    aroma: 'Umiskjennelig kokos når den er kaldpresset, og nesten nøytral når den er raffinert.',
    flavour: 'Søt og svakt nøtteaktig. Den legger seg mer i munnen enn en frøolje gjør.',
-   does: 'Den er stekefettet, og i mange hus går en skje rå olje i til slutt, slik olivenolje avslutter en suppe.',
+   does: 'Brukes som stekefett og i noen husholdninger og retter som en aromatisk avslutning.',
    when: 'Til steking hele veien; rå over avial, thoran og dampede retter rett før servering.',
    swap: 'En nøytral olje steker helt fint, men den rå skjeen til slutt har ingen erstatning.',
-   sourcing: 'Norske helsekostbutikker selger kaldpresset kokosolje i glass, og den smaker riktig. Den raffinerte varianten, som er luktfri, er til steking og gjør ikke jobben som avslutning.'
+   sourcing: 'Kaldpresset kokosolje har tydelig kokosduft, mens raffinert olje er mildere. Begge finnes i dagligvare-, internasjonale og helsekostbutikker.'
  },
  'IN-KER|Kudampuli': {
    aroma: 'Røykpreget og svakt syrlig, som en tørket frukt som har stått nær et bål, og det er nettopp det den er.',
    flavour: 'Ren, skarp syre uten sødme. Den smaker ikke som tamarind, og den brukes ikke på samme måte heller.',
-   does: 'Syrner fiskekarri, strammer opp fiskekjøttet og holder karrien spiselig i to–tre dager uten kjøleskap.',
+   does: 'Syrner mange fiskekarrier fra Kerala og gir røykpreget fruktduft; den erstatter ikke kjøleskap.',
    when: 'Skylles og legges hele i gryta tidlig i kokingen, så bitene rekker å gi fra seg syren.',
    swap: 'Tamarind forandrer retten, men fungerer; en bit tørket kokum ligger nærmere. Sitron er siste utvei.',
-   sourcing: 'Selges i norske indiske butikker som «kudampuli», «kokum» eller «fish tamarind», og de tre er ikke det samme. Spør etter den svarte, læraktige og røkte varianten fra Kerala, ikke de lyse tørkede skivene.'
+   sourcing: 'Selges i enkelte indiske eller sørasiatiske butikker som kudampuli eller fish tamarind. Kokum er en annen frukt; se etter mørke, læraktige biter av kudampuli.'
  }
 });

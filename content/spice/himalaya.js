@@ -13,14 +13,14 @@ Object.assign(window.SPICE, {
  'IN-HIM|Kashmiri chilli': {
    aroma: 'Dried fruit with a little tobacco behind it, and almost nothing sharp. A bowl of it smells nearer to paprika than to chilli.',
    flavour: 'Warm and slightly sweet, with a heat that arrives late and stops early. Most of what it delivers is colour.',
-   does: 'Carries the red of rogan josh and dum aloo, which is why the valley grows it. Ratan jot traditionally finished the colour off.',
+   does: 'Brings deep red colour and comparatively mild heat to rogan josh and dum aloo. Ratan jot or mawal may deepen the colour.',
    when: 'Stirred into whisked yoghurt or a little water first, then into the pot. Dry powder in hot fat scorches within seconds.',
    swap: 'Byadgi and degi mirch behave the same way. Sweet paprika with a pinch of hot chilli gets close, but the gravy stays paler.'
  },
  'IN-HIM|Ver masala': {
    aroma: 'Garlic and dried chilli over cumin and clove, and it is at its strongest in the second after you snap a piece off.',
    flavour: 'Savoury, pungent and salty, with the garlic well forward. A very small piece seasons a whole pot.',
-   does: 'Gives a dish a ground wet masala without any grinding, because the grinding was done a year ago and dried into the cake.',
+   does: 'Gives a dish a prepared wet masala without grinding spices for every pot; the seasonal batch has been dried into a cake.',
    when: 'Broken off a ring, crushed to powder and bloomed in hot oil at the start, or crumbled in with the vegetables.',
    swap: 'No packet blend matches it. Garlic, shallot, Kashmiri chilli, cumin and clove ground fresh give the flavour but not the keeping.'
  },
@@ -41,7 +41,7 @@ Object.assign(window.SPICE, {
  'IN-HIM|Praan (shallot)': {
    aroma: 'Sharper and more sulphurous than a European shallot raw, and considerably sweeter once it has browned.',
    flavour: 'Concentrated onion with very little water in it, which is why it fries dark instead of stewing in its own juice.',
-   does: 'Builds the base of every Muslim-kitchen gravy in the valley, sliced, browned slowly and then ground back into the pot.',
+   does: 'Builds the base of many Muslim-kitchen gravies in the valley, sliced, browned slowly and then ground back into the pot.',
    when: 'Early, and fried until it is properly dark, because a pale onion base leaves a wazwan gravy thin and sweet.',
    swap: 'Ordinary shallots are the right shape and close enough. Large onions are wetter and will not brown the same way.'
  }

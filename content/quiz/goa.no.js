@@ -8,19 +8,19 @@ window.QUIZ_NO['IN-KON'] = [
       'Arabiske kjøpmenn brakte den over land fra Persia',
       'Portugisiske skip fraktet den østover fra Brasil',
       'Den kom med mogulene fra Sentral-Asia'],
-   c:2, why:'Capsicum er amerikansk. Den kom østover med portugisiske skip og gikk i land på denne kysten på 1500-tallet, og all chili i de tretten andre regionene i kurset stammer derfra.'},
+   c:2, why:'Capsicum er amerikansk. Portugisisk sjøhandel førte chilien til India på 1500-tallet. En bok trykt i Goa i 1563 viser at den da var etablert der, men det første ilandstigningsstedet er usikkert.'},
   {q:'Hva ga styrken i et indisk kjøkken før chilien kom?',
    a:['Sennepsolje og asafoetida',
       'Svart pepper og langpepper',
       'Kokum og tamarind',
       'Ingefær og grønn mango'],
-   c:1, why:'Begge varmer heller enn å svi, og begge var dyre nok til å bli fraktet til Roma. Chilien vokste i enhver bakgård og skjøv langpepperen nesten ut av gryta.'},
-  {q:'Hvorfor holder et glass recheado-pasta seg i månedsvis?',
+   c:1, why:'Svart pepper og langpepper ga styrke før de amerikanske chiliene kom. Chili ble senere utbredt, mens begge de eldre peppersortene fortsatt er i bruk.'},
+  {q:'Hvordan bør hjemmelaget recheado-pasta oppbevares?',
    a:['Den kokes opp før den settes på glass',
       'Den forsegles under et lag ghee',
       'Chiliene røykes før de males',
-      'Den males i eddik og møter aldri vann'],
-   c:3, why:'Eddik er den eneste væsken som går i den på noe tidspunkt. Den samme pastaen ville blitt dårlig i løpet av en uke hvis den var spedd med vann.'}
+      'Sett den raskt kaldt, bruk den i løpet av få dager eller frys porsjoner'],
+   c:3, why:'Eddik samler smaken, men gjør ikke hjemmelaget pasta holdbar i romtemperatur. Hold den kald og frys det du ikke skal bruke snart.'}
  ],
  [
   {q:'Hva betyr ukda?',
@@ -34,13 +34,13 @@ window.QUIZ_NO['IN-KON'] = [
       'Tidevannsland som dyrkes bak diker og sluseporter av tre',
       'En dampet riskake som heves med palmetoddy',
       'Fiskemarkedet i en kystlandsby om morgenen'],
-   c:1, why:'Lukene åpnes når vannet trekker seg tilbake, og stenges når det stiger, så saltet holdes ute. Den salttålende korgut-risen er avlet fram for denne jorda.'},
+   c:1, why:'Diker og sluseporter styrer tidevann og saltinnhold. Korgut er én av de lokale rissortene som forbindes med disse krevende forholdene.'},
   {q:'Hva gir solkadhi den rosa fargen?',
    a:['Rødbete kokt inn i kokosmelken',
       'Kashmiri-chili, som brukes for fargen og ikke for styrken',
       'Kokumskall som trekker i lunkent vann',
       'Den uglaserte leiren den serveres i'],
-   c:2, why:'Fargen kommer helt og holdent fra frukten, og ingenting tilsettes for å gjøre den rosa. Tynn kokosmelk, hvitløk og salt går i etterpå.'}
+   c:2, why:'Kokum gir ofte solkadhi en blekrosa farge. Nyansen og smaksettingen varierer med frukten, kokosmelken og husholdningens metode.'}
  ],
  [
   {q:'Hvor kommer den siste halvdelen av ordet vindaloo fra?',
@@ -48,19 +48,19 @@ window.QUIZ_NO['IN-KON'] = [
       'Et konkani-ord som betyr syrnet',
       'Navnet på en landsby i Salcete',
       'Portugisisk alho, som betyr hvitløk'],
-   c:3, why:'Retten er carne de vinha d\'alhos, kjøtt i vin og hvitløk. Likheten med aloo er tilfeldig, og originalen fra Goa inneholder ikke potet.'},
-  {q:'Hvorfor lages sorpotel tre eller fire dager før den skal spises?',
-   a:['Daglig oppvarming driver ut vann og presser eddiken inn i kjøttet',
+   c:3, why:'Navnet går tilbake til portugisisk vinha d\'alhos, vin og hvitløk. Likheten med aloo er tilfeldig; potet finnes i noen husholdningsvarianter og nyere utgaver.'},
+  {q:'Hvorfor lager mange sorpotel på forhånd?',
+   a:['En kald hvile lar smakene samle seg før retten varmes grundig opp',
       'Blodet må få skille seg ut før retten serveres',
       'Svinekjøttet trenger så lang tid på å spekes i salt',
       'Den må kjøles helt ned før leveren kan has i'],
-   c:0, why:'Hver oppvarming konsentrerer retten, og utgaven på fjerde dag er en annen og bedre rett enn den på første.'},
+   c:0, why:'En hvile i kjøleskap lar smakene samle seg. Kjøl retten raskt ned, oppbevar den kaldt og varm den grundig før servering.'},
   {q:'Hva slags rett er balchão?',
    a:['En tørr masala av ristet kokos og hele krydder',
       'En tynn syrnet saus som helles over ris',
       'En konserves på glass som spises en skje om gangen',
       'En dampet kake som spises til svinekjøtt i julen'],
-   c:2, why:'Rekene kokes inn i chili, hvitløk og eddik til det nesten ikke er væske igjen, og settes så på glass under olje. En spiseskje er en porsjon.'}
+   c:2, why:'Rekene kokes inn med chili, hvitløk og eddik til en konsentrert, sylteaktig relish. Oppbevar en hjemmelaget porsjon i en ren beholder i kjøleskapet.'}
  ],
  [
   {q:'Hvor lenge satt Portugal med Goa?',
@@ -68,7 +68,7 @@ window.QUIZ_NO['IN-KON'] = [
       'Fire hundre og femtien år, fra 1510 til 1961',
       'Omkring to hundre år, fram til hovedstaden flyttet til Panaji',
       'Tre hundre år, fram til inkvisisjonen ble avviklet i 1812'],
-   c:1, why:'Albuquerque tok byen 25. november 1510, og den indiske hæren rykket inn i desember 1961. Det er lenger enn noen europeisk makt satt med noe område i Asia.'},
+   c:1, why:'Albuquerque tok byen 25. november 1510, og indiske styrker rykket inn i desember 1961. Dette var et av de lengste europeiske kolonistyrene i Asia.'},
   {q:'Hvorfor står Mangeshi- og Shanta Durga-templene i Ponda?',
    a:['Ponda hadde det eneste ferskvannet på den kyststrekningen',
       'Portugiserne bygde dem der for omvendte som ikke ville gi slipp på de gamle ritene',
@@ -80,6 +80,6 @@ window.QUIZ_NO['IN-KON'] = [
       'Selve nøtten, etter at den er ristet',
       'Barken, som kokes og deretter gjæres',
       'Blomstene, som samles inn før daggry'],
-   c:0, why:'Nøtten var eksportvaren. Cashewfrukten råtner i løpet av et døgn og lot seg ikke selge, så Goa knuste den, gjæret den og destillerte den.'}
+   c:0, why:'Cashew-feni destilleres av gjæret saft fra cashewfrukten, mens kokos-feni destilleres av gjæret palmesaft.'}
  ]
 ];

@@ -9,7 +9,7 @@ Object.assign(window.SPICE_NO, {
    does: 'Bærer både styrken og den røde fargen på én gang, så en kokk her slipper å velge mellom de to.',
    when: 'Hele belger i oljen i starten; malt chili senere og med kjelen av platen, for pulveret svir seg på sekunder.',
    swap: 'Cayennepepper ligger nær i styrke. Ha litt kashmirchili eller paprikapulver ved siden av hvis du vil ha fargen.',
-   sourcing: 'Guntur-chili selges hel i indiske butikker på Grønland i Oslo, ofte som «Guntur red chilli». Vanlig chilipulver fra dagligvaren er som regel en blanding som også inneholder spisskummen og hvitløk.'
+   sourcing: 'Guntur-chili kan finnes hel eller malt i indiske og andre sørasiatiske butikker. Kontroller ingredienslisten på chilipulver, siden noen produkter er krydderblandinger.'
  },
  'IN-AND|Gongura': {
    aroma: 'Rått er bladet grønt og sevjeaktig, som en hekk etter regn. Kokingen henter fram noe som ligger mye nærmere kokt rabarbra.',
@@ -17,7 +17,7 @@ Object.assign(window.SPICE_NO, {
    does: 'Syrner og smaksetter i ett grep, så retten trenger verken tamarind eller lime, og den skjærer rett gjennom fettet i geitekjøtt.',
    when: 'Surres i olje til bladene faller sammen, males så til en pachadi, eller vendes inn i kjøtt bare helt mot slutten.',
    swap: 'Ingenting ligger virkelig nær. Engsyre kommer nærmest på syre og er tynnere; spinat med sitron blir en annen rett.',
-   sourcing: 'Fersk gongura er i praksis ikke å få kjøpt i Norge. Indiske butikker fører iblant frosne blader, eller ferdig kokt gongura på glass under navnet gongura pickle eller sorrel leaves, og det er den ærlige løsningen. Engsyre fra enga eller hagen gir syren, men ikke smaken.'
+   sourcing: 'Fersk gongura er uvanlig i Norge. Indiske og andre sørasiatiske butikker kan føre frosne blader eller ferdig kokt gongura på glass, merket gongura eller sorrel leaves. Engsyre gir noe av syren, men en annen smak.'
  },
  'IN-AND|Tamarind (chintapandu)': {
    aroma: 'Søt og litt røykpreget i en gammel mørk blokk. Den nye sesongen er lysere og lukter grønnere og skarpere.',
@@ -30,10 +30,10 @@ Object.assign(window.SPICE_NO, {
  'IN-AND|Mustard seed': {
    aroma: 'Nesten ingenting rå. I varm olje hopper frøene og gir en varm, nøtteaktig duft med et svakt drag av kål.',
    flavour: 'Spretter frøene hele i olje, er de milde og nøtteaktige. Males de rå med vann, blir de hissig skarpe, og det er utgaven i picklesen.',
-   does: 'Åpner nesten hver eneste salte rett i regionen, og malt rått er det ett av de to pulverne som konserverer avakaya.',
+   does: 'Gir nøtteaktig tempering når frøet sprettes helt, og den karakteristiske skarpheten i avakaya når det males.',
    when: 'Hel, i olje som er varm nok til at frøene hopper, før noe annet går i. Vent til det slutter å sprette.',
    swap: 'Ingenting erstatter det sprettede frøet. I en pickles gir sennepspulver skarpheten, men ikke den grove konsistensen.',
-   sourcing: 'Svarte sennepsfrø kjøper du i indiske butikker; de gule i dagligvaren spretter dårligere og smaker mildere. Hard, umoden mango til avakaya får du på Grønland i mai og juni.'
+   sourcing: 'Svarte eller brune sennepsfrø selges i indiske og andre sørasiatiske butikker. Gule frø er mildere. Fast, umoden mango kan være merket raw mango eller kachi keri.'
  },
  'IN-AND|Fenugreek (menthulu)': {
    aroma: 'Brent sukker og selleri når den er ristet, og nesten ingenting kald. Ristes den ti sekunder for lenge, lukter den besk.',

@@ -5,8 +5,8 @@ window.SPICE_NO = window.SPICE_NO || {};
 Object.assign(window.SPICE_NO, {
  'IN-RAJ|Mathania chilli': {
    aroma: 'Soltørket frukt og varm paprika, med et snev av røyk i belger som er tørket på et tak.',
-   flavour: 'Moderat styrke båret av ekte sødme. Den smaker av frukten den kom fra, og det gjør sjelden en svært sterk chili.',
-   does: 'Gir laal maas den dype røde fargen og mesteparten av duften. Den går i et dusin belger om gangen, for fargen og ikke for svien.',
+   flavour: 'Fruktig og aromatisk, med styrke som varierer mellom avlinger og belger.',
+   does: 'Gir laal maas dyp rødfarge, duft og justerbar styrke. Kokken smaker og tilpasser mengden.',
    when: 'Renset for stilk, bløtlagt i varmt vann og malt til pasta, eller varmet i ghee med kjelen av platen så fettet tar fargen.',
    swap: 'Kashmiri-chili ligger nærmest. Mild paprika med litt sterkt chilipulver kommer nær nok i et hjemmekjøkken.',
    sourcing: 'Mathania-chili selges knapt i Norge. Kjøp hele kashmiri-belger i indiske butikker på Grønland i Oslo. Chilipulveret i dagligvarebutikken er som regel kajennepepper, og det er altfor sterkt til å brukes i mengde.'
@@ -47,7 +47,7 @@ Object.assign(window.SPICE_NO, {
    aroma: 'Tørr, treaktig og svakt bitter, som en sekk med tørkede belger, og det er nøyaktig det den er.',
    flavour: 'Sur, seig og litt bitter når den er kokt. Litt bitterhet hører hjemme der og er ingen feil.',
    does: 'Den er grønnsakretten i ørkenen: fem tørkede ville vekster, som regel ker, sangri, kumatia, gunda og tørket mango.',
-   when: 'Bløtlegges over natten, kokes møre, og stekes så i rikelig olje med chili, koriander, gurkemeie, hing og amchur.',
+   when: 'Skylles, bløtlegges til de har trukket til seg vann, kokes møre og stekes med chili, koriander, gurkemeie, hing og amchur.',
    swap: 'Ingenting erstatter blandingen. Sangri alene gir en grei rett; sløyf den heller enn å bytte den ut med grønne bønner.',
    sourcing: 'Ker og sangri er postordre. Ingen butikk i Norge fører dem fast, og indiske nettbutikker i Storbritannia sender til Norge. Kjøp nok til flere ganger, for tørkede belger holder seg i årevis i et tett glass.'
  }

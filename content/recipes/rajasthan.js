@@ -8,19 +8,19 @@ window.RECIPES['IN-RAJ'] = [
   id:'laal-maas', dish:'Laal maas', course:'main', lesson:3, serves:4, veg:false,
   time:{prep:30, cook:105}, hero:'laal-maas', tags:['goat','yoghurt','chilli','dhungar'],
   title:{en:'Laal maas', no:'Laal maas'},
-  blurb:{en:'Goat braised in yoghurt and a dozen mild red chillies, with no water and no vegetables.',
-         no:'Geitekjøtt kokt i yoghurt og et dusin milde røde chili, uten vann og uten grønnsaker.'},
+  blurb:{en:'Goat braised with yoghurt, aromatic red chillies and little added water.',
+         no:'Geitekjøtt kokt med yoghurt, aromatisk rød chili og lite tilsatt vann.'},
   heroCaption:{en:'Laal maas. The red ghee standing on the surface is the sign that it is finished.',
                no:'Laal maas. Den røde gheen som legger seg på overflaten, er tegnet på at den er ferdig.'},
   goesWith:[{en:'Bajra roti, hot off the fire', no:'Bajra-roti rett fra ilden'},
             {en:'Salted buttermilk, cold', no:'Kald, saltet kjernemelk'}],
   headnote:{
-    en:`<p>Laal maas is usually sold to outsiders as the hottest thing in India, and that is the wrong way round. The chillies go in a dozen at a time, but they are the mild Mathania kind, and what they are there for is colour and a smell of dried fruit. The yoghurt and the ghee then hold down whatever heat is left.</p>
-<p>The dish comes from the hunting camps of the Rajput courts, which is why it contains no vegetables, no stock and no water to speak of. Yoghurt is the whole braising liquid. It tenderises the goat, which needs it, and it buffers the chilli at the same time.</p>
-<p>There is no timer for this. The dish is done when there is enough reduced yoghurt and enough ghee in the pan that the fat separates and stands in a red slick on the surface. Cook until you see that, and not until a clock says so.</p>`,
-    no:`<p>Laal maas selges gjerne til besøkende som det sterkeste i India, og det er snudd på hodet. Chilien går i et dusin om gangen, men det er den milde Mathania-typen, og den er der for fargen og for duften av tørket frukt. Yoghurten og gheen holder deretter nede det lille av styrke som er igjen.</p>
-<p>Retten kommer fra jaktleirene til rajput-hoffene, og derfor inneholder den verken grønnsaker, kraft eller vann å snakke om. Yoghurten er hele kokevæsken. Den mørner geitekjøttet, som trenger det, og den demper chilien samtidig.</p>
-<p>Det finnes ingen klokke for dette. Retten er ferdig når det er nok innkokt yoghurt og nok ghee i gryta til at fettet skiller seg ut og legger seg som et rødt lag på overflaten. Kok til du ser det, og ikke til en klokke sier fra.</p>`},
+    en:`<p>Laal maas needs chillies chosen for colour and aroma as well as heat. Mathania and Kashmiri pods vary, so taste one and reduce the number if the batch is hot. Yoghurt softens the sensation of chilli while ghee carries its colour and aroma.</p>
+<p>The dish is commonly linked to Rajput hunting camps, although that origin survives chiefly as culinary tradition. This version uses yoghurt around the meat and only enough added water to prevent scorching during its long braise.</p>
+<p>When the yoghurt masala has reduced, red fat separates and rises to the surface. Treat that as a sign to test the meat; the dish is ready when the goat is tender.</p>`,
+    no:`<p>Laal maas trenger chili som er valgt for farge og duft i tillegg til styrke. Mathania- og kashmiri-belger varierer, så smak på én og bruk færre hvis partiet er sterkt. Yoghurt demper chilifølelsen, mens ghee bærer fargen og duften.</p>
+<p>Retten knyttes ofte til rajputenes jaktleirer, men opphavet lever først og fremst som mattradisjon. Denne varianten bruker yoghurt rundt kjøttet og bare nok tilsatt vann til at den lange kokingen ikke svir seg.</p>
+<p>Når yoghurtblandingen er redusert, skiller rødt fett seg ut på overflaten. Bruk det som tegn på at kjøttet skal prøves; retten er ferdig når geitekjøttet er mørt.</p>`},
   ingredients:[{group:{en:'', no:''}, items:[
     {q:800, u:'g', n:{en:'goat or lamb shoulder, on the bone', no:'geite- eller lammebog, med bein'}, note:{en:'in pieces the size of a walnut', no:'i biter på størrelse med en valnøtt'}},
     {q:400, u:'g', n:{en:'full-fat yoghurt', no:'yoghurt naturell med fullt fettinnhold'}, note:{en:'beaten smooth', no:'pisket glatt'}},
@@ -60,12 +60,12 @@ window.RECIPES['IN-RAJ'] = [
     {en:'Taste for salt, let it stand for a quarter of an hour, and serve it with bajra roti.',
      no:'Smak til med salt, la retten hvile et kvarter, og server den med bajra-roti.'}],
   notes:[
-    {title:{en:'Why yoghurt and not water', no:'Hvorfor yoghurt og ikke vann'},
-     body:{en:'The acid and the enzymes in curd break down the connective tissue in goat, which is tough meat from an animal that walks a long way. Water would only boil it. The curd also coats the chilli and stops it registering as pure heat.',
-           no:'Syren og enzymene i yoghurt bryter ned bindevevet i geitekjøtt, som er seigt kjøtt fra et dyr som går langt. Vann ville bare kokt det. Yoghurten legger seg dessuten rundt chilien og hindrer at den oppleves som ren svie.'}},
-    {title:{en:'Twelve chillies is not a mistake', no:'Tolv chili er ingen feil'},
-     body:{en:'Kashmiri and Mathania pods are bred for colour rather than pungency, so a dozen of them give a deep red and a fruit smell without making the dish painful. Use a hot chilli at the same count and it will be inedible.',
-           no:'Kashmiri- og Mathania-belger er foredlet for farge og ikke for styrke, så et dusin av dem gir dyp rødfarge og fruktduft uten at retten blir ubehagelig sterk. Bruker du en sterk chili i samme antall, blir den uspiselig.'}},
+    {title:{en:'Why yoghurt and little water', no:'Hvorfor yoghurt og lite vann'},
+     body:{en:'Yoghurt supplies acidity, moisture and body. Kachri, when used, provides additional tenderising enzymes. A little water prevents scorching while the meat slowly becomes tender.',
+           no:'Yoghurt gir syre, væske og fylde. Kachri tilfører ekstra mørnende enzymer når den brukes. Litt vann hindrer fastbrenning mens kjøttet sakte blir mørt.'}},
+    {title:{en:'Taste the chilli first', no:'Smak på chilien først'},
+     body:{en:'Kashmiri and Mathania pods are valued for colour, but their heat is not fixed. Taste the batch and begin with fewer pods if necessary; more paste can be added during cooking.',
+           no:'Kashmiri- og Mathania-belger verdsettes for fargen, men styrken er ikke fast. Smak på partiet og begynn med færre belger ved behov; mer pasta kan tilsettes underveis.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Goat is sold by halal butchers rather than by supermarkets; lamb shoulder is the honest substitute and behaves the same way. Use a thick Turkish or Greek yoghurt with real fat in it, because Norwegian low-fat naturell splits.',
            no:'Geitekjøtt selges hos halalslaktere og ikke i dagligvarebutikken, og på Grønland i Oslo får du det med bein, som er det du vil ha. Lammebog er den ærlige erstatningen og oppfører seg likt, og kje om våren er enda nærmere. Bruk tykk tyrkisk eller gresk yoghurt med ekte fett i; norsk mager yoghurt naturell skiller seg i gryta. Ghee selges i store bokser i indiske butikker til en brøkdel av helsekostprisen, og hele kashmiri-belger finnes samme sted.'}}],
@@ -82,19 +82,19 @@ window.RECIPES['IN-RAJ'] = [
   id:'ker-sangri', dish:'Ker sangri', course:'side', lesson:3, serves:4, veg:true,
   time:{prep:30, cook:45}, hero:'ker-sangri-raw', tags:['dried','desert','yoghurt','keeps'],
   title:{en:'Ker sangri', no:'Ker sangri'},
-  blurb:{en:'Dried desert berries and khejri pods, soaked overnight and fried hard. It keeps a week.',
-         no:'Tørkede bær og belger fra ørkenen, bløtlagt over natten og stekt hardt. Den holder seg en uke.'},
+  blurb:{en:'Dried desert berries and khejri pods, rehydrated, boiled and fried with spices.',
+         no:'Tørkede ørkenbær og khejri-belger, bløtlagt, kokt og stekt med krydder.'},
   heroCaption:{en:'Fresh ker berries and sangri pods after picking. No free photograph of the cooked dish exists, so this is what it is made from.',
                no:'Ferske ker-bær og sangri-belger etter plukkingen. Det finnes ikke noe fritt bilde av den ferdige retten, så dette er det den lages av.'},
   goesWith:[{en:'Bajra roti and a spoon of ghee', no:'Bajra-roti og en skje ghee'},
             {en:'Panchmel dal, if it is a full meal', no:'Panchmel dal, hvis det er et helt måltid'}],
   headnote:{
-    en:`<p>This is the vegetable course of a place with no vegetables. Ker is the berry of a leafless thorn bush in the caper family, and sangri is the long pod of the khejri tree that stands in the middle of Rajasthani millet fields. Both are gathered wild, boiled briefly, dried hard, and kept in a sack for as long as anybody needs them.</p>
-<p>Two things decide whether the dish works. The first is the soaking: ker is sharply bitter raw, and the bitterness leaves with the water, so an overnight soak is not optional. The second is the fat. This is fried, not stewed, in far more oil than a European would think reasonable, and that is what makes it keep.</p>
-<p>Cooked dry like this it will sit in a covered jar for a week without refrigeration, and it improves for the first two or three days. Rajasthanis post it to relatives in other cities, which tells you everything about how sturdy it is.</p>`,
-    no:`<p>Dette er grønnsakretten fra et sted uten grønnsaker. Ker er bæret fra en bladløs tornebusk i kapersfamilien, og sangri er den lange belgen fra khejri-treet som står midt i hirseåkrene i Rajasthan. Begge sankes vilt, kokes så vidt opp, tørkes harde og oppbevares i en sekk så lenge noen trenger dem.</p>
-<p>To ting avgjør om retten lykkes. Det første er bløtleggingen, for ker er skarpt bittert rått, og bitterheten går ut med vannet, så en natt i bløt er ikke valgfritt. Det andre er fettet. Retten stekes, den småkokes ikke, og det skjer i langt mer olje enn en europeer synes er rimelig. Nettopp derfor holder den seg.</p>
-<p>Når den er stekt tørr på denne måten, står den i et tett glass i en uke uten kjøleskap, og den blir bedre de to-tre første dagene. Folk fra Rajasthan sender den i posten til slektninger i andre byer, og det sier alt om hvor robust den er.</p>`},
+    en:`<p>Ker is the berry of a leafless thorn bush in the caper family, while sangri is the pod of the khejri tree often retained in Rajasthani fields. Drying makes both ingredients durable and concentrates their flavour.</p>
+<p>Washing, soaking and boiling rehydrate the ingredients and reduce bitterness before frying. Overnight soaking is convenient for this recipe, though the exact time depends on how old and dry the batch is.</p>
+<p>The finished dish is comparatively dry and keeps well under refrigeration. Cool it promptly, refrigerate it in a covered container and use it within four days.</p>`,
+    no:`<p>Ker er bæret fra en bladløs tornebusk i kapersfamilien, mens sangri er belgen fra khejri-treet som ofte får stå i åkrene i Rajasthan. Tørking gjør begge råvarene holdbare og konsentrerer smaken.</p>
+<p>Skylling, bløtlegging og koking gir råvarene vann igjen og demper bitterheten før steking. En natt i bløt passer denne oppskriften, men tiden avhenger av hvor gammelt og tørt partiet er.</p>
+<p>Den ferdige retten er forholdsvis tørr og holder seg godt i kjøleskap. Avkjøl den raskt, oppbevar den i en tett beholder og bruk den innen fire dager.</p>`},
   ingredients:[{group:{en:'', no:''}, items:[
     {q:100, u:'g', n:{en:'dried sangri', no:'tørket sangri'}},
     {q:50, u:'g', n:{en:'dried ker', no:'tørket ker'}},
@@ -123,21 +123,21 @@ window.RECIPES['IN-RAJ'] = [
      no:'Ha i asafoetidaen, og straks etter den avrente keren og sangrien, og stek hardt i omtrent åtte minutter så kantene tar farge.'},
     {en:'Pull the pan off the heat and stir in the turmeric and the ground coriander, so the powders colour the fat instead of burning in it.',
      no:'Trekk pannen av platen og rør inn gurkemeien og den malte korianderen, så pulverne farger fettet i stedet for å svi seg i det.'},
-    {en:'Return the pan to a low flame, add the beaten yoghurt and stir steadily in one direction until it comes up to a simmer. Do not stop stirring before it does.',
-     no:'Sett pannen tilbake på lav varme, ha i den piskede yoghurten og rør jevnt én vei til det så vidt koker. Ikke slutt å røre før det koker.'},
+    {en:'Return the pan to a low flame, add the beaten yoghurt and stir steadily while it warms to a simmer.',
+     no:'Sett pannen tilbake på lav varme, ha i den piskede yoghurten og rør jevnt mens den varmes til kokepunktet.'},
     {en:'Add the amchur, the raisins and salt, and cook on until the pan is dry again and the fat has come back out, about five minutes.',
      no:'Ha i amchur, rosiner og salt, og la det steke videre til pannen er tørr igjen og fettet har kommet fram, omtrent fem minutter.'},
     {en:'Taste for salt and sour. It should be distinctly sharp, because it is eaten in small quantities alongside bread.',
      no:'Smak til med salt og syre. Den skal være tydelig skarp, for den spises i små mengder ved siden av brød.'},
-    {en:'Let it stand for a few hours before eating, and keep the rest in a covered jar. It is better on the second day.',
-     no:'La den stå noen timer før den spises, og oppbevar resten i et tett glass. Den er bedre dag to.'}],
+    {en:'Let the flavours settle briefly before serving. Cool leftovers promptly and refrigerate them in a covered container.',
+     no:'La smaken sette seg litt før servering. Avkjøl rester raskt og sett dem i kjøleskap i en tett beholder.'}],
   notes:[
     {title:{en:'Why so much fat', no:'Hvorfor så mye fett'},
-     body:{en:'The fat is what makes this keep. Nothing wet is left in the pan at the end, and what coats the pods keeps air off them, which is how a dish survived a journey across the desert before anybody had a fridge.',
-           no:'Fettet er grunnen til at retten holder seg. Det er ingenting vått igjen i pannen til slutt, og det som legger seg rundt belgene, holder luften unna. Slik overlevde retten en reise gjennom ørkenen lenge før noen hadde kjøleskap.'}},
+     body:{en:'The generous fat carries the spices and gives the dried ingredients a glossy coating. It is part of the dish’s texture, but it does not make cooked food safe at room temperature.',
+           no:'Det rikelige fettet bærer krydderet og legger en blank hinne rundt de tørkede råvarene. Det hører til konsistensen, men gjør ikke tilberedt mat trygg i romtemperatur.'}},
     {title:{en:'Do not skip the soaking', no:'Ikke hopp over bløtleggingen'},
-     body:{en:'Ker carries a bitterness that only long contact with salted water removes, and the drying makes both ingredients hard enough that a short soak leaves them woody. An overnight soak and a proper boil are both needed.',
-           no:'Ker bærer en bitterhet som bare lang kontakt med saltet vann fjerner, og tørkingen gjør begge ingrediensene så harde at en kort bløtlegging etterlater dem treaktige. Både natten i bløt og en ordentlig oppkoking trengs.'}},
+     body:{en:'Drying makes ker and sangri hard, so they need enough soaking and boiling to become tender. Changing the water also helps reduce bitterness. Older batches may need longer.',
+           no:'Tørking gjør ker og sangri harde, så de trenger nok bløtlegging og koking til å bli møre. Vannbytte bidrar også til å dempe bitterheten. Eldre partier kan trenge lengre tid.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Ker and sangri are mail order and always have been. Buy enough for several attempts, since dried pods keep for years in a sealed jar.',
            no:'Ker og sangri er postordre. Ingen butikk i Norge fører dem fast, men indiske nettbutikker i Storbritannia og Tyskland sender hit, og tørkede belger holder seg i årevis i et tett glass, så kjøp nok til flere forsøk. Sennepsolje, som mange indiske oppskrifter ber om, selges i EU som regel merket «kun til utvortes bruk», så bruk ghee i stedet. Amchur finnes i alle indiske butikker og er ikke det samme som sitronsyre.'}}],
@@ -162,11 +162,11 @@ window.RECIPES['IN-RAJ'] = [
             {en:'Garlic and chilli chutney', no:'Chutney av hvitløk og chili'}],
   headnote:{
     en:`<p>This dish exists because there was nothing green in the house and no prospect of any. The answer a Rajasthani kitchen gives is gram flour, which supplies both the protein and the body that a vegetable would have supplied, and which keeps in a sack indefinitely.</p>
-<p>Nothing is wasted along the way. The dough is boiled, and the water it boiled in picks up flour and spice and becomes the base of the gravy, so the two halves of the recipe are joined rather than merely served together. Beaten yoghurt does the rest.</p>
-<p>It contains no onion and no garlic, which is deliberate rather than an omission: this is Marwari and Jain cooking, and asafoetida is doing their job. It is also what makes the dish quick, because there is no onion to fry down first.</p>`,
+<p>This version reserves some of the starchy cooking water for the gravy, although other recipes use fresh water. Beaten yoghurt and besan provide the sauce's body.</p>
+<p>The recipe contains no onion or garlic. That suits Jain and other households that avoid them, while asafoetida contributes its own savoury aroma.</p>`,
     no:`<p>Retten finnes fordi det ikke var noe grønt i huset og ingen utsikt til noe. Svaret et kjøkken i Rajasthan gir, er kikertmel, som gir både proteinet og fylden en grønnsak ville gitt, og som holder seg i en sekk i det uendelige.</p>
-<p>Ingenting går til spille underveis. Deigen kokes, og kokevannet trekker til seg mel og krydder og blir grunnlaget for sausen, så de to halvdelene av oppskriften henger sammen i stedet for bare å bli servert sammen. Pisket yoghurt gjør resten.</p>
-<p>Retten inneholder verken løk eller hvitløk, og det er et valg og ingen forglemmelse. Dette er marwarisk og jainsk matlaging, og asafoetidaen gjør jobben deres. Det er også grunnen til at retten går fort, for ingen løk skal stekes ned først.</p>`},
+<p>Denne varianten tar vare på litt av det stivelsesrike kokevannet til sausen, mens andre oppskrifter bruker friskt vann. Pisket yoghurt og besan gir sausen fylde.</p>
+<p>Oppskriften inneholder verken løk eller hvitløk. Det passer for jainistiske og andre husholdninger som unngår dem, mens asafoetida bidrar med sin egen fyldige duft.</p>`},
   ingredients:[
    {group:{en:'For the gatte', no:'Til gatte'}, items:[
     {q:200, u:'g', n:{en:'gram flour (besan)', no:'kikertmel (besan)'}},
@@ -200,27 +200,27 @@ window.RECIPES['IN-RAJ'] = [
      no:'Rull deigen til pølser omtrent så tykke som en finger, og så lange som gryta tar.'},
     {en:'Bring the water to a rolling boil, lower the ropes in and cook them for 15 minutes. They float when they are done.',
      no:'Kok opp vannet, legg pølsene forsiktig i og kok dem i 15 minutter. De flyter opp når de er ferdige.'},
-    {en:'Lift the ropes out and keep every drop of the cooking water. Slice them into discs once they are cool enough to hold.',
-     no:'Løft opp pølsene og ta vare på hver dråpe av kokevannet. Skjær dem i skiver når de er avkjølt nok til at du kan holde i dem.'},
+    {en:'Lift the ropes out and reserve a generous jug of the cooking water. Slice them into discs once they are cool enough to hold.',
+     no:'Løft opp pølsene og ta vare på en romslig mugge av kokevannet. Skjær dem i skiver når de er avkjølt nok til at du kan holde i dem.'},
     {en:'Whisk the gravy yoghurt with the gram flour until no lump is left at all. Any lump now will be a lump in the finished gravy.',
      no:'Visp yoghurten til sausen sammen med kikertmelet til det ikke er en eneste klump igjen. En klump nå blir en klump i den ferdige sausen.'},
     {en:'Heat the ghee, add the cumin and the asafoetida, and wait until the seeds colour and the hing smells savoury rather than raw.',
      no:'Varm gheen, ha i spisskummen og asafoetida, og vent til frøene tar farge og hingen lukter smaksrik i stedet for rå.'},
     {en:'Take the pan off the heat and stir in the chilli powder, turmeric and ground coriander.',
      no:'Ta pannen av platen og rør inn chilipulver, gurkemeie og malt koriander.'},
-    {en:'Back on a low flame, pour in the yoghurt mixture and stir steadily in one direction until it simmers. If you stop stirring before it does, it will split.',
-     no:'Tilbake på lav varme heller du i yoghurtblandingen og rører jevnt én vei til det så vidt koker. Slutter du å røre før den koker, skiller den seg.'},
+    {en:'Back on a low flame, pour in the yoghurt mixture and stir steadily while it warms to a simmer.',
+     no:'Tilbake på lav varme heller du i yoghurtblandingen og rører jevnt mens den varmes til kokepunktet.'},
     {en:'Loosen the gravy with the reserved cooking water until it pours from a spoon, add the sliced gatte, and simmer for ten minutes.',
      no:'Tynn ut sausen med kokevannet til den renner av en skje, ha i gatte-skivene og la det småkoke i ti minutter.'},
     {en:'Stir in the garam masala, scatter the coriander leaf over, and serve.',
      no:'Rør inn garam masala, strø over frisk koriander, og server.'}],
   notes:[
-    {title:{en:'Why the boiling water is kept', no:'Hvorfor kokevannet tas vare på'},
-     body:{en:'The ropes give up flour and spice into the water as they cook, so it is already a thin, seasoned stock. Throwing it away and using fresh water makes a duller gravy and wastes the best thing in the pan.',
-           no:'Pølsene gir fra seg mel og krydder til vannet mens de koker, så det er allerede en tynn, krydret kraft. Kaster du det og bruker friskt vann, blir sausen kjedeligere, og du kaster det beste i gryta.'}},
-    {title:{en:'Stirring in one direction', no:'Å røre én vei'},
-     body:{en:'It sounds superstitious and is not. Continuous movement in one direction keeps the yoghurt proteins from gathering into curds as they pass through the temperature at which they would otherwise set, and the gram flour stabilises them the rest of the way.',
-           no:'Det høres ut som overtro, men er det ikke. Jevn bevegelse én vei hindrer at proteinene i yoghurten klumper seg mens de passerer temperaturen der de ellers ville stivnet, og kikertmelet stabiliserer dem resten av veien.'}},
+    {title:{en:'Why some cooking water is kept', no:'Hvorfor litt kokevann tas vare på'},
+     body:{en:'The water picks up a little flour and spice from the gatte and gives this gravy a useful head start. Fresh water also works, so reserve only what the recipe needs.',
+           no:'Vannet trekker til seg litt mel og krydder fra gatte og gir denne sausen en nyttig start. Friskt vann virker også, så ta bare vare på det oppskriften trenger.'}},
+    {title:{en:'Keep the heat gentle', no:'Bruk rolig varme'},
+     body:{en:'Beaten yoghurt and besan are less likely to separate when they warm gradually under steady stirring. Stirring direction has no special effect.',
+           no:'Glattpisket yoghurt og besan skiller seg mindre lett når de varmes gradvis under jevn omrøring. Retningen du rører i, har ingen egen virkning.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Besan is milled from brown chana dal, not from the pale chickpea, and the two do not behave alike. Buy besan from an Indian shop rather than chickpea flour from a health-food shop.',
            no:'Besan males av brune chana-erter og ikke av den lyse kikerten, og de to oppfører seg ikke likt: kikertmel fra helsekostbutikken er grovere, lysere og suger opp mindre væske, så deigen blir løs. Kjøp besan i en indisk butikk. Ajwain selges samme sted under navnet ajwain eller carom, og ferdig garam masala i pose er god nok her. Bruk gresk yoghurt til sausen, for norsk mager yoghurt naturell er for tynn og skiller seg lettere.'}}],

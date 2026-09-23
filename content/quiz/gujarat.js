@@ -24,18 +24,18 @@ window.QUIZ['IN-GUJ'] = [
    c:1, why:'In hot fat the resin turns savoury and close to frying onion, which is exactly what a Jain or Vaishnav kitchen is missing.'}
  ],
  [
-  {q:'Why should you not fill up on bread in the first ten minutes of a thali?',
-   a:['Rice with dal or kadhi comes last and is what the meal builds towards',
-      'The bread is the only item charged for separately',
-      'Asking twice for bread is thought impolite',
-      'The vegetables only arrive once the bread is finished'],
-   c:0, why:'The last act of the meal is rice with dal or kadhi poured over it, and anyone already full has skipped it.'},
-  {q:'What does a Gujarati server read an empty katori as?',
-   a:['A request for more of that dish',
-      'A signal that the meal is over',
-      'A complaint about the seasoning',
-      'A sign that the diner wants the bill'],
-   c:0, why:'A thali is refilled rather than portioned, so you leave a little in a bowl or cover it with a hand to stop the serving.'},
+  {q:'What is a common way to combine rice on a Gujarati thali?',
+   a:['Mix it with dal or kadhi',
+      'Cover it with cold chaas before serving',
+      'Eat it only with the sweet course',
+      'Keep it separate from every liquid dish'],
+   c:0, why:'Rice is commonly eaten with dal or kadhi, whether it arrives later or is placed on the tray at the start.'},
+  {q:'What is true of service in Gujarati thali meals?',
+   a:['Some restaurants offer repeated servings, while fixed and home thalis vary',
+      'Every empty bowl automatically requests another serving',
+      'Rice must always be served as the final course',
+      'Every thali contains exactly seven bowls'],
+   c:0, why:'There is no single statewide service rule. Diners can tell a server when they have had enough.'},
   {q:'What makes Gujarati kadhi different from the Punjabi version?',
    a:['It contains no yoghurt at all',
       'It is thickened with rice flour rather than gram flour',
@@ -44,12 +44,12 @@ window.QUIZ['IN-GUJ'] = [
    c:2, why:'Punjabi kadhi is thick and carries fried dumplings. The Gujarati one is a liquid for the rice and a way of resetting the mouth.'}
  ],
  [
-  {q:'What separates proper dhokla from the khaman sold everywhere under the same name?',
+  {q:'What useful distinction can be made between traditional dhokla and quick khaman?',
    a:['Dhokla is fried and khaman is steamed',
       'Dhokla is a fermented rice and chana dal batter; khaman is gram flour raised with eno',
       'Khaman uses rice and dhokla uses wheat',
       'They are two names for exactly the same dish'],
-   c:1, why:'One ferments overnight and tastes of it. The other rises chemically in twenty minutes, which is why it has largely taken over.'},
+   c:1, why:'Traditional dhokla can ferment a grain-and-pulse batter, while many quick khaman recipes use gram flour and fruit salt.'},
   {q:'How does a cook know the khandvi paste has cooked long enough?',
    a:['A smear on a cold plate peels off cleanly after a minute',
       'It pulls away from the sides of the pan',
@@ -61,7 +61,7 @@ window.QUIZ['IN-GUJ'] = [
       'The flat green bean the dish is built around',
       'The Gujarati word undhu, upside down, from the buried pot',
       'The potter who first made the sealed vessel'],
-   c:2, why:'The pot was packed, sealed, turned mouth-down into a pit and cooked under a fire of dried leaves.'}
+   c:2, why:'The name is linked to undhu, upside down; the related village preparation umbhadiyu preserves the inverted earthen-pot method.'}
  ],
  [
   {q:'What is still disputed about the site at Lothal?',
@@ -76,11 +76,11 @@ window.QUIZ['IN-GUJ'] = [
       'Uprooting a root kills the whole plant and the lives in the soil with it',
       'They are thought to make the body sluggish'],
    c:2, why:'The rule follows from avoiding harm to living things, and it is why those kitchens lean on asafoetida instead.'},
-  {q:'How solid is the story of the milk and the sugar at Sanjan?',
+  {q:'What is the relationship between the milk-and-sugar story and the Qissa-i Sanjan?',
    a:['It is recorded in a Persian chronicle written at the time',
       'It is confirmed by an inscription at Udvada',
       'It was set down by the ruler who received the refugees',
-      'It comes from one text written in 1599, long after the events'],
-   c:3, why:'The Qissa-i Sanjan records what had been passed on orally for centuries, and even the century of the landing is argued over.'}
+      'It is a later oral legend and does not appear in the surviving Qissa'],
+   c:3, why:'The Qissa is a late narrative source for the settlement, but the famous milk-and-sugar episode belongs to later oral tradition.'}
  ]
 ];

@@ -6,19 +6,19 @@ Object.assign(window.GLOSSARY, {
   'potli': {
     term: 'Potli',
     short: 'A muslin bag of whole spices, steeped in the pot and then lifted out of it.',
-    long: 'Mace, green cardamom, cinnamon, bay, coriander seed and peppercorns go into the bag, and in the older versions dried rose petals, vetiver root and chips of sandalwood as well. It gives up only what dissolves out of it, so the dish takes the perfume and none of the grit or the colour, and the cook stops the process simply by pulling the bag out.',
+    long: 'Mace, cardamom, cinnamon, bay, coriander seed and peppercorns can go into the bag. It gives up soluble aroma while keeping fragments of spice out of the dish, and the cook stops the infusion by pulling the bag out.',
     match: ['potli']
   },
   'dum-pukht': {
     term: 'Dum pukht',
-    short: 'The Awadhi court style: almost anything cooked in a sealed pot over almost no fire.',
-    long: 'Persian, roughly "cooked by steam". The lid is luted to the pot with wheat dough and coals are laid on top, so heat arrives from both sides and nothing escapes. Awadh applies it to whole kid, to chicken, to vegetables, to lentils and to the overnight nihari, not only to rice, and the seal is broken in front of the people who are going to eat.',
+    short: 'Gentle cooking in a covered or dough-sealed pot, associated strongly with Awadhi court cuisine.',
+    long: 'The lid may be luted to the pot with wheat dough, and traditional cooks may place coals on top so heat arrives from both sides. The seal slows moisture and aroma loss. Awadhi cooking applies the approach to rice, meat, poultry, vegetables and pulses, with methods varying by dish and kitchen.',
     match: ['dum pukht']
   },
   'attar': {
     term: 'Attar',
-    short: 'A distilled floral essence carried in oil rather than in alcohol.',
-    long: 'Also spelled itr. Flowers are distilled in a copper still at Kannauj and the vapour is condensed into sandalwood oil, which is charged with batch after batch until it is saturated. The result is concentrated enough to be used by the drop, and it does not survive heat, so it goes in off the fire or into a sealed pot.',
+    short: 'A concentrated fragrance traditionally distilled into a carrier oil rather than alcohol.',
+    long: 'Also spelled itr. In Kannauj’s traditional process, aromatic vapour from a copper still condenses into a carrier oil, historically sandalwood. Most attar is perfumery and must never be assumed edible. A cook uses only a product explicitly sold as food-grade and adds it sparingly because its volatile aroma fades with prolonged heat.',
     match: ['attar']
   },
   'galouti': {

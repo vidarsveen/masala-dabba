@@ -16,10 +16,10 @@ window.RECIPES['IN-PUN'] = [
             {en:'A glass of salted lassi', no:'Et glass saltet lassi'},
             {en:'Sliced raw onion and a green chilli', no:'Rå løk i skiver og en grønn chili'}],
   headnote:{
-    en:`<p>This is a winter dish and it does not pretend otherwise. Mustard greens are in the fields of Punjab from roughly December to February, and the dish disappears with them. Cooking it out of season with whatever leaves are available gives you a green vegetable purée, which is pleasant and is not saag.</p>
+    en:`<p>Sarson da saag belongs to the winter mustard harvest in Punjab. Frozen mustard greens let you make it outside that season too. Other leafy greens can make a good saag, but mustard gives this version its characteristic pungency.</p>
 <p>Three things do the real work. The long boil breaks down leaves that are too pungent to eat quickly. The mashing is done with a wooden masher rather than a blender, so the texture stays rough and the dish never turns into soup. And a handful of maize flour goes in near the end, which thickens the greens and brings a faint sweetness that answers the mustard.</p>
 <p>Traditionally it stands overnight and is reheated, and it is better for it. Make it the day before if you can, and add the final tempering and the butter when you serve.</p>`,
-    no:`<p>Dette er en vinterrett, og den later ikke som noe annet. Sennepsblader står på jordene i Punjab fra omtrent desember til februar, og retten forsvinner sammen med dem. Lager du den utenom sesongen med de bladene du får tak i, ender du med en grønn grønnsakpuré, og den er grei, men den er ikke saag.</p>
+    no:`<p>Sarson da saag hører sammen med vinterens sennepsavling i Punjab. Med frosne sennepsblader kan du også lage retten utenom sesongen. Andre bladgrønnsaker kan gi en god saag, men sennepen gir denne varianten den karakteristiske skarpe smaken.</p>
 <p>Tre ting gjør den egentlige jobben. Den lange kokingen bryter ned blader som er for skarpe til å spises raskt. Mosingen skjer med en stamper av tre og ikke med stavmikser, så konsistensen holder seg grov og retten ikke blir til suppe. Og mot slutten går det i en neve maismel, som tykner bladene og gir en svak sødme som står mot sennepen.</p>
 <p>Tradisjonelt står retten natten over og varmes opp igjen, og den blir bedre av det. Lag den dagen før hvis du kan, og ha i den siste temperingen og smøret når du serverer.</p>`},
   ingredients:[
@@ -147,23 +147,23 @@ window.RECIPES['IN-PUN'] = [
   id:'dal-makhani', dish:'Dal makhani', course:'main', lesson:3, serves:4, veg:true,
   time:{prep:15, cook:360}, hero:'dal-makhani', tags:['black urad','slow','butter'],
   title:{en:'Dal makhani', no:'Dal makhani'},
-  blurb:{en:'Whole black urad held below a simmer for most of a day, until the lentils give up their starch.',
-         no:'Hel svart urad holdt under kokepunktet mesteparten av en dag, til linsene gir fra seg stivelsen.'},
-  heroCaption:{en:'Dal makhani finished with cream. The dark colour is the skin of the whole black urad, not the tomato.',
-               no:'Dal makhani avsluttet med fløte. Den mørke fargen kommer fra skallet på hel svart urad, ikke fra tomaten.'},
+  blurb:{en:'Whole black urad and kidney beans cooked until tender, then simmered with tomato, butter and cream.',
+         no:'Hel svart urad og kidneybønner kokes møre og får deretter småkoke med tomat, smør og fløte.'},
+  heroCaption:{en:'Dal makhani finished with cream. Whole black urad gives the sauce its dark speckles.',
+               no:'Dal makhani avsluttet med fløte. Hel svart urad gir sausen mørke prikker.'},
   goesWith:[{en:'Naan, or plain rice', no:'Naan, eller kokt ris'},
             {en:'Sliced onion with lemon over it', no:'Løk i skiver med sitron over'}],
   headnote:{
-    en:`<p>Everything about this dish is time. Whole black urad is a small lentil with a tough dark skin, and it will not break down in an hour or in two. Held just below a simmer for five or six hours it slowly releases starch, and that starch is what makes dal makhani thick and glossy. The cream at the end is a flourish. The texture was already there.</p>
-<p>In the villages this was ma di dal, cooked without tomato or cream in a pot pushed into the tandoor as the fire died, and taken out in the morning. The restaurant version that Delhi made famous after 1947 added tomato, a great deal of butter and a swirl of cream, and that is the one written here.</p>
-<p>A pressure cooker gets the lentils soft in forty minutes but does not give you the texture, because the starch needs the long slow agitation of a low flame. Use a cooker to soften them if you must, then give the dish at least two hours in an open pot afterwards.</p>`,
-    no:`<p>Alt ved denne retten handler om tid. Hel svart urad er en liten linse med seigt mørkt skall, og den faller ikke fra hverandre på en time eller to. Holdes den så vidt under kokepunktet i fem-seks timer, gir den langsomt fra seg stivelse, og det er den stivelsen som gjør dal makhani tykk og blank. Fløten til slutt er en pyntestrek. Konsistensen var der fra før.</p>
-<p>I landsbyene het dette ma di dal, kokt uten tomat og fløte i en gryte som ble skjøvet inn i tandooren mens bålet døde ut, og tatt ut om morgenen. Restaurantversjonen som Delhi gjorde berømt etter 1947, la til tomat, svært mye smør og en skvett fløte, og det er den som står her.</p>
-<p>En trykkoker gjør linsene myke på førti minutter, men den gir deg ikke konsistensen, for stivelsen trenger den lange, langsomme bevegelsen fra en lav flamme. Bruk trykkoker til å mykne dem hvis du må, og gi så retten minst to timer i åpen gryte etterpå.</p>`},
+    en:`<p>Dal makhani needs thoroughly softened pulses before it needs cream. Whole black urad is black gram, a small bean with a dark skin. Once cooked, it breaks down into the liquid and helps make the sauce thick. Butter and cream add their own richness.</p>
+<p>This is a long, open-pot version, with time for stirring and for the tomato sauce to cook into the beans. The six-hour cooking allowance is a plan for this method, not a rule that every dal makhani must follow. Check tenderness and add water as needed.</p>
+<p>A pressure cooker is another useful way to soften the soaked pulses. Follow its instructions for beans, water and maximum fill, then simmer the cooked beans with the tomato base until the sauce has the consistency you want. Dry kidney beans need proper cooking; gentle warming alone is not enough.</p>`,
+    no:`<p>Dal makhani trenger helt møre belgfrukter før den trenger fløte. Hel svart urad er en liten bønne med mørkt skall. Når den er kokt, går noe av den i stykker og tykner væsken. Smør og fløte gir retten ekstra fylde.</p>
+<p>Her lages retten i en vanlig gryte, med tid til omrøring og til at tomatsausen får koke sammen med bønnene. De seks timene er beregnet for denne framgangsmåten. Andre metoder kan gå raskere. Kjenn etter om bønnene er møre, og spe med vann etter behov.</p>
+<p>En trykkoker kan også brukes til å koke de bløtlagte belgfruktene møre. Følg bruksanvisningen for bønner, vannmengde og maksimal fylling. La dem deretter småkoke med tomatbunnen til sausen får ønsket konsistens. Tørre kidneybønner må kokes ordentlig; forsiktig oppvarming er ikke nok.</p>`},
   ingredients:[
    {group:{en:'The pulses', no:'Belgfruktene'}, items:[
-    {q:250, u:'g', n:{en:'whole black urad', no:'hel svart urad'}, note:{en:'sabut urad, soaked overnight', no:'sabut urad, bløtlagt over natten'}},
-    {q:50, u:'g', n:{en:'dried kidney beans', no:'tørkede kidneybønner'}, note:{en:'soaked with the urad', no:'bløtlagt sammen med uraden'}},
+    {q:250, u:'g', n:{en:'whole black urad', no:'hel svart urad'}, note:{en:'sabut urad, soaked for at least 12 hours', no:'sabut urad, bløtlagt i minst 12 timer'}},
+    {q:50, u:'g', n:{en:'dried kidney beans', no:'tørkede kidneybønner'}, note:{en:'soaked with the urad for at least 12 hours', no:'bløtlagt sammen med uraden i minst 12 timer'}},
     {q:1500, u:'ml', n:{en:'water', no:'vann'}, scale:'sub'},
     {u:'', n:{en:'salt', no:'salt'}, scale:'none'},
    ]},
@@ -178,43 +178,43 @@ window.RECIPES['IN-PUN'] = [
     {q:100, u:'ml', n:{en:'double cream', no:'kremfløte'}},
    ]}],
   steps:[
-    {en:'Drain the soaked urad and kidney beans and rinse them. The soaking water is cloudy and slightly bitter, so it is not worth keeping.',
-     no:'Hell av bløtevannet fra uraden og kidneybønnene og skyll dem. Bløtevannet er grumsete og litt bittert, så det er ikke verdt å ta vare på.'},
-    {en:'Put them in a heavy pot with the water, bring to a boil, then turn the flame as low as it will go.',
-     no:'Ha dem i en tung gryte sammen med vannet, kok opp, og skru så flammen så lavt den går.'},
+    {en:'Drain the urad and kidney beans after at least 12 hours of soaking. Discard the soaking water and rinse the beans.',
+     no:'Hell av bløtevannet etter at uraden og kidneybønnene har ligget i minst 12 timer. Kast bløtevannet og skyll bønnene.'},
+    {en:'Put them in a heavy pot with fresh water. Bring to a vigorous rolling boil and keep it boiling for at least 10 minutes before reducing to a steady simmer. Follow any longer boiling time on the bean packet.',
+     no:'Ha dem i en tykkbunnet gryte med friskt vann. La dem fosskoke i minst 10 minutter før du senker varmen til jevn småkoking. Følg en eventuell lengre koketid på bønnepakken.'},
     {en:'Cook uncovered, or with the lid ajar, for four to five hours. Stir every half hour and scrape the bottom, and top up with hot water when it gets too thick to move.',
      no:'Kok uten lokk, eller med lokket på gløtt, i fire-fem timer. Rør hver halvtime og skrap bunnen, og spe med varmt vann når det blir for tykt til å røre i.'},
-    {en:'The lentils are ready when a single one crushes to nothing between your fingers and the liquid has gone from watery to slippery. Salt them now, not before.',
-     no:'Linsene er ferdige når én av dem lar seg knuse til ingenting mellom fingrene og væsken har gått fra vassen til glatt. Salt nå, ikke før.'},
+    {en:'Both the urad and the kidney beans must be fully tender and easy to crush with a spoon, with no firm centre. Stir in salt to taste.',
+     no:'Både uraden og kidneybønnene skal være helt møre og lette å mose med en skje, uten noen fast kjerne. Smak til med salt.'},
     {en:'In a frying pan, melt most of the butter and cook the grated ginger and the garlic over a low flame until they stop smelling raw, about two minutes.',
      no:'Smelt mesteparten av smøret i en stekepanne og la den revne ingefæren og hvitløken surre på lav varme til de slutter å lukte rått, omtrent to minutter.'},
     {en:'Pull the pan off the heat, stir in the chilli powder so it colours the butter instead of burning, then return it and pour in the passata.',
      no:'Trekk pannen av platen, rør inn chilipulveret så det farger smøret i stedet for å svi seg, sett den tilbake og hell i passataen.'},
     {en:'Cook the tomato down hard for fifteen minutes, until it darkens and the butter separates out at the edges. This step is where the raw tomato taste goes.',
      no:'Kok tomaten hardt ned i femten minutter, til den mørkner og smøret skiller seg ut i kantene. Det er i dette trinnet den rå tomatsmaken forsvinner.'},
-    {en:'Stir the tomato base into the lentils and simmer them together for at least an hour, still on the lowest flame, stirring now and then.',
-     no:'Rør tomatbunnen inn i linsene og la dem småkoke sammen i minst en time, fortsatt på laveste flamme, med omrøring nå og da.'},
+    {en:'Stir the tomato base into the pulses and simmer them together for at least an hour, still on the lowest flame, stirring now and then.',
+     no:'Rør tomatbunnen inn i belgfruktene og la dem småkoke sammen i minst en time, fortsatt på laveste flamme, med omrøring nå og da.'},
     {en:'Crush the kasuri methi between your palms over the pot, add the garam masala, and stir in most of the cream. Simmer for five minutes more.',
      no:'Knus kasuri methien mellom håndflatene over gryta, ha i garam masalaen, og rør inn mesteparten av fløten. La det småkoke i fem minutter til.'},
     {en:'Serve with the rest of the butter and cream swirled on top and the ginger matchsticks scattered over. It will be better again tomorrow.',
      no:'Server med resten av smøret og fløten svingt over toppen og ingefærstavene strødd på. I morgen er den enda bedre.'}],
   notes:[
-    {title:{en:'Why salt goes in late', no:'Hvorfor saltet går i sent'},
-     body:{en:'Salt slows the softening of pulse skins, and whole black urad has a tough one to begin with. Salting at the start can add an hour to the cooking for no gain. Salt once the lentils have given in.',
-           no:'Salt bremser oppmykingen av skall på belgfrukter, og hel svart urad har et seigt skall fra før. Salter du i starten, kan det legge en time til kokingen uten at du får noe igjen for det. Salt når linsene har gitt etter.'}},
+    {title:{en:'Check tenderness, not just the clock', no:'Kjenn etter om bønnene er møre'},
+     body:{en:'Cooking time varies with the age of the beans and the equipment. Test both kinds of bean; a creamy-looking liquid does not prove that the kidney beans are tender. Keep the pulses covered with liquid while they soften.',
+           no:'Koketiden varierer med alderen på bønnene og utstyret du bruker. Sjekk begge bønneslagene; en kremete væske betyr ikke nødvendigvis at kidneybønnene er møre. Sørg for at væsken dekker belgfruktene mens de kokes møre.'}},
     {title:{en:'Why the tomato is cooked separately', no:'Hvorfor tomaten kokes for seg'},
-     body:{en:'Acid stops pulses softening, so tomato added early leaves you with firm lentils and a thin gravy. Cooking it apart also drives off the raw taste, which no amount of simmering in the dal would do.',
-           no:'Syre hindrer belgfrukter i å mykne, så tomat som går i tidlig, gir deg faste linser og tynn saus. Når den kokes for seg, forsvinner dessuten den rå smaken, og det ville ingen mengde småkoking i dalen klart.'}},
+     body:{en:'Cook the tomato base separately while the pulses soften. This lets the tomato reduce and lose its raw taste before it joins the beans, and keeps the two stages easy to control.',
+           no:'Kok tomatbunnen for seg mens belgfruktene blir møre. Da får tomaten koke inn og miste den rå smaken før den blandes med bønnene, og det er lettere å styre de to trinnene hver for seg.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'The pulse is sold as sabut urad, kali dal or ma di dal in Indian shops and is not the same as the split white urad next to it on the shelf.',
-           no:'Belgfrukten selges som sabut urad, kali dal eller ma di dal i indiske butikker, og den er ikke det samme som den delte hvite uraden ved siden av på hylla. Kashmiri chilipulver må kjøpes i samme butikk: det som heter «chilipulver» i norsk dagligvare, er ofte en taco-blanding med spisskummen og oregano i, og den ødelegger retten. Bruk kremfløte og ikke matfløte, for matfløte skiller seg i en syrlig saus.'}}],
+           no:'Belgfrukten selges som sabut urad, kali dal eller ma di dal i indiske butikker, og den er ikke det samme som den delte hvite uraden ved siden av på hylla. Se etter rent Kashmiri-chilipulver, og sjekk ingredienslisten så du ikke får en krydderblanding med spisskummen og oregano. Kremfløte gir den fylden oppskriften er beregnet for.'}}],
   variations:[
-    {title:{en:'Ma di dal, the village version', no:'Ma di dal, landsbyversjonen'},
-     body:{en:'Leave out the tomato, the cream and half the butter, and cook the lentils with only ginger, garlic and salt. It is leaner, smokier and much older than the restaurant dish, and it is what most Punjabi homes eat.',
-           no:'Sløyf tomaten, fløten og halvparten av smøret, og kok linsene bare med ingefær, hvitløk og salt. Den blir magrere, mer røykpreget og langt eldre enn restaurantretten, og det er den de fleste punjabiske hjem spiser.'}},
-    {title:{en:'In the oven overnight', no:'I stekeovnen over natten'},
-     body:{en:'Bring the pot to a boil, cover it and put it in an oven at 110 °C overnight. That is the nearest a modern kitchen gets to a dying tandoor, and it saves you standing over the stove.',
-           no:'Kok opp gryta, legg på lokk og sett den i stekeovnen på 110 °C over natten. Det er så nær en tandoor som slukner som et moderne kjøkken kommer, og du slipper å stå over komfyren.'}}]
+    {title:{en:'A lighter urad dal', no:'En lettere urad-dal'},
+     body:{en:'Leave out the tomato and cream and halve the butter for a simpler urad dal with ginger, garlic and salt. Keep the same soaking, boiling and tenderness checks. Less dairy makes a lighter dish; it does not create a smoky flavour.',
+           no:'Sløyf tomaten og fløten og halver smørmengden for en enklere urad-dal med ingefær, hvitløk og salt. Følg de samme rådene om bløtlegging, fosskoking og mørhet. Mindre meieriprodukter gir en lettere rett, men ingen røyksmak.'}},
+    {title:{en:'Finish in the oven', no:'La retten koke ferdig i ovnen'},
+     body:{en:'After boiling the soaked beans vigorously for at least 10 minutes on the hob, use a covered ovenproof pot in an oven at 150 °C. Check that the liquid keeps simmering, stir occasionally, and add hot water as needed. Cook until both kinds of bean are completely tender before adding the tomato base.',
+           no:'Etter at de bløtlagte bønnene har fosskokt i minst 10 minutter på komfyren, kan en ildfast gryte med lokk settes i ovnen på 150 °C. Sjekk at væsken fortsetter å småkoke, rør av og til og spe med varmt vann ved behov. Begge bønneslagene skal være helt møre før tomatbunnen tilsettes.'}}]
 },
 
 {
@@ -228,10 +228,10 @@ window.RECIPES['IN-PUN'] = [
   goesWith:[{en:'Naan, or plain basmati rice', no:'Naan, eller kokt basmatiris'},
             {en:'A cucumber and onion salad with lemon', no:'En salat av agurk og løk med sitron'}],
   headnote:{
-    en:`<p>The point of this dish, and the thing home versions usually miss, is that the chicken is cooked first and separately, hard and dry, before it ever meets the sauce. The story told in Delhi is that Punjabi refugee cooks rescued unsold tandoori chicken by simmering it in tomato, butter and cream. Whoever first did it, the mechanism is the recipe: you are saucing meat that already carries char.</p>
+    en:`<p>The chicken is cooked separately before it meets the sauce. A well-known Delhi origin story says Punjabi refugee cooks kept cooked tandoori chicken moist by simmering it in tomato, butter and cream. Competing restaurant businesses dispute who may claim the invention, but the method remains useful: the sauce receives meat that already carries browning and tandoor seasoning.</p>
 <p>Poach raw chicken in the gravy and you get a perfectly nice creamy chicken curry with none of the smoke and none of the edges. Twenty minutes under a hot grill is the difference between the two, and it is not optional.</p>
 <p>The sauce itself is short. Tomato cooked down hard, butter, a little sugar to answer the acid, cream, and kasuri methi crushed in at the end to stop it tasting merely sweet.</p>`,
-    no:`<p>Poenget med denne retten, og det hjemmeversjoner som regel bommer på, er at kyllingen stekes først og for seg, hardt og tørt, før den i det hele tatt møter sausen. Historien som fortelles i Delhi, er at punjabiske flyktningkokker reddet usolgt tandoorikylling ved å la den småkoke i tomat, smør og fløte. Uansett hvem som gjorde det først, er mekanismen selve oppskriften: du lager saus til kjøtt som allerede har svimerker.</p>
+    no:`<p>Kyllingen stekes for seg før den møter sausen. En kjent opphavshistorie fra Delhi forteller at punjabiske flyktningkokker holdt ferdigstekt tandoorikylling saftig ved å la den småkoke i tomat, smør og fløte. Konkurrerende restaurantbedrifter er uenige om hvem som kan kreve oppfinnelsen, men metoden er fortsatt nyttig: Sausen får kjøtt som allerede har bruning og tandoorikrydder.</p>
 <p>Trekker du rå kylling i sausen, får du en helt grei kremet kyllingkarri uten røyk og uten kanter. Tjue minutter under varm grill er forskjellen på de to, og den lar seg ikke hoppe over.</p>
 <p>Selve sausen er enkel. Tomaten kokes hardt ned, så går det i smør, litt sukker som møter syren, og fløte, og kasuri methi knuses i til slutt, så sausen ikke bare smaker søtt.</p>`},
   ingredients:[
@@ -302,18 +302,18 @@ window.RECIPES['IN-PUN'] = [
   id:'lassi', dish:'Lassi', course:'snack', lesson:2, serves:4, veg:true,
   time:{prep:10, cook:0}, hero:'lassi', tags:['dairy','drink','summer'],
   title:{en:'Salted lassi', no:'Saltet lassi'},
-  blurb:{en:'The thin, salted, faintly sour drink that comes off the butter churn, not the sweet shop version.',
-         no:'Den tynne, saltede, svakt syrlige drikken som blir igjen etter kjerningen, ikke den søte butikkversjonen.'},
+  blurb:{en:'A thin, salted, faintly sour form of lassi based on the liquid left after butter churning.',
+         no:'En tynn, saltet og svakt syrlig lassivariant med utgangspunkt i væsken etter kjerning.'},
   heroCaption:{en:'A lassi shop in Amritsar. What it serves is the thick sweet kind; the everyday drink at home is thinner and salted.',
                no:'En lassibutikk i Amritsar. Det de serverer, er den tykke søte typen; hverdagsdrikken hjemme er tynnere og saltet.'},
   goesWith:[{en:'Any Punjabi meal, and every hot afternoon', no:'Ethvert punjabisk måltid, og hver varm ettermiddag'},
             {en:'Chole bhature, which needs something to cut it', no:'Chole bhature, som trenger noe som skjærer gjennom fettet'}],
   headnote:{
-    en:`<p>Lassi is a by-product before it is a drink. A Punjabi household churns yesterday's curd with water to make butter, the butter rises and is lifted off, and what is left in the pot is lassi. That is why the real thing is thin and slightly sour rather than thick and sweet, and why it is drunk by the tumbler in the fields rather than by the small glass in a shop.</p>
-<p>Everything here depends on the yoghurt. Norwegian natural yoghurt is thicker and milder than Indian dahi, so it wants more water than you would expect and a day or two of age helps. If yours is very fresh and mild, leave it out of the fridge for a few hours before you use it.</p>
+    en:`<p>One traditional lassi begins as a by-product. When a household churns curd with water to make butter, the butter rises and the liquid below can be served thin, slightly sour and salted. Thick sweet lassi is also an established Punjabi style, especially in shops and as a treat.</p>
+<p>Everything here depends on the yoghurt. Norwegian natural yoghurt is often thicker and milder than dahi, so it may need more water than expected. A slightly tangier yoghurt within its use-by date gives a livelier drink.</p>
 <p>The roasted cumin is not decoration. It is a savoury, slightly smoky note that turns a dairy drink into something you can have with a meal, and grinding it yourself from whole seed takes a minute and is worth it.</p>`,
-    no:`<p>Lassi er et biprodukt før den er en drikk. En punjabisk husholdning kjerner gårsdagens syrnede melk med vann for å lage smør, smøret stiger opp og løftes av, og det som blir igjen i gryta, er lassi. Derfor er den ekte varianten tynn og litt syrlig heller enn tykk og søt, og derfor drikkes den i store glass ute på jordene og ikke i små glass i en butikk.</p>
-<p>Alt her henger på yoghurten. Norsk naturell yoghurt er tykkere og mildere enn indisk dahi, så den trenger mer vann enn du skulle tro, og det hjelper om den er et døgn eller to gammel. Er yoghurten din helt fersk og mild, la den stå i romtemperatur i noen timer før du bruker den.</p>
+    no:`<p>En tradisjonell lassi begynner som et biprodukt. Når en husholdning kjerner syrnet melk med vann for å lage smør, stiger smøret opp, og væsken under kan serveres tynn, litt syrlig og saltet. Tykk og søt lassi er også en etablert punjabisk variant, særlig i butikker og som en godbit.</p>
+<p>Alt her henger på yoghurten. Norsk naturell yoghurt er ofte tykkere og mildere enn dahi, så den kan trenge mer vann enn ventet. En litt syrligere yoghurt innenfor holdbarhetsdatoen gir mer smak.</p>
 <p>Den ristede spisskummen er ingen pynt. Den gir en smaksrik og litt røykpreget tone som gjør en melkedrikk til noe du kan ha til maten, og maler du den selv fra hele frø, tar det ett minutt og er verdt bryet.</p>`},
   ingredients:[{group:{en:'', no:''}, items:[
     {q:600, u:'g', n:{en:'natural yoghurt', no:'naturell yoghurt'}, note:{en:'full fat, and a day or two old', no:'med fullt fettinnhold, og et døgn eller to gammel'}},
@@ -341,18 +341,18 @@ window.RECIPES['IN-PUN'] = [
      no:'Hell den i høye glass, dryss over den spisskummen du holdt av, og legg på et mynteblad hvis du har.'}],
   notes:[
     {title:{en:'Why it is salted and not sweetened', no:'Hvorfor den saltes og ikke søtes'},
-     body:{en:'Salted lassi is what a field worker drinks in forty-degree heat, and the salt replaces what sweating takes out. The sweet version with cream on top is a shop drink and a treat, not the everyday one.',
-           no:'Saltet lassi er det folk drikker når de arbeider på jordet i førti graders varme, og saltet erstatter det svetten tar ut. Den søte varianten med fløte på toppen er en butikkdrikk og en godbit, ikke hverdagsdrikken.'}},
+     body:{en:'Salted lassi is a savoury, refreshing form suited to a meal or a hot day. Sweet lassi with cream is another Punjabi style, commonly sold as a treat.',
+           no:'Saltet lassi er en frisk matdrikk som passer til et måltid eller en varm dag. Søt lassi med fløte er en annen punjabisk variant som ofte selges som en godbit.'}},
     {title:{en:'Why the yoghurt is whisked alone first', no:'Hvorfor yoghurten vispes alene først'},
      body:{en:'Yoghurt is a set gel, and adding water to a gel gives you lumps suspended in liquid. Breaking the gel down first and then thinning it gives a drink that stays mixed instead of separating in the glass.',
            no:'Yoghurt er en stivnet gelé, og har du vann i en gelé, får du klumper som flyter i væske. Bryter du geléen ned først og tynner den etterpå, får du en drikk som holder seg blandet i stedet for å skille seg i glasset.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
-     body:{en:'Use plain natural yoghurt with its full fat, not a low-fat or flavoured one, and not skyr, which is far too thick and sets like a paste when it meets water.',
-           no:'Bruk vanlig naturell yoghurt med fullt fettinnhold, ikke en lettvariant eller en med smak, og ikke skyr, som er altfor tykk og setter seg som en masse når den møter vann. Norsk kulturmelk er ikke lassi: den er tynnere, den er syrnet med andre bakterier, og den smaker surere, og bruker du den, må du sløyfe vannet helt. Spisskummenfrø kjøpes hele i en indisk butikk, og ikke forveksle dem med karve.'}}],
+     body:{en:'Use plain full-fat natural yoghurt. Skyr is much thicker, so it needs substantial thinning and gives a different texture.',
+           no:'Bruk naturell yoghurt med fullt fettinnhold. Skyr er mye tykkere og må tynnes kraftig, så konsistensen blir annerledes. Kulturmelk kan brukes som en løsere, syrlig tilpasning; begynn i så fall uten vann. Hele spisskummenfrø finnes i indiske butikker og må ikke forveksles med karve.'}}],
   variations:[
     {title:{en:'Sweet lassi', no:'Søt lassi'},
-     body:{en:'Leave out the cumin and the salt, use half the water, and sweeten with sugar and a little cream on top. This is the Amritsari shop version, and it is a dessert rather than a drink with a meal.',
-           no:'Sløyf spisskummen og saltet, bruk halvparten så mye vann, og søt med sukker og litt fløte på toppen. Dette er butikkversjonen fra Amritsar, og den er en dessert heller enn en drikk til maten.'}},
+     body:{en:'Leave out the cumin and salt, use half the water, and sweeten with sugar and a little cream on top. This makes the thick style associated with lassi shops in Amritsar.',
+           no:'Sløyf spisskummen og saltet, bruk halvparten så mye vann, og søt med sukker og litt fløte på toppen. Da får du den tykke varianten som forbindes med lassibutikker i Amritsar.'}},
     {title:{en:'Mango lassi', no:'Mangolassi'},
      body:{en:'Blend ripe mango pulp in with the yoghurt and use less water. It is a genuine Indian drink but a summer and restaurant one, and it belongs nowhere near a plate of saag.',
            no:'Kjør modent mangofruktkjøtt sammen med yoghurten og bruk mindre vann. Det er en ekte indisk drikk, men en sommer- og restaurantdrikk, og den hører ikke hjemme i nærheten av en tallerken med saag.'}}]

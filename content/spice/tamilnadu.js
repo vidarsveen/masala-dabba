@@ -32,11 +32,11 @@ Object.assign(window.SPICE, {
    swap: 'Two cloves and a few grains of pepper get you close enough for the masala to work, though nobody would mistake the two.'
  },
  'IN-TAM|Sambar podi': {
-   aroma: 'Roasted coriander over dried chilli, with a toasted-lentil smell underneath that no northern blend has.',
+   aroma: 'Roasted coriander over dried chilli, sometimes with a toasted-lentil note underneath.',
    flavour: 'Earthy and moderately hot rather than sharp. Fenugreek gives it a bitter edge that shows up quickly if too much goes in.',
-   does: 'Seasons and thickens at the same time, because roasted toor dal and chana dal are ground into it along with the spices.',
+   does: 'Seasons sambar; formulas containing roasted lentils also add a little body.',
    when: 'Stirred into the simmering dal and tamarind and cooked for a few minutes, so the raw coriander taste has time to go.',
-   swap: 'Garam masala is the wrong blend entirely. Roast coriander, chilli, fenugreek and a spoon of lentils and grind your own.'
+   swap: 'Garam masala has a different purpose. Roast coriander, chilli and fenugreek, adding a spoon of lentils if your chosen formula uses them, and grind your own.'
  },
  'IN-TAM|Tamarind': {
    aroma: 'Faint and fruity, nearer dried dates than anything sharp, and it smells much milder than it tastes.',

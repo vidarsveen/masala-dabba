@@ -8,19 +8,19 @@ window.RECIPES['IN-TAM'] = [
   id:'idli', dish:'Idli', course:'breakfast', lesson:2, serves:4, veg:true,
   time:{prep:40, cook:15}, hero:'idli', tags:['fermented','steamed','breakfast'],
   title:{en:'Idli, starting with the batter', no:'Idli, med røren som utgangspunkt'},
-  blurb:{en:'Steamed rice and lentil cakes, leavened overnight by the bacteria living on the dal.',
-         no:'Dampede kaker av ris og linser, hevet over natten av bakteriene som lever på dalen.'},
+  blurb:{en:'Steamed rice and lentil cakes raised by a mixed overnight fermentation.',
+         no:'Dampede kaker av ris og linser, hevet av en blandet gjæring over natten.'},
   heroCaption:{en:'An idli carries no fat, no sugar and no spice. Everything it is served with is there to supply them.',
                no:'En idli har verken fett, sukker eller krydder i seg. Alt den serveres med, er der for å gi den nettopp det.'},
   goesWith:[{en:'Sambar, and a coconut chutney', no:'Sambar og en kokoschutney'},
             {en:'Milagai podi stirred into sesame oil', no:'Milagai podi rørt ut i sesamolje'}],
   headnote:{
-    en:`<p>This recipe is mostly waiting. Four hours of soaking, twenty minutes of grinding, then eight to twelve hours on the counter while wild bacteria do the work that yeast does in a loaf. Nothing is added to make it rise, and nothing should be: the leavening is already on the skin of the urad dal when you buy it.</p>
-<p>The two ingredients are kept apart until the last moment because they are doing different jobs. The rice brings starch, which the bacteria feed on and which sets into a crumb in the steamer. The urad dal brings the bacteria, and it also brings a protein and a sticky polysaccharide that trap gas the way egg white does. Ground properly it whips up, pales and roughly doubles, and that visible change is the test.</p>
-<p>Two things go wrong for people in a cold climate. The batter is ground in a machine that gets hot, which kills the lift, so grind in short bursts with cold water and stop while the bowl is still cool to the hand. And a Norwegian kitchen in January is nowhere near warm enough to ferment anything, so the batter goes in an oven with only the light on.</p>`,
-    no:`<p>Denne oppskriften består for det meste av venting. Fire timers bløtlegging, tjue minutters maling, og så åtte til tolv timer på benken mens ville bakterier gjør den jobben gjæren gjør i et brød. Ingenting tilsettes for å få røren til å heve seg, og ingenting bør tilsettes, for hevemiddelet sitter allerede på skallet av urad dal når du kjøper den.</p>
-<p>De to ingrediensene holdes fra hverandre til siste øyeblikk fordi de gjør hver sin jobb. Risen bringer stivelse, som bakteriene lever av, og som setter seg til en smule i dampkjelen. Urad dal bringer bakteriene, og den bringer i tillegg et protein og et seigt polysakkarid som fanger gass slik eggehvite gjør. Males den riktig, pisker den seg opp, blir lys og omtrent dobler seg, og den synlige forandringen er selve prøven.</p>
-<p>To ting går galt for folk i et kaldt klima. Røren males i en maskin som blir varm, og varmen tar fra den evnen til å heve seg, så mal i korte støt med kaldt vann og stopp mens bollen fortsatt er kald mot hånden. Og et norsk kjøkken i januar er langt fra varmt nok til å gjære noe som helst, så røren settes i stekeovnen med bare lyset på.</p>`},
+    en:`<p>This recipe is mostly waiting: four hours of soaking, about twenty minutes of grinding, then eight to twelve hours of warm fermentation. Bacteria and yeasts from the ingredients, equipment and surroundings form a changing community that acidifies and raises the batter.</p>
+<p>The rice and urad are ground separately because they need different textures. Rice supplies starch and sets the crumb in the steamer. Whipped urad supplies proteins and polysaccharides that help the batter hold gas. Properly ground urad becomes pale and airy; that visible change is the useful test.</p>
+<p>Keep the mixture cool while grinding so its texture and microbial activity remain sound. Use short pulses and cold water in a blender. A cool Norwegian kitchen may also need a gently warm place for fermentation, such as an oven with only the light on, provided it does not become hot.</p>`,
+    no:`<p>Denne oppskriften består for det meste av venting: fire timers bløtlegging, omtrent tjue minutters maling og så åtte til tolv timers lun gjæring. Bakterier og gjær fra råvarene, utstyret og omgivelsene danner et skiftende samfunn som syrner og hever røren.</p>
+<p>Ris og urad males hver for seg fordi de trenger ulik konsistens. Risen gir stivelse og setter strukturen under dampingen. Pisket urad gir proteiner og polysakkarider som hjelper røren å holde på gassen. Riktig malt urad blir lys og luftig; den synlige forandringen er en nyttig prøve.</p>
+<p>Hold blandingen kjølig under malingen, så konsistensen og den mikrobielle aktiviteten bevares. Bruk korte støt og kaldt vann i en hurtigmikser. Et kjølig norsk kjøkken kan også kreve et lunt sted til gjæringen, for eksempel en ovn med bare lyset på, så lenge den ikke blir varm.</p>`},
   ingredients:[
    {group:{en:'The batter', no:'Røren'}, items:[
     {q:300, u:'g', n:{en:'parboiled idli rice', no:'forkokt idli-ris'}, note:{en:'short or medium grain, sold as idli rice', no:'kort- eller mellomkornet, selges som idli rice'}},
@@ -47,29 +47,29 @@ window.RECIPES['IN-TAM'] = [
      no:'Ha risrøren over dalrøren, tilsett saltet, og bland de to med en ren hånd i et minutt til det ikke er striper igjen.'},
     {en:'Cover the bowl loosely and leave it somewhere warm and draught-free for eight to twelve hours. An oven with only the light on holds about the right temperature.',
      no:'Legg et lokk løst på bollen og sett den et lunt og trekkfritt sted i åtte til tolv timer. En stekeovn med bare lyset på holder omtrent riktig temperatur.'},
-    {en:'The batter is ready when it has risen by at least a third, is domed and full of holes, and smells faintly sour. Stir it once, gently, and no more than that.',
-     no:'Røren er klar når den har hevet seg minst en tredel, buler og er full av hull, og lukter svakt surt. Rør i den én gang, forsiktig, og ikke mer enn det.'},
+    {en:'The batter is ready when it has risen by at least a third, is domed and full of holes, and smells pleasantly sour. Stir it once, gently. Steam it now or refrigerate it immediately.',
+     no:'Røren er klar når den har hevet seg minst en tredel, buler og er full av hull, og lukter behagelig syrlig. Rør i den én gang, forsiktig. Damp den nå, eller sett den straks i kjøleskapet.'},
     {en:'Grease the idli moulds, fill each one about three-quarters full, and steam over boiling water with the lid on for ten to twelve minutes.',
      no:'Smør idliformene, fyll hver av dem omtrent tre firedeler full, og damp dem over kokende vann med lokk på i ti til tolv minutter.'},
     {en:'A skewer pushed into the middle should come out clean. Lift the plates out, wait two minutes, then ease each idli free with a wet spoon and serve at once.',
      no:'En pinne som stikkes ned i midten, skal komme ut ren. Løft ut platene, vent to minutter, og løsne så hver idli med en våt skje og server med én gang.'}],
   notes:[
-    {title:{en:'Why only urad dal will do', no:'Hvorfor bare urad dal duger'},
-     body:{en:'Urad carries the wild Leuconostoc and Lactobacillus that leaven the batter, and it also carries a globulin and a sticky polysaccharide that hold on to the gas they make. Toor or moong ground the same way gives you a smooth paste with nothing to trap the bubbles, and the batter rises and then collapses.',
-           no:'Urad har de ville bakteriene Leuconostoc og Lactobacillus som hever røren, og den har i tillegg et protein og et seigt polysakkarid som holder på gassen de lager. Toor eller mung malt på samme måte gir en glatt masse uten noe å fange boblene i, og da hever røren seg og faller sammen igjen.'}},
+    {title:{en:'Why urad matters', no:'Hvorfor urad betyr noe'},
+     body:{en:'The fermentation is mixed and does not come from one organism living only on urad. Urad still has a special structural role: when it is ground with water, its proteins and polysaccharides make a light matrix that can hold the gas produced during fermentation.',
+           no:'Gjæringen er blandet og kommer ikke fra én organisme som bare lever på urad. Urad har likevel en særlig rolle i strukturen: Når den males med vann, danner proteinene og polysakkaridene en luftig masse som kan holde på gassen fra gjæringen.'}},
     {title:{en:'Why the grinder must stay cold', no:'Hvorfor kvernen må holde seg kald'},
-     body:{en:'The bacteria that do the work are killed above about 45 °C, and a household blender reaches that in a couple of minutes. A stone wet grinder turns slowly and stays cool, which is the whole reason south Indian kitchens still own one. With a blender, grind in short bursts with cold water and let it rest between them.',
-           no:'Bakteriene som gjør jobben, dør over omtrent 45 °C, og en vanlig hurtigmikser kommer dit på et par minutter. En steinkvern går langsomt og holder seg kald, og det er hele grunnen til at sørindiske kjøkken fortsatt har en. Bruker du hurtigmikser, mal i korte støt med kaldt vann og la den hvile mellom hver gang.'}},
+     body:{en:'A stone wet grinder turns slowly and produces an airy urad batter without much heat. A blender works too, but friction can warm and thin the mixture. Use cold water, grind in short bursts and pause when the bowl begins to feel warm.',
+           no:'En våtkvern av stein går langsomt og gir en luftig uradrøre uten mye varme. En hurtigmikser virker også, men friksjonen kan varme og tynne blandingen. Bruk kaldt vann, mal i korte støt og ta pause når bollen begynner å bli varm.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Ask for idli rice by name. It is a short parboiled grain and behaves quite differently from long-grain rice.',
-           no:'Be om idli rice ved navn i indiske butikker på Grønland i Oslo eller i andre større byer. Den «parboiled» risen i vanlige dagligvarebutikker er langkornet og oppfører seg helt annerledes, og den gir en tett idli. Urad dal skal være hvit og uten skall, altså urad dal dhuli eller white urad; den hele svarte med skall på gir grå røre. Idliformer og en dampkjele koster lite i de samme butikkene, og en vanlig dampkurv med små skåler i fungerer godt nok. Om vinteren er et norsk kjøkken for kaldt til å gjære røren, så bruk stekeovnen med bare lyset på.'}}],
+           no:'Be om idli rice ved navn i en indisk eller sørasiatisk butikk. Langkornet «parboiled» ris fra en vanlig dagligvare gir en annen konsistens. Urad dal skal være hvit og uten skall, gjerne merket urad dal dhuli eller white urad. Har du ikke idliformer, fungerer små varmefaste skåler i en dampkurv.'}}],
   variations:[
-    {title:{en:'Day two: dosa', no:'Dag to: dosa'},
-     body:{en:'Thin what is left with water until it pours, and spread it thin on a very hot iron griddle. The extra acid that built overnight is what makes a second-day batter spread further and brown better.',
-           no:'Spe ut det som er igjen med vann til røren lar seg helle, og bre den tynt utover en glovarm jerntakke. Den ekstra syren som bygde seg opp over natten, er grunnen til at en røre fra dag to brer seg bedre og bruner finere.'}},
-    {title:{en:'Day three: uthappam', no:'Dag tre: uthappam'},
-     body:{en:'By the third day the batter is properly sour and suits a thick pancake better than a thin one. Pour a small round, press chopped onion, green chilli and curry leaf into the top and cook it through on both sides.',
-           no:'Den tredje dagen er røren skikkelig sur og passer bedre til en tykk pannekake enn til en tynn. Hell ut en liten rund, trykk hakket løk, grønn chili og karriblad ned i toppen og stek den gjennom på begge sider.'}},
+    {title:{en:'Later batter: dosa', no:'Senere røre: dosa'},
+     body:{en:'Use refrigerated leftover batter. Thin it with water until it pours, then spread it on a hot iron griddle. As refrigerated batter becomes more acidic, its flavour and browning change; judge it by smell and texture rather than a fixed calendar.',
+           no:'Bruk røre som har stått i kjøleskap. Spe den med vann til den lar seg helle, og bre den utover en varm jerntakke. Når kjølt røre blir syrligere, endres smak og bruning; vurder lukt og konsistens i stedet for en fast kalender.'}},
+    {title:{en:'Sourer batter: uthappam', no:'Syrligere røre: uthappam'},
+     body:{en:'If refrigerated batter has become distinctly sour but still smells clean, use it for a thick pancake. Discard batter with mould, pink or orange patches, or a rotten smell. Pour a small round, add onion, green chilli and curry leaf, and cook it through on both sides.',
+           no:'Er kjølt røre blitt tydelig syrlig, men lukter rent, kan du bruke den til en tykk pannekake. Kast røre med mugg, rosa eller oransje flekker eller råtten lukt. Hell ut en liten rund, tilsett løk, grønn chili og karriblad, og stek den gjennom på begge sider.'}},
     {title:{en:'Kanchipuram idli', no:'Kanchipuram idli'},
      body:{en:'A temple version, steamed in a deeper mould and seasoned in the batter with crushed pepper, cumin, ginger and a spoon of ghee. It is the one idli that tastes of something on its own.',
            no:'En tempelversjon som dampes i en dypere form og krydres i selve røren med knust pepper, spisskummen, ingefær og en skje ghee. Det er den ene idlien som smaker av noe i seg selv.'}}]
@@ -140,14 +140,14 @@ window.RECIPES['IN-TAM'] = [
      no:'Hell hele temperingen over sambaren, legg på lokket og la den stå i fem minutter. Strø korianderen over rett før servering.'}],
   notes:[
     {title:{en:'Why the dal has to collapse', no:'Hvorfor dalen må falle fra hverandre'},
-     body:{en:'The lentil is the thickener. Toor dal that still holds its shape has not released its starch, and the sambar stays watery however long you reduce it. Cooking it separately and whisking it smooth before it meets the acid also matters, because tamarind slows the softening down considerably.',
-           no:'Linsen er jevningen. Toor dal som fortsatt holder formen, har ikke sluppet stivelsen sin, og da blir sambaren vassen uansett hvor lenge du koker den inn. Det betyr også noe at dalen kokes for seg og vispes glatt før den møter syren, for tamarind bremser oppmykingen kraftig.'}},
+     body:{en:'The lentil is the thickener. Cooking the toor dal separately until tender, then whisking it smooth before adding it to the tamarind and vegetables, gives reliable texture and lets each part finish at the right time.',
+           no:'Linsen er jevningen. Når toor dal kokes mør for seg og vispes glatt før den blandes med tamarind og grønnsaker, får sambaren en pålitelig konsistens, og hver del kan bli ferdig til rett tid.'}},
     {title:{en:'Why the blend is cooked and the tempering is not', no:'Hvorfor blandingen kokes og temperingen ikke gjør det'},
      body:{en:'Sambar podi is mostly ground coriander, which tastes dusty until it has had a few minutes in liquid. The tempering is the opposite: whole seeds in hot oil for a matter of seconds, poured over at the very end so the smell is still on the surface when the bowl reaches the table.',
            no:'Sambar podi er stort sett malt koriander, og den smaker støvete til den har fått noen minutter i væske. Temperingen er det motsatte. Hele frø får noen sekunder i varm olje og helles over helt til slutt, så duften fortsatt ligger på overflaten når skålen kommer på bordet.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Buy tamarind as a block with the seeds still in it rather than as a jar of paste, which is usually thinned and salted.',
-           no:'Kjøp tamarind i blokk med kjernene i stedet for ferdig pasta på glass, som ofte er spedd ut og saltet. Blokken holder seg i årevis i kjøleskapet. Toor dal heter også tuvar eller arhar dal og selges i indiske butikker på Grønland i Oslo; gule erter er ikke det samme og jevner annerledes. Drumstick, altså moringa-stilker, får du frosne i de samme butikkene. Asafoetida selges som gult pulver i små bokser, og en klype er nok; norsk hvitløkspulver gjør ikke den samme jobben. Ferske karriblader kommer inn i puljer, så kjøp mange og frys dem.'}}],
+           no:'Kjøp tamarind i blokk i en indisk eller sørasiatisk butikk; pasta på glass kan være spedd ut og saltet. Toor dal kan også hete tuvar eller arhar dal. Drumstick, altså moringastilker, finnes ofte frosne. Asafoetida selges som pulver i små bokser, og ferske karriblader kan fryses når du finner dem.'}}],
   variations:[
     {title:{en:'Arachuvitta sambar', no:'Arachuvitta sambar'},
      body:{en:'Instead of the ready-ground podi, roast coriander seed, chana dal, dried chilli and a little fenugreek in a dry pan, grind them with fresh coconut and add that paste. It is the festival version and tastes considerably fresher.',
@@ -168,11 +168,11 @@ window.RECIPES['IN-TAM'] = [
   goesWith:[{en:'Plain rice and a spoon of ghee', no:'Vanlig ris og en skje ghee'},
             {en:'An appalam, broken over the top', no:'En appalam, brukket over'}],
   headnote:{
-    en:`<p>This is the oldest and plainest rasam, and it is the dish a Tamil household makes for somebody with a cold. There is no chilli in it at all. The heat is black pepper, pounded coarse with cumin a few minutes before it goes in, and that is the whole argument of the first reading in one pan: pepper doing a job that chilli never took over.</p>
-<p>The method has one rule and everything else follows from it. Rasam must not boil hard. The moment it froths up at the edges it comes off the heat, because a rolling boil flattens the pepper, drives off the coriander and turns a bright broth into a dull one. Most people who find rasam disappointing have boiled it.</p>
+    en:`<p>Milagu rasam is a pepper-and-cumin variation often served as comfort food when someone has a cold. It is food, not a treatment. This version uses no chilli; freshly pounded black pepper supplies the heat.</p>
+<p>Keep the final heating brief. Taking the pan off when it froths at the edges preserves more of the fresh pepper and coriander aroma than a prolonged rolling boil.</p>
 <p>It is also very quick. If the tamarind is already soaked, the whole thing takes fifteen minutes, and it is the cheapest possible way to make a plate of plain rice into a meal.</p>`,
-    no:`<p>Dette er den eldste og enkleste rasamen, og den er retten en tamilsk husholdning lager til noen som er forkjølet. Den har ikke chili i seg i det hele tatt. Styrken kommer fra svart pepper som støtes grovt sammen med spisskummen noen minutter før den går i, og dermed ligger hele poenget fra den første leseteksten i én kjele: pepperen gjør en jobb chilien aldri overtok.</p>
-<p>Metoden har én regel, og alt annet følger av den. Rasamen må ikke fosskoke. I det øyeblikket den skummer langs kanten, skal den av platen, for hard koking flater ut pepperen, driver bort korianderen og gjør en klar kraft matt. De fleste som synes rasam er skuffende, har kokt den.</p>
+    no:`<p>Milagu rasam er en variant med pepper og spisskummen som ofte serveres som trøstemat ved forkjølelse. Den er mat, ikke behandling. Denne utgaven har ikke chili; nystøtt svart pepper gir styrken.</p>
+<p>Hold den siste oppvarmingen kort. Tar du kjelen av når det skummer langs kanten, bevarer du mer av den friske duften fra pepper og koriander enn ved lang fosskoking.</p>
 <p>Den går dessuten svært fort. Er tamarinden alt bløtlagt, tar hele retten et kvarter, og den er den billigste måten å gjøre en tallerken med ris om til et måltid på.</p>`},
   ingredients:[
    {group:{en:'The broth', no:'Kraften'}, items:[
@@ -213,9 +213,9 @@ window.RECIPES['IN-TAM'] = [
     {en:'Scatter the coriander over, cover the pan and let it stand for five minutes. Serve warm rather than hot.',
      no:'Strø korianderen over, legg på lokk og la det stå i fem minutter. Server lunken, ikke rykende varm.'}],
   notes:[
-    {title:{en:'Why it must not boil', no:'Hvorfor den ikke må koke'},
-     body:{en:'Almost everything you can smell in a rasam is volatile, and a hard boil carries it out of the pan as steam. Pepper loses its top note within a minute, and fresh coriander loses it faster than that. Taking the pan off at the first froth is the difference between a bright broth and a dull one.',
-           no:'Nesten alt du kan lukte i en rasam, er flyktig, og hard koking bærer det ut av kjelen som damp. Pepperen mister topptonen på under et minutt, og den friske korianderen mister den enda raskere. Forskjellen på en klar og en sløv kraft ligger i å ta kjelen av ved det første skummet.'}},
+    {title:{en:'Why the final heating is brief', no:'Hvorfor den siste oppvarmingen er kort'},
+     body:{en:'Many aroma compounds in pepper and coriander are volatile. A short final heating keeps more of them in the bowl; prolonged hard boiling sends more aroma away with the steam.',
+           no:'Mange aromastoffer i pepper og koriander er flyktige. Kort oppvarming til slutt beholder mer av dem i skålen; lang fosskoking sender mer aroma ut med dampen.'}},
     {title:{en:'Why the pepper is pounded and not ground', no:'Hvorfor pepperen støtes og ikke males'},
      body:{en:'Coarse pieces release their oil slowly and arrive in the mouth one at a time, which is how a Tamil cook uses pepper generally. A fine powder gives up everything at once, goes cloudy in the broth and leaves a flat burn behind instead of separate hits of it.',
            no:'Grove biter gir fra seg oljen langsomt og kommer én om gangen i munnen, og det er slik en tamilsk kokk bruker pepper i det hele tatt. Et fint pulver gir fra seg alt på én gang, gjør kraften uklar og etterlater en flat svie i stedet for små støt ett og ett.'}},
@@ -242,11 +242,11 @@ window.RECIPES['IN-TAM'] = [
   goesWith:[{en:'Plain rice, or dosa the next morning', no:'Vanlig ris, eller dosa morgenen etter'},
             {en:'A thin rasam alongside', no:'En tynn rasam ved siden av'}],
   headnote:{
-    en:`<p>Everything that makes this dish comes from one step, and the step takes six minutes. Whole spices go into a dry pan with no oil at all and are roasted until they are dark brown going on black, the kitchen smells scorched and you are convinced you have ruined them. That is where a Chettinad cook stops. Roasting that far drives off the fresh top notes and leaves something heavier and more like coffee, and it is why this masala tastes deep rather than merely hot.</p>
-<p>Three of the spices are the ones reading one is about. Star anise is not grown in India and arrived with Chettiar money out of Burma and Malaya. Kalpasi is a lichen that tastes of nothing until it meets hot fat, and then it puts a floor under everything else. Marathi mokku is a hard dark bud, most often identified as a caper, and it sits between clove and pepper.</p>
+    en:`<p>The defining step is a careful dry roast. Move the whole spices constantly until they are fragrant and deep brown, then stop before they scorch. The roast softens fresh top notes and builds a deeper flavour without adding more chilli.</p>
+<p>Star anise, kalpasi and marathi mokku are strongly associated with many Chettinad blends, though formulas vary and the ingredients are not unique to this cuisine. Star anise is native farther east and reached India through trade. Kalpasi is a lichen; marathi mokku is a trade name whose exact plant identification is not consistent in culinary sources.</p>
 <p>After that it is a simple dish. Small shallots rather than onion, a lot of curry leaf, chicken on the bone, and enough water to let it cook rather than to make a sauce. The finished gravy should cling to the meat, not pool around it.</p>`,
-    no:`<p>Alt som gjør denne retten til det den er, ligger i ett steg, og steget tar seks minutter. Hele krydder går i en tørr panne uten olje og ristes til de er mørkebrune på vei mot svart, kjøkkenet lukter svidd, og du er overbevist om at du har ødelagt dem. Der stopper en kokk fra Chettinad. Ristingen driver bort de friske topptonene og lar noe tyngre bli igjen, nærmere kaffe, og det er derfor masalaen smaker dyp og ikke bare sterk.</p>
-<p>Tre av kryddene er de lesetekst én handler om. Stjerneanis dyrkes ikke i India og kom hit med chettiarpenger fra Burma og Malaya. Kalpasi er en lav som ikke smaker noe før den møter varmt fett, og som da legger et gulv under alt det andre. Marathi mokku er en hard og mørk knopp som oftest regnes som en kapersknopp, og den ligger mellom nellik og pepper.</p>
+    no:`<p>Det avgjørende steget er en kontrollert tørristing. Hold hele krydder i bevegelse til de dufter og er dypbrune, og stopp før de svir seg. Ristingen demper friske topptoner og bygger dypere smak uten mer chili.</p>
+<p>Stjerneanis, kalpasi og marathi mokku forbindes sterkt med mange Chettinad-blandinger, men oppskriftene varierer, og råvarene brukes også i andre kjøkken. Stjerneanis har opphav lenger øst og kom til India gjennom handel. Kalpasi er en lav; marathi mokku er et handelsnavn som ikke knyttes entydig til én plante i matkildene.</p>
 <p>Etter det er retten enkel. Små sjalottløk i stedet for vanlig løk, mye karriblad, kylling med bein, og akkurat nok vann til at den koker uten å bli en saus. Den ferdige sausen skal klistre seg til kjøttet og ikke samle seg rundt det.</p>`},
   ingredients:[
    {group:{en:'The roasted masala', no:'Den ristede masalaen'}, items:[
@@ -279,8 +279,8 @@ window.RECIPES['IN-TAM'] = [
      no:'Gni kyllingen inn med gurkemeien og en god klype salt, og la den ligge mens du lager masalaen.'},
     {en:'Put a heavy dry pan on a medium flame. Roast the coriander, fennel, pepper, chillies, cinnamon, cloves, star anise and marathi mokku together, moving them constantly.',
      no:'Sett en tung, tørr panne på middels varme. Rist koriander, fennikel, pepper, chili, kanel, nellik, stjerneanis og marathi mokku sammen, og hold dem i bevegelse hele tiden.'},
-    {en:'Keep going for five or six minutes, until the spices are dark brown going on black and the kitchen smells scorched. Add the kalpasi for the last twenty seconds only.',
-     no:'Hold det gående i fem–seks minutter, til krydderet er mørkebrunt på vei mot svart og det lukter svidd på kjøkkenet. Ha i kalpasien bare de siste tjue sekundene.'},
+    {en:'Roast until the spices are fragrant and deep brown, usually four to six minutes, and remove them before they scorch. Add the kalpasi for the last twenty seconds only.',
+     no:'Rist til krydderet dufter og er dypbrunt, vanligvis i fire–seks minutter, og ta det av før det svir seg. Ha i kalpasien bare de siste tjue sekundene.'},
     {en:'Tip the spices onto a cold plate to stop them cooking, then roast the poppy seed and the coconut in the same pan until the coconut turns golden brown.',
      no:'Hell krydderet over på en kald tallerken så det slutter å steke, og rist så valmuefrøene og kokosen i den samme pannen til kokosen blir gyllenbrun.'},
     {en:'Grind everything together with a splash of water to a thick, dark paste. Scrape the grinder out; this masala is worth every bit of it.',
@@ -295,18 +295,18 @@ window.RECIPES['IN-TAM'] = [
      no:'Rør inn den malte masalaen og stek den i tre minutter. Det er lenge nok til å gjennomsteke pastaen, men ikke lenge nok til å svi den en gang til.'},
     {en:'Add the chicken, turn it until every piece is coated, salt it, and let it fry in the masala for five minutes without any liquid.',
      no:'Ha i kyllingen, vend den til hver bit er dekket, salt, og la den steke i masalaen i fem minutter uten væske.'},
-    {en:'Pour in the hot water, cover, and simmer for twenty-five minutes until the chicken is tender and the gravy clings to it. Add the last curry leaves and let it stand for ten minutes.',
-     no:'Hell i det varme vannet, legg på lokk og la det småkoke i tjuefem minutter til kyllingen er mør og sausen legger seg rundt den. Ha i de siste karribladene og la retten stå i ti minutter.'}],
+    {en:'Pour in the hot water, cover, and simmer until the chicken is tender and the thickest piece reaches 74 °C, about twenty-five minutes. Let the gravy cling to the meat, add the last curry leaves and rest for ten minutes.',
+     no:'Hell i det varme vannet, legg på lokk og la det småkoke til kyllingen er mør og den tykkeste biten når 74 °C, omtrent tjuefem minutter. La sausen legge seg rundt kjøttet, tilsett de siste karribladene og hvil i ti minutter.'}],
   notes:[
     {title:{en:'Why the roast goes so far', no:'Hvorfor ristingen går så langt'},
-     body:{en:'A light roast keeps the volatile top notes, which is what a north Indian garam masala is after. Taking the same spices much further breaks those down and builds heavier roasted compounds instead, so the blend reads as depth rather than brightness. It also keeps for months, which mattered to a community whose men were abroad for years.',
-           no:'En lett risting beholder de flyktige topptonene, og det er nettopp det en nordindisk garam masala vil ha. Tar du de samme kryddene mye lenger, brytes topptonene ned og tyngre ristede forbindelser bygger seg opp i stedet, så blandingen oppleves som dybde og ikke som friskhet. Den holder seg dessuten i måneder, og det betydde mye i et miljø der mennene var i utlandet år om gangen.'}},
+     body:{en:'A light roast keeps more volatile top notes. A deeper brown roast changes the balance toward toasted flavours, but scorched spices become bitter. Grind this small batch once cool and use it promptly for the clearest aroma.',
+           no:'En lett risting beholder flere flyktige topptoner. En dypere brun risting flytter balansen mot ristede smaker, men svidde krydder blir bitre. Mal denne lille porsjonen når den er avkjølt, og bruk den raskt mens aromaen er tydelig.'}},
     {title:{en:'Why the kalpasi goes in last', no:'Hvorfor kalpasien går i sist'},
      body:{en:'It is a lichen, thin and dry, and it burns long before a peppercorn does. Twenty seconds in the pan is enough to open it up. Burnt kalpasi is bitter and there is no way to take it out again, so add it at the end of the roast and watch it.',
            no:'Kalpasi er en lav, tynn og tørr, og den brenner lenge før et pepperkorn gjør det. Tjue sekunder i pannen er nok til å åpne den. Svidd kalpasi er bitter, og den lar seg ikke fjerne igjen, så ha den i helt til slutt i ristingen og følg med.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Buy chicken on the bone and ask for it to be cut through, because the bone is what keeps the pieces from drying out over half an hour in a thick masala.',
-           no:'Kjøp kylling med bein og be om å få den delt gjennom beinet, for beinet er det som holder bitene saftige gjennom en halvtime i en tykk masala. Halalslakterne på Grønland i Oslo og i de fleste større byer deler den for deg. Kalpasi selges i indiske butikker som kalpasi, dagad phool eller black stone flower. Marathi mokku er vanskeligere å oppdrive og heter av og til marathi moggu; får du den ikke, bruk to nellik ekstra og si fra at du gjorde det. Revet kokos kjøper du frossen i asiatiske butikker, og den er langt bedre enn tørket kokos fra bakeavdelingen. Hvite valmuefrø må bestilles i indisk butikk, for de blå i dagligvarebutikken gjør pastaen grå.'}}],
+           no:'Kjøp kylling med bein og be en slakter dele den i grytestykker. Kalpasi selges i indiske eller sørasiatiske butikker som kalpasi, dagad phool eller black stone flower. Marathi mokku kan også stå som marathi moggu; finner du den ikke, bruker du de ekstra nellikene oppskriften foreslår. Revet kokos finnes ofte frossen, og hvite valmuefrø må ikke forveksles med blå.'}}],
   variations:[
     {title:{en:'Chettinad pepper chicken', no:'Chettinad-pepperkylling'},
      body:{en:'Milagu kozhi is the drier cousin. Double the pepper, leave out the tomato, the coconut and the water, and fry the chicken down until the masala is stuck to it and there is no gravy at all.',
@@ -315,8 +315,8 @@ window.RECIPES['IN-TAM'] = [
      body:{en:'The same masala suits goat on the bone very well, and it is the version served at weddings in Chettinad. Allow an hour and a half of gentle simmering, or twenty minutes in a pressure cooker.',
            no:'Den samme masalaen passer svært godt til geitekjøtt med bein, og det er utgaven som serveres i bryllup i Chettinad. Regn med halvannen time med forsiktig småkoking, eller tjue minutter i trykkoker.'}},
     {title:{en:'Vegetarian, with mushrooms', no:'Vegetarisk, med sopp'},
-     body:{en:'The Chettiar households themselves eat vegetarian most of the week. Brown chestnut mushrooms hard first so they lose their water, then treat them exactly as the chicken, with half the liquid and ten minutes rather than twenty-five.',
-           no:'Chettiarfamiliene spiser selv vegetarisk mesteparten av uka. Brun sjampinjongene hardt først så de mister vannet, og behandle dem deretter nøyaktig slik som kyllingen, med halvparten så mye væske og ti minutter i stedet for tjuefem.'}}]
+     body:{en:'For a vegetarian variation, brown chestnut mushrooms hard first so they lose their water, then use them with half the liquid and about ten minutes of simmering.',
+           no:'Til en vegetarisk variant bruner du aromasopp hardt først så de mister vannet, og bruker deretter halvparten så mye væske og omtrent ti minutters småkoking.'}}]
 },
 
 {
@@ -369,7 +369,7 @@ window.RECIPES['IN-TAM'] = [
            no:'Ristet sikorirot har verken koffein eller kaffesmak. Den gir fylde, mørkere farge og en svak bitterhet som tåler mye melk, og den drøyet en dyr importvare da den først ble tilsatt. En sørindisk kaffe uten sikori smaker tynn heller enn feil.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Use whole milk and heat it properly. Skimmed milk and a lukewarm pour give you a grey drink with no foam on it.',
-           no:'Bruk helmelk og varm den ordentlig. Lettmelk og lunken helling gir en grå drikk uten skum. Ferdig malt filterkaffe med sikori selges i indiske butikker på Grønland i Oslo under merker som Narasus, Cothas eller Bru, og den er malt riktig fra før. Kjøper du vanlig kaffe, be om espressomaling og bland i omtrent en femdel ristet sikori, som fås i helsekostbutikker som kaffeerstatning. Selve filteret og et dabara-sett koster lite i indiske butikker, og et filter til to kopper er den størrelsen de fleste husholdninger her trenger.'}}],
+           no:'Bruk helmelk og varm den ordentlig. Ferdigmalt sørindisk filterkaffe, med eller uten sikori, finnes i mange indiske eller sørasiatiske butikker. Vanlig kaffe kan finmales til filteret. Et metallfilter og eventuelt et dabara-sett selges ofte i de samme butikkene.'}}],
   variations:[
     {title:{en:'Sugarless, for tasting', no:'Uten sukker, for smakens skyld'},
      body:{en:'Ask for it without sugar once, to find out what the decoction actually tastes like under the sweetness. Most people go back to sugar, but not all of them.',

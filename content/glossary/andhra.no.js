@@ -17,25 +17,25 @@ Object.assign(window.GLOSSARY_NO, {
   'pachadi': {
     term: 'Pachadi',
     short: 'En fersk malt relish, laget i små mengder og spist i løpet av et par dager.',
-    long: 'Noe surres kort i olje, males grovt sammen med chili og salt og avsluttes med en tempering. Gongura, tomat, aubergine, ingefær og koriander blir alle til en slik. Metoden gjør den til en pachadi, ikke råvaren, og den korte holdbarheten skiller den fra en pickles, som er laget for å vare et år.',
+    long: 'Pachadi dekker flere typer relish og chutney og ikke én fast formel. Gongura, tomat, aubergine, ingefær og koriander kan alle tilberedes slik. Ferske varianter settes raskt i kjøleskap og spises i løpet av noen dager.',
     match: ['pachadi']
   },
   'avakaya': {
     term: 'Avakaya',
-    short: 'Mangopicklesen fra Andhra: sennep, chili, salt og svært mye olje, laget én gang i året.',
-    long: 'Ava betyr sennep, og kaya betyr en umoden frukt. Harde, sure mangoer hakkes med tung kniv i mai, og hver bit beholder en flis av det indre skallet så den holder seg hel. Bitene pakkes med malt sennep, chilipulver, salt og sesam- eller jordnøttolje. Oljen står over det hele og konserverer, og derfor går det aldri en våt skje ned i glasset.',
+    short: 'En pickles fra Andhra av fast, umoden mango, sennep, chili, salt og olje.',
+    long: 'Avakaya er sterkt knyttet til mangosesongen i Andhra og husholdningenes metoder for store porsjoner. Kurset lærer en liten variant der fruktkjøttet skjæres trygt fra steinen og går rett i kjøleskapet; et oljelag alene dokumenterer ikke trygg lagring i romtemperatur.',
     match: ['avakaya']
   },
   'haleem': {
     term: 'Haleem',
     short: 'Hvete, kjøtt og linser banket i timevis til én glatt masse, spist i ramadan.',
-    long: 'Retten stammer fra den arabiske harees og selges fra store kar over hele Hyderabad én måned i året. Bankingen er selve oppskriften: stivelsen fra hveten og proteinet fra kjøttet ender i den samme massen, så ingenting skiller seg og ingenting er seigt. Hyderabadisk haleem fikk en geografisk opprinnelsesbetegnelse i 2010, den første for en indisk tilberedt kjøttrett.',
+    long: 'Hyderabadisk haleem er beslektet med harees-tradisjoner fra Vest-Asia og er særlig synlig under ramadan. Lang koking og kraftig banking fordeler kjøttfibrene gjennom en jevnet blanding av hvete og linser. Hyderabad-navnet fikk en geografisk betegnelse i 2010.',
     match: ['haleem']
   },
   'dakhni': {
     term: 'Dakhni',
     short: 'Den sørlige formen av språket som ble til urdu, og ordforrådet i hoffkjøkkenet.',
-    long: 'Dakhni vokste fram på Dekkan fra 1300-tallet, mens soldater, embetsmenn og sufier nordfra slo seg ned blant folk som snakket marathi, kannada og telugu. Språket tok persiske og arabiske ord ovenfra og lokal grammatikk fra alle kanter, og det hadde en litteratur før urdu fikk en i nord. Biryani, salan, baghar og khubani når tallerkenen gjennom det.',
+    long: 'Dakhni utviklet seg på Dekkan gjennom kontakt mellom indoarisk talemål, persisk og arabisk skriftkultur og regionale språk som marathi, kannada og telugu. Ord som salan, baghar og khubani viser denne flerspråklige historien.',
     match: ['dakhni']
   }
 });

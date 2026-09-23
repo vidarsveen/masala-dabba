@@ -49,18 +49,23 @@ try:
     ok("audiobook button is shown when narration ships",
        js("!document.getElementById('bookBtn').hidden"))
 
+    # Old releases saved a readings-only numeric index. Reading 3 must remain reading 3 even
+    # when a regional introduction is inserted ahead of it.
+    js("localStorage.setItem('mdb-book:no', JSON.stringify({i:2,t:0}))")
     js("location.hash='#/audiobook'"); time.sleep(3)
     ok("the audiobook page opens", js("document.getElementById('book').classList.contains('open')"))
     n = js("document.querySelectorAll('#book .ch').length")
-    # One chapter per reading that HAS AUDIO, which is not the same as per reading written: a
+    # One chapter per track that HAS AUDIO, which is not the same as per reading written: a
     # region can be written and not yet narrated, and in the single-file build only the regions in
     # build.py's HOSTED_AUDIO are inlined at all. Derive the expectation from the manifest.
     lang = js("document.documentElement.lang") or "en"
     pre = "nb" in lang and "no" or "en"
     want = js("Object.keys(window.AUDIO_MANIFEST||{}).filter(k => k.includes(':%s-')).length" % pre)
-    ok("a chapter for every narrated reading", n == want, "%s of %s" % (n, want))
+    ok("a chapter for every narrated track", n == want, "%s of %s" % (n, want))
+    region_count = js("(function(){const m=window.AUDIO_MANIFEST||{};"
+                      "return new Set(Object.keys(m).filter(k=>k.includes(':%s-')).map(k=>k.split(':')[0])).size;})()" % pre)
     ok("chapters are grouped by region",
-       js("document.querySelectorAll('#book .blist h3').length") == want // 4,
+       js("document.querySelectorAll('#book .blist h3').length") == region_count,
        js("document.querySelectorAll('#book .blist h3').length"))
     # the book follows ORDER, so the first chapter is reading 1 of the earliest narrated region,
     # which stops being Kerala the moment any region north of it is recorded
@@ -70,6 +75,9 @@ try:
        js("(function(){const h=document.querySelector('#book .blist h3');"
           "return h && h.nextElementSibling && h.nextElementSibling.classList.contains('ch');})()"),
        first)
+    ok("legacy numeric progress migrates to the same reading",
+       (js("document.querySelector('#book .ch.is-on') && document.querySelector('#book .ch.is-on').dataset.id") or "").endswith(':reading-3'),
+       js("document.querySelector('#book .ch.is-on') && document.querySelector('#book .ch.is-on').dataset.id"))
     ok("total time is shown", "t" in (js("document.querySelector('#book .btotal').textContent") or ""),
        js("document.querySelector('#book .btotal').textContent"))
 
@@ -100,7 +108,7 @@ try:
     ok("previous chapter", js("document.querySelector('#book .ch.is-on .n').textContent") == str(JUMP))
 
     saved = js("localStorage.getItem('mdb-book:no')")
-    ok("position is saved for resuming", saved and ('"i":%d' % (JUMP - 1)) in saved, saved)
+    ok("position is saved with a stable chapter id", saved and '"id"' in saved and 'reading-' in saved, saved)
     shot("book.png")
 
     # leaving pauses, and does not touch course progress

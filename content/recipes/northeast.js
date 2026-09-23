@@ -41,8 +41,8 @@ window.RECIPES['IN-NEA'] = [
   steps:[
     {en:'Rub the fish steaks with half the turmeric and a good pinch of salt, and leave them for ten minutes.',
      no:'Gni fiskekotelettene inn med halvparten av gurkemeien og en god klype salt, og la dem ligge i ti minutter.'},
-    {en:'Heat the mustard oil in a wide pan until it just begins to smoke, then turn the flame down.',
-     no:'Varm sennepsoljen i en vid panne til den så vidt begynner å ryke, og skru så ned varmen.'},
+    {en:'Heat mustard oil labelled for food in a wide pan over medium-high heat until it shimmers, then lower the heat.',
+     no:'Varm sennepsolje som er merket for mat, i en vid panne på middels høy varme til den skinner, og skru så ned varmen.'},
     {en:'Lay the fish in a single layer and fry it for about a minute a side, only until the surface sets. Lift it out.',
      no:'Legg fisken i ett lag og stek den omtrent ett minutt på hver side, bare til overflaten stivner. Løft den ut.'},
     {en:'Drop the fenugreek seed into the same oil and give it ten seconds, no more. Burnt fenugreek turns a broth bitter and nothing later will fix it.',
@@ -68,7 +68,7 @@ window.RECIPES['IN-NEA'] = [
            no:'Bukkehornkløveren er det eneste frøet i denne gryta som kan ødelegge den. Den mørkner på sekunder, og er den først forbi gyllenbrun, blir den bitter på en måte verken salt, syre eller sukker dekker over. Ha tomatene ferdig skåret ved siden av pannen før frøet går i, så du kan stanse oljen i det øyeblikket den er klar.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Ask the fish counter to cut whatever you buy across the bone rather than filleting it. Coley is cheap, firm and better here than cod, which flakes apart in a thin broth.',
-           no:'Be fiskedisken skjære det du kjøper, på tvers av beinet i stedet for å filetere det. Sei er billig, fast og bedre her enn torsk, som faller fra hverandre i en tynn kraft. En hel ørret skåret i koteletter er nærmest en ferskvannsfisk og fungerer svært godt. Mye av sennepsoljen i norske butikker er merket kun til utvortes bruk på grunn av erukasyre, så se etter flasker fra indiske butikker som sier «edible» eller «kachi ghani». Outenga og thekera selges ikke her i det hele tatt, og tomat og sitron er den ærlige erstatningen.'}}],
+            no:'Be fiskedisken skjære en fast fisk på tvers av beinet, eller bruk tykke filetbiter og kort ned koketiden. Kjøp bare sennepsolje som er tydelig merket for matbruk; «kachi ghani» beskriver pressing og er ikke alene en spiselighetsmerking. Tomat og sitron er den tydelig merkede tilpasningen i kursoppskriften.'}}],
   variations:[
     {title:{en:'With elephant apple, if you ever meet one', no:'Med outenga, om du skulle komme over den'},
      body:{en:'Frozen outenga turns up in a few Asian shops. Cut away the fleshy sepals, simmer them whole with the tomato and leave the lemon out altogether, because the fruit is sour enough on its own.',
@@ -85,24 +85,24 @@ window.RECIPES['IN-NEA'] = [
   id:'khar', dish:'Khar', course:'side', lesson:3, serves:4, veg:true,
   time:{prep:15, cook:35}, hero:'kolakhar', tags:['assam','alkali','papaya'],
   title:{en:'Khar', no:'Khar'},
-  blurb:{en:'The alkaline dish that opens an Assamese meal: raw papaya simmered soft with a spoonful of banana-ash water.',
-         no:'Den basiske retten som åpner et måltid i Assam: grønn papaya kokt myk med en skje bananaskevann.'},
+  blurb:{en:'A course adaptation of Assamese khar: raw papaya softened with a measured pinch of bicarbonate.',
+         no:'En kurstilpasning av assamesisk khar: grønn papaya mørnet med en målt knivsodd natron.'},
   heroCaption:{en:'Khar being filtered: water poured slowly through banana ash. No freely licensed photograph of the finished dish exists, so this is where it starts.',
                no:'Khar blir filtrert, og vannet helles langsomt gjennom bananaske. Det finnes ikke noe fritt lisensiert bilde av den ferdige retten, så her er begynnelsen på den.'},
   goesWith:[{en:'Plain rice, eaten first, before the rest of the meal', no:'Vanlig ris, spist først, før resten av måltidet'},
             {en:'A whole green chilli on the side of the plate', no:'En hel grønn chili på kanten av tallerkenen'}],
   headnote:{
-    en:`<p>Begin with what this is not. Khar is not a spice, not a sauce and not sour. It is an alkali. A household burns dried banana peel to ash, pours water through the ash and keeps the liquid that drips out in a bottle, using a spoonful at a time, and the dish takes its name from that liquid.</p>
-<p>Nobody in Norway is going to filter banana ash on a Tuesday, and this recipe does not ask you to. A small pinch of bicarbonate of soda does the same chemistry: it softens, it breaks fat down, and it gives the broth the smooth, faintly soapy body that is the whole point of the dish. Every Assamese cook will tell you it is not the same, and they are right, because the ash brings a trace of smoke with it. The mechanism travels even where the flavour does not.</p>
-<p>Eat it first, with plain rice, before anything else on the table. It is deliberately quiet and it settles the appetite rather than sharpening it. And keep everything sour out of the pot, because acid and alkali cancel each other and you will be left with neither.</p>`,
-    no:`<p>Begynn med hva dette ikke er. Khar er verken et krydder, en saus eller noe surt. Det er en lut. En husholdning brenner tørket bananskall til aske, heller vann gjennom asken og tar vare på væsken som drypper ut, i en flaske, og bruker en skje om gangen. Retten har navnet sitt fra den væsken.</p>
-<p>Ingen i Norge kommer til å filtrere bananaske en tirsdag, og denne oppskriften ber deg ikke om det. En knivsodd natron gir den samme kjemien. Den gjør grønnsakene møre, den bryter ned fett, og den gir kraften den glatte, så vidt såpeaktige fylden som er hele poenget med retten. Enhver kokk i Assam vil si at det ikke er det samme, og de har rett, for asken tar med seg et snev av røyk. Mekanismen lar seg flytte selv om smaken ikke gjør det.</p>
-<p>Spis den først, med vanlig ris, før alt annet på bordet. Den er bevisst stille, og den roer appetitten i stedet for å skjerpe den. Og hold alt surt utenfor gryta, for syre og lut opphever hverandre, og da sitter du igjen med ingen av delene.</p>`},
+    en:`<p>Traditional kolakhar is a strongly alkaline liquid filtered through ash from suitable dried banana material. Its concentration varies with the material and method. This course does not ask learners to make an untested ash extract at home.</p>
+<p>A measured pinch of bicarbonate raises the pH and softens the papaya, but it does not reproduce kolakhar's flavour. The recipe is therefore labelled as an adaptation and keeps the quantity low enough to avoid a harsh alkaline taste.</p>
+<p>Khar may appear near the beginning of a formal Assamese meal with rice, while a sour tenga may come later. Keep acidic ingredients out of this pot because they reduce the alkalinity and change the intended texture.</p>`,
+    no:`<p>Tradisjonell kolakhar er en sterkt basisk væske filtrert gjennom aske fra egnede, tørkede deler av en bananplante. Styrken varierer med råvare og metode. Kurset ber derfor ikke leseren lage et uprøvd askeuttrekk hjemme.</p>
+<p>En målt knivsodd natron hever pH og gjør papayaen mør, men gjenskaper ikke smaken av kolakhar. Oppskriften er tydelig merket som en tilpasning og holder mengden lav for å unngå en hard basisk smak.</p>
+<p>Khar kan komme tidlig i et formelt assamesisk måltid med ris, mens en sur tenga kan følge senere. Hold sure råvarer ute av gryta fordi de reduserer basiskheten og endrer den tiltenkte konsistensen.</p>`},
   ingredients:[
    {group:{en:'', no:''}, items:[
     {q:400, u:'g', n:{en:'raw green papaya', no:'grønn papaya'}, note:{en:'peeled, seeded, in walnut-sized cubes', no:'skrelt, renset for frø, i terninger på størrelse med en valnøtt'}},
     {q:250, u:'g', n:{en:'floury potatoes', no:'melne poteter'}, note:{en:'in chunks the same size', no:'i biter av samme størrelse'}},
-    {q:3, u:'g', n:{en:'bicarbonate of soda', no:'natron'}, note:{en:'in place of kolakhar', no:'i stedet for kolakhar'}},
+     {q:1, u:'g', n:{en:'bicarbonate of soda', no:'natron'}, note:{en:'about 1/4 teaspoon; adaptation in place of kolakhar', no:'omtrent 1/4 teskje; tilpasning i stedet for kolakhar'}},
     {q:45, u:'ml', n:{en:'mustard oil', no:'sennepsolje'}},
     {q:100, u:'g', n:{en:'onion', no:'løk'}, note:{en:'sliced fine', no:'finskåret'}},
     {q:1, u:'', n:{en:'dried red chilli', no:'tørket rød chili'}, round:'half'},
@@ -114,8 +114,8 @@ window.RECIPES['IN-NEA'] = [
   steps:[
     {en:'Peel the papaya, scrape the seeds out and cut the flesh into cubes about the size of a walnut. Cut the potatoes to match, so the two finish together.',
      no:'Skrell papayaen, skrap ut frøene og skjær fruktkjøttet i terninger på størrelse med en valnøtt. Skjær potetene like store, så de to blir ferdige samtidig.'},
-    {en:'Heat the mustard oil in a heavy pan until it just smokes, then take it off the flame for half a minute so it cools a little.',
-     no:'Varm sennepsoljen i en tykkbunnet gryte til den så vidt ryker, og ta den av platen et halvt minutt så den kjøler seg litt.'},
+    {en:'Heat mustard oil labelled for food in a heavy pan over medium-high heat until it shimmers.',
+     no:'Varm sennepsolje som er merket for mat, i en tykkbunnet gryte på middels høy varme til den skinner.'},
     {en:'Return it to a medium heat, break the dried chilli in and let it darken for a few seconds.',
      no:'Sett gryta tilbake på middels varme, brekk den tørkede chilien oppi og la den mørkne i noen sekunder.'},
     {en:'Add the onion and fry it slowly until it is soft and pale gold. This is the only browning in the whole dish.',
@@ -133,22 +133,22 @@ window.RECIPES['IN-NEA'] = [
     {en:'Let it stand for ten minutes. The broth should be cloudy, slightly thick and smooth on the tongue. Serve it first, with plain rice, before the rest of the meal.',
      no:'La retten stå i ti minutter. Kraften skal være grumsete, litt tykk og glatt på tungen. Server den først, med vanlig ris, før resten av måltidet.'}],
   notes:[
-    {title:{en:'Why nothing sour goes near it', no:'Hvorfor ingenting surt får komme i nærheten'},
-     body:{en:'An acid neutralises the alkali on contact, and the softening simply stops. Add a squeeze of lemon, a tomato or a spoon of tamarind and you lose the texture that the dish exists for. This is also why an Assamese meal serves khar first and something sour last, rather than putting them side by side.',
-           no:'En syre nøytraliserer luten med én gang, og da stopper oppmykingen. Har du i en skvett sitron, en tomat eller en skje tamarind, mister du nettopp den konsistensen retten finnes for. Det er også grunnen til at et måltid i Assam setter fram khar først og noe surt sist, i stedet for å sette dem ved siden av hverandre.'}},
+    {title:{en:'Why this version omits sour ingredients', no:'Hvorfor denne utgaven ikke har sure råvarer'},
+     body:{en:'Acid lowers the pH and reduces the softening effect of the bicarbonate. Leaving lemon, tomato and tamarind out preserves the texture intended in this adaptation; it does not establish a rule for every Assamese meal.',
+           no:'Syre senker pH og reduserer den mørnende virkningen av natronet. Uten sitron, tomat og tamarind beholder denne tilpasningen den planlagte konsistensen; det er ingen regel for alle assamesiske måltider.'}},
     {title:{en:'What the alkali is actually doing', no:'Hva luten faktisk gjør'},
-     body:{en:'Raising the pH weakens the pectin that holds plant cell walls together, so a tough vegetable collapses far faster than it would in plain water. The same alkali breaks fat down, which is why a khar cooked with pork tastes lean rather than rich. It is the only technique in this course that works on chemistry alone and adds no flavour of its own.',
-           no:'Når pH stiger, svekkes pektinet som holder celleveggene i planten sammen, og en seig grønnsak faller derfor sammen langt raskere enn den ville gjort i rent vann. Den samme luten bryter ned fett, og derfor smaker en khar kokt med svinekjøtt mager og ikke fyldig. Dette er den eneste teknikken i kurset som virker på ren kjemi og ikke tilfører noen smak selv.'}},
+     body:{en:'Raising the pH changes plant cell walls and helps the papaya soften. Too much bicarbonate creates an unpleasant taste and damages texture, which is why the quantity is measured rather than adjusted freely.',
+           no:'Høyere pH endrer celleveggene i planten og bidrar til å mørne papayaen. For mye natron gir ubehagelig smak og ødelegger konsistensen, og derfor måles mengden i stedet for å justeres fritt.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
-     body:{en:'Buy the papaya hard and green. A fruit sold as ripe is sweet and useless here, and it will fall apart before the broth has taken anything from it.',
-           no:'Kjøp papayaen hard og grønn. En frukt som selges som moden, er søt og ubrukelig her, og den faller fra hverandre før kraften har fått noe ut av den. Grønn papaya finnes i indiske og asiatiske butikker på Grønland i Oslo, ofte også frossen i terninger, og den frosne fungerer fint. Natron står i bakeavdelingen i enhver dagligvarebutikk; bakepulver er noe annet og inneholder syre, så det ødelegger retten. Vil du ha den ekte varen, kan du brenne tørket bananskall på grillen og helle vann gjennom asken i et kaffefilter.'}}],
+     body:{en:'Choose hard green papaya, fresh or frozen. Use bicarbonate of soda, not baking powder, and do not improvise a banana-ash extract without a tested food preparation and known concentration.',
+           no:'Velg hard grønn papaya, fersk eller frossen. Bruk natron, ikke bakepulver, og ikke improviser et uttrekk av bananaske uten en testet matvare og kjent konsentrasjon.'}}],
   variations:[
     {title:{en:'Khar with a fish head', no:'Khar med fiskehode'},
      body:{en:'A fish head, lightly fried first, goes in when the water does. The alkali softens the cartilage and the head gives the broth a body it otherwise has no way of getting.',
            no:'Et fiskehode, lett stekt først, går i sammen med vannet. Luten gjør brusken myk, og hodet gir kraften en fylde den ellers ikke kan få.'}},
     {title:{en:'Khar with pork', no:'Khar med svinekjøtt'},
-     body:{en:'Hill households cook belly pork this way, and the alkali cuts the fat until the meat tastes surprisingly lean. Simmer the pork for an hour before the papaya goes in.',
-           no:'Husholdninger i åsene koker sideflesk på denne måten, og luten skjærer gjennom fettet til kjøttet smaker overraskende magert. La svinekjøttet småkoke i en time før papayaen går i.'}},
+      body:{en:'Some khar preparations include pork. Simmer belly or shoulder until nearly tender before adding the papaya, and keep the bicarbonate at the measured quantity.',
+            no:'Noen khar-retter har svinekjøtt. La sideflesk eller bog småkoke til det nesten er mørt før papayaen går i, og behold den målte mengden natron.'}},
     {title:{en:'With black gram', no:'Med svarte linser'},
      body:{en:'A handful of soaked black gram cooked alongside the papaya turns the broth thicker and nuttier. Assam calls the pulse matikalai and treats this as the everyday version.',
            no:'En neve bløtlagte svarte linser kokt sammen med papayaen gjør kraften tykkere og mer nøtteaktig. Assam kaller belgfrukten matikalai og regner dette som hverdagsutgaven.'}}]
@@ -165,12 +165,12 @@ window.RECIPES['IN-NEA'] = [
   goesWith:[{en:'A plate of plain rice and a thin dal', no:'En tallerken vanlig ris og en tynn dal'},
             {en:'Masor tenga, if you are making both', no:'Masor tenga, hvis du lager begge deler'}],
   headnote:{
-    en:`<p>This takes ten minutes and it is on an Assamese table more often than anything else in this course. Potatoes are boiled, peeled while they are still too hot to hold, and crushed by hand. Then raw mustard oil, finely chopped onion, green chilli and salt go in, and nothing is heated again.</p>
-<p>The raw mustard oil is the dish, and it is the one thing here you should not substitute. Cold-pressed mustard oil is sharp enough to catch the back of the throat, and that sharpness is what lifts a bland mash into something that can hold its own beside a plate of rice. Olive oil makes a perfectly good mashed potato and a bad pitika.</p>
-<p>Crush by hand or with a fork, and stop early. A pitika is supposed to be uneven, with small lumps left in it, because it sits on the plate as the dry, rough thing among wet ones. Put it through a ricer and you get a purée, which is smooth, correct and completely wrong.</p>`,
-    no:`<p>Dette tar ti minutter, og retten står på et bord i Assam oftere enn noe annet i dette kurset. Potetene kokes, skrelles mens de ennå er for varme til å holde i, og knuses for hånd. Så går rå sennepsolje, finhakket løk, grønn chili og salt oppi, og ingenting varmes opp igjen.</p>
-<p>Den rå sennepsoljen er hele retten, og den er det ene du ikke bør bytte ut. Kaldpresset sennepsolje er skarp nok til å ta tak bakerst i halsen, og den skarpheten er det som løfter en smakløs potetmos til noe som kan stå for seg selv ved siden av en tallerken ris. Olivenolje gir en helt grei potetmos og en dårlig pitika.</p>
-<p>Knus for hånd eller med en gaffel, og stopp tidlig. En pitika skal være ujevn, med små klumper igjen i, for den ligger på tallerkenen som det tørre og grove blant det våte. Kjører du den gjennom en potetpresse, får du en puré, og den er glatt, korrekt og fullstendig feil.</p>`},
+    en:`<p>Aloo pitika is an Assamese preparation of boiled potato crushed with mustard oil, onion, chilli and salt. This course version is mixed while the potato is warm and is not heated again.</p>
+<p>Use mustard oil that is explicitly labelled for food. Its pungency is central to this version; another edible oil will produce a milder adaptation with a different flavour.</p>
+<p>Crush by hand or with a fork and leave small lumps. The rough texture distinguishes the pitika from a smooth purée and helps it sit beside rice and wetter dishes.</p>`,
+    no:`<p>Aloo pitika er en assamesisk rett av kokt potet knust med sennepsolje, løk, chili og salt. Kursutgaven blandes mens poteten er varm og varmes ikke opp igjen.</p>
+<p>Bruk sennepsolje som er tydelig merket for mat. Den skarpe smaken er sentral i denne utgaven; en annen spiselig olje gir en mildere tilpasning med en annen smak.</p>
+<p>Knus for hånd eller med gaffel og behold små klumper. Den grove konsistensen skiller pitikaen fra en glatt puré og lar den stå sammen med ris og våtere retter.</p>`},
   ingredients:[
    {group:{en:'', no:''}, items:[
     {q:700, u:'g', n:{en:'floury potatoes', no:'melne poteter'}, note:{en:'whole and unpeeled', no:'hele og uskrelte'}},
@@ -195,8 +195,8 @@ window.RECIPES['IN-NEA'] = [
      no:'Arbeid løken, chilien og en god klype salt inn i den varme poteten med fingrene og ikke med en skje.'},
     {en:'Pour the mustard oil over and fold it through. The warmth of the potato takes the raw edge off the oil without cooking it.',
      no:'Hell sennepsoljen over og vend den inn. Varmen fra poteten tar av den råeste kanten på oljen uten å koke den.'},
-    {en:'Fold in the coriander, taste for salt and shape the whole thing into a rough mound. Serve it at room temperature.',
-     no:'Vend inn korianderen, smak til med salt og form det hele til en ujevn haug. Server retten ved romtemperatur.'}],
+    {en:'Fold in the coriander, taste for salt and shape the whole thing into a rough mound. Serve promptly while it is still warm; refrigerate leftovers within two hours.',
+     no:'Vend inn korianderen, smak til med salt og form det hele til en ujevn haug. Server raskt mens retten fortsatt er varm, og sett rester kaldt innen to timer.'}],
   notes:[
     {title:{en:'Why the potato has to be warm', no:'Hvorfor poteten må være varm'},
      body:{en:'Warm starch takes oil up and holds it. Cold mashed potato sheds it instead, so the oil sits on the surface and the dish turns greasy without ever tasting of mustard. If the potatoes have gone cold, warm them through before the oil goes anywhere near them.',
@@ -206,14 +206,14 @@ window.RECIPES['IN-NEA'] = [
            no:'Pitikaen gjør nytte på tallerkenen ved å være det ene tørre, grove og skarpe blant det våte og milde. Glatter du den ut, slutter den å stå i kontrast til noe, og en munnfull ris, kraft og puré blir bare myk hele veien.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Use a floury potato that breaks up when it boils, not a waxy salad potato, which will refuse to crush.',
-           no:'Bruk en melen potet som sprekker når den kokes, ikke en fastkokende salatpotet, som nekter å la seg knuse. Beate, Pimpernel og Kerrs Pink er alle melne og fungerer. Mye av sennepsoljen i norske butikker er merket kun til utvortes bruk på grunn av erukasyre, så se etter flasker fra indiske butikker som sier «edible» eller «kachi ghani»; dette er den ene oppskriften der ingen annen olje duger. Vanlig norsk kepaløk er mild og søt, så en rødløk ligger nærmere den sterke løken retten er laget for.'}}],
+            no:'Bruk en melen potet og rødløk eller annen skarp løk. Kjøp bare sennepsolje som er tydelig merket for matbruk; «kachi ghani» beskriver pressing og er ikke alene en spiselighetsmerking.'}}],
   variations:[
     {title:{en:'Bengena pitika, with aubergine', no:'Bengena pitika, med aubergine'},
      body:{en:'Roast a whole aubergine directly over a gas flame or under a hot grill until the skin blackens and the inside collapses. Peel it, mash it and dress it exactly as above. It is smokier and looser than the potato version.',
            no:'Svi en hel aubergine rett over gassflammen eller under sterk grill til skallet blir svart og innmaten faller sammen. Skrell den, mos den og smak den til nøyaktig som over. Den blir mer røykpreget og løsere enn potetutgaven.'}},
     {title:{en:'Masor pitika, with fish', no:'Masor pitika, med fisk'},
-     body:{en:'A piece of fried fish, boned and flaked, is worked into the potato with everything else. It turns a side dish into most of a meal, and it is what an Assamese household does with yesterday’s leftovers.',
-           no:'Et stykke stekt fisk, renset for bein og delt i flak, arbeides inn i poteten sammen med alt det andre. Da blir tilbehøret nesten et helt måltid, og det er slik en husholdning i Assam bruker gårsdagens rester.'}},
+      body:{en:'Flake freshly cooked fish, or properly refrigerated leftover fish, into the potato. Serve promptly and refrigerate leftovers within two hours.',
+            no:'Del nystekt fisk, eller fiskerester som har vært oppbevart riktig i kjøleskap, i poteten. Server raskt og sett rester kaldt innen to timer.'}},
     {title:{en:'With burnt garlic', no:'Med svidd hvitløk'},
      body:{en:'Some households throw a few unpeeled cloves into the embers or a dry pan until they blacken, then squeeze the soft insides into the mash. It gives a sweetness underneath the mustard that the plain version does not have.',
            no:'Noen husholdninger kaster et par uskrelte fedd i glørne eller i en tørr panne til de svartner, og klemmer så det myke innholdet ned i mosen. Det gir en sødme under sennepen som den enkle utgaven ikke har.'}}]
@@ -223,19 +223,19 @@ window.RECIPES['IN-NEA'] = [
   id:'smoked-pork-bamboo', dish:'Smoked pork with bamboo', course:'main', lesson:3, serves:4, veg:false,
   time:{prep:20, cook:95}, hero:'smoked-pork', tags:['nagaland','pork','fermented'],
   title:{en:'Smoked pork with bamboo shoot', no:'Røykt svinekjøtt med bambusskudd'},
-  blurb:{en:'Smoked pork, fermented bamboo shoot, chilli, ginger and water. Nothing else goes in, and nothing needs to.',
-         no:'Røykt svinekjøtt, gjærede bambusskudd, chili, ingefær og vann. Ikke noe mer går i, og ikke noe mer trengs.'},
+  blurb:{en:'One adaptation of smoked pork with fermented bamboo shoot, chilli, ginger and water.',
+         no:'Én tilpasning av røykt svinekjøtt med gjærede bambusskudd, chili, ingefær og vann.'},
   heroCaption:{en:'Naga smoked pork with bamboo shoot, served with red rice and boiled greens.',
                no:'Røykt svinekjøtt fra Nagaland med bambusskudd, servert med rød ris og kokte bladgrønnsaker.'},
   goesWith:[{en:'Plain rice, and a boiled green vegetable', no:'Vanlig ris og en kokt grønn grønnsak'},
             {en:'A raw chilli on the side of the plate', no:'En rå chili på kanten av tallerkenen'}],
   headnote:{
-    en:`<p>Naga smoked pork is a larder ingredient rather than a shop one. Slabs of it hang over the hearth for weeks, dry hard in the smoke and come down almost black, and nothing sold in Norway is made that way. What Norway does have is properly smoked pork — hock, belly and shoulder — and it is close enough to build the dish on, as long as you know where it differs.</p>
-<p>It differs in salt. Naga pork is barely salted, because the smoke is doing the preserving. Norwegian smoked pork is brine-cured first, so it is salty right through, and a pot built on it needs no added salt and often needs a soak. Taste before you season rather than after.</p>
-<p>Everything else is simple to the point of severity. Smoked pork, fermented bamboo shoot, dried chilli, ginger and water go into a pan and simmer until the meat gives. There is no masala, no tomato, no onion paste and nothing to thicken it. The bamboo supplies the sourness that cuts the fat, and the smoke supplies everything else.</p>`,
-    no:`<p>Røykt svinekjøtt fra Nagaland er en råvare fra spiskammeret og ikke fra en butikk. Store stykker av det henger over ildstedet i ukevis, tørker hardt i røyken og kommer ned nesten svart, og ingenting som selges i Norge, er laget slik. Norge har derimot ordentlig røykt svinekjøtt, både knoke, sideflesk og bog, og det er nært nok til å bygge retten på så lenge du vet hvor forskjellen ligger.</p>
-<p>Forskjellen er saltet. Svinekjøttet i Nagaland er knapt saltet, for det er røyken som konserverer. Norsk røykt svinekjøtt er saltet i lake først, så det er salt tvers igjennom, og en gryte bygd på det trenger ikke salt og trenger ofte en utvanning. Smak før du salter, ikke etter.</p>
-<p>Alt annet er enkelt på grensen til det strenge. Røykt svinekjøtt, gjærede bambusskudd, tørket chili, ingefær og vann går i gryta og småkoker til kjøttet gir etter. Det er ingen masala, ingen tomat, ingen løkpasta og ingenting som jevner. Bambusen gir syren som skjærer gjennom fettet, og røyken gir resten.</p>`},
+    en:`<p>Hearth-smoked pork in Nagaland differs by community and household. A packaged smoked hock, belly or shoulder is an adaptation: it may be brine-cured, more heavily salted and stored under different conditions. Follow its label and refrigerate it as directed.</p>
+<p>Test a small piece before seasoning the pot. If the meat is very salty, a cold-water soak can reduce surface salt, but it will not make every cured product equivalent to lightly salted hearth-smoked pork.</p>
+<p>This course version simmers smoked pork with prepared fermented bamboo shoot, chilli, ginger and water. The short list keeps smoke and fermentation clear, while other Naga pork dishes use different herbs, ferments and techniques.</p>`,
+    no:`<p>Svinekjøtt røykt over ildsted i Nagaland varierer med samfunn og husholdning. En pakket røykt knoke, buk eller bog er en tilpasning: den kan være lakesaltet, saltere og lagret på en annen måte. Følg etiketten og oppbevar kjøttet kaldt som angitt.</p>
+<p>Test en liten bit før gryta saltes. Er kjøttet svært salt, kan bløtlegging i kaldt vann redusere overflatesalt, men det gjør ikke ethvert speket produkt likt lettsaltet kjøtt fra et ildsted.</p>
+<p>Kursutgaven småkoker røykt svin med ferdig tilberedte gjærede bambusskudd, chili, ingefær og vann. Den korte lista holder røyk og gjæring tydelige, mens andre naga-retter med svin bruker andre urter, gjæringer og teknikker.</p>`},
   ingredients:[
    {group:{en:'', no:''}, items:[
     {q:900, u:'g', n:{en:'smoked pork', no:'røykt svinekjøtt'}, note:{en:'hock or belly, on the bone, in large pieces', no:'knoke eller sideflesk, med bein, i store biter'}},
@@ -258,30 +258,30 @@ window.RECIPES['IN-NEA'] = [
      no:'Ha i ingefæren og de knekte tørkede chiliene, legg på lokk og la gryta stå på lavest mulig varme i en time.'},
     {en:'Check the meat. It should give under a spoon and still hold together. If it does not, give it another twenty minutes.',
      no:'Sjekk kjøttet. Det skal gi etter for en skje og likevel henge sammen. Gjør det ikke det, gi det tjue minutter til.'},
-    {en:'Drain the bamboo shoot and keep its liquid. Rinse the shoot once if the smell is very strong, and not at all if you want the pot sour.',
-     no:'Hell av bambusskuddene og ta vare på laken. Skyll skuddene én gang hvis lukten er svært kraftig, og ikke i det hele tatt hvis du vil ha gryta sur.'},
+    {en:'Drain the prepared fermented bamboo shoot, following its label. Keep a little packing liquid only if the product says it may be used in cooking.',
+     no:'Hell av de ferdig tilberedte gjærede bambusskuddene og følg etiketten. Ta bare vare på litt lake dersom produktet sier at den kan brukes i mat.'},
     {en:'Stir the bamboo shoot in and simmer uncovered for twenty minutes, so its sourness moves out into the broth.',
      no:'Rør inn bambusskuddene og la det småkoke uten lokk i tjue minutter, så syren flytter seg ut i kraften.'},
-    {en:'Taste. Add a little of the bamboo liquid if you want it sharper, and salt only if the pork has not supplied it already.',
-     no:'Smak. Ha i litt av laken fra bambusskuddene hvis du vil ha det skarpere, og salt bare hvis svinekjøttet ikke har gjort jobben alt.'},
+    {en:'Taste. If the product label permits cooking with its packing liquid, add a little for more sourness. Add salt only if the pork has not supplied enough.',
+     no:'Smak. Hvis etiketten tillater at laken brukes i mat, kan du ha i litt for mer syre. Salt bare hvis svinekjøttet ikke har gitt nok.'},
     {en:'Add the slit green chillies and cook five minutes more. The broth should have reduced by about half and turned cloudy.',
      no:'Ha i de flekkede grønne chiliene og la det koke fem minutter til. Kraften skal ha kokt inn til omtrent halvparten og blitt grumsete.'},
     {en:'Leave any loose fat on the surface, because it carries the smoke. Scatter the spring onion over off the heat and serve with plain rice.',
      no:'La fettet som ligger på overflaten, bli liggende, for det bærer røyksmaken. Strø vårløken over med gryta av platen, og server med vanlig ris.'}],
   notes:[
-    {title:{en:'Why there is nothing else in the pot', no:'Hvorfor det ikke er noe annet i gryta'},
-     body:{en:'Smoke and ferment are both finished flavours, built over weeks before the cooking starts. A masala added on top does not layer with them, it argues with them. This is subtraction cooking, and getting used to how few things go into the pan is most of what the region has to teach.',
-           no:'Røyk og gjæring er begge ferdige smaker, bygd opp over uker før matlagingen begynner. En masala lagt oppå legger seg ikke i lag sammen med dem, den krangler med dem. Dette er matlaging ved å trekke fra, og det å venne seg til hvor få ting som går i pannen, er det meste av det regionen har å lære bort.'}},
+    {title:{en:'Why this version keeps a short ingredient list', no:'Hvorfor denne utgaven har en kort råvareliste'},
+     body:{en:'Smoke and fermentation already provide strong aromas, so this recipe keeps the seasoning restrained. It is one construction among many and does not define Naga cooking as a whole.',
+           no:'Røyk og gjæring gir allerede kraftige aromaer, så denne oppskriften holder krydringen dempet. Den er én oppbygning blant mange og definerer ikke naga-mat som helhet.'}},
     {title:{en:'What fermented bamboo does that lemon cannot', no:'Hva gjærede bambusskudd gjør som sitron ikke kan'},
-     body:{en:'It is sour and savoury in the same spoonful: lactic acid from the ferment cuts the fat, and the amino acids the ferment has built up give the broth depth. A squeeze of lemon does the first half of that job and none of the second, which is why the pot tastes thin without it.',
-           no:'Den er sur og smaksrik i samme skje. Melkesyren fra gjæringen skjærer gjennom fettet, og aminosyrene gjæringen har bygd opp, gir kraften dybde. En skvett sitron gjør den første halvdelen av jobben og ingenting av den andre, og derfor smaker gryta tynn uten bambusen.'}},
+     body:{en:'Fermented bamboo contributes both acidity and its own fermented aroma. Lemon can add acidity, but it cannot reproduce that aroma, so it makes a different adaptation.',
+           no:'Gjærede bambusskudd bidrar både med syre og sin egen gjæringsaroma. Sitron kan gi syre, men gjenskaper ikke aromaen og gir derfor en annen tilpasning.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Avoid anything glazed or sugared, because a sweet cure fights the ferment and leaves the broth tasting of ham.',
            no:'Hold deg unna alt som er glasert eller sukret, for sukkeret i laken slåss mot gjæringen og gir kraften smak av skinke. Røykt svineknoke og røykt sideflesk finnes i de fleste dagligvarebutikker, og en polsk eller baltisk butikk har som regel en tørrere og mindre søt utgave. Gjærede bambusskudd får du i asiatiske butikker, gjerne merket «sour bamboo shoot» eller thailandsk «naw mai dong», på glass og ofte strimlet i lake. Bambusskudd på boks fra vanlig dagligvare er ikke gjæret og syrner ikke gryta i det hele tatt.'}}],
   variations:[
     {title:{en:'With axone instead', no:'Med axone i stedet'},
-     body:{en:'Fry a spoonful of fermented soybean paste in a little fat at the start and halve the bamboo. The pot turns deeper and less sour, and that combination is as close as Nagaland gets to a national dish.',
-           no:'Stek en skje gjæret soyapasta i litt fett i starten og halver mengden bambus. Gryta blir dypere og mindre sur, og den kombinasjonen er så nær en nasjonalrett som Nagaland kommer.'}},
+     body:{en:'Cook a spoonful of an established fermented soybean product with a little fat at the start and halve the bamboo. The pot becomes more savoury and less sour; label the substitution if axone itself is unavailable.',
+           no:'Kok en skje etablert gjæret soyaprodukt i litt fett i starten og halver bambusen. Gryta blir mer umamirik og mindre sur; merk erstatningen tydelig dersom axone ikke er tilgjengelig.'}},
     {title:{en:'With unsmoked pork', no:'Med ferskt svinekjøtt'},
      body:{en:'Brown fresh belly pork hard in a dry pan before the water goes in. You lose the smoke, so it becomes a plain sour pork stew rather than this dish, and it is honest and good on its own terms.',
            no:'Brun ferskt sideflesk hardt i en tørr panne før vannet går i. Røyksmaken forsvinner, så det blir en enkel sur svinegryte i stedet for denne retten, og den er ærlig og god på sine egne premisser.'}},
@@ -294,19 +294,19 @@ window.RECIPES['IN-NEA'] = [
   id:'eromba', dish:'Eromba', course:'side', lesson:3, serves:4, veg:false,
   time:{prep:15, cook:30}, hero:'eromba', tags:['manipur','fermented fish','chilli'],
   title:{en:'Eromba', no:'Eromba'},
-  blurb:{en:'Boiled vegetables mashed with roasted fermented fish and dried chilli, and eaten at room temperature.',
-         no:'Kokte grønnsaker most sammen med ristet gjæret fisk og tørket chili, og spist ved romtemperatur.'},
+  blurb:{en:'Boiled vegetables mashed with cooked fermented fish paste and toasted dried chilli, then served promptly.',
+         no:'Kokte grønnsaker most med varmebehandlet gjæret fiskepasta og ristet tørket chili, servert med en gang.'},
   heroCaption:{en:'Eromba made with yongchak, the tree bean, which divides opinion in Manipur as sharply as it does outside it.',
                no:'Eromba laget med yongchak, trebønnen som deler folk i to i Manipur like sterkt som utenfor Manipur.'},
   goesWith:[{en:'A mound of plain rice', no:'En haug vanlig ris'},
             {en:'A clear vegetable broth, if you want a full meal', no:'En klar grønnsakkraft, hvis du vil ha et helt måltid'}],
   headnote:{
-    en:`<p>Eromba is boiled vegetables mashed with roasted fermented fish and dried chilli, served cool, and it is the everyday dish of the Manipur valley. It looks like a vegetable dish and it is not one. The ngari is fermented fish, and without it there is no eromba, only mashed potato with chilli in it.</p>
-<p>Ngari is not sold in Norway. It is small carp, sun-dried and packed into a sealed earthen pot for months, and nothing in a Norwegian shop is made that way. Thai or Burmese fermented fish paste is the closest thing that is actually on a shelf here, and the recipe is written for that, with a fallback further down for a kitchen that has neither.</p>
-<p>The chilli is the other half of the dish. A Meitei eromba is properly hot, and the heat comes from dried chillies roasted in a dry pan until they blacken at the edges, not from fresh ones. Open a window before you start, because the smoke will make everyone in the room cough, which is normal and only funny the first time.</p>`,
-    no:`<p>Eromba er kokte grønnsaker most sammen med ristet gjæret fisk og tørket chili, servert temperert, og retten er hverdagsmat i dalen i Manipur. Den ser ut som en grønnsakrett, men er det ikke. Ngari er gjæret fisk, og uten den finnes det ingen eromba, bare potetmos med chili i.</p>
-<p>Ngari selges ikke i Norge. Det er små karpefisker, soltørket og pakket ned i en forseglet leirkrukke i månedsvis, og ingenting i en norsk butikk er laget slik. Thailandsk eller burmesisk gjæret fiskepasta er det nærmeste som faktisk står på en hylle her, og oppskriften er skrevet for den, med en nødløsning lenger nede for et kjøkken som ikke har noen av delene.</p>
-<p>Chilien er den andre halvdelen av retten. En eromba hos meiteiene er ordentlig sterk, og styrken kommer fra tørket chili ristet i en tørr panne til kantene svartner, ikke fra fersk. Åpne vinduet før du begynner, for røyken får alle i rommet til å hoste, og det er normalt og bare morsomt første gang.</p>`},
+    en:`<p>Eromba is a Meitei preparation of cooked vegetables mashed with chilli and often ngari, a fermented fish product. Recipes vary in vegetables, herbs, heat and the way the fish is handled.</p>
+<p>This course uses a packaged fermented fish paste as a clearly named adaptation. Choose a product sold for cooking, follow its storage directions and heat it as instructed rather than attempting a home fish fermentation.</p>
+<p>Toast dried chillies gently until aromatic without burning them. Keep the room ventilated and avoid inhaling chilli smoke. Serve the finished dish promptly, or refrigerate it after cooling.</p>`,
+    no:`<p>Eromba er en meitei-rett av kokte grønnsaker most med chili og ofte ngari, et gjæret fiskeprodukt. Oppskriftene varierer i grønnsaker, urter, styrke og behandling av fisken.</p>
+<p>Kurset bruker pakket gjæret fiskepasta som en tydelig merket tilpasning. Velg et produkt som selges til matlaging, følg lagringsrådene og varmebehandle det som angitt framfor å forsøke fiskegjæring hjemme.</p>
+<p>Rist tørket chili forsiktig til den dufter uten å svi den. Luft rommet og unngå å puste inn chilirøyk. Server retten raskt, eller sett den i kjøleskapet etter avkjøling.</p>`},
   ingredients:[
    {group:{en:'', no:''}, items:[
     {q:500, u:'g', n:{en:'floury potatoes', no:'melne poteter'}, note:{en:'peeled, in chunks', no:'skrelt, i biter'}},
@@ -326,8 +326,8 @@ window.RECIPES['IN-NEA'] = [
      no:'Ha i bønnene og ertene de siste fem minuttene, så de blir gjennomkokte og beholder fargen.'},
     {en:'Drain everything, keeping a cupful of the cooking water back in a jug.',
      no:'Hell av alt, men ta vare på litt av kokevannet i en mugge.'},
-    {en:'Roast the dried chillies in a dry pan over a medium flame, turning them, until they darken at the edges and smell toasted.',
-     no:'Rist de tørkede chiliene i en tørr panne på middels varme, og snu på dem til kantene mørkner og de lukter ristet.'},
+    {en:'Toast the dried chillies in a dry pan over medium-low heat, turning them, until aromatic but not blackened. Ventilate the room and avoid the smoke.',
+     no:'Rist de tørkede chiliene i en tørr panne på middels lav varme til de dufter uten å bli svarte. Luft rommet og unngå røyken.'},
     {en:'Roast the fermented fish paste in the same pan for a minute, pressing it flat, until the smell turns from sharp to grilled.',
      no:'Rist den gjærede fiskepastaen i den samme pannen i et minutt, press den flat, til lukten går fra skarp til grillet.'},
     {en:'Pound the chillies and the fish together in a mortar with a pinch of salt, until they make a coarse dark paste.',
@@ -338,12 +338,12 @@ window.RECIPES['IN-NEA'] = [
      no:'Arbeid chili- og fiskepastaen inn i grønnsakene med hendene, og spe med litt av kokevannet hvis blandingen er for stiv.'},
     {en:'Fold in the spring onion and the coriander raw, and taste for salt. The fish is salty, so it may need none at all.',
      no:'Vend inn vårløken og korianderen rå, og smak til med salt. Fisken er salt, så det trengs kanskje ikke i det hele tatt.'},
-    {en:'Shape it into a mound and let it stand until it is no warmer than the room. Eromba is not served hot.',
-     no:'Form massen til en haug og la den stå til den ikke er varmere enn rommet. Eromba serveres ikke varm.'}],
+    {en:'Shape it into a mound and serve once it is comfortably warm. Refrigerate any leftovers within two hours.',
+     no:'Form massen til en haug og server når den er behagelig varm. Sett rester i kjøleskapet innen to timer.'}],
   notes:[
-    {title:{en:'Why it is served cool', no:'Hvorfor den serveres temperert'},
-     body:{en:'Heat drives the volatile part of a ferment off, and it wilts the raw herbs folded in at the end. Letting the dish come down to room temperature holds both in place, so the fermented fish stays forward instead of steaming away and the spring onion keeps its bite.',
-           no:'Varme driver den flyktige delen av en gjæring bort, og de rå urtene som vendes inn til slutt, blir slappe. Lar du retten falle til romtemperatur, blir begge deler værende, så den gjærede fisken holder seg framme i stedet for å dampe bort, og vårløken beholder bittet.'}},
+    {title:{en:'Why it rests briefly', no:'Hvorfor den hviler kort'},
+     body:{en:'A short rest keeps the spring onion and herbs crisp while making the mash comfortable to eat. It is a serving step, not permission to hold cooked vegetables and fish at room temperature for hours.',
+           no:'En kort hvile beholder bittet i vårløk og urter og gjør mosen behagelig å spise. Det er et serveringssteg, ikke tillatelse til å la kokte grønnsaker og fisk stå ute i timevis.'}},
     {title:{en:'Why the chillies are roasted dry', no:'Hvorfor chiliene ristes tørre'},
      body:{en:'Dry heat drives water out and concentrates what is left, and it leaves the pieces brittle enough to break into uneven flakes in the mortar. Frying them in oil would dissolve the heat and spread it evenly through the dish, and an eromba is meant to be uneven, so that one mouthful is fierce and the next is not.',
            no:'Tørr varme driver ut vannet og konsentrerer det som er igjen, og den gjør bitene sprø nok til å brekke i ujevne flak i morteren. Steker du dem i olje, løses styrken opp og fordeler seg jevnt i hele retten, og en eromba skal være ujevn, slik at én munnfull er hissig og den neste ikke er det.'}},
@@ -355,11 +355,11 @@ window.RECIPES['IN-NEA'] = [
      body:{en:'The version people argue about uses the tree bean, boiled with the potatoes. Its smell is sulphurous and carries through a house, and frozen petai from a Thai shop is the same bean under another name.',
            no:'Utgaven folk krangler om, bruker trebønnen, kokt sammen med potetene. Lukten er svovelaktig og bærer gjennom hele huset, og frossen petai fra en thailandsk butikk er den samme bønnen under et annet navn.'}},
     {title:{en:'Soibum eromba, with bamboo', no:'Soibum eromba, med bambus'},
-     body:{en:'A spoonful of fermented bamboo shoot mashed in with everything else makes the dish sour as well as hot. It is the commonest version in Imphal and the one to try second.',
-           no:'En skje gjærede bambusskudd most inn sammen med alt det andre gjør retten sur i tillegg til sterk. Det er den vanligste utgaven i Imphal og den man bør prøve som nummer to.'}},
-    {title:{en:'Without the fish, honestly', no:'Uten fisken, sagt rett ut'},
-     body:{en:'Potato, roasted chilli and raw herbs make a good dish and a genuinely vegetarian one. It is not eromba, and a Meitei cook would not call it that, so give it another name and enjoy it on its own terms.',
-           no:'Potet, ristet chili og rå urter gir en god rett, og en som virkelig er vegetarisk. Den er ikke eromba, og en kokk fra meiteiene ville ikke kalt den det, så gi den et annet navn og nyt den på sine egne premisser.'}}]
+     body:{en:'A spoonful of prepared fermented bamboo shoot mashed in with the vegetables makes this variation sour as well as hot. Follow the product label for storage and cooking.',
+           no:'En skje ferdig tilberedte gjærede bambusskudd most inn med grønnsakene gjør denne variasjonen sur i tillegg til sterk. Følg produktets råd om lagring og tilberedning.'}},
+    {title:{en:'A vegetarian adaptation', no:'En vegetarisk tilpasning'},
+     body:{en:'Omit the fermented fish and increase the herbs or add prepared fermented bamboo for savoury depth. Label the result as an adaptation because the flavour changes substantially.',
+           no:'Sløyf den gjærede fisken og bruk mer urter eller ferdig tilberedte gjærede bambusskudd for mer smak. Merk resultatet som en tilpasning fordi smaken endres vesentlig.'}}]
 }
 
 ];

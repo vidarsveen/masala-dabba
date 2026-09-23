@@ -13,7 +13,7 @@ Object.assign(window.SPICE, {
  'IN-KER|Cardamom': {
    aroma: 'Eucalyptus and lemon over something resinous. A pod crushed between the fingers smells almost medicinal.',
    flavour: 'Cool and sweet at first, then faintly camphorous and drying. Overdo it and a dish tastes of soap.',
-   does: 'Perfumes rather than seasons. In Kerala it works in savoury dishes far more often than in sweets.',
+   does: 'Adds a cool, resinous perfume to selected savoury dishes, sweets, tea and spice blends.',
    when: 'Whole pods bruised and dropped into the fat at the start; ground seed only in sweets and in masalas.',
    swap: 'None that is honest. Leave it out rather than use the pre-ground powder, which has lost its oil.'
  },
@@ -27,21 +27,21 @@ Object.assign(window.SPICE, {
  'IN-KER|Curry leaf': {
    aroma: 'Citrus peel and toasted nuts, released only when the leaf hits hot fat.',
    flavour: 'Savoury and slightly bitter, more a background than a flavour you can name in the finished dish.',
-   does: 'Defines the smell of a south Indian kitchen. Almost every tempering ends with a handful thrown into the oil.',
+   does: 'Adds a recognisable citrus-and-toasted-nut aroma to many southern Indian temperings.',
    when: 'Into hot oil for a few seconds until it crackles, at the start or as a final tempering poured over.',
    swap: 'None. Dried leaves taste of nothing, so leave them out and accept the dish will be different.'
  },
  'IN-KER|Coconut oil': {
    aroma: 'Unmistakably of coconut when cold-pressed, and almost neutral when refined.',
    flavour: 'Sweet and faintly nutty. It coats the mouth more than a seed oil does.',
-   does: 'It is the frying fat, and in many houses a spoonful goes in raw at the end the way olive oil finishes a soup.',
+   does: 'Serves as a frying fat and, in some households and dishes, an aromatic finishing oil.',
    when: 'Throughout for frying; raw over avial, thoran and steamed dishes just before serving.',
    swap: 'A neutral oil fries perfectly well, but the raw finishing spoonful has no substitute at all.'
  },
  'IN-KER|Kudampuli': {
    aroma: 'Smoky and faintly sour, like a dried fruit that has been near a fire, which is exactly what it is.',
    flavour: 'Clean, sharp acidity with no sweetness. It tastes nothing like tamarind and is not used like it.',
-   does: 'Sours fish curry, firms the flesh of the fish, and preserves the curry for two or three days without a fridge.',
+   does: 'Sours many Kerala fish curries and adds a smoky-fruity aroma; it does not replace refrigeration.',
    when: 'Rinsed, then dropped in whole near the start so it has time to give up its acid.',
    swap: 'Tamarind changes the dish but works; a piece of dried kokum is closer. Lemon is a last resort.'
  }

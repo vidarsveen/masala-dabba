@@ -118,8 +118,8 @@ window.RECIPES['IN-KAR'] = [
     {u:'', n:{en:'oil for the pan', no:'olje til pannen'}, scale:'none'},
    ]}],
   steps:[
-    {en:'Rinse the rice until the water runs clear, then leave it to soak in cold water for at least four hours or overnight.',
-     no:'Skyll risen til vannet er klart, og la den så ligge i kaldt vann i minst fire timer eller over natten.'},
+    {en:'Rinse the rice until the water runs clear, then soak it in cold water for at least four hours. If soaking overnight, keep it refrigerated.',
+     no:'Skyll risen til vannet er klart, og legg den i kaldt vann i minst fire timer. Skal den ligge over natten, setter du den i kjøleskapet.'},
     {en:'Drain it and grind it with the coconut and just enough fresh water to keep the blades moving, until you cannot feel any grit between two fingers.',
      no:'Hell av vannet og mal risen med kokosen og akkurat nok friskt vann til at knivene går rundt, helt til du ikke kjenner korn mellom to fingre.'},
     {en:'Let the batter down with the rest of the water and salt it. It should run off the ladle in a stream and leave no film behind.',
@@ -161,18 +161,18 @@ window.RECIPES['IN-KAR'] = [
   id:'ragi-mudde', dish:'Ragi mudde', course:'main', lesson:2, serves:4, veg:true,
   time:{prep:10, cook:35}, hero:'ragi-mudde', tags:['millet','saaru','interior'],
   title:{en:'Ragi mudde, with a greens saaru', no:'Ragi mudde, med saaru av bladgrønnsaker'},
-  blurb:{en:'A ball of stiff finger-millet dough with a thin peppery stew, eaten in lumps that are swallowed rather than chewed.',
-         no:'En ball av stiv deig av fingerhirse med en tynn, pepret kraft, spist i klumper som svelges i stedet for å tygges.'},
+  blurb:{en:'A ball of stiff finger-millet dough served with a thin peppery stew.',
+         no:'En ball av stiv deig av fingerhirse servert med en tynn, pepret kraft.'},
   heroCaption:{en:'One ball a person, and a bowl of saaru thin enough to pour. The saaru is the meal; the ball carries it.',
                no:'Én ball per person og en skål saaru som er tynn nok til å helles. Saaruen er selve måltidet, og ballen bærer den.'},
   goesWith:[{en:'Buttermilk seasoned with curry leaf and ginger', no:'Kjernemelk krydret med karriblad og ingefær'},
             {en:'A dry vegetable palya on the side', no:'En tørr palya av grønnsaker ved siden av'}],
   headnote:{
     en:`<p>This is the dish the region sheet opens with, and it is the staple of the dry districts of the Karnataka interior. Finger millet is milled whole, bran and all, so the flour is brown; cooked with water into a stiff dough it goes a deep purple-grey. It is shaped into a ball while it is still almost too hot to handle.</p>
-<p>You do not chew it. A walnut-sized lump is pinched off, dented with the thumb, rolled through the saaru until it is coated, and swallowed whole. That is not a quirk to be indulged: chewed ragi dough turns into a sticky paste that clings to the roof of the mouth and tastes of very little, while a coated lump goes down carrying the flavour of the liquid with it. It also means the saaru has to be genuinely thin, because it has to run into the dough rather than sit on it.</p>
+<p>Pinch off a small piece, dent it with the thumb and roll it through the saaru. Some experienced diners swallow small coated pieces with little chewing, but learners should choose a comfortable size and chew as needed. The saaru stays thin so it can moisten the dense dough.</p>
 <p>The proportion of flour to water is the only real variable, and it is worth getting close first time. Too much water and the ball will not hold; too little and it is dry and crumbly. Start at the ratio below, and remember that the dough firms up noticeably in the two minutes after it leaves the pot.</p>`,
     no:`<p>Dette er retten regionsiden åpner med, og den er hverdagsmaten i de tørre distriktene i innlandet i Karnataka. Fingerhirse males hel, med kli og alt, så melet er brunt, og kokes det med vann til en stiv deig, blir den dypt gråfiolett. Den formes til en ball mens den ennå er nesten for varm til å holde i.</p>
-<p>Du tygger den ikke. En klump på størrelse med en valnøtt klypes av, får en grop med tommelen, rulles gjennom saaruen til den er dekket, og svelges hel. Dette er ikke en særhet du bare må finne deg i. Tygd deig av ragi blir en klebrig masse som setter seg i ganen og smaker svært lite, mens en klump som er dekket av saaru, glir ned og tar smaken av væsken med seg. Det betyr også at saaruen må være virkelig tynn, for den skal renne inn i deigen og ikke bli liggende oppå.</p>
+<p>Klyp av en liten bit, trykk en grop i den med tommelen og rull den gjennom saaruen. Noen erfarne spisere svelger små biter med lite tygging, men nye spisere bør velge en behagelig størrelse og tygge etter behov. Saaruen er tynn slik at den kan fukte den tette deigen.</p>
 <p>Forholdet mellom mel og vann er den eneste virkelige variabelen, og det lønner seg å treffe nokså godt første gang. Med for mye vann holder ballen ikke sammen, og med for lite blir den tørr og smuldrete. Begynn med forholdet nedenfor, og husk at deigen stivner merkbart de to første minuttene etter at den er tatt ut av gryten.</p>`},
   ingredients:[
    {group:{en:'The mudde', no:'Mudde'}, items:[
@@ -216,16 +216,16 @@ window.RECIPES['IN-KAR'] = [
      no:'Nå skal du arbeide deigen. Press den mot gryteveggen med en trepinne eller skaftet på en sleiv og brett den over seg selv, om og om igjen, til det ikke er tørt mel igjen og massen slipper gryten rent.'},
     {en:'Wet your hands and a bowl in cold water, lift out a portion and roll it into a smooth ball. Repeat for each person and keep the balls covered.',
      no:'Fukt hendene og en bolle i kaldt vann, løft ut en porsjon og rull den til en glatt ball. Gjenta for hver person, og hold ballene tildekket.'},
-    {en:'Serve one ball each with a bowl of the hot saaru. Pinch off a lump, dent it with your thumb, roll it through the saaru and swallow it whole.',
-     no:'Server én ball til hver med en skål varm saaru. Klyp av en klump, trykk en grop i den med tommelen, rull den gjennom saaruen og svelg den hel.'},
+    {en:'Serve one ball each with a bowl of hot saaru. Pinch off a small piece, dent it with your thumb, coat it in saaru and chew as needed.',
+     no:'Server én ball til hver med en skål varm saaru. Klyp av en liten bit, trykk en grop i den med tommelen, dekk den med saaru og tygg etter behov.'},
   ],
   notes:[
     {title:{en:'Why the first handful is slaked in cold water', no:'Hvorfor den første neven røres ut i kaldt vann'},
      body:{en:'Ragi flour is very fine and hydrates instantly, so flour tipped straight into boiling water seizes on the outside of each lump and stays raw inside. A thin slurry stirred in first thickens the water slightly, and the rest of the flour then meets a liquid it cannot flash-set against.',
            no:'Ragimel er svært fint og trekker til seg vann med én gang, så mel som helles rett i kokende vann, stivner på utsiden av hver klump og blir rått inni. Rører du inn en tynn utrøring først, tykner vannet litt, og resten av melet møter da en væske det ikke kan stivne mot i samme øyeblikk.'}},
     {title:{en:'Why the saaru has to be thin', no:'Hvorfor saaruen må være tynn'},
-     body:{en:'The lump is swallowed, so everything you are going to taste has to be on the outside of it when it goes down. A thick stew coats the lump in a layer that barely registers; a thin one soaks into the dented surface and carries. If your saaru holds its shape on a spoon, add water until it does not.',
-           no:'Klumpen svelges, så alt du skal smake, må ligge utenpå den når den går ned. En tykk saaru legger seg som et lag du knapt merker, mens en tynn trekker inn i den gropete overflaten og bærer smaken. Holder saaruen formen på en skje, spe den med vann til den ikke gjør det.'}},
+     body:{en:'A thin saaru moistens the dense dough and carries seasoning into the dented surface. If it holds its shape on a spoon, add water until it pours freely.',
+           no:'En tynn saaru fukter den tette deigen og fører krydder inn i den gropete overflaten. Holder den formen på en skje, sper du med vann til den flyter lett.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Indian shops in Oslo sell ragi flour under ragi, nachni or finger millet flour. Buy the plain flour and not ragi malt, which is sprouted and sweetened for a drink and will not make a dough. Whole millet flour carries its own oil and goes rancid within a few months, so buy a small bag and keep it in the freezer. Spinach stands in perfectly for the amaranth leaves used at home.',
            no:'Indiske butikker i Oslo selger ragimel under navnene ragi, nachni eller finger millet flour. Kjøp det rene melet og ikke ragi malt, som er spiret og søtet til drikke og ikke lar seg koke til deig. Mel av hele hirsekorn har sin egen olje i seg og harskner i løpet av noen måneder, så kjøp en liten pose og oppbevar den i fryseren. Spinat er en utmerket erstatning for amarantbladene som brukes i India.'}}],
@@ -252,10 +252,10 @@ window.RECIPES['IN-KAR'] = [
   goesWith:[{en:'Coconut chutney and a bowl of sambar', no:'Kokoschutney og en skål sambar'},
             {en:'Filter coffee afterwards', no:'Filterkaffe etterpå'}],
   headnote:{
-    en:`<p>The batter is not what makes this dish. Rice and urad dal ground separately and left overnight is the common inheritance of the whole south, and Tamil Nadu's module sets out why urad is the only lentil that will trap the gas and why the rice is parboiled. Karnataka uses the same batter, and nobody here claims otherwise.</p>
+    en:`<p>The batter is not what makes this dish. Rice and urad dal ground separately and left overnight is shared across much of the south. Tamil Nadu's module explains how urad contributes proteins and polysaccharides that help this batter hold fermentation gas, and why parboiled rice is useful. Karnataka uses the same basic method in this version.</p>
 <p>What Mysore adds is a smear of raw chutney. Byadgi chillies are soaked soft and ground with garlic, roasted gram and a little coconut into a thick red paste, and a spoonful of it goes onto the dosa on the griddle as soon as the batter has set, before the potato. Butter goes on rather than oil. When the dosa is folded, the chilli is sealed between the crisp surface and the soft filling, and you meet it in the first bite whether you meant to or not.</p>
 <p>That is the whole difference, and it is a real one. A plain masala dosa is deliberately mild and leaves the heat to the chutney in the bowl beside it. This version makes the decision for you and puts it somewhere you cannot scrape it off.</p>`,
-    no:`<p>Det særegne ved denne retten ligger ikke i røren. Røre av ris og urad dal som males hver for seg og står over natten, er felleseie i hele sør, og modulen om Tamil Nadu forklarer hvorfor urad er den eneste linsen som fanger gassen, og hvorfor risen er parboiled. Karnataka bruker den samme røren, og ingen her påstår noe annet.</p>
+    no:`<p>Det særegne ved denne retten ligger ikke i røren. Røre av ris og urad dal som males hver for seg og står over natten, brukes i store deler av Sør-India. Modulen om Tamil Nadu forklarer hvordan proteiner og polysakkarider i urad hjelper røren å holde på gassen fra gjæringen, og hvorfor parboiled ris er nyttig. Denne utgaven fra Karnataka bruker den samme grunnmetoden.</p>
 <p>Mysore legger til et strøk rå chutney. Byadgichilier bløtlegges til de er myke og males med hvitløk, ristet chana dal og litt kokos til en tykk rød masse, og en skje av den går på dosaen mens den ligger på takken, så snart røren har stivnet og før poteten. Kokken bruker smør og ikke olje. Når dosaen brettes, blir chilien forseglet mellom den sprø flaten og det myke fyllet, og du møter den i første bit enten du ville det eller ikke.</p>
 <p>Der ligger hele forskjellen, og den er reell. En vanlig masala dosa er mild med vilje og overlater styrken til chutneyen i skålen ved siden av. Denne utgaven tar avgjørelsen for deg og legger den et sted du ikke får skrapt den av.</p>`},
   ingredients:[
@@ -319,18 +319,18 @@ window.RECIPES['IN-KAR'] = [
      body:{en:'A fermented batter is thick and full of gas, so it holds the track of the ladle and browns into a sheet that can be folded without tearing. Neer dosa batter is water-thin and would tear under the same treatment. The two are cooked by opposite methods because they are built on opposite principles.',
            no:'En gjæret røre er tykk og full av gass, så den holder på sporet etter sleiven og brunes til et ark som kan brettes uten å revne. Røren til neer dosa er tynn som vann og ville revnet av samme behandling. De to stekes på motsatt måte fordi de bygger på motsatte prinsipper.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
-     body:{en:'Buy parboiled idli rice and white skinned urad dal in an Indian shop, and do not substitute either; risotto rice and whole black urad both fail. Roasted chana dal is sold as putani or pottukadalai and is not the same as raw chana dal. For the fermentation, a Norwegian kitchen in winter is too cold: put the bowl in the oven with only the light on, or in a switched-off oven beside a roasting tin of hot water, and give it twelve hours rather than eight.',
-           no:'Kjøp parboiled idliris og hvit skrellet urad dal i en indisk butikk, og ikke bytt ut noen av dem; med risottoris eller hel svart urad mislykkes røren. Ristet chana dal selges som putani eller pottukadalai og er ikke det samme som rå chana dal. Et norsk kjøkken er for kaldt om vinteren til at røren gjærer skikkelig. Sett bollen i stekeovnen med bare lyset på, eller i en avslått ovn ved siden av en langpanne med varmt vann, og gi den tolv timer heller enn åtte.'}}],
+     body:{en:'Use parboiled idli rice and white skinned urad dal for this formula. Roasted chana dal is sold as putani or pottukadalai and differs from raw chana dal. Ferment in a clean covered vessel at a controlled warm room temperature, then refrigerate promptly once risen; discard batter with mould, discolouration or an unpleasant smell.',
+           no:'Bruk parboiled idliris og hvit skrellet urad dal i denne formelen. Ristet chana dal selges som putani eller pottukadalai og er noe annet enn rå chana dal. Gjær i et rent, tildekket kar ved kontrollert lun romtemperatur, og sett røren raskt kaldt når den har hevet. Kast den ved mugg, misfarging eller ubehagelig lukt.'}}],
   variations:[
     {title:{en:'Benne dosa', no:'Benne dosa'},
      body:{en:'Davanagere in the middle of the state makes the same dosa with a great deal more butter and a softer, thicker batter. Benne is butter in Kannada, and the dosa comes off the griddle pale and rich rather than dark and crisp.',
            no:'I Davanagere midt i staten lages den samme dosaen med langt mer smør og en mykere og tykkere røre. Benne betyr smør på kannada, og dosaen kommer av takken lys og fyldig i stedet for mørk og sprø.'}},
     {title:{en:'Without a wet grinder', no:'Uten steinkvern'},
-     body:{en:'A blender works if you keep the batter cold and grind in short bursts with iced water, stopping whenever the jug feels warm. Heat kills the bacteria that do the fermenting, and a batter ground warm never rises properly.',
-           no:'En blender fungerer om du holder røren kald og maler i korte støt med iskaldt vann, og stopper hver gang kannen kjennes varm. Varme tar livet av bakteriene som står for gjæringen, og en røre som males varm, hever aldri ordentlig.'}},
+     body:{en:'A blender works if you grind in short bursts with cold water and pause when the jug becomes warm. Excess heat can weaken the batter structure and make fermentation less predictable.',
+           no:'En blender fungerer om du maler i korte støt med kaldt vann og tar pause når kannen blir varm. For mye varme kan svekke strukturen i røren og gjøre gjæringen mindre forutsigbar.'}},
     {title:{en:'The chutney on its own', no:'Chutneyen alene'},
-     body:{en:'It keeps for a week in the fridge and is worth making in a larger batch. It goes on an idli, into a sandwich, or under an egg, and it is the single most useful thing in this recipe.',
-           no:'Den holder seg en uke i kjøleskapet og er verdt å lage i en større porsjon. Den går på en idli, i en sandwich eller under et egg, og den er det mest anvendelige i hele denne oppskriften.'}}]
+     body:{en:'Because it contains fresh coconut and garlic, refrigerate it promptly and use it within two days, or freeze portions. It can also accompany idli, sandwiches or eggs.',
+           no:'Siden chutneyen har fersk kokos og hvitløk, setter du den raskt kaldt og bruker den innen to dager, eller fryser porsjoner. Den kan også serveres til idli, sandwich eller egg.'}}]
 },
 
 {
@@ -393,8 +393,8 @@ window.RECIPES['IN-KAR'] = [
      no:'Ta av lokket og kok inn sausen til den kleber seg til kjøttet i stedet for å samle seg i bunnen.'},
     {en:'Off the heat, stir in the souring a little at a time, tasting between each addition. The gravy darkens as it goes in. Correct the salt last.',
      no:'Ta gryten av platen og rør inn syrningsmiddelet litt om gangen, og smak mellom hver gang. Sausen mørkner mens den går i. Juster saltet helt til slutt.'},
-    {en:'Let it stand covered for at least ten minutes before serving, and reheat it the next day if you can, because it is better then.',
-     no:'La den stå tildekket i minst ti minutter før servering, og spar den gjerne til dagen etter og varm den opp, for da er den bedre.'},
+    {en:'Let it stand covered for ten minutes before serving. Cool any leftovers promptly, refrigerate them within two hours and reheat thoroughly.',
+     no:'La retten stå tildekket i ti minutter før servering. Avkjøl rester raskt, sett dem i kjøleskapet innen to timer og varm dem grundig opp igjen.'},
   ],
   notes:[
     {title:{en:'Why there is almost no oil', no:'Hvorfor det nesten ikke går olje i'},
@@ -408,8 +408,8 @@ window.RECIPES['IN-KAR'] = [
            no:'Be slakteren om ribbe eller sideflesk med svoren på og få det skåret i terninger; retten er avhengig av at fettet smelter ut, så sideflesk framfor kotelettkam er ikke valgfritt her. Til syren blander du tamarindkonsentrat med litt mørk sirup til blandingen er tykk og nesten svart, og bruker den skje for skje. Svart kardemomme og hele byadgichilier får du i indiske butikker; vanlig chilipulver fra dagligvarebutikken er en blanding og duger ikke.'}}],
   variations:[
     {title:{en:'Made a day ahead', no:'Laget dagen før'},
-     body:{en:'Cook it to the end of the simmer, cool it and refrigerate it overnight. Lift off the set fat if it looks like too much, reheat gently, reduce and then sour it. The meat is better for the rest and the dish is easier to serve.',
-           no:'Kok den til den har småkokt ferdig, avkjøl den og sett den kaldt over natten. Løft av det stivnede fettet om det ser ut som for mye, varm den forsiktig opp igjen, kok den inn og syrne den til slutt. Kjøttet har godt av hvilen, og retten blir enklere å servere.'}},
+     body:{en:'Cook it through, divide it into shallow containers and refrigerate within two hours. The next day, lift off excess set fat, reheat thoroughly, reduce and add the souring.',
+           no:'Kok retten ferdig, fordel den i grunne beholdere og sett dem i kjøleskapet innen to timer. Neste dag løfter du av overflødig stivnet fett, varmer retten grundig, koker den inn og tilsetter syren.'}},
     {title:{en:'Milder, for a mixed table', no:'Mildere, til et blandet bord'},
      body:{en:'Halve the black peppercorns and leave the green chillies whole and unslit. Byadgi carries the colour without much heat, so the dish stays red and looks exactly the same.',
            no:'Halver mengden pepperkorn og la de grønne chiliene være hele, uten å snitte dem. Byadgi bærer fargen uten særlig styrke, så retten holder seg rød og ser helt lik ut.'}},

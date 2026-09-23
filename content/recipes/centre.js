@@ -15,12 +15,12 @@ window.RECIPES['IN-CEN'] = [
   goesWith:[{en:'A hot jalebi, which is how Indore eats it', no:'En varm jalebi, slik Indore spiser den'},
             {en:'Strong milky tea afterwards', no:'Sterk te med melk etterpå'}],
   headnote:{
-    en:`<p>Poha is rice that has been parboiled, rolled flat and dried, so it does not need boiling. It needs moistening, and then just enough heat to warm it through. Get that right and the grains stay separate and slightly springy. Get it wrong and you have paste, which is the one failure this dish has.</p>
-<p>Indore steams it rather than frying it, which is the difference between this and the poha of Maharashtra. The onion and the spices are cooked first, the rinsed poha goes in on top, the pan is covered, and the heat is kept low while the steam does the work. Nothing is stirred hard at any point.</p>
-<p>Everything that makes it Indori happens after the pan. Sev on top, lime squeezed over at the plate, raw onion, coriander, and a dusting of jiravan, the city's own sour cumin powder. If you skip those you have made poha; you have not made Indori poha.</p>`,
-    no:`<p>Poha er ris som er forvellet, valset flat og tørket, og derfor trenger den ikke koking. Den trenger fukt, og så akkurat nok varme til å bli gjennomvarm. Treffer du det, ligger kornene løst og litt spenstige. Bommer du, får du grøt, og det er den ene måten denne retten kan mislykkes på.</p>
-<p>Indore damper den i stedet for å steke den, og det er forskjellen fra pohaen i Maharashtra. Løken og krydderet stekes først, den skylte pohaen legges oppå, lokket går på, og varmen holdes lav mens dampen gjør jobben. Ingenting røres hardt underveis.</p>
-<p>Alt det særegne ved Indori poha skjer etter panna. Sev over, lime klemt over på tallerkenen, rå løk, koriander og et dryss jiravan, byens eget syrlige spisskummenpulver. Sløyfer du det, har du laget poha, men ikke Indori poha.</p>`},
+    en:`<p>Poha is parboiled rice that has been rolled flat and dried. It needs moistening rather than a full boil, and the amount of water depends on its thickness. When it is ready, the flakes are tender but still separate.</p>
+<p>This recipe cooks the onion and spices first, lays the rinsed poha on top and covers the pan so trapped steam warms the flakes gently. Indori poha is also made by other methods, and neighbouring poha traditions overlap rather than dividing neatly into steamed and fried versions.</p>
+<p>Sev, lime, raw onion, coriander and jiravan give this version its Indore character. Add them at the plate so the sev remains crisp and each diner can adjust the sourness and spice.</p>`,
+    no:`<p>Poha er forvellet ris som er valset flat og tørket. Den trenger fukting framfor full koking, og vannmengden avhenger av tykkelsen. Når den er ferdig, er flakene møre, men fortsatt løse.</p>
+<p>I denne oppskriften stekes løk og krydder først. Den skylte pohaen legges oppå, og lokket holder på dampen slik at flakene varmes skånsomt. Indori poha lages også på andre måter, og pohatradisjonene i naboregionene overlapper.</p>
+<p>Sev, lime, rå løk, koriander og jiravan gir denne utgaven preg av Indore. Ha dem på ved bordet, slik at seven holder seg sprø og hver gjest kan justere syre og krydder.</p>`},
   ingredients:[
    {group:{en:'The pan', no:'I panna'}, items:[
     {q:300, u:'g', n:{en:'thick poha', no:'tykk poha'}, note:{en:'flattened rice; the thin grade will dissolve', no:'flattrykt ris; den tynne sorten går i oppløsning'}},
@@ -71,18 +71,18 @@ window.RECIPES['IN-CEN'] = [
      body:{en:'Sev is fried gram-flour dough and it takes up moisture within a minute or two. Scattered on at the stall it is still crisp when the plate reaches you. Stirred into the pan it becomes a soft yellow thread and the dish loses its only crunch.',
            no:'Sev er fritert deig av kikertmel, og den trekker til seg fuktighet i løpet av et par minutter. Strødd på i boden er den fortsatt sprø når tallerkenen når deg. Røres den inn i panna, blir den en myk gul tråd, og retten mister det eneste sprø den har.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
-     body:{en:'Indian shops sell poha in thick and thin grades; ask for the thick one. Sev is sold as "nylon sev" or plain sev in the same shops.',
-           no:'Indiske butikker på Grønland selger poha i tykk og tynn sort, og her skal du ha den tykke. Den tynne er ment til andre retter og blir til grøt av denne behandlingen. Sev selges i samme butikk, ofte som «nylon sev»; noe i dagligvaren ligner, men ingenting erstatter den. Jiravan får du ikke kjøpt her, så bland selv etter varianten under, og svart salt, kala namak, står i de samme hyllene. Bruk lime og ikke sitron, for sitronen er for spiss til denne retten.'}}],
+     body:{en:'Indian food shops usually sell poha in thick and thin grades; the thick grade is easiest to handle here. Look for plain sev or fine “nylon sev”. If jiravan is unavailable, use the course blend below and adjust lime or lemon to taste.',
+           no:'Indiske matbutikker selger gjerne poha i tykk og tynn sort; den tykke er lettest å arbeide med her. Se etter vanlig sev eller fin «nylon sev». Finner du ikke jiravan, kan du bruke kursblandingen under og justere lime eller sitron etter smak.'}}],
   variations:[
     {title:{en:'Mix your own jiravan', no:'Bland din egen jiravan'},
-     body:{en:'Toast cumin until it smells dark, then grind it with dried mango powder, black salt, a little fennel, black pepper and a pinch of asafoetida. Roughly half of it should be cumin. Every stall in Indore does this differently and nobody publishes a recipe.',
-           no:'Rist spisskummen til den lukter mørkt, og mal den så sammen med tørket mangopulver, svart salt, litt fennikel, svart pepper og en klype asafoetida. Omtrent halvparten skal være spisskummen. Hver bod i Indore gjør dette på sin måte, og ingen oppgir en oppskrift.'}},
+     body:{en:'Toast cumin until fragrant, then grind it with dried mango powder, black salt, a little fennel, black pepper and a pinch of asafoetida. Let cumin make up roughly half of this course blend. Commercial and household jiravan formulas vary.',
+           no:'Rist spisskummen til den dufter, og mal den med tørket mangopulver, svart salt, litt fennikel, svart pepper og en klype asafoetida. La spisskummen utgjøre omtrent halvparten av blandingen i kurset. Ferdige og hjemmelagde jiravanblandinger varierer.'}},
     {title:{en:'With potato', no:'Med potet'},
-     body:{en:'Many households add small cubes of potato to the onion and cook them soft before the poha goes in. It makes the plate heavier and is how it is usually eaten at home rather than at a stall.',
-           no:'Mange husholdninger har små potetterninger i sammen med løken og lar dem bli myke før pohaen går i. Det gjør tallerkenen tyngre, og det er slik den som regel spises hjemme heller enn i en bod.'}},
+     body:{en:'Small cubes of potato can be cooked with the onion before the poha goes in. They make the dish more substantial and appear in both household and commercial versions.',
+           no:'Små potetterninger kan stekes møre sammen med løken før pohaen går i. De gjør retten mer mettende og forekommer både hjemme og hos utsalg.'}},
     {title:{en:'Kanda poha, the Maharashtrian way', no:'Kanda poha, slik den lages i Maharashtra'},
-     body:{en:'The same ingredients, but the poha is stirred into the hot pan and fried rather than covered and steamed, and peanuts go in with the mustard seed. It is a drier, nuttier dish and it takes the sev less well.',
-           no:'De samme råvarene, men pohaen røres inn i den varme panna og stekes i stedet for å dampes under lokk, og peanøtter går i sammen med sennepsfrøene. Retten blir tørrere og mer nøtteaktig, og den tåler seven dårligere.'}}]
+     body:{en:'For a kanda-poha variation, add peanuts with the mustard seed and fold the softened poha directly through the onion mixture. Methods vary across Maharashtra; this version is drier and nuttier than the covered method above.',
+           no:'For en variant av kanda poha kan du ha peanøtter i sammen med sennepsfrøene og vende den myke pohaen direkte inn i løkblandingen. Metodene varierer i Maharashtra; denne utgaven blir tørrere og mer nøttepreget enn metoden med lokk over.'}}]
 },
 
 {
@@ -96,12 +96,12 @@ window.RECIPES['IN-CEN'] = [
   goesWith:[{en:'Hot tea, late in the afternoon', no:'Varm te, sent på ettermiddagen'},
             {en:'A plain roti, if it is doing duty as a meal', no:'En enkel roti, hvis retten skal være et helt måltid'}],
   headnote:{
-    en:`<p>This is an Indore dish and a strange one, because it is neither a vegetable nor a porridge and behaves a little like both. Corn is grated raw off the cob, which produces a wet white mash rather than kernels, and that mash is cooked in ghee with mustard seed and green chilli until the raw smell goes. Then milk is added and stirred until the starch in the corn thickens it.</p>
-<p>The grating is not optional and a food processor will not do it. A box grater run down a raw cob tears the kernels open and leaves the tough skins behind on the cob, which is exactly what you want: the starch comes out and the hulls do not. It takes about ten minutes and it is the whole technique.</p>
-<p>The corn sold fresh in Norway is sweetcorn, bred for sugar, and it makes this dish taste like a dessert. There is no way round that here, so the recipe pulls the balance back with more chilli, more lime and a little less milk. Say what it is: a Norwegian version of an Indore dish, and a good one, but sweeter than it should be.</p>`,
-    no:`<p>Dette er en rett fra Indore, og en underlig rett, for den er verken en grønnsakrett eller en grøt og oppfører seg litt som begge deler. Mais rives rå av kolben, noe som gir en våt hvit masse i stedet for hele korn, og massen kokes i ghee med sennepsfrø og grønn chili til den rå lukten er borte. Så heller man i melk og rører til stivelsen i maisen tykner den.</p>
-<p>Rivingen er ikke valgfri, og en kjøkkenmaskin klarer den ikke. Drar du en rå kolbe nedover et rivjern, rives kornene opp mens de seige skallene blir sittende på kolben, og det er akkurat det du vil ha: stivelsen kommer ut, skallene blir igjen. Det tar omtrent ti minutter, og det er hele teknikken.</p>
-<p>Maisen som selges fersk i Norge, er sukkermais, foredlet for sødme, og den får retten til å smake dessert. Det er ingen vei utenom her, så oppskriften trekker balansen tilbake med mer chili, mer lime og litt mindre melk. Det skal sies rett ut: dette er en norsk utgave av en rett fra Indore, og den er god, men søtere enn den skal være.</p>`},
+    en:`<p>Bhutte ka kees is associated with Indore. Raw corn is grated into a wet mash, then cooked in ghee with mustard seed and green chilli before milk is stirred in. The corn starch thickens the mixture as it cooks.</p>
+<p>A box grater opens the kernels while leaving much of their skin on the cob, which gives a smoother result. A food processor can be used in short pulses if necessary, though the texture will be a little coarser.</p>
+<p>Fresh corn in Norway is usually sweetcorn, so this adaptation may taste sweeter than versions made with less-sweet corn. Chilli and lime balance that sweetness; add them to taste rather than trying to enforce one fixed profile.</p>`,
+    no:`<p>Bhutte ka kees forbindes med Indore. Rå mais rives til en våt masse og stekes i ghee med sennepsfrø og grønn chili før melk røres inn. Maisstivelsen tykner blandingen mens den koker.</p>
+<p>Et rivjern åpner kornene og lar mye av skallet sitte igjen på kolben, noe som gir et glattere resultat. En kjøkkenmaskin kan brukes med korte pulser ved behov, men konsistensen blir litt grovere.</p>
+<p>Fersk mais i Norge er som regel sukkermais, så denne tilpasningen kan bli søtere enn utgaver laget med mindre søt mais. Chili og lime balanserer sødmen; juster dem etter smak.</p>`},
   ingredients:[
    {group:{en:'', no:''}, items:[
     {q:600, u:'g', n:{en:'fresh corn kernels', no:'ferske maiskorn'}, note:{en:'grated raw off the cob, not cut off; about four cobs', no:'revet rå av kolben, ikke skåret av; omtrent fire kolber'}},
@@ -141,8 +141,8 @@ window.RECIPES['IN-CEN'] = [
      body:{en:'A blender chops the tough outer skin of each kernel into the mash, and you taste it as a faint bran-like grit that never cooks out. A grater tears the kernel open and leaves the skin attached to the cob. The difference is the whole texture of the dish.',
            no:'En blender hakker det seige ytterskallet på hvert korn ned i massen, og det merkes som en svak, kliaktig grynethet som aldri koker bort. Et rivjern river kornet opp og lar skallet bli sittende på kolben. Forskjellen er hele konsistensen i retten.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
-     body:{en:'Fresh cobs are in Norwegian shops from July to September, and out of season this dish is not worth attempting.',
-           no:'Ferske maiskolber står i norske butikker fra juli til september, og utenom sesongen er retten ikke verdt å forsøke. Frosne maiskorn lar seg ikke rive, og hermetisk mais er kokt og søtet fra før. Alt som selges her, er sukkermais, så regn med en søtere rett og ta igjen med chili og lime. Bruk helmelk; lettmelk gir en tynn og litt vassen masse. Ghee står på glass og fersk revet kokos i frysedisken i indiske butikker, og tørket kokos fra bakehylla er noe annet.'}},
+     body:{en:'Fresh cobs are easiest to find in Norwegian shops in late summer. At other times, thawed frozen kernels can be pulsed briefly in a processor, though the texture will be coarser. Sweetcorn gives a sweeter result, so adjust chilli and lime to taste.',
+           no:'Ferske maiskolber er lettest å finne i norske butikker sent på sommeren. Ellers kan tinte, frosne maiskorn kjøres kort i en kjøkkenmaskin, men konsistensen blir grovere. Sukkermais gir et søtere resultat, så juster chili og lime etter smak.'}},
     {title:{en:'Why it must be stirred', no:'Hvorfor den må røres'},
      body:{en:'Corn starch swells and sets at around seventy degrees, and it does so first where the pan is hottest. Left alone, that layer sticks and scorches while the rest is still thin. Constant stirring keeps the temperature even and is the difference between a smooth pan and a ruined one.',
            no:'Maisstivelse sveller og stivner rundt sytti grader, og den gjør det først der panna er varmest. Blir den stående, fester det laget seg og svir seg mens resten fortsatt er tynn. Jevn røring holder temperaturen lik overalt og avgjør om retten blir glatt eller svidd.'}}],
@@ -166,12 +166,12 @@ window.RECIPES['IN-CEN'] = [
   goesWith:[{en:'A raw onion and a green chilli on the side', no:'En rå løk og en grønn chili ved siden av'},
             {en:'Plain yoghurt, cold', no:'Naturell yoghurt, kald'}],
   headnote:{
-    en:`<p>Rajasthan bakes a bati: a hard ball of coarse wheat dough cooked in embers, which comes out dense, cracked and dry, and is then drowned in ghee so that it can be swallowed at all. Malwa took the same idea and added one step. The balls are simmered in water until they float, and only then baked.</p>
-<p>That step changes everything. Boiling gelatinises the starch before the dry heat reaches it, so the inside sets soft and slightly moist while the outside still bakes hard and cracks. A bafla takes less ghee than a bati and is a good deal easier to eat.</p>
-<p>The dal underneath is plain on purpose: toor dal, turmeric, a little tamarind for sourness, and a tempering of cumin and mustard seed poured over at the end. Malwa cooks this outdoors for weddings, a hundred baflas at a time, and at that scale the ghee arrives in a jug.</p>`,
-    no:`<p>I Rajasthan baker de bati. Det er en hard ball av grov hvetedeig som stekes i glørne og blir tett, sprukken og tørr, og derfor druknes den i ghee så den i det hele tatt skal gå ned. Malwa tok den samme tanken og la til ett steg. Bollene småkoker i vann til de flyter opp, og først da bakes de.</p>
-<p>Det steget endrer alt. Kokingen forklistrer stivelsen før tørrvarmen kommer til, så innsiden blir myk og litt fuktig mens utsiden likevel bakes hard og sprekker. En bafla trenger mindre ghee enn en bati, og den er atskillig lettere å spise.</p>
-<p>Dalen under er enkel med vilje: toor dal, gurkemeie, litt tamarind for syre, og en tempering av spisskummen og sennepsfrø som helles over til slutt. Malwa lager dette utendørs til bryllup, hundre baflaer om gangen, og i den målestokken kommer gheen i mugge.</p>`},
+    en:`<p>Dal bafla belongs to Malwa and is closely related to Rajasthan's dal bati. In this recipe the wheat balls are simmered until they float and then baked, while bati is generally baked without that preliminary boil.</p>
+<p>Boiling sets some of the starch before the dry heat reaches it, giving this bafla a tender centre and a firm, cracked crust. Both dishes have many regional and household versions, and the amount of ghee served with them varies.</p>
+<p>The accompanying dal combines toor dal, turmeric, tamarind and a final tempering of cumin and mustard seed. Dal bafla also appears at feasts and weddings, where the recipe can be scaled and the baked balls finished with ghee at serving.</p>`,
+    no:`<p>Dal bafla hører til i Malwa og er nært beslektet med dal bati fra Rajasthan. I denne oppskriften småkokes hvetebollene til de flyter og bakes deretter, mens bati vanligvis bakes uten denne forkokingen.</p>
+<p>Kokingen får noe av stivelsen til å stivne før tørrvarmen når deigen, slik at denne baflaen får mør kjerne og fast, sprukken skorpe. Begge rettene finnes i mange regionale og hjemlige utgaver, og mengden ghee varierer.</p>
+<p>Dalen her kombinerer toor dal, gurkemeie, tamarind og en avsluttende tempering med spisskummen og sennepsfrø. Dal bafla serveres også ved fester og bryllup, der oppskriften kan skaleres og bollene får ghee ved servering.</p>`},
   ingredients:[
    {group:{en:'The bafla', no:'Baflaen'}, items:[
     {q:400, u:'g', n:{en:'coarse wholemeal wheat flour', no:'grovt sammalt hvetemel'}, note:{en:'Indian atta if you have it', no:'indisk atta om du har det'}},
@@ -230,11 +230,11 @@ window.RECIPES['IN-CEN'] = [
            no:'Baflaen er fet av ghee og tung av hvete, så en tykk, sterkt krydret og kremet dal ville gjort tallerkenen umulig. En tynn dal syrnet med tamarind skjærer gjennom fettet og bærer det, og det er den samme tanken som ligger bak sur pickle ved siden av fritert mat overalt.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Indian shops sell chakki atta, which is the right flour, and toor dal by the kilo.',
-           no:'Indiske butikker selger chakki atta, som er riktig mel, og toor dal i kilos. Norsk sammalt hvetemel er malt annerledes og gir en tyngre bafla, så bland det med semule slik oppskriften sier. Toor dal heter også arhar eller tuvar; gule erter er ikke det samme og koker ut til grøt. Ghee står på glass i de samme butikkene og holder seg i månedsvis i skapet, og klaret smør fungerer om du lager det selv. Tamarind kjøpes i blokk med kjerner, ikke som ferdig konsentrat.'}}],
+           no:'Indiske butikker selger chakki atta, som er riktig mel, og toor dal i kilos. Norsk sammalt hvetemel er malt annerledes og gir en tyngre bafla, så bland det med semule slik oppskriften sier. Toor dal heter også arhar eller tuvar; gule erter er ikke det samme og koker ut til grøt. Ghee står på glass i de samme butikkene; følg lagringsrådet på etiketten. Hjemmeklaret smør fungerer også og bør stå kaldt hvis holdbarheten er usikker. Tamarind kjøpes i blokk med kjerner, ikke som ferdig konsentrat.'}}],
   variations:[
     {title:{en:'Bati instead', no:'Bati i stedet'},
-     body:{en:'Skip the boiling and bake the balls for fifty minutes at 180 °C. You then have a Rajasthani bati, which needs far more ghee and keeps for days. Both are eaten with the same dal.',
-           no:'Sløyf kokingen og bak bollene i femti minutter på 180 °C. Da har du en bati fra Rajasthan, som trenger langt mer ghee og holder seg i dagevis. Begge spises med den samme dalen.'}},
+     body:{en:'For a bati-style variation, skip the boiling and bake the balls for about fifty minutes at 180 °C, checking that the centres are cooked. Serve with the dal and as much ghee as you prefer; cool and refrigerate leftovers promptly.',
+           no:'For en variant i bati-stil kan du sløyfe kokingen og bake bollene i omtrent femti minutter på 180 °C. Kontroller at de er gjennomstekte. Server med dal og ønsket mengde ghee, og kjøl ned og sett rester raskt i kjøleskapet.'}},
     {title:{en:'Stuffed baflas', no:'Fylte baflaer'},
      body:{en:'Flatten each ball, put a spoonful of mashed spiced peas or crumbled paneer in the middle, and close it before boiling. The filling steams inside and the ball takes a few minutes longer in the oven.',
            no:'Trykk hver bolle flat, legg en skje moste, krydrede erter eller smuldret paneer i midten, og lukk den før kokingen. Fyllet dampes inni, og bollen trenger noen minutter mer i ovnen.'},},
@@ -254,12 +254,12 @@ window.RECIPES['IN-CEN'] = [
   goesWith:[{en:'Green coriander chutney', no:'Grønn korianderchutney'},
             {en:'Cold plain yoghurt', no:'Kald naturell yoghurt'}],
   headnote:{
-    en:`<p>Chila is the pancake that both halves of this region make, and they make it from different flours. Malwa uses gram flour, which is milled from skinned split chickpeas and is nothing like wheat flour: it has no gluten, it sets rather than rises, and it browns fast because of its sugars. Chhattisgarh makes the same shape from rice flour and calls it chila too.</p>
-<p>It is the quickest savoury thing in this course. The batter needs twenty minutes to stand, the pan needs to be properly hot, and each one takes three or four minutes. A household makes them for breakfast, hands one to a child after school, and eats them for supper when nobody wants to cook.</p>
-<p>The only thing that goes wrong is a batter that is too thick. Gram flour swells as it stands, so what looked right in the bowl will be a paste twenty minutes later. Thin it again before the first one goes on.</p>`,
-    no:`<p>Chila er pannekaka begge halvdeler av denne regionen lager, og de lager den av hvert sitt mel. Malwa bruker kikertmel, som males av skrellede, splittede kikerter og ikke ligner hvetemel: det inneholder ikke gluten, det stivner i stedet for å heve, og det bruner seg fort på grunn av sukkeret i det. Chhattisgarh lager den samme formen av rismel og kaller den også chila.</p>
-<p>Av alle rettene i kurset som ikke er søtsaker, er dette den raskeste. Røren trenger tjue minutter på å svelle, panna må være ordentlig varm, og hver pannekake tar tre eller fire minutter. En husholdning lager dem til frokost, stikker en til et barn etter skolen, og spiser dem til kvelds når ingen orker å lage mat.</p>
-<p>Det eneste som går galt, er en røre som er for tykk. Kikertmel sveller mens det står, så det som så riktig ut i bollen, er blitt en tykk masse tjue minutter senere. Spe den ut igjen før den første går på.</p>`},
+    en:`<p>Chila names a broad family of savoury pancakes. This course version uses gram flour, while rice and ground-pulse batters appear in Chhattisgarh and elsewhere. Gram flour contains no gluten, sets as its starch and protein cook, and browns readily.</p>
+<p>The batter rests for twenty minutes, and each pancake then cooks in a few minutes on a hot pan. Chila can be breakfast, a snack or a light meal, with fillings and accompaniments adjusted to the occasion.</p>
+<p>Gram flour absorbs water while it rests, so check the batter before cooking. If it no longer pours easily, whisk in a little water; if it tears, let the first side set longer before turning.</p>`,
+    no:`<p>Chila er navnet på en bred familie av salte pannekaker. Utgaven i kurset bruker kikertmel, mens rismel og malte belgvekster brukes i Chhattisgarh og andre steder. Kikertmel inneholder ikke gluten, stivner når stivelse og protein varmes opp og brunes lett.</p>
+<p>Røren hviler i tjue minutter, og hver pannekake stekes deretter på få minutter i en varm panne. Chila kan være frokost, mellommåltid eller et lett måltid, med fyll og tilbehør etter anledning.</p>
+<p>Kikertmel trekker til seg vann mens røren hviler, så kontroller konsistensen før steking. Visp inn litt vann hvis den ikke lenger renner lett. Hvis pannekaka revner, lar du den første siden stivne lenger før du snur.</p>`},
   ingredients:[
    {group:{en:'The batter', no:'Røren'}, items:[
     {q:250, u:'g', n:{en:'gram flour', no:'kikertmel'}, note:{en:'besan, from split chickpeas', no:'besan, av splittede kikerter'}},
@@ -320,17 +320,17 @@ window.RECIPES['IN-CEN'] = [
   title:{en:'Bhopali korma', no:'Bhopali korma'},
   blurb:{en:'Goat cooked slowly in yoghurt and browned onion, thickened with poppy seed, aromatic rather than hot.',
          no:'Geitekjøtt kokt langsomt i yoghurt og brunet løk, tyknet med valmuefrø, aromatisk heller enn sterk.'},
-  heroCaption:{en:'No free photograph of a Bhopali korma exists. This is an ordinary North Indian mutton korma, and it is redder than the Bhopal dish, which has no tomato and very little chilli.',
-               no:'Det finnes ikke noe fritt fotografi av en korma fra Bhopal. Dette er en vanlig nordindisk korma av geitekjøtt, og den er rødere enn retten fra Bhopal, som verken har tomat eller særlig mye chili i seg.'},
+  heroCaption:{en:'The reference photograph shows a North Indian mutton korma. The course recipe uses yoghurt, browned onion and poppy seed, without tomato.',
+               no:'Referansebildet viser en nordindisk korma av geitekjøtt. Oppskriften i kurset bruker yoghurt, brunet løk og valmuefrø, uten tomat.'},
   goesWith:[{en:'Sheermal or a plain roti', no:'Sheermal eller en enkel roti'},
             {en:'Raw onion rings with lime squeezed over', no:'Rå løkringer med lime klemt over'}],
   headnote:{
-    en:`<p>Bhopal's kitchen came down from a court rather than up from a village, and this is its plainest expression: meat, yoghurt, browned onion and whole spice, cooked slowly under a weighted lid. There is no tomato in it, no cream, and only enough chilli to be noticed. The body of the gravy comes from onion and from poppy seed ground to a paste.</p>
-<p>The whole dish is a sequence, and the order is what matters. The onion is browned properly first, which takes longer than anyone expects. The yoghurt goes in slowly off a high heat so it does not split. The poppy-seed paste goes in only once the fat has separated, because it burns readily. Then the pot sits on the lowest heat it will take, for well over an hour.</p>
-<p>Goat on the bone is what this is written for, because the bone and the connective tissue are what make the gravy. Lamb shoulder works and is easier to buy in Norway. Boneless meat of any kind gives you a thinner dish, and a fast-cooking cut gives you nothing at all.</p>`,
-    no:`<p>Kjøkkenet i Bhopal kom ned fra et hoff og ikke opp fra en landsby, og dette er det enkleste uttrykket for det: kjøtt, yoghurt, brunet løk og hele krydder, kokt langsomt under et tynget lokk. Det er verken tomat eller fløte i den, og bare nok chili til at den merkes. Fylden i sausen kommer fra løk og fra valmuefrø malt til en masse.</p>
-<p>Hele retten står og faller på rekkefølgen. Løken brunes ordentlig først, og det tar lengre tid enn noen regner med. Yoghurten går i langsomt og ikke på sterk varme, så den ikke skiller seg. Massen av valmuefrø går i først når fettet har skilt seg ut, for den svir seg lett. Så står gryta på lavest mulig varme i godt over en time.</p>
-<p>Oppskriften er skrevet for geitekjøtt med bein, for beinet og bindevevet er det som gir sausen. Lammebog fungerer og er lettere å få kjøpt i Norge. Kjøtt uten bein gir en tynnere rett, og et stykke kjøtt som er beregnet på rask steking, gir ingenting i det hele tatt.</p>`},
+    en:`<p>Bhopal's food history includes courtly cooking as well as everyday urban and rural traditions. This course recipe presents one korma style: meat cooked slowly with yoghurt, browned onion, whole spices and a paste of poppy seed and chironji, without tomato or cream.</p>
+<p>The order helps control the sauce. Brown the onion first, lower the heat before adding yoghurt, and cook the seed paste gently so it does not catch. Slow covered cooking then tenderises the meat and brings the gravy together.</p>
+<p>The recipe is written for goat on the bone. Lamb shoulder is easier to find in Norway and works well, though its flavour and fat differ. Boneless shoulder can also be used; check it earlier and reduce the added water if the sauce is loose.</p>`,
+    no:`<p>Mathistorien i Bhopal rommer hoffkjøkken så vel som hverdagsmat fra by og land. Oppskriften i kurset viser én kormastil: kjøtt kokt langsomt med yoghurt, brunet løk, hele krydder og en masse av valmuefrø og chironji, uten tomat eller fløte.</p>
+<p>Rekkefølgen gjør sausen lettere å styre. Brun løken først, senk varmen før yoghurten tilsettes, og stek frømassen forsiktig så den ikke svir seg. Langsom koking under lokk mørner så kjøttet og samler sausen.</p>
+<p>Oppskriften er skrevet for geitekjøtt med bein. Lammebog er enklere å finne i Norge og fungerer godt, selv om smak og fettmengde er annerledes. Bog uten bein kan også brukes; kontroller den tidligere og reduser vannet hvis sausen er løs.</p>`},
   ingredients:[
    {group:{en:'The paste', no:'Massen'}, items:[
     {q:40, u:'g', n:{en:'white poppy seed', no:'hvite valmuefrø'}, note:{en:'soaked in warm water for an hour', no:'bløtlagt i lunkent vann i en time'}},
@@ -393,8 +393,8 @@ window.RECIPES['IN-CEN'] = [
      body:{en:'Cashews soaked and ground the same way give a similar body and a sweeter, rounder gravy. It is a common shortcut in restaurants and it does change the dish.',
            no:'Bløtlegger du cashewnøtter og maler dem på samme måte, får sausen liknende fylde, men blir søtere og rundere. Det er en vanlig snarvei på restaurant, og den endrer retten.'}},
     {title:{en:'Rogan josh, the Bhopal way', no:'Rogan josh slik den lages i Bhopal'},
-     body:{en:'Leave the poppy seed out, double the Kashmiri chilli powder for colour, and finish with a little more garam masala. That is roughly the difference between the two dishes in a Bhopal kitchen, and neither has much heat in it.',
-           no:'Sløyf valmuefrøene, doble Kashmiri-chilipulveret for fargens skyld, og avslutt med litt mer garam masala. Det er omtrent forskjellen på de to rettene i et kjøkken i Bhopal, og ingen av dem er særlig sterk.'}}]
+     body:{en:'For a separate rogan-josh-inspired variation, leave out the poppy seed, add more Kashmiri chilli for colour and finish with a little extra garam masala. Treat this as an adaptation rather than a universal definition of either dish.',
+           no:'For en egen variant inspirert av rogan josh kan du sløyfe valmuefrøene, bruke mer Kashmiri-chili for farge og avslutte med litt ekstra garam masala. Dette er en tilpasning, ikke en allmenn definisjon av noen av rettene.'}}]
 }
 
 ];

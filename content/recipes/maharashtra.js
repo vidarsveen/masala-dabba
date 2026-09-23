@@ -15,12 +15,12 @@ window.RECIPES['IN-MAH'] = [
   goesWith:[{en:'Soft pav, or any bread that will mop', no:'Myke pav, eller et annet brød som kan tørke opp sausen'},
             {en:'A glass of buttermilk, for afterwards', no:'Et glass kjernemelk, til etterpå'}],
   headnote:{
-    en:`<p>Misal is two dishes that meet on the plate. Underneath is <em>usal</em>, a thick curry of sprouted moth beans that could stand on its own with a bhakri. Over it goes the rassa, a thin red gravy made separately and poured on at the last second, and between the two sits a layer of fried savouries that has to stay crisp.</p>
+    en:`<p>This version of misal brings two preparations together on the plate. Underneath is <em>usal</em>, a thick curry of sprouted moth beans that could stand on its own with a bhakri. Over it goes a separately made rassa, and between the two sits a layer of fried savouries that stays crisp until serving.</p>
 <p>Almost everything here can be done in advance. The beans need two days of attention before you start, but they need about four minutes of your time across those two days. The usal and the rassa both improve overnight. Only the assembly is urgent, and it takes half a minute.</p>
-<p>Plan the heat before you cook. Kolhapur pours its rassa with intent and expects the eater to suffer a little; Pune sweetens the usal and softens the gravy. The recipe below sits between the two, and the chilli powders are split into a mild one for colour and a hot one for burn so you can move it in either direction without changing anything else.</p>`,
-    no:`<p>Misal er to retter som møtes på tallerkenen. Under ligger <em>usal</em>, en tykk gryte av spirte matki-bønner som godt kunne stått alene med en bhakri. Over den kommer rassaen, en tynn rød saus som lages for seg og helles på i siste sekund, og mellom de to ligger et lag stekt snacks som skal holde seg sprøtt.</p>
+<p>Decide the heat before you cook. Misal varies greatly between cities and individual shops. This recipe separates a mild chilli for colour from a hot one for heat, so you can adjust the balance without changing the gravy's body.</p>`,
+    no:`<p>Denne utgaven av misal fører to tilberedninger sammen på tallerkenen. Under ligger <em>usal</em>, en tykk gryte av spirte matki-bønner som godt kunne stått alene med en bhakri. Over den kommer en rassa som lages for seg, og mellom dem ligger et lag stekt snacks som holder seg sprøtt fram til servering.</p>
 <p>Nesten alt kan gjøres på forhånd. Bønnene trenger to dager, men de trenger bare omtrent fire minutter av din tid i løpet av de to dagene. Både usalen og rassaen blir bedre av å stå til dagen etter. Bare selve sammensetningen haster, og den tar et halvt minutt.</p>
-<p>Bestem styrken før du begynner. Kolhapur heller rassaen med vilje og regner med at den som spiser, skal lide litt; Pune søter usalen og demper sausen. Oppskriften under ligger mellom de to, og chilipulveret er delt i et mildt for fargen og et sterkt for styrken, så du kan flytte retten begge veier uten å endre noe annet.</p>`},
+<p>Bestem styrken før du begynner. Misal varierer mye mellom byer og enkeltboder. Denne oppskriften skiller et mildt chilipulver for farge fra et sterkt for hete, så balansen kan justeres uten å endre fylden i sausen.</p>`},
   ingredients:[
    {group:{en:'The sprouts', no:'Spirene'}, items:[
     {q:250, u:'g', n:{en:'matki (moth beans), dried', no:'matki (moth bean), tørkede'}, note:{en:'whole mung beans sprout the same way', no:'hele mungbønner spirer på samme måte'}},
@@ -88,15 +88,15 @@ window.RECIPES['IN-MAH'] = [
      body:{en:'Matki is sold in Indian shops as matki, moth bean or Turkish gram. Whole mung beans are the honest substitute and sprout on the same timetable.',
            no:'Matki selges i indiske butikker som matki, moth bean eller Turkish gram. Hele mungbønner er den ærlige erstatningen og spirer på samme tid. Tørket kokos skal være «kokosmasse» eller revet kopra, ikke kokosmel, som er avfettet og ikke blir brunt. Farsan står som «mixture», «chivda» eller «farsan» i indiske butikker, og en pose holder seg i uker. Pav finnes ikke her, men et mykt, litt søtt hamburgerbrød uten skorpe er nærmere enn et rundstykke fra bakeriet.'}}],
   variations:[
-    {title:{en:'The Kolhapuri way', no:'Slik gjør de det i Kolhapur'},
-     body:{en:'Replace the goda masala with kala masala, double the hot chilli powder and serve the rassa in a jug on the side so that people can keep pouring. Nothing else changes.',
-           no:'Bytt ut goda masala med kala masala, doble det sterke chilipulveret og sett rassaen på bordet i en mugge så folk kan fortsette å helle. Ingenting annet endres.'}},
-    {title:{en:'The Puneri way', no:'Slik gjør de det i Pune'},
-     body:{en:'Put a handful of soaked poha in the bowl under the usal, add a small piece of jaggery to the usal, and go lighter on the rassa. The dish turns sweeter and considerably gentler.',
-           no:'Legg en håndfull bløtlagt poha i skåla under usalen, ha en liten bit jaggery i usalen, og vær forsiktigere med rassaen. Retten blir søtere og atskillig mildere.'}},
+    {title:{en:'A hotter variation', no:'En sterkere variant'},
+     body:{en:'Replace the goda masala with a hotter kala masala, increase the hot chilli powder cautiously and serve the rassa in a jug on the side. Check the blend first because strength varies by maker.',
+           no:'Bytt goda masala med en sterkere kala masala, øk det sterke chilipulveret forsiktig og server rassaen i en mugge ved siden av. Smak på blandingen først, for styrken varierer mellom produsenter.'}},
+    {title:{en:'A gentler variation', no:'En mildere variant'},
+     body:{en:'Put a handful of soaked poha in the bowl under the usal, add a little jaggery to the usal and go lighter on the rassa. Some Pune versions use this sweeter balance.',
+           no:'Legg en håndfull bløtlagt poha i skålen under usalen, ha litt jaggery i usalen og bruk mindre rassa. Enkelte utgaver fra Pune har denne søtere balansen.'}},
     {title:{en:'Usal on its own', no:'Usal alene'},
-     body:{en:'Stop after the usal, skip the farsan and the rassa, and eat it with bhakri and raw onion. That is what the dish is on the plateau, and it is a better weekday supper than it sounds.',
-           no:'Stopp etter usalen, dropp farsan og rassaen, og spis den med bhakri og rå løk. Slik spises retten oppe på platået, og det er en bedre hverdagsmiddag enn det høres ut som.'}}]
+     body:{en:'Stop after the usal, skip the farsan and rassa, and eat it with bhakri and raw onion. Usal also stands on its own as a practical weekday meal.',
+           no:'Stopp etter usalen, dropp farsan og rassa, og spis den med bhakri og rå løk. Usal fungerer også alene som et praktisk hverdagsmåltid.'}}]
 },
 
 {
@@ -111,10 +111,10 @@ window.RECIPES['IN-MAH'] = [
             {en:'Strong milky tea', no:'Sterk te med mye melk'}],
   headnote:{
     en:`<p>Three things are being made here and only one of them is difficult. The potato filling is easy, the batter is easy, and the dry garlic chutney is the part people skip and should not, because without it a vada pav is a potato sandwich.</p>
-<p>The dish appeared in Bombay in the nineteen sixties or seventies, beside the mill gates and the station entrances, and most accounts credit a stall run by Ashok Vaidya at Dadar. It was designed to be handed over in one movement and eaten with one hand while standing, and everything about it follows from that.</p>
+<p>A widely repeated story credits Ashok Vaidya near Dadar station in the late 1960s or early 1970s, although contemporary documentation is thin and other vendors make claims. The snack's inexpensive, portable format suits station entrances and busy workplaces.</p>
 <p>Time it so the vada goes into the bread hot. A vada that has been sitting steams the inside of the pav and loses the only crisp thing in the whole assembly. Frying is the last thing you do, not the first.</p>`,
     no:`<p>Her lages tre ting, og bare én av dem er vanskelig. Potetfyllet er enkelt, røren er enkel, og den tørre hvitløkchutneyen er delen folk hopper over, og det bør de ikke, for uten den er en vada pav et potetsmørbrød.</p>
-<p>Retten dukket opp i Bombay på 1960- eller 1970-tallet, ved fabrikkportene og stasjonsinngangene, og de fleste beretninger gir æren til en bod som Ashok Vaidya drev ved Dadar. Den ble laget for å rekkes over i én bevegelse og spises med én hånd stående, og alt ved den følger av det.</p>
+<p>En mye gjentatt fortelling gir Ashok Vaidya ved Dadar stasjon æren sent på 1960-tallet eller tidlig på 1970-tallet. Samtidsdokumentasjonen er tynn, og andre selgere gjør krav på retten. Den rimelige og bærbare formen passer ved stasjonsinnganger og travle arbeidsplasser.</p>
 <p>Beregn tiden så vadaen kommer varm i brødet. En vada som har stått, damper innsiden av paven og mister det eneste sprø i hele retten. Stekingen er det siste du gjør, ikke det første.</p>`},
   ingredients:[
    {group:{en:'The potato filling', no:'Potetfyllet'}, items:[
@@ -196,15 +196,15 @@ window.RECIPES['IN-MAH'] = [
   title:{en:'Kanda poha', no:'Kanda poha'},
   blurb:{en:'Flattened rice rinsed rather than cooked, warmed through with onion, turmeric, peanuts and lime.',
          no:'Flattrykt ris som skylles i stedet for å kokes, varmet gjennom med løk, gurkemeie, peanøtter og lime.'},
-  heroCaption:{en:'Poha is made in wide trays and sold through the morning. It does not survive reheating.',
-               no:'Poha lages i vide brett og selges utover morgenen. Den tåler ikke å varmes opp igjen.'},
+  heroCaption:{en:'Poha is made in wide trays and sold through the morning. It is best served freshly heated.',
+               no:'Poha lages i vide brett og selges utover morgenen. Den er best nylaget og varm.'},
   goesWith:[{en:'A wedge of lime and a spoon of sev', no:'En limebåt og en skje sev'},
             {en:'Sweet milky tea', no:'Søt te med melk'}],
   headnote:{
-    en:`<p>This is the fastest real breakfast in this course. Poha is rice that has already been parboiled, flattened between rollers and dried, so it needs no cooking at all. All it needs is water, and only for a moment.</p>
+    en:`<p>Poha is rice that has been parboiled, flattened and dried. Thick flakes need brief rinsing or soaking and are then heated with the seasoned ingredients; exact preparation depends on their thickness.</p>
 <p>The whole dish therefore turns on one judgement: how wet the flakes are when they go into the pan. Too dry and they stay hard in the middle, too wet and the pan gives you paste. The test takes a second, and once you have done it twice you will never measure anything again.</p>
 <p><em>Kanda</em> means onion, and the onion is not a garnish. It is cooked soft and sweet before anything else goes in, and it does as much work as the spices. In Maharashtra this dish also names the meeting where two families size each other up with a marriage in mind, which tells you how thoroughly domestic it is.</p>`,
-    no:`<p>Dette er den raskeste ordentlige frokosten i hele kurset. Poha er ris som alt er forkokt, valset flat og tørket, så den trenger ingen koking. Den trenger bare vann, og bare et øyeblikk.</p>
+    no:`<p>Poha er ris som er forkokt, valset flat og tørket. Tykke flak trenger kort skylling eller bløtlegging og varmes så med de krydrede ingrediensene; den nøyaktige tilberedningen følger tykkelsen.</p>
 <p>Hele retten hviler derfor på én vurdering: hvor våte flakene er når de går i pannen. For tørre, og de er harde inni; for våte, og pannen gir deg en klissen masse. Prøven tar ett sekund, og har du gjort den to ganger, måler du aldri mer.</p>
 <p><em>Kanda</em> betyr løk, og løken er ingen pynt. Den stekes myk og søt før noe annet går i, og den gjør like mye av jobben som kryddene. I Maharashtra har retten også gitt navn til møtet der to familier ser hverandre an med et giftermål i tankene, og det sier hvor hjemlig den er.</p>`},
   ingredients:[
@@ -244,13 +244,13 @@ window.RECIPES['IN-MAH'] = [
     {en:'Serve straight away with sev on top. It will not wait, and it will not reheat.',
      no:'Server med en gang, med sev over. Den venter ikke, og den lar seg ikke varme opp igjen.'}],
   notes:[
-    {title:{en:'Rinse, never soak', no:'Skyll, aldri bløtlegg'},
-     body:{en:'A flake of poha takes up what it needs within seconds, because it was already cooked before it was flattened. Leave it standing in a bowl of water and it goes on absorbing until the starch lets go, and then nothing can save it.',
-           no:'Et pohaflak tar opp det det trenger i løpet av sekunder, for det var ferdig kokt før det ble valset flatt. Lar du det stå i en bolle med vann, fortsetter det å suge til stivelsen slipper, og da er det ingenting å gjøre.'},
+    {title:{en:'Match water to the flakes', no:'Tilpass vannet til flakene'},
+     body:{en:'The thick flakes used here soften after a quick rinse and rest. Other grades may need a short soak, while thin poha can collapse with too much water. Follow the texture in your packet rather than one rule for every kind.',
+           no:'De tykke flakene her blir myke etter rask skylling og hvile. Andre kvaliteter kan trenge kort bløtlegging, mens tynn poha kan falle sammen med for mye vann. Følg konsistensen i pakken i stedet for én regel for alle typer.'},
     },
     {title:{en:'Why the sugar is there', no:'Hvorfor sukkeret er med'},
-     body:{en:'It is not enough to taste sweet. It rounds the sharpness of the lime and the raw heat of the chilli, exactly as jaggery does in a Maharashtrian dal, and it makes the onion read as sweeter than it is. Leave it out and the dish tastes thin.',
-           no:'Det er ikke nok til å smake søtt. Det runder av skarpheten fra limen og den rå styrken fra chilien, akkurat slik jaggery gjør i en dal fra Maharashtra, og det får løken til å oppleves søtere enn den er. Sløyfer du det, smaker retten tynt.'}},
+     body:{en:'This recipe uses a small amount to balance lime and chilli and to draw out the sweetness of the onion. It can be reduced or omitted according to taste.',
+           no:'Denne oppskriften bruker en liten mengde for å balansere lime og chili og framheve sødmen i løken. Den kan reduseres eller utelates etter smak.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Buy thick poha, sold as jada poha or thick flattened rice. The thin kind is meant for chivda and turns to mush here.',
            no:'Kjøp tykk poha, som selges som jada poha eller thick poha i indiske butikker på Grønland. Den tynne typen er ment for chivda og blir til grøt her. Peanøttene i dagligvarebutikken er ristet og saltet og duger ikke, så spør etter rå peanøtter. Fersk kokos får du lettest som frossen revet kokos fra fryseren i indiske butikker, og den er langt bedre enn kokosmasse, som er tørr.'}}],
@@ -430,8 +430,8 @@ window.RECIPES['IN-MAH'] = [
      no:'Sett kjøttet i midten med en liten skål av hver saus ved siden av, og brød å rive av. Veksle: rød, så hvit, så brød.'}],
   notes:[
     {title:{en:'Why one stock makes two gravies', no:'Hvorfor én kraft gir to sauser'},
-     body:{en:'A single sauce has to be a compromise between heat and comfort. Splitting the stock removes the compromise: the red gravy can go as far as it likes because the white one is standing next to it. That is the whole idea of the dish, and halving it gives you something much less interesting.',
-           no:'Én saus må være et kompromiss mellom styrke og trøst. Deler du kraften, forsvinner kompromisset: den røde sausen kan gå så langt den vil, for den hvite står ved siden av. Det er hele ideen i retten, og halverer du den, sitter du igjen med noe langt mindre interessant.'}},
+     body:{en:'This recipe divides one stock between two gravies so the red one can be hot while the pale one stays mild and coconut-rich. Other Kolhapuri preparations build the gravies differently.',
+           no:'Denne oppskriften deler én kraft mellom to sauser, slik at den røde kan være sterk mens den lyse er mild og rik på kokos. Andre kolhapuriske tilberedninger bygger sausene på andre måter.'}},
     {title:{en:'Why the chilli goes into oil off the heat', no:'Hvorfor chilien går i oljen med pannen av platen'},
      body:{en:'Ground chilli burns in seconds on a hot pan and turns bitter, and burnt chilli cannot be rescued. Taking the pan off the flame lets the fat draw the colour and the flavour out at a temperature the powder survives. The red slick that rises later comes from this step.',
            no:'Malt chili svir seg på sekunder i en varm panne og blir bitter, og brent chili lar seg ikke redde. Tar du pannen av platen, trekker fettet ut fargen og smaken ved en temperatur pulveret tåler. Den røde hinnen som legger seg på toppen senere, kommer fra dette steget.'}},
@@ -445,9 +445,9 @@ window.RECIPES['IN-MAH'] = [
     {title:{en:'The dry one alone', no:'Bare den tørre'},
      body:{en:'Stop after the meat is cooked down with the vatan and serve that on its own with bhakri. It is called sukka, it is what a household makes on an ordinary evening, and it takes an hour less.',
            no:'Stopp etter at kjøttet er kokt inn med vatanen, og server det alene med bhakri. Det heter sukka, det er det en husholdning lager en helt vanlig kveld, og det tar en time mindre.'}},
-    {title:{en:'The Saoji version', no:'Saoji-utgaven'},
-     body:{en:'Nagpur, in the east of the state, grinds white poppy seed and extra black pepper into the paste and uses more chilli again. The gravy is darker and thicker and has a reputation for being the hottest food in Maharashtra.',
-           no:'Nagpur, øst i delstaten, maler hvite valmuefrø og ekstra sort pepper inn i massen og bruker enda mer chili. Sausen blir mørkere og tykkere, og den har ord på seg for å være den sterkeste maten i Maharashtra.'}}]
+    {title:{en:'A Saoji variation', no:'En Saoji-variant'},
+     body:{en:'Some Saoji versions associated with Nagpur use white poppy seed, black pepper and substantial chilli in a darker, thicker gravy. Recipes and heat levels vary.',
+           no:'Enkelte Saoji-utgaver forbundet med Nagpur bruker hvite valmuefrø, sort pepper og mye chili i en mørkere og tykkere saus. Oppskrifter og styrke varierer.'}}]
 }
 
 ];

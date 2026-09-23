@@ -6,48 +6,48 @@ Object.assign(window.SPICE_NO, {
  'IN-BEN|Panch phoron': {
    aroma: 'Anis fra fennikelen over varm og jordaktig spisskummen, med en bitter lønnetone under fra bukkehornkløveren.',
    flavour: 'Stort sett en bakgrunn, helt til du biter i et helt frø i en munnfull og får én smak alene.',
-   does: 'Krydrer stekeoljen på de første tretti sekundene, så fettet bærer smaken inn i alt som stekes etterpå.',
-   when: 'Hel, i varm olje, før alt annet går i. Aldri malt, og aldri rørt inn til slutt.',
-   swap: 'Bland din egen av like deler spisskummen, svartkarve, bukkehornkløver, fennikel og radhuni. Sellerifrø kan brukes i stedet for radhuni.',
-   sourcing: 'Ferdigblandet panch phoron selges i indiske butikker på Grønland i Oslo, men blandingene her har som regel sennepsfrø i stedet for radhuni. Blander du selv, vet du hva som er i.'
+   does: 'Krydrer varmt fett og lar de fem frøene forbli tydelige i den ferdige retten.',
+   when: 'Holdes vanligvis hel og går i varm olje tidlig; tidspunktet avhenger av retten.',
+   swap: 'Bland spisskummen, svartkarve, bukkehornkløver, fennikel og radhuni etter smak. Sellerifrø kan erstatte radhuni.',
+   sourcing: 'Ferdigblandet panch phoron finnes i indiske matbutikker, men innhold og mengder varierer. Les etiketten hvis du trenger radhuni framfor sennepsfrø.'
  },
  'IN-BEN|Mustard oil': {
-   aroma: 'Rå og stikkende når den er kald, som pepperrot. Hard oppvarming gjør den om til en nøtteaktig varme.',
+   aroma: 'Rå og skarp når den er kald, som pepperrot. Oppvarming mildner kanten og endrer duften.',
    flavour: 'Skarp og svakt bitter av allylisotiocyanat, det samme stoffet som gir wasabi stikket sitt.',
-   does: 'Den er hverdagens stekefett i hele regionen, og en rå skje over den ferdige retten er et krydder i seg selv.',
-   when: 'Varmes til den så vidt ryker før noe går i, så den rå kanten brenner av; eller rå helt til slutt.',
-   swap: 'Ingenting gir den samme skarpheten. En nøytral olje steker fint, og litt sennepspulver henter tilbake noe av bittet.',
-   sourcing: 'Mye av sennepsoljen i norske butikker er merket kun til utvortes bruk på grunn av erukasyre. Se etter flasker som sier «edible» eller «kachi ghani» i indiske butikker.'
+   does: 'Brukes som stekefett i mange østlige retter og som skarp smakstilsetning til slutt i andre.',
+   when: 'Varm etter oppskriften og merkingen på oljen, eller bruk en liten rå mengde til slutt der det passer.',
+   swap: 'Nøytral olje fungerer til steking; litt ferdig sennep kan gi noe bitt til den ferdige retten.',
+   sourcing: 'Kjøp bare sennepsolje som uttrykkelig er merket for matbruk. «Kachi ghani» beskriver pressing, men erstatter ikke en spiselighetsmerking.'
  },
  'IN-BEN|Nigella (kalonji)': {
    aroma: 'Oregano og ristet løk, med noe svakt harpiksaktig bak.',
    flavour: 'Smaksrik og litt bitter. Frøet merkes ett om gangen heller enn som en jevn smak.',
-   does: 'Gir den bengalske fiskekarrien lukten sin, og pryder brød og pickles i hele regionen.',
-   when: 'Hel i varm olje i starten, alene eller som del av panch phoron. Den males nesten aldri.',
-   swap: 'Ingen ærlig erstatning. Svart sesam og karve er andre frø og smaker ikke i nærheten av det samme.',
+   does: 'Gir en salt, lett bitter duft til fiskekarri, brød, pickles og grønnsaker.',
+   when: 'Brukes ofte hel i varm olje, alene eller som del av panch phoron.',
+   swap: 'Svart sesam og karve er andre frø. Sløyf heller svartkarven enn å behandle dem som nøyaktige erstatninger.',
    sourcing: 'Selges som kalonji eller svartkarve i indiske butikker, i poser på hundre gram. Svart sesam fra bakeavdelingen er en annen plante, uansett hva det står på posen.'
  },
  'IN-BEN|Poppy seed (posto)': {
    aroma: 'Svært lite i rå tilstand; en varm, nøtteaktig duft når frøene er malt og kokt.',
    flavour: 'Mild, melkeaktig og nøtteaktig, nesten uten kant. Oppgaven er konsistens mer enn smak.',
    does: 'Males frøene med vann, tykner de retten til en lys pasta som legger seg rundt alt, og den pastaen er hele kroppen i aloo posto.',
-   when: 'Bløtlegges, males til pasta og kokes forsiktig. Hele frø gir ingenting og blir bare grynete.',
+   when: 'Bløtlegges ofte, males til pasta og kokes forsiktig. Hele frø gir en annen og mer grynet konsistens.',
    swap: 'Pasta av cashewnøtter eller melonfrø gir liknende fylde, men søtere. Blå valmuefrø gjør retten grå.',
    sourcing: 'Valmuefrøene i norske dagligvarebutikker er de blå, og de gir grå og bitrere mat. Be om hvite valmuefrø, safed posto, i indiske butikker.'
  },
  'IN-BEN|Radhuni': {
    aroma: 'Skarpt av persille og selleriblad, mye kraftigere enn størrelsen på frøet skulle tilsi.',
    flavour: 'Grønn, bitter og litt medisinsk. En klype for mye, og den tar over hele retten.',
-   does: 'Krydrer shukto, den bitre retten som åpner et bengalsk måltid, og er det femte frøet i en ekte panch phoron.',
-   when: 'Hel i varm olje helt i starten, i små mengder. Den males aldri.',
+   does: 'Krydrer enkelte shukto-oppskrifter og er det femte frøet i én vanlig panch phoron-formel.',
+   when: 'Brukes vanligvis hel i varm olje, i små mengder.',
    swap: 'Sellerifrø ligger nærmest og fungerer. Ajwain foreslås iblant og passer dårlig.',
-   sourcing: 'Radhuni er i praksis ikke å få kjøpt i Norge, heller ikke på Grønland. Bruk sellerifrø, som selges i vanlige krydderhyller, og godta at retten blir litt mindre grønn.'
+   sourcing: 'Radhuni kan være vanskelig å finne i Norge. Sellerifrø finnes i flere krydderhyller og gir en beslektet, men ikke identisk smak.'
  },
  'IN-BEN|Kasundi': {
    aroma: 'Skarp gjæret sennep, salt og litt sur, nærmere en fiskesaus enn en bordsennep.',
    flavour: 'Sterk, salt og syrlig på én gang. Den renser bihulene slik wasabi gjør, og gir seg så.',
    does: 'Brukes som tilbehør og ikke som ingrediens: ved siden av stekt fisk, til frityrstekte biter, eller rørt inn i kokte grønnsaker.',
-   when: 'Rå, på bordet. Koking ødelegger skarpheten og lar bare saltet bli igjen.',
+   when: 'Serveres ofte ved bordet; varme mildner skarpheten, så kokt bruk gir et annet resultat.',
    swap: 'En dijonsennep spedd med litt eddik ligger nærmest, men den er mildere og ikke gjæret.',
    sourcing: 'Bengalsk kasundi selges på flaske i indiske butikker og heter ofte «kasundi mustard». Den australske kasundien er en tomatchutney som lånte navnet, og den er noe helt annet.'
  }

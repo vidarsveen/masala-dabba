@@ -5,7 +5,7 @@ Object.assign(window.GLOSSARY, {
   'tandoor': {
     term: 'Tandoor',
     short: 'A clay oven, charcoal at the bottom, that bakes bread on its wall and meat on skewers.',
-    long: 'A jar of clay about a metre deep, sunk in the ground or set inside an insulated drum, running far hotter than a domestic oven. Bread is slapped onto the inside wall and cooks by contact; meat goes on vertical skewers, so its fat drips onto the coals and returns as smoke. Ovens of the shape are ancient, but the restaurant tandoor is a twentieth-century thing.',
+    long: 'A deep clay vessel sunk in the ground or set inside an insulated drum, running far hotter than many domestic ovens. Bread cooks by contact with the inner wall; meat goes on vertical skewers, so some dripping fat reaches the coals. Ovens of this shape are ancient, while Punjabi refugee restaurants helped spread the modern restaurant tandoor after Partition.',
     match: ['tandoor']
   },
   'atta': {
@@ -16,20 +16,20 @@ Object.assign(window.GLOSSARY, {
   },
   'paneer': {
     term: 'Paneer',
-    short: 'Fresh cheese set with acid rather than rennet, which is why it never melts.',
-    long: 'Hot milk is curdled with lemon juice, vinegar or whey, and the curds are drained and pressed into a block. Because no rennet is involved the protein does not reorganise the way it does in a rennet cheese, so paneer holds its shape over fire and in a hot gravy. That single property is what lets north India grill it, fry it and simmer it.',
+    short: 'Fresh, acid-set cheese that holds its shape when fried, grilled or simmered.',
+    long: 'Hot milk is curdled with lemon juice, vinegar or whey, and the curds are drained and pressed into a block. Its heat-and-acid-set protein structure does not melt like that of many rennet cheeses, so paneer holds its shape over fire and in hot gravy. It can therefore be grilled, fried or simmered.',
     match: ['paneer']
   },
   'langar': {
     term: 'Langar',
-    short: 'The free kitchen of a Sikh place of worship, where everyone sits on the floor and eats the same food.',
-    long: 'Established by Guru Nanak in the early sixteenth century and still running. The food is always vegetarian, so that a visitor of any religion can eat without asking what is in it, and the rows on the floor are the argument: caste rules about who may eat beside whom do not survive a shared floor. The kitchen at the Golden Temple in Amritsar feeds on the order of a hundred thousand people a day.',
+    short: 'The free communal kitchen of a Sikh place of worship, where everyone receives the same meal.',
+    long: 'Langar developed from the teachings and community established by Guru Nanak. Diners traditionally sit together in rows on the floor, with accommodation for people who need it, and share vegetarian food across differences of religion, caste, wealth and status. The Golden Temple kitchen serves more than fifty thousand people on an ordinary day and can exceed one hundred thousand during festivals.',
     match: ['langar']
   },
   'dhaba': {
     term: 'Dhaba',
-    short: 'A roadside eating house on a truck route, and the origin of much restaurant Punjabi food.',
-    long: 'Dhabas grew up along the Grand Trunk Road to feed drivers, and they cook a short menu hard and fast: dal kept simmering all day, a tandoor going at the front, paratha, and tea with a great deal of milk. Many of the dishes the world now meets in Indian restaurants were dhaba food first.',
+    short: 'A roadside eating house, often serving drivers and other travellers.',
+    long: 'Dhabas became closely associated with truck routes such as the Grand Trunk Road. A Punjabi dhaba may keep dal simmering, work a tandoor near the entrance and serve paratha with milky tea. This roadside style helped shape the wider reputation of Punjabi restaurant food.',
     match: ['dhaba']
   }
 });

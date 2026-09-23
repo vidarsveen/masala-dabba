@@ -8,19 +8,19 @@ window.RECIPES['IN-KER'] = [
   id:'meen-curry', dish:'Meen curry', course:'main', lesson:3, serves:4, veg:false,
   time:{prep:20, cook:30}, hero:'meen-curry', tags:['fish','kudampuli','clay pot'],
   title:{en:'Meen curry', no:'Meen curry'},
-  blurb:{en:'The everyday Kerala fish curry: thin, red, sharply sour, and better tomorrow.',
-         no:'Keralas hverdagskarri med fisk: tynn, rød, skarpt sur, og bedre i morgen.'},
+  blurb:{en:'A red Kerala fish curry, sharply sour with kudampuli and suitable for prompt chilling overnight.',
+         no:'En rød fiskekarri fra Kerala, skarpt sur av kudampuli og egnet for rask nedkjøling over natten.'},
   heroCaption:{en:'Meen curry in an unglazed clay pot. The gravy should coat a spoon, not pool like a sauce.',
                no:'Meen curry i uglasert leirgryte. Kraften skal legge seg på skjeen, ikke samle seg som en tykk saus.'},
   goesWith:[{en:'Red matta rice, or plain boiled rice', no:'Rød mattaris, eller vanlig kokt ris'},
             {en:'A thoran of green beans', no:'En thoran av grønne bønner'}],
   headnote:{
-    en:`<p>This is the dish a coastal household in Kerala cooks most often, and almost nothing about it matches what a European expects from an Indian fish curry. There is no coconut milk in the strictest version, no cream, no tomato and no thick gravy. What there is instead is a great deal of shallot, a fistful of dried red chilli for colour, and kudampuli, the smoked rind that sours it.</p>
-<p>The sourness is doing real work. Kudampuli firms the flesh of the fish rather than breaking it down, and it keeps the curry edible for two or three days in a hot climate without a fridge. That is why a Kerala cook makes it in the evening for tomorrow's lunch, and why the second day genuinely tastes better than the first.</p>
-<p>Cook it in unglazed clay if you have a pot. Clay holds a low heat gently, which suits a gravy that must never boil hard once the fish is in, and a seasoned pot carries something of every curry made in it before. A heavy steel or enamelled pan is a fair substitute. A thin one is not.</p>`,
-    no:`<p>Dette er den retten en kysthusholdning i Kerala lager oftest, og nesten ingenting ved den stemmer med det en europeer venter seg av en indisk fiskekarri. Den strengeste versjonen inneholder verken kokosmelk, fløte, tomat eller tykk saus. I stedet inneholder den svært mye sjalottløk, en neve tørket rød chili for fargen, og kudampuli, det røkte skallet som syrner den.</p>
-<p>Syren gjør en reell jobb. Kudampuli strammer opp fiskekjøttet i stedet for å bryte det ned, og den holder karrien spiselig i to–tre dager i varmt klima uten kjøleskap. Derfor lager en kokk i Kerala den om kvelden til lunsj dagen etter, og derfor smaker den virkelig bedre den andre dagen enn den første.</p>
-<p>Bruk uglasert leirgryte hvis du har en. Leire holder jevnt på en lav varme, og det passer en kraft som aldri skal fosskoke etter at fisken har gått i. En tung stålgryte eller en emaljert jerngryte gjør nesten samme nytte. En tynn panne gjør det ikke.</p>`},
+    en:`<p>Kerala has many fish curries. This version is thin, red and sharply sour, without coconut milk or tomato. Shallot, chilli and kudampuli build the gravy, but that is one important style rather than a rule for the whole coast.</p>
+<p>Kudampuli adds acidity and a smoky-fruity aroma. It does not preserve cooked fish at room temperature. If you want the rounder flavour of a next-day curry, cool it promptly in a shallow container, refrigerate within two hours and reheat thoroughly.</p>
+<p>Use an unglazed clay pot if you have one, or a heavy steel or enamelled pan. Gentle simmering protects the fish pieces; the cookware does not need to carry flavour from earlier curries.</p>`,
+    no:`<p>Kerala har mange fiskekarrier. Denne utgaven er tynn, rød og skarpt sur, uten kokosmelk eller tomat. Sjalottløk, chili og kudampuli bygger kraften, men dette er én viktig stil og ikke en regel for hele kysten.</p>
+<p>Kudampuli gir syre og en røykpreget fruktduft. Den konserverer ikke kokt fisk i romtemperatur. Vil du ha den rundere smaken dagen etter, kjøler du raskt ned i en grunn beholder, setter i kjøleskap innen to timer og varmer grundig opp.</p>
+<p>Bruk en uglasert leirgryte hvis du har en, eller en tung stål- eller emaljegryte. Mild småkoking beskytter fiskestykkene; gryta trenger ikke å bære smak fra tidligere karriretter.</p>`},
   ingredients:[{group:{en:'', no:''}, items:[
     {q:600, u:'g', n:{en:'firm white fish, in thick pieces', no:'fast hvit fisk, i tykke stykker'}, note:{en:'sei, cod cheek, monkfish or kingfish', no:'sei, torsk, breiflabb eller kongemakrell'}},
     {q:5, u:'', n:{en:'pieces of kudampuli', no:'biter kudampuli'}, round:'half', note:{en:'rinsed, soaked 10 minutes', no:'skylt, bløtlagt i 10 minutter'}},
@@ -56,25 +56,25 @@ window.RECIPES['IN-KER'] = [
      no:'Smak til med salt og syre. Er den for skarp, hjelper noen minutter til på platen; er den flat, la kudampulien ligge lenger.'},
     {en:'Scatter the second sprig of curry leaf over, cover, and take the pan off the heat. Leave it to stand at least twenty minutes before serving.',
      no:'Strø den andre kvisten karriblad over, legg på lokk og ta pannen av platen. La den stå i minst tjue minutter før servering.'},
-    {en:'Serve with red matta rice. Tomorrow it will be better still, and it does not need reheating past warm.',
-     no:'Server med rød mattaris. I morgen er den enda bedre, og den trenger ikke varmes opp til mer enn lunken.'}],
+    {en:'Serve with red matta rice. For next-day curry, transfer leftovers to a shallow container, refrigerate within two hours and reheat until steaming throughout.',
+     no:'Server med rød mattaris. Til neste dag legges restene i en grunn beholder, settes i kjøleskap innen to timer og varmes til de er gjennomvarme.'}],
   notes:[
     {title:{en:'Why the chilli goes in off the heat', no:'Hvorfor chilien går i med kjelen av platen'},
      body:{en:'Ground chilli and turmeric burn at a much lower temperature than whole spices, and burnt chilli powder is bitter in a way nothing later can fix. Pulling the pan off for fifteen seconds costs nothing and removes the risk entirely.',
            no:'Malt chili og gurkemeie svir seg ved langt lavere temperatur enn hele krydder, og svidd chilipulver er bittert på en måte ingenting senere retter opp. Femten sekunder med pannen av platen koster ingenting og fjerner risikoen helt.'}},
-    {title:{en:'Why it improves overnight', no:'Hvorfor den blir bedre over natten'},
-     body:{en:'The acid in the kudampuli keeps working on the fish and the gravy after the heat is off, and the shallot sweetness has time to come forward. This is the opposite of how a European treats cooked fish, and it is worth trusting.',
-           no:'Syren i kudampulien fortsetter å arbeide på fisken og sausen etter at varmen er skrudd av, og sødmen fra sjalottløken får tid til å komme fram. Dette er det motsatte av hvordan en europeer behandler kokt fisk, og det er verdt å stole på.'}},
+    {title:{en:'Why next-day flavour needs refrigeration', no:'Hvorfor smak dagen etter krever kjøleskap'},
+     body:{en:'Aromas from kudampuli, shallot and spices continue to distribute as chilled curry rests. Acidity changes flavour but does not control all foodborne hazards, so cool promptly and keep the fish at 4 °C or colder.',
+           no:'Duftene fra kudampuli, sjalottløk og krydder fordeler seg videre mens den kjølte karrien hviler. Syre endrer smaken, men kontrollerer ikke alle farer i maten, så kjøl raskt ned og oppbevar fisken ved 4 °C eller kaldere.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Kudampuli is sold in Indian shops as kudampuli, fish tamarind or, confusingly, kokum, and the three are not the same fruit. Ask for the black, leathery, smoked kind from Kerala.',
-           no:'Kudampuli selges i indiske butikker som kudampuli, fish tamarind eller, forvirrende nok, kokum, og de tre er ikke den samme frukten. Spør etter den svarte, læraktige og røkte varianten fra Kerala. Sei fra fiskedisken er en bedre fisk til denne retten enn laks, som blir for fet og faller fra hverandre.'}}],
+           no:'Kudampuli selges i enkelte indiske eller sørasiatiske butikker som kudampuli eller fish tamarind. Kokum er en annen frukt. Se etter mørke, læraktige biter, og bruk fast hvit fisk som sei, torsk eller breiflabb.'}}],
   variations:[
     {title:{en:'With coconut milk', no:'Med kokosmelk'},
      body:{en:'Many houses make a softer version. Use half the water, and stir in thick coconut milk with the heat off once the fish is cooked. It becomes a different dish, milder and rounder, and it does not keep as well.',
            no:'Mange hus lager en mykere utgave. Bruk halvparten så mye vann, og rør inn tykk kokosmelk med varmen av når fisken er ferdig. Det blir en annen rett, mildere og rundere, og den holder seg ikke like lenge.'}},
     {title:{en:'Prawns instead of fish', no:'Reker i stedet for fisk'},
-     body:{en:'Raw shell-on prawns work very well and need only four minutes. Add them at the same point and stop as soon as they turn opaque.',
-           no:'Rå reker med skall fungerer svært godt og trenger bare fire minutter. Ha dem i på samme tidspunkt og stopp så snart de blir ugjennomsiktige.'}}]
+     body:{en:'Raw shell-on prawns work very well. Add them at the same point and cook until opaque and firm; timing varies with size, so check the thickest one rather than relying on four minutes alone.',
+           no:'Rå reker med skall fungerer svært godt. Ha dem i på samme tidspunkt og kok til de er ugjennomsiktige og faste; tiden varierer med størrelsen, så sjekk den tykkeste i stedet for å stole på fire minutter alene.'}}]
 },
 
 {
@@ -122,14 +122,14 @@ window.RECIPES['IN-KER'] = [
   steps:[
     {en:'The night before, drain the soaked rice and grind it with the cooked rice, the coconut and enough of the water to give a smooth batter the thickness of double cream.',
      no:'Hell av bløtevannet kvelden før, og kjør risen sammen med den kokte risen, kokosen og nok av vannet til at røren blir glatt og omtrent så tykk som kremfløte.'},
-    {en:'Stir in the yeast and the sugar, cover loosely and leave in a warm place overnight. By morning it should have risen and smell faintly sour.',
-     no:'Rør inn gjæren og sukkeret, dekk løst til og la det stå lunt over natten. Om morgenen skal røren ha hevet seg og lukte svakt surt.'},
+    {en:'Stir in the yeast and sugar, cover loosely and leave in a warm place until risen and faintly sour, usually eight to twelve hours. Cook it then or refrigerate immediately.',
+     no:'Rør inn gjær og sukker, dekk løst til og la røren stå lunt til den har hevet seg og lukter svakt surt, vanligvis åtte–tolv timer. Stek den da, eller sett den straks i kjøleskapet.'},
     {en:'For the stew, warm the coconut oil in a wide pan and add the cardamom, clove and cinnamon. Wait until they smell, about thirty seconds.',
      no:'Varm kokosoljen til stuingen i en vid panne og ha i kardemomme, nellik og kanel. Vent til det dufter, omtrent tretti sekunder.'},
     {en:'Add the shallot, ginger, green chilli and one sprig of curry leaf. Cook over a low flame until the shallot collapses but stays pale, about ten minutes.',
      no:'Ha i sjalottløk, ingefær, grønn chili og én kvist karriblad. La det surre på lav varme til løken faller sammen, men fortsatt er lys, omtrent ti minutter.'},
-    {en:'Add the chicken, the potato and the thin coconut milk. Salt it, bring it to a bare simmer and cook covered for twenty-five minutes, until the potato yields to a knife.',
-     no:'Ha i kyllingen, potetene og den tynne kokosmelken. Salt, la det så vidt småkoke og kok under lokk i tjuefem minutter, til potetene gir etter for en kniv.'},
+    {en:'Add the chicken, potato and thin coconut milk. Salt it, bring it to a bare simmer and cook covered until the potato is tender and the chicken reaches 74 °C, about twenty-five minutes.',
+     no:'Ha i kyllingen, potetene og den tynne kokosmelken. Salt, la det så vidt småkoke og kok under lokk til poteten er mør og kyllingen når 74 °C, omtrent tjuefem minutter.'},
     {en:'Turn off the heat. Stir in the thick coconut milk, the cracked pepper and the second sprig of curry leaf, and leave to stand. It must not boil again.',
      no:'Skru av varmen. Rør inn den tykke kokosmelken, den knuste pepperen og den andre kvisten karriblad, og la det stå. Det skal ikke koke opp igjen.'},
     {en:'Salt the batter and thin it with water until it just coats a spoon. Heat a small round-bottomed pan over a medium flame and wipe it with oil.',
@@ -149,14 +149,14 @@ window.RECIPES['IN-KER'] = [
            no:'Hele poenget med appam er ett brød med to konsistenser, og det skjer bare hvis røren kan renne tynt ut i kanten og samle seg i midten. En flat panne gir en pannekake med jevn tykkelse, og det er helt greit, men det er ikke appam.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Buy full-fat tinned coconut milk and do not shake the tin: the thick cream sits at the top and the thin milk underneath, which gives you both without buying two products.',
-           no:'Kjøp kokosmelk på boks med fullt fettinnhold og ikke rist boksen: den tykke kremen ligger øverst og den tynne melken under, så du får begge deler av ett produkt. Kokosmelk merket «light» gir ingen tykk del i det hele tatt. Frossen revet kokos fra asiatiske butikker er riktig vare; tørket kokosmasse fra bakehyllen er det ikke.'}}],
+           no:'Kjøp kokosmelk med fullt fettinnhold. I en uristet boks ligger ofte en fetere del øverst og en tynnere del under, men produkter varierer. Frossen revet kokos fra en asiatisk butikk gir en ferskere pasta enn tørket kokosmasse.'}}],
   variations:[
     {title:{en:'Vegetable stew', no:'Grønnsakstuing'},
      body:{en:'Leave the chicken out and use carrot, green beans and more potato, cut large. Cook it for fifteen minutes rather than twenty-five. It is the version served at Easter breakfast in many houses.',
            no:'Sløyf kyllingen og bruk gulrot, grønne bønner og mer potet, skåret stort. Kok det i femten minutter i stedet for tjuefem. Det er utgaven som serveres til påskefrokost i mange hus.'}},
-    {title:{en:'Raised with toddy', no:'Hevet med toddy'},
-     body:{en:'The old method uses fresh palm toddy instead of yeast and sugar, because the sap is already fermenting. If you can find it, use enough to replace half the water and leave out the yeast.',
-           no:'Den gamle metoden bruker fersk palmetoddy i stedet for gjær og sukker, fordi saften allerede gjærer. Finner du den, bruk nok til å erstatte halve vannmengden og sløyf gjæren.'}}]
+    {title:{en:'Toddy tradition', no:'Toddytradisjonen'},
+     body:{en:'Some appam traditions use fermenting palm toddy as the starter. Its strength and microbiology vary, so this home recipe uses measured dried yeast; use toddy only from a regulated food-grade source and follow its storage guidance.',
+           no:'Noen appamtradisjoner bruker gjærende palmetoddy som starter. Styrke og mikrobiologi varierer, så hjemmeoppskriften bruker målt tørrgjær. Bruk toddy bare fra en regulert matkilde og følg oppbevaringsrådene på produktet.'}}]
 },
 
 {
@@ -213,14 +213,14 @@ window.RECIPES['IN-KER'] = [
      no:'Hell den rå kokosoljen over, strø karribladene på toppen, legg på lokk og la det stå i fem minutter. Server lunkent, ikke rykende varmt.'}],
   notes:[
     {title:{en:'Why the curd goes in off the heat', no:'Hvorfor den syrnede melken går i med kjelen av platen'},
-     body:{en:'Yoghurt curdles above about 85 °C unless it is stabilised with flour or starch, and avial has neither. Take the pan off, wait, then fold it in, and the dish stays smooth.',
-           no:'Yoghurt skiller seg over omtrent 85 °C med mindre den er stabilisert med mel eller stivelse, og avial har ingen av delene. Ta pannen av, vent, og vend den så inn, så holder retten seg glatt.'}},
+     body:{en:'High heat can make yoghurt proteins tighten and separate, especially without a starch stabiliser. Take the pan off, wait briefly and fold in smooth yoghurt gently.',
+           no:'Sterk varme kan få proteinene i yoghurten til å trekke seg sammen og skille seg, særlig uten stivelse som stabilisator. Ta pannen av, vent litt og vend den glatte yoghurten forsiktig inn.'}},
     {title:{en:'Why nothing is fried', no:'Hvorfor ingenting stekes'},
      body:{en:'Browning creates one dominant flavour and this dish is built on the opposite principle: eight vegetables that still taste of themselves. It is the clearest example in the course of a technique defined by what it refuses to do.',
            no:'Bruning skaper én dominerende smak, og denne retten bygger på det motsatte prinsippet: åtte grønnsaker som fortsatt smaker av seg selv. Det er det tydeligste eksempelet i kurset på en teknikk som er definert av hva den lar være å gjøre.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
      body:{en:'Frozen grated coconut from an Asian shop is the right thing. Desiccated coconut from the baking aisle is dry and sweetened and will not grind to a paste.',
-           no:'Frossen revet kokos fra en asiatisk butikk er riktig vare. Tørket kokosmasse fra bakehyllen er tørr og ofte sukret, og den lar seg ikke kjøre til pasta. Norsk yoghurt naturell er tykkere enn indisk dahi, så pisk den ut med litt vann. Kokebanan finner du i butikkene på Grønland; er den ikke å oppdrive, gir fast potet og litt mer gulrot et godt nok resultat.'}}],
+           no:'Frossen revet kokos fra en asiatisk butikk egner seg godt til pasta; tørket kokosmasse gir en annen konsistens. Er yoghurten svært tykk, kan den piskes ut med litt vann. Kokebanan finnes i mange internasjonale butikker; fast potet og litt mer gulrot fungerer som erstatning.'}}],
   variations:[
     {title:{en:'Sadya avial', no:'Sadya-avial'},
      body:{en:'For a feast, use raw plantain, yam, ash gourd and drumstick, and add a little sour mango instead of the yoghurt. It is drier and firmer, which suits a leaf where nothing should run.',

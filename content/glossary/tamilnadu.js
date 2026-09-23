@@ -10,20 +10,20 @@ Object.assign(window.GLOSSARY, {
   },
   'sambar-podi': {
     term: 'Sambar podi',
-    short: 'The one ground blend a Tamil household keeps, and the only one most cooking needs.',
-    long: 'Coriander seed dominates it, with dried red chilli, fenugreek, a little pepper and cumin, turmeric and asafoetida. What gives it away as a southern blend is that toor dal and chana dal are roasted and ground in with the spices, so a spoonful thickens as well as seasons. It carries none of the warm sweet spices that define a north Indian garam masala, and the two are not interchangeable.',
+    short: 'A ground spice-and-lentil blend used in many versions of sambar.',
+    long: 'Recipes vary, but coriander seed, dried red chilli and fenugreek are common, sometimes with cumin, pepper, turmeric, asafoetida or roasted lentils. It is made for sambar and is not interchangeable with garam masala.',
     match: ['sambar podi']
   },
   'urad-dal': {
     term: 'Urad dal',
-    short: 'Split black gram, the lentil that leavens the south Indian breakfast batter.',
-    long: 'Urad carries wild <em>Leuconostoc</em> and <em>Lactobacillus</em> on its skin, so a batter made with it ferments without any yeast being added. It also carries a protein and a sticky polysaccharide that trap gas the way egg white does, which is why ground urad visibly whips up and pales. No other common Indian lentil will do the job, and a pinch of the split kind also goes into hot oil as a spice.',
+    short: 'Split black gram, which gives south Indian breakfast batter much of its gas-holding structure.',
+    long: 'Idli fermentation involves changing communities of bacteria and yeasts from the ingredients, equipment and surroundings. Urad has an important structural role: its proteins and polysaccharides help a well-ground batter hold gas, which is why it visibly whips up and pales. A pinch of split urad also goes into hot oil as a tempering ingredient.',
     match: ['urad dal', 'urad']
   },
   'rasam': {
     term: 'Rasam',
     short: 'A thin, sour, peppery broth, half poured over rice and half drunk beside it.',
-    long: 'Mostly water, soured with tamarind and seasoned with coarsely pounded pepper and cumin, garlic, curry leaf and coriander, with at most a ladle of thin dal water for body. It is taken off the heat as soon as it froths, because a hard boil dulls the pepper. Milagu rasam, the oldest version, uses pepper and cumin and no chilli at all, and is the household remedy for a cold.',
+    long: 'Rasam formulas vary. This version is mostly water, soured with tamarind and seasoned with coarsely pounded pepper and cumin, garlic, curry leaf and coriander, with a little dal water for body. Brief final heating preserves fresh aroma. Milagu rasam uses pepper and cumin and is often served as comfort food during a cold, without being a medical treatment.',
     match: ['rasam']
   },
   'dabara': {
@@ -35,7 +35,7 @@ Object.assign(window.GLOSSARY, {
   'chettinad': {
     term: 'Chettinad',
     short: 'The dry inland district of the Chettiar merchant families, and the cooking that came out of it.',
-    long: 'A cluster of villages around Karaikudi, home to the Nattukottai Chettiars, who banked across Burma, Ceylon and Malaya from the early nineteenth century. The kitchen is defined by a dry roast that takes whole spices nearly to black before grinding, and by three ingredients almost no other Indian kitchen keeps: star anise, kalpasi and marathi mokku.',
+    long: 'A cluster of villages around Karaikudi, home to the Nattukottai Chettiars, who banked across Burma, Ceylon and Malaya from the early nineteenth century. Many Chettinad blends carefully dry-roast whole spices until fragrant and brown. Star anise, kalpasi and marathi mokku are strongly associated with the cuisine, though formulas vary and the ingredients are not unique to it.',
     match: ['Chettinad']
   }
 });

@@ -17,7 +17,7 @@ Object.assign(window.SPICE_NO, {
    does: 'Legger et gulv under en malt masala, så de andre kryddene har noe å hvile på. En Chettinad-blanding uten den smaker merkbart tynnere.',
    when: 'Tørrristet sammen med de hele kryddene før maling, eller sluppet i oljen helt i starten av temperingen.',
    swap: 'Ingenting oppfører seg likt, og en lav lar seg ikke etterligne. Sløyf den og godta en lettere masala.',
-   sourcing: 'Kalpasi selges i indiske butikker på Grønland i Oslo som kalpasi, dagad phool eller black stone flower. Den ser ut som skitne papirspon, og slik skal den se ut.'
+   sourcing: 'Kalpasi selges i enkelte indiske eller sørasiatiske butikker som kalpasi, dagad phool eller black stone flower. Den ser ut som gråbrune, tynne flak.'
  },
  'IN-TAM|Star anise': {
    aroma: 'Søt lakris over varm harpiks, og sterk nok til å kjennes fra andre siden av kjøkkenet.',
@@ -36,11 +36,11 @@ Object.assign(window.SPICE_NO, {
    sourcing: 'Marathi mokku er vanskelig å oppdrive her og selges av og til som marathi moggu i indiske butikker. Får du den ikke, bruk nellik og pepper og si fra om det.'
  },
  'IN-TAM|Sambar podi': {
-   aroma: 'Ristet koriander over tørket chili, med en duft av ristede linser under som ingen nordindisk blanding har.',
+   aroma: 'Ristet koriander over tørket chili, noen ganger med en duft av ristede linser under.',
    flavour: 'Jordaktig og middels sterk heller enn skarp. Bukkehornkløveren gir en bitter kant som melder seg fort hvis det går for mye i.',
-   does: 'Krydrer og jevner samtidig, for ristet toor dal og chana dal males inn i blandingen sammen med krydderet.',
+   does: 'Krydrer sambar; blandinger med ristede linser gir også litt fylde.',
    when: 'Røres inn i dalen og tamarinden mens det småkoker, og får noen minutter så den rå koriandersmaken forsvinner.',
-   swap: 'Garam masala er feil blanding. Rist koriander, chili, bukkehornkløver og en skje linser og mal din egen i stedet.',
+   swap: 'Garam masala har en annen oppgave. Rist koriander, chili og bukkehornkløver, tilsett en skje linser hvis oppskriften bruker det, og mal din egen.',
    sourcing: 'Ferdig sambar podi selges i indiske butikker, ofte fra MTR eller Aachi. Karripulver fra dagligvarebutikken er noe helt annet og fungerer ikke.'
  },
  'IN-TAM|Tamarind': {

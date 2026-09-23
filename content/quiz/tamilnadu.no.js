@@ -16,32 +16,32 @@ window.QUIZ_NO['IN-TAM'] = [
       'En lav som vokser på bark og stein i åsene i sør',
       'Et pulver av ristede linser og chili'],
    c:2, why:'Kalpasi er Parmotrema perlatum, som selges tørket som steinblomst, og den hører til samme familie som eikemosen parfymørene bruker.'},
-  {q:'Hva skiller sambar podi fra en nordindisk garam masala?',
-   a:['Ristede linser males inn i den, og den har ingen varme søte krydder',
+  {q:'Hvilket tillegg finnes i noen sambar podi-oppskrifter og kan bidra til å jevne gryta?',
+   a:['Ristede linser malt inn i blandingen',
       'Den males mye finere og brukes i større mengder',
       'Den lages med fersk grønn chili i stedet for tørket rød',
       'Den inneholder ikke korianderfrø i det hele tatt'],
-   c:0, why:'Toor dal og chana dal ristes og males inn sammen med krydderet, så pulveret både jevner og smaker, og kanel, nellik og kardemomme mangler helt.'}
+   c:0, why:'Sambar podi-oppskrifter varierer. Noen har ristet toor dal eller chana dal, som gir både fylde og smak; blandingen er laget for sambar og brukes ikke som garam masala.'}
  ],
  [
-  {q:'Hva bidrar urad dal med i frokostrøren som risen ikke gir?',
+  {q:'Hvilken strukturell rolle har urad dal i frokostrøren?',
    a:['Stivelsen som setter seg til en smule når røren dampes',
-      'Både de ville bakteriene og et protein som fanger gass',
+      'Proteiner og polysakkarider som hjelper røren å holde på gass',
       'Syrligheten, som kommer fra en skje yoghurt',
       'Saltet, som sitter på skallet av linsen'],
-   c:1, why:'Urad har Leuconostoc og Lactobacillus på skallet, og den har i tillegg et protein og et seigt polysakkarid som holder på gass slik eggehvite gjør.'},
+   c:1, why:'Gjæringen involverer bakterier og gjær fra flere kilder. Malt urad gir den luftige, gassholdende strukturen som gjør de dampede kakene lette.'},
   {q:'Hvorfor er risen til idli forkokt?',
    a:['Slik at den kan males uten å bløtlegges først',
       'Fordi forkokingen dreper de ville bakteriene, så gjær kan brukes i stedet',
       'Dampingen ordner stivelsen på nytt, så kornet tar opp vann uten å bli klissete',
       'Fordi den røde fargen er den en idli skal ha'],
-   c:2, why:'En forkokt røre damper seg til en myk og åpen smule, mens rå ris gir en idli som er tettere og litt gummiaktig.'},
-  {q:'Hvorfor blir den samme gryta med røre til dosa den andre morgenen?',
+   c:2, why:'Forkokingen endrer risstivelsen og vannopptaket. Forkokt ris er et vanlig idli-valg, men oppskrifter bruker også andre ris- og kornbehandlinger.'},
+  {q:'Hvorfor kan kjølt rest av idlirøre passe godt til dosa?',
    a:['En ny maling tynner den ut',
       'Bukkehornkløver røres inn dag to',
       'En klype gjær tilsettes for å heve den igjen',
       'Den har surnet og blitt slappere, så den brer seg tynnere og bruner raskere'],
-   c:3, why:'Ingen gjør noe med røren. Syren bygger seg opp mens den står, og en slappere og surere røre er nettopp det takka vil ha.'}
+   c:3, why:'Under kjølt lagring kan røren bli syrligere og endre konsistens. Spe den etter behov, og vurder ren lukt og konsistens i stedet for et fast dagnummer.'}
  ],
  [
   {q:'Hva skiller sambar fra rasam?',
@@ -55,7 +55,7 @@ window.QUIZ_NO['IN-TAM'] = [
       'Pepper, spisskummen, hvitløk og tamarind, og ingen chili',
       'Pepper og tynn kokosmelk, uten noe syrningsmiddel',
       'Fennikel, stjerneanis og kalpasi, som i Chettinad-blandingen'],
-   c:1, why:'Dette er den enkleste og eldste utgaven av rasam, laget til noen som er forkjølet, og den viser tydeligst at pepperen har en oppgave chilien aldri overtok.'},
+   c:1, why:'Milagu rasam er en variant med pepper og spisskummen som ofte serveres som trøstemat ved forkjølelse. Den er mat og ikke medisinsk behandling.'},
   {q:'Hvorfor tas rasamen av platen så snart den skummer langs kanten?',
    a:['Hard koking sløver pepperen og driver bort den friske korianderen',
       'Dalen ville gått i oppløsning og gjort kraften uklar',
@@ -64,12 +64,12 @@ window.QUIZ_NO['IN-TAM'] = [
    c:0, why:'En rasam bedømmes på hvor friskt pepperen og korianderen lukter, og begge deler er borte innen et minutt med hard koking.'}
  ],
  [
-  {q:'Hva tyder de bevisste kuttene i romerske mynter lengst sør på?',
+  {q:'Hva kan historikere trygt slutte av kutt og merker på enkelte romerske mynter lengst sør?',
    a:['At lokale herskere satte fremmed mynt ut av kraft',
-      'At gullet ble håndtert etter vekt og ikke brukt som penger',
+      'At myntene ble endret lokalt, mens den nøyaktige grunnen er omdiskutert',
       'At myntene ble klargjort for bruk som smykker',
       'At de ble vansiret av religiøse grunner'],
-   c:1, why:'Funnene i Pudukottai, Karur og rundt Coimbatore er tette og ofte kuttet, og det peker mot gull som skiftet hender etter vekt heller enn en mynt i omløp.'},
+   c:1, why:'De endrede myntene dokumenterer lokal håndtering, men veiing som metall, testing, gjenbruk og andre praksiser er foreslått. Kuttene alene avgjør ikke spørsmålet.'},
   {q:'Hvordan tjente nattukottai-chettiarene pengene som bygde herskapshusene i Chettinad?',
    a:['Pepperplantasjer på skråningene av Vestghatene',
       'Gaver og jord fra cholatemplene',
@@ -80,7 +80,7 @@ window.QUIZ_NO['IN-TAM'] = [
    a:['Den er den eneste anisen som hører hjemme i Sør-India',
       'Portugiserne brakte den hit sammen med chilien',
       'Den ble dyrket i Kaveri-deltaet fram til 1800-tallet',
-      'Treet dyrkes ikke i India i det hele tatt, så den kan bare ha kommet med handel'],
-   c:3, why:'Illicium verum vokser i Sør-Kina og Nord-Vietnam, og Chettinad er i praksis det eneste indiske regionkjøkkenet som bruker den rutinemessig.'}
+      'Krydderet har opphav lenger øst og nådde India gjennom handel, men den nøyaktige veien til Chettinad er ukjent'],
+   c:3, why:'Stjerneanis har opphav i Sør-Kina og Nord-Vietnam og brukes i flere indiske kjøkken. Chettiarhandelen gir bakgrunn, men beviser ikke én bestemt vei inn i masalaen.'}
  ]
 ];

@@ -12,19 +12,19 @@ Object.assign(window.GLOSSARY_NO, {
   'masala': {
     term: 'Masala',
     short: 'En krydderblanding, tørr eller våt, laget for én rett og ikke for alle.',
-    long: 'Ordet betyr rett og slett en blanding. Den kan være tørr og malt, som en garam masala, eller våt og støtt, som recheado-pastaen i Goa. Poenget er at en masala lages til retten sin. Tanken om ett allment «karripulver» er en britisk oppfinnelse fra 1700-tallet og brukes ikke i indiske kjøkken.',
+    long: 'Ordet betyr rett og slett en blanding. Den kan være tørr og malt, som en garam masala, eller våt og støtt, som recheado-pastaen i Goa. Masalaer passer ofte til bestemte retter, selv om moderne kjøkken også bruker ferdige blandinger. Karripulver i britisk stil presset mange praksiser inn i ett handelsprodukt.',
     match: ['masala']
   },
   'garam-masala': {
     term: 'Garam masala',
     short: 'En blanding av varme krydder, vanligvis tilsatt til slutt i stedet for kokt med.',
-    long: 'Garam betyr varm, men ordet sikter til hva krydderet skal gjøre med kroppen, ikke til styrke fra chili. Kanel, nellik, kardemomme, svart pepper, muskatblomme og spisskummen er typiske, og nesten hver region og hver familie har sine egne mengdeforhold. Blandingen tilsettes som regel mot slutten av kokingen, fordi duften er flyktig.',
+    long: 'Garam betyr varm, men ordet sikter til hva krydderet skal gjøre med kroppen, ikke til styrke fra chili. Kanel, nellik, kardemomme, svart pepper, muskatblomme og spisskummen er typiske. Mengdeforholdene varierer med region, husholdning og rett. Blandingen tilsettes ofte mot slutten av kokingen fordi duften er flyktig.',
     match: ['garam masala']
   },
   'ghee': {
     term: 'Ghee',
     short: 'Smør som kokes til vannet er borte og melketørrstoffet brunet, og som så siles.',
-    long: 'Ghee er klaret smør, men tatt et skritt lenger enn den franske varianten: melketørrstoffet får riste seg brunt før det siles fra, og det gir ghee den nøtteaktige lukten. Den holder seg i månedsvis uten kjøling, og derfor ble den stekefettet i varme områder med mye melk. Den tåler også høy varme.',
+    long: 'Ghee er klaret smør der melketørrstoffet får riste seg brunt før det siles fra, og det gir den nøtteaktige lukten. Når vann og melketørrstoff fjernes, holder ghee lenger enn smør, men lagringstiden avhenger av produktet og ren, tørr håndtering. Følg etiketten, og sett hjemmelaget ghee kaldt hvis holdbarheten er usikker. Den tåler også forholdsvis høy varme.',
     match: ['ghee']
   },
   'dum': {
@@ -41,32 +41,32 @@ Object.assign(window.GLOSSARY_NO, {
   },
   'sadya': {
     term: 'Sadya',
-    short: 'Et festmåltid i Kerala med tjue eller flere vegetariske retter på et bananblad.',
-    long: 'Serveres til Onam og i bryllup, på et bananblad med den smale enden mot venstre. Hver rett har sin faste plass, og rekkefølgen rettene serveres i, forteller hva som skal blandes i risen nå. Måltidet ender med payasam, og bretter du bladet mot deg etterpå, betyr det at du likte det.',
+    short: 'Et vegetarisk festmåltid fra Kerala, servert på bananblad ved festivaler, bryllup og andre feiringer.',
+    long: 'Sadya forbindes sterkt med Onam og Vishu og serveres også i bryllup og ved andre anledninger. Vertene følger gjenkjennelige mønstre for plassering og servering, men antall, plass og rekkefølge varierer med region og husholdning. Payasam gir det søte innslaget.',
     match: ['sadya']
   },
   'thoran': {
     term: 'Thoran',
     short: 'Grønnsaker skåret smått og vendt med revet kokos, så vidt kokt.',
-    long: 'En tørr sidrett fra Kerala. Bønner, kål, gulrot eller en bladgrønnsak hakkes fint og røres over varmen med revet kokos, grønn chili, gurkemeie og en tadka av sennepsfrø til alt akkurat er ferdig. Retten er ingen karri og har ingen saus, og et måltid i Kerala har som regel en thoran på tallerkenen hver dag.',
+    long: 'En tørr sidrett fra Kerala. Bønner, kål, gulrot eller bladgrønnsaker kan hakkes fint og kokes med revet kokos, chili, gurkemeie og en temperering. Oppskrift og hyppighet varierer, men den ferdige retten har vanligvis lite fri væske.',
     match: ['thoran']
   },
   'kudampuli': {
     term: 'Kudampuli',
     short: 'Det røkte og tørkede skallet av en Garcinia-frukt, brukt til å syrne fisk.',
-    long: 'Selges også som malabartamarind eller fish tamarind, selv om den verken er tamarind eller det samme som kokum. Frukten deles, røykes over bål og tørkes til den er svart og læraktig. Den gir en ren og skarp syre, strammer opp fiskekjøttet og lar en karri stå i to–tre dager uten kjøling.',
+    long: 'Selges også som malabartamarind eller fish tamarind, selv om den verken er tamarind eller det samme som kokum. Det tørkede skallet gir mange fiskekarrier fra Kerala en skarp, noen ganger røykpreget syre. Smaken endres, men kokt fisk må fortsatt raskt i kjøleskap.',
     match: ['kudampuli']
   },
   'matta': {
     term: 'Mattaris',
     short: 'Keralas korte, røde, forkokte ris.',
-    long: 'Risen forkokes før den males: den bløtlegges, dampes med skallet på og tørkes igjen. Dampingen driver vitaminer fra kliet inn i kornet og herder stivelsen, så risen beholder næringen, tåler fuktig lagring og holder seg seig i en våt karri. Den røde fargen er kli som blir sittende igjen etter at kornet er malt.',
+    long: 'Paddyen bløtlegges, varmes og tørkes før maling. Forkokingen endrer stivelsen og kan flytte noen vannløselige næringsstoffer innover. Sorten og kliet bidrar til rødfargen og den faste, seige konsistensen.',
     match: ['matta', 'mattaris']
   },
   'appam': {
     term: 'Appam',
     short: 'En gjæret rispannekake, blondeaktig i kanten og svampete i midten.',
-    long: 'Ris males sammen med kokos og får gjære, og så svinges en sleiv av røren rundt i en liten rundbunnet panne slik at kantene renner tynne og sprø mens midten holder seg tykk. Den hule midten rommer stuingen. Tradisjonelt ble røren hevet med palmetoddy, nå brukes som regel gjær.',
+    long: 'Ris males sammen med kokos og får gjære, og så svinges røren rundt i en liten rundbunnet panne slik at kanten blir tynn mens midten holder seg tykk. Noen tradisjoner bruker gjærende palmetoddy; mange oppskrifter bruker i dag gjær, kokt ris eller en annen starter.',
     match: ['appam']
   },
   'parotta': {
@@ -84,7 +84,7 @@ Object.assign(window.GLOSSARY_NO, {
   'dal': {
     term: 'Dal',
     short: 'Delte belgfrukter, og retten som lages av dem.',
-    long: 'Ordet dekker både råvaren og den ferdige retten. Dusinvis av belgfrukter brukes, og de kan ikke byttes om: toor, moong, urad, chana og masoor koker til ulike konsistenser og hører til ulike retter. Nesten hvert indisk måltid har en dal, og den avsluttes som regel med en tadka.',
+    long: 'Ordet dekker både råvaren og den ferdige retten. Dusinvis av belgfrukter brukes, og de kan ikke byttes om: toor, moong, urad, chana og masoor koker til ulike konsistenser og hører til ulike retter. Dal står sentralt i mange indiske måltider og avsluttes ofte med en tadka.',
     match: ['dal', 'parippu']
   },
   'pappadam': {
@@ -108,7 +108,7 @@ Object.assign(window.GLOSSARY_NO, {
   'monsoon': {
     term: 'Monsun',
     short: 'Den årstidsbestemte vindsnuingen som gir India mesteparten av nedbøren.',
-    long: 'Sørvestmonsunen når Keralas kyst omkring 1. juni og arbeider seg nordover; en svakere nordøstmonsun følger i oktober og betyr mest for sørøst. Nesten hver eneste avling i dette kurset er tidfestet etter den, og hvor regnet faller, avgjør hva som vokser.',
+    long: 'Sørvestmonsunen når vanligvis Keralas kyst omkring begynnelsen av juni og arbeider seg nordover; en svakere nordøstmonsun følger senere og betyr mest for sørøst. Tidspunktet for monsunen former mange avlingene i kurset, mens vanning, jordsmonn og lokalklima også påvirker hva som vokser.',
     match: ['monsun', 'monsunen', 'sørvestmonsunen']
   },
   'western-ghats': {

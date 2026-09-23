@@ -14,7 +14,7 @@ Object.assign(window.SPICE_NO, {
  'IN-HIM|Kashmiri chilli': {
    aroma: 'Tørket frukt med litt tobakk bak, og nesten ingenting skarpt. En skål av den lukter nærmere paprika enn chili.',
    flavour: 'Varm og litt søtlig, med en styrke som kommer sent og gir seg tidlig. Det meste den gir, er farge.',
-   does: 'Bærer den røde fargen i rogan josh og dum aloo, og derfor dyrker dalen den. Ratan jot gjorde tradisjonelt fargen ferdig.',
+   does: 'Gir dyp rødfarge og forholdsvis mild styrke til rogan josh og dum aloo. Ratan jot eller mawal kan gjøre fargen dypere.',
    when: 'Røres ut i pisket yoghurt eller litt vann først, og går så i gryta. Tørt pulver i varmt fett svir seg på sekunder.',
    swap: 'Byadgi og degi mirch oppfører seg likt. Paprikapulver med en klype sterk chili kommer nær, men sausen blir lysere.',
    sourcing: 'Indiske butikker på Grønland i Oslo selger «Kashmiri chilli powder» og «degi mirch» i poser, og begge er riktige. Norsk chilipulver fra dagligvarebutikken er ofte en blanding med spisskummen og hvitløk i, og det gir både feil smak og feil farge. Paprikapulver alene gir farge uten chilikarakter.'
@@ -22,7 +22,7 @@ Object.assign(window.SPICE_NO, {
  'IN-HIM|Ver masala': {
    aroma: 'Hvitløk og tørket chili over spisskummen og nellik, og den er sterkest i sekundet etter at du brekker av et stykke.',
    flavour: 'Smaksrik, skarp og salt, med hvitløken godt framme. Et lite stykke krydrer en hel gryte.',
-   does: 'Gir retten en ferdig malt masala uten at noe males der og da, for det ble gjort for et år siden og tørket inn i kaken.',
+   does: 'Gir retten en ferdig masala uten at krydder må males til hver gryte. Sesongpartiet er tørket inn i en kake.',
    when: 'Brekkes av en ring, knuses til pulver og får noen sekunder i varm olje, eller smuldres ned sammen med grønnsakene.',
    swap: 'Ingen ferdigblanding treffer. Hvitløk, sjalottløk, Kashmiri-chili, spisskummen og nellik malt ferskt gir smaken, men ikke holdbarheten.',
    sourcing: 'Ver selges ikke i Norge, verken på Grønland eller andre steder, så du må lage den selv eller male krydderet ferskt hver gang. Skal du lage den, tørker den dårlig i norsk sommerluft; bruk stekeovnen på 50 °C med døra på gløtt. Asafoetida, som hører til det samme kjøkkenet, får du i indiske butikker i små gule bokser.'
@@ -46,7 +46,7 @@ Object.assign(window.SPICE_NO, {
  'IN-HIM|Praan (shallot)': {
    aroma: 'Rå er den skarpere og mer svovelaktig enn en europeisk sjalottløk, og atskillig søtere når den er brunet.',
    flavour: 'Konsentrert løk med svært lite vann i, og derfor steker den seg mørk i stedet for å koke i sin egen saft.',
-   does: 'Bygger bunnen i hver eneste saus fra det muslimske kjøkkenet i dalen, skivet, langsomt brunet og malt tilbake i gryta.',
+   does: 'Bygger bunnen i mange sauser fra det muslimske kjøkkenet i dalen, skivet, langsomt brunet og malt tilbake i gryta.',
    when: 'Tidlig, og stekes til den er skikkelig mørk, for en blek løkbunn gir en wazwan-saus som blir tynn og søtlig.',
    swap: 'Vanlig sjalottløk har riktig form og kommer nær nok. Stor gul løk er vassere og bruner seg ikke på samme måte.',
    sourcing: 'Praan selges ikke her. Sjalottløk i norske butikker er ofte den avlange typen, som er mildere og vassere enn den runde; den runde franske sjalottløken er nærmere. Kjøp hel løk og skjær den selv, for ferdigskivet løk i pose gir fra seg vann og steker seg aldri mørk.'

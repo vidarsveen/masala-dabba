@@ -34,7 +34,6 @@ Usage: python tools/narrate.py bengal --intro title --drop facts,recap,tasting,h
        python tools/narrate.py bengal --engine openrouter --voice nova --intro title
 """
 import asyncio, html, json, os, re, subprocess, sys
-import edge_tts, imageio_ffmpeg
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VOICES = {'en': 'en-GB-SoniaNeural', 'no': 'nb-NO-PernilleNeural'}
@@ -51,7 +50,8 @@ def arg(name, default=None):
     return ARGS[ARGS.index(name) + 1] if name in ARGS else default
 
 def lessons_from(path):
-    src = open(path, encoding='utf-8').read()
+    with open(path, encoding='utf-8') as source:
+        src = source.read()
     pat = re.compile(r'title:\s*"((?:[^"\\]|\\.)*)",\s*kicker:\s*"((?:[^"\\]|\\.)*)",\s*minutes:\s*(\d+),\s*hero:\s*"[^"]*",\s*heroCaption:\s*"(?:[^"\\]|\\.)*",\s*summary:\s*"((?:[^"\\]|\\.)*)",\s*html:\s*`(.*?)`', re.S)
     out = []
     for m in pat.finditer(src):
@@ -95,6 +95,7 @@ def to_script(lesson, lang, intro='full', drop=(), outro='line'):
     return head + h + tail
 
 async def synth(text, voice, out):
+    import edge_tts
     c = edge_tts.Communicate(text, voice, rate=RATE)
     await c.save(out)
 
@@ -117,7 +118,14 @@ def rate_ok(seconds, words, tempo=1.0):
         return False, wpm, 'too long, the model rambled or repeated'
     return True, wpm, ''
 
-def synth_openrouter(text, lang, out, model, voice, instructions=None, tries=2):
+PUCK_MODEL = 'google/gemini-3.1-flash-tts-preview'
+PUCK_VOICE = 'Puck'
+PUCK_DIRECTION = '''Generate speech for the transcript below, reading only the transcript aloud.
+Language: Norwegian Bokmål, with natural Norwegian pronunciation and an Oslo-area accent, not Danish or Swedish.
+Delivery: a warm, calm adult documentary narrator. Use a measured conversational pace, natural Norwegian intonation and restrained emphasis. Keep the voice consistent. Brief pause after the title. Pronounce Indian place, dish and ingredient names appropriately, then return to Norwegian. Read every word without additions or paraphrasing.'''
+
+
+def synth_openrouter(text, lang, out, model, voice, instructions=None, prompt_prefix=None, tries=2):
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import tts
     # No tone steering unless asked for: only some providers honour `instructions`, and the
@@ -125,7 +133,7 @@ def synth_openrouter(text, lang, out, model, voice, instructions=None, tries=2):
     words = len(text.split())
     for attempt in range(1, tries + 1):
         info = tts.speak_to_file(text, out, model=model, voice=voice,
-                                 instructions=instructions)
+                                 instructions=instructions, prompt_prefix=prompt_prefix)
         ok, wpm, why = rate_ok(info.get('seconds'), words)
         if ok:
             return info
@@ -151,13 +159,15 @@ def synth_nbtts(text, out, voice, pace, tempo, tries=3):
     return info
 
 def duration(path):
-    ff = imageio_ffmpeg.get_ffmpeg_exe()
+    import tts
+    ff = tts.ffmpeg()
     r = subprocess.run([ff, '-i', path], capture_output=True, text=True)
     m = re.search(r'Duration: (\d+):(\d+):(\d+\.\d+)', r.stderr)
     return round(int(m.group(1))*3600 + int(m.group(2))*60 + float(m.group(3)), 1) if m else None
 
 def compress(src, dst):
-    ff = imageio_ffmpeg.get_ffmpeg_exe()
+    import tts
+    ff = tts.ffmpeg()
     subprocess.run([ff, '-y', '-loglevel', 'error', '-i', src, '-ac', '1', '-ar', '16000', '-b:a', '20k', '-codec:a', 'libmp3lame', dst], check=True)
 
 async def main():
@@ -168,6 +178,11 @@ async def main():
     model = arg('--model')
     voice_override = arg('--voice')
     instructions = arg('--instructions')
+    delivery = arg('--delivery')
+    if delivery and delivery != 'puck':
+        sys.exit('--delivery currently takes puck')
+    if delivery == 'puck' and engine != 'openrouter':
+        sys.exit('--delivery puck requires --engine openrouter')
     drop = tuple(s.strip() for s in (arg('--drop') or '').split(',') if s.strip())
     outro = arg('--outro', 'line')
     if intro not in ('full', 'title', 'none'):
@@ -199,8 +214,12 @@ async def main():
                 cost = None
             elif engine == 'openrouter':
                 import tts as _tts
-                info = synth_openrouter(script, lang, out, model or _tts.DEFAULT_MODEL,
-                                        voice_override or 'nova', instructions)
+                if delivery == 'puck' and lang != 'no':
+                    sys.exit('--delivery puck is approved for Norwegian only')
+                info = synth_openrouter(script, lang, out,
+                                        model or (PUCK_MODEL if delivery == 'puck' else _tts.DEFAULT_MODEL),
+                                        voice_override or (PUCK_VOICE if delivery == 'puck' else 'nova'),
+                                        instructions, PUCK_DIRECTION if delivery == 'puck' else None)
                 used = f'{info["model"]}/{info["voice"]}'
                 cost = info.get('cost')
             else:
@@ -212,6 +231,7 @@ async def main():
             if intro != 'full': manifest[key]['intro'] = intro
             if drop: manifest[key]['drop'] = ','.join(drop)
             if outro != 'line': manifest[key]['outro'] = outro
+            if delivery: manifest[key]['delivery'] = delivery
             print(f'   {manifest[key]}', flush=True)
             json.dump(manifest, open(manifest_path, 'w', encoding='utf-8'), indent=1)
     print('done')

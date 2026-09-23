@@ -14,6 +14,10 @@ Use `docs/italy-transfer/PLAN.md` as the acceptance checklist; record evidence p
 Read `editorial-reference.md`, `norwegian-rules.md` and `norwegian-review-brief.md` in that folder before prose work.
 Read `puck-voice.md` before audio work. Existing default voices are not the new Norwegian choice.
 Keep updates brief and continue routine authorised work without repeatedly asking permission.
+The owner does not want to review each region. Follow the staged completion mandate in
+`docs/italy-transfer/PLAN.md`: perform regional reviews internally and provide one consolidated
+course review. Do not stop for regional sign-off. Paid bulk narration and publication still
+require authorization if it has not subsequently been supplied.
 
 ## Preserve the Indian course
 

@@ -17,19 +17,19 @@ Object.assign(window.GLOSSARY_NO, {
   'ver': {
     term: 'Ver',
     short: 'En kashmirsk krydderblanding tørket til en hard ring, der du brekker av et stykke etter behov.',
-    long: 'Hvitløk og sjalottløk males sammen med tørket chili, spisskummen, nellik, kardemomme, svart pepper og salt, arbeides med litt sennepsolje og presses ut i ringer eller skiver som tørker harde i sola. Formen er det smarte. En malt blanding blir flat i løpet av noen uker, mens en kake holder seg i et år og først begynner å eldes når noen brekker av et stykke.',
+    long: 'Ver lages i flere former. Muslimske utgaver inneholder gjerne hvitløk og sjalottløk sammen med tørket chili og andre krydder, mens pandit-utgaver bruker asafoetida i stedet for løkvekstene. Massen presses til ringer eller skiver og tørkes hard, slik at et sesongparti kan lagres tørt og lufttett i månedsvis.',
     match: ['ver masala', 'ver']
   },
   'rogan-josh': {
     term: 'Rogan josh',
-    short: 'Kjøtt kokt i fett ved kraftig varme. Navnet har ingenting med chili å gjøre.',
-    long: 'Rogan er persisk for fett eller olje, og josh er persisk for kraft eller intensitet, varmen i et rullende oppkok. En riktig laget rogan josh er fyldig og ganske mild, og den røde fargen kommer fra Kashmiri-chili valgt for farge og tradisjonelt også fra ratan jot. Den sviende utgaven som serveres på restauranter i utlandet, er en oversettelsesfeil.',
+    short: 'En rød kashmirsk kjøttrett der både navnets opphav og chilistyrken må forklares med forbehold.',
+    long: 'Én etymologi knytter persisk roghan til olje eller klaret smør og josh til koking eller trekking. Andre forklaringer forbinder kashmirske ord for rødt med kjøtt eller saft, så det nøyaktige opphavet er omstridt. Kashmiri-chili, ratan jot eller mawal kan farge retten, og styrken varierer.',
     match: ['rogan josh']
   },
   'yakhni': {
     term: 'Yakhni',
-    short: 'En lys saus som avsluttes med pisket yoghurt, uten bruning og uten chili.',
-    long: 'Kjøttet småkoker i vann med kardemomme, nellik, laurbær og fennikel, og gryta avsluttes med yoghurt som er pisket glatt. Yoghurten røres én vei uten stans til gryta koker opp igjen, for slutter du å røre før det, skiller den seg. Nadru yakhni er den samme sausen laget med lotusrot i stedet for kjøtt.',
+    short: 'En lys kashmirsk yoghurtsaus med aromatiske krydder som fennikel og kardemomme.',
+    long: 'Kjøtt eller lotusrot kokes varsomt med aromatiske krydder før pisket yoghurt fullfører sausen. Mange utgaver utelater chili og gurkemeie og holder seg lyse, men familieoppskriftene varierer. Varsom oppvarming og røring bidrar til at yoghurten holder seg jevn.',
     match: ['yakhni']
   },
   'nadru': {

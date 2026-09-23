@@ -23,18 +23,18 @@ window.QUIZ_NO['IN-GUJ'] = [
    c:1, why:'I varmt fett blir harpiksen smaksrik og ligner stekt løk, og det er nettopp det et kjøkken hos jainer eller vaishnavaer mangler.'}
  ],
  [
-  {q:'Hvorfor bør du ikke fylle deg med brød de første ti minuttene av en thali?',
-   a:['Ris med dal eller kadhi kommer sist, og det er dit måltidet bygger',
-      'Brødet er det eneste som faktureres for seg',
-      'Det regnes som uhøflig å be om brød to ganger',
-      'Grønnsakene kommer først når brødet er spist opp'],
-   c:0, why:'Siste akt er ris med dal eller kadhi helt over, og den som alt er mett, har hoppet over den.'},
-  {q:'Hvordan leser en gujaratisk kelner en tom katori?',
-   a:['Som en bestilling på mer av den retten',
-      'Som et tegn på at måltidet er over',
-      'Som en klage på krydringen',
-      'Som et tegn på at gjesten vil ha regningen'],
-   c:0, why:'En thali fylles opp igjen i stedet for å porsjoneres, så du lar litt bli igjen i skålen eller legger hånden over den.'},
+  {q:'Hvordan kombineres risen ofte på en gujaratisk thali?',
+   a:['Den blandes med dal eller kadhi',
+      'Den dekkes med kald chaas før servering',
+      'Den spises bare sammen med det søte',
+      'Den holdes unna alle flytende retter'],
+   c:0, why:'Ris spises gjerne med dal eller kadhi, enten den kommer senere eller ligger på brettet fra starten.'},
+  {q:'Hva stemmer om serveringen av en gujaratisk thali?',
+   a:['Noen restauranter tilbyr fri påfylling, mens faste thalier og hjemmemåltider varierer',
+      'Hver tom skål bestiller automatisk en ny porsjon',
+      'Ris må alltid serveres som siste rett',
+      'Hver thali inneholder nøyaktig sju skåler'],
+   c:0, why:'Det finnes ingen serveringsregel for hele delstaten. Den som spiser, kan si fra når det er nok.'},
   {q:'Hva skiller gujaratisk kadhi fra den punjabske?',
    a:['Den inneholder ikke yoghurt i det hele tatt',
       'Den jevnes med rismel i stedet for kikertmel',
@@ -43,12 +43,12 @@ window.QUIZ_NO['IN-GUJ'] = [
    c:2, why:'Punjabsk kadhi er tykk og bærer friterte boller. Den gujaratiske er væske til risen og nullstiller munnen mellom rettene.'}
  ],
  [
-  {q:'Hva skiller ekte dhokla fra khamanen som selges overalt under samme navn?',
+  {q:'Hvilket nyttig skille kan trekkes mellom tradisjonell dhokla og rask khaman?',
    a:['Dhokla friteres og khaman dampes',
       'Dhokla er en gjæret røre av ris og chana dal; khaman er kikertmel hevet med eno',
       'Khaman lages av ris og dhokla av hvete',
       'Det er to navn på nøyaktig den samme retten'],
-   c:1, why:'Den ene gjærer over natten og smaker av det. Den andre heves kjemisk på tjue minutter, og derfor har den stort sett overtatt.'},
+   c:1, why:'Tradisjonell dhokla kan gjære en røre av korn og belgfrukt, mens mange raske khamanoppskrifter bruker kikertmel og fruktsalt.'},
   {q:'Hvordan vet en kokk at khandvi-massen har kokt lenge nok?',
    a:['Et strøk på en kald tallerken løsner rent etter et minutt',
       'Den slipper kantene i pannen',
@@ -60,7 +60,7 @@ window.QUIZ_NO['IN-GUJ'] = [
       'Den flate grønne bønnen retten bygger på',
       'Det gujaratiske ordet undhu, opp ned, etter den nedgravde gryta',
       'Pottemakeren som først laget den forseglede gryta'],
-   c:2, why:'Gryta ble pakket, forseglet, snudd med munnen ned i en grop og kokt under et bål av tørre blader.'}
+   c:2, why:'Navnet knyttes til undhu, opp ned; den beslektede landsbyretten umbhadiyu bevarer metoden med snudd leirgryte.'}
  ],
  [
   {q:'Hva er fortsatt omstridt ved funnstedet Lothal?',
@@ -75,11 +75,11 @@ window.QUIZ_NO['IN-GUJ'] = [
       'River du opp en rot, dreper du hele planten og livene i jorda rundt',
       'De regnes for å gjøre kroppen treg'],
    c:2, why:'Regelen følger av å unngå skade på alt levende, og den er grunnen til at disse kjøkkenene hviler på asafoetida i stedet.'},
-  {q:'Hvor sikker er historien om melken og sukkeret ved Sanjan?',
+  {q:'Hva er forholdet mellom fortellingen om melk og sukker og Qissa-i Sanjan?',
    a:['Den er nedtegnet i en persisk krønike fra samtiden',
       'Den er bekreftet av en innskrift i Udvada',
       'Den ble skrevet ned av herskeren som tok imot flyktningene',
-      'Den kommer fra én tekst skrevet i 1599, lenge etter hendelsene'],
-   c:3, why:'Qissa-i Sanjan gjengir det som var fortalt muntlig gjennom århundrer, og selv hvilket hundreår landgangen skjedde i, er omstridt.'}
+      'Den er en senere muntlig legende og står ikke i den bevarte Qissa'],
+   c:3, why:'Qissa er en sen fortellende kilde til bosettingen, men den kjente episoden med melk og sukker hører til senere muntlig tradisjon.'}
  ]
 ];

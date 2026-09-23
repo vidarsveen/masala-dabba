@@ -17,19 +17,19 @@ Object.assign(window.GLOSSARY, {
   'ver': {
     term: 'Ver',
     short: 'A Kashmiri spice mixture dried into a hard ring, from which a piece is broken off as needed.',
-    long: 'Garlic and shallot are ground with dried chilli, cumin, cloves, cardamom, black pepper and salt, worked with a little mustard oil and pressed into rings or discs that dry hard in the sun. The form is the clever part: a ground mixture goes flat within weeks, while a cake keeps for a year and only starts to age once somebody snaps a piece off.',
+    long: 'Ver is prepared in several forms. Muslim versions commonly grind garlic and shallot with dried chilli and other spices; Pandit versions use asafoetida instead of the alliums. The paste is pressed into rings or discs and dried hard, making a seasonal batch practical to store for months in dry, airtight conditions.',
     match: ['ver masala', 'ver']
   },
   'rogan-josh': {
     term: 'Rogan josh',
-    short: 'Meat cooked in fat at a vigorous heat. The name has nothing to do with chilli.',
-    long: 'Rogan is Persian for fat or oil and josh is Persian for vigour or intensity, the heat of a rolling boil. A correct rogan josh is rich and quite mild, and its red comes from Kashmiri chilli chosen for colour and traditionally from ratan jot as well. The scorching version served in restaurants abroad is a translation error.',
+    short: 'A red Kashmiri meat dish whose exact name origin and chilli heat both require qualification.',
+    long: 'One etymology derives roghan from Persian for oil or clarified butter and josh from boiling or stewing. Other explanations connect Kashmiri words for red with meat or juice, so the exact origin remains disputed. Kashmiri chilli, ratan jot or mawal can colour the dish, and recipes vary in heat.',
     match: ['rogan josh']
   },
   'yakhni': {
     term: 'Yakhni',
-    short: 'A pale gravy finished with whisked yoghurt, with nothing browned and no chilli in it.',
-    long: 'Meat is simmered in water with cardamom, cloves, bay and fennel, and the pot is finished with yoghurt whisked smooth. The yoghurt is stirred in one direction without stopping until the pot comes back to a simmer, because it splits if it is left alone before then. Nadru yakhni is the same gravy made with lotus root instead of meat.',
+    short: 'A pale Kashmiri yoghurt gravy scented with spices such as fennel and cardamom.',
+    long: 'Meat or lotus root cooks gently with aromatic spices before whisked yoghurt finishes the gravy. Many versions omit chilli and turmeric and stay pale, though household recipes differ. Careful heating and stirring help the yoghurt remain smooth.',
     match: ['yakhni']
   },
   'nadru': {

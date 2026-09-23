@@ -20,15 +20,15 @@ window.QUIZ_NO['IN-KAR'] = [
       'Skallet saltes og gjæres i et år',
       'Frukten presses med palmeeddik og siles',
       'Frøene ristes og males'],
-   c:0, why:'Moden frukt legges i hauger til saften drypper ut, og saften småkokes over vedild til den tykner. Ingenting gjæres.'}
+   c:0, why:'Væske fra moden Garcinia-frukt kokes inn til et mørkt, surt konsentrat. Kildene beskriver hvile- og gjæringsstadiet ulikt.'}
  ],
  [
-  {q:'Hvorfor svelges ragi mudde i stedet for å tygges?',
-   a:['Tygging regnes som uhøflig ved et arbeidsmåltid',
-      'Ballen er for varm til å holde i munnen',
-      'Tygd ragideig blir en klebrig masse som smaker svært lite',
-      'Klumpene er for store til å bite gjennom'],
-   c:2, why:'En klump som er dekket av saaru, glir ned og tar smaken med seg. Tygges den, setter deigen seg i ganen.'},
+  {q:'Hvordan bør en nybegynner spise ragi mudde trygt?',
+   a:['Ta hele ballen på én gang',
+      'La den være varm nok til å smelte',
+      'Ta en liten bit, dekk den med saaru og tygg etter behov',
+      'Tørk den til den blir sprø'],
+   c:2, why:'Små biter dekket med tynn saaru er lettere å håndtere. Erfarne spisere tygger kanskje lite, men nybegynnere bør velge en behagelig størrelse og tygge etter behov.'},
   {q:'Hva er bassaru?',
    a:['En ball av hirsedeig formet for hånd',
       'Vannet som bladgrønnsaker og belgfrukter er kokt i, servert som den tynne kraften',
@@ -40,7 +40,7 @@ window.QUIZ_NO['IN-KAR'] = [
       'Den gjærer i tre døgn i stedet for én natt',
       'Den lages uten linser og uten gjæring, og den males og brukes samme dag',
       'Den dampes i en form i stedet for å stekes i panne'],
-   c:2, why:'Rå ris males med litt kokos og spes med vann. Luften i dosaen kommer fra damp, og derfor lar røren seg ikke lagre.'}
+   c:2, why:'Rå ris males med litt kokos og spes med vann. Damp lager hullene; sett den ugjærede røren raskt kaldt og bruk den fersk.'}
  ],
  [
   {q:'Hva gjør en Mysore masala dosa til nettopp Mysores?',
@@ -55,12 +55,12 @@ window.QUIZ_NO['IN-KAR'] = [
       'Den lages helt uten tamarind',
       'Kikerter brukes i stedet for dal'],
    c:1, why:'Sambar med ris er to retter som møtes på tallerkenen. Her kokes de sammen til riskornene mister kantene.'},
-  {q:'Hvordan kom matlagingen fra Udupi til restauranter over hele India?',
+  {q:'Hvordan spredte navnet Udupi-restaurant seg over India?',
    a:['Wodeyarene sendte palasskokker til andre fyrstehoff',
       'Britiske plantere ansatte kokker fra kysten og flyttet dem nordover',
-      'Kokker som var lært opp i tempeltradisjonen, dro til byene og åpnet spisesteder der',
+      'Migranter fra Udupi-området åpnet spisesteder i byer som Mumbai',
       'Handelsmenn fra Vijayanagara tok oppskriftene med langs karavaneveiene'],
-   c:2, why:'Fra tidlig på 1900-tallet, og særlig gjennom 1930- og 1940-årene, åpnet kokkene Udupi-restauranter i Mumbai og videre utover.'}
+   c:2, why:'På 1900-tallet åpnet migranter fra Udupi-området vegetariske sørindiske restauranter i Mumbai og andre byer; senere drivere hadde ulike forbindelser til tempeltradisjonen.'}
  ],
  [
   {q:'Hva skjedde med Vijayanagara i 1565?',
@@ -68,13 +68,13 @@ window.QUIZ_NO['IN-KAR'] = [
       'Hæren ble slått ved Talikota, og hovedstaden ble plyndret',
       'Byen ble satt under vann da Tungabhadra skiftet løp',
       'Riket gikk fredelig inn i kongedømmet Mysore'],
-   c:1, why:'En allianse av sultanatene på Dekkan vant slaget, og Hampi ble plyndret i måneder og aldri bebodd igjen.'},
+   c:1, why:'En allianse av sultanater på Dekkan vant slaget, og hovedstaden ble hardt ødelagt; det større riket fortsatte fra andre sentre.'},
   {q:'Hvorfor betyr Vijayanagara noe for maten på platået?',
    a:['Riket innførte chili og tomat i Sør-India',
       'Riket bygde de første sukkerraffineriene i regionen',
-      'Demningene, kanalene og dammene gjorde at tørt land kunne gi sikre avlinger',
+      'Demningene, kanalene og dammene utvidet vannlagring og vanning',
       'Riket hentet kaffen ned fra åsene til sletten'],
-   c:2, why:'Noen av dammene vanner fortsatt jorder, og de er grunnen til at hirse, belgfrukter og sukkerrør kunne fø en by på tørt land.'},
+   c:2, why:'Vijayanagara utviklet dammer og kanaler som støttet bosetning og jordbruk i et sesongtørt landskap; enkelte vannverk kan fortsatt leses eller brukes.'},
   {q:'Hvordan bør historien om Baba Budan og de sju bønnene behandles?',
    a:['Som en hendelse som er dokumentert i kilder fra samtiden',
       'Som bevis for at kaffen nådde India før den nådde Jemen',

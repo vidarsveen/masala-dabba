@@ -4,20 +4,20 @@ window.GLOSSARY = window.GLOSSARY || {};
 Object.assign(window.GLOSSARY, {
   'panch-phoron': {
     term: 'Panch phoron',
-    short: 'Five whole seeds fried in oil at the start of a dish, and never ground.',
-    long: 'Cumin, nigella, fenugreek, fennel and radhuni, mixed whole in roughly equal parts. The five cook at very different rates, so grinding them would flatten all of them into the same thing. Left whole they season the frying oil in about thirty seconds and then stay separate in the finished dish, which is why you find a single fennel seed in a mouthful of potato.',
+    short: 'A variable five-seed mixture normally kept whole and used to season hot fat.',
+    long: 'A common formula combines cumin, nigella, fenugreek, fennel and radhuni, while other blends use mustard or change the proportions. Whole seeds release aroma at different rates and remain distinct in the dish. Watch the tempering closely because fenugreek can scorch quickly.',
     match: ['panch phoron']
   },
   'phoron': {
     term: 'Phoron',
-    short: 'The Bengali tempering: whole spices dropped into hot fat, almost always at the start.',
-    long: 'The same idea as a tadka, but with a different pantry and a different moment. In Bengal the seeds go into the oil first, before the vegetables, so the fat carries their flavour into everything cooked after them. A tadka is more often poured over a finished dish.',
+    short: 'A tempering in which whole spices season hot fat, often near the start of cooking.',
+    long: 'Phoron belongs to the wider South Asian family of tempering techniques. It often seasons the fat before vegetables or fish are added, but single-seed and finishing temperings also occur. The chosen seed, fat and timing depend on the dish.',
     match: ['phoron']
   },
   'chhana': {
     term: 'Chhana',
     short: 'Fresh milk curds, split with acid and then worked by hand until the grain disappears.',
-    long: 'Hot milk is curdled with lemon juice or whey, drained, and kneaded on a board until the curds stop being grainy and turn into a smooth mass. Almost every sweet in the east is built on it: rasgulla, sandesh, chhena poda. It is close kin to paneer, but it is never pressed into a firm block, because a sweet needs it soft.',
+    long: 'Hot milk is curdled with lemon juice, whey or another acid, then drained and worked to the texture a recipe needs. It supports sweets such as rasgulla, sandesh and chhena poda. It is related to paneer but is usually kept softer for these preparations.',
     match: ['chhana', 'chhena']
   },
   'kosha': {
@@ -28,14 +28,14 @@ Object.assign(window.GLOSSARY, {
   },
   'ilish': {
     term: 'Ilish',
-    short: 'Hilsa, the oily river fish that Bengal prizes above everything else it eats.',
-    long: 'A shad that lives in the sea and runs up the rivers to spawn with the monsoon. It is extremely fatty and extremely bony, with fine forked bones running through the flesh rather than along a spine, and the fat is why the bones are tolerated. It is never washed once cut, because the oil rinses straight off.',
+    short: 'Hilsa, a rich migratory fish with great cultural and economic importance in Bengal.',
+    long: 'This shad moves between marine and river environments and has many fine forked bones through its flesh. Its fat is central to the flavour. Fishing pressure, barriers and protection of juveniles and spawning fish all affect future runs.',
     match: ['ilish', 'hilsa']
   },
   'bhaja': {
     term: 'Bhaja',
     short: 'Anything fried, eaten alongside the dal rather than as a starter.',
-    long: 'A slice of aubergine turned in turmeric and salt and fried in mustard oil, or slivers of potato fried until they rattle. A Bengali meal almost always carries one, and it is there to give the soft part of the plate something to crunch against.',
+    long: 'The word covers fried aubergine, potato, bitter gourd and many other ingredients. In a multi-course meal a bhaja often accompanies rice and dal and adds a crisp or browned element, though serving patterns vary.',
     match: ['bhaja']
   }
 });

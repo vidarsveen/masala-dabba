@@ -27,7 +27,7 @@ Object.assign(window.SPICE, {
  'IN-AND|Mustard seed': {
    aroma: 'Almost nothing raw. In hot oil the seeds jump and give a warm, nutty smell with a faint cabbage note.',
    flavour: 'Popped whole it is mild and nutty. Ground raw with water it turns fiercely pungent, which is the pickle version.',
-   does: 'Opens nearly every savoury dish in the region, and ground raw it is one of the two powders that preserve avakaya.',
+   does: 'Adds a nutty tempering when popped whole and the characteristic pungency of avakaya when ground.',
    when: 'Whole, into oil hot enough to make them jump, before anything else goes in. Wait for the popping to stop.',
    swap: 'Nothing replaces the popped seed. In a pickle, mustard powder gives the pungency but not the coarse texture.'
  },

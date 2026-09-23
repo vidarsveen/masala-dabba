@@ -15,12 +15,12 @@ window.RECIPES['IN-KON'] = [
   goesWith:[{en:'Par-boiled rice, or a plain white loaf to mop with', no:'Forkokt ris, eller en vanlig loff til å tørke opp med'},
             {en:'Something cold and sour, such as a tomato and onion salad', no:'Noe kaldt og syrlig, for eksempel en salat av tomat og løk'}],
   headnote:{
-    en:`<p>Start with the name, because it explains the dish. Vindaloo is the Goan descendant of <em>carne de vinha d'alhos</em>, meat in wine and garlic, which is how a Portuguese ship kept pork edible on a six-month voyage. There was no wine on this coast, so Goan cooks used palm vinegar instead, kept the garlic, and added Kashmiri chilli and warm spices. The word is vinho and alho, wine and garlic. It has nothing to do with aloo, and <strong>there is no potato in it</strong>.</p>
-<p>The second thing to fix is the heat. A Goan vindaloo is sour first. It should taste of vinegar and garlic before it tastes of chilli, it should be dark and thick rather than orange and soupy, and it is nowhere near the hottest thing a Goan kitchen makes. The British restaurant vindaloo borrowed the name and kept only the burn.</p>
-<p>Everything here depends on time rather than technique. The pork sits in the ground paste overnight, the pot cooks slowly with almost no added water, and the dish is then left alone for a day. Cooking it on Saturday for Sunday lunch is the normal way, not a trick.</p>`,
-    no:`<p>Begynn med navnet, for det forklarer retten. Vindaloo er den goanske etterkommeren av <em>carne de vinha d'alhos</em>, kjøtt i vin og hvitløk, og slik holdt et portugisisk skip svinekjøtt spiselig på en seks måneders reise. På denne kysten fantes det ingen vin, så kokkene brukte palmeeddik i stedet, beholdt hvitløken og la til Kashmiri-chili og varme krydder. Ordet er vinho og alho, vin og hvitløk. Det har ingenting med aloo å gjøre, og <strong>det er ikke potet i retten</strong>.</p>
-<p>Det andre som må rettes opp, er styrken. En vindaloo fra Goa er sur først. Den skal smake av eddik og hvitløk før den smaker av chili, den skal være mørk og tykk og ikke oransje og tynn, og den er langt fra det sterkeste et goansk kjøkken lager. Vindalooen på britiske restauranter lånte navnet og beholdt bare svien.</p>
-<p>Alt her hviler på tid heller enn på teknikk. Svinekjøttet ligger i den malte pastaen over natten, gryta koker langsomt med nesten ikke noe vann i, og retten får så stå i ro et døgn. Den lages på lørdag til søndagens lunsj, og det er den vanlige måten, ikke et knep.</p>`},
+    en:`<p>Vindaloo developed in Goa from Portuguese <em>vinha d'alhos</em>, a preparation named for wine and garlic. Goan cooks adapted the idea with local vinegar, chillies and spices. The resemblance between <em>alhos</em> and <em>aloo</em> is accidental; potatoes nevertheless appear in some household and later versions.</p>
+<p>This recipe puts acidity and garlic before chilli heat. It produces a dark, close gravy rather than the very hot, loose sauce associated with some British restaurant versions.</p>
+<p>Time does much of the work. Marinate the pork in the refrigerator, cook it slowly with little added water, then cool and refrigerate it promptly if resting it overnight. Reheat it thoroughly before serving.</p>`,
+    no:`<p>Vindaloo utviklet seg i Goa fra portugisisk <em>vinha d'alhos</em>, en tilberedning oppkalt etter vin og hvitløk. Goanske kokker tilpasset ideen med lokal eddik, chili og krydder. Likheten mellom <em>alhos</em> og <em>aloo</em> er tilfeldig, men potet finnes likevel i noen husholdningsvarianter og nyere utgaver.</p>
+<p>Denne oppskriften setter syre og hvitløk foran chilistyrke. Resultatet er en mørk og tett saus, ikke den svært sterke og tynne sausen som forbindes med enkelte britiske restaurantutgaver.</p>
+<p>Tid gjør mye av arbeidet. Mariner svinekjøttet i kjøleskapet, la det koke langsomt med lite tilsatt vann, og kjøl det raskt ned før det settes kaldt hvis retten skal hvile over natten. Varm den grundig før servering.</p>`},
   ingredients:[
    {group:{en:'The paste', no:'Pastaen'}, items:[
     {q:12, u:'', n:{en:'dried Kashmiri chillies', no:'tørkede Kashmiri-chilier'}, round:'half', note:{en:'stalks and most seeds removed', no:'uten stilk og med det meste av frøene fjernet'}},
@@ -65,9 +65,9 @@ window.RECIPES['IN-KON'] = [
     {en:'Cool it, cover it and refrigerate it for a day. Reheat gently before serving, and expect it to taste better than it did last night.',
      no:'Kjøl den ned, dekk den til og sett den i kjøleskapet et døgn. Varm den forsiktig opp før servering, og regn med at den smaker bedre enn den gjorde i går kveld.'}],
   notes:[
-    {title:{en:'Why the paste is ground in vinegar and never in water', no:'Hvorfor pastaen males i eddik og aldri i vann'},
-     body:{en:'Acid is what preserves the dish, and water dilutes it. A paste ground in vinegar alone keeps for months in a jar, penetrates the meat as it marinates, and leaves the finished gravy sharp enough to hold up for days in a hot kitchen. Water gives you a mild curry that must be eaten the same evening.',
-           no:'Syren er det som konserverer retten, og vann tynner den ut. En pasta som males i eddik alene, holder seg i månedsvis på glass, trenger inn i kjøttet mens det marinerer, og gir en ferdig saus som er skarp nok til å holde i dagevis i et varmt kjøkken. Vann gir deg en mild karri som må spises samme kveld.'}},
+    {title:{en:'Why the paste is ground in vinegar', no:'Hvorfor pastaen males i eddik'},
+     body:{en:'Vinegar supplies the defining acidity and enough liquid to grind the spices. It does not make raw marinade or cooked meat safe at room temperature: keep both refrigerated, use homemade paste within a few days or freeze it, and cool leftovers promptly.',
+           no:'Eddik gir den tydelige syren og nok væske til å male krydderet. Den gjør ikke rå marinade eller kokt kjøtt trygt i romtemperatur: oppbevar begge kaldt, bruk hjemmelaget pasta i løpet av få dager eller frys den, og kjøl rester raskt ned.'}},
     {title:{en:'Why the meat is not browned', no:'Hvorfor kjøttet ikke brunes'},
      body:{en:'The pork goes into the pot straight from the marinade, wet, and that is deliberate. Searing acidic meat scorches the chilli and the sugar in the paste and turns the whole dish bitter. The colour and the depth come from the browned onion and from an hour of slow cooking, not from a hot pan.',
            no:'Svinekjøttet går rett fra marinaden og ned i gryta, vått, og det er med vilje. Bruner du surt kjøtt, svir du chilien og sukkeret i pastaen, og hele retten blir bitter. Fargen og dybden kommer fra den brunede løken og fra en time på lav varme, ikke fra en glovarm panne.'}},
@@ -79,8 +79,8 @@ window.RECIPES['IN-KON'] = [
      body:{en:'Both work in the same paste. Lamb shoulder needs about the same time as pork; beef shin needs half an hour more and gives a stickier gravy. Goa itself makes the beef version, and it is one of the few Indian states where that is unremarkable.',
            no:'Begge fungerer i den samme pastaen. Lammebog trenger omtrent like lang tid som svinekjøtt, mens okseskank trenger en halvtime mer og gir en klissere saus. Goa lager selv utgaven med oksekjøtt, og det er en av få indiske delstater der det ikke vekker oppsikt.'}},
     {title:{en:'If you want the potato', no:'Hvis du vil ha poteten'},
-     body:{en:'Some Goan households do add one now, and the dish survives it. Fry small waxy potatoes whole in the oil before the onion and return them for the last twenty minutes. Just do not call it authentic; it is a recent habit, and the name never meant potato.',
-           no:'Noen husholdninger i Goa har begynt å ha i en, og retten tåler det. Stek små fastkokende poteter hele i oljen før løken, og legg dem tilbake de siste tjue minuttene. Bare ikke kall det den opprinnelige retten; vanen er ny, og navnet har aldri betydd potet.'}},
+     body:{en:'Some Goan households add potato. Fry small waxy potatoes whole in the oil before the onion and return them for the last twenty minutes. The ingredient is a variation even though the dish name itself does not derive from <em>aloo</em>.',
+           no:'Noen goanske husholdninger bruker potet. Stek små fastkokende poteter hele i oljen før løken, og legg dem tilbake de siste tjue minuttene. Råvaren er en variant selv om rettens navn ikke kommer fra <em>aloo</em>.'}},
     {title:{en:'Vindalho de galinha', no:'Vindalho de galinha'},
      body:{en:'The chicken version uses thighs on the bone, marinates for two hours rather than overnight, and needs only thirty-five minutes in the pot. It is weeknight food where the pork version is a Sunday.',
            no:'Utgaven med kylling bruker lår med bein, den marineres i to timer i stedet for over natten, og den trenger bare trettifem minutter i gryta. Den er hverdagsmat der utgaven med svinekjøtt er søndagsmat.'}}]
@@ -97,12 +97,12 @@ window.RECIPES['IN-KON'] = [
   goesWith:[{en:'A mackerel fried separately in chilli and turmeric', no:'En makrell stekt for seg i chili og gurkemeie'},
             {en:'Solkadhi, or plain buttermilk, at the end', no:'Solkadhi, eller vanlig kjernemelk, til slutt'}],
   headnote:{
-    en:`<p>Ask a Goan what the food of Goa is and you will hear <em>xit kodi</em>, rice and curry, long before you hear vindaloo. It arrives at about one o'clock and it looks the same in a house, a canteen or a shed by the bus stand: a mound of fat reddish rice, a bowl of thin orange gravy, a fried fish laid across the rim.</p>
-<p>The whole character of the dish is in one decision, which is that the masala is ground wet and fresh on the morning it is eaten. There is no roasting, no browning and no powder from a packet. Grated coconut goes on the stone with dried chilli, coriander seed, turmeric, garlic and tamarind, and twenty minutes later it is on the table. A curry made from a jar of paste is a different and much duller thing.</p>
-<p>Note what is not in it. No vinegar, because this is the one dish the Hindu and the Catholic kitchens more or less agree on, and it is soured with kokum or tamarind in both. No onion is strictly necessary either, though most households now use a little.</p>`,
-    no:`<p>Spør en goaner hva maten i Goa er, og du hører <em>xit kodi</em>, ris og karri, lenge før du hører vindaloo. Den kommer på bordet rundt klokka ett, og den ser lik ut i et hjem, i en kantine og i en bod ved busstasjonen: en haug tykk rødlig ris, en skål tynn oransje saus, en stekt fisk lagt over kanten.</p>
-<p>Hele retten hviler på én avgjørelse, nemlig at masalaen males våt og fersk samme morgen som den spises. Ingenting ristes, ingenting brunes, og det brukes ikke pulver fra pose. Revet kokos legges på steinen sammen med tørket chili, korianderfrø, gurkemeie, hvitløk og tamarind, og tjue minutter senere står retten på bordet. En karri laget av ferdig pasta på glass blir noe annet og mye kjedeligere.</p>
-<p>Legg merke til hva som ikke er i den. Ingen eddik, for dette er den ene retten det hinduiske og det katolske kjøkkenet omtrent er enige om, og den syrnes med kokum eller tamarind i begge hus. Løk er strengt tatt heller ikke nødvendig, men de fleste husholdninger har litt i den i dag.</p>`},
+    en:`<p><em>Xit kodi</em>, rice and curry, names an everyday meal pattern found across Goa, although the fish, rice and gravy vary by household, season and community. A plate might combine par-boiled rice, a light coconut fish curry and fried fish or vegetables.</p>
+<p>This version uses a fresh wet masala of grated coconut, dried chilli, coriander, turmeric, garlic and tamarind. Other cooks roast some ingredients, use a different souring agent or adjust the texture.</p>
+<p>Goan Hindu and Catholic kitchens overlap without being identical. Kokum and tamarind are both common souring agents; vinegar and onion appear in some recipes and not in others. The method below is one coherent version rather than a rule for every household.</p>`,
+    no:`<p><em>Xit kodi</em>, ris og karri, er navnet på et hverdagsmåltid som finnes over hele Goa, men fisk, ris og saus varierer med husholdning, årstid og miljø. En tallerken kan samle forkokt ris, en lett fiskekarri med kokos og stekt fisk eller grønnsaker.</p>
+<p>Denne utgaven bruker en fersk, våt masala av revet kokos, tørket chili, koriander, gurkemeie, hvitløk og tamarind. Andre kokker rister noen av råvarene, velger en annen syre eller justerer konsistensen.</p>
+<p>Hinduistiske og katolske kjøkken i Goa overlapper uten å være identiske. Kokum og tamarind er begge vanlige syrer; eddik og løk finnes i noen oppskrifter og ikke i andre. Metoden nedenfor er én sammenhengende utgave, ikke en regel for alle husholdninger.</p>`},
   ingredients:[
    {group:{en:'The masala', no:'Masalaen'}, items:[
     {q:150, u:'g', n:{en:'grated coconut', no:'revet kokos'}, note:{en:'fresh or frozen and thawed, not desiccated', no:'fersk eller fryst og tint, ikke tørket kokosmasse'}},
@@ -150,8 +150,8 @@ window.RECIPES['IN-KON'] = [
      no:'Ta pannen av platen og la den stå i ti minutter før servering. Sett risen for seg, og la hver enkelt sette sammen sin egen tallerken.'}],
   notes:[
     {title:{en:'Why the masala is ground and not roasted', no:'Hvorfor masalaen males og ikke ristes'},
-     body:{en:'Roasting the coconut, as xacuti does, gives a dark, nutty, heavy gravy. This dish wants the opposite: a clean, bright curry you can eat every day without tiring of it. Raw ground coconut stays pale and fresh, and the only cooking it gets is the four minutes in the pan that take the rawness off.',
-           no:'Rister du kokosen, slik xacuti gjør, får du en mørk, nøtteaktig og tung saus. Denne retten skal være det motsatte: en ren og frisk karri du kan spise hver dag uten å gå lei. Rå malt kokos holder seg lys og frisk, og den eneste kokingen den får, er de fire minuttene i pannen som tar bort råsmaken.'}},
+     body:{en:'Roasting the coconut, as in many xacuti recipes, gives a darker, nuttier gravy. This curry aims for a lighter result. Raw ground coconut stays pale, and four minutes in the pan removes its raw edge.',
+           no:'Rister du kokosen, slik mange xacuti-oppskrifter gjør, får du en mørkere og mer nøtteaktig saus. Denne karrien sikter mot et lettere resultat. Rå malt kokos holder seg lys, og fire minutter i pannen tar bort råkanten.'}},
     {title:{en:'Why the fish goes in last and the pan is never stirred', no:'Hvorfor fisken går i sist og pannen aldri røres'},
      body:{en:'A thin gravy has nothing to hold a fish steak together, so the fish is cooked for the shortest time that will do the job and moved as little as possible. If you want the fish and the gravy both at their best, fry a second fish separately in chilli and turmeric and lay it on the plate beside the bowl, which is what Goa does.',
            no:'En tynn saus har ingenting som holder en fiskekotelett sammen, så fisken kokes så kort tid som mulig og flyttes minst mulig. Vil du ha både fisken og sausen på sitt beste, steker du en fisk til for seg i chili og gurkemeie og legger den på tallerkenen ved siden av skålen, slik man gjør i Goa.'}},
@@ -181,12 +181,12 @@ window.RECIPES['IN-KON'] = [
   goesWith:[{en:'Par-boiled rice and a bowl of the daily fish curry', no:'Forkokt ris og en skål av den daglige fiskekarrien'},
             {en:'Raw onion and a wedge of lime, and nothing else', no:'Rå løk og en limebåt, og ikke noe mer'}],
   headnote:{
-    en:`<p>This is the dish that makes the case for keeping a jar of recheado in the fridge. The paste takes fifteen minutes to make, it keeps for months because vinegar is the only liquid in it, and once you have it a meal takes eight minutes at the stove.</p>
-<p>Mackerel is the right fish and Norway has better mackerel than Goa does. It wants to be oily, because the paste is aggressive and needs fat to push against, and it wants to be whole and on the bone, because the paste is packed into the cavity along the backbone and cooks against it. A fillet has nowhere to put the stuffing.</p>
-<p>One warning about the paste. Grind it in vinegar and in nothing else. The temptation to loosen it with a splash of water is strong, the blades do struggle at first, and the paste will spoil within a week if you give in. Push the chillies down onto the blades instead and give the machine time.</p>`,
-    no:`<p>Dette er retten som forsvarer at du har et glass recheado stående i kjøleskapet. Pastaen tar femten minutter å lage, den holder seg i månedsvis fordi eddik er den eneste væsken i den, og har du den først, tar et måltid åtte minutter ved komfyren.</p>
-<p>Makrell er riktig fisk, og Norge har bedre makrell enn Goa har. Fisken skal være fet, for pastaen er hissig og trenger fett å presse mot, og den skal være hel og med bein, for pastaen pakkes inn i hulrommet langs ryggbeinet og steker seg mot det. En filet har ikke noe sted å gjøre av fyllet.</p>
-<p>Én advarsel om pastaen. Mal den i eddik og i ingenting annet. Fristelsen til å tynne den ut med en skvett vann er stor, knivene sliter i begynnelsen, og pastaen blir dårlig i løpet av en uke hvis du gir etter. Press heller chiliene ned mot knivene og gi maskinen tid.</p>`},
+    en:`<p>Recheado means stuffed, and here the red vinegar-ground paste is packed into a whole fish before frying. Make only a small batch of paste unless you plan to freeze portions.</p>
+<p>Oily fish such as mackerel stands up well to the sharp paste. Keeping the fish whole creates a pocket beside the backbone for the stuffing, though the same paste can season fillets.</p>
+<p>The vinegar supplies flavour and grinding liquid, but it does not make the paste shelf-stable. Refrigerate it promptly, use it within a few days or freeze it. Keep the stuffed fish cold while it marinates.</p>`,
+    no:`<p>Recheado betyr fylt, og her pakkes den røde pastaen som er malt med eddik, inn i en hel fisk før steking. Lag bare en liten porsjon pasta hvis du ikke vil fryse ned deler av den.</p>
+<p>Fet fisk som makrell tåler den skarpe pastaen godt. En hel fisk gir en lomme ved ryggbeinet til fyllet, men den samme pastaen kan også smaksette fileter.</p>
+<p>Eddiken gir smak og væske til malingen, men gjør ikke pastaen holdbar i romtemperatur. Sett den raskt kaldt, bruk den i løpet av få dager eller frys den. Hold den fylte fisken kald mens den marineres.</p>`},
   ingredients:[
    {group:{en:'The recheado paste', no:'Recheado-pastaen'}, items:[
     {q:15, u:'', n:{en:'dried Kashmiri chillies', no:'tørkede Kashmiri-chilier'}, round:'half', note:{en:'stalks off, most seeds shaken out', no:'uten stilk, med det meste av frøene ristet ut'}},
@@ -212,8 +212,8 @@ window.RECIPES['IN-KON'] = [
      no:'Brekk opp chiliene, rist ut mesteparten av frøene og legg dem i eddiken i en halvtime, til de er myke og eddiken har blitt rød.'},
     {en:'Grind the soaked chillies with their vinegar, the garlic, ginger, cumin, cloves, cinnamon, peppercorns, tamarind, sugar and a good pinch of salt into a thick smooth paste. Use no water.',
      no:'Mal de bløtlagte chiliene med eddiken, hvitløken, ingefæren, spisskummen, nelliken, kanelen, pepperkornene, tamarinden, sukkeret og en god klype salt til en tykk og glatt pasta. Ikke bruk vann.'},
-    {en:'Taste it. It should be sharp, salty and faintly sweet all at once, with the sweetness only just there. Jar what you do not use and keep it in the fridge.',
-     no:'Smak på den. Den skal være skarp, salt og svakt søt på én gang, og sødmen skal så vidt merkes. Sett det du ikke bruker, på glass i kjøleskapet.'},
+    {en:'Taste it. It should be sharp, salty and faintly sweet. Put what you do not use into a clean container, refrigerate it promptly, and use within a few days or freeze it.',
+     no:'Smak på den. Den skal være skarp, salt og svakt søt. Ha det du ikke bruker, i en ren beholder, sett den raskt kaldt og bruk den i løpet av få dager eller frys den.'},
     {en:'Lay each mackerel flat and cut a deep pocket along one side of the backbone, from behind the head to the tail, without cutting the fish in two.',
      no:'Legg hver makrell flatt og skjær en dyp lomme langs den ene siden av ryggbeinet, fra bak hodet og ut mot halen, uten å dele fisken i to.'},
     {en:'Salt the fish inside and out and pack the pocket with paste, pressing it right down against the bone. Smear a thin film over the skin as well.',
@@ -254,18 +254,18 @@ window.RECIPES['IN-KON'] = [
   id:'chicken-xacuti', dish:'Xacuti', course:'main', lesson:3, serves:4, veg:false,
   time:{prep:30, cook:55}, hero:'xacuti', tags:['chicken','coconut','roasted spice'],
   title:{en:'Chicken xacuti', no:'Xacuti med kylling'},
-  blurb:{en:'Chicken in a masala of grated coconut roasted almost black with fifteen whole spices.',
-         no:'Kylling i en masala av revet kokos ristet nesten svart sammen med femten hele krydder.'},
-  heroCaption:{en:'The colour is roasted coconut and nothing else. There is no vinegar, no tomato and no chilli powder in it.',
-               no:'Fargen er ristet kokos og ingenting annet. Det er verken eddik, tomat eller chilipulver i retten.'},
+  blurb:{en:'Chicken in a deep, aromatic masala of roasted coconut and whole spices.',
+         no:'Kylling i en dyp og aromatisk masala av ristet kokos og hele krydder.'},
+  heroCaption:{en:'Roasted coconut gives this version its brown colour and much of its body.',
+               no:'Ristet kokos gir denne utgaven brunfargen og mye av fylden.'},
   goesWith:[{en:'Sannas, or a soft white roll to tear up', no:'Sannas, eller et mykt rundstykke å rive opp'},
             {en:'Plain rice, if you would rather', no:'Vanlig ris, hvis du heller vil ha det'}],
   headnote:{
-    en:`<p>Xacuti is the dish that shows what Goa does when it is not reaching for the vinegar bottle. There is no acid in it at all. The colour, which is very dark, comes entirely from grated coconut roasted past golden and into brown, and the depth comes from a spice list long enough to look like a mistake.</p>
-<p>Do not shorten that list too far. Three things in it are doing specific work and cannot go: poppy seed, which thickens the gravy and gives it a slightly gritty body; whole nutmeg, which supplies the sweet, almost medicinal top note that makes the dish recognisable; and star anise, which is the one ingredient that tells you the trade routes ran east as well as west.</p>
+    en:`<p>Xacuti is a family of Goan dishes built around roasted coconut and an aromatic masala. In this version the coconut is taken beyond gold into brown, giving the gravy colour, body and a slightly bitter edge.</p>
+<p>The spice list varies between cooks. This recipe uses poppy seed for body, with nutmeg and star anise among the high aromatic notes; other sound versions omit or replace them. Roast by smell and colour rather than chasing a fixed number of spices.</p>
 <p>The spelling is Portuguese. An initial x in that language is pronounced like an English sh, so the word is roughly sha-KOO-tee, and you will also see it written chacuti on older menus.</p>`,
-    no:`<p>Xacuti er retten som viser hva Goa gjør når kokken ikke griper etter eddikflasken. Det er ingen syre i den i det hele tatt. Fargen, som er svært mørk, kommer utelukkende fra revet kokos som er ristet forbi gyllen og over i brunt, og dybden kommer fra en krydderliste som er lang nok til å se ut som en feil.</p>
-<p>Ikke kort ned den listen for hardt. Tre ting i den gjør en bestemt jobb og kan ikke gå ut. Valmuefrø jevner sausen og gir den en litt grov fylde. Hel muskatnøtt gir den søtlige, nesten medisinske toppnoten som gjør retten gjenkjennelig. Og stjerneanis er den ene ingrediensen som forteller at handelsveiene gikk østover like mye som vestover.</p>
+    no:`<p>Xacuti er en familie av goanske retter bygd på ristet kokos og en aromatisk masala. I denne utgaven ristes kokosen forbi gyllen og over i brunt, slik at sausen får farge, fylde og en svakt bitter kant.</p>
+<p>Krydderlisten varierer fra kokk til kokk. Denne oppskriften bruker valmuefrø for fylde, med muskat og stjerneanis blant de høye aromatiske tonene; andre gode utgaver utelater eller erstatter dem. Rist etter lukt og farge i stedet for å jage et fast antall krydder.</p>
 <p>Skrivemåten er portugisisk. En x først i ordet uttales på det språket som norsk sj, så ordet lyder omtrent sja-KU-ti, og på eldre menyer ser du det skrevet chacuti.</p>`},
   ingredients:[
    {group:{en:'The masala', no:'Masalaen'}, items:[
@@ -327,32 +327,32 @@ window.RECIPES['IN-KON'] = [
            no:'Bruk lår og klubber med bein; kyllingbryst blir tørt av tjuefem minutter i gryta og gir en tynn saus. Fryst revet kokos fra asiatiske butikker er det eneste som rister skikkelig; tørket kokosmasse fra bakeavdelingen er søtet og svir seg ujevnt. Hvite valmuefrø må kjøpes i indisk butikk og heter safed posto; de blå valmuefrøene i dagligvarebutikken gjør retten grå og bitter. Kjøp hel muskatnøtt og riv den selv, for ferdigmalt muskat mister det meste på noen måneder.'}}],
   variations:[
     {title:{en:'With potato', no:'Med potet'},
-     body:{en:'Many households add halved small potatoes for the last twenty minutes. They soak up the masala and stretch the dish, and unlike in vindaloo nobody in Goa objects.',
-           no:'Mange husholdninger har i halve småpoteter de siste tjue minuttene. De suger til seg masalaen og drøyer retten, og i motsetning til i vindaloo er det ingen i Goa som protesterer.'}},
+     body:{en:'Some households add halved small potatoes for the last twenty minutes. They absorb the masala and make the dish go further.',
+           no:'Noen husholdninger har i halve småpoteter de siste tjue minuttene. De trekker til seg masalaen og drøyer retten.'}},
     {title:{en:'Lamb, or guinea fowl', no:'Med lam eller perlehøne'},
      body:{en:'Lamb shoulder in the same masala needs an hour and a half rather than twenty-five minutes, and the roasted coconut suits it better than it suits chicken. Guinea fowl is the version you see in Goan restaurants that still cook game.',
            no:'Lammebog i den samme masalaen trenger halvannen time i stedet for tjuefem minutter, og den ristede kokosen kler den bedre enn den kler kylling. Perlehøne er utgaven du finner på de restaurantene i Goa som fortsatt lager viltfugl.'}},
     {title:{en:'A vegetarian xacuti', no:'Vegetarisk xacuti'},
-     body:{en:'The masala is vegetarian to begin with. Use mushrooms, chickpeas and chunks of potato, cut the simmering to fifteen minutes, and the dish loses very little, because the flavour was never coming from the meat.',
-           no:'Masalaen er vegetarisk i utgangspunktet. Bruk sopp, kikerter og biter av potet, kort ned kokingen til femten minutter, og retten taper svært lite, for smaken kom aldri fra kjøttet.'}}]
+     body:{en:'The masala is vegetarian to begin with. Use mushrooms, chickpeas and chunks of potato, reduce the simmering time to about fifteen minutes, and adjust the water so the gravy stays close and thick.',
+           no:'Masalaen er vegetarisk i utgangspunktet. Bruk sopp, kikerter og biter av potet, kort koketiden ned til omtrent femten minutter og juster vannet så sausen forblir tett og tykk.'}}]
 },
 
 {
-  id:'bebinca', dish:'Bebinca', course:'sweet', lesson:3, serves:10, veg:false,
+  id:'bebinca', dish:'Bebinca', course:'sweet', lesson:3, serves:10, veg:true,
   time:{prep:30, cook:110}, hero:'bebinca', tags:['Christmas','coconut','egg'],
   title:{en:'Bebinca', no:'Bebinca'},
-  blurb:{en:'Seven layers of coconut, egg yolk and ghee, each one poured and grilled separately.',
-         no:'Sju lag av kokos, eggeplomme og ghee, der hvert lag helles i og grilles for seg.'},
-  heroCaption:{en:'Cut across, it reads like a slab of plywood. Every band was a separate pour and a separate eight minutes under the heat.',
-               no:'Skjærer du den på tvers, ligner den en plate kryssfiner. Hver stripe ble helt i for seg og fikk sine egne åtte minutter under varmen.'},
+  blurb:{en:'Layers of coconut milk, egg yolk and ghee, poured and browned one at a time.',
+         no:'Lag av kokosmelk, eggeplomme og ghee, helt og brunet ett om gangen.'},
+  heroCaption:{en:'A cross-section reveals the bands formed by successive pours under top heat.',
+               no:'Et tverrsnitt viser stripene som dannes når nye lag helles på og stekes med overvarme.'},
   goesWith:[{en:'Nothing hot. It is eaten in thin slices at room temperature', no:'Ingenting varmt. Den spises i tynne skiver i romtemperatur'},
             {en:'A small glass of feni, if the occasion allows', no:'Et lite glass feni, hvis anledningen tillater det'}],
   headnote:{
-    en:`<p>Bebinca is Christmas in a Goan Catholic house, and it is made of exactly what such a house has at Christmas: coconut milk, egg yolks, sugar, flour, ghee and a nutmeg. Nothing in the list is difficult. What makes it a project is the method, which is to bake it one thin layer at a time.</p>
-<p>A layer of batter goes into the tin and cooks under heat from above until it sets and browns. Then ghee is brushed over the surface, the next layer is poured on, and it goes back. Seven layers is the usual count, sixteen is a boast, and each one takes eight or ten minutes, so a seven-layer bebinca is an hour and a half of standing near the oven. There is no shortcut. Pouring the whole batter at once gives you a coconut cake, which is fine, and not bebinca.</p>
+    en:`<p>Bebinca is strongly associated with Goan Catholic celebrations, including Christmas. Coconut milk, egg yolks, sugar, flour, ghee and nutmeg become a cake built one thin layer at a time.</p>
+<p>A layer of batter cooks under heat from above until set and brown. Ghee is brushed over it, then the next layer is poured on. Layer counts vary; this recipe makes seven, and each may take roughly eight to ten minutes depending on the oven.</p>
 <p>Two small mechanical points decide whether it works. The heat has to come from above, because a layer browned from below will not bond to the one under it. And the batter must be thin enough to pour and self-level, or the bands come out wavy and the slice loses the point of the exercise.</p>`,
-    no:`<p>Bebinca er jul i et goansk-katolsk hjem, og den er laget av nøyaktig det et slikt hjem har i huset til jul: kokosmelk, eggeplommer, sukker, mel, ghee og en muskatnøtt. Ingenting på listen er vanskelig. Metoden gjør den likevel til et prosjekt, for kaken stekes ett tynt lag om gangen.</p>
-<p>Et lag røre helles i formen og stekes med varme ovenfra til det stivner og bruner seg. Så pensles ghee utover, neste lag helles på, og formen går inn igjen. Sju lag er det vanlige, seksten er det man skryter av, og hvert lag tar åtte–ti minutter, så en bebinca med sju lag betyr halvannen time ved ovnen. Det finnes ingen snarvei. Heller du hele røren i på én gang, får du en kokoskake, og det er helt greit, men det er ikke bebinca.</p>
+    no:`<p>Bebinca forbindes sterkt med goansk-katolske høytider, blant annet jul. Kokosmelk, eggeplommer, sukker, mel, ghee og muskat blir til en kake som bygges ett tynt lag om gangen.</p>
+<p>Et lag røre stekes med varme ovenfra til det har stivnet og blitt brunt. Så pensles ghee over før neste lag helles på. Antallet lag varierer; denne oppskriften lager sju, og hvert kan ta omtrent åtte–ti minutter avhengig av ovnen.</p>
 <p>To små tekniske forhold avgjør om den lykkes. Varmen må komme ovenfra, for et lag som brunes nedenfra, binder seg ikke til laget under. Og røren må være tynn nok til å helles og legge seg jevnt av seg selv, ellers blir stripene bølgete og skiven mister hele poenget.</p>`},
   ingredients:[
    {group:{en:'', no:''}, items:[

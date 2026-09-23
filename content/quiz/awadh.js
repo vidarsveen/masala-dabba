@@ -3,12 +3,12 @@
 window.QUIZ = window.QUIZ || {};
 window.QUIZ['IN-AWA'] = [
  [
-  {q:'Why does attar go in at the very end of cooking, or into a sealed pot?',
-   a:['It is too expensive to use in any quantity',
+  {q:'Why are food-grade aromatic essences added late or inside a sealed pot?',
+   a:['They are too expensive to use in any quantity',
       'Heat drives the fragrance straight off',
       'It curdles milk if it goes in early',
       'It has to dissolve into fat before it works'],
-   c:1, why:'An attar is fragrance carried in oil rather than an extract in alcohol, and it does not survive cooking, so it is added off the heat or where a seal traps it.'},
+   c:1, why:'Prolonged heat drives volatile aromas away. Only a product explicitly sold as food-grade belongs in cooking; perfumery attar does not.'},
   {q:'What is a potli, and what does it do that a ground masala cannot?',
    a:['A clay lid that seals the pot',
       'The copper still used in Kannauj',
@@ -23,18 +23,18 @@ window.QUIZ['IN-AWA'] = [
    c:0, why:'Rose water is dilute and a tablespoon suits a pot of rice, while essence comes in a much smaller bottle and is many times stronger.'}
  ],
  [
-  {q:'Which effect of the dough seal matters most to this particular kitchen?',
+  {q:'What does the dough seal do during dum cooking?',
    a:['It raises the pressure enough to cook the meat faster',
       'It stops the rice from sticking to the base of the pot',
-      'It stops anything volatile from escaping',
+      'It slows moisture and volatile aromas from escaping',
       'It lets the cook stir without losing heat'],
-   c:2, why:'Kewra, rose water, saffron and mace would be on the kitchen ceiling within a minute of an open pot, and under a seal they go back into the food.'},
+   c:2, why:'The seal reduces moisture and aroma loss. Because the pot stays closed, layering, liquid and heat must be correct before cooking begins.'},
   {q:'How does an Awadhi biryani differ from Hyderabad\'s kacchi version?',
    a:['It uses short-grain rice rather than basmati',
       'The meat is cooked first and the rice part-boiled in its stock',
       'It is finished in a tandoor rather than over coals',
       'It is cooked without any seal at all'],
-   c:1, why:'Hyderabad seals raw marinated meat under part-boiled rice. Awadh cooks the meat first, part-boils the rice in the same stock and then layers the two.'},
+   c:1, why:'Hyderabad is known for kacchi biryani with raw marinated meat. A common Awadhi pakki method cooks the meat first, then layers it with partly cooked rice.'},
   {q:'Why does long cooking under a seal suit shank, neck and shoulder?',
    a:['Those cuts are lean, and an open pot would dry them out',
       'Their collagen turns to gelatine, so the meat softens and the broth thickens',
@@ -55,12 +55,12 @@ window.QUIZ['IN-AWA'] = [
       'A kakori is boiled first and then fried',
       'A kakori has no papaya in it at all'],
    c:0, why:'A kakori has to stay on its flat skewer over the fire, so it is built to be soft and still firm, while a galouti is fried on a flat pan.'},
-  {q:'Where does nihari get its name, and where does its thickness come from?',
+  {q:'What is nihari’s name commonly linked to, and where does its body come from?',
    a:['From a town near Lucknow, and from ground almond',
       'From nahar, morning, and from the collagen in the bones',
       'From the Persian word for steam, and from ground rice',
       'From the name of a Nawab, and from cream stirred in at the end'],
-   c:1, why:'Nahar is the Arabic word for morning, and the broth thickens on its own because the collagen in shank and marrow bones turns to gelatine overnight.'}
+   c:1, why:'The name is commonly linked to the Arabic nahar, morning. Long cooking turns collagen to gelatine, while marrow and sometimes a little flour add body.'}
  ],
  [
   {q:'Why was the Bara Imambara built?',
@@ -75,11 +75,11 @@ window.QUIZ['IN-AWA'] = [
       'Begum Hazrat Mahal was proclaimed regent for her son',
       'The Residency was besieged for five months'],
    c:0, why:'The annexation of 7 February 1856 removed a treaty ally who had never fought the Company, and the grievance fed the revolt the following year.'},
-  {q:'How is this module connected to the biryani eaten in Kolkata?',
+  {q:'How is Awadh connected to the biryani eaten in Kolkata?',
    a:['Bengali cooks were brought to Lucknow to work at the court',
       'The potato reached Lucknow from Bengal by river',
       'The deposed Nawab took his kitchen with him to Metiabruz',
       'Both cities cooked their biryani with the same short-grain rice'],
-   c:2, why:'Wajid Ali Shah settled at Metiabruz near Calcutta for the last thirty years of his life, and the cooks who went with him are why Kolkata biryani has a potato in it.'}
+   c:2, why:'Wajid Ali Shah established a court in exile at Metiabruz, and Awadhi cooks helped shape Kolkata biryani. Stories about exactly why potato was added disagree.'}
  ]
 ];

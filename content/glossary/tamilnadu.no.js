@@ -10,20 +10,20 @@ Object.assign(window.GLOSSARY_NO, {
   },
   'sambar-podi': {
     term: 'Sambar podi',
-    short: 'Den ene malte blandingen en tamilsk husholdning har, og den eneste det meste av maten trenger.',
-    long: 'Korianderfrø dominerer, sammen med tørket rød chili, bukkehornkløver, litt pepper og spisskummen, gurkemeie og asafoetida. Blandingen røper seg som sørindisk ved at toor dal og chana dal ristes og males inn sammen med krydderet, så en skje både jevner og smaker. Den har ingen av de varme søte kryddene som kjennetegner en nordindisk garam masala, og de to kan ikke byttes om.',
+    short: 'En malt blanding av krydder og noen ganger linser, brukt i mange sambarvarianter.',
+    long: 'Oppskriftene varierer, men korianderfrø, tørket rød chili og bukkehornkløver går ofte igjen, noen ganger sammen med spisskummen, pepper, gurkemeie, asafoetida eller ristede linser. Blandingen er laget for sambar og kan ikke uten videre byttes med garam masala.',
     match: ['sambar podi']
   },
   'urad-dal': {
     term: 'Urad dal',
-    short: 'En splittet svart bønne, og linsen som hever den sørindiske frokostrøren.',
-    long: 'Urad har ville <em>Leuconostoc</em> og <em>Lactobacillus</em> på skallet, så en røre laget med den gjærer uten at noen tilsetter gjær. Den har i tillegg et protein og et seigt polysakkarid som fanger gass slik eggehvite gjør, og derfor pisker malt urad seg synlig opp og blir lys. Ingen annen vanlig indisk linse klarer jobben, og en klype av den splittede går også i varm olje som krydder.',
+    short: 'En splittet svart bønne som gir mye av den gassholdende strukturen i sørindisk frokostrøre.',
+    long: 'Idligjæring involverer skiftende samfunn av bakterier og gjær fra råvarene, utstyret og omgivelsene. Urad har en viktig rolle i strukturen: Proteinene og polysakkaridene hjelper en godt malt røre å holde på gass, og derfor pisker den seg synlig opp og blir lys. En klype splittet urad går også i varm olje som tempereringsingrediens.',
     match: ['urad dal', 'urad']
   },
   'rasam': {
     term: 'Rasam',
     short: 'En tynn, sur og pepret kraft som halvt helles over risen og halvt drikkes ved siden av.',
-    long: 'Rasam er stort sett vann, syrnet med tamarind og krydret med grovstøtt pepper og spisskummen, hvitløk, karriblad og koriander, med høyst en sleiv tynt dalvann som gir fylde. Den tas av platen så snart den skummer, for hard koking sløver pepperen. Milagu rasam, den eldste utgaven, lages med pepper og spisskummen og uten chili, og den er husholdningens kur mot forkjølelse.',
+    long: 'Rasamoppskrifter varierer. Denne utgaven er stort sett vann, syrnet med tamarind og krydret med grovstøtt pepper og spisskummen, hvitløk, karriblad og koriander, med litt dalvann som gir fylde. Kort oppvarming til slutt bevarer frisk aroma. Milagu rasam bruker pepper og spisskummen og serveres ofte som trøstemat ved forkjølelse, uten å være medisinsk behandling.',
     match: ['rasam']
   },
   'dabara': {
@@ -35,7 +35,7 @@ Object.assign(window.GLOSSARY_NO, {
   'chettinad': {
     term: 'Chettinad',
     short: 'Det tørre innlandsdistriktet til chettiarfamiliene, og matlagingen som kom derfra.',
-    long: 'Chettinad er en klynge landsbyer rundt Karaikudi, hjemstedet til nattukottai-chettiarene, som drev bank i Burma, Ceylon og Malaya fra tidlig på 1800-tallet. Kjøkkenet kjennetegnes av en tørr risting som tar hele krydder nesten til svart før de males, og av tre ingredienser nesten ingen andre indiske kjøkken har: stjerneanis, kalpasi og marathi mokku.',
+    long: 'Chettinad er en klynge landsbyer rundt Karaikudi, hjemstedet til nattukottai-chettiarene, som drev bank i Burma, Ceylon og Malaya fra tidlig på 1800-tallet. Mange Chettinad-blandinger tørrister hele krydder forsiktig til de dufter og er brune. Stjerneanis, kalpasi og marathi mokku forbindes sterkt med kjøkkenet, men oppskriftene varierer, og råvarene er ikke unike for det.',
     match: ['Chettinad']
   }
 });

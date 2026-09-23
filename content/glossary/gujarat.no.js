@@ -11,7 +11,7 @@ Object.assign(window.GLOSSARY_NO, {
   'katori': {
     term: 'Katori',
     short: 'En av de små stålskålene som står på en thali, og som rommer en rett og ikke en porsjon.',
-    long: 'Seks eller sju av dem står i en bue langs den bortre kanten av brettet. Det holder den våte maten unna den som spiser, og lar den nærmeste halvdelen ligge åpen til brød og ris. En katori fylles opp igjen i stedet for å bli servert én gang, så en tom skål leses som en bestilling på mer.',
+    long: 'Flere kan stå langs kanten av en restaurant-thali, med plass til brød, ris og tilbehør. Antall, plassering og servering varierer: noen restauranter fyller dem på, mens faste thalier og hjemmemåltider følger andre mønstre.',
     match: ['katori']
   },
   'farsan': {
@@ -29,13 +29,13 @@ Object.assign(window.GLOSSARY_NO, {
   'vaghar': {
     term: 'Vaghar',
     short: 'Den gujaratiske temperingen: hele krydder som slippes i varm olje i starten av en rett.',
-    long: 'Tanken er den samme som i en tadka, men rekkefølgen ligger fast. Først olje, så svarte sennepsfrø til de spretter, så karriblad, så en klype asafoetida, og først da det malte krydderet med pannen trukket av flammen. Det tar omtrent førti sekunder, og det avgjør hvordan den ferdige retten lukter.',
+    long: 'Tanken er den samme som i en tadka. Én vanlig rekkefølge begynner med svarte sennepsfrø, fulgt av karriblad og asafoetida; malt krydder trenger svakere varme. Innhold og rekkefølge følger retten, mens det krydrede fettet sprer aromaen.',
     match: ['vaghar']
   },
   'rotli': {
     term: 'Rotli',
     short: 'Det gujaratiske hverdagsbrødet av hvete, kjevlet tynnere enn en chapati og stekt på sekunder.',
-    long: 'Det kommer på bordet ett om gangen rett fra takka, for en stabel blir læraktig i løpet av få minutter. Thepla er den samme deigen tilsatt kikertmel, yoghurt og blader av bukkehornkløver, og nettopp det gjør at den holder seg i dagevis og blir brødet familien tar med på reise.',
+    long: 'Det serveres ofte varmt fra takka. Thepla er et fastere, beslektet brød som kan inneholde kikertmel, olje, krydder og bukkehornkløver eller andre grønnsaker. Det er praktisk reisemat, men bør avkjøles før pakking og kjøles ved lengre oppbevaring.',
     match: ['rotli']
   }
 });

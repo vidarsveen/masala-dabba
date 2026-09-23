@@ -1,0 +1,1421 @@
+{
+  "format": {
+    "intro": "title",
+    "drop": "facts,recap,tasting,headings",
+    "outro": "none"
+  },
+  "tracks": [
+    {
+      "id": "IN-HIM:intro",
+      "lang": "en",
+      "region": "himalaya",
+      "kind": "introduction",
+      "title": "Kashmir & the Himalaya",
+      "words": 80,
+      "characters": 518,
+      "script_sha256": "62c554d015bb8ef51336640f7aeea8d7fcd6e77982500a3a8c2d00f86f6a1d70"
+    },
+    {
+      "id": "IN-HIM:reading-1",
+      "lang": "en",
+      "region": "himalaya",
+      "kind": "reading",
+      "title": "Saffron, ver and the chilli that colours",
+      "words": 900,
+      "characters": 5251,
+      "script_sha256": "5f60c00974da89c35a9010fe9cb2729fa1a3d2ffa77f2fbc462ca3ac7b626296"
+    },
+    {
+      "id": "IN-HIM:reading-2",
+      "lang": "en",
+      "region": "himalaya",
+      "kind": "reading",
+      "title": "Rice, the wazwan and the seventh course",
+      "words": 912,
+      "characters": 5252,
+      "script_sha256": "e8a0b1238389f70277f8f101a6c97e04ff75fd244a7d8fe77e372293ad020f3e"
+    },
+    {
+      "id": "IN-HIM:reading-3",
+      "lang": "en",
+      "region": "himalaya",
+      "kind": "reading",
+      "title": "Rogan josh, yakhni and the two valley kitchens",
+      "words": 932,
+      "characters": 5167,
+      "script_sha256": "6136a1fe1ff44351fedf9b4f3fcaeefd85be5f31b014b538d442f699525aaf32"
+    },
+    {
+      "id": "IN-HIM:reading-4",
+      "lang": "en",
+      "region": "himalaya",
+      "kind": "reading",
+      "title": "Mughals in the mountains: why the valley eats as it does",
+      "words": 808,
+      "characters": 5058,
+      "script_sha256": "7e9e2cf43f1330429e6b9aecc037970edf999add06e037375c594ae2ab88c48a"
+    },
+    {
+      "id": "IN-PUN:intro",
+      "lang": "en",
+      "region": "punjab",
+      "kind": "introduction",
+      "title": "Punjab & Delhi",
+      "words": 90,
+      "characters": 541,
+      "script_sha256": "5cae03ce8f2dd47c6314f7aa9cbf484aece44e46752da068552ab1b2ac6e8be7"
+    },
+    {
+      "id": "IN-PUN:reading-1",
+      "lang": "en",
+      "region": "punjab",
+      "kind": "reading",
+      "title": "Garam masala and the tandoor",
+      "words": 837,
+      "characters": 4631,
+      "script_sha256": "20b710fc16da28c0df513c49da4199339d5e33cd98e352e4e85ca65ada62b86d"
+    },
+    {
+      "id": "IN-PUN:reading-2",
+      "lang": "en",
+      "region": "punjab",
+      "kind": "reading",
+      "title": "Wheat, dairy and the Punjabi plate",
+      "words": 909,
+      "characters": 5132,
+      "script_sha256": "bdb7289ba9b9b060e74ea395178c1d1a97d5ec1624deebd3f9c6e379d1f75c1c"
+    },
+    {
+      "id": "IN-PUN:reading-3",
+      "lang": "en",
+      "region": "punjab",
+      "kind": "reading",
+      "title": "Saag, dal makhani and the tandoori table",
+      "words": 743,
+      "characters": 4425,
+      "script_sha256": "c4d4e0acbc45b991b673a449159882208acfdb6c2c829a386ef291c144b16045"
+    },
+    {
+      "id": "IN-PUN:reading-4",
+      "lang": "en",
+      "region": "punjab",
+      "kind": "reading",
+      "title": "1947: refugee kitchens and butter chicken",
+      "words": 729,
+      "characters": 4586,
+      "script_sha256": "e82b19fb816815f80d21a5603842a23c77352002f50f75debff348333774623e"
+    },
+    {
+      "id": "IN-RAJ:intro",
+      "lang": "en",
+      "region": "rajasthan",
+      "kind": "introduction",
+      "title": "Rajasthan",
+      "words": 83,
+      "characters": 541,
+      "script_sha256": "4d67ef2cb7204035832fa354a09a14ce5959b99736144fa42dcb543b302ecde7"
+    },
+    {
+      "id": "IN-RAJ:reading-1",
+      "lang": "en",
+      "region": "rajasthan",
+      "kind": "reading",
+      "title": "Cooking without water: chilli, ghee and yoghurt",
+      "words": 681,
+      "characters": 4041,
+      "script_sha256": "3c3a1142e2b57dc9cef9fba0fe8270ed4ac4bb1e4555e20f934034d4ce0d5412"
+    },
+    {
+      "id": "IN-RAJ:reading-2",
+      "lang": "en",
+      "region": "rajasthan",
+      "kind": "reading",
+      "title": "Bajra, bati and the desert pantry",
+      "words": 738,
+      "characters": 4140,
+      "script_sha256": "b595acf02b61ce3b65c19f2947c9d22bb5fdd563adff011f175708af95184d93"
+    },
+    {
+      "id": "IN-RAJ:reading-3",
+      "lang": "en",
+      "region": "rajasthan",
+      "kind": "reading",
+      "title": "Laal maas, ker sangri and gatte",
+      "words": 767,
+      "characters": 4409,
+      "script_sha256": "ea172ce024a29347ed5361cc0077be9b88a38effb0d29473cb751659e5a030b6"
+    },
+    {
+      "id": "IN-RAJ:reading-4",
+      "lang": "en",
+      "region": "rajasthan",
+      "kind": "reading",
+      "title": "Rajputs and Marwaris: two kitchens, one desert",
+      "words": 637,
+      "characters": 4105,
+      "script_sha256": "275d044e177da0bd818d288600f92c665d6f66a96afc192e6ca726fe882b019b"
+    },
+    {
+      "id": "IN-AWA:intro",
+      "lang": "en",
+      "region": "awadh",
+      "kind": "introduction",
+      "title": "Awadh",
+      "words": 79,
+      "characters": 515,
+      "script_sha256": "5fcff24a299ca7902939602b60ccb51b070639102affb3e34f456b0c65801043"
+    },
+    {
+      "id": "IN-AWA:reading-1",
+      "lang": "en",
+      "region": "awadh",
+      "kind": "reading",
+      "title": "Attar and aroma: the perfumed pantry",
+      "words": 656,
+      "characters": 3760,
+      "script_sha256": "4662721f6748f16cc91de355b81a47a0c3aa8d4235a068e2f1f72fa5d643f848"
+    },
+    {
+      "id": "IN-AWA:reading-2",
+      "lang": "en",
+      "region": "awadh",
+      "kind": "reading",
+      "title": "Dum: rice, bread and the sealed pot",
+      "words": 671,
+      "characters": 3733,
+      "script_sha256": "e9f3ad5493f409c6420659199b9da2d06a68d2d76d232cf650c911d45154b183"
+    },
+    {
+      "id": "IN-AWA:reading-3",
+      "lang": "en",
+      "region": "awadh",
+      "kind": "reading",
+      "title": "Kebabs, biryani and nihari",
+      "words": 778,
+      "characters": 4352,
+      "script_sha256": "9e8f9763167067b16a89c55911ecc6042559ad624a603e317ca07577becf728f"
+    },
+    {
+      "id": "IN-AWA:reading-4",
+      "lang": "en",
+      "region": "awadh",
+      "kind": "reading",
+      "title": "The Nawabs, 1856, and where the cooks went",
+      "words": 704,
+      "characters": 4337,
+      "script_sha256": "5879a7ef95a131381e46e7dfb629b7dcc5e5d52341cbd23a014ec76d702e671d"
+    },
+    {
+      "id": "IN-GUJ:intro",
+      "lang": "en",
+      "region": "gujarat",
+      "kind": "introduction",
+      "title": "Gujarat",
+      "words": 30,
+      "characters": 210,
+      "script_sha256": "c6a37641a0d3857f5923af895adac7a6dc43ad9c1a6f72db1d8abfdd8b9dff2b"
+    },
+    {
+      "id": "IN-GUJ:reading-1",
+      "lang": "en",
+      "region": "gujarat",
+      "kind": "reading",
+      "title": "Sweet, sour and hot: the dhana-jeera pantry",
+      "words": 647,
+      "characters": 3772,
+      "script_sha256": "cb278a2f743d9f2d0d776d6b1b9dad2740fbc687136e3ab8d808c10d0fdc05bc"
+    },
+    {
+      "id": "IN-GUJ:reading-2",
+      "lang": "en",
+      "region": "gujarat",
+      "kind": "reading",
+      "title": "The thali as a system",
+      "words": 501,
+      "characters": 2965,
+      "script_sha256": "3d7f1408570f40827fe0ee6601747a5b4ac99642309c1056a5e5c72b2d297dbc"
+    },
+    {
+      "id": "IN-GUJ:reading-3",
+      "lang": "en",
+      "region": "gujarat",
+      "kind": "reading",
+      "title": "Dhokla, undhiyu and the steamed kitchen",
+      "words": 717,
+      "characters": 4171,
+      "script_sha256": "d4609beb66dde6dc84c4fd04587cb6b139a297a2c99b76ace083b4de1317a44f"
+    },
+    {
+      "id": "IN-GUJ:reading-4",
+      "lang": "en",
+      "region": "gujarat",
+      "kind": "reading",
+      "title": "Ports, Jains and the Parsi landing at Sanjan",
+      "words": 652,
+      "characters": 4218,
+      "script_sha256": "ca1709e49c9bc72aff59875f694dc74985fa0a758df95a5adc16649c2d0b147d"
+    },
+    {
+      "id": "IN-MAH:intro",
+      "lang": "en",
+      "region": "maharashtra",
+      "kind": "introduction",
+      "title": "Maharashtra",
+      "words": 36,
+      "characters": 244,
+      "script_sha256": "64afb41f7325be5398ce4a8739d94e273246e852756369ba2598a00f23eecd19"
+    },
+    {
+      "id": "IN-MAH:reading-1",
+      "lang": "en",
+      "region": "maharashtra",
+      "kind": "reading",
+      "title": "Goda masala and the stone flower",
+      "words": 486,
+      "characters": 3028,
+      "script_sha256": "97f276c08409fa7a5ff7e4bfe662fcee2e9934ef5175862ad7c6d8b4c2ea3ffe"
+    },
+    {
+      "id": "IN-MAH:reading-2",
+      "lang": "en",
+      "region": "maharashtra",
+      "kind": "reading",
+      "title": "Bhakri on the plateau, rice on the coast",
+      "words": 678,
+      "characters": 4092,
+      "script_sha256": "e929c842cb91952d558f25c2bc546575d84cb825c114c37f1479f333e31ef930"
+    },
+    {
+      "id": "IN-MAH:reading-3",
+      "lang": "en",
+      "region": "maharashtra",
+      "kind": "reading",
+      "title": "Misal, vada pav and the Kolhapuri red",
+      "words": 717,
+      "characters": 4236,
+      "script_sha256": "c39540dfd385840e20c46609611e620ed01a151954bea07a1f8c53337fd53ad5"
+    },
+    {
+      "id": "IN-MAH:reading-4",
+      "lang": "en",
+      "region": "maharashtra",
+      "kind": "reading",
+      "title": "Bombay: mills, Iranis and the food of arrival",
+      "words": 752,
+      "characters": 4738,
+      "script_sha256": "6f8ef70ebc16ea1c9fd09393b0c67c19944ab1c8afd4a8b0267c75ec44689048"
+    },
+    {
+      "id": "IN-KON:intro",
+      "lang": "en",
+      "region": "goa",
+      "kind": "introduction",
+      "title": "Goa & the Konkan",
+      "words": 42,
+      "characters": 287,
+      "script_sha256": "9cd889da5e6619ed9af55cfa737e1b49ecb275770dfcfa7df0533f0f9b36ecee"
+    },
+    {
+      "id": "IN-KON:reading-1",
+      "lang": "en",
+      "region": "goa",
+      "kind": "reading",
+      "title": "Vinegar, chilli and the recheado masala",
+      "words": 692,
+      "characters": 4284,
+      "script_sha256": "46c368e450265e1f9833b986dc2212fa49932d1e6ba5b3d380d34e9ca91ce628"
+    },
+    {
+      "id": "IN-KON:reading-2",
+      "lang": "en",
+      "region": "goa",
+      "kind": "reading",
+      "title": "Ukda rice and the daily fish curry",
+      "words": 457,
+      "characters": 2887,
+      "script_sha256": "7adae520b08a214237291ea3a743fe516d5d0d43bd035159ae193feae1054e2b"
+    },
+    {
+      "id": "IN-KON:reading-3",
+      "lang": "en",
+      "region": "goa",
+      "kind": "reading",
+      "title": "Vindaloo, xacuti and sorpotel",
+      "words": 605,
+      "characters": 3771,
+      "script_sha256": "9ac75ee5029e7de1f853210aa7aa88da18cbb55e2d40330d759054935833e245"
+    },
+    {
+      "id": "IN-KON:reading-4",
+      "lang": "en",
+      "region": "goa",
+      "kind": "reading",
+      "title": "1510: what Portugal brought, and what it took",
+      "words": 589,
+      "characters": 3921,
+      "script_sha256": "a3a5bb747ae301f58f71be53bb34e9be9fa52e3119ee6e0b493d62d1e42a8811"
+    },
+    {
+      "id": "IN-CEN:intro",
+      "lang": "en",
+      "region": "centre",
+      "kind": "introduction",
+      "title": "The Deccan centre",
+      "words": 35,
+      "characters": 254,
+      "script_sha256": "55ae0959b26b36348ecca94cae7723b1b0474045ac40c1729d3839c3ae3a9715"
+    },
+    {
+      "id": "IN-CEN:reading-1",
+      "lang": "en",
+      "region": "centre",
+      "kind": "reading",
+      "title": "Poppy seed, chironji and the forest pantry",
+      "words": 578,
+      "characters": 3573,
+      "script_sha256": "d8e71a7eae2d5cd5a26540ea60b5c3eea3f27d4f34db82ffa9856ee922f385cd"
+    },
+    {
+      "id": "IN-CEN:reading-2",
+      "lang": "en",
+      "region": "centre",
+      "kind": "reading",
+      "title": "Wheat in Malwa, rice in Chhattisgarh",
+      "words": 545,
+      "characters": 3471,
+      "script_sha256": "2db6a1096d697e04bb3d6447bb6bab827fe53296519af1b5ede329e98a2c16a1"
+    },
+    {
+      "id": "IN-CEN:reading-3",
+      "lang": "en",
+      "region": "centre",
+      "kind": "reading",
+      "title": "Poha, bafla and the Bhopali korma",
+      "words": 611,
+      "characters": 3739,
+      "script_sha256": "2e670c80884aa79779d748759f4e7280c15c6c85501f8440099c79d4c1ce4ec9"
+    },
+    {
+      "id": "IN-CEN:reading-4",
+      "lang": "en",
+      "region": "centre",
+      "kind": "reading",
+      "title": "Ashoka, the Begums and the Bastar kitchens",
+      "words": 669,
+      "characters": 4313,
+      "script_sha256": "0b637026b3f36106355779e15db294f8d63bed933b33b8ad45f1554ac7469286"
+    },
+    {
+      "id": "IN-BEN:intro",
+      "lang": "en",
+      "region": "bengal",
+      "kind": "introduction",
+      "title": "Bengal & the east",
+      "words": 43,
+      "characters": 287,
+      "script_sha256": "01016610c18c07d1cb486b4828dcc4210e1c1dfabc9c1da65e231a77808811f1"
+    },
+    {
+      "id": "IN-BEN:reading-1",
+      "lang": "en",
+      "region": "bengal",
+      "kind": "reading",
+      "title": "Panch phoron, mustard and the whole-spice rule",
+      "words": 649,
+      "characters": 4083,
+      "script_sha256": "6316f30874df551fae6d99ff9466487d0d6148cb58de10462533353eeeae717d"
+    },
+    {
+      "id": "IN-BEN:reading-2",
+      "lang": "en",
+      "region": "bengal",
+      "kind": "reading",
+      "title": "Rice and the order of a Bengali meal",
+      "words": 565,
+      "characters": 3542,
+      "script_sha256": "a58c5a7ce725ef0e917e71d36a75ca95d2107a8e77171caf424116255f9f6db1"
+    },
+    {
+      "id": "IN-BEN:reading-3",
+      "lang": "en",
+      "region": "bengal",
+      "kind": "reading",
+      "title": "Ilish, kosha mangsho and the sweets",
+      "words": 666,
+      "characters": 4294,
+      "script_sha256": "db5748b6680a20e18fd728023b8830fc8a157aa5398e82068db481ae9c94deb1"
+    },
+    {
+      "id": "IN-BEN:reading-4",
+      "lang": "en",
+      "region": "bengal",
+      "kind": "reading",
+      "title": "Chhana, the Portuguese and a Nawab in exile",
+      "words": 661,
+      "characters": 4280,
+      "script_sha256": "8436c35b0bcffb578365d1d6fea4f560aa6ee4d30e1ab63775961e1d6c9b4442"
+    },
+    {
+      "id": "IN-NEA:intro",
+      "lang": "en",
+      "region": "northeast",
+      "kind": "introduction",
+      "title": "The North-East",
+      "words": 40,
+      "characters": 270,
+      "script_sha256": "b4cb48316820af3a0be10379af3e6848309f3ef2788824c509a691507d536584"
+    },
+    {
+      "id": "IN-NEA:reading-1",
+      "lang": "en",
+      "region": "northeast",
+      "kind": "reading",
+      "title": "Fermentation, alkali, smoke and spice",
+      "words": 911,
+      "characters": 5562,
+      "script_sha256": "d979ef63600c60fc2d3f9c887d7d808a66efc761b72b5bca0a8b9c4ee8189fd2"
+    },
+    {
+      "id": "IN-NEA:reading-2",
+      "lang": "en",
+      "region": "northeast",
+      "kind": "reading",
+      "title": "Rice, sticky rice and the steamed pot",
+      "words": 615,
+      "characters": 3911,
+      "script_sha256": "9adc370d47b05f1c6d5b9ee03d2b713c32bdd669c159b42278da9def61fd3b69"
+    },
+    {
+      "id": "IN-NEA:reading-3",
+      "lang": "en",
+      "region": "northeast",
+      "kind": "reading",
+      "title": "Tenga, khar and the smoked pork",
+      "words": 666,
+      "characters": 4141,
+      "script_sha256": "52a15c35cb15bcd045a1e159961edd3c0155625f95c2af3690a67378fe61977b"
+    },
+    {
+      "id": "IN-NEA:reading-4",
+      "lang": "en",
+      "region": "northeast",
+      "kind": "reading",
+      "title": "The Ahoms, tea and changing connections",
+      "words": 643,
+      "characters": 4440,
+      "script_sha256": "1a63893279adb7b492724e43dd525a1a7fa3fc27656518186f669fc40184a382"
+    },
+    {
+      "id": "IN-KAR:intro",
+      "lang": "en",
+      "region": "karnataka",
+      "kind": "introduction",
+      "title": "Karnataka",
+      "words": 42,
+      "characters": 295,
+      "script_sha256": "9be204733732ce428d0c641d8c226a500ccb5f61887febf139faa67d087347f0"
+    },
+    {
+      "id": "IN-KAR:reading-1",
+      "lang": "en",
+      "region": "karnataka",
+      "kind": "reading",
+      "title": "Byadgi: the chilli grown for colour",
+      "words": 789,
+      "characters": 4598,
+      "script_sha256": "6b890babe7910f53af5b8248e943c29b4afdd89556ffb02e4572a0a44bbb1eb4"
+    },
+    {
+      "id": "IN-KAR:reading-2",
+      "lang": "en",
+      "region": "karnataka",
+      "kind": "reading",
+      "title": "Ragi, rice and the coastal batter",
+      "words": 772,
+      "characters": 4469,
+      "script_sha256": "d96728c6fb4d0a4ef4d852a71204686cb21895911b54012dae3170046446e5cb"
+    },
+    {
+      "id": "IN-KAR:reading-3",
+      "lang": "en",
+      "region": "karnataka",
+      "kind": "reading",
+      "title": "Bisi bele bath, dosa and pandi curry",
+      "words": 872,
+      "characters": 5124,
+      "script_sha256": "aa81650fa9edd2af2cbfbca6a1cda8d103a393a2975f4d5570b0070b7e0b526e"
+    },
+    {
+      "id": "IN-KAR:reading-4",
+      "lang": "en",
+      "region": "karnataka",
+      "kind": "reading",
+      "title": "Vijayanagara, the Wodeyars and seven coffee beans",
+      "words": 708,
+      "characters": 4519,
+      "script_sha256": "72a494c6f525896005090adf59771c132383f37a8b6c6736ffe17b84dd60d4bd"
+    },
+    {
+      "id": "IN-AND:intro",
+      "lang": "en",
+      "region": "andhra",
+      "kind": "introduction",
+      "title": "Andhra & Telangana",
+      "words": 34,
+      "characters": 223,
+      "script_sha256": "404e20ae205297c852f3cd43db7039fdc1d0c152c3597cf82b0f13b1dac5969e"
+    },
+    {
+      "id": "IN-AND:reading-1",
+      "lang": "en",
+      "region": "andhra",
+      "kind": "reading",
+      "title": "Guntur heat and gongura sour",
+      "words": 896,
+      "characters": 5118,
+      "script_sha256": "067202f852a883686f255c9c323be29a442e48e93412d4e1400d7abf181f77b9"
+    },
+    {
+      "id": "IN-AND:reading-2",
+      "lang": "en",
+      "region": "andhra",
+      "kind": "reading",
+      "title": "Rice, pappu and mango pickle",
+      "words": 716,
+      "characters": 4210,
+      "script_sha256": "0cdf1744f00bcd715c789aca91feab97afe0a6e448377c4b2e7c6f998cb68e8f"
+    },
+    {
+      "id": "IN-AND:reading-3",
+      "lang": "en",
+      "region": "andhra",
+      "kind": "reading",
+      "title": "Biryani, haleem and the gongura mutton",
+      "words": 701,
+      "characters": 4173,
+      "script_sha256": "4b63734019d2aa5fbf115cc9910c1222492055210ab252795caf5afa9fa9b543"
+    },
+    {
+      "id": "IN-AND:reading-4",
+      "lang": "en",
+      "region": "andhra",
+      "kind": "reading",
+      "title": "Qutb Shahis, Nizams and a Deccan capital",
+      "words": 743,
+      "characters": 4632,
+      "script_sha256": "a83274a7b4478f8a4eba0e0bac14ad9d3454369360ac3b40f26766ce045e2909"
+    },
+    {
+      "id": "IN-TAM:intro",
+      "lang": "en",
+      "region": "tamilnadu",
+      "kind": "introduction",
+      "title": "Tamil Nadu",
+      "words": 33,
+      "characters": 235,
+      "script_sha256": "d2fbfdfad8bd3e960ec28e873157111332570ebe8b850bb6ded55093e7fbc3ce"
+    },
+    {
+      "id": "IN-TAM:reading-1",
+      "lang": "en",
+      "region": "tamilnadu",
+      "kind": "reading",
+      "title": "Pepper, kalpasi and the Chettinad roast",
+      "words": 681,
+      "characters": 4052,
+      "script_sha256": "57ace0508199ab4f7be76bb872770a0eba729ac84d357b34c1fff0309cc788c2"
+    },
+    {
+      "id": "IN-TAM:reading-2",
+      "lang": "en",
+      "region": "tamilnadu",
+      "kind": "reading",
+      "title": "Fermented batter and the banana-leaf order",
+      "words": 667,
+      "characters": 3904,
+      "script_sha256": "c5aeaeeb1cff70afc0ebaa75d569ce730181d37b6ac130d0cdffb67ae62e0cf6"
+    },
+    {
+      "id": "IN-TAM:reading-3",
+      "lang": "en",
+      "region": "tamilnadu",
+      "kind": "reading",
+      "title": "Idli, sambar and the Chettinad kitchen",
+      "words": 620,
+      "characters": 3784,
+      "script_sha256": "4dedb456bee94b1376d6b7f97f7ea20c0c8a6b602273c5acee1b82b5d3ef9fa1"
+    },
+    {
+      "id": "IN-TAM:reading-4",
+      "lang": "en",
+      "region": "tamilnadu",
+      "kind": "reading",
+      "title": "Cholas, Romans and the Chettiars who went east",
+      "words": 566,
+      "characters": 3792,
+      "script_sha256": "8e6b9261fa39c6dc3de4b69ff6bd4c7880a2e0c112f66df0821f9848e1c9b8d8"
+    },
+    {
+      "id": "IN-KER:intro",
+      "lang": "en",
+      "region": "kerala",
+      "kind": "introduction",
+      "title": "Kerala",
+      "words": 37,
+      "characters": 247,
+      "script_sha256": "7a4b0525d9174257059ff328e41eab2d9079672111ebf9933d0239c0ab90f293"
+    },
+    {
+      "id": "IN-KER:reading-1",
+      "lang": "en",
+      "region": "kerala",
+      "kind": "reading",
+      "title": "Pepper, cardamom and the spice coast",
+      "words": 580,
+      "characters": 3647,
+      "script_sha256": "75c9e6a4372bf63540940bc0ec9970e3cfbb198613461a99ccaa960f81558bbd"
+    },
+    {
+      "id": "IN-KER:reading-2",
+      "lang": "en",
+      "region": "kerala",
+      "kind": "reading",
+      "title": "Rice in four shapes, coconut in four more",
+      "words": 480,
+      "characters": 2900,
+      "script_sha256": "7e3aa1fe4eb644eb51dee17bba3f944d2f0317f4ebec365ae3974f6fc7f94d24"
+    },
+    {
+      "id": "IN-KER:reading-3",
+      "lang": "en",
+      "region": "kerala",
+      "kind": "reading",
+      "title": "Meen curry, appam and the sadya",
+      "words": 519,
+      "characters": 3149,
+      "script_sha256": "0d1f0bbc79eee16a80ab42b45da8ce34bb2d1eb2d5c45aa335de56c6d99108c9"
+    },
+    {
+      "id": "IN-KER:reading-4",
+      "lang": "en",
+      "region": "kerala",
+      "kind": "reading",
+      "title": "Muziris to Vasco da Gama: the trade that made the kitchen",
+      "words": 549,
+      "characters": 3612,
+      "script_sha256": "a8f6e48e239c5f74080e7d87b271c74d7662d20edc93755cff17ece06cbd9928"
+    },
+    {
+      "id": "IN-HIM:intro",
+      "lang": "no",
+      "region": "himalaya",
+      "kind": "introduction",
+      "title": "Kashmir og Himalaya",
+      "words": 74,
+      "characters": 508,
+      "script_sha256": "958b8c6228c59a7c3dceda51a5ee6105e3f39a35f357174f661ffcbd323d064e"
+    },
+    {
+      "id": "IN-HIM:reading-1",
+      "lang": "no",
+      "region": "himalaya",
+      "kind": "reading",
+      "title": "Safran, ver og chilien som farger",
+      "words": 853,
+      "characters": 5181,
+      "script_sha256": "3dc89fda25644555b9268d25db871496bb684827863ba58727949c3ebebd4a9a"
+    },
+    {
+      "id": "IN-HIM:reading-2",
+      "lang": "no",
+      "region": "himalaya",
+      "kind": "reading",
+      "title": "Ris, wazwan og den syvende retten",
+      "words": 830,
+      "characters": 4960,
+      "script_sha256": "854dc552bb1b839992bad4b93fbbfc28308c4b7248ec98b1c13b26d36816f2ec"
+    },
+    {
+      "id": "IN-HIM:reading-3",
+      "lang": "no",
+      "region": "himalaya",
+      "kind": "reading",
+      "title": "Rogan josh, yakhni og dalens to kjøkken",
+      "words": 874,
+      "characters": 5156,
+      "script_sha256": "b59180da4e0847efcd6f6e25cef03c46cfea690bb9848c586323ab8cec9ec672"
+    },
+    {
+      "id": "IN-HIM:reading-4",
+      "lang": "no",
+      "region": "himalaya",
+      "kind": "reading",
+      "title": "Mughaler i fjellet: hvorfor dalen spiser som den gjør",
+      "words": 742,
+      "characters": 4880,
+      "script_sha256": "395a15aca24aa6f080fdae01e29413258f3834bd83e7dd2ba73fe813bbabf278"
+    },
+    {
+      "id": "IN-PUN:intro",
+      "lang": "no",
+      "region": "punjab",
+      "kind": "introduction",
+      "title": "Punjab og Delhi",
+      "words": 81,
+      "characters": 522,
+      "script_sha256": "0502338396cc3d4f579b6c7ed019508d151c8e5f026c999190cc7de90d1fdd45"
+    },
+    {
+      "id": "IN-PUN:reading-1",
+      "lang": "no",
+      "region": "punjab",
+      "kind": "reading",
+      "title": "Garam masala og tandooren",
+      "words": 763,
+      "characters": 4489,
+      "script_sha256": "092d1faccfaa684362fee6a791e7fb2e0a14d8991f07cda20c1548834cde2a07"
+    },
+    {
+      "id": "IN-PUN:reading-2",
+      "lang": "no",
+      "region": "punjab",
+      "kind": "reading",
+      "title": "Hvete, meieri og den punjabiske tallerkenen",
+      "words": 837,
+      "characters": 4940,
+      "script_sha256": "6e5b207a9c141d59f6a2fe868edcc2fd44762db202f45d5de9a7f39fae6ba635"
+    },
+    {
+      "id": "IN-PUN:reading-3",
+      "lang": "no",
+      "region": "punjab",
+      "kind": "reading",
+      "title": "Saag, dal makhani og tandooribordet",
+      "words": 692,
+      "characters": 4230,
+      "script_sha256": "a0e900f97173f1b974c19bf4aaf648705c8cefd591c101c65f9ec138d129d0ff"
+    },
+    {
+      "id": "IN-PUN:reading-4",
+      "lang": "no",
+      "region": "punjab",
+      "kind": "reading",
+      "title": "1947: flyktningkjøkken og butter chicken",
+      "words": 690,
+      "characters": 4415,
+      "script_sha256": "bb6bf309d76b9eb545b0c831de417d7b57106702aba2e6bacb77c951cec984ff"
+    },
+    {
+      "id": "IN-RAJ:intro",
+      "lang": "no",
+      "region": "rajasthan",
+      "kind": "introduction",
+      "title": "Rajasthan",
+      "words": 72,
+      "characters": 530,
+      "script_sha256": "4522c9a5d9659b79eb06394d2cf13e7ebd85f20f216d1aed1629b1a685b61534"
+    },
+    {
+      "id": "IN-RAJ:reading-1",
+      "lang": "no",
+      "region": "rajasthan",
+      "kind": "reading",
+      "title": "Å lage mat uten vann: chili, ghee og yoghurt",
+      "words": 640,
+      "characters": 3875,
+      "script_sha256": "0f51a81e4697f31454bf8266a321afc834933ce583a5d2affd590357fc0844c0"
+    },
+    {
+      "id": "IN-RAJ:reading-2",
+      "lang": "no",
+      "region": "rajasthan",
+      "kind": "reading",
+      "title": "Bajra, bati og det ørkenen gir",
+      "words": 674,
+      "characters": 3874,
+      "script_sha256": "b536c57500c19c8afd53cb78a4df077fe30697630da82b5b39d4a01f7662c8ed"
+    },
+    {
+      "id": "IN-RAJ:reading-3",
+      "lang": "no",
+      "region": "rajasthan",
+      "kind": "reading",
+      "title": "Laal maas, ker sangri og gatte",
+      "words": 741,
+      "characters": 4358,
+      "script_sha256": "2af5c3a9bb7cc3e65a7e869aaf1492db4ee28a552bb412b547d7a65f39065884"
+    },
+    {
+      "id": "IN-RAJ:reading-4",
+      "lang": "no",
+      "region": "rajasthan",
+      "kind": "reading",
+      "title": "Rajputer og marwarier: to kjøkken, én ørken",
+      "words": 605,
+      "characters": 3966,
+      "script_sha256": "3332fa8e835ae4485ca733f722d26107f281991525574838e21ca2d8c7181c6e"
+    },
+    {
+      "id": "IN-AWA:intro",
+      "lang": "no",
+      "region": "awadh",
+      "kind": "introduction",
+      "title": "Awadh",
+      "words": 73,
+      "characters": 470,
+      "script_sha256": "1f81db8ea482f211f0e8abc2846d62c143729d9cdc97a54413a9cdbba07a327d"
+    },
+    {
+      "id": "IN-AWA:reading-1",
+      "lang": "no",
+      "region": "awadh",
+      "kind": "reading",
+      "title": "Attar og duft: et parfymert kjøkken",
+      "words": 614,
+      "characters": 3634,
+      "script_sha256": "0ab048bc2d701c1c44b985a73ddb748a1afbb2f557e678f20d7bdeaf79f18c45"
+    },
+    {
+      "id": "IN-AWA:reading-2",
+      "lang": "no",
+      "region": "awadh",
+      "kind": "reading",
+      "title": "Dum: ris, brød og den forseglede gryta",
+      "words": 640,
+      "characters": 3733,
+      "script_sha256": "426aaa6ed5b072c12575becd69a726b554dfb596465dd95424f9cc105e1dc17f"
+    },
+    {
+      "id": "IN-AWA:reading-3",
+      "lang": "no",
+      "region": "awadh",
+      "kind": "reading",
+      "title": "Kebab, biryani og nihari",
+      "words": 743,
+      "characters": 4290,
+      "script_sha256": "c9713ac5f4d71f91b859f6ea7229458651804d5e3c7d3a677aa68313d2b05ed8"
+    },
+    {
+      "id": "IN-AWA:reading-4",
+      "lang": "no",
+      "region": "awadh",
+      "kind": "reading",
+      "title": "Nawabene, 1856, og hvor kokkene tok veien",
+      "words": 705,
+      "characters": 4393,
+      "script_sha256": "108bda19c057b76bd78f3b01048669309abb2ed9353a168813d530a2b8cc0e52"
+    },
+    {
+      "id": "IN-GUJ:intro",
+      "lang": "no",
+      "region": "gujarat",
+      "kind": "introduction",
+      "title": "Gujarat",
+      "words": 31,
+      "characters": 214,
+      "script_sha256": "6212b55db61434967d20b98cb64ba3b5afbc81c3489f45bf3748481cc9f12bda"
+    },
+    {
+      "id": "IN-GUJ:reading-1",
+      "lang": "no",
+      "region": "gujarat",
+      "kind": "reading",
+      "title": "Søtt, surt og sterkt, med dhana-jeera i bunnen",
+      "words": 604,
+      "characters": 3627,
+      "script_sha256": "a365e5917aad270e33aef610a88f2f9ec3000301770a755c0742cd77acbaadbf"
+    },
+    {
+      "id": "IN-GUJ:reading-2",
+      "lang": "no",
+      "region": "gujarat",
+      "kind": "reading",
+      "title": "Thalien som system",
+      "words": 475,
+      "characters": 2898,
+      "script_sha256": "5a897aa65b3907833d1cb5ceb47f1ec37250ceccb4a8525638d4cb9fd24141aa"
+    },
+    {
+      "id": "IN-GUJ:reading-3",
+      "lang": "no",
+      "region": "gujarat",
+      "kind": "reading",
+      "title": "Dhokla, undhiyu og det dampede kjøkkenet",
+      "words": 667,
+      "characters": 3962,
+      "script_sha256": "3499585c98cf182ca8867ab8eb62eabbcfd0d1f7d11295d43a01ddffe38e217a"
+    },
+    {
+      "id": "IN-GUJ:reading-4",
+      "lang": "no",
+      "region": "gujarat",
+      "kind": "reading",
+      "title": "Havner, jainer og parsernes landgang ved Sanjan",
+      "words": 596,
+      "characters": 4054,
+      "script_sha256": "c8602aba76cb0a6498603e387f1e54b050699a93b0faeee8627140f6dc1b0d76"
+    },
+    {
+      "id": "IN-MAH:intro",
+      "lang": "no",
+      "region": "maharashtra",
+      "kind": "introduction",
+      "title": "Maharashtra",
+      "words": 30,
+      "characters": 234,
+      "script_sha256": "86b33cdbe6d05afc4123e2dc45a59638f07cc2a183b482106827f6531062c4a7"
+    },
+    {
+      "id": "IN-MAH:reading-1",
+      "lang": "no",
+      "region": "maharashtra",
+      "kind": "reading",
+      "title": "Goda masala og steinblomsten",
+      "words": 459,
+      "characters": 2934,
+      "script_sha256": "00f5bf1374d2112ee1ca1c542ea9ef35d16c346d7650016b6795173cc542f6d2"
+    },
+    {
+      "id": "IN-MAH:reading-2",
+      "lang": "no",
+      "region": "maharashtra",
+      "kind": "reading",
+      "title": "Bhakri på platået, ris ved kysten",
+      "words": 636,
+      "characters": 3980,
+      "script_sha256": "7ed2222808501a7999c0e5b8f885ec5242900435227362f87535d239550438e2"
+    },
+    {
+      "id": "IN-MAH:reading-3",
+      "lang": "no",
+      "region": "maharashtra",
+      "kind": "reading",
+      "title": "Misal, vada pav og den røde rassaen fra Kolhapur",
+      "words": 695,
+      "characters": 4205,
+      "script_sha256": "1d132ebca46e608fd30fd03a0d0cedd57a8b75866e8732342a77ab1402a47b8d"
+    },
+    {
+      "id": "IN-MAH:reading-4",
+      "lang": "no",
+      "region": "maharashtra",
+      "kind": "reading",
+      "title": "Bombay: spinneriene, iranerne og maten til nykommerne",
+      "words": 748,
+      "characters": 4741,
+      "script_sha256": "3608f4106967948e0f4031dedaabc4a14293fe27f1c7bc9151ef2b7b8b96ceff"
+    },
+    {
+      "id": "IN-KON:intro",
+      "lang": "no",
+      "region": "goa",
+      "kind": "introduction",
+      "title": "Goa og Konkan",
+      "words": 42,
+      "characters": 275,
+      "script_sha256": "2b1b5677f94826dfc984534fc8d9bb96c03ff181a0997509855d1b8313757c81"
+    },
+    {
+      "id": "IN-KON:reading-1",
+      "lang": "no",
+      "region": "goa",
+      "kind": "reading",
+      "title": "Eddik, chili og recheado-masalaen",
+      "words": 637,
+      "characters": 4046,
+      "script_sha256": "ba4990e7a582e37caae47fd37d5c96d1fbcceabf8e3d89fc8185a911d3304e39"
+    },
+    {
+      "id": "IN-KON:reading-2",
+      "lang": "no",
+      "region": "goa",
+      "kind": "reading",
+      "title": "Ukda-ris og den daglige fiskekarrien",
+      "words": 425,
+      "characters": 2804,
+      "script_sha256": "5dd3ac08cf8aefa13732a867153dae02a2c78c5cfdeb7098782634c2e9891141"
+    },
+    {
+      "id": "IN-KON:reading-3",
+      "lang": "no",
+      "region": "goa",
+      "kind": "reading",
+      "title": "Vindaloo, xacuti og sorpotel",
+      "words": 572,
+      "characters": 3603,
+      "script_sha256": "dfe542e305c5fba837d114c6380a2e7f9f759ca92ab423cdca1e9f67c08f7de5"
+    },
+    {
+      "id": "IN-KON:reading-4",
+      "lang": "no",
+      "region": "goa",
+      "kind": "reading",
+      "title": "1510: hva Portugal brakte, og hva det tok",
+      "words": 559,
+      "characters": 3827,
+      "script_sha256": "4935bdf48c764512c7dd3ee429d73ddf7a27043b2b25fc1e64b6cf55f6aece72"
+    },
+    {
+      "id": "IN-CEN:intro",
+      "lang": "no",
+      "region": "centre",
+      "kind": "introduction",
+      "title": "Det midtre Dekkan",
+      "words": 35,
+      "characters": 247,
+      "script_sha256": "d72744e73f860bc1bde6bf645251fba29a0ed12734f03a18f1b4a72c33bc8f7a"
+    },
+    {
+      "id": "IN-CEN:reading-1",
+      "lang": "no",
+      "region": "centre",
+      "kind": "reading",
+      "title": "Valmuefrø, chironji og råvarene i skogen",
+      "words": 533,
+      "characters": 3463,
+      "script_sha256": "054123d20df340ff2cdb6f4c6ba9c39bef4ed5cca8372e26b5f12889fbabacba"
+    },
+    {
+      "id": "IN-CEN:reading-2",
+      "lang": "no",
+      "region": "centre",
+      "kind": "reading",
+      "title": "Hvete i Malwa, ris i Chhattisgarh",
+      "words": 529,
+      "characters": 3393,
+      "script_sha256": "f2c937dd48a507630f727d380c8a1b3eddf738d169ca9cd96f6306b785495a42"
+    },
+    {
+      "id": "IN-CEN:reading-3",
+      "lang": "no",
+      "region": "centre",
+      "kind": "reading",
+      "title": "Poha, bafla og kormaen fra Bhopal",
+      "words": 588,
+      "characters": 3667,
+      "script_sha256": "ac3fd9bd032fda7b666f0b218832bad9cd7949210796c5ce3fcfdef013743380"
+    },
+    {
+      "id": "IN-CEN:reading-4",
+      "lang": "no",
+      "region": "centre",
+      "kind": "reading",
+      "title": "Ashoka, begumene og kjøkkenene i Bastar",
+      "words": 624,
+      "characters": 4192,
+      "script_sha256": "745491cda3bc18cccfc35a7e1e07f134f2b2b58c2bb360c571c5fa67013238da"
+    },
+    {
+      "id": "IN-BEN:intro",
+      "lang": "no",
+      "region": "bengal",
+      "kind": "introduction",
+      "title": "Bengal og øst",
+      "words": 41,
+      "characters": 274,
+      "script_sha256": "70f985d527076c3a5399f55a0fa5337b2775179e9e68c02aa36765d5da94238b"
+    },
+    {
+      "id": "IN-BEN:reading-1",
+      "lang": "no",
+      "region": "bengal",
+      "kind": "reading",
+      "title": "Panch phoron, sennep og regelen om hele krydder",
+      "words": 604,
+      "characters": 3928,
+      "script_sha256": "3b3f8dbc485caa02671d61a41b8d2cacdcef0ff6a2761cb88e8efece8afec671"
+    },
+    {
+      "id": "IN-BEN:reading-2",
+      "lang": "no",
+      "region": "bengal",
+      "kind": "reading",
+      "title": "Ris og rekkefølgen i et bengalsk måltid",
+      "words": 537,
+      "characters": 3369,
+      "script_sha256": "7b7936b598413191b357c6ade8b96abfe607ab80f9cf7bafd5a6947bd4910789"
+    },
+    {
+      "id": "IN-BEN:reading-3",
+      "lang": "no",
+      "region": "bengal",
+      "kind": "reading",
+      "title": "Ilish, kosha mangsho og søtsakene",
+      "words": 622,
+      "characters": 4017,
+      "script_sha256": "746a6c84156f235c972c56c4a2ec7da1c2dc1bf6ae8efad5ccea04060b1466b6"
+    },
+    {
+      "id": "IN-BEN:reading-4",
+      "lang": "no",
+      "region": "bengal",
+      "kind": "reading",
+      "title": "Chhana, portugiserne og en nawab i eksil",
+      "words": 614,
+      "characters": 4101,
+      "script_sha256": "6175fa8f92e791569416ac7e2ac5ead5aa512c4b44edfcf50a2e49e9f0a9829b"
+    },
+    {
+      "id": "IN-NEA:intro",
+      "lang": "no",
+      "region": "northeast",
+      "kind": "introduction",
+      "title": "Nordøst-India",
+      "words": 34,
+      "characters": 235,
+      "script_sha256": "89111ab1690279121132d7ec8f039bb0b3214d78c21527360fb49a54872d0bc2"
+    },
+    {
+      "id": "IN-NEA:reading-1",
+      "lang": "no",
+      "region": "northeast",
+      "kind": "reading",
+      "title": "Gjæring, lut, røyk og krydder",
+      "words": 805,
+      "characters": 5098,
+      "script_sha256": "2c16eb8b8c9769f72ba0c749a7b8ab8bb8547f5658a89ad36f2b0d265aa8a9d5"
+    },
+    {
+      "id": "IN-NEA:reading-2",
+      "lang": "no",
+      "region": "northeast",
+      "kind": "reading",
+      "title": "Ris, klebrig ris og den dampede gryta",
+      "words": 587,
+      "characters": 3769,
+      "script_sha256": "9f6520e6d599397aa59b89bde10d8d89eb41696e00740ed92170057f8aa178bc"
+    },
+    {
+      "id": "IN-NEA:reading-3",
+      "lang": "no",
+      "region": "northeast",
+      "kind": "reading",
+      "title": "Tenga, khar og det røykte svinekjøttet",
+      "words": 599,
+      "characters": 3897,
+      "script_sha256": "8dca2103b5fb2b136692032b28ce349bc52b1d452b6be9714620f88a75e3e55b"
+    },
+    {
+      "id": "IN-NEA:reading-4",
+      "lang": "no",
+      "region": "northeast",
+      "kind": "reading",
+      "title": "Ahomene, teen og forbindelser i endring",
+      "words": 563,
+      "characters": 4016,
+      "script_sha256": "60374733b679b22441413a50ba54bdf5da64b0b83d74846c1da2fe843205997f"
+    },
+    {
+      "id": "IN-KAR:intro",
+      "lang": "no",
+      "region": "karnataka",
+      "kind": "introduction",
+      "title": "Karnataka",
+      "words": 34,
+      "characters": 263,
+      "script_sha256": "1fe0576006f57a0cbaea23f3f80c6e1701642c3eaf16eb6ecd370f0a2ad9f624"
+    },
+    {
+      "id": "IN-KAR:reading-1",
+      "lang": "no",
+      "region": "karnataka",
+      "kind": "reading",
+      "title": "Byadgi: chilien som dyrkes for fargen",
+      "words": 761,
+      "characters": 4514,
+      "script_sha256": "541bed92b26a7e8e3d716c7a46728e0b3a7729d17b700189ebeef40fc9220369"
+    },
+    {
+      "id": "IN-KAR:reading-2",
+      "lang": "no",
+      "region": "karnataka",
+      "kind": "reading",
+      "title": "Ragi, ris og røren ved kysten",
+      "words": 733,
+      "characters": 4259,
+      "script_sha256": "f31df4633a7f616feb970e6c6efde89ddee819821585857b7f6b0e7f9dfaade2"
+    },
+    {
+      "id": "IN-KAR:reading-3",
+      "lang": "no",
+      "region": "karnataka",
+      "kind": "reading",
+      "title": "Bisi bele bath, dosa og pandi curry",
+      "words": 869,
+      "characters": 5173,
+      "script_sha256": "022dcb79527355dee9ebf0b5928ab0eccf903047c5453fd0d30a64dc7295ad9d"
+    },
+    {
+      "id": "IN-KAR:reading-4",
+      "lang": "no",
+      "region": "karnataka",
+      "kind": "reading",
+      "title": "Vijayanagara, wodeyarene og sju kaffebønner",
+      "words": 709,
+      "characters": 4494,
+      "script_sha256": "d3f5f208a3cea3cea10ebef8bb446f429bf2e6b027902b3e9a8e20f78fc88f4d"
+    },
+    {
+      "id": "IN-AND:intro",
+      "lang": "no",
+      "region": "andhra",
+      "kind": "introduction",
+      "title": "Andhra og Telangana",
+      "words": 33,
+      "characters": 227,
+      "script_sha256": "1c06dcfdd98eda6c88d5d3d80be470facc018e0c395aab99a23348260c30b88c"
+    },
+    {
+      "id": "IN-AND:reading-1",
+      "lang": "no",
+      "region": "andhra",
+      "kind": "reading",
+      "title": "Guntur-styrke og gongura-syre",
+      "words": 839,
+      "characters": 4890,
+      "script_sha256": "b93d0b1d96a4e67510a40d8d59533de6b3ce252d3fbcf058de3d2a74590d97d1"
+    },
+    {
+      "id": "IN-AND:reading-2",
+      "lang": "no",
+      "region": "andhra",
+      "kind": "reading",
+      "title": "Ris, pappu og mangopickles",
+      "words": 687,
+      "characters": 4135,
+      "script_sha256": "e7caf9ad96b92e590517d3d036890011d1a43de092c64709acefccab87b4478a"
+    },
+    {
+      "id": "IN-AND:reading-3",
+      "lang": "no",
+      "region": "andhra",
+      "kind": "reading",
+      "title": "Biryani, haleem og gongura-lammet",
+      "words": 703,
+      "characters": 4359,
+      "script_sha256": "943517d403c2ac8df2d9aa9aea7f03d77e8d85faa7b5cdcc679c8d5c4ed3e58a"
+    },
+    {
+      "id": "IN-AND:reading-4",
+      "lang": "no",
+      "region": "andhra",
+      "kind": "reading",
+      "title": "Qutbshahier, nizamer og en hovedstad på Dekkan",
+      "words": 717,
+      "characters": 4620,
+      "script_sha256": "cb8f78f653724ad6974382b4f25a5809a137fd0d9f3c8d3549cf8ebb25684ab8"
+    },
+    {
+      "id": "IN-TAM:intro",
+      "lang": "no",
+      "region": "tamilnadu",
+      "kind": "introduction",
+      "title": "Tamil Nadu",
+      "words": 32,
+      "characters": 216,
+      "script_sha256": "4c27b58060a02eacf8f81a6f7622bcb1038925731feacf81b5bca3340c3e1835"
+    },
+    {
+      "id": "IN-TAM:reading-1",
+      "lang": "no",
+      "region": "tamilnadu",
+      "kind": "reading",
+      "title": "Pepper, kalpasi og Chettinad-ristingen",
+      "words": 657,
+      "characters": 3985,
+      "script_sha256": "3e12d29fc2546174755c3c5a97b40f6b843418998ccdb56a7d716da793e4fe29"
+    },
+    {
+      "id": "IN-TAM:reading-2",
+      "lang": "no",
+      "region": "tamilnadu",
+      "kind": "reading",
+      "title": "Gjæret røre og rekkefølgen på bananbladet",
+      "words": 631,
+      "characters": 3747,
+      "script_sha256": "0ae64ac6d767e651ca65f5f08d5edfb5c06f4aad74684d862f9f97ab9f4e0133"
+    },
+    {
+      "id": "IN-TAM:reading-3",
+      "lang": "no",
+      "region": "tamilnadu",
+      "kind": "reading",
+      "title": "Idli, sambar og Chettinad-kjøkkenet",
+      "words": 604,
+      "characters": 3705,
+      "script_sha256": "ca88a256840bde12e6ffc5a9fb886d170c2d83faa0f87af7179d491215d305bc"
+    },
+    {
+      "id": "IN-TAM:reading-4",
+      "lang": "no",
+      "region": "tamilnadu",
+      "kind": "reading",
+      "title": "Cholaer, romere og chettiarene som dro østover",
+      "words": 719,
+      "characters": 4652,
+      "script_sha256": "2eaa2bb0f4d0cfd7d786e46a2125b87ad974c4f89101bf1cd53327d64a2f6fba"
+    },
+    {
+      "id": "IN-KER:intro",
+      "lang": "no",
+      "region": "kerala",
+      "kind": "introduction",
+      "title": "Kerala",
+      "words": 33,
+      "characters": 226,
+      "script_sha256": "c2d237d5f9b74abd02541d7abaebc8550b31d1fae5134181179fb08a3526f348"
+    },
+    {
+      "id": "IN-KER:reading-1",
+      "lang": "no",
+      "region": "kerala",
+      "kind": "reading",
+      "title": "Pepper, kardemomme og krydderkysten",
+      "words": 587,
+      "characters": 3706,
+      "script_sha256": "9db41cba548b3532d5e500c16c17f030a0d28c629f7f1d2b98cec1e5c8c64fe3"
+    },
+    {
+      "id": "IN-KER:reading-2",
+      "lang": "no",
+      "region": "kerala",
+      "kind": "reading",
+      "title": "Ris i fire former, kokos i fire til",
+      "words": 460,
+      "characters": 2872,
+      "script_sha256": "971b988e50b80837cc297a8372c6b1fcbf3d292ec980f0bdf3ecfebcac77a229"
+    },
+    {
+      "id": "IN-KER:reading-3",
+      "lang": "no",
+      "region": "kerala",
+      "kind": "reading",
+      "title": "Meen curry, appam og sadya",
+      "words": 526,
+      "characters": 3270,
+      "script_sha256": "aee2a4eed5e5e5bbd6b21e67c605b6ba48a34e6be6e00b2a2373202e3a9f9266"
+    },
+    {
+      "id": "IN-KER:reading-4",
+      "lang": "no",
+      "region": "kerala",
+      "kind": "reading",
+      "title": "Fra Muziris til Vasco da Gama: handelen som formet kjøkkenet",
+      "words": 525,
+      "characters": 3582,
+      "script_sha256": "d44c94a3663c595362b640a030eebb67da7118e9b7cffcb6f40b165d7031c1b1"
+    }
+  ],
+  "totals": {
+    "en": {
+      "tracks": 70,
+      "words": 39237,
+      "characters": 238161
+    },
+    "no": {
+      "tracks": 70,
+      "words": 37293,
+      "characters": 232369
+    }
+  }
+}

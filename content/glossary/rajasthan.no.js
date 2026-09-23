@@ -6,7 +6,7 @@ Object.assign(window.GLOSSARY_NO, {
   'bati': {
     term: 'Bati',
     short: 'En hard, usyret hvetekule bakt i glør, knekt opp og dynket i ghee.',
-    long: 'Grovt hvetemel, salt og rikelig med ghee eltes til en stiv deig, som trilles til kuler. Kulene bakes harde i glørne fra et bål, graves ned i varm sand eller stekes i ovn. Ingenting er tilsatt for å heve dem, så de kommer ut tette, sprukne og tørre, og de holder seg i dagevis. Derfor var de reisemat. Den smeltede gheen som helles over ved bordet, er ingen pynt, men det som gjør dem spiselige.',
+    long: 'Grovt hvetemel, salt og ghee arbeides til en stiv deig som trilles til kuler og tradisjonelt bakes i glør; moderne kjøkken bruker ovn. Uten heving blir bati tett, sprukket og tørr, og tåler derfor transport og lagring bedre enn mykt brød. Smeltet ghee ved bordet gir fylde og mykere konsistens.',
     match: ['bati', 'batien', 'batiene']
   },
   'churma': {
@@ -35,8 +35,8 @@ Object.assign(window.GLOSSARY_NO, {
   },
   'panchmel': {
     term: 'Panchmel dal',
-    short: 'Fem belgfrukter kokt i én gryte: chana, moong, urad, toor og moth.',
-    long: 'Panchmel betyr fem blandet, og de kokes ikke sammen for syns skyld. Hver belgfrukt mykner i sitt eget tempo, så noen løser seg opp i selve dalen mens andre holder formen, og den ferdige gryta får en konsistens ingen enkelt belgfrukt gir. Dette er dalen som serveres under batiene i dal bati churma, og den siste av de fem, moth, er belgveksten fra ørkenen som gir avling der nesten ingenting annet gjør.',
+    short: 'Fem belgfrukter kokt i én gryte; utvalget varierer mellom kokker og steder.',
+    long: 'Panchmel betyr fem blandet. En vanlig kombinasjon er chana, moong, urad, toor og masoor, mens noen varianter fra Rajasthan bruker tørkesterk moth-bønne. Siden belgfruktene mykner i ulikt tempo, kan dalen bli både kremet og grov. Den serveres ofte med batiene i dal bati churma.',
     match: ['panchmel']
   }
 });

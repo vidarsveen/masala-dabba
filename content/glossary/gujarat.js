@@ -11,7 +11,7 @@ Object.assign(window.GLOSSARY, {
   'katori': {
     term: 'Katori',
     short: 'One of the small steel bowls standing on a thali, holding a dish rather than a portion.',
-    long: 'Six or seven of them sit in an arc along the far rim of the tray, which keeps the wet food away from the eater and leaves the near half clear for breads and rice. A katori is refilled rather than served once, so leaving it empty is read as a request for more.',
+    long: 'Several may sit along the rim of a restaurant thali, leaving room for breads, rice and accompaniments. Their number and arrangement vary, as does service: some restaurants refill them while fixed and home thalis follow other patterns.',
     match: ['katori']
   },
   'farsan': {
@@ -29,13 +29,13 @@ Object.assign(window.GLOSSARY, {
   'vaghar': {
     term: 'Vaghar',
     short: 'The Gujarati tempering: whole spices dropped into hot oil at the start of a dish.',
-    long: 'The same idea as a tadka, with a fixed order. Oil first, then black mustard seed until it pops, then curry leaf, then a pinch of asafoetida, and only then the ground spices with the pan pulled off the flame. It takes about forty seconds and it decides how the finished dish smells.',
+    long: 'The same broad idea as a tadka. One common sequence starts with black mustard seed, followed by curry leaf and asafoetida; ground spices need gentler heat. The ingredients and order change with the dish, while the seasoned fat distributes their aroma.',
     match: ['vaghar']
   },
   'rotli': {
     term: 'Rotli',
     short: 'The everyday Gujarati wheat flatbread, rolled thinner than a chapati and cooked in seconds.',
-    long: 'It is brought to the table one at a time straight off the griddle, because a stack of them goes leathery within minutes. Thepla is the same dough enriched with gram flour, yoghurt and fenugreek leaf, which is what lets it keep for days and makes it the bread a family takes on a journey.',
+    long: 'It is often served warm from the griddle. Thepla is a sturdier related bread that can include gram flour, oil, spices and fenugreek or other vegetables. It is convenient travel food, but should be cooled before packing and refrigerated for longer storage.',
     match: ['rotli']
   }
 });

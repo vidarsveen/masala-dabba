@@ -27,7 +27,7 @@ Object.assign(window.SPICE, {
  'IN-AWA|Green cardamom': {
    aroma: 'Clean, cool and faintly camphorous, with eucalyptus and lemon peel behind it.',
    flavour: 'Whole pods give perfume and very little else. Ground, the same spice turns strong and slightly bitter.',
-   does: 'Scents the rice, the korma and every milk sweet in the region, and it is the pod you meet most often here.',
+   does: 'Scents rice, korma and many milk sweets; whole pods and ground seed give different strengths.',
    when: 'Whole and early, and left in the dish so a diner can push it aside. Ground only where a recipe asks for it.',
    swap: 'Nothing really. Black cardamom is smoky and belongs to other dishes, so leave it out rather than fake it.'
  },
@@ -40,8 +40,8 @@ Object.assign(window.SPICE, {
  },
  'IN-AWA|Potli masala': {
    aroma: 'Mace and green cardamom over cinnamon and bay, with rose petal and vetiver root behind them.',
-   flavour: 'Very little on its own. A potli perfumes a liquid, and it seasons almost nothing at all.',
-   does: 'Scents nihari, korma and stock without darkening them, thickening them or leaving grit on the tongue.',
+   flavour: 'The mixture contributes layered spice aroma while the muslin keeps fragments out of the liquid.',
+   does: 'Scents stock, stew or rice while keeping whole-spice fragments out of the finished dish.',
    when: 'Tied in muslin and dropped into the simmering liquid, then squeezed and lifted out as soon as the pot smells right.',
    swap: 'Whole spices loose in the pot and strained out later. It works, but the moment to stop is harder to judge.'
  }

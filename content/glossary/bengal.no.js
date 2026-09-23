@@ -4,20 +4,20 @@ window.GLOSSARY_NO = window.GLOSSARY_NO || {};
 Object.assign(window.GLOSSARY_NO, {
   'panch-phoron': {
     term: 'Panch phoron',
-    short: 'Fem hele frø som stekes i olje i starten av en rett, og som aldri males.',
-    long: 'Blandingen er spisskummen, svartkarve, bukkehornkløver, fennikel og radhuni, hele og i omtrent like deler. De fem koker i svært ulik takt, så males de sammen, blir de alle til det samme. Får de være hele, krydrer de stekeoljen på omtrent tretti sekunder og holder seg deretter fra hverandre i den ferdige retten, og derfor finner du ett enkelt fennikelfrø i en munnfull potet.',
+    short: 'En variabel blanding av fem frø som vanligvis holdes hel og krydrer varmt fett.',
+    long: 'En vanlig blanding har spisskummen, svartkarve, bukkehornkløver, fennikel og radhuni, mens andre bruker sennep eller endrer mengdene. Hele frø slipper duft i ulik takt og forblir tydelige i retten. Følg temperingen nøye, for bukkehornkløver kan svi seg raskt.',
     match: ['panch phoron']
   },
   'phoron': {
     term: 'Phoron',
-    short: 'Den bengalske temperingen: hele krydder slippes i varmt fett, nesten alltid i starten.',
-    long: 'Tanken er den samme som i en tadka, men krydderne er andre og tidspunktet et annet. I Bengal går frøene i oljen først, før grønnsakene, så fettet bærer smaken inn i alt som stekes etterpå. En tadka helles oftere over en ferdig rett.',
+    short: 'En tempering der hele krydder setter smak på varmt fett, ofte tidlig i kokingen.',
+    long: 'Phoron hører til den større sørasiatiske familien av temperingsteknikker. Den krydrer ofte fettet før grønnsaker eller fisk går i, men tempering med ett frø eller mot slutten forekommer også. Frø, fett og tidspunkt avhenger av retten.',
     match: ['phoron']
   },
   'chhana': {
     term: 'Chhana',
     short: 'Fersk ostemasse som felles ut av melk med syre og eltes for hånd til kornene forsvinner.',
-    long: 'Varm melk felles med sitronsaft eller myse, siles av og eltes på en fjøl til massen slutter å være kornet og blir glatt. Nesten alle søtsaker i øst bygger på den: rasgulla, sandesh, chhena poda. Den er nær slekt med paneer, men den presses aldri til en fast blokk, for en søtsak krever at den er myk.',
+    long: 'Varm melk felles med sitronsaft, myse eller en annen syre, siles av og bearbeides til konsistensen retten trenger. Den brukes i søtsaker som rasgulla, sandesh og chhena poda. Den er beslektet med paneer, men holdes gjerne mykere til disse rettene.',
     match: ['chhana', 'chhena']
   },
   'kosha': {
@@ -28,14 +28,14 @@ Object.assign(window.GLOSSARY_NO, {
   },
   'ilish': {
     term: 'Ilish',
-    short: 'Hilsa, den fete elvefisken Bengal setter høyere enn all annen mat.',
-    long: 'Ilish er en stamsild som lever i havet og går opp elvene for å gyte med monsunen. Den er ekstremt fet og ekstremt beinete, med fine kløyvde bein inne i selve kjøttet i stedet for langs ryggraden, og fettet er grunnen til at beina godtas. Den vaskes aldri etter at den er skåret opp, for oljen skyller rett av.',
+    short: 'Hilsa, en fet vandrefisk med stor kulturell og økonomisk betydning i Bengal.',
+    long: 'Denne stamsilda vandrer mellom hav og elv og har mange fine, kløyvde bein i kjøttet. Fettet er sentralt for smaken. Fiskepress, barrierer og vern av yngel og gytefisk påvirker framtidige vandringer.',
     match: ['ilish', 'hilsa']
   },
   'bhaja': {
     term: 'Bhaja',
     short: 'Alt som er stekt, og som spises sammen med dalen i stedet for som forrett.',
-    long: 'Det kan være en skive aubergine som vendes i gurkemeie og salt og stekes i sennepsolje, eller tynne potetstrimler som stekes til de rasler. Et bengalsk måltid har nesten alltid én, og den er der for å gi den myke delen av tallerkenen noe å bite i.',
+    long: 'Ordet dekker stekt aubergine, potet, bittermelon og mange andre råvarer. I et måltid med flere retter følger en bhaja ofte ris og dal og gir et sprøtt eller brunet innslag, men serveringen varierer.',
     match: ['bhaja']
   }
 });

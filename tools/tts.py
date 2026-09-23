@@ -207,21 +207,29 @@ def join_audio(parts, dst, bitrate='48k'):
     return dst
 
 
+def prefixed_transcript(piece, prompt_prefix=None):
+    """Repeat delivery direction for each provider request without narrating it."""
+    return (prompt_prefix.rstrip() + '\n\nTRANSCRIPT:\n' + piece) if prompt_prefix else piece
+
+
 def speak_to_file(text, dst, model=DEFAULT_MODEL, voice=None, speed=None,
-                  instructions=None, bitrate='48k', verbose=True):
+                  instructions=None, prompt_prefix=None, bitrate='48k', verbose=True):
     """Synthesise arbitrarily long text to one mp3. Returns {seconds, cost, chunks, ...}."""
     pieces = chunks(text, CHUNK_BY_MODEL.get(model, CHUNK_CHARS))
     fmt = 'pcm' if model in PCM_ONLY else 'mp3'
     timeout = TIMEOUT_BY_MODEL.get(model, 300)
     t0 = time.time()
-    total_cost, tmp, raw = 0.0, [], b''
+    total_cost, tmp, raw, generation_ids = 0.0, [], b'', []
     os.makedirs(os.path.dirname(os.path.abspath(dst)) or '.', exist_ok=True)
     with tempfile.TemporaryDirectory() as td:
         for i, piece in enumerate(pieces, 1):
             if verbose and len(pieces) > 1:
                 print(f'    chunk {i}/{len(pieces)} ({len(piece)} chars)', flush=True)
-            audio, gid = speak(piece, model=model, voice=voice, fmt=fmt, speed=speed,
+            request_text = prefixed_transcript(piece, prompt_prefix)
+            audio, gid = speak(request_text, model=model, voice=voice, fmt=fmt, speed=speed,
                                instructions=instructions, timeout=timeout)
+            if gid:
+                generation_ids.append(gid)
             if fmt == 'pcm':
                 raw += audio          # raw samples concatenate without a seam
             else:
@@ -238,7 +246,7 @@ def speak_to_file(text, dst, model=DEFAULT_MODEL, voice=None, speed=None,
     return {'path': dst, 'chars': len(text), 'chunks': len(pieces),
             'seconds': duration(dst), 'cost': round(total_cost, 5) or None,
             'wall': round(time.time() - t0, 1), 'bytes': os.path.getsize(dst),
-            'model': model, 'voice': voice}
+            'model': model, 'voice': voice, 'generation_ids': generation_ids}
 
 
 def duration(path):

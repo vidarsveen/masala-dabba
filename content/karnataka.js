@@ -101,31 +101,31 @@ window.READINGS['IN-KAR'] = {
 <p>Two sub-types share the name. Dabbi is short and plump, carries more seed and gives the better colour, so it goes into masala and into the extraction plants. Kaddi is longer, thinner and more twisted, with fewer seeds. Kashmir's module and Goa's have already described a chilli grown for colour rather than heat, and Byadgi is that idea carried further. Kashmiri chilli gives a bright scarlet. Byadgi gives a darker brick red that holds up in hot fat and does not wash out over a long simmer.</p>
 
 <h2>How a cook actually uses it</h2>
-<p>The useful consequence is that colour and heat become two separate decisions. A household masala here is mostly Byadgi, with a few hotter chillies added on purpose, so a cook can build a deep red gravy and then choose how much it stings. Nobody in Karnataka thinks of that as a compromise. It is simply how the two jobs are divided.</p>
+<p>The useful consequence is that colour and heat can become separate decisions. A cook may combine Byadgi with a hotter chilli to build a deep red gravy and then choose its heat. The proportion changes with the dish and household.</p>
 <p>Whole pods go into hot oil at the start, where they darken and perfume the fat. Ground powder behaves quite differently, because it scorches within seconds and turns bitter, so it goes into a wet mixture or in with the pot off the heat. For the red smear inside a Mysore masala dosa the pods are soaked soft and ground raw with garlic, and no heat touches them until they meet the griddle.</p>
 
 <h2>One blend, made for one dish</h2>
-<p>Karnataka keeps very few spice mixtures, and the one everybody knows is named after the dish it belongs to. Bisi bele bath powder is roasted coriander seed and dried red chilli with cinnamon, clove and a little dried coconut, and Tamil Nadu's marathi mokku turns up in some versions. What makes it odd is the lentils. Chana dal and urad dal are roasted into the blend as well, and once ground they thicken the pot as much as they flavour it.</p>
-<p>That is unusual enough to be worth noticing. Most Indian blends are aromatics; this one is partly a thickener, and the dish it is built for needs body rather than a sauce. It is made in a batch, kept in a tin, and used for almost nothing else.</p>
+<p>Bisi bele bath powder is one Karnataka blend named for the dish it seasons. Recipes vary, but may combine roasted coriander seed and dried chilli with cinnamon, clove, dried coconut and roasted pulses. Chana dal or urad dal in the ground blend can contribute body as well as flavour.</p>
+<p>The course version is therefore both seasoning and a modest thickener. Households and commercial blends differ, so the ingredient list is a formula for this recipe rather than a definition of every bisi bele bath powder.</p>
 
 <h2>Kachampuli, which is boiled rather than dried</h2>
 <p>Up in the hills of Kodagu, on the western edge of the state, the souring agent is a thick black syrup called kachampuli. It comes from <em>Garcinia gummi-gutta</em>, the same tree that gives Kerala its kudampuli, and the two kitchens take that fruit in opposite directions.</p>
 <figure data-img="kachampuli"><figcaption>The fruit of <em>Garcinia gummi-gutta</em>. Kerala halves it and smokes it dry; Kodagu collects the juice and boils it down until almost nothing is left.</figcaption></figure>
-<p>Kerala halves the fruit, smokes it over a fire and dries the rind until it is black and leathery, and the rind goes into the pot whole. Kodagu heaps the ripe fruit in baskets through the monsoon and lets it collapse, catching the juice that drips out in pots set underneath. That juice is then simmered over a wood fire for hours until it darkens and thickens into something between a syrup and a molasses. Nothing is added and no vinegar is made, so the word vinegar on the bottle is a convenience rather than a description.</p>
-<p>A teaspoon sours a whole pot of pork, and it turns the gravy almost black while it does so. It keeps for years in a corked bottle and only grows denser and sourer, which is why a Kodava household treats an old bottle as better than a new one.</p>
+<p>Kerala commonly uses dried rind, while Kodagu preparations collect liquid from ripe fruit and reduce it to a dark concentrate. Accounts differ on how long the fruit rests and whether that stage is described as fermentation. The familiar label “Coorg vinegar” names the ingredient without defining one universal process.</p>
+<p>A small quantity can sour a pot of pork and deepen its colour. Concentration and storage life depend on the product, so bottled kachampuli should be stored according to its label rather than assumed to improve indefinitely.</p>
 
 <h2>Black cardamom, and what it is not</h2>
-<p>The pods are the size of a thumbnail, ribbed, hairy and dark brown, and they smell of woodsmoke before they smell of anything else. Black cardamom is <em>Amomum subulatum</em>, a different plant from the small green cardamom of Kerala, and the smoke is not a metaphor: the pods are dried over open fire, and the fire is what they taste of.</p>
+<p>The pods are the size of a thumbnail, ribbed, hairy and dark brown, and they smell of woodsmoke before anything else. Black cardamom is <em>Amomum subulatum</em>, a different plant from Kerala's small green cardamom. The smoky taste comes from drying the pods over a fire.</p>
 <figure data-img="black-cardamom"><figcaption>Black cardamom pods, dried over fire. They are a savoury spice here, used whole and early, and they are never a stand-in for the green kind.</figcaption></figure>
-<p>Karnataka uses it whole and early, in meat cooking and in a few ground blends, and never in a sweet. One pod flavours a large pot. It is left in and eaten around rather than fished out, and it is not chewed. Swapping it for green cardamom ruins both dishes, because one is camphor and citrus and the other is smoke.</p>
+<p>Black cardamom appears in some meat dishes and ground blends, including this course's pandi-curry adaptation. It is used sparingly and tastes smoky rather than floral. Green cardamom has a different flavour and is not a direct substitute.</p>
 
 <h2>Coconut and curry leaf, but not everywhere</h2>
-<p>The last two things on the shelf divide the state rather than unite it. On the coastal strip coconut goes into almost everything, grated into masalas, pressed for milk and used as the fat. A hundred and fifty kilometres inland, on the dry plateau, it appears as a scattering on top or not at all, and groundnut oil does the frying. Curry leaf is the exception that runs the whole way across, coast to interior, in the first ten seconds of nearly every pan.</p>
+<p>Coconut is especially prominent along the coast, grated into masalas, pressed for milk or used as oil. Dry interior kitchens also use coconut, groundnut, sesame and other fats in proportions that vary by district and community. Curry leaf travels widely across the state without appearing in every dish.</p>
 
 <aside class="facts"><h4>Key facts</h4><ul>
 <li>Byadgi chilli received its geographical indication in 2011. The specification names both sub-types, dabbi and kaddi.</li>
 <li>Its heat is roughly five to fifteen thousand Scoville units, a fraction of a Guntur chilli, while its colour value is among the highest of any Indian chilli.</li>
-<li>Kachampuli is a reduced juice, not a fermented vinegar, and comes from the same fruit as Kerala's kudampuli.</li>
+<li>Kachampuli is a dark sour concentrate from <em>Garcinia gummi-gutta</em>; preparation accounts vary, so “Coorg vinegar” does not define one universal process.</li>
 <li>Black cardamom is a different genus from green cardamom, and the two are not interchangeable in either direction.</li>
 </ul></aside>
 
@@ -148,24 +148,24 @@ window.READINGS['IN-KAR'] = {
     kicker: "The table · Reading 2 of 4",
     minutes: 9,
     hero: "ragi-mudde",
-    heroCaption: "Ragi mudde with a bowl of saaru beside it. A piece is pinched off, rolled in the liquid and swallowed whole.",
-    summary: "Finger millet cooked into a ball and swallowed rather than chewed, the thin stew that goes with it, and a coastal pancake that proves fermentation is not the only way to make a batter work.",
+    heroCaption: "Ragi mudde with a bowl of saaru beside it. A small piece is pinched off and coated in the liquid.",
+    summary: "Finger millet cooked into a ball and eaten with thin stew, alongside a coastal pancake that shows fermentation is not the only way to make a batter work.",
     html: `
-<p class="lead">A woman in a kitchen outside Tumakuru is holding a wooden stick upright in a pot and turning it hard with both hands. The pot holds water and a rain of dark flour, and in four or five minutes the contents go from a grey slurry to a mass so stiff that the stick stands up in it on its own. She wets her palms, tears off a lump and rolls it into a smooth ball the size of an orange. That ball is lunch, and nobody is going to chew it.</p>
+<p class="lead">A cook outside Tumakuru holds a wooden stick upright in a pot and turns it hard with both hands. Water and dark flour become a stiff mass, which is shaped with wet hands into smooth balls. At the table, small pieces are dipped in a thin, strongly flavoured broth.</p>
 
 <h2>Three landscapes in one state</h2>
-<p>Karnataka runs from the Arabian Sea to the middle of the Deccan plateau, and the rain runs out as you go east. The coastal strip and the hills behind it take three or four metres of monsoon a year, so they grow rice and coconut and eat a great deal of fish. Kodagu, high in those hills, is wet too, but it is a meat-eating country with a kitchen of its own. Then the land falls away into the interior, the rain drops to well under a metre, and rice stops making sense.</p>
-<p>What replaces it is millet. The dry districts around Tumakuru, Mandya, Chitradurga and Bengaluru live on ragi, which is finger millet, and the drier north on jowar, which is sorghum. Neither is a poverty food in the way outsiders often assume. They are the crops that suit the rainfall, and the cooking built on them is specific and old.</p>
+<p>Karnataka runs from the Arabian Sea across the Western Ghats to the Deccan plateau. The wet coast supports rice, coconut and fishing traditions, while Kodagu has distinct Kodava and other foodways. Drier interior districts grow rice where water permits and rely more heavily on millets, pulses and oilseeds elsewhere.</p>
+<p>Ragi, or finger millet, is important around Tumakuru, Mandya, Chitradurga and Bengaluru, while jowar, or sorghum, is prominent farther north. These crops suit many rain-fed fields and support diverse breads, porridges and dumplings.</p>
 
 <h2>Ragi, and why it is worth the trouble</h2>
-<p>Finger millet is <em>Eleusine coracana</em>, and its seed head splits into four or five curved spikes that really do look like fingers. The plant asks very little. It ripens in three or four months, it tolerates a failed rain better than rice does, and the grain stores for years without insects getting into it, which is why it was the grain that carried a district through a bad season.</p>
+<p>Finger millet is <em>Eleusine coracana</em>, named for seed heads whose curved spikes resemble fingers. It is well suited to many rain-fed systems and is valued for resilience and storage. Maturity, yield and pest resistance still depend on variety, climate and handling.</p>
 <figure data-img="ragi-crop"><figcaption>A finger millet head. The grain is milled whole, bran and all, so the flour is brown and the dough it makes is almost black.</figcaption></figure>
-<p>The nutrition is the part that surprises people. Ragi carries somewhere around three hundred and fifty milligrams of calcium in a hundred grams of grain, against roughly ten in polished rice, so it is one of the few plant staples that supplies calcium in a quantity that matters. It has no gluten, it is milled whole rather than polished, and the bran goes into the flour, which is why the flour is brown and the cooked dough goes a deep purple-grey.</p>
+<p>The nutrition is the part that surprises people. A hundred grams of ragi contains roughly three hundred and fifty milligrams of calcium, compared with about ten in polished rice. That makes it an unusually calcium-rich grain. It has no gluten and is milled whole rather than polished. The bran stays in the flour, giving it a brown colour and the cooked dough a deep purple-grey.</p>
 
-<h2>Mudde, and why you do not chew it</h2>
+<h2>Mudde and the broth beside it</h2>
 <p>Making it is quick and entirely physical. Water comes to the boil, a little ragi flour is slaked in first so the rest does not lump, and then the flour goes in and the stick does the work. The dough thickens as the starch takes up the water, and it is beaten smooth against the side of the pot. Wet hands shape it while it is still too hot to hold comfortably.</p>
-<p>Then the part a European reader will find genuinely strange. You pinch a walnut of dough off the ball, press a dent in it with your thumb, roll it through the saaru until it is coated, and swallow it. You do not chew. Chewing turns ragi dough into a sticky paste that clings to the roof of the mouth and tastes of very little, whereas a coated lump goes down carrying the flavour of the liquid with it. The ball is the vehicle; the saaru is the meal.</p>
-<p>There is nothing mystical in it. A field worker gets a large, cheap, slow-digesting lunch in about ten minutes of eating, and it holds until evening. Households that have moved to the city and to rice still cook mudde at the weekend, and the stick is the one kitchen tool nobody throws away.</p>
+<p>A diner pinches off a small piece, dents it with a thumb and coats it in saaru. Some experienced diners swallow small coated pieces with little chewing, but learners should take a comfortable amount and chew as needed. The thin broth moistens the dense millet and supplies much of each mouthful's seasoning.</p>
+<p>Mudde turns flour and water into a substantial staple with little equipment. It remains part of rural and urban meals, while the accompaniments and frequency vary among households.</p>
 
 <h2>Saaru, and the trick called bassaru</h2>
 <p>Saaru is the thin one. It is closer to Tamil Nadu's rasam than to a sambar: a watery, sharp, peppery broth of tamarind or tomato with a few pulses, poured rather than spooned. Against a dense ball of millet that thinness is the whole point, because the dough needs a liquid that runs into it rather than sitting on top.</p>
@@ -174,22 +174,22 @@ window.READINGS['IN-KAR'] = {
 <h2>The coast, and a batter that never ferments</h2>
 <p>Go west over the ghats and the staple changes back to rice, and one of the things the coast does with it contradicts everything the Tamil Nadu module said about batter. Neer dosa carries no urad dal, takes no overnight rest and does no fermenting at all. Neeru is water in Kannada, and the name is a description.</p>
 <figure data-img="neer-dosa"><figcaption>A neer dosa setting on the pan. The batter is poured, not spread, and the holes open by themselves as the water flashes to steam.</figcaption></figure>
-<p>Raw rice is soaked for a few hours and ground very fine with a little fresh coconut, and then it is let down with water until it is as thin as milk and will not coat a spoon. The pan is oiled and very hot, the batter is poured from the edge rather than spread with a ladle, and a lid goes on for under a minute. The holes open by themselves as the water flashes into steam, and the dosa comes off white, soft and pliable, with a lacy edge and no crispness anywhere.</p>
-<p>So the lift here is steam and thinness, not the wild bacteria Tamil Nadu's reading described. That has consequences a cook feels immediately. The batter is made and used the same day, it keeps no longer than a day in the fridge, and it goes sour and useless rather than better. In return, rice put to soak after breakfast can be dosa by lunch. On the coast it is folded into quarters and eaten with coconut chutney, with a chicken or fish curry, or with grated coconut and jaggery for children.</p>
+<p>Raw rice is soaked for a few hours and ground very fine with a little fresh coconut. Water thins the batter until it pours like milk and will not coat a spoon. The pan is oiled and very hot; the batter is poured from the edge rather than spread with a ladle, then covered briefly. Holes open as the water flashes into steam. The dosa comes off white, soft and pliable, with a lacy edge rather than a crisp surface.</p>
+<p>The lift here comes from steam and thinness rather than fermentation. The batter can be used after the rice has soaked and been ground; refrigerate it promptly and use it according to ordinary cooked-rice batter guidance. Coastal accompaniments include coconut chutney, chicken or fish curry, and grated coconut with jaggery.</p>
 
 <h2>And buttermilk at the end</h2>
-<p>A meal in the interior tends to finish the way the region sheet says it does, with majjige, which is buttermilk thinned with water and seasoned with curry leaf, green chilli and a little ginger. It cools the mouth after the saaru, it settles a heavy lunch, and in a district where the afternoon runs past forty degrees it is also simply how you get a drink. The interior's other breads, akki rotti of rice flour and jolada rotti of sorghum, are patted out by hand rather than rolled, and they belong to the same dry country as the millet.</p>
+<p>Some interior meals finish with majjige, buttermilk thinned with water and seasoned with curry leaf, green chilli or ginger. Akki rotti of rice flour and jolada rotti of sorghum are among the state's hand-shaped flatbreads, with recipes and accompaniments that vary by region.</p>
 
 <aside class="facts"><h4>Key facts</h4><ul>
 <li>Ragi is finger millet, <em>Eleusine coracana</em>, and it holds roughly thirty times the calcium of polished rice.</li>
-<li>Mudde is swallowed in coated lumps rather than chewed, because chewed ragi dough turns to paste in the mouth.</li>
+<li>Mudde is eaten in small pieces coated with a thin broth; diners should choose a comfortable size and chew as needed.</li>
 <li>Bassaru is the water that greens and pulses were boiled in, served as the saaru while the solids become a dry side dish.</li>
 <li>Neer dosa uses no lentil and no fermentation, so its batter is ground and used on the same day.</li>
 </ul></aside>
 
 <div class="recap"><h4>Before you move on</h4><ul>
 <li>The state splits by rainfall: rice and coconut on the wet coast, millet on the dry plateau behind it.</li>
-<li>Ragi mudde is a technique as much as a dish, and the swallowing is what the thin saaru is designed around.</li>
+<li>Ragi mudde is a technique as much as a dish, and thin saaru moistens and seasons the dense dough.</li>
 <li>Neer dosa is the counterexample to the fermented batter, and it trades keeping quality for being ready the same day.</li>
 </ul></div>
 `
@@ -202,48 +202,48 @@ window.READINGS['IN-KAR'] = {
     heroCaption: "Bisi bele bath. Rice, lentils, vegetables, tamarind and its own spice powder are cooked together until they stop being separate things.",
     summary: "One pot where rice and dal are cooked into each other, a dosa that hides its chilli inside the fold, a temple kitchen that became a restaurant chain, and pork from the hills soured until it is black.",
     html: `
-<p class="lead">Behind the counter of any Udupi hotel in any Indian city, the same three things are happening at once. A man is pouring batter onto a griddle he never looks at, another is ladling sambar into steel bowls, and a third is calling the orders in a shorthand nobody has written down. The food is cheap, vegetarian and identical from Mumbai to Kolkata. It came out of a temple kitchen on the Karnataka coast, and it left home about a hundred years ago.</p>
+<p class="lead">Udupi restaurants across India helped make idli, dosa, sambar and other southern dishes familiar far beyond Karnataka. Their menus and ownership are diverse, while the name recalls a coastal town with a major vegetarian temple tradition.</p>
 
 <h2>Bisi bele bath, which is one dish and not two</h2>
 <p>The name is literal. Bisi is hot, bele is lentil and bath is a cooked rice dish, so the words say hot lentil rice and mean exactly that. Rice and toor dal are cooked until both are soft and then kept cooking together, with tamarind, vegetables, the blend described in reading one, and enough ghee that it stops being a health food.</p>
-<p>The distinction that matters is against sambar with rice, which is two dishes meeting on a plate. Here they are cooked into each other until the grain loses its edges and the whole thing is one thick, sour, faintly sweet mass that you eat with a spoon. The lentils in the spice powder thicken it further. It is served hot, with a spoonful of ghee on top and a handful of crisp boondi scattered over, and it firms up as it cools, so a second helping is never quite the dish the first one was.</p>
-<p>Every household argues about the vegetables. Carrot, beans, peas and potato are usual; some cooks add a knob of jaggery and some think that is a crime. It is made for a crowd, it reheats badly and it is one of the very few Indian rice dishes that is complete on its own.</p>
+<p>The distinction that matters is against sambar with rice, which is two dishes meeting on a plate. Here they cook together until the grain loses its edges and the dish becomes a thick, sour, faintly sweet mass eaten with a spoon. Lentils in the spice powder thicken it further. It is served hot with ghee and crisp boondi on top. The mixture firms as it cools, so a second helping has a different consistency from the first.</p>
+<p>Vegetables and sweetness vary by recipe. Carrot, beans, peas and potato are common modern choices, and some cooks add jaggery. The dish thickens as it stands, so reheated portions may need hot water and careful cooling and refrigeration.</p>
 
 <h2>The Mysore masala dosa, and what makes it Mysore's</h2>
-<p>The batter is not the story, because Tamil Nadu's module has already explained how rice and urad dal ferment overnight and why urad is the only lentil that will do it. Karnataka uses the same batter. What Mysore adds is a smear.</p>
+<p>The batter is not the story, because Tamil Nadu's module has already explained how rice and urad dal ferment overnight and how urad helps the batter hold gas. Karnataka uses the same basic batter. What Mysore adds is a smear.</p>
 <figure data-img="mysore-dosa"><figcaption>A Mysore masala dosa opened out. The red layer goes onto the batter on the griddle, before the potato, so the heat is inside the fold.</figcaption></figure>
 <p>Byadgi chillies are soaked soft and ground raw with garlic, a little roasted gram and sometimes coconut, into a thick red chutney. On the griddle, as soon as the dosa has set, the cook spreads a spoonful of that chutney across the inside face and then puts the potato palya on top of it. Butter goes on generously rather than oil. The dosa is folded, and the red layer ends up sealed between the crisp surface and the soft potato, so the first bite is hot and garlicky before the potato arrives.</p>
 <p>That is all it is, and it is enough to make a different dish. A plain masala dosa is mild by design and leans on the chutney served beside it. The Mysore version decides for you, and puts the decision where you cannot scrape it off.</p>
 
 <h2>Udupi, and how a temple kitchen became a restaurant trade</h2>
 <p>Udupi is a coastal town about sixty kilometres north of Mangaluru, and at its centre is the Krishna Matha, founded in the thirteenth century by the philosopher Madhvacharya. A temple of that kind feeds people daily and on a large scale, and the cooking was done by the Shivalli Brahmin families attached to it.</p>
-<figure data-img="udupi"><figcaption>The Krishna Matha at Udupi. The kitchen attached to this temple is the ancestor of a restaurant trade that reached every Indian city.</figcaption></figure>
-<p>Temple cooking sets hard rules, and the rules shaped a cuisine. No meat, no fish, no egg, and in the strictest version no onion and no garlic either. What is left is rice, lentils, coconut, tamarind, jaggery, vegetables and a great deal of skill with them, which is where the sambar, the saaru, the coconut chutneys and the steamed and griddled rice breakfasts come from.</p>
-<p>Then it travelled. From the early twentieth century, cooks who had been trained in that tradition went to the cities. Through the nineteen-thirties and forties they opened eating houses in Mumbai, especially around Matunga, and then everywhere else. Udupi hotel stopped being a description of where the owner came from and became a category: cheap, clean, vegetarian, fast, and serving southern food to people who had never been south. Most were family businesses, passed sideways among relatives, which is how the style spread so evenly. If you have eaten a dosa in Delhi, this town is the reason.</p>
+<figure data-img="udupi"><figcaption>The Krishna Matha at Udupi. Its vegetarian cooking is one influence on the restaurant tradition that carries the town's name.</figcaption></figure>
+<p>The temple tradition is vegetarian and follows ritual restrictions that can also exclude onion and garlic. Rice, lentils, coconut, tamarind, jaggery and vegetables support a broad repertoire, but sambar, saaru, chutneys, idli and dosa have histories wider than one temple.</p>
+<p>During the twentieth century, migrants from the Udupi area opened restaurants in Mumbai and other cities. The label became associated with accessible vegetarian southern food, although individual restaurants differed and many later operators had no direct temple connection.</p>
 
 <h2>Pandi curry, from the hills</h2>
-<p>The same state also produces a pork dish that no temple would recognise. Kodagu, the hill district on the western edge, is the country of the Kodava, a distinct community with its own language, its own ancestor rites and a long martial tradition. Pork is their meat, and pandi curry is the dish everything else is judged against.</p>
+<p>Kodagu's foodways include those of Kodava, Arebhashe, Muslim, tribal and other communities. Pandi curry is strongly associated with Kodava celebrations and uses pork, spice and a dark souring agent in combinations that vary among cooks.</p>
 <figure data-img="pandi-curry"><figcaption>Pandi curry, cut with the fat left on. The darkest versions are almost black, and the colour comes from a spoonful of kachampuli at the end.</figcaption></figure>
-<p>Pork belly and shoulder are cut into large cubes with the skin and fat left on, and the meat is cooked mostly in what it gives up, with very little added oil. The masala is coarse and ground at home, heavy on coriander and Byadgi chilli with black pepper and a little black cardamom. Then the kachampuli goes in near the end, a spoonful at a time, and the gravy turns dark and sour at the same moment. The sourness cuts fat that would otherwise be too much, and it keeps the pot for several days in a place where it rains for four months.</p>
+<p>Many versions use fatty pork cut into large pieces and cooked with little added oil. The course masala combines coriander, Byadgi chilli, black pepper and black cardamom. Kachampuli added near the end supplies acidity and dark colour; it does not make the meat safe at room temperature, so leftovers must be cooled and refrigerated promptly.</p>
 <p>It is eaten with kadambuttu, steamed balls of broken rice, or with akki otti, a soft rice flatbread. Kundapur koli saaru is the coast's answer to it: chicken in a thin, fierce gravy built on coconut roasted dark with Byadgi and coriander, from the town of Kundapur just north of Udupi. One state, and the two dishes could not have less to say to each other.</p>
 
 <h2>Two sweets, and the men credited with them</h2>
-<p>Mysore pak is gram flour, sugar and ghee, and nothing else. The sugar is taken to a syrup, the flour is stirred in, and then ghee goes in ladle by ladle until the mixture drinks as much as it will take and starts to leave the sides of the pan. Poured out and cut while warm, it sets either dense and fudgy or light and porous, depending on how much ghee went in and how hard it was beaten.</p>
+<p>Mysore pak is gram flour, sugar and ghee, and nothing else. The sugar becomes a syrup before the flour is stirred in. Ghee then goes in ladle by ladle until the mixture stops absorbing it and leaves the sides of the pan. Poured out and cut while warm, it sets either dense and fudgy or light and porous, depending on the amount of ghee and beating.</p>
 <figure data-img="mysore-pak"><figcaption>Mysore pak, cut warm. The porous version takes more ghee and more beating; the dense one is the older style.</figcaption></figure>
-<p>The story told about it is that a cook named Kakasura Madappa invented it in the palace kitchen under Krishnaraja Wadiyar IV, early in the twentieth century, and named it on the spot when the maharaja asked what it was. His descendants ran a sweet shop in Mysuru for decades afterwards. It is a good story and it is consistently told, but it is a tradition rather than a documented event, and this course is happier saying so than pretending otherwise.</p>
+<p>A frequently repeated story credits a palace cook named Kakasura Madappa with inventing it under Krishnaraja Wadiyar IV in the early twentieth century. He supposedly named it on the spot when the maharaja asked what it was, and his descendants later ran a Mysuru sweet shop. The account is a tradition rather than a documented event.</p>
 <figure data-img="dharwad-peda"><figcaption>Dharwad peda, rolled in sugar. The milk is cooked down until it browns, which is what separates it from the paler pedas of the north.</figcaption></figure>
-<p>Dharwad peda has a clearer history. A confectioner's family from Unnao in the north moved to Dharwad in the eighteen-fifties, and the sweet they made there took on the local buffalo milk and a longer, darker cooking. The milk is reduced until it caramelises and turns brown rather than staying pale, then worked with sugar, shaped and rolled in more sugar. It received a geographical indication in 2007.</p>
+<p>Dharwad peda is made by reducing milk until it browns, then working it with sugar, shaping it and rolling it in more sugar. A migration story links a confectioner's family from Unnao with nineteenth-century Dharwad, but the documented geographical indication establishes the product and area rather than proving every detail of that origin story. The application was filed in 2007 and registered in 2008.</p>
 
 <aside class="facts"><h4>Key facts</h4><ul>
 <li>Bisi bele bath means hot lentil rice, and the rice and dal are cooked together rather than served side by side.</li>
 <li>A Mysore masala dosa is defined by a raw red chilli and garlic chutney spread inside it on the griddle.</li>
 <li>The Krishna Matha at Udupi dates from the thirteenth century; the restaurant trade that carries its name is a twentieth-century one.</li>
-<li>Dharwad peda received a geographical indication in 2007; Mysore pak's origin story is a tradition rather than a record.</li>
+<li>Dharwad peda's GI application was filed in 2007 and registered in 2008; Mysore pak's origin story is a tradition rather than a record.</li>
 </ul></aside>
 
 <div class="recap"><h4>Before you move on</h4><ul>
 <li>Bisi bele bath is one pot, not rice with dal beside it, and its own powder thickens as well as flavours it.</li>
-<li>Udupi's strictly vegetarian temple cooking became the default Indian restaurant food of the twentieth century.</li>
+<li>Migrants from the Udupi area helped spread vegetarian southern restaurant food during the twentieth century.</li>
 <li>Kodagu eats pork soured almost black with kachampuli, in the same state and in a different world.</li>
 </ul></div>
 `
@@ -254,39 +254,39 @@ window.READINGS['IN-KAR'] = {
     minutes: 9,
     hero: "mysore-palace",
     heroCaption: "The Mysore Palace, finished in 1912 after the previous one burned down. The style its architect used is called Indo-Saracenic.",
-    summary: "An empire on the Tungabhadra that fed half a million people, a dynasty interrupted twice, and the seven coffee beans that a story says began an industry.",
+    summary: "An empire on the Tungabhadra, a dynasty interrupted twice, and the seven coffee beans that tradition places at the start of an industry.",
     html: `
-<p class="lead">At Hampi the ground is covered in granite boulders the size of houses, stacked as if somebody had emptied them out and walked away. Among them stand temple towers, a stone chariot with wheels that once turned, and the outlines of streets, aqueducts and market halls running for kilometres. Four and a half centuries ago this was one of the largest cities on earth. It was abandoned in a single season and never lived in again.</p>
+<p class="lead">At Hampi, granite boulders surround temple towers, the stone chariot, streets, waterworks and market halls. The site preserves the monumental core of Vijayanagara's capital alongside living temples, settlements, farming and pilgrimage.</p>
 
 <h2>Vijayanagara</h2>
-<p>The empire was founded in 1336 on the south bank of the Tungabhadra, and it grew to cover most of southern India. Its high point came under Krishnadevaraya, who ruled from 1509 to 1529, and foreign visitors kept writing it down: a Persian envoy in the fourteen-forties and a Portuguese trader called Domingo Paes around 1520 both described markets heaped with grain, pepper and fruit, and a population they could not count.</p>
-<figure data-img="hampi"><figcaption>The stone chariot at Hampi, in the ruins of Vijayanagara. The city was sacked in 1565 and never reoccupied.</figcaption></figure>
+<p>Vijayanagara emerged in the fourteenth century, conventionally dated to 1336, and grew across much of southern India. It reached an apogee under Krishnadevaraya, who ruled from 1509 to 1529. Persian and Portuguese visitors described a large, wealthy capital and busy markets.</p>
+<figure data-img="hampi"><figcaption>The stone chariot at Hampi, among the sacred, royal and civic remains of Vijayanagara's capital.</figcaption></figure>
 <p>What it did for the kitchen was not glamorous, and it lasted. This is dry country, and the empire built for that: check dams across the Tungabhadra, long canals, and tanks that held a monsoon over into the dry months. Some of those tanks still irrigate fields. Millet, pulses and sugarcane fed the city, because they were what the plateau would give.</p>
-<p>The end came quickly. In January 1565 a coalition of the Deccan sultanates defeated the Vijayanagara army at Talikota, and the capital was sacked over months rather than days. The empire limped on elsewhere for a while, but the city was finished. Tomato and potato had not yet reached these kitchens when it fell, and chilli had only just arrived with the Portuguese, which is worth holding on to: for almost all of its two centuries the food of Vijayanagara was sour, peppery and entirely un-red.</p>
+<p>In 1565 a coalition of Deccan sultanates defeated the Vijayanagara army at Talikota, after which the capital suffered major destruction. The empire continued from other centres. American crops such as chilli, tomato and potato entered South Asian foodways on different timelines, so modern red gravies cannot simply be projected back across the city's whole history.</p>
 
 <h2>The Wodeyars, Haidar Ali and Tipu Sultan</h2>
 <p>Mysore began as one of the small states that owed allegiance to Vijayanagara, and the Wodeyar family had held it since about 1399. When the empire collapsed they became independent, and they ruled from Srirangapatna and then Mysuru for most of the next four hundred years, with two long interruptions.</p>
-<p>The first interruption was military. Haidar Ali, a commander in the Mysore army, took effective control of the state in 1761, and his son Tipu Sultan ruled from 1782 until his death in 1799. Between them they fought four wars against the East India Company and its allies, and they came closer to stopping the Company in southern India than anybody else did. Tipu built a professional army, used iron-cased rockets in the field long before European armies did, and sent embassies to France and to the Ottoman court. He was killed defending Srirangapatna on 4 May 1799, and the British put the Wodeyars back on the throne under a treaty that left the real power in Madras. How Tipu should be remembered is argued about in Karnataka to this day, and a cookery course is not the place to settle it.</p>
+<p>Haidar Ali, a commander in the Mysore army, took effective control in 1761, and his son Tipu Sultan ruled from 1782 until 1799. Their state fought four wars against the East India Company and its changing allies. Tipu used iron-cased rockets and pursued diplomacy with France and the Ottoman court. He died defending Srirangapatna on 4 May 1799, after which the Wodeyars were restored under British paramountcy. His rule and memory remain contested.</p>
 
 <h2>A palace that burned</h2>
-<p>After 1799 the Wodeyars ruled on as princes under British paramountcy, apart from fifty years between 1831 and 1881 when the British ran the state directly. Under Krishnaraja Wadiyar IV in particular, Mysore acquired a reputation for administration, engineering and patronage. In 1897 the old wooden palace caught fire during a royal wedding and burned. The British architect Henry Irwin was given the rebuilding, and the present palace was finished in 1912: grey granite, deep pink domes, arched colonnades, and a style contemporaries called Indo-Saracenic because it borrowed from everywhere at once.</p>
-<p>It is lit on Sunday evenings and through the Dasara festival by something close to a hundred thousand bulbs, and the Dasara procession that ends at the palace is the state's largest public occasion. The kitchen mattered here too. Mysore pak is credited to this household, and so is a general taste for ghee, gram flour and sugar that the city's sweet shops have lived on ever since.</p>
+<p>After 1799 the Wodeyars ruled on as princes under British paramountcy, apart from direct British rule between 1831 and 1881. Under Krishnaraja Wadiyar IV, Mysore became known for administration, engineering and patronage. In 1897 the old wooden palace caught fire during a royal wedding and burned. British architect Henry Irwin designed its replacement, completed in 1912. Grey granite, deep pink domes and arched colonnades formed a style then called Indo-Saracenic.</p>
+<p>The palace is illuminated on selected evenings and during Dasara, when it forms a major focus of public celebration. Mysore pak is traditionally credited to its royal kitchen, although the precise invention story is not documented.</p>
 
 <h2>Seven coffee beans</h2>
 <p>The other thing the state is known for arrived, so the story goes, in a beard. Baba Budan was a Sufi who returned from the pilgrimage to Mecca in the seventeenth century by way of Mocha in Yemen, which was then the main port through which coffee left Arabia. Beans were roasted or scalded before export precisely so that nobody could plant them. He is said to have carried seven green beans away with him and planted them on the slopes of the Chandra Drona hills in Chikkamagaluru, and those hills have been called Baba Budangiri ever since.</p>
 <figure data-img="coffee"><figcaption>Coffee ripening in Kodagu. Almost all Indian coffee is grown in shade under taller trees, and pepper vines are often trained up the same trunks.</figcaption></figure>
-<p>Take it as the story that is told rather than as a record, because the details are not documented and the number seven is a devotional flourish. What is not in doubt is the outcome. Coffee has grown in those hills for centuries, British planters put it on a commercial footing from the early eighteen-hundreds, and Karnataka now produces roughly seven-tenths of all Indian coffee, most of it from Kodagu, Chikkamagaluru and Hassan.</p>
-<p>Indian coffee is also grown in a way that is unusual and that connects the whole course together. Almost all of it sits in shade under a canopy of taller trees, rather than in open rows, which slows the cherry down and keeps the soil alive. Pepper vines are often trained up those same shade trees, so a single estate sells coffee, pepper and cardamom off the same hectare. Kerala's first reading described pepper climbing a jackfruit tree; this is the same habit put to work on a plantation scale.</p>
+<p>Take the seven beans as tradition rather than a documented shipment. Coffee has grown in these hills for centuries, and British planters expanded commercial production in the nineteenth century. Current Coffee Board statistics make Karnataka India's leading producer, especially through Kodagu, Chikkamagaluru and Hassan; the exact national share changes by harvest.</p>
+<p>The Coffee Board describes Indian coffee as shade grown. Plantations may combine coffee with taller canopy trees and intercrops such as pepper, cardamom, fruit or vanilla. Species, canopy and management differ by estate, so shade alone does not prove a particular ecological outcome.</p>
 <p>How the coffee is then drunk belongs to Tamil Nadu's module, which sets out the filter, the decoction and the pouring between tumbler and dabara. Karnataka drinks it much the same way. The difference is that here you are likely to be drinking something grown forty kilometres away.</p>
 
 <h2>What is old on the plate and what is not</h2>
-<p>Very little of a modern Karnataka meal is as old as Hampi. The ragi is, and so are the millet breads and the fermented rice batters. The chilli that gives Byadgi its name arrived after 1500 and only became a field crop much later. Coffee is a seventeenth-century import that has been here long enough to stop feeling like one. The Udupi restaurant, the thing a foreigner is most likely to meet first, is younger than the Mysore Palace.</p>
+<p>Modern Karnataka meals contain ingredients and techniques with different histories. Millets, pulses and rice long predate the American chilli, while coffee cultivation and the Udupi restaurant trade developed later. A dish's present form cannot always be assigned the age of its oldest ingredient.</p>
 
 <aside class="facts"><h4>Key facts</h4><ul>
 <li>Vijayanagara was founded in 1336 and its capital at Hampi was sacked after the battle of Talikota in 1565.</li>
 <li>Tipu Sultan ruled Mysore from 1782 and died defending Srirangapatna on 4 May 1799.</li>
 <li>The Mysore Palace burned in 1897 and was rebuilt to Henry Irwin's design by 1912.</li>
-<li>Karnataka grows about seventy per cent of India's coffee, nearly all of it under shade trees.</li>
+<li>Karnataka is India's leading coffee-producing state, and the Coffee Board describes Indian coffee as shade grown.</li>
 </ul></aside>
 
 <div class="recap"><h4>Before you move on</h4><ul>

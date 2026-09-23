@@ -7,25 +7,25 @@ Object.assign(window.GLOSSARY, {
   'tadka': {
     term: 'Tadka (tempering)',
     short: 'Whole spices bloomed in hot fat and poured over or under a dish.',
-    long: 'Also called tempering, chhonk or, in the south, thalippu. Fat is heated, mustard seed goes in and pops, then dried chilli, curry leaf and whatever else the dish wants, and the whole lot is either the base the dish is built on or a finishing spoonful poured over the top. It is the single most common technique in Indian cooking and the one most often left out of translated recipes.',
+    long: 'Also called tempering, chhonk or, in the south, thalippu. Fat is heated, mustard seed goes in and pops, then dried chilli, curry leaf and whatever else the dish wants. The mixture may form the base of a dish or become a finishing spoonful poured over the top. It is a widespread Indian technique that short translated recipes sometimes omit.',
     match: ['tempering', 'tadka']
   },
   'masala': {
     term: 'Masala',
     short: 'A blend of spices, wet or dry, made for one dish rather than for everything.',
-    long: 'The word simply means a mixture. It can be dry and ground, like a garam masala, or wet and pounded, like the recheado paste of Goa. The important point is that a masala is built for its dish. The idea of a single all-purpose "curry powder" is a British invention of the eighteenth century and is not used in Indian kitchens.',
+    long: 'The word simply means a mixture. It can be dry and ground, like a garam masala, or wet and pounded, like the recheado paste of Goa. Masalas often suit particular dishes, although modern kitchens also use packaged blends. British-style curry powder compressed many practices into one commercial seasoning.',
     match: ['masala']
   },
   'garam-masala': {
     term: 'Garam masala',
     short: 'A warm-spice blend, usually added at the end rather than cooked.',
-    long: 'Garam means warm, in the sense of what the spices are thought to do to the body rather than of chilli heat. Cinnamon, clove, cardamom, black pepper, mace and cumin are typical, and almost every region and family has its own proportions. It normally goes in near the end of cooking, because its aroma is volatile.',
+    long: 'Garam means warm, in the sense of what the spices are thought to do to the body rather than of chilli heat. Cinnamon, clove, cardamom, black pepper, mace and cumin are typical. Proportions vary by region, household and dish. The blend often goes in near the end of cooking because its aroma is volatile.',
     match: ['garam masala']
   },
   'ghee': {
     term: 'Ghee',
     short: 'Butter simmered until the water goes and the milk solids brown, then strained.',
-    long: 'Clarified butter, but taken a step further than the French version: the milk solids are allowed to toast before straining, which gives ghee its nutty smell. It keeps for months without refrigeration, which is why it became the cooking fat of hot, dairy-rich regions, and it has a high smoke point.',
+    long: 'Clarified butter in which the milk solids are allowed to toast before straining, giving ghee its nutty smell. Removing water and milk solids makes it keep longer than butter, but storage life depends on the product and clean, dry handling. Follow the label, and refrigerate homemade ghee if its keeping quality is uncertain. It also tolerates relatively high cooking heat.',
     match: ['ghee']
   },
   'dum': {
@@ -42,32 +42,32 @@ Object.assign(window.GLOSSARY, {
   },
   'sadya': {
     term: 'Sadya',
-    short: 'A Kerala feast of twenty or more vegetarian dishes served on a banana leaf.',
-    long: 'Served at Onam and at weddings, on a banana leaf with the narrow end to the eater\'s left. Every item has a fixed position, and the order the servers come round in tells the eater what to mix into the rice next. It ends with payasam, and folding the leaf towards you afterwards means you enjoyed it.',
+    short: 'A vegetarian Kerala feast served on a banana leaf for festivals, weddings and other celebrations.',
+    long: 'Sadya is strongly associated with Onam and Vishu and is also served at weddings and other occasions. Hosts follow recognisable arrangements and serving progressions, but the number, position and order of dishes vary by region and household. Payasam supplies the sweet course.',
     match: ['sadya']
   },
   'thoran': {
     term: 'Thoran',
     short: 'Vegetables cut small and tossed with grated coconut, barely cooked.',
-    long: 'A dry Kerala side dish. Beans, cabbage, carrot or a leafy green is chopped fine, then stirred over heat with grated coconut, green chilli, turmeric and a mustard-seed tempering until just done. It is not a curry and has no gravy, and a Kerala meal usually has one on the plate every day.',
+    long: 'A dry Kerala side dish. Beans, cabbage, carrot or leafy greens can be chopped fine, then cooked with grated coconut, chilli, turmeric and a tempering. Recipes and frequency vary, but the finished dish usually has little free liquid.',
     match: ['thoran']
   },
   'kudampuli': {
     term: 'Kudampuli',
     short: 'The smoked, dried rind of a Garcinia fruit, used to sour fish.',
-    long: 'Also sold as Malabar tamarind or fish tamarind, though it is neither tamarind nor the same thing as kokum. The fruit is halved, smoked over a fire and dried until black and leathery. It gives a clean sharp acidity, firms the flesh of fish, and lets a curry keep for two or three days without refrigeration.',
+    long: 'Also sold as Malabar tamarind or fish tamarind, though it is neither tamarind nor the same thing as kokum. The dried rind gives many Kerala fish curries a sharp, sometimes smoky acidity. It changes flavour but does not make cooked fish safe without prompt refrigeration.',
     match: ['kudampuli']
   },
   'matta': {
     term: 'Matta rice',
     short: 'Kerala\'s short, red, parboiled rice.',
-    long: 'Parboiled before milling: soaked, steamed in the husk and dried again. The steaming drives vitamins from the bran into the grain and hardens the starch, so the rice keeps its nutrition, survives humid storage and stays chewy in a wet curry. The red colour is bran left on after milling.',
+    long: 'Sold parboiled after the paddy is soaked, heated and dried before milling. Parboiling changes the starch and can move some water-soluble nutrients inward. Variety and retained bran contribute to the reddish colour and firm, chewy texture.',
     match: ['matta']
   },
   'appam': {
     term: 'Appam',
     short: 'A fermented rice pancake, lacy at the rim and spongy in the middle.',
-    long: 'Rice is ground with coconut and left to ferment, then a ladle of the batter is swirled in a small round-bottomed pan so the edges run thin and crisp while the centre stays thick. The hollow centre holds stew. Traditionally raised with palm toddy, now usually with yeast.',
+    long: 'Rice is ground with coconut and fermented, then swirled in a small round-bottomed pan so the edges run thin while the centre stays thick. Some traditions use fermenting palm toddy; many current recipes use yeast, cooked rice or another starter.',
     match: ['appam']
   },
   'parotta': {
@@ -85,7 +85,7 @@ Object.assign(window.GLOSSARY, {
   'dal': {
     term: 'Dal',
     short: 'Split pulses, and the dish made from them.',
-    long: 'The word covers both the ingredient and the finished dish. Dozens of pulses are used and they are not interchangeable: toor, moong, urad, chana and masoor cook to different textures and belong to different dishes. Almost every Indian meal has one, and it is usually finished with a tempering.',
+    long: 'The word covers both the ingredient and the finished dish. Dozens of pulses are used and they are not interchangeable: toor, moong, urad, chana and masoor cook to different textures and belong to different dishes. Dal is central to many Indian meals and is often finished with a tempering.',
     match: ['dal', 'parippu']
   },
   'pappadam': {
@@ -109,7 +109,7 @@ Object.assign(window.GLOSSARY, {
   'monsoon': {
     term: 'Monsoon',
     short: 'The seasonal reversal of wind that brings India most of its rain.',
-    long: 'The south-west monsoon arrives on the Kerala coast around the start of June and works north; a weaker north-east monsoon follows in October and matters most to the south-east. Almost every crop in this course is timed to it, and where the rain falls decides what grows.',
+    long: 'The south-west monsoon usually reaches the Kerala coast around the start of June and works north; a weaker north-east monsoon follows later and matters most to the south-east. Monsoon timing shapes many crops in this course, while irrigation, soils and local climate also affect what grows.',
     match: ['monsoon']
   },
   'western-ghats': {

@@ -98,10 +98,10 @@ window.RECIPES['IN-AWA'] = [
   goesWith:[{en:'Thinned yoghurt with onion and mint', no:'Tynnet yoghurt med løk og mynte'},
             {en:'A warm sheermal to mop the pot with', no:'En varm sheermal til å tørke opp gryta med'}],
   headnote:{
-    en:`<p>This is the pakki method, which means the meat is cooked before it ever meets the rice. Hyderabad does the opposite and seals raw meat under part-boiled grains, and reading two explains why the two dishes taste so unlike each other. Here the meat goes into a spiced stock and comes out tender, and the rice is boiled in that same liquid, so every grain is already carrying flavour before anything is layered.</p>
+    en:`<p>This is a pakki method: the meat is cooked before it meets the rice. Hyderabad is known for kacchi versions that seal raw marinated meat under part-boiled grains, although both cities contain variation. Here the meat cooks in seasoned stock, and the rice is partly boiled in the same liquid before layering.</p>
 <p>The seal is what turns two cooked things into one dish. Half an hour under a lid luted with dough, over the lowest heat you can manage, lets steam move up through the rice and saffron milk move down through it, and lets the kewra reach everything. Cook the same layers uncovered and you have rice with meat in it.</p>
 <p>Two judgements matter more than the rest. The rice comes off the boil at about seventy per cent done, with a hard core you can still feel between finger and thumb. And the pot finishes on the lowest possible flame with something between it and the ring. Everything else is patience.</p>`,
-    no:`<p>Dette er pakki-metoden, og den går ut på at kjøttet er ferdig kokt før det møter risen. Hyderabad gjør det motsatte og forsegler rått kjøtt under halvkokt ris, og lesetekst to forklarer hvorfor de to rettene smaker så ulikt. Her kokes kjøttet i en krydret kraft til det er mørt, og risen kokes i den samme væsken, så hvert eneste korn bærer smak allerede før noe legges lagvis.</p>
+    no:`<p>Dette er en pakki-metode: kjøttet kokes før det møter risen. Hyderabad er kjent for kacchi-varianter som forsegler rått marinert kjøtt under halvkokt ris, men begge byer rommer variasjon. Her kokes kjøttet i krydret kraft, og risen halvkokes i den samme væsken før lagdelingen.</p>
 <p>Forseglingen gjør to ferdige ting om til én rett. En halvtime under et lokk festet med deig, over den laveste varmen du får til, lar dampen gå opp gjennom risen og safranmelken gå ned gjennom den, og lar kewraen nå alt. Koker du de samme lagene uten lokk, sitter du igjen med ris som det ligger kjøtt i.</p>
 <p>To vurderinger betyr mer enn resten. Risen tas av kokevannet når den er omtrent sytti prosent ferdig, med en hard kjerne du fortsatt kjenner mellom fingrene. Og gryta gjøres ferdig på lavest mulig varme med noe imellom seg og platen. Alt annet er tålmodighet.</p>`},
   ingredients:[
@@ -172,8 +172,8 @@ window.RECIPES['IN-AWA'] = [
      body:{en:'Replace the meat with waxy potato, carrot, peas and paneer, cooked in the same stock for about a quarter of the time. Everything else stands, the potli and the seal included.',
            no:'Bytt ut kjøttet med fastkokende potet, gulrot, erter og paneer, kokt i den samme kraften på omtrent en fjerdedel av tiden. Alt det andre blir som før, både potlien og forseglingen.'}},
     {title:{en:'Kacchi, if you want to try it', no:'Kacchi, om du vil prøve'},
-     body:{en:'Marinate the raw meat overnight in the yoghurt with grated green papaya, put it in the bottom of the pot, lay the part-boiled rice straight on top and seal it. It needs about an hour and a half, and it is Hyderabad’s method rather than this one.',
-           no:'Marinér det rå kjøttet natta over i yoghurten sammen med revet grønn papaya, legg det i bunnen av gryta, legg den halvkokte risen rett oppå og forsegl. Den trenger omtrent halvannen time, og det er Hyderabads metode og ikke denne.'}}]
+     body:{en:'Marinate the raw meat overnight in the refrigerator with yoghurt and grated green papaya. Put it in the bottom of the pot, lay part-boiled rice on top and seal. This kacchi variation needs careful control so the meat and rice finish together.',
+           no:'Mariner det rå kjøttet natta over i kjøleskapet med yoghurt og revet grønn papaya. Legg det i bunnen av gryta, legg halvkokt ris over og forsegl. Denne kacchi-varianten krever nøye kontroll for at kjøtt og ris skal bli ferdige samtidig.'}}]
 },
 
 {
@@ -238,8 +238,8 @@ window.RECIPES['IN-AWA'] = [
      body:{en:'Saffron gives up its colour and scent into warm liquid, and much of the scent is lost again at oven temperature. Steeping it and then painting it onto bread that is already cooked puts everything you paid for on the surface, where you smell it before you taste it.',
            no:'Safran gir fra seg farge og duft til lunken væske, og mye av duften går tapt igjen i ovnsvarme. Lar du den trekke og så pensler den på et brød som alt er ferdig, havner alt du har betalt for, på overflaten, der du kjenner duften før du smaker den.'}},
     {title:{en:'Sourcing it in Norway', no:'Slik får du tak i det i Norge'},
-     body:{en:'Ordinary Norwegian plain flour is strong enough for this and needs nothing added to it. Ghee is sold in Indian shops and keeps for months out of the fridge, and clarified unsalted butter is the same thing.',
-           no:'Vanlig norsk hvetemel er sterkt nok til dette og trenger ingen tilsetning. Ghee selges i indiske butikker og holder seg i månedsvis utenfor kjøleskap, og klaret usaltet smør er det samme. Safran i de små posene i dagligvarebutikken er dyrt i forhold til kvaliteten, mens iranske og indiske butikker selger hele gram for langt mindre. Har du ikke bakestein, gjør et tykt brett eller en panne i støpejern samme nytten.'}}],
+     body:{en:'Ordinary Norwegian plain flour is strong enough for this and needs nothing added to it. Ghee is sold in Indian shops; follow the storage directions on the jar. Home-clarified unsalted butter works too and should be refrigerated if its keeping quality is uncertain.',
+           no:'Vanlig norsk hvetemel er sterkt nok til dette og trenger ingen tilsetning. Ghee selges i indiske butikker; følg lagringsrådet på glasset. Hjemmeklaret usaltet smør fungerer også og bør stå kaldt hvis holdbarheten er usikker. Safran i de små posene i dagligvarebutikken er dyrt i forhold til kvaliteten, mens iranske og indiske butikker selger hele gram for langt mindre. Har du ikke bakestein, gjør et tykt brett eller en panne i støpejern samme nytten.'}}],
   variations:[
     {title:{en:'Taftan', no:'Taftan'},
      body:{en:'Add an egg to the dough and a little more sugar, and shape the breads thicker and rounder. Taftan belongs to the same family, is richer, sits closer to a bun, and is often studded with almonds.',
@@ -341,12 +341,12 @@ window.RECIPES['IN-AWA'] = [
   goesWith:[{en:'Khameeri roti, or a sheermal with the sugar left out', no:'Khameeri roti, eller en sheermal uten sukker'},
             {en:'Nothing else at all before midday', no:'Ikke noe mer før midt på dagen'}],
   headnote:{
-    en:`<p>Nihari is a breakfast, and the name says so, because nahar is the Arabic word for morning. The pot goes on in the evening, the fire is left to die under it, and what is opened at dawn is meat falling off the bone in a gravy the bones have already thickened. That gravy is the argument for the whole method, because most of what holds it together came out of the bones, and the flour at the end only finishes the job.</p>
+    en:`<p>Nihari is strongly associated with breakfast, and its name is commonly linked to the Arabic <em>nahar</em>, morning. Long cooking softens shank while collagen and marrow give the gravy body; a little flour finishes the texture in this version.</p>
 <p>Two things do the heavy work. Gelatinous cuts, and shank above all, give up collagen slowly and turn a thin stock into something that coats a spoon. And the spice arrives in a muslin bag that is lifted out before serving, so the broth stays clear instead of going muddy the way a powdered masala would leave it.</p>
-<p>Written for a domestic kitchen this is a five-hour dish rather than an eight-hour one, and it can be split across two sittings. Cook it the evening before, cool it and reheat it in the morning. It is better for the night in the fridge, and the fat that sets on top is easy either to lift off or to stir back in.</p>`,
-    no:`<p>Nihari er frokost, og navnet sier det, for nahar er det arabiske ordet for morgen. Gryta settes over om kvelden, ilden får dø ut under den, og ved daggry åpnes gryta over kjøtt som faller av beinet i en saus beina alt har tyknet. Nettopp den sausen er argumentet for hele metoden, for det meste av det som holder den sammen, er kommet ut av beina, og melet til slutt gjør bare jobben ferdig.</p>
+<p>Written for a domestic kitchen, this is a five-hour dish and can be split across two sittings. Cook it the evening before, cool it promptly and refrigerate it, then reheat thoroughly in the morning.</p>`,
+    no:`<p>Nihari forbindes sterkt med frokost, og navnet knyttes ofte til det arabiske <em>nahar</em>, morgen. Lang koking mørner skanken, mens kollagen og marg gir sausen fylde; litt mel fullfører konsistensen i denne varianten.</p>
 <p>To ting gjør det tunge arbeidet. Stykker med mye bindevev, og særlig skank, gir langsomt fra seg kollagen og gjør en tynn kraft om til noe som legger seg på skjeen. Og krydderet kommer i en pose av musselin som løftes opp før servering, så kraften holder seg klar i stedet for å bli grumsete slik en malt masala ville gjort den.</p>
-<p>I et hjemmekjøkken tar denne retten fem timer og ikke åtte, og den kan deles over to økter. Kok den kvelden før, kjøl den ned og varm den opp om morgenen. Den blir bedre av natta i kjøleskapet, og fettet som stivner på toppen, er lett enten å løfte av eller å røre inn igjen.</p>`},
+<p>I et hjemmekjøkken tar retten fem timer og kan deles over to økter. Kok den kvelden før, avkjøl raskt og sett den i kjøleskapet, og varm den grundig opp om morgenen.</p>`},
   ingredients:[
    {group:{en:'The pot', no:'Gryta'}, items:[
     {q:1.2, u:'kg', n:{en:'lamb or goat shank, cut across the bone', no:'skank av lam eller geit, skåret på tvers av beinet'}},

@@ -4,20 +4,20 @@ window.GLOSSARY = window.GLOSSARY || {};
 Object.assign(window.GLOSSARY, {
   'goda-masala': {
     term: 'Goda masala',
-    short: 'The dark everyday blend of Maharashtra. Goda means sweet, and the blend is not.',
-    long: 'Dry coconut, sesame, coriander, cumin, cinnamon, clove, bay, black cardamom and the lichen dagad phool, all roasted and ground with a little oil. There is no sugar in it and very little chilli. The name is a comparison with kala masala, the far hotter blend on the same shelf, and it survives because everyone in the kitchen already knows what both taste like.',
+    short: 'A family of dark, roasted Maharashtrian spice blends with a warm, gentle profile.',
+    long: 'Recipes vary by household and maker. Common ingredients include dry coconut, sesame, coriander, cumin and warming whole spices; some versions use dagad phool. Goda means sweet, but here it describes a rounded character rather than a dessert blend. The boundary with darker or hotter blends called kala masala is not fixed everywhere.',
     match: ['goda masala']
   },
   'phodni': {
     term: 'Phodni',
-    short: 'The Marathi tempering: oil, mustard seed, asafoetida, turmeric, curry leaf, in that order.',
-    long: 'The same idea as a tadka or a Bengali phoron, but the sequence is fixed and two of its members are unusual. Turmeric and asafoetida go into the hot oil before the leaves, so the fat carries a savoury bitterness into everything cooked after it. That is what makes a Maharashtrian dal taste different from a Keralan one seasoned with the same leaf.',
+    short: 'The Marathi word for tempering spices in hot fat.',
+    long: 'The same technique is also called tadka or, in Bengal, phoron. Mustard seed, asafoetida, turmeric and curry leaf are common in Maharashtrian versions, but the ingredients and their order follow the dish and the cook. The hot fat releases aromas before the tempering is added to food or other ingredients enter the pan.',
     match: ['phodni']
   },
   'bhakri': {
     term: 'Bhakri',
-    short: 'An unleavened flatbread of sorghum or pearl millet, patted out by hand and never rolled.',
-    long: 'Neither grain contains gluten, so there is nothing for a rolling pin to work against. The dough is mixed with hot water, patted flat with a wet palm on a board, cooked on a dry griddle and then laid straight on the flame, where the steam inside blows it up for a few seconds. That puff is its only leavening, and it goes stale within the hour.',
+    short: 'An unleavened flatbread often made from sorghum or pearl millet and patted or pressed into shape.',
+    long: 'Jowar and bajra lack gluten, so their doughs are fragile. Many cooks pat or press them with a damp hand; skilled cooks may roll some versions. Bhakri is cooked on a griddle and may be finished over a flame, depending on grain and household practice.',
     match: ['bhakri']
   },
   'misal': {
@@ -29,13 +29,13 @@ Object.assign(window.GLOSSARY, {
   'rassa': {
     term: 'Rassa',
     short: 'A thin Maharashtrian gravy, drunk almost as much as it is eaten.',
-    long: 'On a misal plate the rassa is the red liquid skimmed off the top of the usal pot, where the chilli oil has risen, and it is also called kat or tarri. In Kolhapur the word covers two different things served together: tambda rassa, red with kala masala and chilli, and pandhra rassa, white with coconut and the stock the mutton was cooked in. Both are thin enough to drink from the bowl.',
+    long: 'On a misal plate, rassa, kat or tarri may be seasoned liquid drawn from the usal or a separately prepared thin chilli gravy. In Kolhapur, tambda rassa is red with chilli and masala, while pandhra rassa is pale from coconut and often seeds or nuts. Recipes and whether the gravies share one meat stock vary.',
     match: ['rassa']
   },
   'sali': {
     term: 'Sali',
     short: 'Matchstick potato straws, fried hard and piled on a Parsi dish at the last moment.',
-    long: 'Potato cut to matchsticks, rinsed of its starch so the pieces stay separate, and fried until they snap. They go on top of sali boti and are never stirred in, because the dish exists for the contrast between a crisp dry topping and a sticky dark stew. The dish takes its name from the garnish, which is a fair warning that the garnish is not optional.',
+    long: 'Potato is cut into matchsticks and fried crisp. On sali boti the straws are added just before serving, preserving a crisp contrast with the soft, sweet-sour meat stew. The dish takes its name from this garnish.',
     match: ['sali']
   }
 });

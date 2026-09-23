@@ -6,34 +6,34 @@ Object.assign(window.SPICE_NO, {
  'IN-NEA|Bhut jolokia': {
    aroma: 'Fruktig og svakt blomsterpreget under styrken, omtrent som en overmoden aprikos.',
    flavour: 'Styrken kommer sent og blir sittende i flere minutter. Med omkring én million Scoville-enheter er en tynn flis en porsjon.',
-   does: 'Gir hele måltidet styrke fra kanten av tallerkenen, der den som spiser, styrer mengden i stedet for kokken.',
-   when: 'Rå ved siden av maten, eller tørket i røyk og smuldret rett oppi. Den kokes sjelden inn i en saus.',
-   swap: 'En habanero eller scotch bonnet oppfører seg på samme måte, men med en brøkdel av styrken. Cayenne gir feil slags styrke.',
-   sourcing: 'Tørket bhut jolokia selges i indiske butikker på Grønland i Oslo, og noen asiatiske butikker har ferske i fryseren. Planten selges også som frø og modner i et vindu mot sør.'
+   does: 'Gir sterk varme i relish, ved bordet eller direkte i en kokt rett, alt etter oppskriften.',
+   when: 'Bruk en målt flis, ta på hansker og unngå øynene. Tilsett gradvis fordi styrken varierer mellom fruktene.',
+   swap: 'Habanero eller scotch bonnet gir beslektet fruktig varme med lavere styrke; bruk en mengde retten tåler.',
+   sourcing: 'Se etter hel eller tørket bhut jolokia i velassorterte asiatiske butikker. Les styrkemerkingen, kjøp lite og oppbevar pakken utilgjengelig for barn.'
  },
  'IN-NEA|Bamboo shoot': {
    aroma: 'Ferske skudd lukter grønt og svakt av høy. Gjærede skudd lukter surt og litt ostaktig, og lukten bærer.',
    flavour: 'Ferske skudd er milde og sprø. Gjærede skudd er skarpt sure, med en smaksrik kant og uten søtme.',
-   does: 'Gjærede skudd er hverdagens syrningsmiddel i regionen, og de skjærer gjennom fettet i røykt svinekjøtt bedre enn sitrus.',
-   when: 'Ferske skudd kokes først i to eller tre vann. Gjærede skudd går i tidlig, sammen med kjøttet.',
-   swap: 'Ingenting annet smaker slik. Melkesyregjæret kål (sauerkraut) og laken fra den gir syren, men ikke dybden bak. Norsk surkål er kokt kål med karve og sukker og duger ikke her.',
-   sourcing: 'Bambusskudd på boks i vanlige butikker er ferske og milde, ikke gjærede. Gjærede skudd står i asiatiske butikker, ofte merket «sour bamboo shoot» på glass.'
+   does: 'Gjærede skudd gir syre og fyldig aroma til blant annet kjøtt, fisk og relish.',
+   when: 'Ferske skudd må behandles grundig for å redusere cyanogene stoffer. Bruk ferdige produkter etter etiketten.',
+   swap: 'Melkesyregjæret kål og litt lake kan gi syre, men aroma og konsistens blir annerledes.',
+   sourcing: 'Se etter bambusskudd merket «fermented» eller «sour» i asiatiske butikker. Vanlige hermetiske skudd er milde og ikke samme råvare; følg alltid etiketten.'
  },
  'IN-NEA|Axone (fermented soya)': {
-   aroma: 'Ammoniakk og gammel ost i rå tilstand, og det er gjæringen som arbeider, ikke maten som er bedervet.',
+   aroma: 'En kraftig gjæringsduft som kan minne om moden ost; den nøyaktige duften avhenger av produktet.',
    flavour: 'Dypt smaksrik når den er kokt, nærmere en kjøttkraft enn et krydder, med en lang salt ettersmak.',
-   does: 'Gir gryta ryggraden sin, altså den jobben garam masala gjør andre steder, og den trenger ingen hjelp til det.',
-   when: 'Tidlig, stekt i litt fett sammen med chili, så råheten gir seg og massen smelter inn i væsken.',
-   swap: 'Ingen erstatning er ærlig. Miso eller gjærede svarte bønner gir en smaksrik rett, men det blir en annen rett.',
-   sourcing: 'Axone selges ikke i Norge. Nærmest kommer koreansk cheonggukjang eller japansk natto fra asiatiske butikker. Begge er gjæret soya av samme slag, og begge lukter mildere.'
+   does: 'Gir dyp umamismak til kjøtt, grønnsaker, relish og gryter.',
+   when: 'Følg oppskriften og produktets lagringsråd; fuktige og tørkede former kan kreve ulik behandling.',
+   swap: 'Miso eller gjærede svarte bønner kan gi umami, men resultatet blir tydelig annerledes.',
+   sourcing: 'Axone kan være vanskelig å finne. Se i asiatiske butikker eller bruk et mer tilgjengelig gjæret soyaprodukt som en tydelig merket tilpasning.'
  },
  'IN-NEA|Khar (alkali)': {
-   aroma: 'Nesten ingen. En svak eim av treaske, og ikke noe mer enn det.',
-   flavour: 'Knapt noen smak. Den gir konsistens i stedet: myk, glatt og så vidt såpeaktig.',
-   does: 'Gjør seige belgfrukter og grønnsaker møre og bryter ned fett. Syre i samme gryte opphever den, så de to møtes aldri.',
-   when: 'En skje i kokevannet tidlig, så luten får tid til å arbeide på det som ligger i gryta.',
-   swap: 'En knivsodd natron gir den samme kjemien, og enhver kokk i Assam vil si at det ikke er det samme.',
-   sourcing: 'Khar selges ikke i Norge. Du kan lage den av aske fra tørket bananskall: brenn skallet, hell vann gjennom asken i et kaffefilter og bruk væsken. Ellers er natron løsningen.'
+   aroma: 'Mild, med toner som avhenger av plantemateriale og framstilling.',
+   flavour: 'Sterkt basisk; hovedeffekten er glatt konsistens framfor krydderduft.',
+   does: 'Hever pH og gjør plantevev mørt. Syre reduserer basiskheten og endrer resultatet.',
+   when: 'Bruk et testet matprodukt sparsomt. Tradisjonelle uttrekk varierer mye i styrke.',
+   swap: 'En målt knivsodd natron gjenskaper en del av pH-effekten, men ikke smaken av kolakhar.',
+   sourcing: 'Ikke lag et ukjent sterkt askeuttrekk hjemme. Bruk kolakhar som er solgt som matvare, eller oppskriftens målte mengde natron.'
  },
  'IN-NEA|Black sesame': {
    aroma: 'Rå frø lukter nøtteaktig og litt bittert. Tørrstekte frø lukter dypt ristet og nesten røykpreget.',
@@ -46,9 +46,9 @@ Object.assign(window.SPICE_NO, {
  'IN-NEA|Kharoli': {
    aroma: 'Skarp sennep, som et nyåpnet glass engelsk sennep, med en svak eim av aske bak.',
    flavour: 'Skarp, bitter og salt på én gang. Den stikker i nesen slik wasabi gjør, og gir seg raskt.',
-   does: 'Brukes som tilbehør ved siden av risen og ikke som ingrediens, og én liten skje krydrer en hel tallerken.',
-   when: 'Rå, på bordet. Varme ødelegger skarpheten og lar bare bitterheten bli igjen.',
+   does: 'Gir sennepsstyrke og toner fra basisk gjæring som relish til ris eller annen mat.',
+   when: 'Serveres vanligvis ukokt som tilbehør; oppskrift og bruk varierer.',
    swap: 'Grovkornet sennep spedd med vann ligger nærmest. Den er skarpere, mindre bitter og ikke basisk.',
-   sourcing: 'Kharoli selges ikke her. Mal gule sennepsfrø med litt vann og en knivsodd natron, og smak til med salt. Ferdig bordsennep er søtet og gir feil resultat.'
+   sourcing: 'Kharoli kan være vanskelig å finne. Velg et produkt som er solgt som matvare; grov sennep er en enkel, tydelig merket tilpasning uten samme gjæring.'
  }
 });

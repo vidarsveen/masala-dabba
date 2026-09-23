@@ -5,8 +5,8 @@ window.SPICE = window.SPICE || {};
 Object.assign(window.SPICE, {
  'IN-RAJ|Mathania chilli': {
    aroma: 'Sun-dried fruit and warm paprika, with a little smoke in pods dried on a roof.',
-   flavour: 'Moderate heat carried on real sweetness. It tastes of the fruit it came from, which a very hot chilli usually does not.',
-   does: 'Gives laal maas its deep red and most of its smell. It goes in a dozen pods at a time, for colour rather than for burn.',
+   flavour: 'Fruity and aromatic, with heat that varies by harvest and pod.',
+   does: 'Gives laal maas deep red colour, aroma and adjustable heat. The cook tastes and changes the quantity.',
    when: 'Stemmed, soaked in warm water and ground to a paste, or warmed in ghee off the flame so the fat takes the colour.',
    swap: 'Kashmiri chilli is closest. Mild paprika with a little hot chilli powder gets near enough in a home kitchen.'
  },
@@ -42,7 +42,7 @@ Object.assign(window.SPICE, {
    aroma: 'Dry, woody and faintly bitter, like a sack of dried pods, which is exactly what it is.',
    flavour: 'Sour, chewy and slightly bitter once cooked. A little bitterness belongs there and is not a fault.',
    does: 'It is the vegetable course of the desert: five dried wild things, usually ker, sangri, kumatia, gunda and dried mango.',
-   when: 'Soaked overnight, boiled soft, then fried in plenty of oil with chilli, coriander, turmeric, hing and amchur.',
+   when: 'Washed, soaked until rehydrated, boiled soft, then fried with chilli, coriander, turmeric, hing and amchur.',
    swap: 'Nothing replaces the mixture. Sangri on its own makes a fair dish; skip it rather than substitute green beans.'
  }
 });

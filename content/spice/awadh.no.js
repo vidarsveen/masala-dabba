@@ -30,7 +30,7 @@ Object.assign(window.SPICE_NO, {
  'IN-AWA|Green cardamom': {
    aroma: 'Ren, kjølig og svakt kamferaktig, med eukalyptus og sitronskall bak.',
    flavour: 'Hele kapsler gir duft og lite annet. Malt blir det samme krydderet kraftig og litt bittert.',
-   does: 'Gir duft til risen, kormaen og alle melkedessertene i regionen, og det er den kapselen du møter oftest her.',
+   does: 'Gir duft til ris, korma og mange melkedesserter; hel kapsel og malt frø gir ulik styrke.',
    when: 'Hel og tidlig, og den blir liggende i retten så gjesten kan skyve den til side. Malt bare der oppskriften ber om det.',
    swap: 'Egentlig ingenting. Svart kardemomme er røykpreget og hører til andre retter, så sløyf kardemommen heller enn å jukse.',
    sourcing: 'Grønn kardemomme koster en brøkdel i indiske butikker, der den selges i poser på hundre gram, mot de små glassene i dagligvarebutikken. Kjøp hele kapsler og ikke malt, for malt kardemomme taper duften på noen uker.'
@@ -45,8 +45,8 @@ Object.assign(window.SPICE_NO, {
  },
  'IN-AWA|Potli masala': {
    aroma: 'Muskatblomme og grønn kardemomme over kanel og laurbær, med rosenblad og vetiver bak.',
-   flavour: 'Svært lite alene. En potli parfymerer en væske, og den krydrer nesten ingenting.',
-   does: 'Gir duft til nihari, korma og kraft uten å gjøre dem mørkere, tykkere eller grynete på tunga.',
+   flavour: 'Blandingen gir lagdelt krydderduft, mens musselinen holder bitene ute av væsken.',
+   does: 'Gir duft til kraft, gryterett eller ris uten å etterlate hele krydderbiter i maten.',
    when: 'Knyttet inn i musselin og ned i den småkokende kraften, og så klemt ut og løftet opp så snart gryta dufter riktig.',
    swap: 'Hele krydder løst i gryta og silt fra etterpå. Det går, men tidspunktet er mye vanskeligere å treffe.',
    sourcing: 'Ferdig potli masala er vanskelig å finne i Norge, så du binder den selv. Osteklede fra dagligvarebutikken eller en bit gasbind fra apoteket gjør nytten. Hele krydder får du i indiske butikker, der de koster en brøkdel av glassene i dagligvarebutikken.'

@@ -1,74 +1,101 @@
 {
- "en-1": {
-  "seconds": 393.9,
-  "voice": "en-GB-SoniaNeural",
-  "bytes": 2363472,
-  "lo_bytes": 788192,
-  "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 576641
- },
- "en-2": {
-  "seconds": 341.4,
-  "voice": "en-GB-SoniaNeural",
-  "bytes": 2048688,
-  "lo_bytes": 683288,
-  "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 501249
- },
- "en-3": {
-  "seconds": 390.2,
-  "voice": "en-GB-SoniaNeural",
-  "bytes": 2341440,
-  "lo_bytes": 780848,
-  "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 572645
- },
- "en-4": {
-  "seconds": 393.7,
-  "voice": "en-GB-SoniaNeural",
-  "bytes": 2362320,
-  "lo_bytes": 787832,
-  "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 578769
- },
- "no-1": {
-  "seconds": 392.0,
-  "voice": "nb-NO-PernilleNeural",
-  "bytes": 2351952,
-  "lo_bytes": 784376,
-  "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 537357
- },
- "no-2": {
-  "seconds": 348.6,
-  "voice": "nb-NO-PernilleNeural",
-  "bytes": 2091744,
-  "lo_bytes": 697616,
-  "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 479216
- },
- "no-3": {
-  "seconds": 386.7,
-  "voice": "nb-NO-PernilleNeural",
-  "bytes": 2319984,
-  "lo_bytes": 773720,
-  "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 534206
- },
- "no-4": {
-  "seconds": 388.6,
-  "voice": "nb-NO-PernilleNeural",
-  "bytes": 2331360,
-  "lo_bytes": 777536,
-  "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 540674
- }
+  "en-1": {
+    "seconds": 393.9,
+    "voice": "en-GB-SoniaNeural",
+    "bytes": 2363472,
+    "lo_bytes": 788192,
+    "intro": "title",
+    "drop": "facts,recap",
+    "ogg_bytes": 576641
+  },
+  "en-2": {
+    "seconds": 341.4,
+    "voice": "en-GB-SoniaNeural",
+    "bytes": 2048688,
+    "lo_bytes": 683288,
+    "intro": "title",
+    "drop": "facts,recap",
+    "ogg_bytes": 501249
+  },
+  "en-3": {
+    "seconds": 390.2,
+    "voice": "en-GB-SoniaNeural",
+    "bytes": 2341440,
+    "lo_bytes": 780848,
+    "intro": "title",
+    "drop": "facts,recap",
+    "ogg_bytes": 572645
+  },
+  "en-4": {
+    "seconds": 393.7,
+    "voice": "en-GB-SoniaNeural",
+    "bytes": 2362320,
+    "lo_bytes": 787832,
+    "intro": "title",
+    "drop": "facts,recap",
+    "ogg_bytes": 578769
+  },
+  "no-1": {
+    "seconds": 298.4,
+    "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+    "bytes": 1790588,
+    "lo_bytes": 597104,
+    "ogg_bytes": 438338,
+    "delivery": "puck",
+    "cost": 0.15056,
+    "script_sha256": "0ab048bc2d701c1c44b985a73ddb748a1afbb2f557e678f20d7bdeaf79f18c45",
+    "intro": "title",
+    "drop": "facts,recap,tasting,headings",
+    "outro": "none"
+  },
+  "no-2": {
+    "seconds": 294.4,
+    "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+    "bytes": 1767116,
+    "lo_bytes": 589256,
+    "ogg_bytes": 430411,
+    "delivery": "puck",
+    "cost": 0.14865,
+    "script_sha256": "426aaa6ed5b072c12575becd69a726b554dfb596465dd95424f9cc105e1dc17f",
+    "intro": "title",
+    "drop": "facts,recap,tasting,headings",
+    "outro": "none"
+  },
+  "no-3": {
+    "seconds": 358.8,
+    "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+    "bytes": 2153036,
+    "lo_bytes": 717920,
+    "ogg_bytes": 519052,
+    "delivery": "puck",
+    "cost": 0.18095,
+    "script_sha256": "c9713ac5f4d71f91b859f6ea7229458651804d5e3c7d3a677aa68313d2b05ed8",
+    "intro": "title",
+    "drop": "facts,recap,tasting,headings",
+    "outro": "none"
+  },
+  "no-4": {
+    "seconds": 371.3,
+    "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+    "bytes": 2228060,
+    "lo_bytes": 742976,
+    "ogg_bytes": 527787,
+    "delivery": "puck",
+    "cost": 0.18726,
+    "script_sha256": "108bda19c057b76bd78f3b01048669309abb2ed9353a168813d530a2b8cc0e52",
+    "intro": "title",
+    "drop": "facts,recap,tasting,headings",
+    "outro": "none"
+  },
+  "no-intro": {
+    "seconds": 44.7,
+    "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+    "bytes": 268508,
+    "lo_bytes": 89792,
+    "ogg_bytes": 66114,
+    "delivery": "puck",
+    "cost": 0.02259,
+    "script_sha256": "1f81db8ea482f211f0e8abc2846d62c143729d9cdc97a54413a9cdbba07a327d",
+    "kind": "region-introduction"
+  }
 }

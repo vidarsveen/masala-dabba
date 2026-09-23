@@ -4,14 +4,14 @@ window.GLOSSARY = window.GLOSSARY || {};
 Object.assign(window.GLOSSARY, {
   'ragi': {
     term: 'Ragi',
-    short: 'Finger millet, the staple grain of the dry interior of Karnataka.',
-    long: 'Eleusine coracana, a small round grain whose seed head splits into four or five curved spikes. It ripens in three or four months, tolerates a failed rain better than rice, and stores for years without insect damage. It is milled whole rather than polished, so the flour is brown, and it carries roughly thirty times the calcium of polished rice.',
+    short: 'Finger millet, an important grain in many interior districts of Karnataka.',
+    long: 'Eleusine coracana is suited to many rain-fed systems and valued for resilience and storage, although performance depends on variety and conditions. It is commonly milled whole, and ICAR reports about 344 milligrams of calcium per 100 grams of grain.',
     match: ['ragi']
   },
   'mudde': {
     term: 'Mudde',
-    short: 'A ball of stiff cooked millet dough, eaten in lumps that are swallowed rather than chewed.',
-    long: 'Ragi flour is rained into boiling water and worked with a wooden stick until the dough is stiff enough to stand the stick up, then shaped with wet hands. A walnut of it is pinched off, dented with the thumb, rolled through a thin stew and swallowed whole. Chewing turns it into a paste that clings to the mouth and tastes of very little.',
+    short: 'A ball of stiff cooked millet dough eaten in small pieces with a thin stew.',
+    long: 'Ragi flour is worked into boiling water until stiff, then shaped with wet hands. Small pieces are dented with a thumb and coated in thin stew. Some experienced diners chew little, but learners should choose a comfortable size and chew as needed.',
     match: ['mudde']
   },
   'saaru': {
@@ -29,13 +29,13 @@ Object.assign(window.GLOSSARY, {
   'kachampuli': {
     term: 'Kachampuli',
     short: 'A black sour syrup from Kodagu, boiled down from the juice of the kudampuli fruit.',
-    long: 'Ripe Garcinia gummi-gutta is heaped in baskets through the monsoon until it collapses, and the juice that drips out is caught and simmered over a wood fire for hours until it thickens. Nothing is added and nothing ferments, so the word vinegar on the bottle is a convenience. A teaspoon sours a whole pot of pork and turns it almost black.',
+    long: 'Kachampuli is made from Garcinia gummi-gutta fruit and reduced to a dark sour concentrate used in Kodagu. Accounts differ on resting and fermentation, so the label Coorg vinegar does not define one universal process. Strength varies by product and only a small amount may be needed.',
     match: ['kachampuli']
   },
   'udupi-hotel': {
     term: 'Udupi hotel',
-    short: 'A cheap, clean, vegetarian South Indian restaurant, named after the coastal town the style came from.',
-    long: 'The Krishna Matha at Udupi has fed people on a large scale since the thirteenth century, and its cooking obeys temple rules: no meat, fish or egg, and often no onion or garlic. From the early twentieth century cooks trained in that tradition went to the cities and opened eating houses, and by the nineteen-forties the name had stopped describing where the owner came from and become a category.',
+    short: 'A vegetarian South Indian restaurant tradition named for the coastal town of Udupi.',
+    long: 'Udupi has a major vegetarian temple tradition. During the twentieth century, migrants from the area opened restaurants in Mumbai and other cities, and the label spread beyond owners with direct temple connections. Menus, prices and ownership vary.',
     match: ['Udupi hotel', 'Udupi']
   }
 });

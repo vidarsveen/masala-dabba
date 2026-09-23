@@ -22,7 +22,7 @@ Object.assign(window.SPICE_NO, {
  'IN-GUJ|Asafoetida (hing)': {
    aroma: 'Rå er den svovelaktig og vanskelig å like. Noen sekunder i varmt fett gjør den smaksrik og varm, nær stekt løk.',
    flavour: 'Nesten ingen egen smak når den er kokt. Den etterlater en dybde under alt det andre, og den er vanskelig å sette navn på.',
-   does: 'Gir løksmaken i de mange hjemmene hos jainer og vaishnavaer som lager mat uten løk og hvitløk, og roer en gryte med belgfrukter.',
+   does: 'Gir fylde i jainistisk og vaishnavisk mat uten løk eller hvitløk, og brukes tradisjonelt i retter med belgfrukter.',
    when: 'En klype i den varme oljen rett etter sennepsfrøene, og bare i noen sekunder. Får den ikke varme, lukter den feil.',
    swap: 'Ingen. En rett uten den blir flatere, og har du løk i stedet, lager du en annen rett enn den du siktet mot.',
    sourcing: 'Den heter dyvelsdrekk på norsk og selges i små gule bokser på Grønland. Merkingen «compounded» betyr at harpiksen er blandet ut med hvetemel, så varen er ikke glutenfri. En klype på størrelse med et knappenålshode holder til en gryte.'

@@ -9,19 +9,19 @@ window.QUIZ['IN-KON'] = [
       'Arab merchants brought it overland from Persia',
       'Portuguese ships carried it east from Brazil',
       'It arrived with the Mughals from Central Asia'],
-   c:2, why:'Capsicum is American. It came east on Portuguese ships and landed on this coast in the sixteenth century, and every chilli in the other thirteen regions of this course descends from that arrival.'},
+   c:2, why:'Capsicum is American. Portuguese maritime trade carried it to India in the sixteenth century; a book printed in Goa in 1563 shows that it was established there, although the exact first landing is uncertain.'},
   {q:'What carried the heat in an Indian kitchen before the chilli arrived?',
    a:['Mustard oil and asafoetida',
       'Black pepper and long pepper',
       'Kokum and tamarind',
       'Ginger and green mango'],
-   c:1, why:'Both warm rather than burn, and both were expensive enough to be shipped to Rome. The chilli grew in any backyard and pushed long pepper almost out of the cooking pot.'},
-  {q:'Why does a jar of recheado paste keep for months?',
+   c:1, why:'Black pepper and long pepper supplied pungency before American chillies arrived. Chillies later became widespread, while both older peppers remained in use.'},
+  {q:'How should homemade recheado paste be stored?',
    a:['It is boiled before it is jarred',
       'It is sealed under a layer of ghee',
       'The chillies are smoked before grinding',
-      'It is ground in vinegar and never sees water'],
-   c:3, why:'Vinegar is the only liquid that goes into it at any stage. The same paste loosened with water would spoil within a week.'}
+      'Refrigerate promptly, use within a few days or freeze portions'],
+   c:3, why:'Vinegar concentrates the flavour but does not make homemade paste shelf-stable. Keep it cold and freeze any portion you will not use soon.'}
  ],
  [
   {q:'What does ukda mean?',
@@ -35,13 +35,13 @@ window.QUIZ['IN-KON'] = [
       'Tidal land farmed behind bunds and wooden sluice gates',
       'A steamed rice cake raised with palm toddy',
       'The morning fish market of a coastal village'],
-   c:1, why:'The gates open on the ebb to drain the field and shut on the flood to keep the salt out, and the salt-tolerant korgut rice is bred for that ground.'},
+   c:1, why:'Bunds and sluice gates manage tidal water and salinity. Korgut is one of the local rice varieties associated with these challenging conditions.'},
   {q:'What gives solkadhi its pink colour?',
    a:['Beetroot cooked into the coconut milk',
       'Kashmiri chilli, added for colour rather than heat',
       'Kokum rind steeped in warm water',
       'The unglazed clay it is served in'],
-   c:2, why:'The colour is entirely the fruit, and nothing is added to make it pink. Thin coconut milk, garlic and salt go in afterwards.'}
+   c:2, why:'Kokum commonly gives solkadhi a pale pink colour. The shade and seasonings vary with the fruit, coconut milk and household method.'}
  ],
  [
   {q:'Where does the second half of the word vindaloo come from?',
@@ -49,19 +49,19 @@ window.QUIZ['IN-KON'] = [
       'A Konkani word meaning soured',
       'The name of a village in Salcete',
       'Portuguese alho, meaning garlic'],
-   c:3, why:'The dish is carne de vinha d\'alhos, meat in wine and garlic. The resemblance to aloo is a coincidence, and the Goan original contains no potato.'},
-  {q:'Why is sorpotel made three or four days before it is eaten?',
-   a:['Reheating it daily drives off water and pushes the vinegar into the meat',
+   c:3, why:'The name traces to Portuguese vinha d\'alhos, wine and garlic. Its resemblance to aloo is unrelated; potatoes appear in some household and later versions.'},
+  {q:'Why do many cooks prepare sorpotel ahead?',
+   a:['A refrigerated rest lets the flavours settle before thorough reheating',
       'The blood has to settle out before the dish is served',
       'The pork needs that long to cure in salt',
       'It has to cool completely before the liver can be added'],
-   c:0, why:'Each reheating concentrates the dish, and the fourth-day version is a different and better one from the first-day version.'},
+   c:0, why:'A cold rest lets the flavours settle. Cool the dish promptly, refrigerate it, and reheat it thoroughly before serving.'},
   {q:'What kind of dish is balchao?',
    a:['A dry masala of roasted coconut and whole spice',
       'A thin soured gravy poured over rice',
       'A preserve kept in a jar and eaten a spoonful at a time',
       'A steamed cake eaten with pork at Christmas'],
-   c:2, why:'The prawns are cooked down in chilli, garlic and vinegar until almost no liquid is left, then jarred under oil. A tablespoon is a serving.'}
+   c:2, why:'The prawns are cooked down with chilli, garlic and vinegar into a concentrated, pickle-like relish. Store a homemade batch in a clean container in the refrigerator.'}
  ],
  [
   {q:'How long did Portugal hold Goa?',
@@ -69,7 +69,7 @@ window.QUIZ['IN-KON'] = [
       'Four hundred and fifty-one years, from 1510 to 1961',
       'About two hundred years, ending when the capital moved to Panaji',
       'Three hundred years, ending with the Inquisition in 1812'],
-   c:1, why:'Albuquerque took the city on 25 November 1510 and the Indian army entered in December 1961, which is longer than any European power held any territory in Asia.'},
+   c:1, why:'Albuquerque took the city on 25 November 1510 and Indian forces entered in December 1961. This was one of the longest European colonial tenures in Asia.'},
   {q:'Why do the Mangeshi and Shanta Durga temples stand at Ponda?',
    a:['Ponda had the only fresh water on that stretch of coast',
       'The Portuguese built them there for converts who would not give up the old rites',
@@ -81,6 +81,6 @@ window.QUIZ['IN-KON'] = [
       'The nut itself, after it has been roasted',
       'The bark, boiled and then fermented',
       'The flowers, collected before dawn'],
-   c:0, why:'The nut was the export crop. The cashew apple rots within a day and could not be sold, so Goa crushed it, fermented it and distilled it.'}
+   c:0, why:'Cashew feni is distilled from fermented cashew-apple juice; coconut feni is distilled from fermented palm sap.'}
  ]
 ];

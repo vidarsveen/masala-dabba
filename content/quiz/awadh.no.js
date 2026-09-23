@@ -3,12 +3,12 @@
 window.QUIZ_NO = window.QUIZ_NO || {};
 window.QUIZ_NO['IN-AWA'] = [
  [
-  {q:'Hvorfor går attar i helt til slutt, eller ned i en forseglet gryte?',
-   a:['Den er for dyr til å bruke i noen mengde',
+  {q:'Hvorfor tilsettes spiselige aromaessenser sent eller i en forseglet gryte?',
+   a:['De er for dyre til å bruke i noen mengde',
       'Varmen driver duften rett av',
       'Den får melken til å skille seg hvis den går i tidlig',
       'Den må løse seg i fett før den virker'],
-   c:1, why:'En attar er duft båret av olje og ikke et uttrekk i alkohol, og den tåler ikke koking, så den går i med kjelen av platen eller der en forsegling holder på den.'},
+   c:1, why:'Langvarig varme driver flyktige aromaer bort. Bare produkter som uttrykkelig er merket for mat, hører hjemme i gryta; parfymeattar gjør det ikke.'},
   {q:'Hva er en potli, og hva gjør den som en malt masala ikke kan?',
    a:['Et leirlokk som forsegler gryta',
       'Kobberkjelen som brukes i Kannauj',
@@ -23,18 +23,18 @@ window.QUIZ_NO['IN-AWA'] = [
    c:0, why:'Rosevann er tynt, og en spiseskje passer i en gryte ris, mens essensen kommer på en mye mindre flaske og er mange ganger sterkere.'}
  ],
  [
-  {q:'Hvilken virkning av forseglingen med deig betyr mest for nettopp dette kjøkkenet?',
+  {q:'Hva gjør deigforseglingen under dum-koking?',
    a:['Den hever trykket nok til at kjøttet koker raskere',
       'Den hindrer risen i å brenne seg fast i bunnen',
-      'Den hindrer alt flyktig i å slippe ut',
+      'Den bremser tapet av væske og flyktige aromaer',
       'Den lar kokken røre uten å miste varme'],
-   c:2, why:'Kewra, rosevann, safran og muskatblomme ville havnet i taket på kjøkkenet i løpet av et minutt hvis gryta stod åpen, og under en forsegling går det tilbake i maten.'},
+   c:2, why:'Forseglingen reduserer tapet av væske og duft. Siden gryta holder seg lukket, må lagdeling, væske og varme stemme før kokingen begynner.'},
   {q:'Hvordan skiller en biryani fra Awadh seg fra kacchi-varianten i Hyderabad?',
    a:['Den bruker kortkornet ris i stedet for basmati',
       'Kjøttet kokes først, og risen halvkokes i kraften fra det',
       'Den gjøres ferdig i en tandoor i stedet for over glør',
       'Den kokes helt uten forsegling'],
-   c:1, why:'Hyderabad forsegler rått marinert kjøtt under halvkokt ris. Awadh koker kjøttet først, halvkoker risen i den samme kraften og legger så de to lagvis.'},
+   c:1, why:'Hyderabad er kjent for kacchi-biryani med rått marinert kjøtt. En vanlig pakki-metode i Awadh koker kjøttet først og legger det lagvis med halvkokt ris.'},
   {q:'Hvorfor passer lang koking under forsegling til skank, nakke og bog?',
    a:['De stykkene er magre, og en åpen gryte ville tørket dem ut',
       'Kollagenet blir til gelatin, så kjøttet mykner og kraften tykner',
@@ -55,12 +55,12 @@ window.QUIZ_NO['IN-AWA'] = [
       'En kakori kokes først og stekes etterpå',
       'En kakori har ikke papaya i seg i det hele tatt'],
    c:0, why:'En kakori må bli sittende på det flate spiddet over ilden, så den bygges myk og likevel fast, mens en galouti stekes på flat plate.'},
-  {q:'Hvor har nihari navnet sitt fra, og hvor kommer tykkelsen fra?',
+  {q:'Hva knyttes navnet nihari vanligvis til, og hvor kommer fylden fra?',
    a:['Fra en småby ved Lucknow, og fra malte mandler',
       'Fra nahar, morgen, og fra kollagenet i beina',
       'Fra det persiske ordet for damp, og fra malt ris',
       'Fra navnet på en nawab, og fra fløte rørt inn til slutt'],
-   c:1, why:'Nahar er det arabiske ordet for morgen, og kraften tykner av seg selv fordi kollagenet i skank og margbein blir til gelatin i løpet av natta.'}
+   c:1, why:'Navnet knyttes ofte til det arabiske nahar, morgen. Lang koking gjør kollagen til gelatin, mens marg og noen ganger litt mel gir fylde.'}
  ],
  [
   {q:'Hvorfor ble Bara Imambara bygd?',
@@ -75,11 +75,11 @@ window.QUIZ_NO['IN-AWA'] = [
       'Begum Hazrat Mahal ble utropt til regent for sønnen sin',
       'Residency ble beleiret i fem måneder'],
    c:0, why:'Anneksjonen 7. februar 1856 fjernet en traktatpartner som aldri hadde kjempet mot kompaniet, og harmen over den bidro til opprøret året etter.'},
-  {q:'Hvordan henger denne modulen sammen med biryanien man spiser i Kolkata?',
+  {q:'Hvordan henger Awadh sammen med biryanien man spiser i Kolkata?',
    a:['Bengalske kokker ble hentet til Lucknow for å arbeide ved hoffet',
       'Poteten kom til Lucknow fra Bengal langs elva',
       'Den avsatte nawaben tok kjøkkenet sitt med til Metiabruz',
       'Begge byene kokte biryanien sin på den samme kortkornede risen'],
-   c:2, why:'Wajid Ali Shah slo seg ned i Metiabruz ved Calcutta de siste tretti årene av livet, og kokkene som fulgte ham, er grunnen til at Kolkata-biryani har en potet i seg.'}
+   c:2, why:'Wajid Ali Shah etablerte et hoff i eksil i Metiabruz, og kokker fra Awadh bidro til Kolkata-biryani. Fortellingene om nøyaktig hvorfor poteten kom inn, er uenige.'}
  ]
 ];
