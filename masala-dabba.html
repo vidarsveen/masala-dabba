@@ -1703,7 +1703,7 @@ function openReader(code, i){
     const recap = article.querySelector('.recap');
     if(recap && 'IntersectionObserver' in window){ const io = new IntersectionObserver(en => { if(en[0].isIntersecting){ if(!progress.has(code+':'+i)){ setDone(code, i, true); btn.classList.add('is-done'); btn.textContent = T('marked'); } io.disconnect(); } }, {root:rscroll, threshold:0.6}); io.observe(recap); }
   }
-  rscroll.scrollTop = 0; reader.classList.add('open'); reader.querySelector('.rprog i').style.width = '0';
+  reader.classList.add('open'); rscroll.scrollTop = 0; reader.querySelector('.rprog i').style.width = '0';
   document.title = L ? `${L.title} · Masala Dabba` : 'Masala Dabba';
 }
 function closeReader(){ reading = null; player.stop(); reader.classList.remove('open'); document.title = 'Masala Dabba'; }
