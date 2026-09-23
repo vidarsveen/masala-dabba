@@ -460,3 +460,13 @@ Pages run and live audio.
 The workflow downloads `audio.tar.gz` from that release, so ensure the new asset is in place
 before triggering the Pages build. Spoken-word accuracy and pronunciation still need a human
 listening review; do not claim that automated acoustic checks cover them.
+
+Release preparation, 23 September 2026: the 252-file `dist/audio.tar.gz` archive was rebuilt
+and checked against every source audio file. It is 297,199,837 bytes with SHA-256
+`17dbad53e293994cc6b25dd1f65f9c90045c327493cd2474a53370eed1f81dab`.
+The GitHub release dry run verified the existing `audio` tag and canonical asset. The reviewed
+source is committed on `codex/india-norwegian-pages` and includes the current `origin/main`
+history. The owner resumed work after the overnight pause. The remaining release steps are to
+stage and promote this archive, push the source to `main`, then verify the Pages deployment
+and live audio. Do not treat local build success as publication. The retained English audio
+mismatch, absent English intros and need for human pronunciation review remain open.

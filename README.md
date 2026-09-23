@@ -1,4 +1,4 @@
-> **Active improvement work (21 September 2026):** see [the Italy-to-India checklist](docs/italy-transfer/PLAN.md) and [AGENTS.md](AGENTS.md). Original completion notes below describe the first edition, not the new review and Puck audio pass.
+> **2026 release update:** All 14 regions have completed a bilingual editorial review. Norwegian now has 70 Puck recordings: four readings and an introduction per region. The 56 English reading recordings remain from the first edition and no English introduction recordings have been made. See [the transfer checklist](docs/italy-transfer/PLAN.md) for verification and outstanding work. The historical completion notes below describe the first edition.
 
 # Masala Dabba
 

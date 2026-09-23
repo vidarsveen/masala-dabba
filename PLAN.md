@@ -1,4 +1,4 @@
-> **Active improvement work (21 September 2026):** see [the Italy-to-India checklist](docs/italy-transfer/PLAN.md) and [AGENTS.md](AGENTS.md). Original completion notes below describe the first edition, not the new review and Puck audio pass.
+> **Current status, 23 September 2026:** The 14-region bilingual editorial review and 70-track Norwegian Puck recording pass are complete. Automated checks and local real-audio playback pass. The retained 56 English readings no longer match the revised text and 14 English introductions have no recording. The new audio release and GitHub Pages deployment are being prepared. See [the transfer checklist](docs/italy-transfer/PLAN.md); the older roadmap below is retained as historical context.
 
 # Masala Dabba — roadmap
 
