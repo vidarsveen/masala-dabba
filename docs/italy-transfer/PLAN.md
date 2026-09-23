@@ -470,3 +470,14 @@ history. The owner resumed work after the overnight pause. The remaining release
 stage and promote this archive, push the source to `main`, then verify the Pages deployment
 and live audio. Do not treat local build success as publication. The retained English audio
 mismatch, absent English intros and need for human pronunciation review remain open.
+
+Publication verification, 23 September 2026: the archive was uploaded as staged asset
+`583085994`, verified by GitHub SHA-256, then promoted to `audio.tar.gz`; old asset
+`560831284` remains as a rollback backup. Commit `bc79ad7` was pushed to `main` and Pages
+run `35824283120` completed successfully. The public site returned HTTP 200, all fourteen
+Norwegian introduction MP3s returned HTTP 200, and byte-range requests for Norwegian
+introduction, Norwegian reading and retained English reading returned HTTP 206. The measured
+provider receipts remain $9.71570 for the full Norwegian course plus $0.02627 for the audition,
+or $9.74197 total. These checks verify delivery and acoustic integrity, not human judgement
+of every pronunciation. The English recording mismatch and missing English intros remain open
+under the owner's instruction to retain existing English audio.

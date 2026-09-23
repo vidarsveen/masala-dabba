@@ -1,4 +1,4 @@
-> **2026 release update:** All 14 regions have completed a bilingual editorial review. Norwegian now has 70 Puck recordings: four readings and an introduction per region. The 56 English reading recordings remain from the first edition and no English introduction recordings have been made. See [the transfer checklist](docs/italy-transfer/PLAN.md) for verification and outstanding work. The historical completion notes below describe the first edition.
+> **Published 23 September 2026:** All 14 regions have completed a bilingual editorial review. The live course now has 70 Norwegian Puck recordings: four readings and an introduction per region. The 56 English reading recordings remain from the first edition and no English introduction recordings have been made. See [the transfer checklist](docs/italy-transfer/PLAN.md) for verification and outstanding work. The historical completion notes below describe the first edition.
 
 # Masala Dabba
 
