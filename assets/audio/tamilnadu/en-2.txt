@@ -1,26 +1,18 @@
 Fermented batter and the banana-leaf order.
 
-In a Tamil kitchen the most important thing on the counter overnight is a covered steel pot of batter. Nothing is done to it. It was ground the evening before, salted and stirred with a hand rather than a spoon. By six in the morning it has climbed a third of the way up the pot. The surface is domed and full of holes, and the whole thing smells faintly of yoghurt. That pot is breakfast for the next three days, and it is one of the oldest pieces of applied microbiology in any kitchen anywhere.
+A covered pot of rice-and-urad batter can rise overnight into a lightly sour base for idli and dosa. Temperature controls the pace. Once the batter is visibly aerated and smells cleanly sour, it should be refrigerated until cooking.
 
-Rice and one lentil, soaked apart and ground apart.
+The batter has two main ingredients and they are handled separately at first. Parboiled rice is soaked in one bowl. Urad dal, split black gram, is soaked in another, often with fenugreek seed. After four or five hours each is ground on its own, the dal first. The two are then folded together with salt and left somewhere warm for eight to twelve hours.
 
-The batter has two ingredients and they are handled separately from start to finish. Parboiled rice is soaked in one bowl. Urad dal, split black gram, is soaked in another, usually with a teaspoon of fenugreek seed. After four or five hours each is ground on its own, the dal first, and only then are the two folded together by hand with salt and left in a warm corner for eight to twelve hours.
+A changing community of lactic-acid bacteria and yeasts from the ingredients, equipment and environment drives fermentation. Studies identify several organisms rather than one species living only on urad. Rice supplies starch, while ground urad contributes proteins and polysaccharides that help the batter hold gas.
 
-The division of labour is exact. The rice brings starch, which is what the bacteria eat and what sets into a crumb when the batter is steamed. The dal brings everything else. Urad carries wild Leuconostoc and Lactobacillus on its skin, so the batter needs no yeast and none is ever added. The bacteria turn sugar into carbon dioxide and lactic acid, which is why a good batter both rises and goes gently sour. Urad also carries a protein and a sticky polysaccharide that together trap gas the way egg white does, and that is the part no other lentil can do. Grind urad dal with water and it visibly whips up and turns pale. Grind toor dal the same way and you get glue.
+Many recipes use roughly three or four parts rice to one part urad by volume, but ratios vary. A wet grinder aerates the urad while limiting heat. A blender can also work if used in short pulses with cool water.
 
-The usual proportion is three or four parts rice to one part urad by volume. More dal makes a softer, more sour batter that will not hold its shape; more rice makes something dense. And the grinding matters as much as the ratio. A stone wet grinder works slowly and stays cool, which keeps the bacteria alive and the gas in; a blender heats the batter in a couple of minutes and takes the lift out of it.
-
-Why the rice is parboiled.
-
-The rice is idli rice, puzhungal arisi, which has been parboiled: soaked, steamed inside the husk and dried again before milling. Kerala's module explains why parboiling was invented, and the same processing has a second consequence here. Steaming rearranges the starch inside the grain so that it takes up water readily and then holds it without turning gluey, so a parboiled batter steams into a crumb that is soft and open. Raw rice gives an idli that is denser and slightly rubbery. Most households use a bag of each and adjust the mix.
+Many idli recipes use parboiled rice, often sold as idli rice, while others mix it with raw rice. Parboiling changes the grain's starch and hydration, but final texture also depends on variety, grinding, ratio and fermentation.
 
 The same two ingredients then go two ways. Idli batter is ground a little coarse and kept thick, so it sits on the steaming plate rather than running off it. Dosa batter is ground finer and let down with water until it pours, and the fenugreek matters more in it, because fenugreek browns readily and a dosa is judged on its colour.
 
-Day one, day two, day three.
-
-One pot of batter behaves differently on each of three mornings, and Tamil households plan around that rather than fighting it. On the first morning the batter is barely sour and at its most lively, which is exactly what an idli wants, so the first day is idli. By the second morning the acid has built, the batter has slackened, and it spreads thinner on a griddle and browns faster, so the second day is dosa. By the third morning it is properly sour and will not do either job well. It becomes uthappam, a thick pancake with onion and chilli pressed into the top, or paniyaram, small balls cooked in a dimpled pan. Nothing is thrown away and nothing is treated as a failure.
-
-Coffee, not tea.
+After the initial warm fermentation, refrigerate the batter. Freshly fermented batter is well suited to idli; older, more acidic batter is often thinned for dosa or used for uthappam and paniyaram. This is a useful progression rather than a fixed three-day calendar.
 
 The drink is coffee, which surprises people who expect chai. Coffee was planted in the Nilgiri and Shevaroy hills in the nineteenth century, and it is grown within the state. In a Tamil house it is made twice a day, in a piece of equipment that does one thing.
 
@@ -28,12 +20,6 @@ The filter is two stainless cylinders that sit one on top of the other with a pe
 
 Most of the coffee sold for this has chicory ground into it, commonly a fifth to a third, which makes the decoction darker and heavier and stretches the beans. Kumbakonam degree coffee is the most famous local version. The usual explanation of the name is that the milk was tested with a lactometer and its degree recorded, which is a good story but not a documented one.
 
-The leaf, and the order things arrive in.
+Banana-leaf meals follow recognizable placement customs, but orientation and exact positions vary by community, event and host. Small accompaniments often line the upper half, while rice sits nearer the eater with room for mixing.
 
-A full meal is served on a banana leaf, and the leaf has a geography that does not vary. It is laid with the narrow tip to the eater's left. The upper half takes the small items: pickle and salt at the top left corner, then dry vegetable dishes, kootu and poriyal, along the top edge, with an appalam and any sweet to the right. Rice is heaped on the lower half, nearest the eater, because that is the part the hands work on.
-
-Then the servers come round, and the order is the recipe. Ghee and a plain dal go over the rice first. Sambar comes next, poured directly onto the rice and mixed by hand, and it is the thickest and most filling round. Rasam follows, and because it is thin and sharp it cuts what the sambar left and gets eaten faster. Curd, or thinned buttermilk, comes last and closes the meal, and payasam arrives with it or just before. Each round is mixed and eaten before the next is poured, so a Tamil meal is not one plate but three or four in sequence on the same leaf.
-
-At the end you fold the leaf. Folding it towards yourself says the meal was good, and folding it away says the opposite, so it is worth knowing which way to fold before you are sitting at somebody's wedding.
-
-End of this reading.
+A common sequence moves from dal and sambar to rasam and then curd or buttermilk, with sweets placed according to the occasion. It is a convention, not a statewide rule. When eating as a guest, follow the host's arrangement and folding custom.

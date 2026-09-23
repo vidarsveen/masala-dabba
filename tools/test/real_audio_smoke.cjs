@@ -37,7 +37,8 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
     }, null, { timeout: 30000 });
     const before = await page.locator('#reader .rplayer .time').textContent();
     await page.locator('#reader .rplayer .fwd15').click();
-    await page.waitForTimeout(1200);
+    await page.waitForFunction(() => Object.keys(localStorage)
+      .some(key => key.startsWith('iit-audio')), null, { timeout: 10000 });
     const result = await page.evaluate(() => {
       const audio = window.__realAudio.at(-1);
       return {

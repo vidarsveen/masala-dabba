@@ -3,6 +3,12 @@
 Prepared 22 September 2026. This is the single owner decision point after the fourteen-region
 editorial pass; it does not require region-by-region review.
 
+**Superseded audio direction, 23 September 2026:** The owner clarified that English recordings
+must not remain when they disagree with revised text, but English TTS must not incur paid
+provider charges. All 56 English readings and 14 introductions have since been generated
+with the free Edge English voice. The older retain-English decision and pending-production
+language below are kept as the 22 September decision record, not current instructions.
+
 ## Ready now
 
 - All fourteen regions have passed English fact/listener review, Norwegian-first review,

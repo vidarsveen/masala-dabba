@@ -27,7 +27,7 @@ from course import REGIONS, ROOT
 REPO = 'vidarsveen/masala-dabba'
 TAG = 'audio'
 EXPECTED_RELEASE_ID = 387594904
-EXPECTED_OLD_ASSET_ID = 560831284
+EXPECTED_OLD_ASSET_ID = 583085994
 CANONICAL = 'audio.tar.gz'
 ARCHIVE = Path(ROOT) / 'dist' / CANONICAL
 API = f'https://api.github.com/repos/{REPO}'

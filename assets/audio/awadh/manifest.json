@@ -1,101 +1,114 @@
 {
-  "en-1": {
-    "seconds": 393.9,
-    "voice": "en-GB-SoniaNeural",
-    "bytes": 2363472,
-    "lo_bytes": 788192,
-    "intro": "title",
-    "drop": "facts,recap",
-    "ogg_bytes": 576641
-  },
-  "en-2": {
-    "seconds": 341.4,
-    "voice": "en-GB-SoniaNeural",
-    "bytes": 2048688,
-    "lo_bytes": 683288,
-    "intro": "title",
-    "drop": "facts,recap",
-    "ogg_bytes": 501249
-  },
-  "en-3": {
-    "seconds": 390.2,
-    "voice": "en-GB-SoniaNeural",
-    "bytes": 2341440,
-    "lo_bytes": 780848,
-    "intro": "title",
-    "drop": "facts,recap",
-    "ogg_bytes": 572645
-  },
-  "en-4": {
-    "seconds": 393.7,
-    "voice": "en-GB-SoniaNeural",
-    "bytes": 2362320,
-    "lo_bytes": 787832,
-    "intro": "title",
-    "drop": "facts,recap",
-    "ogg_bytes": 578769
-  },
-  "no-1": {
-    "seconds": 298.4,
-    "voice": "google/gemini-3.1-flash-tts-preview/Puck",
-    "bytes": 1790588,
-    "lo_bytes": 597104,
-    "ogg_bytes": 438338,
-    "delivery": "puck",
-    "cost": 0.15056,
-    "script_sha256": "0ab048bc2d701c1c44b985a73ddb748a1afbb2f557e678f20d7bdeaf79f18c45",
-    "intro": "title",
-    "drop": "facts,recap,tasting,headings",
-    "outro": "none"
-  },
-  "no-2": {
-    "seconds": 294.4,
-    "voice": "google/gemini-3.1-flash-tts-preview/Puck",
-    "bytes": 1767116,
-    "lo_bytes": 589256,
-    "ogg_bytes": 430411,
-    "delivery": "puck",
-    "cost": 0.14865,
-    "script_sha256": "426aaa6ed5b072c12575becd69a726b554dfb596465dd95424f9cc105e1dc17f",
-    "intro": "title",
-    "drop": "facts,recap,tasting,headings",
-    "outro": "none"
-  },
-  "no-3": {
-    "seconds": 358.8,
-    "voice": "google/gemini-3.1-flash-tts-preview/Puck",
-    "bytes": 2153036,
-    "lo_bytes": 717920,
-    "ogg_bytes": 519052,
-    "delivery": "puck",
-    "cost": 0.18095,
-    "script_sha256": "c9713ac5f4d71f91b859f6ea7229458651804d5e3c7d3a677aa68313d2b05ed8",
-    "intro": "title",
-    "drop": "facts,recap,tasting,headings",
-    "outro": "none"
-  },
-  "no-4": {
-    "seconds": 371.3,
-    "voice": "google/gemini-3.1-flash-tts-preview/Puck",
-    "bytes": 2228060,
-    "lo_bytes": 742976,
-    "ogg_bytes": 527787,
-    "delivery": "puck",
-    "cost": 0.18726,
-    "script_sha256": "108bda19c057b76bd78f3b01048669309abb2ed9353a168813d530a2b8cc0e52",
-    "intro": "title",
-    "drop": "facts,recap,tasting,headings",
-    "outro": "none"
-  },
-  "no-intro": {
-    "seconds": 44.7,
-    "voice": "google/gemini-3.1-flash-tts-preview/Puck",
-    "bytes": 268508,
-    "lo_bytes": 89792,
-    "ogg_bytes": 66114,
-    "delivery": "puck",
-    "cost": 0.02259,
-    "script_sha256": "1f81db8ea482f211f0e8abc2846d62c143729d9cdc97a54413a9cdbba07a327d",
-    "kind": "region-introduction"
-  }
+ "en-1": {
+  "seconds": 246.5,
+  "voice": "en-GB-SoniaNeural",
+  "bytes": 1479024,
+  "lo_bytes": 493424,
+  "intro": "title",
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none",
+  "ogg_bytes": 362773
+ },
+ "en-2": {
+  "seconds": 242.4,
+  "voice": "en-GB-SoniaNeural",
+  "bytes": 1454544,
+  "lo_bytes": 485216,
+  "intro": "title",
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none",
+  "ogg_bytes": 354994
+ },
+ "en-3": {
+  "seconds": 287.4,
+  "voice": "en-GB-SoniaNeural",
+  "bytes": 1724400,
+  "lo_bytes": 575216,
+  "intro": "title",
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none",
+  "ogg_bytes": 420912
+ },
+ "en-4": {
+  "seconds": 287.4,
+  "voice": "en-GB-SoniaNeural",
+  "bytes": 1724544,
+  "lo_bytes": 575216,
+  "intro": "title",
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none",
+  "ogg_bytes": 422854
+ },
+ "no-1": {
+  "seconds": 298.4,
+  "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+  "bytes": 1790588,
+  "lo_bytes": 597104,
+  "ogg_bytes": 438338,
+  "delivery": "puck",
+  "cost": 0.15056,
+  "script_sha256": "0ab048bc2d701c1c44b985a73ddb748a1afbb2f557e678f20d7bdeaf79f18c45",
+  "intro": "title",
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none"
+ },
+ "no-2": {
+  "seconds": 294.4,
+  "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+  "bytes": 1767116,
+  "lo_bytes": 589256,
+  "ogg_bytes": 430411,
+  "delivery": "puck",
+  "cost": 0.14865,
+  "script_sha256": "426aaa6ed5b072c12575becd69a726b554dfb596465dd95424f9cc105e1dc17f",
+  "intro": "title",
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none"
+ },
+ "no-3": {
+  "seconds": 358.8,
+  "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+  "bytes": 2153036,
+  "lo_bytes": 717920,
+  "ogg_bytes": 519052,
+  "delivery": "puck",
+  "cost": 0.18095,
+  "script_sha256": "c9713ac5f4d71f91b859f6ea7229458651804d5e3c7d3a677aa68313d2b05ed8",
+  "intro": "title",
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none"
+ },
+ "no-4": {
+  "seconds": 371.3,
+  "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+  "bytes": 2228060,
+  "lo_bytes": 742976,
+  "ogg_bytes": 527787,
+  "delivery": "puck",
+  "cost": 0.18726,
+  "script_sha256": "108bda19c057b76bd78f3b01048669309abb2ed9353a168813d530a2b8cc0e52",
+  "intro": "title",
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none"
+ },
+ "no-intro": {
+  "seconds": 44.7,
+  "voice": "google/gemini-3.1-flash-tts-preview/Puck",
+  "bytes": 268508,
+  "lo_bytes": 89792,
+  "ogg_bytes": 66114,
+  "delivery": "puck",
+  "cost": 0.02259,
+  "script_sha256": "1f81db8ea482f211f0e8abc2846d62c143729d9cdc97a54413a9cdbba07a327d",
+  "kind": "region-introduction"
+ },
+ "en-intro": {
+  "seconds": 35.6,
+  "voice": "en-GB-SoniaNeural",
+  "bytes": 213788,
+  "lo_bytes": 71504,
+  "kind": "region-introduction",
+  "script_sha256": "5fcff24a299ca7902939602b60ccb51b070639102affb3e34f456b0c65801043",
+  "ogg_bytes": 52418
+ }
 }

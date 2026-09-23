@@ -1,39 +1,43 @@
 {
  "en-1": {
-  "seconds": 356.2,
+  "seconds": 297.2,
   "voice": "en-GB-SoniaNeural",
-  "bytes": 2137392,
-  "lo_bytes": 712880,
+  "bytes": 1783296,
+  "lo_bytes": 594800,
   "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 520066
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none",
+  "ogg_bytes": 434274
  },
  "en-2": {
-  "seconds": 360.2,
+  "seconds": 336.6,
   "voice": "en-GB-SoniaNeural",
-  "bytes": 2161008,
-  "lo_bytes": 720728,
+  "bytes": 2019456,
+  "lo_bytes": 673568,
   "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 526488
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none",
+  "ogg_bytes": 494034
  },
  "en-3": {
-  "seconds": 346.4,
+  "seconds": 296.0,
   "voice": "en-GB-SoniaNeural",
-  "bytes": 2078640,
-  "lo_bytes": 693296,
+  "bytes": 1775808,
+  "lo_bytes": 592352,
   "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 508765
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none",
+  "ogg_bytes": 431663
  },
  "en-4": {
-  "seconds": 358.8,
+  "seconds": 308.8,
   "voice": "en-GB-SoniaNeural",
-  "bytes": 2152512,
-  "lo_bytes": 717920,
+  "bytes": 1852848,
+  "lo_bytes": 617984,
   "intro": "title",
-  "drop": "facts,recap",
-  "ogg_bytes": 530580
+  "drop": "facts,recap,tasting,headings",
+  "outro": "none",
+  "ogg_bytes": 457074
  },
  "no-1": {
   "seconds": 364.6,
@@ -97,5 +101,14 @@
   "cost": 0.02134,
   "script_sha256": "0502338396cc3d4f579b6c7ed019508d151c8e5f026c999190cc7de90d1fdd45",
   "kind": "region-introduction"
+ },
+ "en-intro": {
+  "seconds": 36.1,
+  "voice": "en-GB-SoniaNeural",
+  "bytes": 216864,
+  "lo_bytes": 72656,
+  "kind": "region-introduction",
+  "script_sha256": "5cae03ce8f2dd47c6314f7aa9cbf484aece44e46752da068552ab1b2ac6e8be7",
+  "ogg_bytes": 53347
  }
 }

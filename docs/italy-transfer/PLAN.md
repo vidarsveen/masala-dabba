@@ -481,3 +481,20 @@ provider receipts remain $9.71570 for the full Norwegian course plus $0.02627 fo
 or $9.74197 total. These checks verify delivery and acoustic integrity, not human judgement
 of every pronunciation. The English recording mismatch and missing English intros remain open
 under the owner's instruction to retain existing English audio.
+
+English audio correction, 23 September 2026: the owner clarified that the old English
+recordings should **not** be retained under revised text; the constraint is to avoid paid
+English speech services. All 56 English readings and 14 English regional introductions were
+therefore generated with the repository's free `en-GB-SoniaNeural` Edge route, using the
+title-and-prose-only spoken format. No paid English TTS request was made; the Norwegian Puck
+receipt total remains $9.74197 including its audition. New English files were normalized,
+low-bitrate MP3 and Opus variants rebuilt, and manifests refreshed. `stale.py` now passes
+112/112 readings, `audio_format.py` passes 112/112, and introduction scripts pass 28/28.
+The English verifier passes 70/70 source transcripts, manifests, media decode and loudness;
+English acoustic QA decoded 263.9 minutes with zero findings. The local site build contains
+140/140 recordings, and phone-sized Chrome playback, seeking and position saving pass in
+both languages over HTTP 206. A full 70-chapter English M4B export was probed successfully.
+The 280-file audio archive is 256.2 MB, with SHA-256
+`9b62d1803b1129f6f676a7d014aec50b4960caec60307919c9cb1a1221955a4f`;
+the local archive-to-source check passes. Its new GitHub release upload and Pages update
+are pending. Automated checks do not replace a human pronunciation review.
